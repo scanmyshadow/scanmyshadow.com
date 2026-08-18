@@ -128,13 +128,14 @@
   .fc-badge{display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:600; padding:3px 8px; border-radius:999px;}
   .fc-badge.ok{color:var(--ok); background:rgba(22,163,74,0.1);}
   .fc-badge.warn{color:var(--warn); background:rgba(217,119,6,0.1);}
+  .fc-badge.danger{color:var(--danger); background:rgba(220,38,38,0.1);}
 
   /* blurred mini report card */
   .fc-report{width:210px;}
   .fc-report .rrow{display:flex; align-items:center; justify-content:space-between; padding:7px 0; border-bottom:1px solid var(--line-soft);}
   .fc-report .rrow:last-child{border-bottom:0;}
   .fc-report .rlabel{font-size:11px; color:var(--ink-soft);}
-  .fc-report .rval{font-size:11px; font-weight:600; filter:blur(3.5px); user-select:none; color:var(--ink);}
+  .fc-report .rval{font-size:11px; font-weight:600; color:var(--ink);}
 
   .fc-1{top:24px; left:calc(50% - 430px);}
   .fc-2{bottom:36px; left:calc(50% - 415px);}
@@ -234,7 +235,8 @@
   .rp-line .l-ic svg{width:16px; height:16px;}
   .rp-line .l-title{font-size:13.5px; font-weight:600;}
   .rp-line .l-sub{font-size:11.5px; color:var(--ink-soft); margin-top:2px;}
-  .rp-line .l-val{font-size:12.5px; font-weight:600; filter:blur(4px); user-select:none;}
+  .rp-line .l-val{font-size:12.5px; font-weight:600; color:var(--ink); white-space:nowrap;}
+  .rp-line .l-tag{display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:600; color:var(--purple); background:var(--purple-mist); padding:3px 9px; border-radius:999px;}
   .rp-mock-foot{padding:14px 22px; background:var(--bg-tint); border-top:1px solid var(--line); font-size:12px; color:var(--ink-soft); display:flex; align-items:center; gap:8px;}
   .rp-mock-foot svg{width:14px; height:14px; color:var(--purple); flex-shrink:0;}
 
@@ -360,9 +362,8 @@
   <canvas id="lineCanvas"></canvas>
   <div class="hero-glow"></div>
   <div class="wrap hero-inner">
-    <div class="hero-badge"><span class="dot"></span> Your data is purged within 96 hours</div>
     <h1>See what's already <span class="accent">out there</span> about you</h1>
-    <p class="hero-sub">Your phone number and email are floating around more places than you'd think. Run a private scan and find out.</p>
+    <p class="hero-sub">Your phone number and email are floating around the internet for anyone to misuse. Run a private scan to find out — and safeguard yourself.</p>
   </div>
 
   <div class="hero-stage">
@@ -391,7 +392,7 @@
     <div class="scan-box">
       <div class="scan-box-tag">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
-        Free to start · results in minutes
+        Results in minutes
       </div>
       <div class="scan-fields">
         <div class="field">
@@ -428,11 +429,11 @@
     <div class="float-card fc-report fc-4">
       <div class="fc-top" style="margin-bottom:10px;">
         <div class="fc-title">Sample report</div>
-        <span class="fc-badge warn" style="margin-left:auto;">Moderate</span>
+        <span class="fc-badge danger" style="margin-left:auto;">High</span>
       </div>
-      <div class="rrow"><span class="rlabel">Email breaches</span><span class="rval">3 found</span></div>
-      <div class="rrow"><span class="rlabel">Phone exposure</span><span class="rval">2 platforms</span></div>
-      <div class="rrow"><span class="rlabel">Oldest leak</span><span class="rval">2019 dump</span></div>
+      <div class="rrow"><span class="rlabel">Zomato</span><span class="rval">Email exposed</span></div>
+      <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
+      <div class="rrow"><span class="rlabel">Location</span><span class="rval">Rishikesh</span></div>
     </div>
   </div>
 
@@ -451,9 +452,9 @@
       <div class="fc-desc">Consent-first by design.</div>
     </div>
     <div class="float-card fc-report">
-      <div class="fc-top" style="margin-bottom:10px;"><div class="fc-title">Sample report</div><span class="fc-badge warn" style="margin-left:auto;">Moderate</span></div>
-      <div class="rrow"><span class="rlabel">Email breaches</span><span class="rval">3 found</span></div>
-      <div class="rrow"><span class="rlabel">Phone exposure</span><span class="rval">2 platforms</span></div>
+      <div class="fc-top" style="margin-bottom:10px;"><div class="fc-title">Sample report</div><span class="fc-badge danger" style="margin-left:auto;">High</span></div>
+      <div class="rrow"><span class="rlabel">Zomato</span><span class="rval">Email exposed</span></div>
+      <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
     </div>
   </div>
 </section>
@@ -462,24 +463,24 @@
 <section class="block section-line reveal">
   <div class="wrap">
     <div class="sec-head">
-      <span class="eyebrow">Why it's safe to try</span>
-      <h2>Built so you never feel exposed doing this</h2>
+      <span class="eyebrow">Why this matters</span>
+      <h2>Why this is worth two minutes</h2>
     </div>
     <div class="grid3">
       <div class="info-card">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
-        <div class="title">It's just for you</div>
-        <div class="desc">Nothing you submit is shared, sold, or shown to anyone else. Ever.</div>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V5l-8-3z"/><path d="M9.5 12h5M12 9.5v5"/></svg></div>
+        <div class="title">They already have your data</div>
+        <div class="desc">Hackers don't guess. They buy leaked details and use them to sound convincing.</div>
       </div>
       <div class="info-card">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></div>
-        <div class="title">We don't keep it around</div>
-        <div class="desc">Your details are permanently deleted within 96 hours of your report.</div>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+        <div class="title">That's how the trap works</div>
+        <div class="desc">A caller who knows your name, bank and address is far easier to trust.</div>
       </div>
       <div class="info-card">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
-        <div class="title">Plain language, no jargon</div>
-        <div class="desc">Your report reads like a friend explaining it — not a security manual.</div>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/><path d="m8.5 11 1.7 1.7 3.3-3.4"/></svg></div>
+        <div class="title">Knowing is step one</div>
+        <div class="desc">You can't protect what you don't know is exposed. The scan shows you exactly where you stand.</div>
       </div>
     </div>
   </div>
@@ -501,7 +502,7 @@
       <div class="step-card">
         <div class="step-num">2</div>
         <div class="title">We scan 1,500+ sources</div>
-        <div class="desc">Breaches, leaks and exposed records tied to your details.</div>
+        <div class="desc">We check where your email and phone details may be showing up.</div>
       </div>
       <div class="step-card">
         <div class="step-num">3</div>
@@ -519,12 +520,13 @@
       <div class="rp-copy">
         <span class="eyebrow" style="display:block; margin-bottom:14px;">What you get</span>
         <h2>A report you'll actually understand</h2>
-        <p>No dashboards to learn, no toggles to configure. Just a straight answer: where your phone and email have shown up, and what it means for you.</p>
+        <p>No dashboards to learn, no toggles to configure. Just a straight PDF with all the answers — plus free access<span style="color:var(--purple);">*</span> to Maya to help you make sense of it.</p>
         <ul>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> A clear risk level at the top</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Every breach and platform your details touched</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Every place your details show up, named clearly</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Plain-English notes on what to do next</li>
         </ul>
+        <p style="font-size:12.5px; color:var(--ink-faint); margin-top:16px;">*Maya is included free with your scan.</p>
       </div>
       <div class="rp-mock">
         <div class="rp-mock-top">
@@ -532,37 +534,51 @@
             <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="15" fill="#7B5CFA" fill-opacity="0.12"/><circle cx="14" cy="14" r="7" stroke="#7B5CFA" stroke-width="2.2"/><line x1="19.5" y1="19.5" x2="25" y2="25" stroke="#7B5CFA" stroke-width="2.2" stroke-linecap="round"/></svg>
             Privacy Report
           </div>
-          <span class="rp-risk">
+          <span class="rp-risk" style="color:var(--danger); background:rgba(220,38,38,0.12);">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12" y2="17"/></svg>
-            Moderate exposure
+            High exposure
           </span>
         </div>
         <div class="rp-mock-body">
           <div class="rp-line">
             <div class="l-left">
               <div class="l-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
-              <div><div class="l-title">Email in data breaches</div><div class="l-sub">Found in 3 known leaks</div></div>
+              <div><div class="l-title">Email found in Zomato leak</div><div class="l-sub">Exposed in the 2021 data leak</div></div>
             </div>
-            <span class="l-val">delhi••••@••il.com</span>
+            <span class="l-val">rahul.s@gmail.com</span>
           </div>
           <div class="rp-line">
             <div class="l-left">
               <div class="l-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-              <div><div class="l-title">Phone linked to platforms</div><div class="l-sub">Visible on 2 services</div></div>
+              <div><div class="l-title">Phone number on LinkedIn</div><div class="l-sub">Publicly visible on profile</div></div>
             </div>
-            <span class="l-val">+91 ••••• ••432</span>
+            <span class="l-val">+91 98200 45432</span>
           </div>
           <div class="rp-line">
             <div class="l-left">
-              <div class="l-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
-              <div><div class="l-title">Oldest exposure</div><div class="l-sub">Traced to a 2019 dump</div></div>
+              <div class="l-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="10" r="2"/><path d="M5 17c.7-1.7 2-2.5 3.5-2.5S11.3 15.3 12 17M14 9h4M14 13h4"/></svg></div>
+              <div><div class="l-title">Aadhaar in a public leak</div><div class="l-sub">Linked to your number</div></div>
             </div>
-            <span class="l-val">2019 · combolist</span>
+            <span class="l-val">XXXX XXXX 4432</span>
+          </div>
+          <div class="rp-line">
+            <div class="l-left">
+              <div class="l-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div><div class="l-title">Location tagged to this email</div><div class="l-sub">Near Laxman Jhula, Rishikesh</div></div>
+            </div>
+            <span class="l-tag">Uttarakhand</span>
+          </div>
+          <div class="rp-line">
+            <div class="l-left">
+              <div class="l-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div><div class="l-title">A second location tagged</div><div class="l-sub">Jamni Kund Road, Pushkar</div></div>
+            </div>
+            <span class="l-tag">Rajasthan</span>
           </div>
         </div>
         <div class="rp-mock-foot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-          Full, unblurred details arrive in your emailed report.
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg>
+          Your report shows every place your details turn up — clearly, in plain English.
         </div>
       </div>
     </div>
@@ -639,7 +655,7 @@
   <div class="wrap">
     <div class="founder-card">
       <div class="founder-quote-mark"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 6C6.5 6 4 8.5 4 11.5V18h6v-6H7c0-1.7 1.3-3 2.5-3V6zm10 0c-3 0-5.5 2.5-5.5 5.5V18h6v-6h-3c0-1.7 1.3-3 2.5-3V6z"/></svg></div>
-      <p class="q">"This happened to me. I built this so it doesn't happen to you without you knowing."</p>
+      <p class="q">"My details were leaked before I even knew it. I built this so you find out first — and do something about it."</p>
       <div class="founder-meta">
         <div class="founder-dot">S</div>
         <div class="founder-name"><b>Siddharth</b>Founder, Scan My Shadow</div>
@@ -675,6 +691,14 @@
       <div class="faq-item">
         <button class="faq-q">What happens to my data afterwards?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button>
         <div class="faq-a"><div class="faq-a-inner">It's permanently deleted from our systems within 96 hours of your report being sent. We don't build profiles, and we don't keep your details on file.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What if nothing is found?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Then you get peace of mind, in writing. A clean report is still a useful report — it confirms your details aren't sitting in the places we check.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How is this different from free breach checkers?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Free tools give you a raw list. We give you a plain-English report of what it means for you and what to do next — plus Maya to answer your questions.</div></div>
       </div>
     </div>
   </div>
