@@ -427,45 +427,45 @@
   /* ============ MAYA PANEL ============ */
   .mya-overlay{
     position:fixed; inset:0; z-index:300;
-    background:rgba(21,18,31,0.55); backdrop-filter:saturate(120%) blur(6px);
+    background:rgba(21,18,31,0.42); backdrop-filter:saturate(120%) blur(6px);
     opacity:0; visibility:hidden; transition:opacity .3s ease, visibility .3s ease;
   }
   .mya-overlay.open{opacity:1; visibility:visible;}
   .mya-panel{
     position:fixed; top:0; right:0; bottom:0; z-index:301;
     width:420px; max-width:100%;
-    background:#131212;
-    box-shadow:-30px 0 80px rgba(0,0,0,0.5);
+    background:#FFFFFF;
+    box-shadow:-30px 0 80px rgba(43,29,102,0.22);
     transform:translateX(100%);
     transition:transform .42s cubic-bezier(0.22,1,0.36,1);
     display:flex; overflow:hidden;
   }
   .mya-overlay.open .mya-panel{transform:translateX(0);}
-  /* signature seam: purple (site) melts into gold (chat) */
+  /* signature seam: purple edge where panel meets the site */
   .mya-panel::before{
     content:''; position:absolute; top:0; left:0; bottom:0; width:3px; z-index:2;
-    background:linear-gradient(180deg,#7B5CFA 0%,#9B7BF0 34%,#d4af37 100%);
+    background:linear-gradient(180deg,#7B5CFA 0%,#5A3FE0 100%);
   }
   .mya-frame{border:none; width:100%; height:100%; display:block;}
   .mya-close{
     position:absolute; top:16px; right:16px; z-index:3;
     width:34px; height:34px; border-radius:50%;
-    background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.14);
-    color:#f7f3e8; cursor:pointer; display:flex; align-items:center; justify-content:center;
-    transition:background .2s ease, transform .2s ease;
+    background:rgba(21,18,31,0.05); border:1px solid var(--line);
+    color:var(--ink-soft); cursor:pointer; display:flex; align-items:center; justify-content:center;
+    transition:background .2s ease, transform .2s ease, color .2s ease;
   }
-  .mya-close:hover{background:rgba(255,255,255,0.16); transform:rotate(90deg);}
+  .mya-close:hover{background:var(--purple-mist); color:var(--purple-deep); transform:rotate(90deg);}
   .mya-close svg{width:16px; height:16px;}
   @media(max-width:480px){
     .mya-panel{
       top:auto; left:0; width:100%; height:92%;
       border-radius:22px 22px 0 0;
       transform:translateY(100%);
-      box-shadow:0 -24px 60px rgba(0,0,0,0.5);
+      box-shadow:0 -24px 60px rgba(43,29,102,0.22);
     }
     .mya-overlay.open .mya-panel{transform:translateY(0);}
     .mya-panel::before{left:0; right:0; bottom:auto; width:auto; height:3px;
-      background:linear-gradient(90deg,#7B5CFA 0%,#9B7BF0 34%,#d4af37 100%);}
+      background:linear-gradient(90deg,#7B5CFA 0%,#5A3FE0 100%);}
     .mya-frame{border-radius:22px 22px 0 0;}
   }
   @media(prefers-reduced-motion:reduce){
