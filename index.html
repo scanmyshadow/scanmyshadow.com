@@ -400,6 +400,54 @@
     .nav-pill,.nav-pill::before,.aurora span,.particles i,.fx-dark .sheen,.s-badge,.s-badge::before{animation:none;}
     .s-badge{opacity:1; transform:none;}
   }
+
+  /* ============ MAYA PANEL ============ */
+  .mya-overlay{
+    position:fixed; inset:0; z-index:300;
+    background:rgba(21,18,31,0.55); backdrop-filter:saturate(120%) blur(6px);
+    opacity:0; visibility:hidden; transition:opacity .3s ease, visibility .3s ease;
+  }
+  .mya-overlay.open{opacity:1; visibility:visible;}
+  .mya-panel{
+    position:fixed; top:0; right:0; bottom:0; z-index:301;
+    width:420px; max-width:100%;
+    background:#131212;
+    box-shadow:-30px 0 80px rgba(0,0,0,0.5);
+    transform:translateX(100%);
+    transition:transform .42s cubic-bezier(0.22,1,0.36,1);
+    display:flex; overflow:hidden;
+  }
+  .mya-overlay.open .mya-panel{transform:translateX(0);}
+  /* signature seam: purple (site) melts into gold (chat) */
+  .mya-panel::before{
+    content:''; position:absolute; top:0; left:0; bottom:0; width:3px; z-index:2;
+    background:linear-gradient(180deg,#7B5CFA 0%,#9B7BF0 34%,#d4af37 100%);
+  }
+  .mya-frame{border:none; width:100%; height:100%; display:block;}
+  .mya-close{
+    position:absolute; top:16px; right:16px; z-index:3;
+    width:34px; height:34px; border-radius:50%;
+    background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.14);
+    color:#f7f3e8; cursor:pointer; display:flex; align-items:center; justify-content:center;
+    transition:background .2s ease, transform .2s ease;
+  }
+  .mya-close:hover{background:rgba(255,255,255,0.16); transform:rotate(90deg);}
+  .mya-close svg{width:16px; height:16px;}
+  @media(max-width:480px){
+    .mya-panel{
+      top:auto; left:0; width:100%; height:92%;
+      border-radius:22px 22px 0 0;
+      transform:translateY(100%);
+      box-shadow:0 -24px 60px rgba(0,0,0,0.5);
+    }
+    .mya-overlay.open .mya-panel{transform:translateY(0);}
+    .mya-panel::before{left:0; right:0; bottom:auto; width:auto; height:3px;
+      background:linear-gradient(90deg,#7B5CFA 0%,#9B7BF0 34%,#d4af37 100%);}
+    .mya-frame{border-radius:22px 22px 0 0;}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .mya-panel{transition:none;}
+  }
 </style>
 </head>
 <body>
@@ -437,7 +485,7 @@
   <div class="hero-glow"></div>
   <div class="wrap hero-inner">
     <h1>See what's already <span class="accent">out there</span> about you</h1>
-    <p class="hero-sub">Your phone number and email details may be floating around the internet for anyone to misuse. Run a Deep dive scan to find out — and safeguard yourself.</p>
+    <p class="hero-sub">Your phone number and email are floating around the internet for anyone to misuse. Run a private scan to find out — and safeguard yourself.</p>
   </div>
 
   <div class="hero-stage">
@@ -1039,6 +1087,47 @@
     }
     window.addEventListener('resize', function(){ resize(); init(); });
     resize(); init(); requestAnimationFrame(draw);
+  })();
+</script>
+
+<!-- ============ MAYA PANEL ============ -->
+<div class="mya-overlay" id="myaOverlay" aria-hidden="true">
+  <div class="mya-panel" role="dialog" aria-modal="true" aria-label="Chat with Maya">
+    <button class="mya-close" id="myaClose" aria-label="Close chat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <iframe class="mya-frame" id="myaFrame" title="Maya — Privacy Assistant" loading="lazy" data-src="https://app.scanmyshadow.com/maya-embed.html"></iframe>
+  </div>
+</div>
+
+<script>
+  (function(){
+    var overlay = document.getElementById('myaOverlay');
+    var frame   = document.getElementById('myaFrame');
+    var closeBtn = document.getElementById('myaClose');
+    var loaded = false;
+
+    function openMaya(e){
+      if(e) e.preventDefault();
+      if(!loaded){ frame.src = frame.dataset.src; loaded = true; }
+      overlay.classList.add('open');
+      overlay.setAttribute('aria-hidden','false');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeMaya(){
+      overlay.classList.remove('open');
+      overlay.setAttribute('aria-hidden','true');
+      document.body.style.overflow = '';
+    }
+
+    // wire every "Ask Maya" link to the panel; href stays as fallback
+    Array.prototype.forEach.call(document.querySelectorAll('a[href$="maya-chat.html"]'), function(a){
+      a.addEventListener('click', openMaya);
+    });
+
+    closeBtn.addEventListener('click', closeMaya);
+    overlay.addEventListener('click', function(e){ if(e.target === overlay) closeMaya(); });
+    document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeMaya(); });
   })();
 </script>
 
