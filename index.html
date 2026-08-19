@@ -825,7 +825,7 @@
     </ul>
     <label class="modal-check"><input type="checkbox" id="agree1" onchange="modalCheck()"><span>I have read and agree to the above.</span></label>
     <label class="modal-check"><input type="checkbox" id="agree2" onchange="modalCheck()"><span>I agree to the <a href="https://legal.scanmyshadow.com/terms.html" target="_blank" rel="noopener">Terms</a>, <a href="https://legal.scanmyshadow.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>, and <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a>.</span></label>
-    <button class="modal-proceed" id="proceedBtn" onclick="window.open('https://rzp.io/rzp/dtBO5N4','_blank')">Continue to secure payment</button>
+    <button class="modal-proceed" id="proceedBtn" onclick="initiatePayment()">Continue to secure payment</button>
     <span class="modal-cancel" onclick="closeModal()">Cancel</span>
     <div class="modal-razorpay">
       <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
@@ -834,6 +834,7 @@
   </div>
 </div>
 
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script>
   // ---- rising particles for dark boxes ----
   document.querySelectorAll('[data-particles]').forEach(function(box){
@@ -850,6 +851,64 @@
 
   // ---- hook capture endpoint (separate Google Sheet — zero backend impact) ----
   var CAPTURE_URL = "CAPTURE_URL_HERE"; // paste your Apps Script Web App URL
+
+  // ---- Razorpay checkout overlay ----
+  var ORDER_CREATE_URL = "https://sms-order-creator-180556751015.asia-south1.run.app";
+  var FORM_URL = "https://scan.scanmyshadow.com/form.html";
+  var paymentInProgress = false;
+
+  function initiatePayment(){
+    var btn = document.getElementById('proceedBtn');
+    if(!btn.classList.contains('enabled') || paymentInProgress) return;
+    paymentInProgress = true;
+    var originalText = btn.textContent;
+    btn.textContent = 'Processing...';
+
+    fetch(ORDER_CREATE_URL, { method: 'POST' })
+      .then(function(res){
+        if(!res.ok) throw new Error('Order creation failed');
+        return res.json();
+      })
+      .then(function(data){
+        var options = {
+          key: data.key_id,
+          amount: data.amount,
+          currency: data.currency,
+          order_id: data.order_id,
+          name: 'Scan My Shadow',
+          description: 'Privacy Scan',
+          theme: { color: '#d4af37' },
+          handler: function(response){
+            var params = new URLSearchParams({
+              order_id: response.razorpay_order_id,
+              payment_id: response.razorpay_payment_id
+            });
+            window.location.href = FORM_URL + '?' + params.toString();
+          },
+          modal: {
+            ondismiss: function(){
+              paymentInProgress = false;
+              btn.textContent = originalText;
+            }
+          }
+        };
+        var rzp = new Razorpay(options);
+        rzp.on('payment.failed', function(){
+          paymentInProgress = false;
+          btn.textContent = originalText;
+          alert('Payment could not be completed. Please try again.');
+        });
+        rzp.open();
+        paymentInProgress = false;
+        btn.textContent = originalText;
+      })
+      .catch(function(err){
+        console.error(err);
+        paymentInProgress = false;
+        btn.textContent = originalText;
+        alert('Could not start payment right now. Please try again in a moment.');
+      });
+  }
 
   // year
   document.getElementById('year').textContent = new Date().getFullYear();
