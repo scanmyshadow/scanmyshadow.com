@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Exposure Score — Check Your Online Privacy Risk | Scan My Shadow</title>
+<meta name="description" content="Take this free 8-question Digital Exposure Score to estimate how exposed your personal information may be online. Get your risk level and practical privacy tips.">
+<meta property="og:title" content="Digital Exposure Score — Check Your Online Privacy Risk | Scan My Shadow">
+<meta property="og:description" content="Answer 8 quick questions to estimate how exposed your personal information may be online. Free, instant, no sign-up required.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.scanmyshadow.com/tools/digital-exposure-score/">
+<link rel="canonical" href="https://www.scanmyshadow.com/tools/digital-exposure-score/">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S4P3YTNEDY"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Digital Exposure Score — Check Your Online Privacy Risk",
+  "description": "A free 8-question tool that estimates how exposed your personal information may be online, with a risk level and practical privacy recommendations.",
+  "url": "https://www.scanmyshadow.com/tools/digital-exposure-score/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Scan My Shadow",
+    "url": "https://www.scanmyshadow.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Scan My Shadow",
+    "url": "https://www.scanmyshadow.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.scanmyshadow.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Digital Exposure Score",
+      "item": "https://www.scanmyshadow.com/tools/digital-exposure-score/"
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --bg:#FFFFFF;--bg-tint:#FAF9FF;--ink:#15121F;--ink-soft:#605C73;--ink-faint:#908DA3;
+  --purple:#7B5CFA;--purple-deep:#5A3FE0;--purple-mist:#F1EEFE;
+  --line:#E9E7F5;--line-soft:#F0EEF9;--card:#FBFAFF;
+  --ok:#16A34A;--warn:#D97706;--danger:#DC2626;
+  --shadow-sm:0 2px 8px rgba(43,29,102,0.05);
+  --shadow-md:0 14px 40px rgba(43,29,102,0.09);
+  --shadow-lg:0 30px 80px rgba(43,29,102,0.14);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;overflow-x:hidden;}
+a{color:inherit;}
+::selection{background:var(--purple-mist);color:var(--purple-deep);}
+:focus-visible{outline:2px solid var(--purple);outline-offset:2px;border-radius:6px;}
+
+/* ===== HEADER ===== */
+.site-header{
+  padding:18px 24px;display:flex;align-items:center;justify-content:center;
+  border-bottom:1px solid var(--line);background:rgba(255,255,255,0.85);
+  backdrop-filter:saturate(180%) blur(14px);position:sticky;top:0;z-index:80;
+}
+.logo-link{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--ink);
+  font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;letter-spacing:-0.01em;}
+.logo-link img{height:33px;width:auto;display:block;}
+@media(max-width:480px){.logo-link img{height:28px;}}
+
+/* ===== LAYOUT ===== */
+.wrap{max-width:640px;margin:0 auto;padding:0 20px;}
+.page-content{padding:48px 0 80px;}
+@media(max-width:480px){.page-content{padding:32px 0 60px;}}
+
+/* ===== INTRO ===== */
+.intro{text-align:center;margin-bottom:40px;}
+.intro .eyebrow{font-size:12px;font-weight:600;color:var(--purple);letter-spacing:0.09em;text-transform:uppercase;margin-bottom:14px;display:block;}
+h1{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(26px,5.5vw,38px);line-height:1.15;letter-spacing:-0.015em;margin-bottom:14px;}
+h1 .accent{color:var(--purple);}
+.intro p{font-size:15px;color:var(--ink-soft);line-height:1.6;max-width:460px;margin:0 auto;}
+
+/* ===== QUIZ CARD ===== */
+.quiz-card{
+  background:#fff;border:1px solid var(--line);border-radius:22px;
+  padding:32px 28px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden;
+}
+@media(max-width:480px){.quiz-card{padding:24px 18px;border-radius:18px;}}
+
+/* progress bar */
+.progress-wrap{margin-bottom:28px;}
+.progress-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
+.progress-label{font-size:12.5px;font-weight:600;color:var(--purple);}
+.progress-count{font-size:12px;color:var(--ink-faint);}
+.progress-bar{height:6px;background:var(--purple-mist);border-radius:99px;overflow:hidden;}
+.progress-fill{height:100%;background:var(--purple);border-radius:99px;transition:width 0.4s cubic-bezier(0.4,0,0.2,1);}
+
+/* question */
+.question-area{min-height:280px;display:flex;flex-direction:column;}
+.q-text{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(17px,3.8vw,20px);line-height:1.35;margin-bottom:6px;}
+.q-hint{font-size:13px;color:var(--ink-faint);margin-bottom:20px;line-height:1.5;}
+.options{display:flex;flex-direction:column;gap:10px;flex:1;}
+.opt-btn{
+  display:flex;align-items:center;gap:12px;width:100%;text-align:left;
+  background:var(--bg-tint);border:1.5px solid var(--line);border-radius:14px;
+  padding:15px 18px;font-family:'Inter',sans-serif;font-size:14.5px;color:var(--ink);
+  cursor:pointer;transition:all 0.2s ease;line-height:1.4;
+}
+.opt-btn:hover{border-color:var(--purple);background:var(--purple-mist);}
+.opt-btn.selected{border-color:var(--purple);background:var(--purple-mist);font-weight:600;}
+.opt-radio{
+  width:20px;height:20px;border-radius:50%;border:2px solid var(--line);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;transition:all 0.2s ease;
+}
+.opt-btn.selected .opt-radio{border-color:var(--purple);background:var(--purple);}
+.opt-btn.selected .opt-radio::after{content:"";width:8px;height:8px;border-radius:50%;background:#fff;}
+
+/* nav buttons */
+.quiz-nav{display:flex;gap:10px;margin-top:24px;}
+.btn{
+  flex:1;padding:14px;border:none;border-radius:13px;font-family:'Inter',sans-serif;
+  font-size:14.5px;font-weight:600;cursor:pointer;transition:all 0.2s ease;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.btn-back{background:var(--bg-tint);color:var(--ink-soft);border:1px solid var(--line);}
+.btn-back:hover{background:var(--line-soft);color:var(--ink);}
+.btn-next{
+  background:var(--purple);color:#fff;
+  box-shadow:0 8px 20px rgba(123,92,250,0.28);
+}
+.btn-next:hover{background:var(--purple-deep);transform:translateY(-1px);}
+.btn-next:disabled{opacity:0.4;pointer-events:none;transform:none;}
+.btn svg{width:16px;height:16px;}
+
+/* ===== RESULTS ===== */
+.results-area{display:none;text-align:center;}
+.results-area.visible{display:block;}
+
+/* score ring */
+.score-ring-wrap{position:relative;width:180px;height:180px;margin:0 auto 8px;}
+.score-ring{width:100%;height:100%;transform:rotate(-90deg);}
+.score-ring-bg{fill:none;stroke:var(--purple-mist);stroke-width:10;}
+.score-ring-fill{fill:none;stroke-width:10;stroke-linecap:round;
+  transition:stroke-dashoffset 1.2s cubic-bezier(0.4,0,0.2,1),stroke 0.4s ease;}
+.score-number{
+  position:absolute;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+}
+.score-val{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:48px;line-height:1;letter-spacing:-0.02em;}
+.score-max{font-size:14px;color:var(--ink-faint);margin-top:2px;}
+
+/* risk badge */
+.risk-badge{
+  display:inline-flex;align-items:center;gap:7px;padding:8px 18px;border-radius:999px;
+  font-size:13.5px;font-weight:600;margin:12px 0 18px;
+}
+.risk-low{color:var(--ok);background:rgba(22,163,74,0.1);}
+.risk-moderate{color:var(--warn);background:rgba(217,119,6,0.1);}
+.risk-high{color:#EA580C;background:rgba(234,88,12,0.1);}
+.risk-veryhigh{color:var(--danger);background:rgba(220,38,38,0.1);}
+
+.result-summary{font-size:15px;color:var(--ink-soft);line-height:1.6;max-width:480px;margin:0 auto 28px;}
+
+/* factors */
+.factors-card{
+  background:var(--bg-tint);border:1px solid var(--line);border-radius:16px;
+  padding:22px 20px;text-align:left;margin-bottom:20px;
+}
+.factors-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+.factors-title svg{width:18px;height:18px;color:var(--purple);}
+.factor-item{display:flex;align-items:flex-start;gap:10px;padding:9px 0;font-size:13.5px;color:var(--ink-soft);line-height:1.5;}
+.factor-item+.factor-item{border-top:1px solid var(--line-soft);}
+.factor-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:7px;}
+
+/* recommendations */
+.recs-card{
+  background:var(--bg-tint);border:1px solid var(--line);border-radius:16px;
+  padding:22px 20px;text-align:left;margin-bottom:28px;
+}
+.recs-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+.recs-title svg{width:18px;height:18px;color:var(--ok);}
+.rec-item{display:flex;align-items:flex-start;gap:10px;padding:9px 0;font-size:13.5px;color:var(--ink-soft);line-height:1.5;}
+.rec-item+.rec-item{border-top:1px solid var(--line-soft);}
+.rec-item svg{width:15px;height:15px;color:var(--ok);flex-shrink:0;margin-top:2px;}
+
+/* disclaimer */
+.disclaimer{font-size:12px;color:var(--ink-faint);line-height:1.55;margin-bottom:32px;padding:0 8px;}
+
+/* share strip */
+.share-strip{display:flex;gap:10px;justify-content:center;margin-bottom:32px;flex-wrap:wrap;}
+.share-btn{
+  display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;
+  border:1px solid var(--line);background:#fff;font-family:'Inter',sans-serif;
+  font-size:13px;font-weight:500;color:var(--ink-soft);cursor:pointer;transition:all 0.2s ease;
+}
+.share-btn:hover{border-color:var(--purple);color:var(--purple);}
+.share-btn svg{width:16px;height:16px;}
+.share-btn.copied{border-color:var(--ok);color:var(--ok);}
+
+/* CTA */
+.cta-card{
+  background:var(--ink);border-radius:22px;padding:36px 28px;color:#fff;
+  position:relative;overflow:hidden;
+}
+.cta-card::before{content:"";position:absolute;top:-80px;right:-60px;width:260px;height:260px;
+  background:radial-gradient(circle,rgba(123,92,250,0.5),transparent 70%);pointer-events:none;}
+.cta-inner{position:relative;z-index:2;}
+.cta-eyebrow{font-size:12px;font-weight:600;color:var(--purple);letter-spacing:0.09em;text-transform:uppercase;margin-bottom:12px;}
+.cta-card h2{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(20px,4vw,26px);
+  line-height:1.2;letter-spacing:-0.01em;color:#fff;margin-bottom:10px;}
+.cta-card p{font-size:14px;color:#B7B5CC;line-height:1.6;margin-bottom:22px;}
+.cta-price{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:36px;color:#fff;margin-bottom:4px;}
+.cta-price span{font-size:14px;font-weight:500;color:#A5A2C0;margin-left:4px;}
+.cta-scope{font-size:13px;color:#A5A2C0;margin-bottom:22px;}
+.btn-cta{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;padding:15px;border:none;border-radius:13px;
+  background:var(--purple);color:#fff;font-family:'Inter',sans-serif;
+  font-size:15px;font-weight:600;cursor:pointer;
+  box-shadow:0 10px 24px rgba(123,92,250,0.32);
+  transition:background 0.2s ease,transform 0.15s ease;
+}
+.btn-cta:hover{background:var(--purple-deep);transform:translateY(-1px);}
+.btn-cta svg{width:17px;height:17px;}
+.cta-note{display:flex;align-items:center;justify-content:center;gap:14px;font-size:11.5px;color:#A5A2C0;margin-top:14px;flex-wrap:wrap;}
+.cta-note span{display:inline-flex;align-items:center;gap:5px;}
+.cta-note svg{width:13px;height:13px;color:var(--ok);}
+
+/* retake */
+.retake-link{
+  display:inline-flex;align-items:center;gap:6px;margin-top:24px;
+  font-size:13px;color:var(--ink-faint);cursor:pointer;
+  background:none;border:none;font-family:'Inter',sans-serif;
+  transition:color 0.2s ease;
+}
+.retake-link:hover{color:var(--purple);}
+.retake-link svg{width:14px;height:14px;}
+
+/* ===== SEO CONTENT ===== */
+.seo-section{padding:64px 0 0;border-top:1px solid var(--line);margin-top:48px;}
+.seo-section h2{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(20px,4vw,26px);line-height:1.2;letter-spacing:-0.01em;margin-bottom:16px;}
+.seo-section p{font-size:14.5px;color:var(--ink-soft);line-height:1.7;margin-bottom:16px;}
+.seo-section h3{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;margin:28px 0 10px;}
+
+/* ===== FOOTER ===== */
+.site-footer{
+  text-align:center;padding:32px 20px;border-top:1px solid var(--line);
+  background:var(--bg-tint);margin-top:48px;
+}
+.site-footer p{font-size:12.5px;color:var(--ink-faint);}
+.site-footer a{color:var(--purple);text-decoration:none;}
+.site-footer a:hover{text-decoration:underline;}
+
+/* reduced motion */
+@media(prefers-reduced-motion:reduce){
+  .progress-fill,.score-ring-fill,.opt-btn,.btn,.share-btn{transition:none!important;}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="https://www.scanmyshadow.com" class="logo-link" aria-label="Scan My Shadow — Home">
+    <img src="https://www.scanmyshadow.com/Logo-with-Text.png" alt="Scan My Shadow" loading="eager">
+  </a>
+</header>
+
+<main class="wrap page-content">
+
+  <!-- INTRO -->
+  <div class="intro" id="intro">
+    <span class="eyebrow">Free Privacy Tool</span>
+    <h1>What's Your <span class="accent">Digital Exposure</span> Score?</h1>
+    <p>Answer 8 quick questions to estimate how exposed your personal information may be online. No sign-up, no data collected.</p>
+  </div>
+
+  <!-- QUIZ -->
+  <div class="quiz-card" id="quizCard">
+
+    <!-- Quiz area (hidden when results show) -->
+    <div id="quizArea">
+      <div class="progress-wrap">
+        <div class="progress-meta">
+          <span class="progress-label" id="progressLabel">Question 1 of 8</span>
+          <span class="progress-count" id="progressPct">0%</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      </div>
+      <div class="question-area" id="questionArea"></div>
+      <div class="quiz-nav">
+        <button class="btn btn-back" id="btnBack" style="display:none" aria-label="Previous question">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          Back
+        </button>
+        <button class="btn btn-next" id="btnNext" disabled>
+          Next
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Results area -->
+    <div class="results-area" id="resultsArea">
+      <div class="score-ring-wrap">
+        <svg class="score-ring" viewBox="0 0 180 180">
+          <circle class="score-ring-bg" cx="90" cy="90" r="78"/>
+          <circle class="score-ring-fill" id="scoreRing" cx="90" cy="90" r="78"
+            stroke-dasharray="490" stroke-dashoffset="490"/>
+        </svg>
+        <div class="score-number">
+          <div class="score-val" id="scoreVal">0</div>
+          <div class="score-max">/ 100</div>
+        </div>
+      </div>
+      <div id="riskBadge" class="risk-badge"></div>
+      <p class="result-summary" id="resultSummary"></p>
+
+      <div class="factors-card" id="factorsCard">
+        <div class="factors-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          Key Contributing Factors
+        </div>
+        <div id="factorsList"></div>
+      </div>
+
+      <div class="recs-card" id="recsCard">
+        <div class="recs-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          What You Can Do
+        </div>
+        <div id="recsList"></div>
+      </div>
+
+      <p class="disclaimer">This score is an estimate based on the information you provided. It does not confirm whether your personal information has been exposed, breached or leaked online.</p>
+
+      <!-- Share -->
+      <div class="share-strip">
+        <button class="share-btn" id="shareWA" aria-label="Share on WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </button>
+        <button class="share-btn" id="shareX" aria-label="Share on X">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Post on X
+        </button>
+        <button class="share-btn" id="shareCopy" aria-label="Copy link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy Link
+        </button>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-card">
+        <div class="cta-inner">
+          <div class="cta-eyebrow">Go Beyond the Estimate</div>
+          <h2>Want to know what's actually exposed?</h2>
+          <p>The free score is only an estimate based on your answers. Scan your phone number and email across 1,500+ sources and receive a full digital exposure report.</p>
+          <div class="cta-price">₹498<span>one-time</span></div>
+          <div class="cta-scope">Phone + Email scan · Report in minutes</div>
+          <button class="btn-cta" id="ctaBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            Scan My Digital Footprint
+          </button>
+          <div class="cta-note">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Data purged in 96 hrs</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg> 100% private</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="retake-link" id="retakeBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 102.13-9.36L1 10"/></svg>
+        Retake the quiz
+      </button>
+    </div>
+  </div>
+
+  <!-- SEO CONTENT -->
+  <div class="seo-section">
+    <h2>What Is a Digital Exposure Score?</h2>
+    <p>Your Digital Exposure Score is a free online privacy check that estimates how visible your personal information may be across the internet. Based on your everyday digital habits — where you've shared your phone number, how you use email, whether you reuse usernames across different websites — this digital footprint check highlights areas where your identity could be easier to find, contact, or target.</p>
+    <p>This is a self-assessment tool, not a breach scanner. It does not search any databases or breach records — it uses your own answers to model the kind of personal information exposure that commonly leads to spam, scams, or worse. Think of it as a quick digital safety check you can run in under two minutes, entirely from your phone or browser.</p>
+
+    <h3>Why Does Online Exposure Matter?</h3>
+    <p>When personal information like phone numbers, email addresses, or professional details are publicly accessible, they can be used for spam calls, phishing attempts, impersonation, or targeted scams. Data brokers and people-search sites often aggregate scattered pieces of information into a single, easily searchable profile — sometimes without you ever finding out. A basic online privacy check like this one is a useful starting point for understanding where you stand before deciding what, if anything, to do about it.</p>
+
+    <h3>How Is the Score Calculated?</h3>
+    <p>Each of the 8 questions in this online exposure checker assesses a specific dimension of digital exposure — from public visibility of your phone number and email, to old unused accounts and repeated usernames. Your answers are weighted by severity, so higher-risk habits contribute more to the overall score. The result is a number between 0 and 100, mapped to four risk levels: Low, Moderate, High, and Very High Exposure. The scoring logic is transparent and deterministic — the same answers will always produce the same score.</p>
+
+    <h3>What Can You Do Next?</h3>
+    <p>The score comes with personalised, practical recommendations based on your specific answers — not generic advice. If you want to go beyond an estimate and see exactly what's out there, <a href="https://www.scanmyshadow.com/#pricing" style="color:var(--purple);">Scan My Shadow's paid scan</a> checks your actual phone number and email address across 1,500+ breach and public data sources, with a plain-language report delivered to your inbox in minutes. You can also read answers to common questions on our <a href="https://www.scanmyshadow.com/#faq" style="color:var(--purple);">FAQ page</a>, learn more about who runs this service on our <a href="https://www.scanmyshadow.com/about.html" style="color:var(--purple);">About page</a>, or <a href="https://www.scanmyshadow.com/contact.html" style="color:var(--purple);">get in touch</a> if you have questions.</p>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <p>&copy; <span id="footYear"></span> <a href="https://www.scanmyshadow.com">Scan My Shadow</a> · Jaishree Exports, Gwalior, MP</p>
+</footer>
+
+<script>
+(function(){
+  // === QUESTIONS ===
+  var questions = [
+    {
+      text: "Is your phone number publicly visible online?",
+      hint: "",
+      options: ["No, I don't think so","I'm not sure","Yes, on one or two places","Yes, on several websites or profiles"],
+      points: [0,8,16,25],
+      factor: "Your phone number may be publicly visible",
+      rec: "Remove your phone number from old public profiles, classifieds, and directories"
+    },
+    {
+      text: "Is your personal email address publicly visible online?",
+      hint: "",
+      options: ["No","I'm not sure","Yes, in a few places","Yes, in many places"],
+      points: [0,8,16,25],
+      factor: "Your email address appears across multiple services",
+      rec: "Use a secondary email for sign-ups and public-facing forms"
+    },
+    {
+      text: "Can someone find your full name through a Google search?",
+      hint: "",
+      options: ["No / very difficult","I'm not sure","Yes, a few results","Yes, many results"],
+      points: [0,8,16,25],
+      factor: "Your full name is easily discoverable via search engines",
+      rec: "Review and request removal of personal details from people-search sites"
+    },
+    {
+      text: "Is your workplace or professional information publicly connected to you?",
+      hint: "",
+      options: ["No","I'm not sure","Yes, but only basic information","Yes, with substantial personal or professional details"],
+      points: [0,8,16,25],
+      factor: "Detailed professional information is publicly linked to your identity",
+      rec: "Limit professional profile details to what is necessary and review LinkedIn privacy settings"
+    },
+    {
+      text: "Have you ever posted your phone number or email publicly?",
+      hint: "Examples: social media, classifieds, forums, websites, comments, marketplace listings.",
+      options: ["Never","I don't remember","Yes, once or twice","Yes, multiple times"],
+      points: [0,8,16,25],
+      factor: "You have posted contact information publicly in the past",
+      rec: "Search for and delete old posts, comments, or listings that contain your contact details"
+    },
+    {
+      text: "Do you reuse the same username or email across multiple websites?",
+      hint: "",
+      options: ["Rarely / never","Sometimes","Often","Almost everywhere"],
+      points: [0,8,16,25],
+      factor: "You reuse identifying information across websites",
+      rec: "Use unique usernames and a password manager to reduce cross-site linkability"
+    },
+    {
+      text: "Do you have old online accounts or profiles that you no longer use?",
+      hint: "",
+      options: ["No / very few","I'm not sure","Yes, several","Yes, many"],
+      points: [0,8,16,25],
+      factor: "You have older, unused accounts that may still hold your data",
+      rec: "Delete unused accounts — services like justdelete.me can help find the right steps"
+    },
+    {
+      text: "Have you received suspicious messages, emails, calls, or scam attempts that seemed to know personal information about you?",
+      hint: "",
+      options: ["Never","Once or twice","Several times","Frequently"],
+      points: [0,8,16,25],
+      factor: "You have experienced targeted contact that used personal information",
+      rec: "Check whether your email or phone number appears in known breach databases"
+    }
+  ];
+
+  var answers = new Array(questions.length).fill(-1);
+  var current = 0;
+
+  var quizArea = document.getElementById('quizArea');
+  var resultsArea = document.getElementById('resultsArea');
+  var questionArea = document.getElementById('questionArea');
+  var btnBack = document.getElementById('btnBack');
+  var btnNext = document.getElementById('btnNext');
+  var progressLabel = document.getElementById('progressLabel');
+  var progressPct = document.getElementById('progressPct');
+  var progressFill = document.getElementById('progressFill');
+
+  function render(){
+    var q = questions[current];
+    var isLast = current === questions.length - 1;
+
+    // progress
+    progressLabel.textContent = 'Question ' + (current+1) + ' of ' + questions.length;
+    var pct = Math.round(((current) / questions.length) * 100);
+    progressPct.textContent = pct + '%';
+    progressFill.style.width = pct + '%';
+
+    // question
+    var html = '<div class="q-text">' + q.text + '</div>';
+    if(q.hint) html += '<div class="q-hint">' + q.hint + '</div>';
+    else html += '<div class="q-hint" style="margin-bottom:14px"></div>';
+    html += '<div class="options">';
+    for(var i=0;i<q.options.length;i++){
+      var sel = answers[current] === i ? ' selected' : '';
+      html += '<button class="opt-btn' + sel + '" data-idx="' + i + '" type="button">' +
+        '<span class="opt-radio"></span>' + q.options[i] + '</button>';
+    }
+    html += '</div>';
+    questionArea.innerHTML = html;
+
+    // wire option clicks
+    var opts = questionArea.querySelectorAll('.opt-btn');
+    for(var j=0;j<opts.length;j++){
+      opts[j].addEventListener('click', function(){
+        var idx = parseInt(this.getAttribute('data-idx'));
+        answers[current] = idx;
+        render();
+      });
+    }
+
+    // nav
+    btnBack.style.display = current === 0 ? 'none' : 'flex';
+    btnNext.disabled = answers[current] === -1;
+    btnNext.innerHTML = isLast ?
+      'See My Score <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>' :
+      'Next <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>';
+  }
+
+  btnBack.addEventListener('click', function(){
+    if(current > 0){ current--; render(); }
+  });
+
+  btnNext.addEventListener('click', function(){
+    if(answers[current] === -1) return;
+    if(current < questions.length - 1){
+      current++;
+      render();
+    } else {
+      showResults();
+    }
+  });
+
+  function showResults(){
+    // score
+    var raw = 0;
+    for(var i=0;i<answers.length;i++) raw += questions[i].points[answers[i]];
+    var score = Math.round(raw / 2);
+
+    // risk level
+    var level, levelClass, summary;
+    if(score < 25){
+      level = 'LOW EXPOSURE'; levelClass = 'risk-low';
+      summary = 'Your answers suggest a relatively low level of online exposure. Your personal information does not appear to be widely accessible based on your habits.';
+    } else if(score < 50){
+      level = 'MODERATE EXPOSURE'; levelClass = 'risk-moderate';
+      summary = 'Your answers suggest a moderate level of online exposure. Some of your personal information may be accessible through common channels.';
+    } else if(score < 75){
+      level = 'HIGH EXPOSURE'; levelClass = 'risk-high';
+      summary = 'Your answers suggest that several pieces of information about you may be relatively easy to discover online.';
+    } else {
+      level = 'VERY HIGH EXPOSURE'; levelClass = 'risk-veryhigh';
+      summary = 'Your answers suggest significant online exposure. Multiple types of personal information may be readily accessible to anyone looking.';
+    }
+
+    // factors (show top contributors, score > 0)
+    var factors = [];
+    var recs = [];
+    for(var i=0;i<answers.length;i++){
+      if(questions[i].points[answers[i]] > 0){
+        factors.push({ text: questions[i].factor, severity: questions[i].points[answers[i]] });
+        recs.push(questions[i].rec);
+      }
+    }
+    factors.sort(function(a,b){ return b.severity - a.severity; });
+
+    // always show at least one general rec
+    if(recs.length === 0){
+      recs.push('Continue practising good digital hygiene — review your privacy settings periodically');
+    }
+
+    // hide quiz, show results
+    quizArea.style.display = 'none';
+    resultsArea.classList.add('visible');
+    window.scrollTo({ top: document.getElementById('quizCard').offsetTop - 80, behavior: 'smooth' });
+
+    // animate score ring
+    var circumference = 2 * Math.PI * 78; // ~490
+    var ring = document.getElementById('scoreRing');
+    var offset = circumference - (score / 100) * circumference;
+    var ringColor = score < 25 ? 'var(--ok)' : score < 50 ? 'var(--warn)' : score < 75 ? '#EA580C' : 'var(--danger)';
+    ring.style.stroke = ringColor;
+    setTimeout(function(){ ring.style.strokeDashoffset = offset; }, 80);
+
+    // animate number
+    var scoreEl = document.getElementById('scoreVal');
+    var counter = 0;
+    var step = Math.max(1, Math.floor(score / 40));
+    var iv = setInterval(function(){
+      counter += step;
+      if(counter >= score){ counter = score; clearInterval(iv); }
+      scoreEl.textContent = counter;
+    }, 30);
+    scoreEl.style.color = ringColor;
+
+    // badge
+    document.getElementById('riskBadge').className = 'risk-badge ' + levelClass;
+    document.getElementById('riskBadge').textContent = level;
+
+    // summary
+    document.getElementById('resultSummary').textContent = summary;
+
+    // factors list
+    var fHtml = '';
+    var dotColors = { 25: 'var(--danger)', 16: '#EA580C', 8: 'var(--warn)' };
+    for(var i=0;i<factors.length && i<5;i++){
+      var dc = dotColors[factors[i].severity] || 'var(--warn)';
+      fHtml += '<div class="factor-item"><span class="factor-dot" style="background:' + dc + '"></span>' + factors[i].text + '</div>';
+    }
+    if(factors.length === 0) fHtml = '<div class="factor-item" style="border:none;color:var(--ok)">No major risk factors detected based on your answers.</div>';
+    document.getElementById('factorsList').innerHTML = fHtml;
+
+    // recs list
+    var rHtml = '';
+    var shown = [];
+    for(var i=0;i<recs.length && shown.length<5;i++){
+      if(shown.indexOf(recs[i]) === -1){
+        shown.push(recs[i]);
+        rHtml += '<div class="rec-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>' + recs[i] + '</div>';
+      }
+    }
+    document.getElementById('recsList').innerHTML = rHtml;
+
+    // GA4 event
+    if(typeof gtag === 'function'){
+      gtag('event', 'exposure_score_complete', {
+        score: score,
+        risk_level: level
+      });
+    }
+
+    // store score for sharing
+    window._desScore = score;
+    window._desLevel = level;
+  }
+
+  // share
+  function shareText(){
+    var s = window._desScore || 0;
+    var l = window._desLevel || '';
+    return 'I scored ' + s + '/100 (' + l + ') on the Digital Exposure Score by Scan My Shadow. Check yours: https://www.scanmyshadow.com/tools/digital-exposure-score/';
+  }
+
+  document.getElementById('shareWA').addEventListener('click', function(){
+    window.open('https://wa.me/?text=' + encodeURIComponent(shareText()), '_blank');
+  });
+
+  document.getElementById('shareX').addEventListener('click', function(){
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText()), '_blank');
+  });
+
+  document.getElementById('shareCopy').addEventListener('click', function(){
+    var btn = this;
+    navigator.clipboard.writeText(shareText()).then(function(){
+      btn.classList.add('copied');
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> Copied!';
+      setTimeout(function(){
+        btn.classList.remove('copied');
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy Link';
+      }, 2000);
+    });
+  });
+
+  // CTA → Razorpay
+  document.getElementById('ctaBtn').addEventListener('click', function(){
+    if(typeof gtag === 'function'){
+      gtag('event', 'exposure_score_cta_click', { score: window._desScore || 0 });
+    }
+    // Create Razorpay order via Cloud Run, then open Checkout
+    fetch('https://sms-order-creator-180556751015.asia-south1.run.app/create-order', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ source: 'exposure-tool' })
+    })
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      if(data.id){
+        var options = {
+          key: 'rzp_live_TRXTioe7XsHdET',
+          order_id: data.id,
+          name: 'Scan My Shadow',
+          description: 'Privacy Scan — Phone + Email',
+          handler: function(response){
+            window.location.href = 'https://scan.scanmyshadow.com/form.html?order_id=' + response.razorpay_order_id + '&payment_id=' + response.razorpay_payment_id;
+          },
+          theme: { color: '#7B5CFA' }
+        };
+        var rzp = new Razorpay(options);
+        rzp.open();
+      }
+    })
+    .catch(function(){
+      // Fallback: direct to Razorpay payment page
+      window.open('https://rzp.io/rzp/dtBO5N4', '_blank');
+    });
+  });
+
+  // retake
+  document.getElementById('retakeBtn').addEventListener('click', function(){
+    answers = new Array(questions.length).fill(-1);
+    current = 0;
+    resultsArea.classList.remove('visible');
+    quizArea.style.display = 'block';
+    var ring = document.getElementById('scoreRing');
+    ring.style.strokeDashoffset = 490;
+    render();
+    window.scrollTo({ top: document.getElementById('intro').offsetTop - 20, behavior: 'smooth' });
+  });
+
+  // footer year
+  document.getElementById('footYear').textContent = new Date().getFullYear();
+
+  // init
+  render();
+})();
+</script>
+
+<!-- Razorpay Checkout (loaded async, only needed if user clicks CTA) -->
+<script src="https://checkout.razorpay.com/v1/checkout.js" async></script>
+
+</body>
+</html>
