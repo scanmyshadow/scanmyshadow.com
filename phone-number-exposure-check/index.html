@@ -88,7 +88,10 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
 .nav-links{display:flex; align-items:center; gap:28px;}
 .nav-link{font-size:14px; color:var(--ink-soft); text-decoration:none; transition:color .2s ease;}
 .nav-link:hover{color:var(--ink);}
-.nav-pill{font-size:14.85px; font-weight:600; color:#fff; background:var(--purple); border-radius:999px; padding:11px 22px; text-decoration:none; box-shadow:0 8px 20px rgba(123,92,250,0.28); transition:transform .18s ease, box-shadow .18s ease;}
+.nav-pill{font-size:14.85px; font-weight:600; color:#fff; background:var(--purple); border-radius:999px; padding:11px 22px; text-decoration:none; box-shadow:0 8px 20px rgba(123,92,250,0.28); transition:transform .18s ease, box-shadow .18s ease; position:relative; animation:cta-glow 2.8s ease-in-out infinite;}
+.nav-pill::before{content:""; position:absolute; inset:0; border-radius:999px; z-index:-1; animation:cta-ping 2.8s ease-out infinite;}
+@keyframes cta-glow{0%,100%{box-shadow:0 8px 20px rgba(123,92,250,0.28);}50%{box-shadow:0 8px 26px rgba(123,92,250,0.55);}}
+@keyframes cta-ping{0%{box-shadow:0 0 0 0 rgba(123,92,250,0.45);}70%{box-shadow:0 0 0 12px rgba(123,92,250,0);}100%{box-shadow:0 0 0 0 rgba(123,92,250,0);}}
 .cta-short{display:none;}
 .nav-pill:hover{transform:translateY(-1px); box-shadow:0 12px 26px rgba(123,92,250,0.36);}
 .nav-menu-links{display:flex; align-items:center; gap:28px;}
@@ -326,7 +329,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
 <section class="block section-line">
   <div class="wrap prose">
     <div class="sec-head"><span class="eyebrow">Handling your data</span><h2>Privacy and data handling</h2></div>
-    <p>We ask only for your phone number and email — no account, no password. Submitted data is used to run your scan and generate your report, then deleted from our systems within 96 hours.</p>
+    <p>We ask only for your phone number and email — no account, no password. Submitted data is used to run your scan and generate your report, then deleted from our systems immediately after — we don't keep a copy.</p>
   </div>
 </section>
 
@@ -335,11 +338,11 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
   <div class="wrap">
     <div class="sec-head narrow"><span class="eyebrow">FAQ</span><h2>Frequently asked questions</h2></div>
     <div class="faq-list">
-      <div class="faq-item"><button class="faq-q">Can anyone find my name from just my phone number?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><div class="faq-a-inner">Sometimes, but not always. It depends on whether your number is linked to public listings, breached data that includes your name, or messaging app profiles with visible names or photos. Many numbers show up online with no identifying name attached.</div></div></div>
-      <div class="faq-item"><button class="faq-q">Is it legal to check where my own phone number appears online?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><div class="faq-a-inner">Yes. Checking publicly available information connected to your own number is generally lawful. Scan My Shadow is built specifically for consent-based checks of your own details, not for investigating other people.</div></div></div>
-      <div class="faq-item"><button class="faq-q">Can I remove my phone number from search results?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><div class="faq-a-inner">In some cases, yes — by contacting the specific website or directory hosting the listing and requesting removal. Our report can help point you toward where your number appears so you know where to start.</div></div></div>
-      <div class="faq-item"><button class="faq-q">Does Scan My Shadow check WhatsApp or Telegram directly?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><div class="faq-a-inner">No — messaging app profile visibility is something you can check yourself in a few seconds by saving your own number as a new contact. Our scan focuses on breach records and publicly indexed sources.</div></div></div>
-      <div class="faq-item"><button class="faq-q">Why does my old phone number still show up online?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="faq-a"><div class="faq-a-inner">Search engines and archived pages often keep old listings indexed long after they're taken down or the number changes hands, which is why numbers from years-old sign-ups or classifieds can still surface in a search today.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Can anyone find my name from just my phone number?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Sometimes, but not always. It depends on whether your number is linked to public listings, breached data that includes your name, or messaging app profiles with visible names or photos. Many numbers show up online with no identifying name attached.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Is it legal to check where my own phone number appears online?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Yes. Checking publicly available information connected to your own number is generally lawful. Scan My Shadow is built specifically for consent-based checks of your own details, not for investigating other people.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Can I remove my phone number from search results?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">In some cases, yes — by contacting the specific website or directory hosting the listing and requesting removal. Our report can help point you toward where your number appears so you know where to start.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Does Scan My Shadow check WhatsApp or Telegram directly?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">No — messaging app profile visibility is something you can check yourself in a few seconds by saving your own number as a new contact. Our scan focuses on breach records and publicly indexed sources.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Why does my old phone number still show up online?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Search engines and archived pages often keep old listings indexed long after they're taken down or the number changes hands, which is why numbers from years-old sign-ups or classifieds can still surface in a search today.</div></div></div>
     </div>
   </div>
 </section>
@@ -364,7 +367,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
         <h2>Ready to check your own phone number's exposure?</h2>
         <p>A one-time scan of your phone number and email across 1,500+ sources, with a plain-language report in about 5 minutes.</p>
         <a class="btn-price" href="/#pricing">Start My Scan · ₹498</a>
-        <div class="price-note">No account needed · Data deleted within 96 hours</div>
+        <div class="price-note">No account needed · We don't store the number or email you submit</div>
       </div>
     </div>
   </div>
@@ -377,7 +380,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
         <a href="/" class="logo">
           <img src="/logo.png" class="logo-img" alt="Scan My Shadow">
         </a>
-        <p>A private scan of your phone and email across known breaches and leaks — with a plain-language report and a strict 96-hour data purge.</p>
+        <p>A private scan of your phone and email across known breaches and leaks — with a plain-language report, and we don't store the number or email you submit.</p>
       </div>
       <div class="foot-cols">
         <div class="foot-col">
