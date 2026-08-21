@@ -20,6 +20,7 @@
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
 </script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -277,6 +278,7 @@ h1 .accent{color:var(--purple);}
 @media(prefers-reduced-motion:reduce){
   .progress-fill,.score-ring-fill,.opt-btn,.btn,.share-btn{transition:none!important;}
 }
+@keyframes spin{to{transform:rotate(360deg);}}
 </style>
 </head>
 <body>
@@ -690,10 +692,17 @@ h1 .accent{color:var(--purple);}
 
   // CTA → Razorpay
   document.getElementById('ctaBtn').addEventListener('click', function(){
+    var btn = this;
+    if(btn.disabled) return;
+
     if(typeof gtag === 'function'){
       gtag('event', 'exposure_score_cta_click', { score: window._desScore || 0 });
     }
-    // Create Razorpay order via Cloud Run, then open Checkout
+
+    // Loading state
+    btn.disabled = true;
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" style="animation:spin 0.9s linear infinite"><path d="M12 2a10 10 0 0 1 10 10"/></svg> Setting up payment…';
+
     fetch('https://sms-order-creator-180556751015.asia-south1.run.app/create-order', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -701,6 +710,8 @@ h1 .accent{color:var(--purple);}
     })
     .then(function(r){ return r.json(); })
     .then(function(data){
+      btn.disabled = false;
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg> Scan My Digital Footprint';
       if(data.id){
         var options = {
           key: 'rzp_live_TRXTioe7XsHdET',
@@ -714,10 +725,13 @@ h1 .accent{color:var(--purple);}
         };
         var rzp = new Razorpay(options);
         rzp.open();
+      } else {
+        window.open('https://rzp.io/rzp/dtBO5N4', '_blank');
       }
     })
     .catch(function(){
-      // Fallback: direct to Razorpay payment page
+      btn.disabled = false;
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg> Scan My Digital Footprint';
       window.open('https://rzp.io/rzp/dtBO5N4', '_blank');
     });
   });
@@ -742,8 +756,7 @@ h1 .accent{color:var(--purple);}
 })();
 </script>
 
-<!-- Razorpay Checkout (loaded async, only needed if user clicks CTA) -->
-<script src="https://checkout.razorpay.com/v1/checkout.js" async></script>
+
 
 </body>
 </html>
