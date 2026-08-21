@@ -22,6 +22,46 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.scanmyshadow.com">
 <link rel="canonical" href="https://www.scanmyshadow.com">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.scanmyshadow.com/#website",
+      "url": "https://www.scanmyshadow.com/",
+      "name": "Scan My Shadow",
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.scanmyshadow.com/#webpage",
+      "url": "https://www.scanmyshadow.com/",
+      "name": "Scan My Shadow",
+      "isPartOf": {
+        "@id": "https://www.scanmyshadow.com/#website"
+      },
+      "about": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      }
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -501,6 +541,8 @@
         <a class="nav-link" href="#how">How it works</a>
         <a class="nav-link" href="#pricing">Pricing</a>
         <a class="nav-link" href="#faq">FAQ</a>
+        <a class="nav-link" href="/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">Free Exposure Check</a>
+        <a class="nav-link" href="https://blog.scanmyshadow.com" target="_blank" rel="noopener">Blog</a>
         <a class="nav-link" href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
       </div>
     </div>
@@ -513,6 +555,8 @@
     <a href="#how">How it works</a>
     <a href="#pricing">Pricing</a>
     <a href="#faq">FAQ</a>
+    <a href="/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">Free Exposure Check</a>
+    <a href="https://blog.scanmyshadow.com" target="_blank" rel="noopener">Blog</a>
     <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
   </div>
 </header>
@@ -660,6 +704,25 @@
   </div>
 </section>
 
+<!-- ============ FOUNDER ============ -->
+<section class="block section-line reveal">
+  <div class="wrap">
+    <div class="founder-card">
+      <img src="founder.jpg" class="founder-photo" alt="Siddharth, founder of Scan My Shadow">
+      <div class="founder-body">
+        <div class="founder-eyebrow">Why I built this</div>
+        <p class="q" style="font-size:17px; line-height:1.65;">My own personal details were exposed online before I even knew they were out there — including my phone number, address and other information that shouldn't have been so easy to find.</p>
+        <p class="q" style="font-size:17px; line-height:1.65; margin-top:14px;">That experience made me realise something:<br><em style="color:var(--purple);">You shouldn't have to become a victim to find out what the internet already knows about you.</em></p>
+        <p class="q" style="font-size:17px; line-height:1.65; margin-top:14px;">So I built Scan My Shadow to make it simple for anyone to check their digital exposure, understand what they find, and take action.</p>
+        <div class="founder-meta">
+          <div class="founder-sign"></div>
+          <div class="founder-name"><b>Siddharth</b>Founder, Scan My Shadow</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ============ REPORT PREVIEW ============ -->
 <section class="block section-line reveal">
   <div class="wrap">
@@ -728,25 +791,6 @@
         <div class="rp-mock-foot">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg>
           Your report shows every place your details turn up — clearly, in plain English.
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ FOUNDER ============ -->
-<section class="block section-line reveal">
-  <div class="wrap">
-    <div class="founder-card">
-      <img src="founder.jpg" class="founder-photo" alt="Siddharth, founder of Scan My Shadow">
-      <div class="founder-body">
-        <div class="founder-eyebrow">Why I built this</div>
-        <p class="q" style="font-size:17px; line-height:1.65;">My own personal details were exposed online before I even knew they were out there — including my phone number, address and other information that shouldn't have been so easy to find.</p>
-        <p class="q" style="font-size:17px; line-height:1.65; margin-top:14px;">That experience made me realise something:<br><em style="color:var(--purple);">You shouldn't have to become a victim to find out what the internet already knows about you.</em></p>
-        <p class="q" style="font-size:17px; line-height:1.65; margin-top:14px;">So I built Scan My Shadow to make it simple for anyone to check their digital exposure, understand what they find, and take action.</p>
-        <div class="founder-meta">
-          <div class="founder-sign"></div>
-          <div class="founder-name"><b>Siddharth</b>Founder, Scan My Shadow</div>
         </div>
       </div>
     </div>
@@ -898,6 +942,12 @@
             <a href="https://legal.scanmyshadow.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>
             <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a>
           </div>
+        <div class="foot-col">
+          <h4>Company</h4>
+          <a href="/about.html">About Us</a>
+          <a href="/contact.html">Contact Us</a>
+          <a href="/tools/digital-exposure-score/">Free Exposure Check</a>
+        </div>
         <div class="foot-col">
           <h4>Support</h4>
           <a href="mailto:support@scanmyshadow.com">support@scanmyshadow.com</a>
