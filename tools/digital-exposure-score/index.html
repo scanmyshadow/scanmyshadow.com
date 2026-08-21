@@ -690,50 +690,67 @@ h1 .accent{color:var(--purple);}
     });
   });
 
-  // CTA → Razorpay
+  // CTA → Razorpay (matches working homepage pattern)
+  var ORDER_CREATE_URL = "https://sms-order-creator-180556751015.asia-south1.run.app";
+  var FORM_URL = "https://scan.scanmyshadow.com/form.html";
+  var paymentInProgress = false;
+
   document.getElementById('ctaBtn').addEventListener('click', function(){
     var btn = this;
-    if(btn.disabled) return;
+    if(paymentInProgress) return;
+    paymentInProgress = true;
 
     if(typeof gtag === 'function'){
       gtag('event', 'exposure_score_cta_click', { score: window._desScore || 0 });
     }
 
-    // Loading state
-    btn.disabled = true;
-    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" style="animation:spin 0.9s linear infinite"><path d="M12 2a10 10 0 0 1 10 10"/></svg> Setting up payment…';
+    var originalHtml = btn.innerHTML;
+    btn.innerHTML = 'Processing…';
 
-    fetch('https://sms-order-creator-180556751015.asia-south1.run.app/create-order', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ source: 'exposure-tool' })
-    })
-    .then(function(r){ return r.json(); })
-    .then(function(data){
-      btn.disabled = false;
-      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg> Scan My Digital Footprint';
-      if(data.id){
+    fetch(ORDER_CREATE_URL, { method: 'POST' })
+      .then(function(res){
+        if(!res.ok) throw new Error('Order creation failed');
+        return res.json();
+      })
+      .then(function(data){
         var options = {
-          key: 'rzp_live_TRXTioe7XsHdET',
-          order_id: data.id,
+          key: data.key_id,
+          amount: data.amount,
+          currency: data.currency,
+          order_id: data.order_id,
           name: 'Scan My Shadow',
-          description: 'Privacy Scan — Phone + Email',
+          description: 'Privacy Scan',
+          theme: { color: '#7B5CFA' },
           handler: function(response){
-            window.location.href = 'https://scan.scanmyshadow.com/form.html?order_id=' + response.razorpay_order_id + '&payment_id=' + response.razorpay_payment_id;
+            var params = new URLSearchParams({
+              order_id: response.razorpay_order_id,
+              payment_id: response.razorpay_payment_id
+            });
+            window.location.href = FORM_URL + '?' + params.toString();
           },
-          theme: { color: '#7B5CFA' }
+          modal: {
+            ondismiss: function(){
+              paymentInProgress = false;
+              btn.innerHTML = originalHtml;
+            }
+          }
         };
         var rzp = new Razorpay(options);
+        rzp.on('payment.failed', function(){
+          paymentInProgress = false;
+          btn.innerHTML = originalHtml;
+          alert('Payment could not be completed. Please try again.');
+        });
         rzp.open();
-      } else {
-        window.open('https://rzp.io/rzp/dtBO5N4', '_blank');
-      }
-    })
-    .catch(function(){
-      btn.disabled = false;
-      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg> Scan My Digital Footprint';
-      window.open('https://rzp.io/rzp/dtBO5N4', '_blank');
-    });
+        paymentInProgress = false;
+        btn.innerHTML = originalHtml;
+      })
+      .catch(function(err){
+        console.error(err);
+        paymentInProgress = false;
+        btn.innerHTML = originalHtml;
+        alert('Could not start payment right now. Please try again in a moment.');
+      });
   });
 
   // retake
