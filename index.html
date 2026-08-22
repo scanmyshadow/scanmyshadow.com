@@ -806,8 +806,9 @@
         <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Private</span>
       </div>
 
-      <div class="scan-trust">
-  Your phone and email are used only to run your scan. We do not sell or share your information, and scan data is automatically deleted immediately after your report is generated.
+      <div class="scan-trust" style="display:flex; align-items:flex-start; gap:8px; font-size:13px; color:var(--ink-soft); line-height:1.55; margin-top:14px; text-align:left;">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px; height:15px; flex-shrink:0; margin-top:2px;"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  Your phone and email are used only to run your scan. We do not sell or share your information. Scan data is deleted immediately after your report is delivered.
 </div>
     </div>
 
@@ -863,11 +864,31 @@
 <h2 style="max-width:640px;">Know Your Digital Exposure</h2>
 <p style="margin-top:18px;">Scan My Shadow uses OSINT Industries' intelligence infrastructure to search across a broad network of online sources.</p>
 
-<div class="source-categories" style="display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-top:18px;">
-  <span>Accounts &amp; profiles</span>
-  <span>Data leaks</span>
-  <span>Public activity</span>
-  <span>Online services</span>
+<div class="source-categories" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; margin-top:18px; text-align:left;">
+  <div style="display:flex; align-items:center; gap:12px; background:var(--card-bg,#fff); border:1px solid var(--line); border-radius:12px; padding:14px 16px;">
+    <div style="width:34px; height:34px; border-radius:8px; background:rgba(123,92,250,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px; height:17px;"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a7 7 0 0 1 7-7h2a7 7 0 0 1 7 7v1"/></svg>
+    </div>
+    <span style="font-size:14px; font-weight:500; color:var(--ink);">Accounts &amp; profiles</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:12px; background:var(--card-bg,#fff); border:1px solid var(--line); border-radius:12px; padding:14px 16px;">
+    <div style="width:34px; height:34px; border-radius:8px; background:rgba(123,92,250,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px; height:17px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9.5 12.5 11 14l3.5-3.5"/></svg>
+    </div>
+    <span style="font-size:14px; font-weight:500; color:var(--ink);">Data leaks</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:12px; background:var(--card-bg,#fff); border:1px solid var(--line); border-radius:12px; padding:14px 16px;">
+    <div style="width:34px; height:34px; border-radius:8px; background:rgba(123,92,250,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px; height:17px;"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+    </div>
+    <span style="font-size:14px; font-weight:500; color:var(--ink);">Public activity</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:12px; background:var(--card-bg,#fff); border:1px solid var(--line); border-radius:12px; padding:14px 16px;">
+    <div style="width:34px; height:34px; border-radius:8px; background:rgba(123,92,250,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px; height:17px;"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>
+    </div>
+    <span style="font-size:14px; font-weight:500; color:var(--ink);">Online services</span>
+  </div>
 </div>
 
 <p style="margin-top:18px;">The exact sources searched depend on whether you check an email, phone number, or both.</p>
