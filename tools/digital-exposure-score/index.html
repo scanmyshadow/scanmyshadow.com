@@ -20,7 +20,6 @@
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
 </script>
-<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -71,7 +70,7 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
   --ok:#16A34A;--warn:#D97706;--danger:#DC2626;
   --shadow-sm:0 2px 8px rgba(43,29,102,0.05);
   --shadow-md:0 14px 40px rgba(43,29,102,0.09);
-  --shadow-lg:0 30px 80px rgba(43,29,102,0.14);
+  --shadow-lg:0 26px 68px rgba(43,29,102,0.13);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
@@ -127,9 +126,9 @@ h1 .accent{color:var(--purple);}
   display:flex;align-items:center;gap:12px;width:100%;text-align:left;
   background:var(--bg-tint);border:1.5px solid var(--line);border-radius:14px;
   padding:15px 18px;font-family:'Inter',sans-serif;font-size:14.5px;color:var(--ink);
-  cursor:pointer;transition:all 0.2s ease;line-height:1.4;
+  cursor:pointer;transition:border-color 0.18s ease,background 0.18s ease,transform 0.15s ease;line-height:1.4;
 }
-.opt-btn:hover{border-color:var(--purple);background:var(--purple-mist);}
+.opt-btn:hover{border-color:var(--purple);background:var(--purple-mist);transform:translateY(-1px);}
 .opt-btn.selected{border-color:var(--purple);background:var(--purple-mist);font-weight:600;}
 .opt-radio{
   width:20px;height:20px;border-radius:50%;border:2px solid var(--line);flex-shrink:0;
@@ -149,10 +148,10 @@ h1 .accent{color:var(--purple);}
 .btn-back:hover{background:var(--line-soft);color:var(--ink);}
 .btn-next{
   background:var(--purple);color:#fff;
-  box-shadow:0 8px 20px rgba(123,92,250,0.28);
+  box-shadow:0 8px 20px rgba(123,92,250,0.26);
 }
-.btn-next:hover{background:var(--purple-deep);transform:translateY(-1px);}
-.btn-next:disabled{opacity:0.4;pointer-events:none;transform:none;}
+.btn-next:hover{background:var(--purple-deep);transform:translateY(-1px);box-shadow:0 10px 24px rgba(123,92,250,0.34);}
+.btn-next:disabled{opacity:0.4;pointer-events:none;transform:none;box-shadow:none;}
 .btn svg{width:16px;height:16px;}
 
 /* ===== RESULTS ===== */
@@ -216,7 +215,7 @@ h1 .accent{color:var(--purple);}
   border:1px solid var(--line);background:#fff;font-family:'Inter',sans-serif;
   font-size:13px;font-weight:500;color:var(--ink-soft);cursor:pointer;transition:all 0.2s ease;
 }
-.share-btn:hover{border-color:var(--purple);color:var(--purple);}
+.share-btn:hover{border-color:var(--purple);color:var(--purple);transform:translateY(-1px);}
 .share-btn svg{width:16px;height:16px;}
 .share-btn.copied{border-color:var(--ok);color:var(--ok);}
 
@@ -237,13 +236,13 @@ h1 .accent{color:var(--purple);}
 .cta-scope{font-size:13px;color:#A5A2C0;margin-bottom:22px;}
 .btn-cta{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  width:100%;padding:15px;border:none;border-radius:13px;
+  width:100%;padding:15px;border:none;border-radius:13px;text-decoration:none;
   background:var(--purple);color:#fff;font-family:'Inter',sans-serif;
   font-size:15px;font-weight:600;cursor:pointer;
-  box-shadow:0 10px 24px rgba(123,92,250,0.32);
-  transition:background 0.2s ease,transform 0.15s ease;
+  box-shadow:0 10px 24px rgba(123,92,250,0.3);
+  transition:background 0.2s ease,transform 0.15s ease,box-shadow 0.2s ease;
 }
-.btn-cta:hover{background:var(--purple-deep);transform:translateY(-1px);}
+.btn-cta:hover{background:var(--purple-deep);transform:translateY(-1px);box-shadow:0 14px 30px rgba(123,92,250,0.4);}
 .btn-cta svg{width:17px;height:17px;}
 .cta-note{display:flex;align-items:center;justify-content:center;gap:14px;font-size:11.5px;color:#A5A2C0;margin-top:14px;flex-wrap:wrap;}
 .cta-note span{display:inline-flex;align-items:center;gap:5px;}
@@ -274,36 +273,10 @@ h1 .accent{color:var(--purple);}
 .site-footer a{color:var(--purple);text-decoration:none;}
 .site-footer a:hover{text-decoration:underline;}
 
-/* ===== CONSENT MODAL ===== */
-.overlay{position:fixed;inset:0;background:rgba(21,18,31,0.5);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:200;padding:24px;}
-.overlay.open{display:flex;}
-.modal{background:#fff;border-radius:22px;padding:32px 28px;max-width:400px;width:100%;position:relative;box-shadow:var(--shadow-lg);}
-.modal .close{position:absolute;top:16px;right:18px;background:none;border:none;color:var(--ink-faint);cursor:pointer;padding:4px;line-height:0;}
-.modal .close svg{width:18px;height:18px;}
-.modal .lock{width:50px;height:50px;border-radius:14px;background:var(--purple-mist);display:flex;align-items:center;justify-content:center;color:var(--purple);margin-bottom:18px;}
-.modal .lock svg{width:24px;height:24px;}
-.modal h3{font-family:'Space Grotesk';font-weight:600;font-size:20px;margin-bottom:8px;}
-.modal p.msub{font-size:13.5px;color:var(--ink-soft);margin-bottom:20px;line-height:1.55;}
-.modal-checklist{list-style:none;padding:0;margin:0 0 18px;border-top:1px solid var(--line);}
-.modal-checklist li{display:flex;gap:10px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--ink-soft);line-height:1.5;}
-.modal-checklist li svg{width:15px;height:15px;color:var(--purple);flex-shrink:0;margin-top:2px;}
-.modal-check{display:flex;align-items:flex-start;gap:10px;margin:10px 0;cursor:pointer;}
-.modal-check input{width:16px;height:16px;margin-top:2px;accent-color:var(--purple);flex-shrink:0;}
-.modal-check span{font-size:12.5px;color:var(--ink-soft);line-height:1.5;}
-.modal-check span a{color:var(--purple);text-decoration:none;}
-.modal-proceed{display:block;width:100%;margin-top:16px;padding:14px;border:none;border-radius:13px;background:var(--purple);color:#fff;font-family:'Inter';font-size:14.5px;font-weight:600;cursor:pointer;opacity:0.4;pointer-events:none;transition:opacity .2s ease,background .2s ease;}
-.modal-proceed.enabled{opacity:1;pointer-events:auto;}
-.modal-proceed.enabled:hover{background:var(--purple-deep);}
-.modal-cancel{display:block;text-align:center;margin-top:12px;color:var(--ink-faint);font-size:12.5px;cursor:pointer;}
-.modal-razorpay{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:14px;opacity:0.6;}
-.modal-razorpay span{font-size:12px;color:var(--ink-faint);}
-.modal-razorpay svg{width:15px;height:15px;}
-
 /* reduced motion */
 @media(prefers-reduced-motion:reduce){
   .progress-fill,.score-ring-fill,.opt-btn,.btn,.share-btn{transition:none!important;}
 }
-@keyframes spin{to{transform:rotate(360deg);}}
 </style>
 </head>
 <body>
@@ -407,10 +380,10 @@ h1 .accent{color:var(--purple);}
           <p>The free score is only an estimate based on your answers. Scan your phone number and email across 1,500+ sources and receive a full digital exposure report.</p>
           <div class="cta-price">₹498<span>one-time</span></div>
           <div class="cta-scope">Phone + Email scan · Report in minutes</div>
-          <button class="btn-cta" id="ctaBtn">
+          <a class="btn-cta" id="ctaBtn" href="https://www.scanmyshadow.com/#pricing">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
             Scan My Digital Footprint
-          </button>
+          </a>
           <div class="cta-note">
             <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Deleted after delivery</span>
             <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg> 100% private</span>
@@ -442,31 +415,6 @@ h1 .accent{color:var(--purple);}
   </div>
 
 </main>
-
-<!-- CONSENT MODAL -->
-<div class="overlay" id="overlay">
-  <div class="modal">
-    <button class="close" onclick="closeModal()" aria-label="Close">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
-    </button>
-    <div class="lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
-    <h3>Before your scan starts</h3>
-    <p class="msub">A quick confirmation so your report reaches the right place.</p>
-    <ul class="modal-checklist">
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> You'll enter your details on a secure form right after payment.</li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> This scan is for your own details, or for someone who's asked you to help.</li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> The phone number and email you submit are deleted immediately after your report is delivered.</li>
-    </ul>
-    <label class="modal-check"><input type="checkbox" id="agree1" onchange="modalCheck()"><span>I have read and agree to the above.</span></label>
-    <label class="modal-check"><input type="checkbox" id="agree2" onchange="modalCheck()"><span>I agree to the <a href="https://legal.scanmyshadow.com/terms.html" target="_blank" rel="noopener">Terms</a>, <a href="https://legal.scanmyshadow.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>, and <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a>.</span></label>
-    <button class="modal-proceed" id="proceedBtn" onclick="initiatePayment()">Continue to secure payment</button>
-    <span class="modal-cancel" onclick="closeModal()">Cancel</span>
-    <div class="modal-razorpay">
-      <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
-      <span>Powered by Razorpay</span>
-    </div>
-  </div>
-</div>
 
 <!-- FOOTER -->
 <footer class="site-footer">
@@ -740,87 +688,11 @@ h1 .accent{color:var(--purple);}
     });
   });
 
-  // CTA → open consent modal first
-  var ORDER_CREATE_URL = "https://sms-order-creator-180556751015.asia-south1.run.app";
-  var FORM_URL = "https://scan.scanmyshadow.com/form.html";
-  var paymentInProgress = false;
-  var overlay = document.getElementById('overlay');
-
-  function openModal(){ overlay.classList.add('open'); }
-  function closeModal(){
-    overlay.classList.remove('open');
-    document.getElementById('agree1').checked = false;
-    document.getElementById('agree2').checked = false;
-    document.getElementById('proceedBtn').classList.remove('enabled');
-  }
-  window.closeModal = closeModal;
-  overlay.addEventListener('click', function(e){ if(e.target===overlay) closeModal(); });
-
-  function modalCheck(){
-    var a = document.getElementById('agree1').checked;
-    var b = document.getElementById('agree2').checked;
-    document.getElementById('proceedBtn').classList.toggle('enabled', a&&b);
-  }
-  window.modalCheck = modalCheck;
-
-  window.initiatePayment = function(){
-    var btn = document.getElementById('proceedBtn');
-    if(!btn.classList.contains('enabled') || paymentInProgress) return;
-    paymentInProgress = true;
-    var originalText = btn.textContent;
-    btn.textContent = 'Processing...';
-
-    fetch(ORDER_CREATE_URL, { method: 'POST' })
-      .then(function(res){
-        if(!res.ok) throw new Error('Order creation failed');
-        return res.json();
-      })
-      .then(function(data){
-        var options = {
-          key: data.key_id,
-          amount: data.amount,
-          currency: data.currency,
-          order_id: data.order_id,
-          name: 'Scan My Shadow',
-          description: 'Privacy Scan',
-          theme: { color: '#7B5CFA' },
-          handler: function(response){
-            var params = new URLSearchParams({
-              order_id: response.razorpay_order_id,
-              payment_id: response.razorpay_payment_id
-            });
-            window.location.href = FORM_URL + '?' + params.toString();
-          },
-          modal: {
-            ondismiss: function(){
-              paymentInProgress = false;
-              btn.textContent = originalText;
-            }
-          }
-        };
-        var rzp = new Razorpay(options);
-        rzp.on('payment.failed', function(){
-          paymentInProgress = false;
-          btn.textContent = originalText;
-          alert('Payment could not be completed. Please try again.');
-        });
-        rzp.open();
-        paymentInProgress = false;
-        btn.textContent = originalText;
-      })
-      .catch(function(err){
-        console.error(err);
-        paymentInProgress = false;
-        btn.textContent = originalText;
-        alert('Could not start payment right now. Please try again in a moment.');
-      });
-  };
-
+  // CTA click tracking (link navigates to #pricing directly)
   document.getElementById('ctaBtn').addEventListener('click', function(){
     if(typeof gtag === 'function'){
       gtag('event', 'exposure_score_cta_click', { score: window._desScore || 0 });
     }
-    openModal();
   });
 
   // retake
@@ -842,8 +714,6 @@ h1 .accent{color:var(--purple);}
   render();
 })();
 </script>
-
-
 
 </body>
 </html>
