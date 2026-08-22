@@ -94,7 +94,7 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
   --ok:#16A34A;--mild:#65A30D;--warn:#D97706;--danger:#DC2626;
   --shadow-sm:0 2px 8px rgba(43,29,102,0.05);
   --shadow-md:0 14px 40px rgba(43,29,102,0.09);
-  --shadow-lg:0 30px 80px rgba(43,29,102,0.14);
+  --shadow-lg:0 26px 68px rgba(43,29,102,0.13);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
@@ -162,9 +162,9 @@ h1 .accent{color:var(--purple);}
   display:flex;align-items:center;gap:12px;width:100%;text-align:left;
   background:var(--bg-tint);border:1.5px solid var(--line);border-radius:14px;
   padding:15px 18px;font-family:'Inter',sans-serif;font-size:14.5px;color:var(--ink);
-  cursor:pointer;transition:all 0.2s ease;line-height:1.4;
+  cursor:pointer;transition:border-color 0.18s ease,background 0.18s ease,transform 0.15s ease;line-height:1.4;
 }
-.opt-btn:hover{border-color:var(--purple);background:var(--purple-mist);}
+.opt-btn:hover{border-color:var(--purple);background:var(--purple-mist);transform:translateY(-1px);}
 .opt-btn.selected{border-color:var(--purple);background:var(--purple-mist);font-weight:600;}
 .opt-radio{
   width:20px;height:20px;border-radius:50%;border:2px solid var(--line);flex-shrink:0;
@@ -184,10 +184,10 @@ h1 .accent{color:var(--purple);}
 .btn-back:hover{background:var(--line-soft);color:var(--ink);}
 .btn-next{
   background:var(--purple);color:#fff;
-  box-shadow:0 8px 20px rgba(123,92,250,0.28);
+  box-shadow:0 8px 20px rgba(123,92,250,0.26);
 }
-.btn-next:hover{background:var(--purple-deep);transform:translateY(-1px);}
-.btn-next:disabled{opacity:0.4;pointer-events:none;transform:none;}
+.btn-next:hover{background:var(--purple-deep);transform:translateY(-1px);box-shadow:0 10px 24px rgba(123,92,250,0.34);}
+.btn-next:disabled{opacity:0.4;pointer-events:none;transform:none;box-shadow:none;}
 .btn svg{width:16px;height:16px;}
 
 /* ===== RESULTS ===== */
@@ -255,7 +255,7 @@ h1 .accent{color:var(--purple);}
   border:1px solid var(--line);background:#fff;font-family:'Inter',sans-serif;
   font-size:13px;font-weight:500;color:var(--ink-soft);cursor:pointer;transition:all 0.2s ease;
 }
-.share-btn:hover{border-color:var(--purple);color:var(--purple);}
+.share-btn:hover{border-color:var(--purple);color:var(--purple);transform:translateY(-1px);}
 .share-btn svg{width:16px;height:16px;}
 .share-btn.copied{border-color:var(--ok);color:var(--ok);}
 
@@ -276,10 +276,10 @@ h1 .accent{color:var(--purple);}
   width:100%;padding:15px;border:none;border-radius:13px;text-decoration:none;
   background:var(--purple);color:#fff;font-family:'Inter',sans-serif;
   font-size:15px;font-weight:600;cursor:pointer;
-  box-shadow:0 10px 24px rgba(123,92,250,0.32);
-  transition:background 0.2s ease,transform 0.15s ease;
+  box-shadow:0 10px 24px rgba(123,92,250,0.3);
+  transition:background 0.2s ease,transform 0.15s ease,box-shadow 0.2s ease;
 }
-.btn-cta:hover{background:var(--purple-deep);transform:translateY(-1px);}
+.btn-cta:hover{background:var(--purple-deep);transform:translateY(-1px);box-shadow:0 14px 30px rgba(123,92,250,0.4);}
 .btn-cta svg{width:17px;height:17px;}
 .cta-note{display:flex;align-items:center;justify-content:center;gap:14px;font-size:11.5px;color:#A5A2C0;margin-top:14px;flex-wrap:wrap;}
 .cta-note span{display:inline-flex;align-items:center;gap:5px;}
@@ -440,12 +440,12 @@ h1 .accent{color:var(--purple);}
           <div class="cta-eyebrow">Go Beyond the Estimate</div>
           <h2>Want to see what may actually be exposed?</h2>
           <p>This checker gives an estimate based on your habits. Scan My Shadow checks your real phone number across 1,500+ breach and public data sources — with a plain-language report in minutes.</p>
-          <a class="btn-cta" href="https://www.scanmyshadow.com/phone-number-exposure-check/" id="ctaBtn">
+          <a class="btn-cta" href="https://www.scanmyshadow.com/#pricing" id="ctaBtn">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
             Check Your Actual Phone Exposure
           </a>
           <div class="cta-note">
-            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Data purged in 96 hrs</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Deleted after delivery</span>
             <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg> Answers stay in your browser</span>
           </div>
         </div>
