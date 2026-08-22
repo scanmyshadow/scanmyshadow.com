@@ -566,8 +566,8 @@
     .mya-panel{transition:none;}
   }
 </style>
-
-  /* ============ REAL REPORT PROOF — V1 ============ */
+<style>
+/* ============ REAL REPORT PROOF — V1 ============ */
   .real-proof{position:relative;}
   .real-proof-head{text-align:center;max-width:680px;margin:0 auto 38px;}
   .real-proof-head .eyebrow{display:block;margin-bottom:13px;}
@@ -665,6 +665,7 @@
     .proof-stat .num{font-size:25px;}
   }
 
+</style>
 </head>
 <body>
 
@@ -909,7 +910,6 @@
   </div>
 </section>
 
-
 <!-- ============ REAL REPORT PROOF ============ -->
 <section class="block section-line reveal real-proof">
   <div class="wrap">
@@ -952,10 +952,10 @@
         </div>
 
         <div class="proof-stats">
-          <div class="proof-stat"><div class="num accent">22</div><div class="label">services where the email was registered</div></div>
-          <div class="proof-stat"><div class="num">26</div><div class="label">historical breach sources found</div></div>
-          <div class="proof-stat"><div class="num">114</div><div class="label">activity events returned</div></div>
-          <div class="proof-stat"><div class="num">71</div><div class="label">location records returned</div></div>
+          <div class="proof-stat"><div class="num accent">22</div><div class="label">accounts found</div></div>
+          <div class="proof-stat"><div class="num">26</div><div class="label">past data leaks found</div></div>
+          <div class="proof-stat"><div class="num">114</div><div class="label">activity found</div></div>
+          <div class="proof-stat"><div class="num">71</div><div class="label">locations found</div></div>
         </div>
 
         <div class="proof-grid">
@@ -965,8 +965,8 @@
             <div class="finding">
               <span class="finding-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7v5c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V7l-8-4z"/><path d="M12 8v4M12 16h.01"/></svg></span>
               <div>
-                <div class="finding-title">Historical breach exposure</div>
-                <div class="finding-copy">The report found the email in multiple older breach records containing different types of account data.</div>
+                <div class="finding-title">Past data leaks</div>
+                <div class="finding-copy">The report found this email in several past data leaks, with different types of personal information exposed.</div>
                 <div class="source-chips"><span class="source-chip">Zomato</span><span class="source-chip">Yatra</span><span class="source-chip">Canva</span><span class="source-chip">and more</span></div>
               </div>
             </div>
@@ -1028,7 +1028,7 @@
           <div class="proof-stat"><div class="num accent">8</div><div class="label">detailed matches returned</div></div>
           <div class="proof-stat"><div class="num">1</div><div class="label">registered service found</div></div>
           <div class="proof-stat"><div class="num">0</div><div class="label">breach sources in this scan</div></div>
-          <div class="proof-stat"><div class="num">3</div><div class="label">activity events returned</div></div>
+          <div class="proof-stat"><div class="num">3</div><div class="label">activity found</div></div>
         </div>
 
         <div class="phone-clean">
@@ -1064,27 +1064,8 @@
   </div>
 </section>
 
-<script>
-(function(){
-  var emailTab = document.getElementById('realTabEmail');
-  var phoneTab = document.getElementById('realTabPhone');
-  var emailPanel = document.getElementById('realPanelEmail');
-  var phonePanel = document.getElementById('realPanelPhone');
-  if(!emailTab || !phoneTab) return;
 
-  function setReportTab(which){
-    var isEmail = which === 'email';
-    emailTab.classList.toggle('active', isEmail);
-    phoneTab.classList.toggle('active', !isEmail);
-    emailTab.setAttribute('aria-selected', isEmail ? 'true' : 'false');
-    phoneTab.setAttribute('aria-selected', isEmail ? 'false' : 'true');
-    emailPanel.classList.toggle('active', isEmail);
-    phonePanel.classList.toggle('active', !isEmail);
-  }
-  emailTab.addEventListener('click', function(){ setReportTab('email'); });
-  phoneTab.addEventListener('click', function(){ setReportTab('phone'); });
-})();
-</script>
+
 
 <!-- ============ PRICING ============ -->
 <section class="block section-line reveal" id="pricing">
@@ -1577,5 +1558,26 @@
   })();
 </script>
 
+<script>
+(function(){
+  var emailTab = document.getElementById('realTabEmail');
+  var phoneTab = document.getElementById('realTabPhone');
+  var emailPanel = document.getElementById('realPanelEmail');
+  var phonePanel = document.getElementById('realPanelPhone');
+  if(!emailTab || !phoneTab) return;
+
+  function setReportTab(which){
+    var isEmail = which === 'email';
+    emailTab.classList.toggle('active', isEmail);
+    phoneTab.classList.toggle('active', !isEmail);
+    emailTab.setAttribute('aria-selected', isEmail ? 'true' : 'false');
+    phoneTab.setAttribute('aria-selected', isEmail ? 'false' : 'true');
+    emailPanel.classList.toggle('active', isEmail);
+    phonePanel.classList.toggle('active', !isEmail);
+  }
+  emailTab.addEventListener('click', function(){ setReportTab('email'); });
+  phoneTab.addEventListener('click', function(){ setReportTab('phone'); });
+})();
+</script>
 </body>
 </html>
