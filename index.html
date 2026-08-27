@@ -187,7 +187,7 @@
 
   /* ============ HERO ============ */
   .hero{position:relative; padding:64px 0 88px; overflow:hidden;}
-  #lineCanvas{position:absolute; inset:0; z-index:0; opacity:0.5; pointer-events:none;}
+  #lineCanvas{position:absolute; inset:0; z-index:2; opacity:1; pointer-events:none;}
   .hero-glow{position:absolute; top:-120px; left:50%; transform:translateX(-50%); width:760px; height:520px; background:radial-gradient(ellipse at center, rgba(123,92,250,0.16), transparent 62%); z-index:0; pointer-events:none;}
   .hero-inner{position:relative; z-index:3; text-align:center;}
   .hero-badge{
@@ -237,15 +237,17 @@
   /* floating cards */
   .float-card{
     position:absolute; z-index:4; background:#fff; border:1px solid var(--line);
-    border-radius:15px; padding:13px 15px; box-shadow:var(--shadow-md); width:190px;
+    border-radius:15px; overflow:hidden; box-shadow:var(--shadow-md); width:190px;
     animation:floaty 7s ease-in-out infinite;
   }
-  .float-card .fc-top{display:flex; align-items:center; gap:9px; position:relative; padding-right:34px;}
+  .float-card.fc-report{padding:13px 15px;}
+  .float-card .fc-banner{width:100%; height:78px; object-fit:cover; display:block;}
+  .float-card .fc-body{padding:11px 15px 13px;}
+  .float-card .fc-top{display:flex; align-items:center; gap:9px;}
   .float-card .fc-ic{width:30px; height:30px; border-radius:9px; background:var(--purple-mist); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:var(--purple);}
   .float-card .fc-ic svg{width:16px; height:16px;}
   .float-card .fc-title{font-size:13px; font-weight:600; line-height:1.2;}
   .float-card .fc-desc{font-size:11.5px; color:var(--ink-soft); line-height:1.4; margin-top:7px;}
-  .fc-thumb{position:absolute; top:-3px; right:-5px; width:32px; height:32px; border-radius:9px; object-fit:cover; box-shadow:0 0 0 2px #fff, var(--shadow-sm);}
   .fc-badge{display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:600; padding:3px 8px; border-radius:999px;}
   .fc-badge.ok{color:var(--ok); background:rgba(22,163,74,0.1);}
   .fc-badge.warn{color:var(--warn); background:rgba(217,119,6,0.1);}
@@ -267,22 +269,24 @@
 
   @media(max-width:1120px){ .fc-1,.fc-2,.fc-3,.fc-4{display:none;} }
 
-  /* mobile collage (offset, reversely.ai-style cluster above the scan box) */
-  .mobile-collage{display:none; position:relative; height:200px; max-width:380px; margin:26px auto 6px;}
+  /* mobile collage (offset, reversely.ai-style cluster, sits BELOW the scan box CTA) */
+  .mobile-collage{display:none; position:relative; height:220px; max-width:380px; margin:30px auto 10px;}
   @media(max-width:1120px){ .mobile-collage{display:block;} }
   .mobile-collage .fc-mini{
     position:absolute; background:#fff; border:1px solid var(--line); border-radius:13px;
-    padding:9px 11px; box-shadow:var(--shadow-md); width:145px;
+    overflow:hidden; box-shadow:var(--shadow-md); width:150px;
   }
-  .mobile-collage .fc-mini .fc-top{display:flex; align-items:center; gap:7px; position:relative; padding-right:30px;}
-  .mobile-collage .fc-mini .fc-ic{width:24px; height:24px; border-radius:7px; background:var(--purple-mist); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:var(--purple);}
-  .mobile-collage .fc-mini .fc-ic svg{width:13px; height:13px;}
+  .mobile-collage .fc-mini.m4{padding:10px 12px;}
+  .mobile-collage .fc-mini .fc-banner{width:100%; height:58px; object-fit:cover; display:block;}
+  .mobile-collage .fc-mini .fc-body{padding:8px 10px 10px;}
+  .mobile-collage .fc-mini .fc-top{display:flex; align-items:center; gap:7px;}
+  .mobile-collage .fc-mini .fc-ic{width:22px; height:22px; border-radius:7px; background:var(--purple-mist); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:var(--purple);}
+  .mobile-collage .fc-mini .fc-ic svg{width:12px; height:12px;}
   .mobile-collage .fc-mini .fc-title{font-size:11.5px; font-weight:600; line-height:1.2;}
-  .mobile-collage .fc-mini .fc-thumb{position:absolute; top:-4px; right:-6px; width:28px; height:28px; border-radius:8px; object-fit:cover; box-shadow:0 0 0 2px #fff, var(--shadow-sm);}
   .mobile-collage .fc-mini.m1{top:0; left:2%; z-index:2; transform:rotate(-3deg);}
-  .mobile-collage .fc-mini.m2{top:14px; right:4%; z-index:3; transform:rotate(2.5deg); width:135px;}
-  .mobile-collage .fc-mini.m3{bottom:18px; left:14%; z-index:1; transform:rotate(2deg);}
-  .mobile-collage .fc-mini.m4{bottom:0; right:0; z-index:4; transform:rotate(-2deg); width:150px;}
+  .mobile-collage .fc-mini.m2{top:16px; right:4%; z-index:3; transform:rotate(2.5deg); width:140px;}
+  .mobile-collage .fc-mini.m3{bottom:20px; left:16%; z-index:1; transform:rotate(2deg);}
+  .mobile-collage .fc-mini.m4{bottom:0; right:2%; z-index:4; transform:rotate(-2deg); width:150px;}
   .mobile-collage .fc-mini.m4 .rrow{display:flex; align-items:center; justify-content:space-between; padding:4px 0; border-bottom:1px solid var(--line-soft); font-size:10.5px;}
   .mobile-collage .fc-mini.m4 .rrow:last-child{border-bottom:0;}
   .mobile-collage .fc-mini.m4 .rlabel{color:var(--ink-soft);}
@@ -771,58 +775,32 @@
     <p style="font-size:13px; color:var(--ink-faint); margin-top:14px; letter-spacing:0.02em;">₹498 • Phone + Email • Automated • No passwords required</p>
   </div>
 
-  <!-- mobile collage: offset card cluster above the scan box -->
-  <div class="mobile-collage">
-    <div class="fc-mini m1">
-      <div class="fc-top">
-        <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-        <div class="fc-title">We don't keep your data</div>
-        <img class="fc-thumb" src="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="" loading="lazy">
-      </div>
-    </div>
-    <div class="fc-mini m2">
-      <div class="fc-top">
-        <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div>
-        <div class="fc-title">1,500+ sources</div>
-        <img class="fc-thumb" src="https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="" loading="lazy">
-      </div>
-    </div>
-    <div class="fc-mini m3">
-      <div class="fc-top">
-        <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div>
-        <div class="fc-title">DPDP-aligned</div>
-        <img class="fc-thumb" src="https://images.pexels.com/photos/7821913/pexels-photo-7821913.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="" loading="lazy">
-      </div>
-    </div>
-    <div class="fc-mini m4">
-      <div class="fc-top" style="padding-right:0; margin-bottom:6px;"><div class="fc-title">Sample report</div><span class="fc-badge danger" style="margin-left:auto; font-size:10px; padding:2px 7px;">High</span></div>
-      <div class="rrow"><span class="rlabel">Zomato</span><span class="rval">Email exposed</span></div>
-      <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
-    </div>
-  </div>
-
   <div class="hero-stage">
     <!-- floating cards: left -->
     <div class="float-card fc-1">
-      <div class="fc-top">
-        <div class="fc-ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      <img class="fc-banner" src="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
+        <div class="fc-top">
+          <div class="fc-ic">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div><div class="fc-title">Deleted After Your Scan.</div></div>
         </div>
-        <div><div class="fc-title">Deleted After Your Scan.</div></div>
-        <img class="fc-thumb" src="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop" alt="" loading="lazy">
+        <div class="fc-desc">Your phone number and email are deleted immediately after your report is sent.</div>
       </div>
-      <div class="fc-desc">Your phone number and email are deleted immediately after your report is sent.</div>
     </div>
 
     <div class="float-card fc-2">
-      <div class="fc-top">
-        <div class="fc-ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      <img class="fc-banner" src="https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
+        <div class="fc-top">
+          <div class="fc-ic">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+          </div>
+          <div><div class="fc-title">1,500+ sources</div></div>
         </div>
-        <div><div class="fc-title">1,500+ sources</div></div>
-        <img class="fc-thumb" src="https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop" alt="" loading="lazy">
+        <div class="fc-desc">Breaches, leaks and exposed records — checked in one pass.</div>
       </div>
-      <div class="fc-desc">Breaches, leaks and exposed records — checked in one pass.</div>
     </div>
 
     <!-- scan box -->
@@ -859,14 +837,16 @@
 
     <!-- floating cards: right -->
     <div class="float-card fc-3">
-      <div class="fc-top">
-        <div class="fc-ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg>
+      <img class="fc-banner" src="https://images.pexels.com/photos/7821913/pexels-photo-7821913.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
+        <div class="fc-top">
+          <div class="fc-ic">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg>
+          </div>
+          <div><div class="fc-title">DPDP-aligned</div></div>
         </div>
-        <div><div class="fc-title">DPDP-aligned</div></div>
-        <img class="fc-thumb" src="https://images.pexels.com/photos/7821913/pexels-photo-7821913.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop" alt="" loading="lazy">
+        <div class="fc-desc">Consent-first and built for India's data-protection norms.</div>
       </div>
-      <div class="fc-desc">Consent-first and built for India's data-protection norms.</div>
     </div>
 
     <div class="float-card fc-report fc-4">
@@ -877,6 +857,42 @@
       <div class="rrow"><span class="rlabel">Zomato</span><span class="rval">Email exposed</span></div>
       <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
       <div class="rrow"><span class="rlabel">Location</span><span class="rval">Rishikesh</span></div>
+    </div>
+  </div>
+
+  <!-- mobile collage: offset card cluster, below the scan box CTA -->
+  <div class="mobile-collage">
+    <div class="fc-mini m1">
+      <img class="fc-banner" src="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg?auto=compress&cs=tinysrgb&w=300&h=160&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
+        <div class="fc-top">
+          <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="fc-title">We don't keep your data</div>
+        </div>
+      </div>
+    </div>
+    <div class="fc-mini m2">
+      <img class="fc-banner" src="https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=300&h=160&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
+        <div class="fc-top">
+          <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div>
+          <div class="fc-title">1,500+ sources</div>
+        </div>
+      </div>
+    </div>
+    <div class="fc-mini m3">
+      <img class="fc-banner" src="https://images.pexels.com/photos/7821913/pexels-photo-7821913.jpeg?auto=compress&cs=tinysrgb&w=300&h=160&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
+        <div class="fc-top">
+          <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div>
+          <div class="fc-title">DPDP-aligned</div>
+        </div>
+      </div>
+    </div>
+    <div class="fc-mini m4">
+      <div class="fc-top" style="margin-bottom:6px;"><div class="fc-title">Sample report</div><span class="fc-badge danger" style="margin-left:auto; font-size:10px; padding:2px 7px;">High</span></div>
+      <div class="rrow"><span class="rlabel">Zomato</span><span class="rval">Email exposed</span></div>
+      <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
     </div>
   </div>
 
@@ -1582,9 +1598,9 @@
         ctx.beginPath();
         ctx.moveTo(p1.x, p1.y);
         ctx.bezierCurveTo(midX, p1.y, midX, p2.y, p2.x, p2.y);
-        ctx.strokeStyle = 'rgba(123,92,250,0.4)';
-        ctx.lineWidth = 1.4*dpr;
-        ctx.setLineDash([5*dpr, 5*dpr]);
+        ctx.strokeStyle = 'rgba(123,92,250,0.6)';
+        ctx.lineWidth = 1.8*dpr;
+        ctx.setLineDash([6*dpr, 5*dpr]);
         ctx.lineDashOffset = dashOffset;
         ctx.stroke();
       });
