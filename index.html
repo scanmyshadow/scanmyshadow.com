@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -187,7 +188,7 @@
 
   /* ============ HERO ============ */
   .hero{position:relative; padding:64px 0 88px; overflow:hidden;}
-  #lineCanvas{position:absolute; inset:0; z-index:2; opacity:1; pointer-events:none;}
+  #lineCanvas{position:absolute; inset:0; z-index:0; opacity:0.5; pointer-events:none;}
   .hero-glow{position:absolute; top:-120px; left:50%; transform:translateX(-50%); width:760px; height:520px; background:radial-gradient(ellipse at center, rgba(123,92,250,0.16), transparent 62%); z-index:0; pointer-events:none;}
   .hero-inner{position:relative; z-index:3; text-align:center;}
   .hero-badge{
@@ -237,12 +238,9 @@
   /* floating cards */
   .float-card{
     position:absolute; z-index:4; background:#fff; border:1px solid var(--line);
-    border-radius:15px; overflow:hidden; box-shadow:var(--shadow-md); width:190px;
-    animation:floaty 7s ease-in-out infinite;
+    border-radius:15px; padding:13px 15px; box-shadow:var(--shadow-md); width:190px;
+    animation:floaty 6s ease-in-out infinite;
   }
-  .float-card.fc-report{padding:13px 15px;}
-  .float-card .fc-banner{width:100%; height:78px; object-fit:cover; display:block;}
-  .float-card .fc-body{padding:11px 15px 13px;}
   .float-card .fc-top{display:flex; align-items:center; gap:9px;}
   .float-card .fc-ic{width:30px; height:30px; border-radius:9px; background:var(--purple-mist); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:var(--purple);}
   .float-card .fc-ic svg{width:16px; height:16px;}
@@ -264,33 +262,19 @@
   .fc-2{bottom:36px; left:calc(50% - 415px);}
   .fc-3{top:14px; right:calc(50% - 430px);}
   .fc-4{bottom:20px; right:calc(50% - 440px);}
-  .fc-2{animation-delay:-2.3s;} .fc-3{animation-delay:-1.1s;} .fc-4{animation-delay:-3.4s;}
-  @keyframes floaty{0%,100%{transform:translateY(0);}50%{transform:translateY(-4px);}}
+  .fc-2{animation-delay:-2s;} .fc-3{animation-delay:-1s;} .fc-4{animation-delay:-3s;}
+  @keyframes floaty{0%,100%{transform:translateY(0);}50%{transform:translateY(-9px);}}
 
-  @media(max-width:1120px){ .fc-1,.fc-2,.fc-3,.fc-4{display:none;} }
+  /* connector stubs (desktop only) */
+  .connector{position:absolute; z-index:3; height:1px; background:linear-gradient(90deg,transparent,rgba(123,92,250,0.4)); }
 
-  /* mobile collage (offset, reversely.ai-style cluster, sits BELOW the scan box CTA) */
-  .mobile-collage{display:none; position:relative; height:220px; max-width:380px; margin:30px auto 10px;}
-  @media(max-width:1120px){ .mobile-collage{display:block;} }
-  .mobile-collage .fc-mini{
-    position:absolute; background:#fff; border:1px solid var(--line); border-radius:13px;
-    overflow:hidden; box-shadow:var(--shadow-md); width:150px;
-  }
-  .mobile-collage .fc-mini.m4{padding:10px 12px;}
-  .mobile-collage .fc-mini .fc-banner{width:100%; height:58px; object-fit:cover; display:block;}
-  .mobile-collage .fc-mini .fc-body{padding:8px 10px 10px;}
-  .mobile-collage .fc-mini .fc-top{display:flex; align-items:center; gap:7px;}
-  .mobile-collage .fc-mini .fc-ic{width:22px; height:22px; border-radius:7px; background:var(--purple-mist); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:var(--purple);}
-  .mobile-collage .fc-mini .fc-ic svg{width:12px; height:12px;}
-  .mobile-collage .fc-mini .fc-title{font-size:11.5px; font-weight:600; line-height:1.2;}
-  .mobile-collage .fc-mini.m1{top:0; left:2%; z-index:2; transform:rotate(-3deg);}
-  .mobile-collage .fc-mini.m2{top:16px; right:4%; z-index:3; transform:rotate(2.5deg); width:140px;}
-  .mobile-collage .fc-mini.m3{bottom:20px; left:16%; z-index:1; transform:rotate(2deg);}
-  .mobile-collage .fc-mini.m4{bottom:0; right:2%; z-index:4; transform:rotate(-2deg); width:150px;}
-  .mobile-collage .fc-mini.m4 .rrow{display:flex; align-items:center; justify-content:space-between; padding:4px 0; border-bottom:1px solid var(--line-soft); font-size:10.5px;}
-  .mobile-collage .fc-mini.m4 .rrow:last-child{border-bottom:0;}
-  .mobile-collage .fc-mini.m4 .rlabel{color:var(--ink-soft);}
-  .mobile-collage .fc-mini.m4 .rval{font-weight:600;}
+  @media(max-width:1120px){ .fc-1,.fc-2,.fc-3,.fc-4{display:none;} .connector{display:none;} }
+
+  /* mobile float strip */
+  .float-strip{display:none; gap:10px; margin-top:26px; overflow-x:auto; padding:4px 24px 4px; -webkit-overflow-scrolling:touch; scrollbar-width:none;}
+  .float-strip::-webkit-scrollbar{display:none;}
+  .float-strip .float-card{position:static; animation:none; flex:0 0 auto; width:180px;}
+  @media(max-width:1120px){ .float-strip{display:flex;} }
 
   /* ============ SECTIONS ============ */
   section.block{padding:88px 0;}
@@ -778,29 +762,23 @@
   <div class="hero-stage">
     <!-- floating cards: left -->
     <div class="float-card fc-1">
-      <img class="fc-banner" src="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
-      <div class="fc-body">
-        <div class="fc-top">
-          <div class="fc-ic">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          <div><div class="fc-title">Deleted After Your Scan.</div></div>
+      <div class="fc-top">
+        <div class="fc-ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
-        <div class="fc-desc">Your phone number and email are deleted immediately after your report is sent.</div>
+        <div><div class="fc-title">Deleted After Your Scan.</div></div>
       </div>
+      <div class="fc-desc">Your phone number and email are deleted immediately after your report is sent.</div>
     </div>
 
     <div class="float-card fc-2">
-      <img class="fc-banner" src="https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
-      <div class="fc-body">
-        <div class="fc-top">
-          <div class="fc-ic">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
-          </div>
-          <div><div class="fc-title">1,500+ sources</div></div>
+      <div class="fc-top">
+        <div class="fc-ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
         </div>
-        <div class="fc-desc">Breaches, leaks and exposed records — checked in one pass.</div>
+        <div><div class="fc-title">1,500+ sources</div></div>
       </div>
+      <div class="fc-desc">Breaches, leaks and exposed records — checked in one pass.</div>
     </div>
 
     <!-- scan box -->
@@ -837,16 +815,13 @@
 
     <!-- floating cards: right -->
     <div class="float-card fc-3">
-      <img class="fc-banner" src="https://images.pexels.com/photos/7821913/pexels-photo-7821913.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
-      <div class="fc-body">
-        <div class="fc-top">
-          <div class="fc-ic">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg>
-          </div>
-          <div><div class="fc-title">DPDP-aligned</div></div>
+      <div class="fc-top">
+        <div class="fc-ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg>
         </div>
-        <div class="fc-desc">Consent-first and built for India's data-protection norms.</div>
+        <div><div class="fc-title">DPDP-aligned</div></div>
       </div>
+      <div class="fc-desc">Consent-first and built for India's data-protection norms.</div>
     </div>
 
     <div class="float-card fc-report fc-4">
@@ -860,42 +835,26 @@
     </div>
   </div>
 
-  <!-- mobile collage: offset card cluster, below the scan box CTA -->
-  <div class="mobile-collage">
-    <div class="fc-mini m1">
-      <img class="fc-banner" src="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg?auto=compress&cs=tinysrgb&w=300&h=160&fit=crop" alt="" loading="lazy">
-      <div class="fc-body">
-        <div class="fc-top">
-          <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-          <div class="fc-title">We don't keep your data</div>
-        </div>
-      </div>
+  <!-- mobile strip -->
+  <div class="float-strip">
+    <div class="float-card">
+      <div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="fc-title">We don't keep your data</div></div>
+      <div class="fc-desc">Deleted right after your report is emailed to you.</div>
     </div>
-    <div class="fc-mini m2">
-      <img class="fc-banner" src="https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=300&h=160&fit=crop" alt="" loading="lazy">
-      <div class="fc-body">
-        <div class="fc-top">
-          <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div>
-          <div class="fc-title">1,500+ sources</div>
-        </div>
-      </div>
+    <div class="float-card">
+      <div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div><div class="fc-title">1,500+ sources</div></div>
+      <div class="fc-desc">Breaches, hacks &amp; leaks in one extensive check.</div>
     </div>
-    <div class="fc-mini m3">
-      <img class="fc-banner" src="https://images.pexels.com/photos/7821913/pexels-photo-7821913.jpeg?auto=compress&cs=tinysrgb&w=300&h=160&fit=crop" alt="" loading="lazy">
-      <div class="fc-body">
-        <div class="fc-top">
-          <div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div>
-          <div class="fc-title">DPDP-aligned</div>
-        </div>
-      </div>
+    <div class="float-card">
+      <div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div><div class="fc-title">DPDP-aligned</div></div>
+      <div class="fc-desc">Consent-first by design. (DPDP) Act, 2023</div>
     </div>
-    <div class="fc-mini m4">
-      <div class="fc-top" style="margin-bottom:6px;"><div class="fc-title">Sample report</div><span class="fc-badge danger" style="margin-left:auto; font-size:10px; padding:2px 7px;">High</span></div>
+    <div class="float-card fc-report">
+      <div class="fc-top" style="margin-bottom:10px;"><div class="fc-title">Sample report</div><span class="fc-badge danger" style="margin-left:auto;">High</span></div>
       <div class="rrow"><span class="rlabel">Zomato</span><span class="rval">Email exposed</span></div>
       <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
     </div>
   </div>
-
 </section>
 
 <!-- ============ KNOW YOUR DIGITAL EXPOSURE ============ -->
@@ -1555,59 +1514,40 @@
   }, {threshold:0.12});
   document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
 
-  // hero connector lines: animated flowing dashes from each floating card into the scan box
+  // hero animated dashed lines
   (function(){
     var canvas = document.getElementById('lineCanvas');
-    var hero = document.querySelector('.hero');
-    var scanBox = document.querySelector('.hero-stage .scan-box');
-    var cards = [].slice.call(document.querySelectorAll('.hero-stage .float-card'));
-    if(!canvas || !hero || !scanBox || !cards.length) return;
+    if(!canvas) return;
     var ctx = canvas.getContext('2d');
-    var dpr = window.devicePixelRatio||1;
-    var dashOffset = 0;
-
+    var W,H,lines=[], dpr = window.devicePixelRatio||1;
     function resize(){
-      canvas.width = canvas.offsetWidth*dpr;
-      canvas.height = canvas.offsetHeight*dpr;
+      W = canvas.width = canvas.offsetWidth*dpr;
+      H = canvas.height = canvas.offsetHeight*dpr;
       canvas.style.width='100%'; canvas.style.height='100%';
     }
-
-    function point(el, side){
-      var heroRect = hero.getBoundingClientRect();
-      var r = el.getBoundingClientRect();
-      var x = side==='left' ? r.left : r.right;
-      var y = (r.top + r.bottom)/2;
-      return { x:(x-heroRect.left)*dpr, y:(y-heroRect.top)*dpr };
-    }
-
-    function draw(){
-      if(window.innerWidth <= 1120){
-        ctx.clearRect(0,0,canvas.width,canvas.height);
-        requestAnimationFrame(draw);
-        return;
+    function init(){
+      lines=[]; var count=5;
+      for(var i=0;i<count;i++){
+        lines.push({ y:(H/(count+1))*(i+1)+(Math.random()-0.5)*20, offset:Math.random()*1000, speed:0.4+Math.random()*0.4, amp:8+Math.random()*14 });
       }
-      ctx.clearRect(0,0,canvas.width,canvas.height);
-      dashOffset -= 0.55;
-      var scanRect = scanBox.getBoundingClientRect();
-      cards.forEach(function(card){
-        var cardRect = card.getBoundingClientRect();
-        var isLeft = cardRect.left < scanRect.left;
-        var p1 = point(card, isLeft ? 'right' : 'left');
-        var p2 = point(scanBox, isLeft ? 'left' : 'right');
-        var midX = (p1.x + p2.x) / 2;
+    }
+    function draw(t){
+      ctx.clearRect(0,0,W,H);
+      lines.forEach(function(line){
         ctx.beginPath();
-        ctx.moveTo(p1.x, p1.y);
-        ctx.bezierCurveTo(midX, p1.y, midX, p2.y, p2.x, p2.y);
-        ctx.strokeStyle = 'rgba(123,92,250,0.6)';
-        ctx.lineWidth = 1.8*dpr;
-        ctx.setLineDash([6*dpr, 5*dpr]);
-        ctx.lineDashOffset = dashOffset;
+        for(var x=0;x<=W;x+=6){
+          var y = line.y + Math.sin((x*0.006)+(t*0.0006*line.speed)+line.offset)*line.amp;
+          if(x===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+        }
+        ctx.strokeStyle='rgba(123,92,250,0.16)';
+        ctx.lineWidth=1.5*dpr;
+        ctx.setLineDash([1*dpr,6*dpr]);
         ctx.stroke();
       });
       requestAnimationFrame(draw);
     }
-    window.addEventListener('resize', resize);
-    resize(); requestAnimationFrame(draw);
+    window.addEventListener('resize', function(){ resize(); init(); });
+    resize(); init(); requestAnimationFrame(draw);
   })();
 </script>
 
