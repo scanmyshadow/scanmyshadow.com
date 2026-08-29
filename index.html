@@ -265,7 +265,7 @@
   @keyframes floaty{0%,100%{transform:translateY(0);}50%{transform:translateY(-4px);}}
 
   /* below grid breakpoint: hide side columns + connectors, show mobile masonry */
-  @media(max-width:992px){ .stage-grid .side-col{display:none;} #lineCanvas{display:none;} }
+  @media(max-width:992px){ .stage-grid{display:block;} .stage-grid .side-col{display:none;} #lineCanvas{display:none;} }
 
   /* mobile: reversely-style staggered 2-col masonry (below the CTA) */
   .mobile-grid{display:none;}
