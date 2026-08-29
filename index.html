@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -188,7 +187,7 @@
 
   /* ============ HERO ============ */
   .hero{position:relative; padding:64px 0 88px; overflow:hidden;}
-  #lineCanvas{position:absolute; inset:0; z-index:0; opacity:0.5; pointer-events:none;}
+  #lineCanvas{position:absolute; inset:0; z-index:2; opacity:1; pointer-events:none;}
   .hero-glow{position:absolute; top:-120px; left:50%; transform:translateX(-50%); width:760px; height:520px; background:radial-gradient(ellipse at center, rgba(123,92,250,0.16), transparent 62%); z-index:0; pointer-events:none;}
   .hero-inner{position:relative; z-index:3; text-align:center;}
   .hero-badge{
@@ -204,10 +203,12 @@
   h1 .accent{color:var(--purple);}
   .hero-sub{font-size:clamp(15px,2vw,17px); color:var(--ink-soft); max-width:440px; margin:20px auto 0; line-height:1.6;}
 
-  /* hero stage: scan box centered, floating cards flanking */
-  .hero-stage{position:relative; z-index:3; margin-top:44px; display:flex; justify-content:center;}
+  /* hero stage: scan box centered, cards stacked in flanking columns */
+  .hero-stage{position:relative; z-index:3; margin-top:44px; max-width:1040px; margin-left:auto; margin-right:auto; padding:0 24px;}
+  .stage-grid{display:grid; grid-template-columns:190px 1fr 190px; gap:50px; align-items:center; position:relative;}
+  .side-col{display:flex; flex-direction:column; gap:42px; position:relative; z-index:4;}
   .scan-box{
-    position:relative; z-index:5; width:100%; max-width:440px;
+    position:relative; z-index:5; width:100%; max-width:440px; margin:0 auto;
     border:1px solid var(--line); border-radius:22px; background:#fff;
     padding:30px 26px 24px; box-shadow:var(--shadow-lg);
   }
@@ -235,46 +236,47 @@
   .scan-note span{display:inline-flex; align-items:center; gap:5px;}
   .scan-note svg{width:13px; height:13px; color:var(--ok);}
 
-  /* floating cards */
+  /* cards (stacked in side columns) */
   .float-card{
-    position:absolute; z-index:4; background:#fff; border:1px solid var(--line);
-    border-radius:15px; padding:13px 15px; box-shadow:var(--shadow-md); width:190px;
-    animation:floaty 6s ease-in-out infinite;
+    position:relative; z-index:4; background:#fff; border:1px solid var(--line);
+    border-radius:15px; overflow:hidden; box-shadow:var(--shadow-md); width:100%;
+    animation:floaty 7s ease-in-out infinite;
   }
+  .float-card .fc-banner{width:100%; height:74px; object-fit:cover; display:block;}
+  .float-card .fc-body{padding:11px 14px 13px;}
   .float-card .fc-top{display:flex; align-items:center; gap:9px;}
-  .float-card .fc-ic{width:30px; height:30px; border-radius:9px; background:var(--purple-mist); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:var(--purple);}
-  .float-card .fc-ic svg{width:16px; height:16px;}
-  .float-card .fc-title{font-size:13px; font-weight:600; line-height:1.2;}
-  .float-card .fc-desc{font-size:11.5px; color:var(--ink-soft); line-height:1.4; margin-top:7px;}
+  .float-card .fc-ic{width:28px; height:28px; border-radius:8px; background:var(--purple-mist); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:var(--purple);}
+  .float-card .fc-ic svg{width:15px; height:15px;}
+  .float-card .fc-title{font-size:12.5px; font-weight:600; line-height:1.2;}
+  .float-card .fc-desc{font-size:11px; color:var(--ink-soft); line-height:1.4; margin-top:7px;}
   .fc-badge{display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:600; padding:3px 8px; border-radius:999px;}
   .fc-badge.ok{color:var(--ok); background:rgba(22,163,74,0.1);}
   .fc-badge.warn{color:var(--warn); background:rgba(217,119,6,0.1);}
   .fc-badge.danger{color:var(--danger); background:rgba(220,38,38,0.1);}
 
-  /* blurred mini report card */
-  .fc-report{width:210px;}
+  /* mini report card (no banner) */
+  .fc-report{width:100%; padding:13px 15px;}
   .fc-report .rrow{display:flex; align-items:center; justify-content:space-between; padding:7px 0; border-bottom:1px solid var(--line-soft);}
   .fc-report .rrow:last-child{border-bottom:0;}
   .fc-report .rlabel{font-size:11px; color:var(--ink-soft);}
   .fc-report .rval{font-size:11px; font-weight:600; color:var(--ink);}
 
-  .fc-1{top:24px; left:calc(50% - 430px);}
-  .fc-2{bottom:36px; left:calc(50% - 415px);}
-  .fc-3{top:14px; right:calc(50% - 430px);}
-  .fc-4{bottom:20px; right:calc(50% - 440px);}
-  .fc-2{animation-delay:-2s;} .fc-3{animation-delay:-1s;} .fc-4{animation-delay:-3s;}
-  @keyframes floaty{0%,100%{transform:translateY(0);}50%{transform:translateY(-9px);}}
+  .fc-2{animation-delay:-2.3s;} .fc-3{animation-delay:-1.1s;} .fc-4{animation-delay:-3.4s;}
+  @keyframes floaty{0%,100%{transform:translateY(0);}50%{transform:translateY(-4px);}}
 
-  /* connector stubs (desktop only) */
-  .connector{position:absolute; z-index:3; height:1px; background:linear-gradient(90deg,transparent,rgba(123,92,250,0.4)); }
+  /* below grid breakpoint: hide side columns + connectors, show mobile masonry */
+  @media(max-width:992px){ .stage-grid .side-col{display:none;} #lineCanvas{display:none;} }
 
-  @media(max-width:1120px){ .fc-1,.fc-2,.fc-3,.fc-4{display:none;} .connector{display:none;} }
-
-  /* mobile float strip */
-  .float-strip{display:none; gap:10px; margin-top:26px; overflow-x:auto; padding:4px 24px 4px; -webkit-overflow-scrolling:touch; scrollbar-width:none;}
-  .float-strip::-webkit-scrollbar{display:none;}
-  .float-strip .float-card{position:static; animation:none; flex:0 0 auto; width:180px;}
-  @media(max-width:1120px){ .float-strip{display:flex;} }
+  /* mobile: reversely-style staggered 2-col masonry (below the CTA) */
+  .mobile-grid{display:none;}
+  @media(max-width:992px){
+    .mobile-grid{display:flex; justify-content:center; gap:10px; margin:30px auto 0; max-width:400px; padding:0 20px;}
+    .mobile-grid .mcol{display:flex; flex-direction:column; gap:10px; flex:1;}
+    .mobile-grid .mcol.right{margin-top:26px;}
+    .mobile-grid .float-card{animation:none;}
+    .mobile-grid .float-card .fc-banner{height:64px;}
+    .mobile-grid .float-card.tall .fc-banner{height:104px;}
+  }
 
   /* ============ SECTIONS ============ */
   section.block{padding:88px 0;}
@@ -760,8 +762,12 @@
   </div>
 
   <div class="hero-stage">
-    <!-- floating cards: left -->
+   <div class="stage-grid">
+    <!-- LEFT column -->
+    <div class="side-col">
     <div class="float-card fc-1">
+      <img class="fc-banner" src="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
       <div class="fc-top">
         <div class="fc-ic">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
@@ -769,9 +775,12 @@
         <div><div class="fc-title">Deleted After Your Scan.</div></div>
       </div>
       <div class="fc-desc">Your phone number and email are deleted immediately after your report is sent.</div>
+      </div>
     </div>
 
     <div class="float-card fc-2">
+      <img class="fc-banner" src="https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
       <div class="fc-top">
         <div class="fc-ic">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
@@ -779,6 +788,8 @@
         <div><div class="fc-title">1,500+ sources</div></div>
       </div>
       <div class="fc-desc">Breaches, leaks and exposed records — checked in one pass.</div>
+      </div>
+    </div>
     </div>
 
     <!-- scan box -->
@@ -813,8 +824,11 @@
 </div>
     </div>
 
-    <!-- floating cards: right -->
+    <!-- RIGHT column -->
+    <div class="side-col">
     <div class="float-card fc-3">
+      <img class="fc-banner" src="https://images.pexels.com/photos/7821913/pexels-photo-7821913.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
+      <div class="fc-body">
       <div class="fc-top">
         <div class="fc-ic">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg>
@@ -822,6 +836,7 @@
         <div><div class="fc-title">DPDP-aligned</div></div>
       </div>
       <div class="fc-desc">Consent-first and built for India's data-protection norms.</div>
+      </div>
     </div>
 
     <div class="float-card fc-report fc-4">
@@ -833,26 +848,33 @@
       <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
       <div class="rrow"><span class="rlabel">Location</span><span class="rval">Rishikesh</span></div>
     </div>
+    </div>
+
+   </div>
   </div>
 
-  <!-- mobile strip -->
-  <div class="float-strip">
-    <div class="float-card">
-      <div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="fc-title">We don't keep your data</div></div>
-      <div class="fc-desc">Deleted right after your report is emailed to you.</div>
+  <!-- mobile: reversely-style staggered 2-col masonry -->
+  <div class="mobile-grid">
+    <div class="mcol left">
+      <div class="float-card tall">
+        <img class="fc-banner" src="https://images.pexels.com/photos/11391947/pexels-photo-11391947.jpeg?auto=compress&cs=tinysrgb&w=400&h=240&fit=crop" alt="" loading="lazy">
+        <div class="fc-body"><div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="fc-title">Deleted after scan</div></div></div>
+      </div>
+      <div class="float-card fc-report">
+        <div class="fc-top" style="margin-bottom:8px;"><div class="fc-title">Sample report</div><span class="fc-badge danger" style="margin-left:auto;">High</span></div>
+        <div class="rrow"><span class="rlabel">Zomato</span><span class="rval">Email exposed</span></div>
+        <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
+      </div>
     </div>
-    <div class="float-card">
-      <div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div><div class="fc-title">1,500+ sources</div></div>
-      <div class="fc-desc">Breaches, hacks &amp; leaks in one extensive check.</div>
-    </div>
-    <div class="float-card">
-      <div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div><div class="fc-title">DPDP-aligned</div></div>
-      <div class="fc-desc">Consent-first by design. (DPDP) Act, 2023</div>
-    </div>
-    <div class="float-card fc-report">
-      <div class="fc-top" style="margin-bottom:10px;"><div class="fc-title">Sample report</div><span class="fc-badge danger" style="margin-left:auto;">High</span></div>
-      <div class="rrow"><span class="rlabel">Zomato</span><span class="rval">Email exposed</span></div>
-      <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
+    <div class="mcol right">
+      <div class="float-card">
+        <img class="fc-banner" src="https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" alt="" loading="lazy">
+        <div class="fc-body"><div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div><div class="fc-title">1,500+ sources</div></div></div>
+      </div>
+      <div class="float-card tall">
+        <img class="fc-banner" src="https://images.pexels.com/photos/7821913/pexels-photo-7821913.jpeg?auto=compress&cs=tinysrgb&w=400&h=240&fit=crop" alt="" loading="lazy">
+        <div class="fc-body"><div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div><div class="fc-title">DPDP-aligned</div></div></div>
+      </div>
     </div>
   </div>
 </section>
@@ -1514,40 +1536,53 @@
   }, {threshold:0.12});
   document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
 
-  // hero animated dashed lines
+  // hero connector lines: animated dashes branching from the scan box to each card
   (function(){
     var canvas = document.getElementById('lineCanvas');
-    if(!canvas) return;
+    var hero = document.querySelector('.hero');
+    if(!canvas || !hero) return;
     var ctx = canvas.getContext('2d');
-    var W,H,lines=[], dpr = window.devicePixelRatio||1;
+    var dpr = window.devicePixelRatio||1;
+    var dashOffset = 0;
+
     function resize(){
-      W = canvas.width = canvas.offsetWidth*dpr;
-      H = canvas.height = canvas.offsetHeight*dpr;
+      canvas.width = canvas.offsetWidth*dpr;
+      canvas.height = canvas.offsetHeight*dpr;
       canvas.style.width='100%'; canvas.style.height='100%';
     }
-    function init(){
-      lines=[]; var count=5;
-      for(var i=0;i<count;i++){
-        lines.push({ y:(H/(count+1))*(i+1)+(Math.random()-0.5)*20, offset:Math.random()*1000, speed:0.4+Math.random()*0.4, amp:8+Math.random()*14 });
-      }
+    function pt(el, side){
+      var h = hero.getBoundingClientRect();
+      var r = el.getBoundingClientRect();
+      var x = side==='left' ? r.left : (side==='right' ? r.right : (r.left+r.right)/2);
+      var y = (r.top + r.bottom)/2;
+      return { x:(x - h.left)*dpr, y:(y - h.top)*dpr };
     }
-    function draw(t){
-      ctx.clearRect(0,0,W,H);
-      lines.forEach(function(line){
+    function draw(){
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      var scanBox = document.querySelector('.hero-stage .scan-box');
+      var cards = document.querySelectorAll('.hero-stage .float-card');
+      if(!scanBox || !cards.length || window.innerWidth <= 992){ requestAnimationFrame(draw); return; }
+      dashOffset -= 0.55;
+      var sb = scanBox.getBoundingClientRect();
+      cards.forEach(function(card){
+        var cr = card.getBoundingClientRect();
+        var isLeft = cr.left < sb.left;
+        var p1 = pt(scanBox, isLeft ? 'left' : 'right');
+        var p2 = pt(card, isLeft ? 'right' : 'left');
+        var midX = (p1.x + p2.x)/2;
         ctx.beginPath();
-        for(var x=0;x<=W;x+=6){
-          var y = line.y + Math.sin((x*0.006)+(t*0.0006*line.speed)+line.offset)*line.amp;
-          if(x===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
-        }
-        ctx.strokeStyle='rgba(123,92,250,0.16)';
-        ctx.lineWidth=1.5*dpr;
-        ctx.setLineDash([1*dpr,6*dpr]);
+        ctx.moveTo(p1.x, p1.y);
+        ctx.bezierCurveTo(midX, p1.y, midX, p2.y, p2.x, p2.y);
+        ctx.strokeStyle = 'rgba(123,92,250,0.55)';
+        ctx.lineWidth = 1.8*dpr;
+        ctx.setLineDash([6*dpr, 5*dpr]);
+        ctx.lineDashOffset = dashOffset;
         ctx.stroke();
       });
       requestAnimationFrame(draw);
     }
-    window.addEventListener('resize', function(){ resize(); init(); });
-    resize(); init(); requestAnimationFrame(draw);
+    window.addEventListener('resize', resize);
+    resize(); requestAnimationFrame(draw);
   })();
 </script>
 
