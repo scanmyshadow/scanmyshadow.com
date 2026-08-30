@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You | Scan My Shadow Blog</title>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<meta name="description" content="TL;DR: Aadhaar-linked data has been exposed in several documented incidents over the years — most notably a 2018 exposure and a large 2023 leak connected...">
+<meta name="keywords" content="Privacy, Cyber Security, India, Data Breach, Aadhaar Privacy">
+<meta property="og:title" content="Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You">
+<meta property="og:description" content="TL;DR: Aadhaar-linked data has been exposed in several documented incidents over the years — most notably a 2018 exposure and a large 2023 leak connected...">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html">
+<link rel="canonical" href="https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S4P3YTNEDY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S4P3YTNEDY');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You",
+  "description": "TL;DR: Aadhaar-linked data has been exposed in several documented incidents over the years — most notably a 2018 exposure and a large 2023 leak connected...",
+  "keywords": "Privacy, Cyber Security, India, Data Breach, Aadhaar Privacy",
+  "datePublished": "2026-08-26T13:44:29+05:30",
+  "author": {"@type": "Organization", "name": "Scan My Shadow"},
+  "publisher": {
+    "@type": "Organization",
+    "name": "Scan My Shadow",
+    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
+  },
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html"}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FFFFFF; --bg-tint:#FAF9FF; --ink:#15121F; --ink-soft:#605C73; --ink-faint:#908DA3;
+    --purple:#7B5CFA; --purple-deep:#5A3FE0; --purple-mist:#F1EEFE;
+    --line:#E9E7F5; --line-soft:#F0EEF9; --card:#FBFAFF;
+    --shadow-lg:0 30px 80px rgba(43,29,102,0.14);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--bg); color:var(--ink); font-family:'Inter',system-ui,sans-serif; line-height:1.65; -webkit-font-smoothing:antialiased;}
+  a{color:var(--purple); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .display{font-family:'Space Grotesk',sans-serif;}
+
+  header.nav{position:sticky; top:0; z-index:80; background:rgba(255,255,255,0.86); backdrop-filter:saturate(180%) blur(14px); border-bottom:1px solid var(--line);}
+  .nav-inner{display:flex; justify-content:space-between; align-items:center; height:66px; max-width:800px; margin:0 auto; padding:0 24px;}
+  .logo{font-family:'Space Grotesk'; font-weight:700; font-size:17px; color:var(--ink); display:flex; align-items:center; gap:9px;}
+  .logo-img{height:29px; width:auto;}
+  .nav-pill{font-size:14px; font-weight:600; color:#fff; background:var(--purple); border-radius:999px; padding:10px 20px; position:relative; animation:cta-glow 2.8s ease-in-out infinite;}
+  .nav-pill::before{content:""; position:absolute; inset:0; border-radius:999px; z-index:-1; animation:cta-ping 2.8s ease-out infinite;}
+  @keyframes cta-glow{0%,100%{box-shadow:0 8px 20px rgba(123,92,250,0.28);}50%{box-shadow:0 8px 26px rgba(123,92,250,0.55);}}
+  @keyframes cta-ping{0%{box-shadow:0 0 0 0 rgba(123,92,250,0.45);}70%{box-shadow:0 0 0 12px rgba(123,92,250,0);}100%{box-shadow:0 0 0 0 rgba(123,92,250,0);}}
+
+  .wrap{max-width:720px; margin:0 auto; padding:0 24px;}
+  .breadcrumb{font-size:13px; color:var(--ink-faint); padding:24px 0 0;}
+  .breadcrumb a{color:var(--ink-faint);}
+
+  article{padding:24px 0 64px;}
+  .eyebrow{font-size:12px; font-weight:600; color:var(--purple); letter-spacing:0.09em; text-transform:uppercase; margin-bottom:12px;}
+  h1.title{font-family:'Space Grotesk'; font-size:clamp(28px,4vw,40px); font-weight:700; line-height:1.2; margin-bottom:14px; color:var(--ink);}
+  .meta-row{font-size:13.5px; color:var(--ink-faint); margin-bottom:16px;}
+
+  .tag-row{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px;}
+  .tag-pill{font-size:11.5px; font-weight:600; color:var(--purple-deep); background:var(--purple-mist); padding:5px 12px; border-radius:999px;}
+
+  .hero-img-slot{display:none;}
+  .hero-img-slot.has-img{display:block; width:100%; aspect-ratio:16/9; border-radius:14px; margin-bottom:32px; overflow:hidden;}
+  .hero-img-slot.has-img img{width:100%; height:100%; object-fit:cover; display:block;}
+
+  .post-content h2{font-family:'Space Grotesk'; font-size:23px; font-weight:600; margin:38px 0 16px; color:var(--ink);}
+  .post-content h3{font-family:'Space Grotesk'; font-size:19px; font-weight:600; margin:28px 0 12px; color:var(--ink);}
+  .post-content p{margin-bottom:18px; color:var(--ink-soft); font-size:16px;}
+  .post-content ul, .post-content ol{margin:0 0 18px 22px; color:var(--ink-soft); font-size:16px;}
+  .post-content li{margin-bottom:8px;}
+  .post-content strong{color:var(--ink);}
+  .post-content a{color:var(--purple); text-decoration:underline;}
+  .post-content img{max-width:100%; border-radius:10px; margin:10px 0;}
+
+  /* ===== price-card CTA (matches homepage pricing block exactly) ===== */
+  .price-wrap{display:flex; justify-content:center; margin:48px 0 8px;}
+  .price-card{position:relative; width:100%; max-width:680px; background:var(--ink); color:#fff; border-radius:24px; padding:36px 40px; overflow:hidden; box-shadow:var(--shadow-lg);}
+  .price-card .p-inner{position:relative; z-index:2; display:flex; align-items:center; gap:40px;}
+  .price-left{flex:0 0 auto; width:220px;}
+  .price-right{flex:1; min-width:0; border-left:1px solid rgba(255,255,255,0.1); padding-left:36px;}
+  .price-label{font-size:13px; color:#A5A2C0; margin-bottom:10px;}
+  .price-amount{font-family:'Space Grotesk'; font-weight:700; font-size:44px; line-height:1; letter-spacing:-0.02em;}
+  .price-amount span{font-size:14px; color:#A5A2C0; font-weight:500; margin-left:6px;}
+  .price-list{list-style:none; margin:0 0 18px; padding:0;}
+  .price-list li{display:flex; align-items:flex-start; gap:10px; padding:7px 0; font-size:13px; color:#DEDDEC;}
+  .price-list li svg{width:15px; height:15px; color:var(--purple); flex-shrink:0; margin-top:1px;}
+  .btn-price{display:block; width:100%; text-align:center; background:var(--purple); color:#fff; border:none; border-radius:13px; padding:14px; font-size:14.5px; font-weight:600; font-family:'Inter'; cursor:pointer; text-decoration:none; margin-top:20px;}
+  .btn-price:hover{background:var(--purple-deep); text-decoration:none;}
+  .price-razorpay{display:flex; align-items:center; justify-content:center; gap:7px; margin-top:12px; opacity:0.6;}
+  .price-razorpay span{font-size:11.5px; color:#A5A2C0;}
+  @media(max-width:640px){
+    .price-card .p-inner{flex-direction:column; align-items:stretch; gap:24px;}
+    .price-left{width:100%;}
+    .price-right{border-left:none; border-top:1px solid rgba(255,255,255,0.1); padding-left:0; padding-top:20px;}
+  }
+  .price-razorpay svg{width:15px; height:15px;}
+
+  .fx-dark{position:relative; overflow:hidden;}
+  .aurora{position:absolute; inset:0; z-index:0; pointer-events:none;}
+  .aurora span{position:absolute; border-radius:50%; filter:blur(60px); opacity:0.5; mix-blend-mode:screen;}
+  .aurora .a1{width:400px; height:400px; background:radial-gradient(circle,#7B5CFA,transparent 68%); top:-140px; left:6%; animation:drift1 16s ease-in-out infinite;}
+  .aurora .a2{width:340px; height:340px; background:radial-gradient(circle,#9D6BFF,transparent 66%); bottom:-150px; right:4%; animation:drift2 19s ease-in-out infinite;}
+  .aurora .a3{width:280px; height:280px; background:radial-gradient(circle,#5A3FE0,transparent 70%); top:28%; left:44%; opacity:0.38; animation:drift3 22s ease-in-out infinite;}
+  @keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(56px,38px) scale(1.12);}}
+  @keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-46px,-28px) scale(1.08);}}
+  @keyframes drift3{0%,100%{transform:translate(0,0) scale(1); opacity:0.32;}50%{transform:translate(-38px,28px) scale(1.15); opacity:0.48;}}
+  .particles{position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden;}
+  .particles i{position:absolute; bottom:-10px; width:3px; height:3px; border-radius:50%; background:rgba(180,150,255,0.7); box-shadow:0 0 6px rgba(155,120,255,0.9); animation:rise linear infinite;}
+  @keyframes rise{0%{transform:translateY(0); opacity:0;}10%{opacity:1;}90%{opacity:0.7;}100%{transform:translateY(-380px); opacity:0;}}
+  .fx-dark .sheen{content:""; position:absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events:none; background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform:skewX(-18deg); animation:sheen 8s ease-in-out infinite;}
+  @keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
+
+  footer{border-top:1px solid var(--line); padding:32px 0; text-align:center; color:var(--ink-faint); font-size:13px;}
+  footer a{color:var(--ink-faint);}
+  @media(prefers-reduced-motion:reduce){ .nav-pill,.nav-pill::before,.aurora span,.particles i,.fx-dark .sheen{animation:none;} }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="https://www.scanmyshadow.com/" class="logo"><img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow"></a>
+    <a href="https://www.scanmyshadow.com/#pricing" class="nav-pill">Scan &middot; &#8377;498</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="breadcrumb"><a href="https://www.scanmyshadow.com/">Home</a> / <a href="/blog/">Blog</a> / Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You</div>
+</div>
+
+<article class="wrap">
+  <div class="eyebrow">Privacy Blog</div>
+  <h1 class="title">Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You</h1>
+  <div class="meta-row">Scan My Shadow &middot; August 26, 2026</div>
+  <div class="tag-row"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Aadhaar Privacy</span></div>
+
+  <!-- HERO-IMAGE:aadhaar-linked-data-leaks-what-happened -->
+  <div class="hero-img-slot" data-slug="aadhaar-linked-data-leaks-what-happened"></div>
+
+  <div class="post-content">
+<p><strong>TL;DR:</strong> Aadhaar-linked data has been exposed in several documented incidents over the years — most notably a 2018 exposure and a large 2023 leak connected to ICMR/CoWIN data. This article walks through what's actually been confirmed by researchers and reporting, and what that history means for how you think about your own exposure today.</p>
+
+<p>Aadhaar is central to how most Indians interact with government services, banking, and increasingly private-sector verification. Its scale — over 1.4 billion enrolments since 2009 — means that when Aadhaar-linked data is exposed, the numbers involved are often described in hundreds of millions, not thousands.</p>
+
+<h2>The 2018 Exposure</h2>
+
+<p>In 2018, researchers and reporting identified vulnerabilities in poorly secured systems — including third-party utility and government-adjacent portals — that allowed unauthorised access to Aadhaar-linked records. Reports at the time estimated the scale at over a billion records, making it one of the most significant identity-database exposures reported anywhere in the world at that scale.</p>
+
+<h2>The 2023 ICMR / CoWIN-Linked Leak</h2>
+
+<p>In October 2023, a threat actor using the alias "pwn0001" advertised on a dark web forum access to what was described as approximately 815 million Indian records, reportedly linked to the Indian Council of Medical Research (ICMR). The dataset reportedly included names, phone numbers, addresses, and both Aadhaar and passport numbers — a combination that researchers noted was particularly sensitive because it paired a government identity number with contact and travel-document information in a single dataset.</p>
+
+<p>This incident is frequently referenced alongside the earlier CoWIN vaccination data exposure reported in mid-2023, though researchers have noted some distinctions in scope between the two events, and official attribution has not always been definitively confirmed by government sources.</p>
+
+<h2>What These Incidents Actually Exposed</h2>
+
+<p>Across the documented incidents, the recurring pattern involves:</p>
+
+<ul>
+<li>Names and Aadhaar numbers</li>
+<li>Phone numbers and, in some cases, addresses</li>
+<li>In the 2023 case, passport numbers alongside Aadhaar data</li>
+</ul>
+
+<p>It's worth being precise here: knowing someone's Aadhaar number alone does not, by itself, allow unauthorised access to their bank account or benefits — UIDAI has stated that Aadhaar authentication requires additional verification steps beyond just the number. The risk from these leaks is less about direct account takeover and more about identity-fraud enablement — using a combination of real identifiers to impersonate someone convincingly in scams, loan fraud, or SIM-swap attempts.</p>
+
+<h2>What This History Means for You Practically</h2>
+
+<p>If your Aadhaar-linked information has been part of any large-scale government or institutional dataset — which, given the scale of past incidents, includes a very large share of the population — the practical takeaway isn't panic. It's informed caution:</p>
+
+<ul>
+<li>Be more skeptical of unsolicited calls or messages that reference personal details as "proof" of legitimacy — leaked data makes this kind of social engineering easier, not harder to fake</li>
+<li>Lock your Aadhaar biometrics when not actively needed, using the UIDAI mAadhaar app or website, as an added layer against biometric-based fraud attempts</li>
+<li>Monitor for unfamiliar loan or account activity tied to your identity, particularly through your credit report</li>
+<li>Treat OTP and Aadhaar-verification requests with more scrutiny than you might have a few years ago</li>
+</ul>
+
+<h2>The Regulatory Response</h2>
+
+<p>The DPDP Act 2023 and its accompanying Rules, notified in November 2025, establish a framework requiring data fiduciaries to report breaches and implement security safeguards, with the Data Protection Board of India empowered to levy significant penalties. Substantive compliance obligations under the Act are set to take effect in phases, with full enforcement expected by mid-2027 — meaning the regulatory teeth around incidents like these are still being built out even as the historical incidents remain part of the public record.</p>
+
+<p>Understanding your own exposure — separate from these large institutional datasets — starts with checking what's publicly findable about your phone number and email. <a href='#'>The DPDP Act: what rights do you actually have over your personal data in India?</a> covers what recourse exists under current law.</p>
+
+<p><a href='https://www.scanmyshadow.com'>Scan My Shadow</a> checks a submitted phone number and email across 1,500+ sources and returns a report — a useful way to see your own exposure picture independent of these larger institutional incidents.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Does a leaked Aadhaar number alone let someone access my bank account?</h3>
+<p>No. UIDAI has stated that simply knowing an Aadhaar number does not enable unauthorised account access. Authentication requires additional verification steps as prescribed under the Aadhaar Act, 2016.</p>
+
+<h3>How do I check if my Aadhaar data was part of a known leak?</h3>
+<p>There's no official, centralised public tool to check this for past incidents. The most practical step is to focus on protective measures — biometric locking, monitoring credit reports, and being cautious with unsolicited verification requests — rather than searching for direct confirmation of past inclusion.</p>
+
+<h3>What is Aadhaar biometric locking and should I use it?</h3>
+<p>Biometric locking, available through the mAadhaar app or UIDAI's website, disables fingerprint and iris-based authentication until you unlock it. It's a reasonable precaution if you don't frequently need biometric Aadhaar authentication in daily life.</p>
+
+<h3>Can I hold UIDAI or the government liable if my Aadhaar data was leaked?</h3>
+<p>This is a legal question that depends on the specifics of each incident and applicable law, and isn't something to treat as settled without proper legal advice. The DPDP Act does establish breach-reporting and security obligations for data fiduciaries going forward.</p>
+
+<h3>Is my Aadhaar number still safe to share for KYC purposes?</h3>
+<p>Aadhaar remains a legally accepted identity document for KYC in India. The practical guidance is to share it only with legitimate, verified institutions and to be wary of informal or unverified requests for a physical or digital copy.</p>
+
+<p>Curious what's already out there about you? Scan My Shadow checks your phone number and email across 1,500+ sources and sends you a clear report — no guesswork, just facts. <a href='https://www.scanmyshadow.com'>Start your scan</a>.</p>
+
+  </div>
+
+  <div class="price-wrap">
+    <div class="price-card fx-dark">
+      <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+      <div class="particles" data-particles></div>
+      <div class="sheen"></div>
+      <div class="p-inner">
+        <div class="price-left">
+          <div class="price-label">Phone + email scan &middot; Full report</div>
+          <div class="price-amount">&#8377;498<span>one-time</span></div>
+          <a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Scan My Digital Footprint</a>
+          <div class="price-razorpay">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
+            <span>Secure payment via Razorpay</span>
+          </div>
+        </div>
+        <div class="price-right">
+          <ul class="price-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results usually within about 5 minutes</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<footer>
+  <div class="wrap">
+    Scan My Shadow &middot; A unit of Jaishree Exports &middot; <a href="/blog/">More articles</a>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-particles]').forEach(function(box){
+    for(var i=0;i<14;i++){
+      var s=document.createElement('i');
+      s.style.left=(Math.random()*100)+'%';
+      s.style.animationDuration=(7+Math.random()*7)+'s';
+      s.style.animationDelay=(-Math.random()*10)+'s';
+      var sc=0.6+Math.random()*1.3;
+      s.style.width=(3*sc)+'px'; s.style.height=(3*sc)+'px';
+      box.appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>
