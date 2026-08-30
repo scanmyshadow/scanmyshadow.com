@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy &amp; Cyber Security Blog | Scan My Shadow</title>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<meta name="description" content="Practical guides on data breaches, digital arrest scams, matrimonial fraud, UPI safety, and protecting your phone number and email online in India.">
+<meta property="og:title" content="Privacy &amp; Cyber Security Blog | Scan My Shadow">
+<meta property="og:description" content="Practical guides on data breaches, digital arrest scams, matrimonial fraud, UPI safety, and protecting your phone number and email online in India.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.scanmyshadow.com/blog/">
+<link rel="canonical" href="https://www.scanmyshadow.com/blog/">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S4P3YTNEDY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S4P3YTNEDY');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Scan My Shadow Blog",
+  "url": "https://www.scanmyshadow.com/blog/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Scan My Shadow",
+    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FFFFFF; --bg-tint:#FAF9FF; --ink:#15121F; --ink-soft:#605C73; --ink-faint:#908DA3;
+    --purple:#7B5CFA; --purple-deep:#5A3FE0; --purple-mist:#F1EEFE;
+    --line:#E9E7F5; --line-soft:#F0EEF9; --card:#FBFAFF;
+    --shadow-sm:0 2px 8px rgba(43,29,102,0.05);
+    --shadow-lg:0 30px 80px rgba(43,29,102,0.14);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--bg); color:var(--ink); font-family:'Inter',system-ui,sans-serif; line-height:1.65; -webkit-font-smoothing:antialiased;}
+  a{color:var(--purple); text-decoration:none;}
+  .display{font-family:'Space Grotesk',sans-serif;}
+
+  header.nav{position:sticky; top:0; z-index:80; background:rgba(255,255,255,0.86); backdrop-filter:saturate(180%) blur(14px); border-bottom:1px solid var(--line);}
+  .nav-inner{display:flex; justify-content:space-between; align-items:center; height:66px; max-width:1080px; margin:0 auto; padding:0 24px;}
+  .logo{font-family:'Space Grotesk'; font-weight:700; font-size:17px; color:var(--ink); display:flex; align-items:center; gap:9px;}
+  .logo-img{height:29px; width:auto;}
+  .nav-pill{font-size:14px; font-weight:600; color:#fff; background:var(--purple); border-radius:999px; padding:10px 20px; position:relative; animation:cta-glow 2.8s ease-in-out infinite;}
+  .nav-pill::before{content:""; position:absolute; inset:0; border-radius:999px; z-index:-1; animation:cta-ping 2.8s ease-out infinite;}
+  @keyframes cta-glow{0%,100%{box-shadow:0 8px 20px rgba(123,92,250,0.28);}50%{box-shadow:0 8px 26px rgba(123,92,250,0.55);}}
+  @keyframes cta-ping{0%{box-shadow:0 0 0 0 rgba(123,92,250,0.45);}70%{box-shadow:0 0 0 12px rgba(123,92,250,0);}100%{box-shadow:0 0 0 0 rgba(123,92,250,0);}}
+
+  .wrap{max-width:1080px; margin:0 auto; padding:0 24px;}
+
+  .hero{padding:56px 0 40px; text-align:center;}
+  .eyebrow{font-size:12px; font-weight:600; color:var(--purple); letter-spacing:0.09em; text-transform:uppercase; margin-bottom:14px;}
+  h1{font-family:'Space Grotesk'; font-size:clamp(30px,5vw,44px); font-weight:700; line-height:1.15; margin-bottom:14px; color:var(--ink);}
+  .hero p{font-size:16px; color:var(--ink-soft); max-width:560px; margin:0 auto;}
+
+  .post-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px; padding-bottom:72px;}
+  @media(max-width:720px){ .post-grid{grid-template-columns:1fr;} }
+
+  .post-card{display:block; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px; transition:box-shadow .18s ease, transform .18s ease, border-color .18s ease;}
+  .post-card:hover{box-shadow:var(--shadow-sm); border-color:var(--purple); transform:translateY(-1px); text-decoration:none;}
+  .post-card-top{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; flex-wrap:wrap;}
+  .post-date{font-size:12px; color:var(--ink-faint); font-weight:600; white-space:nowrap;}
+  .post-tags{display:flex; flex-wrap:wrap; gap:6px; justify-content:flex-end;}
+  .tag-pill{font-size:10.5px; font-weight:600; color:var(--purple-deep); background:var(--purple-mist); padding:4px 10px; border-radius:999px; white-space:nowrap;}
+  .post-title{font-family:'Space Grotesk'; font-size:18px; font-weight:600; line-height:1.32; color:var(--ink); margin-bottom:8px;}
+  .post-excerpt{font-size:13.75px; color:var(--ink-soft); line-height:1.55; margin-bottom:12px;}
+  .post-read{font-size:13px; font-weight:600; color:var(--purple);}
+
+  footer{border-top:1px solid var(--line); padding:32px 0; text-align:center; color:var(--ink-faint); font-size:13px;}
+  footer a{color:var(--ink-faint);}
+  @media(prefers-reduced-motion:reduce){ .nav-pill,.nav-pill::before{animation:none;} }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="https://www.scanmyshadow.com/" class="logo"><img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow"></a>
+    <a href="https://www.scanmyshadow.com/#pricing" class="nav-pill">Scan &middot; &#8377;498</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="eyebrow">Privacy Blog</div>
+    <h1>Guides on staying safe online in India</h1>
+    <p>Data breaches, digital arrest scams, matrimonial fraud, UPI safety, and practical ways to protect your phone number and email.</p>
+  </div>
+
+  <div class="post-grid">
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-happens-when-your-email-is-used-as.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Happens When Your Email Is Used as a “Forgot Password” Recovery Point You Didn’t Expect</h2>
+      <p class="post-excerpt">TL;DR: Most people set a recovery email once and forget about it — but that recovery point often becomes the single most powerful key to...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-loan-apps-in-india-collect-and.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How Loan Apps in India Collect and Misuse Personal Data</h2>
+      <p class="post-excerpt">TL;DR: Unregulated instant-loan apps have built a well-documented playbook: request excessive permissions at install, extract a tiny loan,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-data-do-health-and-fitness-apps-in.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Data Do Health and Fitness Apps in India Collect, and Where Does It Go?</h2>
+      <p class="post-excerpt">TL;DR: Health and fitness apps — from gym and workout apps to diagnostic and telemedicine platforms — collect some of the most sensitive...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/setting-up-passkeys-and-authenticator.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Setting Up Passkeys and Authenticator Apps: A Step-by-Step Guide for Your Main Accounts</h2>
+      <p class="post-excerpt">TL;DR: Knowing you should move beyond SMS-only authentication is one thing — actually setting it up is another. This is a practical,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-arrest-scams-in-india-how-they.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams in India: How They Work and What Personal Data Makes Them Convincing</h2>
+      <p class="post-excerpt">TL;DR: &quot;Digital arrest&quot; is not a real legal process anywhere in Indian law — but the scam built around that fake premise has caused massive...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/two-factor-authentication-and-account.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Two-Factor Authentication and Account Recovery: Closing the Gaps Attackers Actually Use</h2>
+      <p class="post-excerpt">TL;DR: Most people set up 2FA once and assume they&#x27;re covered. Attackers don&#x27;t target the 2FA itself — they target the recovery process...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-employers-actually-run-background.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How Employers Actually Run Background Checks in India</h2>
+      <p class="post-excerpt">TL;DR: Employer background checks in India typically combine formal verification services with informal online searches — and candidates...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You</h2>
+      <p class="post-excerpt">TL;DR: Aadhaar-linked data has been exposed in several documented incidents over the years — most notably a 2018 exposure and a large 2023...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-information-do-food-delivery-and.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Information Do Food Delivery and Ride-Hailing Apps Actually Collect?</h2>
+      <p class="post-excerpt">TL;DR: Food delivery and ride-hailing apps are among the most-used apps on Indian smartphones — and among the most data-intensive. Beyond...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-how-your-payment.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">UPI and Payment Apps: How Your Payment History Can Be Used to Track You</h2>
+      <p class="post-excerpt">TL;DR: Every UPI payment you make links your identity to a Virtual Payment Address (VPA) — and if that VPA is your phone number, every...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-complete-guide-to-matrimony-and.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">The Complete Guide to Matrimony and Dating Privacy in India</h2>
+      <p class="post-excerpt">TL;DR: Matrimonial and dating platforms in India involve sharing deeply personal information with strangers — sometimes before you have any...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/matrimonial-privacy-for-parents.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Matrimonial Privacy for Parents Managing a Profile on Behalf of Their Child</h2>
+      <p class="post-excerpt">TL;DR: When a parent creates or manages a matrimonial profile for an adult child, privacy considerations shift — it&#x27;s not just the child&#x27;s...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/matrimonial-site-verification-compared.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Matrimonial Site Verification Compared: What Shaadi.com, BharatMatrimony, and Jeevansathi Actually Check</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s major matrimonial platforms all claim some form of verification, but what&#x27;s actually checked — and how thoroughly — varies....</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-to-do-if-youve-been-victim-of.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What to Do If You’ve Been a Victim of Matrimonial Fraud</h2>
+      <p class="post-excerpt">TL;DR: Acting quickly and in the right order — reporting, securing your finances, and leaning on support rather than isolating —...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/doing-background-check-before-marriage.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Doing a Background Check Before Marriage in India: What’s Legal and What’s Not</h2>
+      <p class="post-excerpt">TL;DR: Premarital background checks are legal in India when done through proper channels — public records, consent-based verification,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/reverse-image-search-how-to-check-if.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Reverse Image Search: How to Check If a Matrimonial Photo Is Fake or Stolen</h2>
+      <p class="post-excerpt">TL;DR: A reverse image search lets you check whether a matrimonial profile photo appears elsewhere online — under a different name, on a...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-verify-matrimonial-profile.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Verify a Matrimonial Profile Before Meeting Someone</h2>
+      <p class="post-excerpt">TL;DR: Verification means actively cross-checking what someone has told you, not just watching for red flags passively. Here&#x27;s a practical,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/common-matrimonial-scams-in-india-and.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Common Matrimonial Scams in India and How They Work</h2>
+      <p class="post-excerpt">TL;DR: Matrimonial fraud in India follows a handful of well-documented patterns — each with its own script, target, and typical financial...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-spot-fake-matrimonial-profile.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Spot a Fake Matrimonial Profile</h2>
+      <p class="post-excerpt">TL;DR: Fake matrimonial profiles follow recognizable patterns — too-perfect details, avoidance of video calls, and a push to move...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-happens-to-my-online-accounts.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Happens to My Online Accounts After I Die?</h2>
+      <p class="post-excerpt">TL;DR: Most accounts don&#x27;t automatically close when you die — they sit dormant, sometimes indefinitely, unless someone with the right...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/childrens-data-and-dpdp-act-what.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">child safety</span><span class="tag-pill">dpdp act india</span></div>
+      </div>
+      <h2 class="post-title">Children’s Data and the DPDP Act: What Parents Should Know</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s DPDP Act sets an unusually high bar for children&#x27;s data — anyone under 18 requires verifiable parental consent before a...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/do-vpns-actually-protect-your-privacy.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Do VPNs Actually Protect Your Privacy in India?</h2>
+      <p class="post-excerpt">TL;DR: A VPN protects a specific, limited slice of your privacy — mainly what your internet provider and local network can see — and does...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/cleaning-up-your-online-presence-before.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Cleaning Up Your Online Presence Before a Job Search or Background Check</h2>
+      <p class="post-excerpt">TL;DR: Recruiters and background-check processes routinely look at what&#x27;s publicly visible about you — here&#x27;s a practical, prioritized...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/dating-and-matrimonial-app-privacy-in.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Dating and Matrimonial App Privacy in India: What to Watch For</h2>
+      <p class="post-excerpt">TL;DR: Dating and matrimonial platforms ask for more identifying detail upfront than almost any other app category — which makes deliberate...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-whats-actually.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">UPI and Payment Apps: What’s Actually Exposed When You Pay</h2>
+      <p class="post-excerpt">TL;DR: Every UPI transaction creates a small trail — your UPI ID, transaction history, and sometimes your linked name — that&#x27;s more visible...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/whatsapp-privacy-settings-complete.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">WhatsApp Privacy Settings: A Complete Guide for Indian Users</h2>
+      <p class="post-excerpt">TL;DR: WhatsApp&#x27;s default settings are more open than most users realize — here&#x27;s a full walkthrough of the privacy controls worth...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/identity-theft-in-india-warning-signs.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Identity Theft in India: Warning Signs and What to Do Next</h2>
+      <p class="post-excerpt">TL;DR: Identity theft in India usually looks less like a movie plot and more like a loan you never took out or a SIM card you never...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/sim-swap-fraud-how-it-works-and-how-to.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">SIM Swap Fraud: How It Works and How to Protect Your Number</h2>
+      <p class="post-excerpt">TL;DR: SIM swap fraud is when someone tricks your telecom provider into transferring your number to a SIM they control — giving them your...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-file-cybercrime-complaint-in.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to File a Cybercrime Complaint in India: A Step-by-Step Guide</h2>
+      <p class="post-excerpt">TL;DR: India has two connected reporting channels — the 1930 helpline for urgent financial fraud, and the cybercrime.gov.in portal for the...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/common-scam-call-scripts-in-india-and.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Common Scam Call Scripts in India — and the Personal Data Behind Each One</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s most common phone scams follow recognizable scripts — and each one relies on a specific type of personal data to sound...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-choose-username-that-doesnt.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Choose a Username That Doesn’t Expose Me?</h2>
+      <p class="post-excerpt">TL;DR: A username is a small design choice most people make once and forget — but it quietly determines how easily your accounts can be...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-remove-my-personal-information.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Remove My Personal Information From Data Broker Sites in India</h2>
+      <p class="post-excerpt">TL;DR: Data broker removal is a real, doable process — but it means going site by site, since there&#x27;s no single central opt-out yet in...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/aadhaar-privacy-in-india-whats-actually.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Aadhaar Privacy in India: What’s Actually at Risk, and How to Protect It</h2>
+      <p class="post-excerpt">TL;DR: Aadhaar sits at the center of banking, telecom, and government services in India, which makes its privacy protections worth...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-dpdp-act-what-rights-do-you.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">The DPDP Act: What Rights Do You Actually Have Over Your Personal Data in India?</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s Digital Personal Data Protection Act gives you four specific, enforceable rights over your personal data — access,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-use-my-photo-to-track-me.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Can Someone Use My Photo to Track Me?</h2>
+      <p class="post-excerpt">TL;DR: One photo alone is rarely enough — but a pattern across several photos, combined with hidden metadata and visible clues, can reveal...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-phone-number-just.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Can Someone Find My Phone Number Just From My Social Media?</h2>
+      <p class="post-excerpt">TL;DR: Sometimes directly, sometimes indirectly — even if your number isn&#x27;t visible in your bio, details across your profile can be enough...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-makes-up-your-digital-footprint.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Makes Up Your Digital Footprint?</h2>
+      <p class="post-excerpt">TL;DR: Your digital footprint isn&#x27;t one thing — it&#x27;s made of distinct categories of data, each with a different owner, different...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-osint-can-be-used-to-find-someone.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How OSINT Can Be Used to Find Someone in India.</h2>
+      <p class="post-excerpt">TL;DR: India has an unusually rich set of public records — voter rolls, company registries, court databases — that make OSINT searches on...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/osint-vs-hacking-whats-real-difference.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">OSINT vs. Hacking: What’s the Real Difference?</h2>
+      <p class="post-excerpt">TL;DR: OSINT means gathering information that&#x27;s already publicly available — no unauthorized access involved. Hacking means breaking into a...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-my-photos-reveal-your-location-or.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Can My Photos Reveal My Location or Other Personal Information?</h2>
+      <p class="post-excerpt">TL;DR: Yes, in two separate ways — hidden GPS metadata embedded in the file itself, and visible clues in the photo&#x27;s background that most...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-protect-your-personal.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Protect Your Personal Information When Signing Up for Apps and Websites</h2>
+      <p class="post-excerpt">TL;DR: Most exposure starts at sign-up, not from a dramatic hack later — a few deliberate habits at the point of creating an account...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-does-your-email-address-reveal.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Does Your Email Address Reveal About You?</h2>
+      <p class="post-excerpt">TL;DR: More than just a contact point — the structure, age, and pattern of your email address can hint at your name, when you first got...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-deleted-social-media-posts-still-be.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Can Deleted Social Media Posts Still Be Found Online?</h2>
+      <p class="post-excerpt">TL;DR: Often, yes — deletion removes a post from the platform&#x27;s live display, but copies can persist through screenshots, web archives,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-is-osint-and-how-can-it-be-used-to.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Is OSINT, and How Can It Be Used to Find Information About Me? </h2>
+      <p class="post-excerpt">TL;DR: OSINT (Open Source Intelligence) means gathering and connecting publicly available information to build a picture of a person or...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-much-can-someone-learn-from-my.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How Much Can Someone Learn From My Public Instagram Profile?</h2>
+      <p class="post-excerpt">TL;DR: More than the individual posts suggest — patterns across your bio, tagged locations, followers, and photo backgrounds can build a...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-my-old-username-still-reveal-who-i.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Can My Old Username Still Reveal Who I Am?</h2>
+      <p class="post-excerpt">TL;DR: Yes — if you&#x27;ve reused a username across platforms, even an old, abandoned one can link your identity across accounts you never...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-should-i-do-if-my-email-appears-in.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Should I Do If My Email Appears in a Data Breach?</h2>
+      <p class="post-excerpt">TL;DR: Don&#x27;t panic, but don&#x27;t ignore it either. Here&#x27;s the specific order of actions to take once you&#x27;ve confirmed your email was part of a...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-is-data-breach-and-what-actually.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Is a Data Breach, and What Actually Gets Leaked?</h2>
+      <p class="post-excerpt">TL;DR: A data breach is when a company&#x27;s stored information gets accessed without authorization — but &quot;breach&quot; covers a huge range, from a...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-social-media.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Can Someone Find my Social Media Accounts Using Your Email Address?</h2>
+      <p class="post-excerpt">TL;DR: Yes, often — many platforms let you search by email during account recovery or &quot;find friends&quot; features, and this can be exploited to...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-what-personal-information.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Check What Personal Information About You Is Public Online</h2>
+      <p class="post-excerpt">TL;DR: Run the same searches a stranger would run on you — search engines, image search, people-search sites, and platform-specific lookups...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-your-phone-number-and-email-address.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How Your Phone Number and Email Address End Up Online: The Complete Exposure Guide for Indians</h2>
+      <p class="post-excerpt">Photo by Jamie Street on Unsplash TL;DR: Your phone number and email address are valuable, and they circulate across the internet through...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/why-do-spam-calls-increase-after-data.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Why Do Spam Calls Increase After a Data Breach?</h2>
+      <p class="post-excerpt">TL;DR: A breach doesn&#x27;t cause spam calls directly — it feeds your number into resale and marketing pipelines that take time to activate,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-email-has-been.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Check If Your Email Has Been Leaked</h2>
+      <p class="post-excerpt">TL;DR: Checking your email for leaks is quick and mostly free — the trick is knowing which tools catch what, since no single one sees...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-can-scammers-actually-find-about.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Can Scammers Actually Find About You Online?</h2>
+      <p class="post-excerpt">TL;DR: More than most people assume, but through unglamorous methods — public searches, old leaks, and pieced-together fragments — not...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-find-old-accounts-linked-to-your.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Find Old Accounts Linked to Your Phone Number</h2>
+      <p class="post-excerpt">TL;DR: Most people have far more old, forgotten accounts than they&#x27;d guess — here&#x27;s a practical method for actually finding them, instead...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-does-data-breach-actually-expose.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Does a Data Breach Actually Expose? A Breakdown by Data Type</h2>
+      <p class="post-excerpt">TL;DR: Not all breached data carries the same risk. Here&#x27;s a practical breakdown of what typically gets exposed in a breach, and how...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-phone-number-reveal-your-name.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Can a Phone Number Reveal Your Name?</h2>
+      <p class="post-excerpt">TL;DR: Yes, often — mainly through caller ID apps like Truecaller, which crowdsource names from other people&#x27;s saved contacts, not from any...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-do-data-brokers-actually-get-your.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How Do Data Brokers Actually Get Your Phone Number in India?</h2>
+      <p class="post-excerpt">TL;DR: Not through one dramatic leak — through a slow accumulation of forms, apps, public records, and, occasionally, insiders selling data...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-actually-happens-to-your-data-when.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">What Actually Happens to Your Data When You Delete an App?</h2>
+      <p class="post-excerpt">TL;DR: Deleting an app removes it from your phone — it doesn&#x27;t delete your account or the data the company holds about you on its servers....</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-remove-your-phone-number-from.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Remove Your Phone Number From the Internet in India</h2>
+      <p class="post-excerpt">TL;DR: There&#x27;s no single button for this — removing your number means working through several categories one at a time: caller ID...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-address-using-my.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Can Someone Find My Address Using My Phone Number?</h2>
+      <p class="post-excerpt">TL;DR: Yes, sometimes — but usually only an approximate location, not your exact home address, unless your number is tied to something more...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-new-aadhaar-app-just-made-your.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">The New Aadhaar App Just Made Your Digital Footprint Bigger — Here&#x27;s What That Means</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s digital footprint isn&#x27;t just growing through apps you choose to use — it&#x27;s expanding through infrastructure like the new...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-my-phone-number-leaked-heres-how-to.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Is My Phone Number Leaked? Here&#x27;s How to Actually Check</h2>
+      <p class="post-excerpt">TL;DR: &quot;Leaked&quot; doesn&#x27;t mean your phone is hacked — it means your number is sitting in a database somewhere it shouldn&#x27;t be. Here&#x27;s how to...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/your-personal-information-is-exposed.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">cybersecurity India</span></div>
+      </div>
+      <h2 class="post-title">Your Personal Information Is Exposed Online? — Here&#x27;s How to Find Out What&#x27;s There</h2>
+      <p class="post-excerpt">TL;DR: &quot;Personal information exposed online&quot; usually doesn&#x27;t mean one dramatic hack — it&#x27;s an accumulation of old accounts, data broker...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-your-phone-number-becomes-digital.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Cyber Security</span></div>
+      </div>
+      <h2 class="post-title">How Your Phone Number Becomes a Digital Footprint of Its Own</h2>
+      <p class="post-excerpt">TL;DR: Your phone number is one of the most-shared, longest-lived pieces of your digital footprint — tied to everything from WhatsApp to...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-your-digital-footprint.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">cybersecurity India</span></div>
+      </div>
+      <h2 class="post-title">How to Check Your Digital Footprint (Step-by-Step, for Indian Users)</h2>
+      <p class="post-excerpt">TL;DR: Checking your digital footprint means finding out where your phone number, email, and personal details show up online — through...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-footprint-india-what.html">
+      <div class="post-card-top">
+        <span class="post-date">August 26, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">Phone Number Exposure</span></div>
+      </div>
+      <h2 class="post-title">Digital Footprint India: What Information About You Is Online?</h2>
+      <p class="post-excerpt">TL;DR: Your digital footprint in India is the trail of data you leave behind through UPI payments, Aadhaar-linked services, social media,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-phone-number-is_0465861466.html">
+      <div class="post-card-top">
+        <span class="post-date">August 24, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Check if Your Phone Number Is Exposed Online: A Guide for Indians</h2>
+      <p class="post-excerpt">Photo by Jonas Leupe on Unsplash TL;DR Your phone number can appear online through data breaches, data brokers, public records, and...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-phone-number-is.html">
+      <div class="post-card-top">
+        <span class="post-date">August 22, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">How to Check If Your Phone Number Is Exposed Online: A Guide for Indian Users</h2>
+      <p class="post-excerpt">Photo by Rafiee Artist on Unsplash TL;DR: Your phone number may be exposed across multiple online sources—from data breaches to people...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/where-do-phone-numbers-get-exposed.html">
+      <div class="post-card-top">
+        <span class="post-date">August 22, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Where Do Phone Numbers Get Exposed Online? A Guide for Indian Users</h2>
+      <p class="post-excerpt">Photo by Jonas Leupe on Unsplash TL;DR Your phone number can be exposed through data breaches, public listings, data brokers, UPI...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-your-personal-information-exposed.html">
+      <div class="post-card-top">
+        <span class="post-date">August 22, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Is Your Personal Information Exposed Online? Here&#x27;s How to Check and What to Do</h2>
+      <p class="post-excerpt">Photo by Jonas Leupe on Unsplash TL;DR Your phone number and email address can appear in many places online without your knowledge — from...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-your-phone-number-exposed-online-how.html">
+      <div class="post-card-top">
+        <span class="post-date">August 21, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Is Your Phone Number Exposed Online? How to Check and What to Do</h2>
+      <p class="post-excerpt">Photo by Dan Nelson on Unsplash TL;DR Your mobile number can become publicly visible through data breaches, app sign-ups, UPI transactions,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/old-apps-forgotten-accounts-and-your.html">
+      <div class="post-card-top">
+        <span class="post-date">August 21, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Old Apps, Forgotten Accounts and Your Exposed Phone Number: A Practical Privacy Guide for India</h2>
+      <p class="post-excerpt">Photo by William Hook on Unsplash TL;DR Every app or website you signed up for — even years ago — still stores your phone number and email...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/your-forgotten-online-accounts-are.html">
+      <div class="post-card-top">
+        <span class="post-date">August 21, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Your Forgotten Online Accounts Are a Privacy Risk — Here Is What to Do About Them</h2>
+      <p class="post-excerpt">Photo by Quino Al on Unsplash TL;DR Every account you have ever created — even ones you forgot years ago — still stores your personal data...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/indias-digital-arrest-scam-crisis_01898235965.html">
+      <div class="post-card-top">
+        <span class="post-date">August 19, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">India&#x27;s Digital Arrest Scam Crisis: Supreme Court Acts, Goa Police Bust Multi-State Fraud Ring (August 2026)</h2>
+      <p class="post-excerpt">Photo by Sajad Nori on Unsplash TLDR: In the first two weeks of August 2026, India&amp;rsquo;s digital arrest scam crisis reached a boiling...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/indias-digital-arrest-scam-crisis.html">
+      <div class="post-card-top">
+        <span class="post-date">August 17, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">India&#x27;s Digital Arrest Scam Crisis: Supreme Court Acts, Police Raid 11 States in August 2026</h2>
+      <p class="post-excerpt">TLDR: India&#x27;s digital arrest scam wave escalated dramatically in early August 2026. The Supreme Court issued nationwide directions ordering...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/india-cyber-scam-alert-1571-crore.html">
+      <div class="post-card-top">
+        <span class="post-date">August 16, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">India Cyber Scam Alert: ₹15.71 Crore Investment Fraud Busted &amp; Digital Arrest Cases Surge — August 2026</h2>
+      <p class="post-excerpt">Photo by Sasun Bughdaryan on Unsplash TLDR: Delhi Police arrested nine people across four states in a ₹15.71 crore investment fraud and...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-arrest-investment-fraud-indias.html">
+      <div class="post-card-top">
+        <span class="post-date">August 15, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest &amp; Investment Fraud: India&#x27;s Twin Cyber Scourges — August 2026 Update</h2>
+      <p class="post-excerpt">Photo by personalgraphic.com on Unsplash TLDR: In the past week, Delhi Police arrested nine people linked to a Rs 15.71 crore pan-India...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/digital-arrest-scams-cost-india-4057.html">
+      <div class="post-card-top">
+        <span class="post-date">July 08, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams Cost India ₹4,057 Crore: Latest Cyber Fraud News July 2026</h2>
+      <p class="post-excerpt">Photo by Gilles Lambert on Unsplash TLDR: Digital arrest scams have cost India ₹4,057.7 crore across nearly 3 lakh incidents since 2022. In...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/india-halts-whatsapp-username-rollout.html">
+      <div class="post-card-top">
+        <span class="post-date">July 04, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">India Halts WhatsApp Username Rollout Over Digital Arrest Scam Fears — What You Must Know</h2>
+      <p class="post-excerpt">Photo by Dima Solomin on Unsplash TLDR: India&#x27;s Ministry of Electronics and Information Technology (MeitY) issued a formal notice to Meta...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/deepfake-investment-scams-digital.html">
+      <div class="post-card-top">
+        <span class="post-date">July 02, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Deepfake Investment Scams &amp; Digital Arrests: India&#x27;s Cyber Fraud Crisis in July 2026</h2>
+      <p class="post-excerpt">Photo by Geoffrey Moffett on Unsplash TLDR: India lost an estimated ₹22,495 crore ($2.7B) to cyber fraud in 2025, with complaint volumes up...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/cbis-operation-chakra-vi-indias-biggest.html">
+      <div class="post-card-top">
+        <span class="post-date">June 27, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">CBI&#x27;s Operation Chakra VI: India&#x27;s Biggest Digital Arrest Scam Crackdown Explained</h2>
+      <p class="post-excerpt">Photo by Ugi K. on Unsplash TLDR: The CBI launched Operation Chakra VI on June 25, 2026 — raiding over 80 locations across 16 Indian states...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/operation-chakra-vi-indias-cyber-scam.html">
+      <div class="post-card-top">
+        <span class="post-date">June 27, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Operation Chakra-VI &amp; India&#x27;s Cyber Scam Crisis: What You Need to Know (June 2026)</h2>
+      <p class="post-excerpt">Photo by João Ferrão on Unsplash TLDR: On June 25, 2026, the CBI launched Operation Chakra-VI — raiding 80+ locations across 16 Indian...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/india-cyber-scam-alert-june-2026.html">
+      <div class="post-card-top">
+        <span class="post-date">June 17, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">India Cyber Scam Alert June 2026: Telegram Traps, NEET Fraud &amp; Digital Arrests Surge</h2>
+      <p class="post-excerpt">Photo by Nhu Nguyen on Unsplash TLDR: India&amp;#39;s digital fraud rate hit 7.1% in 2025 — nearly double the global average. This week alone...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-epidemic-india-reports.html">
+      <div class="post-card-top">
+        <span class="post-date">June 10, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Epidemic: India Reports Rs 22,495 Crore Cyber Fraud Losses as Scam Syndicate Busted in Delhi</h2>
+      <p class="post-excerpt">Photo by Shiona Das on Unsplash TLDR: India lost Rs 22,495 crore to cyber fraud in 2025 with over 2.81 million reported cases. Digital...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/indias-cyber-fraud-crisis-over-22000.html">
+      <div class="post-card-top">
+        <span class="post-date">June 09, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">India&#x27;s Cyber Fraud Crisis: Over ₹22,000 Crore Lost in 2025 with 7,700 Daily Complaints</h2>
+      <p class="post-excerpt">Photo by Michael Mwangi on Unsplash TLDR: India lost over ₹22,000 crore to cyber fraud in 2025 with 2.81 million reported cases - that&#x27;s...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-scams-and-upi-frauds.html">
+      <div class="post-card-top">
+        <span class="post-date">June 05, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams and UPI Frauds Surge in India: Latest Cyber Crime Updates from December 2026</h2>
+      <p class="post-excerpt">Photo by Jonas Leupe on Unsplash TLDR: India faces an unprecedented surge in cyber scams with over INR 22,000 crore annual losses. Digital...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-scams-surge-across-india.html">
+      <div class="post-card-top">
+        <span class="post-date">June 03, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams Surge Across India: Massive Cyber Fraud Cases Hit Multiple States</h2>
+      <p class="post-excerpt">Photo by Francois Olwage on Unsplash Digital arrest scams have become India&#x27;s third-largest fraud category by financial damage, with over...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-rise-200-in-india.html">
+      <div class="post-card-top">
+        <span class="post-date">May 31, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams Rise 200% in India: New AI-Powered Cyber Threats Target Professionals in 2026</h2>
+      <p class="post-excerpt">Indian cyber authorities report a dramatic surge in digital arrest scams across major cities, with fraudsters now using AI-generated voices...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-in-india-2026.html">
+      <div class="post-card-top">
+        <span class="post-date">May 31, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams in India 2026: Latest Cyber Fraud Tactics Targeting Millions</h2>
+      <p class="post-excerpt">Photo by Onur Binay on Unsplash TLDR: Digital arrest scams have emerged as India&#x27;s fastest-growing cybercrime in 2026, with fraudsters...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/latest-cyber-scam-crisis-in-india-8000.html">
+      <div class="post-card-top">
+        <span class="post-date">May 31, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Latest Cyber Scam Crisis in India: ₹8,000 Crore Lost to Digital Fraudsters in Past Week</h2>
+      <p class="post-excerpt">Photo by Hassan OUAJBIR on Unsplash &quot;India lost at least Rs 22,495 crore (roughly $2.7 billion) to cyber fraud in 2025, with UPI fraud...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-surge-in-india.html">
+      <div class="post-card-top">
+        <span class="post-date">May 31, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams Surge in India: 77,000 Victims Lose ₹712 Crore in Latest Wave</h2>
+      <p class="post-excerpt">Photo by FlyD on Unsplash TLDR: Digital arrest scams have become India&#x27;s fastest-growing cybercrime, with over 77,000 victims in Odisha...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-cost-indians-100.html">
+      <div class="post-card-top">
+        <span class="post-date">May 27, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams Cost Indians ₹100 Crore as Cyber Fraud Surges in 2026</h2>
+      <p class="post-excerpt">Photo by FlyD on Unsplash TLDR: India faces an unprecedented cyber fraud crisis in 2026, with digital arrest scams alone causing losses...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-explode-in-india.html">
+      <div class="post-card-top">
+        <span class="post-date">May 25, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Digital Arrest Scams Explode in India: Latest Crackdowns and Protection Strategies for 2026</h2>
+      <p class="post-excerpt">Photo by Towfiqu barbhuiya on Unsplash TLDR: Digital arrest scams have reached epidemic proportions in India, with losses exceeding ₹2,140...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/latest-cyber-scams-in-india-iphone.html">
+      <div class="post-card-top">
+        <span class="post-date">May 25, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Latest Cyber Scams in India: iPhone Phishing Alert &amp; Rs 52,000 Crore Fraud Loss</h2>
+      <p class="post-excerpt">Photo by rupixen on Unsplash TLDR: India has lost over Rs 52,000 crore to cyber frauds in the past five years, with criminals now targeting...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/upi-fraud-prevention-india-complete.html">
+      <div class="post-card-top">
+        <span class="post-date">May 25, 2026</span>
+        <div class="post-tags"><span class="tag-pill">UPI fraud prevention</span><span class="tag-pill">digital payment security</span><span class="tag-pill">cybersecurity India</span></div>
+      </div>
+      <h2 class="post-title">UPI Fraud Prevention India: Complete Guide to Protect Your Digital Payments in 2024</h2>
+      <p class="post-excerpt">The Rising Threat of UPI Fraud in India&#x27;s Digital Payment Landscape India&#x27;s Unified Payments Interface (UPI) has revolutionized digital...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/upi-fraud-prevention-in-india-complete.html">
+      <div class="post-card-top">
+        <span class="post-date">May 25, 2026</span>
+        <div class="post-tags"><span class="tag-pill">UPI fraud</span><span class="tag-pill">digital payments</span><span class="tag-pill">cybersecurity India</span></div>
+      </div>
+      <h2 class="post-title">UPI Fraud Prevention in India: Complete Guide to Protect Your Digital Payments in 2024</h2>
+      <p class="post-excerpt">The Growing Threat of UPI Fraud in India&#x27;s Digital Payment Revolution India&#x27;s Unified Payments Interface (UPI) has revolutionized digital...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    Scan My Shadow &middot; A unit of Jaishree Exports &middot; <a href="https://www.scanmyshadow.com/">Home</a>
+  </div>
+</footer>
+
+</body>
+</html>
