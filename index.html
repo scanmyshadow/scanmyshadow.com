@@ -724,7 +724,7 @@
         <a class="nav-link" href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
       </div>
     </div>
-    <a class="nav-pill" href="#pricing"><span class="cta-full">Start scan · ₹498</span><span class="cta-short">Scan · ₹498</span></a>
+    <a class="nav-pill" href="#pricing"><span class="cta-full">Start scan · <span class="price-tag">₹498</span></span><span class="cta-short">Scan · <span class="price-tag">₹498</span></span></a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -758,7 +758,7 @@
   <div class="wrap hero-inner">
     <h1>Find Out What Your Phone Number & Email <span class="accent">Reveal About You</span> Online</h1>
     <p class="hero-sub">Scan your public digital footprint with access to data from 1,500+ public sources worldwide and get an automated privacy report in about 5 minutes.</p>
-    <p style="font-size:13px; color:var(--ink-faint); margin-top:14px; letter-spacing:0.02em;">₹498 • Phone + Email • Automated • No passwords required</p>
+    <p style="font-size:13px; color:var(--ink-faint); margin-top:14px; letter-spacing:0.02em;"><span class="price-tag">₹498</span> • Phone + Email • Automated • No passwords required</p>
   </div>
 
   <div class="hero-stage">
@@ -833,9 +833,9 @@
         <div class="fc-ic">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg>
         </div>
-        <div><div class="fc-title">DPDP-aligned</div></div>
+        <div><div class="fc-title" id="privacyBadgeTitle">DPDP-aligned</div></div>
       </div>
-      <div class="fc-desc">Consent-first and built for India's data-protection norms.</div>
+      <div class="fc-desc" id="privacyBadgeDesc">Consent-first and built for India's data-protection norms.</div>
       </div>
     </div>
 
@@ -1112,7 +1112,7 @@
 
       <div class="proof-bottom">
         <div class="proof-bottom-copy"><strong>Curious what your own report might show?</strong><br>You can check your phone number, email, or both. The choice is yours.</div>
-        <button class="proof-cta" onclick="openModal()">See what we find · ₹498</button>
+        <button class="proof-cta" onclick="openModal()">See what we find · <span class="price-tag">₹498</span></button>
       </div>
     </div>
 
@@ -1138,7 +1138,7 @@
         <div class="sheen"></div>
         <div class="p-inner">
           <div class="price-label">Phone + email scan · 1,500+ data sources worldwide · Full report</div>
-          <div class="price-amount">₹498<span>one-time</span></div>
+          <div class="price-amount"><span class="price-tag">₹498</span><span>one-time</span></div>
           <div class="price-scope"></div>
           <ul class="price-list">
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results usually within about 5 minutes</li>
@@ -1329,6 +1329,28 @@
     }
   });
 
+  // ---- Geo-IP price localization ----
+  window.SMS_CURRENCY = 'INR'; // default: India-first, also the fallback if geo-IP fails
+  (function(){
+    fetch('https://ipwho.is/')
+      .then(function(res){ return res.json(); })
+      .then(function(data){
+        if(data && data.success !== false && data.country_code && data.country_code !== 'IN'){
+          window.SMS_CURRENCY = 'USD';
+          document.querySelectorAll('.price-tag').forEach(function(el){
+            el.textContent = '$9.99';
+          });
+          var badgeTitle = document.getElementById('privacyBadgeTitle');
+          var badgeDesc = document.getElementById('privacyBadgeDesc');
+          if(badgeTitle) badgeTitle.textContent = 'Privacy-first';
+          if(badgeDesc) badgeDesc.textContent = "Consent-first, with your data deleted immediately after your report.";
+        }
+      })
+      .catch(function(){
+        // geo-IP failed or blocked — keep INR default per agreed fallback
+      });
+  })();
+
   // ---- hook capture endpoint (separate Google Sheet — zero backend impact) ----
   var CAPTURE_URL = "CAPTURE_URL_HERE"; // paste your Apps Script Web App URL
 
@@ -1344,7 +1366,11 @@
     var originalText = btn.textContent;
     btn.textContent = 'Processing...';
 
-    fetch(ORDER_CREATE_URL, { method: 'POST' })
+    fetch(ORDER_CREATE_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ currency: window.SMS_CURRENCY || 'INR' })
+    })
       .then(function(res){
         if(!res.ok) throw new Error('Order creation failed');
         return res.json();
