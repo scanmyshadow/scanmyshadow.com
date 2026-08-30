@@ -55,7 +55,10 @@
   .nav-inner{display:flex; justify-content:space-between; align-items:center; height:66px; max-width:800px; margin:0 auto; padding:0 24px;}
   .logo{font-family:'Space Grotesk'; font-weight:700; font-size:17px; color:var(--ink); display:flex; align-items:center; gap:9px;}
   .logo-img{height:29px; width:auto;}
-  .nav-pill{font-size:14px; font-weight:600; color:#fff; background:var(--purple); border-radius:999px; padding:10px 20px; box-shadow:0 8px 20px rgba(123,92,250,0.28);}
+  .nav-pill{font-size:14px; font-weight:600; color:#fff; background:var(--purple); border-radius:999px; padding:10px 20px; position:relative; animation:cta-glow 2.8s ease-in-out infinite;}
+  .nav-pill::before{content:""; position:absolute; inset:0; border-radius:999px; z-index:-1; animation:cta-ping 2.8s ease-out infinite;}
+  @keyframes cta-glow{0%,100%{box-shadow:0 8px 20px rgba(123,92,250,0.28);}50%{box-shadow:0 8px 26px rgba(123,92,250,0.55);}}
+  @keyframes cta-ping{0%{box-shadow:0 0 0 0 rgba(123,92,250,0.45);}70%{box-shadow:0 0 0 12px rgba(123,92,250,0);}100%{box-shadow:0 0 0 0 rgba(123,92,250,0);}}
 
   .wrap{max-width:720px; margin:0 auto; padding:0 24px;}
   .breadcrumb{font-size:13px; color:var(--ink-faint); padding:24px 0 0;}
@@ -66,13 +69,9 @@
   h1.title{font-family:'Space Grotesk'; font-size:clamp(28px,4vw,40px); font-weight:700; line-height:1.2; margin-bottom:14px; color:var(--ink);}
   .meta-row{font-size:13.5px; color:var(--ink-faint); margin-bottom:24px;}
 
-  .hero-img-slot{
-    width:100%; aspect-ratio:16/9; border-radius:14px; margin-bottom:32px;
-    background:repeating-linear-gradient(45deg, var(--line-soft), var(--line-soft) 10px, #fff 10px, #fff 20px);
-    border:1px dashed var(--line); display:flex; align-items:center; justify-content:center;
-  }
-  .hero-img-placeholder-label{font-size:12.5px; color:var(--ink-faint); background:#fff; padding:4px 10px; border-radius:6px;}
-  .hero-img-slot img{width:100%; height:100%; object-fit:cover; border-radius:14px;}
+  .hero-img-slot{display:none;}
+  .hero-img-slot.has-img{display:block; width:100%; aspect-ratio:16/9; border-radius:14px; margin-bottom:32px; overflow:hidden;}
+  .hero-img-slot.has-img img{width:100%; height:100%; object-fit:cover; display:block;}
 
   .tldr-box{background:var(--purple-mist); border-radius:14px; padding:20px 22px; margin-bottom:36px; border:1px solid var(--line);}
   .tldr-box strong{color:var(--purple-deep);}
@@ -114,9 +113,7 @@
   <div class="meta-row">Scan My Shadow &middot; August 26, 2026</div>
 
   <!-- HERO-IMAGE:the-complete-guide-to-matrimony-and -->
-  <div class="hero-img-slot" data-slug="the-complete-guide-to-matrimony-and">
-    <span class="hero-img-placeholder-label">Hero image not yet added</span>
-  </div>
+  <div class="hero-img-slot" data-slug="the-complete-guide-to-matrimony-and"></div>
 
   <div class="post-content">
 <p><strong>TL;DR:</strong> Matrimonial and dating platforms in India involve sharing deeply personal information with strangers — sometimes before you have any reason to trust them. This guide covers what you're actually exposing when you create a profile, how to spot fraud early, how to verify someone the right way, what's legal when it comes to background checks, and what to do if something goes wrong. It's the one page you should read before anything else.</p>
