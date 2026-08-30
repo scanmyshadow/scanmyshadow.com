@@ -90,19 +90,25 @@
 
   /* ===== price-card CTA (matches homepage pricing block exactly) ===== */
   .price-wrap{display:flex; justify-content:center; margin:48px 0 8px;}
-  .price-card{position:relative; width:100%; max-width:400px; background:var(--ink); color:#fff; border-radius:24px; padding:38px 32px; overflow:hidden; box-shadow:var(--shadow-lg);}
-  .price-card .p-inner{position:relative; z-index:2;}
+  .price-card{position:relative; width:100%; max-width:680px; background:var(--ink); color:#fff; border-radius:24px; padding:36px 40px; overflow:hidden; box-shadow:var(--shadow-lg);}
+  .price-card .p-inner{position:relative; z-index:2; display:flex; align-items:center; gap:40px;}
+  .price-left{flex:0 0 auto; width:220px;}
+  .price-right{flex:1; min-width:0; border-left:1px solid rgba(255,255,255,0.1); padding-left:36px;}
   .price-label{font-size:13px; color:#A5A2C0; margin-bottom:10px;}
   .price-amount{font-family:'Space Grotesk'; font-weight:700; font-size:44px; line-height:1; letter-spacing:-0.02em;}
   .price-amount span{font-size:14px; color:#A5A2C0; font-weight:500; margin-left:6px;}
-  .price-list{list-style:none; margin:22px 0; padding:0;}
-  .price-list li{display:flex; align-items:flex-start; gap:11px; padding:10px 0; border-bottom:1px solid rgba(255,255,255,0.08); font-size:13.5px; color:#DEDDEC;}
-  .price-list li:last-child{border-bottom:0;}
-  .price-list li svg{width:16px; height:16px; color:var(--purple); flex-shrink:0; margin-top:1px;}
-  .btn-price{display:block; width:100%; text-align:center; background:var(--purple); color:#fff; border:none; border-radius:13px; padding:15px; font-size:15px; font-weight:600; font-family:'Inter'; cursor:pointer; text-decoration:none;}
+  .price-list{list-style:none; margin:0 0 18px; padding:0;}
+  .price-list li{display:flex; align-items:flex-start; gap:10px; padding:7px 0; font-size:13px; color:#DEDDEC;}
+  .price-list li svg{width:15px; height:15px; color:var(--purple); flex-shrink:0; margin-top:1px;}
+  .btn-price{display:block; width:100%; text-align:center; background:var(--purple); color:#fff; border:none; border-radius:13px; padding:14px; font-size:14.5px; font-weight:600; font-family:'Inter'; cursor:pointer; text-decoration:none; margin-top:20px;}
   .btn-price:hover{background:var(--purple-deep); text-decoration:none;}
-  .price-razorpay{display:flex; align-items:center; justify-content:center; gap:7px; margin-top:14px; opacity:0.6;}
-  .price-razorpay span{font-size:12px; color:#A5A2C0;}
+  .price-razorpay{display:flex; align-items:center; justify-content:center; gap:7px; margin-top:12px; opacity:0.6;}
+  .price-razorpay span{font-size:11.5px; color:#A5A2C0;}
+  @media(max-width:640px){
+    .price-card .p-inner{flex-direction:column; align-items:stretch; gap:24px;}
+    .price-left{width:100%;}
+    .price-right{border-left:none; border-top:1px solid rgba(255,255,255,0.1); padding-left:0; padding-top:20px;}
+  }
   .price-razorpay svg{width:15px; height:15px;}
 
   .fx-dark{position:relative; overflow:hidden;}
@@ -352,19 +358,23 @@
       <div class="particles" data-particles></div>
       <div class="sheen"></div>
       <div class="p-inner">
-        <div class="price-label">Phone + email scan &middot; 1,500+ data sources worldwide &middot; Full report</div>
-        <div class="price-amount">₹498<span>one-time</span></div>
-        <ul class="price-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results usually within about 5 minutes</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
-        </ul>
-        <a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Scan My Digital Footprint</a>
-        <div class="price-razorpay">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
-          <span>Secure payment via Razorpay</span>
+        <div class="price-left">
+          <div class="price-label">Phone + email scan &middot; Full report</div>
+          <div class="price-amount">₹498<span>one-time</span></div>
+          <a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Scan My Digital Footprint</a>
+          <div class="price-razorpay">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
+            <span>Secure payment via Razorpay</span>
+          </div>
+        </div>
+        <div class="price-right">
+          <ul class="price-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results usually within about 5 minutes</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
+          </ul>
         </div>
       </div>
     </div>
