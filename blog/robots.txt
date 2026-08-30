@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.scanmyshadow.com/sitemap.xml
+Sitemap: https://www.scanmyshadow.com/blog/sitemap.xml
