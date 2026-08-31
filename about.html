@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -127,6 +128,80 @@ footer{background:var(--bg-tint);border-top:1px solid var(--line);padding:56px 0
   .foot-cols{flex-wrap:wrap;gap:32px;}
   .cta-strip{flex-direction:column;text-align:center;}
 }
+
+/* ---- Tools dropdown (desktop) ---- */
+.tools-item{position:relative;}
+.tools-trigger{display:flex; align-items:center; gap:5px; background:none; border:none; cursor:pointer; font-family:inherit; font-size:14px; color:var(--ink-soft); padding:0; transition:color .2s ease;}
+.tools-trigger:hover, .tools-trigger.open{color:var(--ink);}
+.tools-trigger svg{width:12px; height:12px; transition:transform .2s ease;}
+.tools-trigger.open svg{transform:rotate(180deg);}
+.tools-dropdown{position:absolute; top:calc(100% + 17px); left:50%; transform:translateX(-50%) translateY(6px); width:580px; background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow-lg); padding:16px; opacity:0; visibility:hidden; pointer-events:none; transition:opacity .18s ease, transform .18s ease, visibility .18s ease; z-index:90;}
+.tools-dropdown.open{opacity:1; visibility:visible; pointer-events:auto; transform:translateX(-50%) translateY(0);}
+.tools-dropdown-head{font-size:11px; font-weight:600; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.08em; padding:2px 8px 12px;}
+.tools-grid{display:grid; grid-template-columns:1fr 1fr; gap:3px;}
+.tool-card{display:flex; align-items:flex-start; gap:11px; padding:11px 10px; border-radius:11px; text-decoration:none; transition:background .15s ease;}
+.tool-card:hover{background:var(--purple-mist);}
+.tool-ic{width:34px; height:34px; flex-shrink:0; border-radius:9px; background:var(--purple-mist); color:var(--purple); display:flex; align-items:center; justify-content:center; transition:background .15s ease, color .15s ease;}
+.tool-ic svg{width:17px; height:17px;}
+.tool-card:hover .tool-ic{background:var(--purple); color:#fff;}
+.tool-name{display:block; font-size:13.25px; font-weight:600; color:var(--ink); line-height:1.3;}
+.tool-desc{display:block; font-size:11.75px; color:var(--ink-faint); line-height:1.4; margin-top:2px;}
+@media(max-width:1080px){ .tools-dropdown{left:auto; right:0; transform:translateY(6px);} .tools-dropdown.open{transform:translateY(0);} }
+
+/* ---- Tools accordion (mobile) ---- */
+.mobile-tools-toggle{width:100%; display:flex; align-items:center; justify-content:space-between; background:none; border:none; border-bottom:1px solid var(--line); cursor:pointer; padding:14px 4px; font-size:15px; color:var(--ink-soft); font-family:inherit; text-align:left;}
+.mobile-tools-toggle svg{width:13px; height:13px; transition:transform .2s ease; flex-shrink:0; color:var(--ink-faint);}
+.mobile-tools-toggle.open svg{transform:rotate(180deg);}
+.mobile-tools-panel{display:none; flex-direction:column; padding:2px 0 4px 6px; border-bottom:1px solid var(--line);}
+.mobile-tools-panel.open{display:flex;}
+.mobile-tools-panel a{padding:11px 4px; font-size:13.25px; color:var(--ink-faint); border-bottom:none; display:flex; align-items:center; gap:9px;}
+.mobile-tools-panel a svg{width:15px; height:15px; color:var(--purple); flex-shrink:0;}
+
+/* ---- CTA pulse animation (matches main index) ---- */
+.nav-pill{position:relative; animation:cta-glow 2.8s ease-in-out infinite;}
+.nav-pill::before{content:""; position:absolute; inset:0; border-radius:999px; z-index:-1; animation:cta-ping 2.8s ease-out infinite;}
+@keyframes cta-glow{0%,100%{box-shadow:0 8px 20px rgba(123,92,250,0.28);}50%{box-shadow:0 8px 26px rgba(123,92,250,0.55);}}
+@keyframes cta-ping{0%{box-shadow:0 0 0 0 rgba(123,92,250,0.45);}70%{box-shadow:0 0 0 12px rgba(123,92,250,0);}100%{box-shadow:0 0 0 0 rgba(123,92,250,0);}}
+
+/* ---- Price card (matches blog bottom CTA) ---- */
+.price-wrap{display:flex; justify-content:center; margin:48px 0 8px;}
+.price-card{position:relative; width:100%; max-width:680px; background:var(--ink); color:#fff; border-radius:24px; padding:36px 40px; overflow:hidden; box-shadow:var(--shadow-lg);}
+.price-card .p-inner{position:relative; z-index:2; display:flex; align-items:center; gap:40px;}
+.price-left{flex:0 0 auto; width:220px;}
+.price-right{flex:1; min-width:0; border-left:1px solid rgba(255,255,255,0.1); padding-left:36px;}
+.price-label{font-size:13px; color:#A5A2C0; margin-bottom:10px;}
+.price-amount{font-family:'Space Grotesk'; font-weight:700; font-size:44px; line-height:1; letter-spacing:-0.02em;}
+.price-amount span{font-size:14px; color:#A5A2C0; font-weight:500; margin-left:6px;}
+.price-amount .price-tag{font-size:44px; color:#fff; font-weight:700; margin-left:0;}
+.price-list{list-style:none; margin:0 0 18px; padding:0;}
+.price-list li{display:flex; align-items:flex-start; gap:10px; padding:7px 0; font-size:13px; color:#DEDDEC;}
+.price-list li svg{width:15px; height:15px; color:var(--purple); flex-shrink:0; margin-top:1px;}
+.btn-price{display:block; width:100%; text-align:center; background:var(--purple); color:#fff; border:none; border-radius:13px; padding:14px; font-size:14.5px; font-weight:600; font-family:'Inter'; cursor:pointer; text-decoration:none; margin-top:20px;}
+.btn-price:hover{background:var(--purple-deep); text-decoration:none;}
+.price-razorpay{display:flex; align-items:center; justify-content:center; gap:7px; margin-top:12px; opacity:0.6;}
+.price-razorpay span{font-size:11.5px; color:#A5A2C0;}
+.price-razorpay svg{width:15px; height:15px;}
+@media(max-width:680px){
+  .price-card .p-inner{flex-direction:column; align-items:stretch; gap:24px;}
+  .price-left{width:100%;}
+  .price-right{border-left:none; border-top:1px solid rgba(255,255,255,0.1); padding-left:0; padding-top:20px;}
+}
+.fx-dark{position:relative; overflow:hidden;}
+.aurora{position:absolute; inset:0; z-index:0; pointer-events:none;}
+.aurora span{position:absolute; border-radius:50%; filter:blur(60px); opacity:0.5; mix-blend-mode:screen;}
+.aurora .a1{width:400px; height:400px; background:radial-gradient(circle,#7B5CFA,transparent 68%); top:-140px; left:6%; animation:drift1 16s ease-in-out infinite;}
+.aurora .a2{width:340px; height:340px; background:radial-gradient(circle,#9D6BFF,transparent 66%); bottom:-150px; right:4%; animation:drift2 19s ease-in-out infinite;}
+.aurora .a3{width:280px; height:280px; background:radial-gradient(circle,#5A3FE0,transparent 70%); top:28%; left:44%; opacity:0.38; animation:drift3 22s ease-in-out infinite;}
+@keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(56px,38px) scale(1.12);}}
+@keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-46px,-28px) scale(1.08);}}
+@keyframes drift3{0%,100%{transform:translate(0,0) scale(1); opacity:0.32;}50%{transform:translate(-38px,28px) scale(1.15); opacity:0.48;}}
+.particles{position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden;}
+.particles i{position:absolute; bottom:-10px; width:3px; height:3px; border-radius:50%; background:rgba(180,150,255,0.7); box-shadow:0 0 6px rgba(155,120,255,0.9); animation:rise linear infinite;}
+@keyframes rise{0%{transform:translateY(0); opacity:0;}10%{opacity:1;}90%{opacity:0.7;}100%{transform:translateY(-380px); opacity:0;}}
+.fx-dark .sheen{content:""; position:absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events:none; background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform:skewX(-18deg); animation:sheen 8s ease-in-out infinite;}
+@keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
+@media(prefers-reduced-motion:reduce){ .aurora span,.particles i,.fx-dark .sheen{animation:none;} }
+
 </style>
 </head>
 <body>
@@ -145,11 +220,47 @@ footer{background:var(--bg-tint);border-top:1px solid var(--line);padding:56px 0
       <a href="https://www.scanmyshadow.com/#pricing" class="nav-link">Pricing</a>
       <a href="https://www.scanmyshadow.com/#faq" class="nav-link">FAQ</a>
       <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/" class="nav-link exposure">Free Exposure Check</a>
+        <div class="tools-item">
+          <button class="tools-trigger" id="toolsTrigger" aria-haspopup="true" aria-expanded="false">
+            Tools
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="tools-dropdown" id="toolsDropdown">
+            <div class="tools-dropdown-head">Free Privacy Tools</div>
+            <div class="tools-grid">
+              <a class="tool-card" href="https://www.scanmyshadow.com/tools/digital-privacy-checklist/">
+                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="m9 13 2 2 4-4"/></svg></span>
+                <span><span class="tool-name">Digital Privacy Checklist</span><span class="tool-desc">Step-by-step checklist to reduce your exposure</span></span>
+              </a>
+              <a class="tool-card" href="https://www.scanmyshadow.com/tools/email-privacy-risk-checker/">
+                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+                <span><span class="tool-name">Email Privacy Risk Checker</span><span class="tool-desc">See how exposed your email address is</span></span>
+              </a>
+              <a class="tool-card" href="https://www.scanmyshadow.com/tools/matrimonial-digital-safety-checklist/">
+                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-9C1 8 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6 4 4.5 8-2.5 4.65-9.5 9-9.5 9z"/></svg></span>
+                <span><span class="tool-name">Matrimonial Safety Checklist</span><span class="tool-desc">Safety checklist for matchmaking profiles</span></span>
+              </a>
+              <a class="tool-card" href="https://www.scanmyshadow.com/tools/online-exposure-risk-quiz/">
+                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 2-2.4 3.7"/><path d="M12 17h.01"/></svg></span>
+                <span><span class="tool-name">Online Exposure Risk Quiz</span><span class="tool-desc">A 2-minute quiz on your exposure risk</span></span>
+              </a>
+              <a class="tool-card" href="https://www.scanmyshadow.com/tools/phone-number-exposure-risk-checker/">
+                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                <span><span class="tool-name">Phone Exposure Risk Checker</span><span class="tool-desc">Check how exposed your phone number is</span></span>
+              </a>
+              <a class="tool-card" href="https://www.scanmyshadow.com/tools/digital-exposure-score/">
+                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/><path d="m9 12 2 2 4-4"/></svg></span>
+                <span><span class="tool-name">Digital Exposure Score</span><span class="tool-desc">Get your instant digital exposure score</span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a class="nav-link" href="https://www.scanmyshadow.com/blog/" rel="noopener">Blog</a>
       <a href="https://app.scanmyshadow.com/maya-chat.html" class="nav-link" target="_blank" rel="noopener">Ask Maya</a>
     </nav>
     <a href="https://www.scanmyshadow.com/#pricing" class="nav-pill">
-      <span class="cta-full">Start scan · ₹498</span>
-      <span class="cta-short">₹498</span>
+      <span class="cta-full">Start scan · <span class="price-tag">₹498</span></span>
+      <span class="cta-short"><span class="price-tag">₹498</span></span>
     </a>
   </div>
   <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
@@ -157,6 +268,18 @@ footer{background:var(--bg-tint);border-top:1px solid var(--line);padding:56px 0
     <a href="https://www.scanmyshadow.com/#pricing">Pricing</a>
     <a href="https://www.scanmyshadow.com/#faq">FAQ</a>
     <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/" class="mobile-exposure">Free Exposure Check</a>
+    <button class="mobile-tools-toggle" id="mobileToolsToggle" aria-expanded="false">
+      Free Privacy Tools
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="mobile-tools-panel" id="mobileToolsPanel">
+      <a href="https://www.scanmyshadow.com/tools/digital-privacy-checklist/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="m9 13 2 2 4-4"/></svg> Digital Privacy Checklist</a>
+      <a href="https://www.scanmyshadow.com/tools/email-privacy-risk-checker/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Email Privacy Risk Checker</a>
+      <a href="https://www.scanmyshadow.com/tools/matrimonial-digital-safety-checklist/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-9C1 8 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6 4 4.5 8-2.5 4.65-9.5 9-9.5 9z"/></svg> Matrimonial Safety Checklist</a>
+      <a href="https://www.scanmyshadow.com/tools/online-exposure-risk-quiz/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 2-2.4 3.7"/><path d="M12 17h.01"/></svg> Online Exposure Risk Quiz</a>
+      <a href="https://www.scanmyshadow.com/tools/phone-number-exposure-risk-checker/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Phone Exposure Risk Checker</a>
+      <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/><path d="m9 12 2 2 4-4"/></svg> Digital Exposure Score</a>
+    </div>
     <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
   </nav>
 </header>
@@ -230,15 +353,32 @@ footer{background:var(--bg-tint);border-top:1px solid var(--line);padding:56px 0
 
     <div class="divider"></div>
 
-    <div class="cta-strip">
-      <div class="cta-strip-text">
-        <h3>Ready to check your digital exposure?</h3>
-        <p>Phone + email scan across 1,500+ sources. Report in your inbox in minutes.</p>
+    <div class="price-wrap">
+      <div class="price-card fx-dark">
+        <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+        <div class="particles" data-particles></div>
+        <div class="sheen"></div>
+        <div class="p-inner">
+          <div class="price-left">
+            <div class="price-label">Phone + email scan &middot; Full report</div>
+            <div class="price-amount"><span class="price-tag">&#8377;498</span><span>one-time</span></div>
+            <a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Scan My Digital Footprint</a>
+            <div class="price-razorpay">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
+              <span>Secure payment via Razorpay</span>
+            </div>
+          </div>
+          <div class="price-right">
+            <ul class="price-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results usually within about 5 minutes</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <a href="https://www.scanmyshadow.com/#pricing" class="btn-cta">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-        Scan My Digital Footprint · ₹498
-      </a>
     </div>
 
   </div>
@@ -299,6 +439,57 @@ burger.addEventListener('click', function(){
   burger.classList.toggle('open', open);
   burger.setAttribute('aria-expanded', open);
 });
+
+// desktop Tools dropdown
+var toolsTrigger = document.getElementById('toolsTrigger');
+var toolsDropdown = document.getElementById('toolsDropdown');
+if(toolsTrigger && toolsDropdown){
+  toolsTrigger.addEventListener('click', function(e){
+    e.stopPropagation();
+    var open = toolsDropdown.classList.toggle('open');
+    toolsTrigger.classList.toggle('open', open);
+    toolsTrigger.setAttribute('aria-expanded', open);
+  });
+  document.addEventListener('click', function(e){
+    if(!toolsDropdown.contains(e.target) && e.target !== toolsTrigger){
+      toolsDropdown.classList.remove('open');
+      toolsTrigger.classList.remove('open');
+      toolsTrigger.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      toolsDropdown.classList.remove('open');
+      toolsTrigger.classList.remove('open');
+      toolsTrigger.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
+
+// mobile Free Privacy Tools accordion
+var mobileToolsToggle = document.getElementById('mobileToolsToggle');
+var mobileToolsPanel = document.getElementById('mobileToolsPanel');
+if(mobileToolsToggle && mobileToolsPanel){
+  mobileToolsToggle.addEventListener('click', function(){
+    var open = mobileToolsPanel.classList.toggle('open');
+    mobileToolsToggle.classList.toggle('open', open);
+    mobileToolsToggle.setAttribute('aria-expanded', open);
+  });
+}
 </script>
+  <script>
+  document.querySelectorAll('[data-particles]').forEach(function(box){
+    for(var i=0;i<14;i++){
+      var s=document.createElement('i');
+      s.style.left=(Math.random()*100)+'%';
+      s.style.animationDuration=(7+Math.random()*7)+'s';
+      s.style.animationDelay=(-Math.random()*10)+'s';
+      var sc=0.6+Math.random()*1.3;
+      s.style.width=(3*sc)+'px'; s.style.height=(3*sc)+'px';
+      box.appendChild(s);
+    }
+  });
+  </script>
+  <script src="/assets/geo-price.js"></script>
 </body>
 </html>
