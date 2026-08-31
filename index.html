@@ -316,7 +316,7 @@
   /* pricing */
   .price-wrap{display:flex; justify-content:center;}
   .price-card{
-    position:relative; width:100%; max-width:400px; background:var(--ink); color:#fff;
+    position:relative; width:100%; max-width:680px; background:var(--ink); color:#fff;
     border-radius:24px; padding:42px 34px; overflow:hidden; box-shadow:var(--shadow-lg);
   }
   .price-card:before{content:""; position:absolute; top:-80px; right:-60px; width:260px; height:260px; background:radial-gradient(circle, rgba(123,92,250,0.5), transparent 70%); pointer-events:none;}
@@ -334,6 +334,17 @@
   .price-razorpay{display:flex; align-items:center; justify-content:center; gap:7px; margin-top:16px; opacity:0.6;}
   .price-razorpay span{font-size:12px; color:#A5A2C0;}
   .price-razorpay svg{width:15px; height:15px;}
+  .price-card .p-inner{display:flex; align-items:center; gap:40px;}
+  .price-left{flex:0 0 auto; width:260px;}
+  .price-right{flex:1; min-width:0; border-left:1px solid rgba(255,255,255,0.1); padding-left:36px;}
+  .price-right .price-list{margin:0;}
+  .btn-price{position:relative; animation:cta-glow 2.8s ease-in-out infinite;}
+  .btn-price::before{content:"";position:absolute;inset:0;border-radius:13px;z-index:-1;animation:cta-ping 2.8s ease-out infinite;}
+  @media(max-width:680px){
+    .price-card .p-inner{flex-direction:column; align-items:stretch; gap:24px;}
+    .price-left{width:100%;}
+    .price-right{border-left:none; border-top:1px solid rgba(255,255,255,0.1); padding-left:0; padding-top:20px;}
+  }
 
   /* report preview */
   .report-preview{display:grid; grid-template-columns:1fr 1fr; gap:44px; align-items:center;}
@@ -367,16 +378,16 @@
   .maya-strip{text-align:center;}
   .maya-card{
     display:inline-flex; align-items:center; gap:16px; text-align:left;
-    background:linear-gradient(135deg, var(--purple-mist), #fff);
-    border:1px solid var(--line); border-radius:20px; padding:20px 26px; box-shadow:var(--shadow-md);
-    text-decoration:none; color:var(--ink); transition:transform .2s ease, box-shadow .2s ease; max-width:520px;
+    background:var(--purple);
+    border:1px solid var(--purple); border-radius:20px; padding:20px 26px; box-shadow:var(--shadow-md);
+    text-decoration:none; color:#fff; transition:transform .2s ease, box-shadow .2s ease, background .2s ease; max-width:520px;
   }
-  .maya-card:hover{transform:translateY(-2px); box-shadow:var(--shadow-lg);}
-  .maya-avatar{width:48px; height:48px; border-radius:50%; background:var(--purple); display:flex; align-items:center; justify-content:center; color:#fff; flex-shrink:0;}
+  .maya-card:hover{background:var(--purple-deep); border-color:var(--purple-deep); transform:translateY(-2px); box-shadow:var(--shadow-lg);}
+  .maya-avatar{width:48px; height:48px; border-radius:50%; background:#fff; display:flex; align-items:center; justify-content:center; color:var(--purple); flex-shrink:0;}
   .maya-avatar svg{width:24px; height:24px;}
-  .maya-txt .t{font-weight:600; font-size:15px;}
-  .maya-txt .s{font-size:13px; color:var(--ink-soft); margin-top:3px;}
-  .maya-arrow{margin-left:8px; color:var(--purple);}
+  .maya-txt .t{font-weight:600; font-size:15px; color:#fff;}
+  .maya-txt .s{font-size:13px; color:rgba(255,255,255,0.8); margin-top:3px;}
+  .maya-arrow{margin-left:8px; color:#fff;}
   .maya-arrow svg{width:18px; height:18px;}
 
   /* safety strip */
@@ -386,7 +397,7 @@
   .safety h2{color:#fff; max-width:520px; margin:0 auto 12px;}
   .safety p{color:#B7B5CC; font-size:15px; max-width:480px; margin:0 auto; line-height:1.6;}
   .safety-badges{display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:30px;}
-  .s-badge{display:inline-flex; align-items:center; gap:9px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:999px; padding:11px 18px; font-size:13px; color:#DEDDEC;}
+  .s-badge{display:inline-flex; align-items:center; gap:9px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:999px; padding:11px 18px; font-size:13px; color:#DEDDEC; text-align:left; width:260px; max-width:100%; min-height:60px; box-sizing:border-box;}
   .s-badge svg{width:16px; height:16px; color:var(--purple);}
 
   /* founder */
@@ -517,7 +528,7 @@
   .rp-map-cap .mc-addr{font-size:11.5px; color:var(--ink-soft);}
 
   @media(prefers-reduced-motion:reduce){
-    .nav-pill,.nav-pill::before,.aurora span,.particles i,.fx-dark .sheen,.s-badge,.s-badge::before{animation:none;}
+    .nav-pill,.nav-pill::before,.btn-price,.btn-price::before,.aurora span,.particles i,.fx-dark .sheen,.s-badge,.s-badge::before{animation:none;}
     .s-badge{opacity:1; transform:none;}
   }
 
@@ -628,8 +639,8 @@
   .proof-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:19px 20px;margin-top:18px;border-top:1px solid var(--line);background:linear-gradient(180deg,#FCFBFF,#F9F7FF);}
   .proof-bottom-copy{color:var(--ink-soft);font-size:12.5px;line-height:1.5;max-width:600px;}
   .proof-bottom-copy strong{color:var(--ink);}
-  .proof-cta{flex-shrink:0;border:1px solid #D9D1FF;background:#fff;color:var(--purple-deep);border-radius:999px;padding:10px 15px;font-family:'Inter';font-size:12.5px;font-weight:600;cursor:pointer;transition:.18s ease;}
-  .proof-cta:hover{background:var(--purple);color:#fff;border-color:var(--purple);transform:translateY(-1px);}
+  .proof-cta{flex-shrink:0;border:1px solid var(--purple);background:var(--purple);color:#fff;border-radius:999px;padding:10px 15px;font-family:'Inter';font-size:12.5px;font-weight:600;cursor:pointer;transition:.18s ease;}
+  .proof-cta:hover{background:var(--purple-deep);border-color:var(--purple-deep);transform:translateY(-1px);}
   .proof-disclaimer{text-align:center;color:var(--ink-faint);font-size:10.5px;line-height:1.5;margin:13px auto 0;max-width:720px;}
   .phone-clean{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px;}
   .phone-summary{border:1px solid var(--line);border-radius:18px;padding:18px;background:linear-gradient(180deg,#fff,#FCFBFF);}
@@ -882,7 +893,7 @@
 <section class="block section-line reveal">
   <div class="wrap">
     <div class="sec-head" style="max-width:640px;">
-      <span class="eyebrow">1,500+ data sources worldwide</span>
+      <span class="eyebrow">1,500+ Public data sources worldwide</span>
 <h2 style="max-width:640px;">Know Your Digital Exposure</h2>
 <p style="margin-top:18px;">Scan My Shadow uses OSINT Industries intelligence infrastructure to search across a broad network of online sources.</p>
 
@@ -891,7 +902,13 @@
     <div style="width:34px; height:34px; border-radius:8px; background:rgba(123,92,250,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
       <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px; height:17px;"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a7 7 0 0 1 7-7h2a7 7 0 0 1 7 7v1"/></svg>
     </div>
-    <span style="font-size:14px; font-weight:500; color:var(--ink);">Accounts &amp; profiles</span>
+    <span style="font-size:14px; font-weight:500; color:var(--ink);">Old Accounts</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:12px; background:var(--card-bg,#fff); border:1px solid var(--line); border-radius:12px; padding:14px 16px;">
+    <div style="width:34px; height:34px; border-radius:8px; background:rgba(123,92,250,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px; height:17px;"><rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M8 17c.5-2 2-3 4-3s3.5 1 4 3"/></svg>
+    </div>
+    <span style="font-size:14px; font-weight:500; color:var(--ink);">Old Profiles</span>
   </div>
   <div style="display:flex; align-items:center; gap:12px; background:var(--card-bg,#fff); border:1px solid var(--line); border-radius:12px; padding:14px 16px;">
     <div style="width:34px; height:34px; border-radius:8px; background:rgba(123,92,250,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
@@ -910,6 +927,12 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px; height:17px;"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>
     </div>
     <span style="font-size:14px; font-weight:500; color:var(--ink);">Online services</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:12px; background:var(--card-bg,#fff); border:1px solid var(--line); border-radius:12px; padding:14px 16px;">
+    <div style="width:34px; height:34px; border-radius:8px; background:rgba(123,92,250,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px; height:17px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    </div>
+    <span style="font-size:14px; font-weight:500; color:var(--ink);">Google Map Locations</span>
   </div>
 </div>
 
@@ -1136,19 +1159,23 @@
         <div class="particles" data-particles></div>
         <div class="sheen"></div>
         <div class="p-inner">
-          <div class="price-label">Phone + email scan · 1,500+ data sources worldwide · Full report</div>
-          <div class="price-amount"><span class="price-tag">₹498</span><span>one-time</span></div>
-          <div class="price-scope"></div>
-          <ul class="price-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results usually within about 5 minutes</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
-          </ul>
-          <button class="btn-price" onclick="openModal()">Scan My Digital Footprint</button>
-          <div class="price-razorpay">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
-            <span>Secure payment via Razorpay</span>
+          <div class="price-left">
+            <div class="price-label">Phone + email scan · 1,500+ data sources worldwide · Full report</div>
+            <div class="price-amount"><span class="price-tag">₹498</span><span>one-time</span></div>
+            <div class="price-scope"></div>
+            <button class="btn-price" onclick="openModal()">Scan My Digital Footprint</button>
+            <div class="price-razorpay">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
+              <span>Secure payment via Razorpay</span>
+            </div>
+          </div>
+          <div class="price-right">
+            <ul class="price-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results usually within about 5 minutes</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
+            </ul>
           </div>
         </div>
       </div>
