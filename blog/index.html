@@ -65,6 +65,18 @@
   h1{font-family:'Space Grotesk'; font-size:clamp(30px,5vw,44px); font-weight:700; line-height:1.15; margin-bottom:14px; color:var(--ink);}
   .hero p{font-size:16px; color:var(--ink-soft); max-width:560px; margin:0 auto;}
 
+  .search-wrap{max-width:520px; margin:0 auto 40px; position:relative;}
+  .search-input{width:100%; font-family:'Inter'; font-size:15px; color:var(--ink); background:var(--card); border:1.5px solid var(--line); border-radius:999px; padding:14px 20px 14px 46px; outline:none; transition:border-color .18s ease, box-shadow .18s ease;}
+  .search-input::placeholder{color:var(--ink-faint);}
+  .search-input:focus{border-color:var(--purple); box-shadow:0 0 0 4px rgba(123,92,250,0.12);}
+  .search-icon{position:absolute; left:18px; top:50%; transform:translateY(-50%); width:17px; height:17px; color:var(--ink-faint); pointer-events:none;}
+  .search-input:focus ~ .search-icon{color:var(--purple);}
+  .search-count{text-align:center; font-size:13px; color:var(--ink-faint); margin:-24px auto 28px; min-height:18px;}
+  .search-count strong{color:var(--purple-deep); font-weight:600;}
+  .no-results{display:none; text-align:center; padding:60px 20px; color:var(--ink-faint); font-size:15px;}
+  .no-results.show{display:block;}
+  .post-card.hidden{display:none;}
+
   .post-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px; padding-bottom:72px;}
   @media(max-width:720px){ .post-grid{grid-template-columns:1fr;} }
 
@@ -99,7 +111,513 @@
     <p>Data breaches, digital arrest scams, matrimonial fraud, UPI safety, and practical ways to protect your phone number and email.</p>
   </div>
 
-  <div class="post-grid">
+  <div class="search-wrap">
+    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="text" class="search-input" id="blogSearch" placeholder="Search articles by topic, title, or tag..." autocomplete="off">
+  </div>
+  <div class="search-count" id="searchCount"></div>
+
+  <div class="post-grid" id="postGrid">
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-footprint-audit-30-minute-checklist.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">India</span><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Privacy Checklist</span></div>
+      </div>
+      <h2 class="post-title">Digital Footprint Audit: A 30-Minute Checklist to Run on Yourself Once a Year</h2>
+      <p class="post-excerpt">TL;DR: Most digital footprint advice is scattered across dozens of separate articles. This is the condensed version — a single 30-minute checklist worth running...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/privacy-when-you-switch-sim-cards.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">India</span><span class="tag-pill">SIM Card</span><span class="tag-pill">Phone Number</span></div>
+      </div>
+      <h2 class="post-title">What Changes for Your Privacy When You Switch SIM Cards or Phone Numbers</h2>
+      <p class="post-excerpt">TL;DR: A new phone number changes more than your contact card — old accounts tied to two-factor authentication, public directory listings, and account recovery...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/how-scammers-build-a-convincing-profile-of-you.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">India</span><span class="tag-pill">Scam Prevention</span><span class="tag-pill">OSINT</span></div>
+      </div>
+      <h2 class="post-title">How Scammers Build a &amp;quot;Convincing&amp;quot; Profile of You Before They Ever Call</h2>
+      <p class="post-excerpt">TL;DR: Scammers rarely call cold. A convincing scam call is usually built from a handful of details gathered beforehand — often from old breaches, public...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/is-web-scraping-legal-in-india.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">India</span><span class="tag-pill">Web Scraping</span><span class="tag-pill">DPDP Act</span></div>
+      </div>
+      <h2 class="post-title">Is Web Scraping Legal in India? What Companies Can and Can&amp;#x27;t Do With Public Data</h2>
+      <p class="post-excerpt">TL;DR: There&#x27;s no single law in India that bans web scraping outright, but the practice sits at the intersection of the IT Act, the new DPDP Act, and individual...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/st-marys-ontario-cashier-stops-gift-card-scam.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Canada</span></div>
+      </div>
+      <h2 class="post-title">The Grocery Store Cashier Who Stopped an 89-Year-Old From Being Scammed</h2>
+      <p class="post-excerpt">TL;DR: At a Foodland grocery store in St. Marys, Ontario, a cashier noticed an 89-year-old woman buying gift cards at the direction of a stranger on the phone —...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/renfrew-pensioner-bank-staff-stop-10k-phone-scam.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Real Stories</span><span class="tag-pill">UK</span></div>
+      </div>
+      <h2 class="post-title">The Renfrew Pensioner Who Nearly Lost £10,000 — Twice — Until Bank Staff Stepped In</h2>
+      <p class="post-excerpt">TL;DR: In Renfrew, Scotland, an 84-year-old woman was targeted by a scammer claiming her bank account was compromised — twice, at two different branches. Both...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/teaching-teenagers-digital-footprint.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Teenagers</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Teaching Teenagers About Their Digital Footprint Before They Build a Bad One</h2>
+      <p class="post-excerpt">TL;DR: Teenagers are creating years of public posts, tagged photos, and account history before they&#x27;re thinking about how any of it might look later. Here&#x27;s a...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/data-breach-notification-email-what-to-do.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Email Security</span></div>
+      </div>
+      <h2 class="post-title">What a &amp;quot;Data Breach Notification&amp;quot; Email Actually Means and What to Do in the Next 48 Hours</h2>
+      <p class="post-excerpt">TL;DR: A breach notification email means a company has confirmed your data was involved in a security incident — but the email itself often leaves out crucial...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-footprint-for-international-students.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Students</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Digital Footprint for International Students Studying Abroad</h2>
+      <p class="post-excerpt">TL;DR: International students accumulate a new layer of records — visa paperwork, foreign bank accounts, university directories — often in a country with...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/grandparent-scams-internationally-vs-digital-arrest.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Grandparent Scam</span><span class="tag-pill">Digital Arrest</span></div>
+      </div>
+      <h2 class="post-title">Grandparent Scams Internationally: How They Differ From India&amp;#x27;s Digital Arrest Scams</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s digital arrest scam and the grandparent scam common in the US, UK, Canada, and Australia both exploit fear and urgency, but they target different...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/vpn-myths-for-international-travelers.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">VPN</span><span class="tag-pill">Travel</span></div>
+      </div>
+      <h2 class="post-title">VPN Myths for International Travelers: What a VPN Actually Hides</h2>
+      <p class="post-excerpt">TL;DR: A VPN encrypts your connection and masks your IP address, but it doesn&#x27;t make you anonymous, doesn&#x27;t protect against phishing, and doesn&#x27;t touch data...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/how-linkedin-exposes-more-than-you-think.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">LinkedIn</span><span class="tag-pill">Social Media</span></div>
+      </div>
+      <h2 class="post-title">How LinkedIn Exposes More About You Than You Think</h2>
+      <p class="post-excerpt">TL;DR: LinkedIn&#x27;s professional framing makes people less cautious about what they share, but the default settings expose more than most users expect — full...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/meta-google-download-your-data-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Meta</span><span class="tag-pill">Google</span></div>
+      </div>
+      <h2 class="post-title">Meta and Google&amp;#x27;s &amp;quot;Download Your Data&amp;quot;: What It Actually Gives You</h2>
+      <p class="post-excerpt">TL;DR: Meta and Google both offer data-download tools built to satisfy access-request laws like GDPR. The archives are large but not always easy to interpret —...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-footprint-for-remote-workers.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Remote Work</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Digital Footprint for Remote Workers: What Employers and Clients Can See Internationally</h2>
+      <p class="post-excerpt">TL;DR: Working remotely for international clients or employers means your digital footprint is being viewed across different legal and cultural contexts at once....</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/job-hunting-abroad-what-recruiters-can-find.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Job Hunting</span><span class="tag-pill">Recruiters</span></div>
+      </div>
+      <h2 class="post-title">Job Hunting Abroad: What International Recruiters Can Find About You Online</h2>
+      <p class="post-excerpt">TL;DR: Recruiters searching for candidates internationally often look well beyond LinkedIn — social profiles, old forum posts, and public records can all...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-footprint-basics-for-australians.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Australia</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Digital Footprint Basics for Australians: What&amp;#x27;s Public and What Isn&amp;#x27;t</h2>
+      <p class="post-excerpt">TL;DR: Australia&#x27;s Privacy Act covers most private-sector data handling, but plenty of information — electoral roll extracts, ABN registrations, court records —...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/canada-pipeda-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Canada</span><span class="tag-pill">PIPEDA</span></div>
+      </div>
+      <h2 class="post-title">Canada&amp;#x27;s PIPEDA Explained: What You Can Ask Companies to Delete</h2>
+      <p class="post-excerpt">TL;DR: PIPEDA (Canada&#x27;s federal private-sector privacy law) gives you the right to know what personal data a company holds, correct it, and in many cases...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/gdpr-explained-what-you-can-request.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">GDPR</span><span class="tag-pill">Europe</span></div>
+      </div>
+      <h2 class="post-title">GDPR Explained: What You Can Actually Request From Any Company That Emails You</h2>
+      <p class="post-excerpt">TL;DR: GDPR applies to any company processing data of EU residents, regardless of where the company is based. It gives you the right to see, correct, export, and...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/is-your-email-on-a-us-breach-list.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">USA</span><span class="tag-pill">Data Breach</span></div>
+      </div>
+      <h2 class="post-title">Is Your Email on a US Breach List? What US Law Requires Companies to Tell You</h2>
+      <p class="post-excerpt">TL;DR: Unlike the EU, the US has no single federal breach notification law — each state sets its own rules on timing and what companies must disclose. Here&#x27;s...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/opting-out-us-people-search-sites.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Data Brokers</span><span class="tag-pill">USA</span></div>
+      </div>
+      <h2 class="post-title">Opting Out of US People-Search Sites: Spokeo, Whitepages, BeenVerified</h2>
+      <p class="post-excerpt">TL;DR: Spokeo, Whitepages, and BeenVerified each require a separate manual opt-out. None of them make it especially fast, but the process is straightforward once...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/us-data-broker-sites-opt-out-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Data Brokers</span><span class="tag-pill">USA</span></div>
+      </div>
+      <h2 class="post-title">How US Data Broker Sites Expose Your Phone Number and Email — and How to Opt Out</h2>
+      <p class="post-excerpt">TL;DR: US data broker sites compile public records, purchase history, and old accounts into searchable profiles — often including your phone number, email, and...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-footprint-checklist-americans-abroad.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">International</span><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Expats</span></div>
+      </div>
+      <h2 class="post-title">Digital Footprint Checklist for Americans Moving or Working Abroad</h2>
+      <p class="post-excerpt">TL;DR: Moving abroad changes what&#x27;s exposed about you — old US accounts, forwarding addresses, and public directories often stay live long after you&#x27;ve left....</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/neighbour-tip-off-recovers-17-lakh-digital-arrest-scam.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Elder Fraud</span></div>
+      </div>
+      <h2 class="post-title">She Told a Neighbour, and It Saved Her ₹17 Lakh</h2>
+      <p class="post-excerpt">TL;DR: A 79-year-old woman in Mangaluru was kept on a five-hour &quot;digital arrest&quot; call, including a fake video hearing with people posing as police and a judge,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/mulki-bank-manager-stops-84-lakh-digital-arrest-scam.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Elder Fraud</span></div>
+      </div>
+      <h2 class="post-title">The Land Purchase Story That Didn't Add Up: How a Bank Manager Stopped an ₹84 Lakh Scam</h2>
+      <p class="post-excerpt">TL;DR: An elderly couple near Kinnigoli, Karnataka were told they were under &quot;digital arrest&quot; over a fabricated ₹6 crore money-laundering accusation. When they...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/how-investigators-journalists-use-osint.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">OSINT</span><span class="tag-pill">Journalism</span><span class="tag-pill">Investigation</span></div>
+      </div>
+      <h2 class="post-title">How Investigators and Journalists Use OSINT — and What It Means for You</h2>
+      <p class="post-excerpt">TL;DR: Journalists and professional investigators use OSINT for legitimate purposes — verifying claims, fact-checking, and building accurate stories — using...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/reverse-phone-lookup-tools-india.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Reverse Phone Lookup</span><span class="tag-pill">OSINT</span><span class="tag-pill">Phone Number Privacy</span></div>
+      </div>
+      <h2 class="post-title">Reverse Phone Lookup Tools: Which Ones Actually Work in India</h2>
+      <p class="post-excerpt">TL;DR: Reverse phone lookup for Indian numbers is far less standardized than in markets like the US, where dedicated people-search sites dominate. Here&#x27;s an...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/google-dorking-basics-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Google Dorking</span><span class="tag-pill">OSINT</span><span class="tag-pill">Search Operators</span></div>
+      </div>
+      <h2 class="post-title">Google Dorking Basics: What It Is and Why It Matters for Your Own Privacy</h2>
+      <p class="post-excerpt">TL;DR: Google dorking refers to using advanced search operators to find specific, often unintentionally exposed information that&#x27;s technically public but not...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/public-wifi-risks-what-attackers-can-see.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Public Wi-Fi</span><span class="tag-pill">Network Security</span><span class="tag-pill">Cyber Security</span></div>
+      </div>
+      <h2 class="post-title">Public Wi-Fi Risks: What Attackers Can Actually See When You Connect</h2>
+      <p class="post-excerpt">TL;DR: Public Wi-Fi risk is often exaggerated in some ways and understated in others. Most modern websites use encryption that protects the content of what...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/password-managers-india-do-you-need-one.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Password Managers</span><span class="tag-pill">Security Tools</span><span class="tag-pill">Account Security</span></div>
+      </div>
+      <h2 class="post-title">Password Managers in India: Do You Actually Need One, and Which Type Fits You</h2>
+      <p class="post-excerpt">TL;DR: Password managers solve a specific, well-defined problem — password reuse — but not everyone needs the same type. Here&#x27;s a practical breakdown of...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-happens-after-filing-cybercrime-complaint.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Cybercrime Complaint</span><span class="tag-pill">Investigation Process</span><span class="tag-pill">Legal Recourse</span></div>
+      </div>
+      <h2 class="post-title">What Happens After You File a Cybercrime Complaint: The Investigation Process Explained</h2>
+      <p class="post-excerpt">TL;DR: Filing a cybercrime complaint through cybercrime.gov.in or the 1930 helpline is only the first step. Here&#x27;s what actually happens after — how complaints...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/opt-out-services-india-do-they-work.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Data Brokers</span><span class="tag-pill">Opt-Out Services</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Opt-Out Services in India: Do They Actually Work? A Practical Review</h2>
+      <p class="post-excerpt">TL;DR: Opt-out services promise to remove your personal information from data broker sites on your behalf, but their effectiveness in the Indian context is...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/dating-apps-privacy-risks-tinder-bumble-hinge-india.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Dating Apps</span><span class="tag-pill">Privacy Risks</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Dating Apps Beyond Matrimony: Privacy Risks on Tinder, Bumble and Hinge in India</h2>
+      <p class="post-excerpt">TL;DR: Dating apps like Tinder, Bumble, and Hinge have grown significantly in India alongside matrimonial platforms, but carry a distinct set of privacy risks —...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-amazon-flipkart-order-history-reveals.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">E-Commerce</span><span class="tag-pill">Amazon</span><span class="tag-pill">Flipkart</span></div>
+      </div>
+      <h2 class="post-title">E-Commerce Accounts: What Amazon and Flipkart Order History Reveals</h2>
+      <p class="post-excerpt">TL;DR: Years of order history on Amazon, Flipkart, or similar platforms quietly builds one of the more detailed behavioral profiles most people maintain online —...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-netflix-spotify-collect-about-you.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Streaming Apps</span><span class="tag-pill">Netflix</span><span class="tag-pill">Spotify</span></div>
+      </div>
+      <h2 class="post-title">Streaming Apps: What Netflix and Spotify Collect and Share About You</h2>
+      <p class="post-excerpt">TL;DR: Streaming platforms collect far more than viewing or listening history — device information, precise usage timing, payment details, and behavioral...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-google-knows-about-you-activity-dashboard.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Google</span><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Data Collection</span></div>
+      </div>
+      <h2 class="post-title">What Google Knows About You: A Guide to Your Google Activity Dashboard</h2>
+      <p class="post-excerpt">TL;DR: Google&#x27;s My Activity dashboard is one of the most concrete windows into your own digital footprint — search history, location timeline, YouTube watch...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/telegram-privacy-settings-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Telegram</span><span class="tag-pill">Privacy Settings</span><span class="tag-pill">Messaging Apps</span></div>
+      </div>
+      <h2 class="post-title">Telegram Privacy Settings: What's Actually Public on Your Profile</h2>
+      <p class="post-excerpt">TL;DR: Telegram markets itself as privacy-focused, but several important settings — phone number visibility, last-seen status, and who can add you to groups —...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/instagram-facebook-ad-preferences-reveal-about-you.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Instagram</span><span class="tag-pill">Facebook</span><span class="tag-pill">Ad Targeting</span></div>
+      </div>
+      <h2 class="post-title">What Instagram and Facebook Ad Preferences Reveal About You</h2>
+      <p class="post-excerpt">TL;DR: Instagram and Facebook&#x27;s ad preference settings contain a surprisingly specific list of interests, categories, and inferred traits Meta has assigned to...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/how-long-does-leaked-data-stay-online.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Data Privacy</span></div>
+      </div>
+      <h2 class="post-title">How Long Does Leaked Data Stay Online? What Happens Years After a Breach</h2>
+      <p class="post-excerpt">TL;DR: Leaked personal data doesn&#x27;t expire the way a lot of people assume. A breach from years ago can still be actively circulating, being recompiled into newer...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/credential-stuffing-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Credential Stuffing</span><span class="tag-pill">Password Security</span><span class="tag-pill">Data Breach</span></div>
+      </div>
+      <h2 class="post-title">Credential Stuffing Explained: Why Reusing Passwords After a Breach Is So Dangerous</h2>
+      <p class="post-excerpt">TL;DR: Credential stuffing is an attack where leaked username-and-password combinations from one breach are automatically tried against dozens of other websites....</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-a-data-breach-actually-costs-india.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Breach Cost</span><span class="tag-pill">Cyber Security</span></div>
+      </div>
+      <h2 class="post-title">What a Data Breach Actually Costs India: Inside the ₹25.5 Crore Average (2026)</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s average cost of a data breach reached a record ₹25.5 crore in 2026, up significantly year-over-year, according to industry breach-cost research....</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/dpdp-grievance-redressal-how-to-file-complaint.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">DPDP Act</span><span class="tag-pill">Grievance Redressal</span><span class="tag-pill">Consumer Rights</span></div>
+      </div>
+      <h2 class="post-title">Grievance Redressal Under DPDP: How to Actually File a Complaint Against a Company</h2>
+      <p class="post-excerpt">TL;DR: If a company mishandles your personal data under India&#x27;s DPDP Act, there&#x27;s a defined process for raising it — starting with the company&#x27;s own grievance...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/dpdp-act-penalties-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">DPDP Act</span><span class="tag-pill">Data Privacy Law</span><span class="tag-pill">Compliance</span></div>
+      </div>
+      <h2 class="post-title">DPDP Act Penalties Explained: What Happens When a Company Mishandles Your Data</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s DPDP Act gives the Data Protection Board of India the power to levy financial penalties on companies that mishandle personal data, with the...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/dpdp-act-consent-manager-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">DPDP Act</span><span class="tag-pill">Consent Manager</span><span class="tag-pill">Data Privacy Law</span></div>
+      </div>
+      <h2 class="post-title">DPDP Act Consent Manager Explained: What Changes for Indians on November 13, 2026</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s Digital Personal Data Protection Act introduces the Consent Manager framework, giving individuals a single interface to see, grant, and withdraw...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/college-portals-exam-registration-data-privacy.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Students</span><span class="tag-pill">Exam Registration</span><span class="tag-pill">Data Privacy</span></div>
+      </div>
+      <h2 class="post-title">Students in India: What College Portals and Exam Registration Sites Do With Your Data</h2>
+      <p class="post-excerpt">TL;DR: Between college admission portals, entrance exam registrations, and scholarship applications, Indian students hand over a significant amount of personal...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-gst-company-registration-exposes-publicly.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Small Business</span><span class="tag-pill">Public Records</span><span class="tag-pill">GST</span></div>
+      </div>
+      <h2 class="post-title">Small Business Owners: What Your GST and Company Registration Expose Publicly</h2>
+      <p class="post-excerpt">TL;DR: Registering a GST number or incorporating a company in India creates public records by design — including, in many cases, a registered address and...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/freelancers-gig-workers-client-platforms-privacy.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Gig Economy</span><span class="tag-pill">Freelancer Privacy</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Freelancers and Gig Workers: What Client Platforms Reveal About Your Identity</h2>
+      <p class="post-excerpt">TL;DR: Freelance marketplaces and gig platforms often display more identity information than freelancers realize — full names tied to reviews, sometimes...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-parenting-apps-do-with-your-family-data.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Parenting Apps</span><span class="tag-pill">Family Privacy</span><span class="tag-pill">Children&#x27;s Data</span></div>
+      </div>
+      <h2 class="post-title">New Parents: What Baby Registry and Parenting Apps Do With Your Family's Data</h2>
+      <p class="post-excerpt">TL;DR: Baby-tracking, feeding, and registry apps ask for a surprising amount of family data early on — due dates, addresses, feeding schedules, sometimes photos...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/protecting-aging-parents-digital-footprint.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Elder Safety</span><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Family Privacy</span></div>
+      </div>
+      <h2 class="post-title">Protecting Your Aging Parents' Digital Footprint: A Family Guide</h2>
+      <p class="post-excerpt">TL;DR: Elderly parents are disproportionately targeted by digital arrest and impersonation scams partly because scammers can find real personal details about...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-your-landlord-can-find-out-about-you-online.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Rental Privacy</span><span class="tag-pill">Tenant Rights</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">Moving Into a Rental? What Your Landlord Can Actually Find Out About You Online</h2>
+      <p class="post-excerpt">TL;DR: Landlords in India increasingly run informal background checks before renting — googling your name, checking your phone number against public listings,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/osint-india-complete-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">OSINT</span><span class="tag-pill">OSINT India</span><span class="tag-pill">Digital Footprint</span></div>
+      </div>
+      <h2 class="post-title">OSINT India: The Complete Guide to What's Publicly Findable About You</h2>
+      <p class="post-excerpt">TL;DR: OSINT (open-source intelligence) means finding information about a person using only public or already-leaked sources — no hacking involved. In India, an...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
     <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/bareilly-teen-stops-digital-arrest-scam.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
@@ -1150,6 +1668,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
   </div>
+  <div class="no-results" id="noResults">No articles match your search. Try a different keyword.</div>
 </div>
 
 <footer>
@@ -1158,5 +1677,49 @@
   </div>
 </footer>
 
+<script>
+  (function(){
+    var input = document.getElementById('blogSearch');
+    var grid = document.getElementById('postGrid');
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.post-card'));
+    var noResults = document.getElementById('noResults');
+    var countEl = document.getElementById('searchCount');
+    var totalCount = cards.length;
+
+    var indexed = cards.map(function(card){
+      var title = (card.querySelector('.post-title') || {}).textContent || '';
+      var excerpt = (card.querySelector('.post-excerpt') || {}).textContent || '';
+      var tags = Array.prototype.slice.call(card.querySelectorAll('.tag-pill')).map(function(t){ return t.textContent; }).join(' ');
+      return { el: card, haystack: (title + ' ' + excerpt + ' ' + tags).toLowerCase() };
+    });
+
+    function runFilter(){
+      var q = input.value.trim().toLowerCase();
+      if(!q){
+        indexed.forEach(function(item){ item.el.classList.remove('hidden'); });
+        noResults.classList.remove('show');
+        countEl.textContent = '';
+        return;
+      }
+      var visible = 0;
+      indexed.forEach(function(item){
+        if(item.haystack.indexOf(q) !== -1){
+          item.el.classList.remove('hidden');
+          visible++;
+        } else {
+          item.el.classList.add('hidden');
+        }
+      });
+      noResults.classList.toggle('show', visible === 0);
+      countEl.innerHTML = visible === 0 ? '' : ('Showing <strong>' + visible + '</strong> of ' + totalCount + ' articles');
+    }
+
+    var debounceTimer;
+    input.addEventListener('input', function(){
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(runFilter, 120);
+    });
+  })();
+</script>
 </body>
 </html>
