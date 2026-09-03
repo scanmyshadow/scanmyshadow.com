@@ -6,9 +6,9 @@
 <title>Privacy &amp; Cyber Security Blog | Scan My Shadow</title>
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
-<meta name="description" content="Practical guides on data breaches, digital arrest scams, matrimonial fraud, UPI safety, and protecting your phone number and email online in India.">
+<meta name="description" content="Practical guides on data breaches, digital arrest scams, fraud recovery, and protecting your phone number and email online — for India and internationally.">
 <meta property="og:title" content="Privacy &amp; Cyber Security Blog | Scan My Shadow">
-<meta property="og:description" content="Practical guides on data breaches, digital arrest scams, matrimonial fraud, UPI safety, and protecting your phone number and email online in India.">
+<meta property="og:description" content="Practical guides on data breaches, digital arrest scams, fraud recovery, and protecting your phone number and email online — for India and internationally.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.scanmyshadow.com/blog/">
 <link rel="canonical" href="https://www.scanmyshadow.com/blog/">
@@ -65,18 +65,6 @@
   h1{font-family:'Space Grotesk'; font-size:clamp(30px,5vw,44px); font-weight:700; line-height:1.15; margin-bottom:14px; color:var(--ink);}
   .hero p{font-size:16px; color:var(--ink-soft); max-width:560px; margin:0 auto;}
 
-  .search-wrap{max-width:520px; margin:0 auto 40px; position:relative;}
-  .search-input{width:100%; font-family:'Inter'; font-size:15px; color:var(--ink); background:var(--card); border:1.5px solid var(--line); border-radius:999px; padding:14px 20px 14px 46px; outline:none; transition:border-color .18s ease, box-shadow .18s ease;}
-  .search-input::placeholder{color:var(--ink-faint);}
-  .search-input:focus{border-color:var(--purple); box-shadow:0 0 0 4px rgba(123,92,250,0.12);}
-  .search-icon{position:absolute; left:18px; top:50%; transform:translateY(-50%); width:17px; height:17px; color:var(--ink-faint); pointer-events:none;}
-  .search-input:focus ~ .search-icon{color:var(--purple);}
-  .search-count{text-align:center; font-size:13px; color:var(--ink-faint); margin:-24px auto 28px; min-height:18px;}
-  .search-count strong{color:var(--purple-deep); font-weight:600;}
-  .no-results{display:none; text-align:center; padding:60px 20px; color:var(--ink-faint); font-size:15px;}
-  .no-results.show{display:block;}
-  .post-card.hidden{display:none;}
-
   .post-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px; padding-bottom:72px;}
   @media(max-width:720px){ .post-grid{grid-template-columns:1fr;} }
 
@@ -90,6 +78,12 @@
   .post-excerpt{font-size:13.75px; color:var(--ink-soft); line-height:1.55; margin-bottom:12px;}
   .post-read{font-size:13px; font-weight:600; color:var(--purple);}
 
+  .search-bar{margin:0 0 28px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;}
+  .search-bar input{flex:1; min-width:220px; font-family:'Inter',sans-serif; font-size:14px; color:var(--ink); background:var(--card); border:1px solid var(--line); border-radius:10px; padding:11px 16px; outline:none; transition:border-color .18s ease;}
+  .search-bar input::placeholder{color:var(--ink-faint);}
+  .search-bar input:focus{border-color:var(--purple);}
+  .search-count{font-size:12.5px; color:var(--ink-faint); white-space:nowrap;}
+
   footer{border-top:1px solid var(--line); padding:32px 0; text-align:center; color:var(--ink-faint); font-size:13px;}
   footer a{color:var(--ink-faint);}
   @media(prefers-reduced-motion:reduce){ .nav-pill,.nav-pill::before{animation:none;} }
@@ -100,24 +94,453 @@
 <header class="nav">
   <div class="nav-inner">
     <a href="https://www.scanmyshadow.com/" class="logo"><img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow"></a>
-    <a href="https://www.scanmyshadow.com/#pricing" class="nav-pill">Scan &middot; &#8377;498</a>
+    <a href="https://www.scanmyshadow.com/#pricing" class="nav-pill">Scan &middot; <span class="price-tag">&#8377;498</span></a>
   </div>
 </header>
 
 <div class="wrap">
   <div class="hero">
     <div class="eyebrow">Privacy Blog</div>
-    <h1>Guides on staying safe online in India</h1>
-    <p>Data breaches, digital arrest scams, matrimonial fraud, UPI safety, and practical ways to protect your phone number and email.</p>
+    <h1>Digital Privacy & Scam Protection Guides</h1>
+    <p>Data breaches, digital arrest scams, fraud recovery, and practical ways to protect your phone number and email — for India and internationally.</p>
   </div>
 
-  <div class="search-wrap">
-    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-    <input type="text" class="search-input" id="blogSearch" placeholder="Search articles by topic, title, or tag..." autocomplete="off">
+  <div class="search-bar">
+    <input type="text" id="blogSearch" placeholder="Search articles...">
+    <span class="search-count" id="searchCount"></span>
   </div>
-  <div class="search-count" id="searchCount"></div>
 
   <div class="post-grid" id="postGrid">
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/after-a-digital-arrest-scam-call-ends.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Digital Arrest</span><span class="tag-pill">India</span><span class="tag-pill">Scam Recovery</span></div>
+      </div>
+      <h2 class="post-title">The Digital Arrest Call Just Ended — What to Do in the Next 24 Hours</h2>
+      <p class="post-excerpt">TL;DR: Once a digital arrest call ends, treat it exactly like any financial fraud if money moved — call 1930 immediately. If no money was sent but you shared documents or s...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/already-got-scammed-complete-recovery-guide-india.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Scam Recovery</span><span class="tag-pill">India</span><span class="tag-pill">Cybercrime</span></div>
+      </div>
+      <h2 class="post-title">Already Scammed in India? The Complete Recovery Guide</h2>
+      <p class="post-excerpt">TL;DR: If you&#x27;ve just been scammed in India, the order of operations is: call 1930 (or file at cybercrime.gov.in) immediately, then your bank, then re-secure your accounts,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/emotional-aftermath-of-being-scammed-india.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Scam Recovery</span><span class="tag-pill">India</span><span class="tag-pill">Mental Wellbeing</span></div>
+      </div>
+      <h2 class="post-title">The Emotional Aftermath of Being Scammed — And Why Reporting Still Matters</h2>
+      <p class="post-excerpt">TL;DR: Shame, anger, and self-blame are extremely common reactions after being scammed, and they&#x27;re a major reason cases go unreported. Reporting still matters even if the...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/golden-hour-fund-freeze-1930-helpline-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">1930 Helpline</span><span class="tag-pill">Golden Hour</span><span class="tag-pill">UPI Fraud</span></div>
+      </div>
+      <h2 class="post-title">The First Hour After Sending Money to a Scammer: India&amp;#x27;s Golden Hour Fund-Freeze Explained</h2>
+      <p class="post-excerpt">TL;DR: India&#x27;s "Golden Hour" refers to the first couple of hours after a fraudulent transfer, when the money is often still sitting in an intermediary account. Calling 1930...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/investment-trading-app-scam-recovery.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Investment Scam</span><span class="tag-pill">Trading App Fraud</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Investment or Trading App Scam Recovery: What&amp;#x27;s Realistic to Get Back</h2>
+      <p class="post-excerpt">TL;DR: Investment and trading app scams are harder to recover from than direct transfer fraud, because money is often routed through several layers before you realize the p...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/job-scam-registration-fee-recovery.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Job Scam</span><span class="tag-pill">India</span><span class="tag-pill">Employment Fraud</span></div>
+      </div>
+      <h2 class="post-title">Paid a Fake Job &amp;#x27;Registration Fee&amp;#x27;? Here&amp;#x27;s Your Recovery Playbook</h2>
+      <p class="post-excerpt">TL;DR: Job scams that ask for an upfront &#x27;registration,&#x27; &#x27;training,&#x27; or &#x27;security deposit&#x27; fee are treated as standard financial fraud for recovery purposes — report throug...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/matrimonial-site-scam-recovery-steps.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Matrimonial Scam</span><span class="tag-pill">India</span><span class="tag-pill">Romance Fraud</span></div>
+      </div>
+      <h2 class="post-title">Scammed on a Matrimonial Site? Recovery Steps That Actually Work</h2>
+      <p class="post-excerpt">TL;DR: Matrimonial scam recovery has two tracks: recovering any money sent (same 1930/bank-dispute process as any financial fraud) and limiting the personal information the...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/recovering-hacked-whatsapp-social-account.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">WhatsApp</span><span class="tag-pill">Account Recovery</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Recovering a Hacked WhatsApp or Social Account After a Scam</h2>
+      <p class="post-excerpt">TL;DR: If a scammer has taken over your WhatsApp or social account, the priority order is: use the platform&#x27;s official account-recovery flow, warn your contacts through ano...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/shared-aadhaar-pan-with-scammer-what-to-do.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Aadhaar</span><span class="tag-pill">PAN Card</span><span class="tag-pill">Identity Theft</span></div>
+      </div>
+      <h2 class="post-title">You Shared Your Aadhaar or PAN With a Scammer — What to Do Now</h2>
+      <p class="post-excerpt">TL;DR: If you&#x27;ve shared your Aadhaar or PAN details with a scammer, the two most useful actions are locking your Aadhaar biometrics/e-KYC through UIDAI and watching your cr...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/sim-clone-aftermath-number-used-to-scam-others.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">SIM Swap</span><span class="tag-pill">SIM Cloning</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">Your Number Is Being Used to Scam Others: SIM Clone Aftermath</h2>
+      <p class="post-excerpt">TL;DR: If people are receiving scam calls or messages that appear to come from your number, it&#x27;s usually either SIM cloning (your actual SIM was duplicated) or caller ID sp...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/upi-fraud-recovery-bank-dispute-process.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">UPI Fraud</span><span class="tag-pill">Bank Dispute</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">UPI Fraud Recovery: The Bank Dispute Process, and What&amp;#x27;s Realistic</h2>
+      <p class="post-excerpt">TL;DR: A fraudulent UPI transfer needs two parallel actions: the 1930/CFCFRMS fund-freeze request, and a formal dispute with your bank or the UPI app. Recovery is realistic...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/already-got-scammed-international-recovery-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Scam Recovery</span><span class="tag-pill">International</span><span class="tag-pill">Fraud</span></div>
+      </div>
+      <h2 class="post-title">Already Scammed? The Complete Recovery Guide (International)</h2>
+      <p class="post-excerpt">TL;DR: If you&#x27;ve just been scammed outside India, the order of operations is broadly the same everywhere: contact your bank first if money moved, report to your country&#x27;s n...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/australia-scamwatch-idcare-recovery-process.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Scamwatch</span><span class="tag-pill">IDCARE</span><span class="tag-pill">Australia</span></div>
+      </div>
+      <h2 class="post-title">Australia: Scamwatch and IDCARE — The Recovery Process Explained</h2>
+      <p class="post-excerpt">TL;DR: In Australia, Scamwatch (run by the National Anti-Scam Centre) is where you report a scam, while IDCARE is a free, dedicated service that helps you actually recover...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/canada-anti-fraud-centre-reporting-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Canadian Anti-Fraud Centre</span><span class="tag-pill">Canada</span><span class="tag-pill">Scam Recovery</span></div>
+      </div>
+      <h2 class="post-title">Canada: Reporting to the Canadian Anti-Fraud Centre</h2>
+      <p class="post-excerpt">TL;DR: Report any scam in Canada to the Canadian Anti-Fraud Centre (CAFC) — 1-888-495-8501 or online at antifraudcentre-centreantifraude.ca — alongside contacting your bank...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/crypto-scam-recovery-realistic-expectations.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Crypto Scam</span><span class="tag-pill">Cryptocurrency Fraud</span><span class="tag-pill">International</span></div>
+      </div>
+      <h2 class="post-title">Crypto Scam Recovery: Realistic Expectations</h2>
+      <p class="post-excerpt">TL;DR: Cryptocurrency transactions are irreversible by design, which means recovery odds are lower than almost any other payment method. There&#x27;s no legitimate way to "unsen...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/gift-card-scam-recovery-what-to-do.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Gift Card Scam</span><span class="tag-pill">Scam Recovery</span><span class="tag-pill">International</span></div>
+      </div>
+      <h2 class="post-title">Gift Card Scam Recovery: Is It Ever Possible, and What to Do Anyway</h2>
+      <p class="post-excerpt">TL;DR: Gift cards are specifically favored by scammers because they&#x27;re close to untraceable once the code is used — recovery is rare, but calling the retailer&#x27;s fraud line...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/re-securing-identity-after-a-scam-credit-freeze.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Identity Theft</span><span class="tag-pill">Credit Freeze</span><span class="tag-pill">International</span></div>
+      </div>
+      <h2 class="post-title">Re-Securing Your Identity After a Scam: Credit Freezes and Monitoring</h2>
+      <p class="post-excerpt">TL;DR: Once the immediate reporting is done, prioritize a credit freeze with the major bureaus in your country, change passwords starting with email and banking, and set up...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/remote-access-scam-recovery-international.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Remote Access Scam</span><span class="tag-pill">International</span><span class="tag-pill">Cybersecurity</span></div>
+      </div>
+      <h2 class="post-title">You Gave Remote Access to Your Computer — International Recovery Steps</h2>
+      <p class="post-excerpt">TL;DR: Remote access can be handed over in many kinds of scams, not just fake tech support calls — investment scam &#x27;demos,&#x27; romance scams asking for help with a &#x27;business t...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/romance-scam-recovery-next-steps.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Romance Scam</span><span class="tag-pill">International</span><span class="tag-pill">Scam Recovery</span></div>
+      </div>
+      <h2 class="post-title">Romance Scam Recovery: Practical and Emotional Next Steps</h2>
+      <p class="post-excerpt">TL;DR: Romance scam recovery has two tracks that both matter: recovering or reporting any money sent (following the same payment-method-specific steps as any fraud), and pr...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/tech-support-scam-remote-access-recovery.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Tech Support Scam</span><span class="tag-pill">Remote Access</span><span class="tag-pill">International</span></div>
+      </div>
+      <h2 class="post-title">Gave Remote Access in a Tech Support Scam? Do This Immediately</h2>
+      <p class="post-excerpt">TL;DR: If you gave a fake tech support caller remote access to your computer, disconnect from the internet immediately, then work through securing accounts from a different...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/uk-action-fraud-crm-reimbursement-code.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Action Fraud</span><span class="tag-pill">United Kingdom</span><span class="tag-pill">APP Fraud</span></div>
+      </div>
+      <h2 class="post-title">UK: Action Fraud Reporting and the APP Fraud Reimbursement Rules Explained</h2>
+      <p class="post-excerpt">TL;DR: If you&#x27;ve been scammed in the UK, report to Action Fraud (actionfraud.police.uk). For bank transfer scams specifically, the UK has a mandatory reimbursement scheme,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/wire-fraud-recovery-us-72-hour-recall-window.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Wire Fraud</span><span class="tag-pill">United States</span><span class="tag-pill">FBI IC3</span></div>
+      </div>
+      <h2 class="post-title">Wire Fraud Recovery in the US: The 72-Hour Bank Recall Window</h2>
+      <p class="post-excerpt">TL;DR: Wire fraud recovery in the US depends heavily on speed: call your bank immediately to request a wire recall, then file with the FBI&#x27;s Internet Crime Complaint Center...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/i-just-got-scammed-in-the-usa.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Scam Recovery</span><span class="tag-pill">United States</span><span class="tag-pill">FBI IC3</span></div>
+      </div>
+      <h2 class="post-title">I Just Got Scammed in the US — What Do I Do Right Now?</h2>
+      <p class="post-excerpt">TL;DR: If you&#x27;ve just realized you were scammed in the US: call your bank or card issuer immediately if money moved, then file a report at ic3.gov (FBI) and reportfraud.ftc...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/i-just-got-scammed.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Scam Recovery</span><span class="tag-pill">India</span><span class="tag-pill">1930 Helpline</span></div>
+      </div>
+      <h2 class="post-title">I Just Got Scammed — What Do I Do Right Now?</h2>
+      <p class="post-excerpt">TL;DR: If you&#x27;ve just realized you were scammed: call 1930 right now, or file at cybercrime.gov.in. Do this before reading anything else — every minute affects whether the...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/common-scams-india-2026-field-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Scam Awareness</span><span class="tag-pill">India</span><span class="tag-pill">Cyber Security</span></div>
+      </div>
+      <h2 class="post-title">Common Scams in India Right Now (2026): A Field Guide</h2>
+      <p class="post-excerpt">TL;DR: This is a map of the scams actually active in India right now — not the well-worn digital arrest and matrimonial fraud categories alone, but the ones showing up in 2...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/fake-parcel-customs-scam-india-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Parcel Scam</span><span class="tag-pill">Customs Scam</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">The Fake Parcel/Customs Scam, Explained</h2>
+      <p class="post-excerpt">TL;DR: The fake parcel/customs scam claims your package is stuck at customs, contains something illegal, or triggers a fine — followed by a threat of arrest and a demand to...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/government-scheme-impersonation-scam-india.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Government Scheme Scam</span><span class="tag-pill">India</span><span class="tag-pill">EPFO</span></div>
+      </div>
+      <h2 class="post-title">Government Scheme Impersonation Scams: PM-Kisan, EPFO, and Fake Tax Refund Calls</h2>
+      <p class="post-excerpt">TL;DR: Scams impersonating PM-Kisan, EPFO, and the Income Tax Department follow the same basic pattern: a message or call claims you&#x27;re owed money, then asks for your UAN,...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/investment-scam-playbook-deepfake-pitches-india.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Investment Fraud</span><span class="tag-pill">India</span><span class="tag-pill">Deepfake Scam</span></div>
+      </div>
+      <h2 class="post-title">Investment Scam Playbook: How Fake Trading Groups and Deepfake Pitches Actually Work</h2>
+      <p class="post-excerpt">TL;DR: Investment scams — fake trading platforms and AI-generated deepfake pitches showing familiar faces endorsing returns — accounted for roughly 77% of India&#x27;s reported...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/kyc-update-scam-calls-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">KYC Scam</span><span class="tag-pill">India</span><span class="tag-pill">Bank Fraud</span></div>
+      </div>
+      <h2 class="post-title">KYC Update Scam Calls: How the Fake Customer Care Script Works</h2>
+      <p class="post-excerpt">TL;DR: A KYC update scam call or SMS claims your bank account, SIM, or wallet will be blocked within hours unless you &#x27;verify&#x27; immediately — usually by sharing an OTP, clic...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/loan-app-harassment-recovery-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Loan App Fraud</span><span class="tag-pill">India</span><span class="tag-pill">RBI</span></div>
+      </div>
+      <h2 class="post-title">Loan App Harassment: What to Do About Recovery Agent Blackmail</h2>
+      <p class="post-excerpt">TL;DR: RBI&#x27;s directions, issued August 6, 2026 and effective January 1, 2027, explicitly ban recovery agents from harassing borrowers or contacting their relatives, friends...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/upi-qr-code-scams-india-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">QR Code Scam</span><span class="tag-pill">UPI Fraud</span><span class="tag-pill">India</span></div>
+      </div>
+      <h2 class="post-title">UPI QR Code Scams (&amp;quot;Quishing&amp;quot;): How They Work and How to Avoid Them</h2>
+      <p class="post-excerpt">TL;DR: QR code scams ("quishing") exploit a common misunderstanding: scanning a UPI QR code and entering your PIN authorizes a payment out of your account, never in. Scamme...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/whatsapp-guess-who-relative-scam.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">WhatsApp Scam</span><span class="tag-pill">India</span><span class="tag-pill">Social Engineering</span></div>
+      </div>
+      <h2 class="post-title">The &amp;quot;Guess Who&amp;quot; WhatsApp Scam: How It Works and Why It&amp;#x27;s Spreading</h2>
+      <p class="post-excerpt">TL;DR: The "guess who" scam starts with a WhatsApp message from an unknown number claiming to be a relative or friend texting from a new phone. Once you guess a name, the s...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/why-you-should-never-share-otp.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">OTP Fraud</span><span class="tag-pill">India</span><span class="tag-pill">Account Security</span></div>
+      </div>
+      <h2 class="post-title">Why You Should Never Share an OTP — Even With &amp;quot;Your Bank&amp;quot;</h2>
+      <p class="post-excerpt">TL;DR: An OTP exists to prove that you, specifically, are approving a specific action — which is exactly why nearly every scam script, regardless of how it starts, ends wit...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/ai-voice-cloning-scam-calls-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">AI Voice Cloning</span><span class="tag-pill">International</span><span class="tag-pill">Deepfake Scam</span></div>
+      </div>
+      <h2 class="post-title">AI Voice Cloning Scam Calls: What They Sound Like and How to Verify</h2>
+      <p class="post-excerpt">TL;DR: AI voice cloning now lets scammers generate a convincing imitation of a family member&#x27;s voice from just a few seconds of audio, often pulled from social media. Paire...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/bank-government-imposter-scam-calls.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Imposter Scam</span><span class="tag-pill">United States</span><span class="tag-pill">Bank Fraud</span></div>
+      </div>
+      <h2 class="post-title">Bank and Government Imposter Scam Calls: How to Spot Them</h2>
+      <p class="post-excerpt">TL;DR: Imposter scams — someone posing as a bank, the IRS, the FBI, or another trusted institution — are the most commonly reported fraud category in the US, with over 1 mi...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/common-scams-international-2026-field-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Scam Awareness</span><span class="tag-pill">International</span><span class="tag-pill">Fraud Prevention</span></div>
+      </div>
+      <h2 class="post-title">Common Scams Right Now (2026): An International Field Guide</h2>
+      <p class="post-excerpt">TL;DR: Americans reported losing a record $15.9 billion to fraud in 2025. This is a map of what&#x27;s actually circulating right now — imposter calls, toll-text smishing, fake...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/data-broker-opt-out-uk-canada-australia.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Data Brokers</span><span class="tag-pill">UK</span><span class="tag-pill">Canada</span></div>
+      </div>
+      <h2 class="post-title">Data Broker Opt-Out Guide: UK, Canada, and Australia</h2>
+      <p class="post-excerpt">TL;DR: The people-search industry looks different outside the US. In the UK, 192.com and the open electoral register are the dominant feeds. Canada and Australia have small...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/ez-pass-unpaid-toll-text-scam.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Smishing</span><span class="tag-pill">EZ Pass Scam</span><span class="tag-pill">United States</span></div>
+      </div>
+      <h2 class="post-title">The EZ Pass Unpaid Toll Text Scam (&amp;quot;Smishing&amp;quot;)</h2>
+      <p class="post-excerpt">TL;DR: If you got a text claiming you owe money for an unpaid toll — whether it names EZ Pass, SunPass, FasTrak, or another agency — it&#x27;s almost certainly a scam. Toll agen...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/fake-job-offer-linkedin-recruiter-scams.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Job Scam</span><span class="tag-pill">LinkedIn Scam</span><span class="tag-pill">International</span></div>
+      </div>
+      <h2 class="post-title">Fake Job Offer and LinkedIn Recruiter Scams</h2>
+      <p class="post-excerpt">TL;DR: Deceptive job and business opportunity scams rank among the FTC&#x27;s most commonly reported fraud categories. A fake recruiter — often reaching out via LinkedIn or emai...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/geek-squad-renewal-email-scam-explained.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Geek Squad Scam</span><span class="tag-pill">Phishing</span><span class="tag-pill">United States</span></div>
+      </div>
+      <h2 class="post-title">The Geek Squad Renewal Email Scam, Explained</h2>
+      <p class="post-excerpt">TL;DR: The Geek Squad scam sends a fake invoice — usually $300–$500 — for a tech support subscription renewal you never signed up for, hoping you&#x27;ll call the number provide...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/holiday-ecommerce-shopping-scams-guide.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Shopping Scam</span><span class="tag-pill">International</span><span class="tag-pill">E-Commerce Fraud</span></div>
+      </div>
+      <h2 class="post-title">Holiday and E-Commerce Shopping Scams: A Seasonal Guide</h2>
+      <p class="post-excerpt">TL;DR: Online shopping scams spike sharply every November and December, driven by fake stores advertised through social media ads and phony shipping/delivery text notificat...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/qr-code-scams-quishing-international.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">QR Code Scam</span><span class="tag-pill">Quishing</span><span class="tag-pill">International</span></div>
+      </div>
+      <h2 class="post-title">QR Code Scams (&amp;quot;Quishing&amp;quot;) Internationally: Parking Meters, Menus, and More</h2>
+      <p class="post-excerpt">TL;DR: "Quishing" — QR code phishing — covers two related risks: fraudulent stickers placed over legitimate codes at parking meters or menus that redirect your payment, and...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
+    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/social-security-impersonation-scam-calls.html">
+      <div class="post-card-top">
+        <span class="post-date">September 3, 2026</span>
+        <div class="post-tags"><span class="tag-pill">Social Security Scam</span><span class="tag-pill">United States</span><span class="tag-pill">Imposter Scam</span></div>
+      </div>
+      <h2 class="post-title">Social Security Impersonation Calls: What the SSA Will Never Ask You</h2>
+      <p class="post-excerpt">TL;DR: A call claiming your Social Security number has been &#x27;suspended&#x27; or linked to criminal activity, demanding payment via gift card or wire transfer to resolve it, is a...</p>
+      <span class="post-read">Read more &rarr;</span>
+    </a>
+
     <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-footprint-audit-30-minute-checklist.html">
       <div class="post-card-top">
         <span class="post-date">September 3, 2026</span>
@@ -473,7 +896,7 @@
         <span class="post-date">September 3, 2026</span>
         <div class="post-tags"><span class="tag-pill">Telegram</span><span class="tag-pill">Privacy Settings</span><span class="tag-pill">Messaging Apps</span></div>
       </div>
-      <h2 class="post-title">Telegram Privacy Settings: What's Actually Public on Your Profile</h2>
+      <h2 class="post-title">Telegram Privacy Settings: What’s Actually Public on Your Profile</h2>
       <p class="post-excerpt">TL;DR: Telegram markets itself as privacy-focused, but several important settings — phone number visibility, last-seen status, and who can add you to groups —...</p>
       <span class="post-read">Read more &rarr;</span>
     </a>
@@ -581,9 +1004,9 @@
     <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/what-parenting-apps-do-with-your-family-data.html">
       <div class="post-card-top">
         <span class="post-date">September 3, 2026</span>
-        <div class="post-tags"><span class="tag-pill">Parenting Apps</span><span class="tag-pill">Family Privacy</span><span class="tag-pill">Children&#x27;s Data</span></div>
+        <div class="post-tags"><span class="tag-pill">Parenting Apps</span><span class="tag-pill">Family Privacy</span><span class="tag-pill">Children's Data</span></div>
       </div>
-      <h2 class="post-title">New Parents: What Baby Registry and Parenting Apps Do With Your Family's Data</h2>
+      <h2 class="post-title">New Parents: What Baby Registry and Parenting Apps Do With Your Family’s Data</h2>
       <p class="post-excerpt">TL;DR: Baby-tracking, feeding, and registry apps ask for a surprising amount of family data early on — due dates, addresses, feeding schedules, sometimes photos...</p>
       <span class="post-read">Read more &rarr;</span>
     </a>
@@ -593,7 +1016,7 @@
         <span class="post-date">September 3, 2026</span>
         <div class="post-tags"><span class="tag-pill">Elder Safety</span><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Family Privacy</span></div>
       </div>
-      <h2 class="post-title">Protecting Your Aging Parents' Digital Footprint: A Family Guide</h2>
+      <h2 class="post-title">Protecting Your Aging Parents’ Digital Footprint: A Family Guide</h2>
       <p class="post-excerpt">TL;DR: Elderly parents are disproportionately targeted by digital arrest and impersonation scams partly because scammers can find real personal details about...</p>
       <span class="post-read">Read more &rarr;</span>
     </a>
@@ -613,12 +1036,12 @@
         <span class="post-date">September 3, 2026</span>
         <div class="post-tags"><span class="tag-pill">OSINT</span><span class="tag-pill">OSINT India</span><span class="tag-pill">Digital Footprint</span></div>
       </div>
-      <h2 class="post-title">OSINT India: The Complete Guide to What's Publicly Findable About You</h2>
+      <h2 class="post-title">OSINT India: The Complete Guide to What’s Publicly Findable About You</h2>
       <p class="post-excerpt">TL;DR: OSINT (open-source intelligence) means finding information about a person using only public or already-leaked sources — no hacking involved. In India, an...</p>
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/bareilly-teen-stops-digital-arrest-scam.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/bareilly-teen-stops-digital-arrest-scam.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Privacy</span></div>
@@ -628,7 +1051,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/cyber-police-noida-proactive-scam-prevention-india.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/cyber-police-noida-proactive-scam-prevention-india.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
         <div class="post-tags"><span class="tag-pill">OSINT</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Privacy</span></div>
@@ -638,7 +1061,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-arrest-scam-axis-bank-officer-pune.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-arrest-scam-axis-bank-officer-pune.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Privacy</span></div>
@@ -648,7 +1071,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-arrest-scam-fixed-deposit-hdfc-bank.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/digital-arrest-scam-fixed-deposit-hdfc-bank.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Privacy</span></div>
@@ -658,7 +1081,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/extra-letter-email-1-2-million-scam-saved.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/extra-letter-email-1-2-million-scam-saved.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
         <div class="post-tags"><span class="tag-pill">Email Exposure</span><span class="tag-pill">International</span><span class="tag-pill">Privacy</span></div>
@@ -668,7 +1091,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/phone-in-the-car-jury-duty-scam-columbus.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/phone-in-the-car-jury-duty-scam-columbus.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
         <div class="post-tags"><span class="tag-pill">Elder Fraud</span><span class="tag-pill">International</span><span class="tag-pill">Privacy</span></div>
@@ -678,7 +1101,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/sbi-manager-jaipur-stops-digital-arrest-scam.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/sbi-manager-jaipur-stops-digital-arrest-scam.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Privacy</span></div>
@@ -688,7 +1111,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/tamil-nadu-police-rescue-scam-victims-before-they-know.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/09/tamil-nadu-police-rescue-scam-victims-before-they-know.html">
       <div class="post-card-top">
         <span class="post-date">September 2, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest</span><span class="tag-pill">Real Stories</span><span class="tag-pill">Privacy</span></div>
@@ -698,7 +1121,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-happens-when-your-email-is-used-as.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-happens-when-your-email-is-used-as.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -708,7 +1131,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-loan-apps-in-india-collect-and.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-loan-apps-in-india-collect-and.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Personal Information</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -718,7 +1141,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-data-do-health-and-fitness-apps-in.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-data-do-health-and-fitness-apps-in.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Personal Information</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -728,7 +1151,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/setting-up-passkeys-and-authenticator.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/setting-up-passkeys-and-authenticator.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">UPI fraud</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -738,7 +1161,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-arrest-scams-in-india-how-they.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-arrest-scams-in-india-how-they.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Personal Information</span><span class="tag-pill">Privacy</span></div>
@@ -748,7 +1171,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/two-factor-authentication-and-account.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/two-factor-authentication-and-account.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -758,7 +1181,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-employers-actually-run-background.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-employers-actually-run-background.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Aadhaar Privacy</span><span class="tag-pill">Background Checks</span><span class="tag-pill">Privacy</span></div>
@@ -768,7 +1191,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Aadhaar Privacy</span><span class="tag-pill">Privacy</span></div>
@@ -778,7 +1201,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-information-do-food-delivery-and.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-information-do-food-delivery-and.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -788,7 +1211,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-how-your-payment.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-how-your-payment.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">UPI fraud</span><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Privacy</span></div>
@@ -798,7 +1221,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-complete-guide-to-matrimony-and.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-complete-guide-to-matrimony-and.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Privacy</span></div>
@@ -808,7 +1231,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/matrimonial-privacy-for-parents.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/matrimonial-privacy-for-parents.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Privacy</span></div>
@@ -818,7 +1241,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/matrimonial-site-verification-compared.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/matrimonial-site-verification-compared.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -828,7 +1251,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-to-do-if-youve-been-victim-of.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-to-do-if-youve-been-victim-of.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -838,7 +1261,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/doing-background-check-before-marriage.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/doing-background-check-before-marriage.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Background Checks</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -848,7 +1271,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/reverse-image-search-how-to-check-if.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/reverse-image-search-how-to-check-if.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -858,7 +1281,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-verify-matrimonial-profile.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-verify-matrimonial-profile.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Background Checks</span><span class="tag-pill">Privacy</span></div>
@@ -868,7 +1291,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/common-matrimonial-scams-in-india-and.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/common-matrimonial-scams-in-india-and.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Cybercrime Reporting</span><span class="tag-pill">Privacy</span></div>
@@ -878,7 +1301,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-spot-fake-matrimonial-profile.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-spot-fake-matrimonial-profile.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Cybercrime Reporting</span><span class="tag-pill">Privacy</span></div>
@@ -888,7 +1311,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-happens-to-my-online-accounts.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-happens-to-my-online-accounts.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -898,7 +1321,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/childrens-data-and-dpdp-act-what.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/childrens-data-and-dpdp-act-what.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">child safety</span><span class="tag-pill">dpdp act india</span></div>
@@ -908,7 +1331,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/do-vpns-actually-protect-your-privacy.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/do-vpns-actually-protect-your-privacy.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Brokers</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -918,7 +1341,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/cleaning-up-your-online-presence-before.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/cleaning-up-your-online-presence-before.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Background Checks</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -928,7 +1351,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/dating-and-matrimonial-app-privacy-in.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/dating-and-matrimonial-app-privacy-in.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Matrimonial Safety</span><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Privacy</span></div>
@@ -938,7 +1361,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-whats-actually.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-whats-actually.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">UPI fraud</span><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Privacy</span></div>
@@ -948,7 +1371,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/whatsapp-privacy-settings-complete.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/whatsapp-privacy-settings-complete.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">WhatsApp Impersonation</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -958,7 +1381,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/identity-theft-in-india-warning-signs.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/identity-theft-in-india-warning-signs.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">Personal Information</span><span class="tag-pill">Privacy</span></div>
@@ -968,7 +1391,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/sim-swap-fraud-how-it-works-and-how-to.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/sim-swap-fraud-how-it-works-and-how-to.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span></div>
@@ -978,7 +1401,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-file-cybercrime-complaint-in.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-file-cybercrime-complaint-in.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">UPI fraud</span><span class="tag-pill">Cybercrime Reporting</span><span class="tag-pill">Privacy</span></div>
@@ -988,7 +1411,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/common-scam-call-scripts-in-india-and.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/common-scam-call-scripts-in-india-and.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span></div>
@@ -998,7 +1421,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-choose-username-that-doesnt.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-choose-username-that-doesnt.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -1008,7 +1431,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-remove-my-personal-information.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-remove-my-personal-information.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span></div>
@@ -1018,7 +1441,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/aadhaar-privacy-in-india-whats-actually.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/aadhaar-privacy-in-india-whats-actually.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1028,7 +1451,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-dpdp-act-what-rights-do-you.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-dpdp-act-what-rights-do-you.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Personal Information</span><span class="tag-pill">Children’s Privacy</span><span class="tag-pill">Privacy</span></div>
@@ -1038,7 +1461,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-use-my-photo-to-track-me.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-use-my-photo-to-track-me.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
@@ -1048,7 +1471,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-phone-number-just.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-phone-number-just.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1058,7 +1481,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-makes-up-your-digital-footprint.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-makes-up-your-digital-footprint.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Privacy</span></div>
@@ -1068,7 +1491,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-osint-can-be-used-to-find-someone.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-osint-can-be-used-to-find-someone.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Cybercrime Reporting</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -1078,7 +1501,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/osint-vs-hacking-whats-real-difference.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/osint-vs-hacking-whats-real-difference.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span></div>
@@ -1088,7 +1511,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-my-photos-reveal-your-location-or.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-my-photos-reveal-your-location-or.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Personal Information</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -1098,7 +1521,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-protect-your-personal.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-protect-your-personal.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1108,7 +1531,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-does-your-email-address-reveal.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-does-your-email-address-reveal.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1118,7 +1541,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-deleted-social-media-posts-still-be.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-deleted-social-media-posts-still-be.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span><span class="tag-pill">India</span></div>
@@ -1128,7 +1551,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-is-osint-and-how-can-it-be-used-to.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-is-osint-and-how-can-it-be-used-to.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Cybercrime Reporting</span><span class="tag-pill">Privacy</span></div>
@@ -1138,7 +1561,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-much-can-someone-learn-from-my.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-much-can-someone-learn-from-my.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">WhatsApp Impersonation</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1148,7 +1571,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-my-old-username-still-reveal-who-i.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-my-old-username-still-reveal-who-i.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">Children’s Privacy</span><span class="tag-pill">Privacy</span></div>
@@ -1158,7 +1581,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-should-i-do-if-my-email-appears-in.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-should-i-do-if-my-email-appears-in.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1168,7 +1591,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-is-data-breach-and-what-actually.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-is-data-breach-and-what-actually.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -1178,7 +1601,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-social-media.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-social-media.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1188,7 +1611,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-what-personal-information.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-what-personal-information.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Personal Information</span><span class="tag-pill">Privacy</span></div>
@@ -1198,7 +1621,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-your-phone-number-and-email-address.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-your-phone-number-and-email-address.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Brokers</span><span class="tag-pill">Personal Information</span><span class="tag-pill">Privacy</span></div>
@@ -1208,7 +1631,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/why-do-spam-calls-increase-after-data.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/why-do-spam-calls-increase-after-data.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Data Brokers</span><span class="tag-pill">Privacy</span></div>
@@ -1218,7 +1641,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-email-has-been.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-email-has-been.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -1228,7 +1651,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-can-scammers-actually-find-about.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-can-scammers-actually-find-about.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span></div>
@@ -1238,7 +1661,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-find-old-accounts-linked-to-your.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-find-old-accounts-linked-to-your.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1248,7 +1671,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-does-data-breach-actually-expose.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-does-data-breach-actually-expose.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span></div>
@@ -1258,7 +1681,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-phone-number-reveal-your-name.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-phone-number-reveal-your-name.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -1268,7 +1691,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-do-data-brokers-actually-get-your.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-do-data-brokers-actually-get-your.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span></div>
@@ -1278,7 +1701,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-actually-happens-to-your-data-when.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/what-actually-happens-to-your-data-when.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -1288,7 +1711,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-remove-your-phone-number-from.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-remove-your-phone-number-from.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Brokers</span><span class="tag-pill">Privacy</span></div>
@@ -1298,7 +1721,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-address-using-my.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-address-using-my.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1308,7 +1731,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-new-aadhaar-app-just-made-your.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/the-new-aadhaar-app-just-made-your.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Aadhaar Privacy</span><span class="tag-pill">Privacy</span></div>
@@ -1318,7 +1741,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-my-phone-number-leaked-heres-how-to.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-my-phone-number-leaked-heres-how-to.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Footprint</span></div>
@@ -1328,7 +1751,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/your-personal-information-is-exposed.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/your-personal-information-is-exposed.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">cybersecurity India</span><span class="tag-pill">Deepfake Scam</span></div>
@@ -1338,7 +1761,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-your-phone-number-becomes-digital.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-your-phone-number-becomes-digital.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Digital Footprint</span></div>
@@ -1348,7 +1771,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-your-digital-footprint.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-your-digital-footprint.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Account Safety</span><span class="tag-pill">cybersecurity India</span><span class="tag-pill">Data Breach</span></div>
@@ -1358,7 +1781,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-footprint-india-what.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-footprint-india-what.html">
       <div class="post-card-top">
         <span class="post-date">August 26, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Account Safety</span></div>
@@ -1368,17 +1791,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-phone-number-is_0465861466.html">
-      <div class="post-card-top">
-        <span class="post-date">August 24, 2026</span>
-        <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Brokers</span><span class="tag-pill">Privacy</span></div>
-      </div>
-      <h2 class="post-title">How to Check if Your Phone Number Is Exposed Online: A Guide for Indians</h2>
-      <p class="post-excerpt">Photo by Jonas Leupe on Unsplash TL;DR Your phone number can appear online through data breaches, data brokers, public records, and...</p>
-      <span class="post-read">Read more &rarr;</span>
-    </a>
-
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-phone-number-is.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-phone-number-is.html">
       <div class="post-card-top">
         <span class="post-date">August 22, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Aggregators</span><span class="tag-pill">Privacy</span></div>
@@ -1388,7 +1801,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/where-do-phone-numbers-get-exposed.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/where-do-phone-numbers-get-exposed.html">
       <div class="post-card-top">
         <span class="post-date">August 22, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Brokers</span><span class="tag-pill">Privacy</span></div>
@@ -1398,7 +1811,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-your-personal-information-exposed.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-your-personal-information-exposed.html">
       <div class="post-card-top">
         <span class="post-date">August 22, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Data Exposure</span><span class="tag-pill">Privacy</span></div>
@@ -1408,7 +1821,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-your-phone-number-exposed-online-how.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/is-your-phone-number-exposed-online-how.html">
       <div class="post-card-top">
         <span class="post-date">August 21, 2026</span>
         <div class="post-tags"><span class="tag-pill">Phone Number Exposure</span><span class="tag-pill">Data Breach</span><span class="tag-pill">Privacy</span></div>
@@ -1418,7 +1831,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/old-apps-forgotten-accounts-and-your.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/old-apps-forgotten-accounts-and-your.html">
       <div class="post-card-top">
         <span class="post-date">August 21, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Account Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1428,7 +1841,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/your-forgotten-online-accounts-are.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/your-forgotten-online-accounts-are.html">
       <div class="post-card-top">
         <span class="post-date">August 21, 2026</span>
         <div class="post-tags"><span class="tag-pill">Forgotten Accounts</span><span class="tag-pill">Digital Footprint</span><span class="tag-pill">Privacy</span></div>
@@ -1438,17 +1851,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/indias-digital-arrest-scam-crisis_01898235965.html">
-      <div class="post-card-top">
-        <span class="post-date">August 19, 2026</span>
-        <div class="post-tags"><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Mule Account Fraud</span><span class="tag-pill">Privacy</span></div>
-      </div>
-      <h2 class="post-title">India&#x27;s Digital Arrest Scam Crisis: Supreme Court Acts, Goa Police Bust Multi-State Fraud Ring (August 2026)</h2>
-      <p class="post-excerpt">Photo by Sajad Nori on Unsplash TLDR: In the first two weeks of August 2026, India&amp;rsquo;s digital arrest scam crisis reached a boiling...</p>
-      <span class="post-read">Read more &rarr;</span>
-    </a>
-
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/indias-digital-arrest-scam-crisis.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/indias-digital-arrest-scam-crisis.html">
       <div class="post-card-top">
         <span class="post-date">August 17, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Mule Account Fraud</span><span class="tag-pill">Privacy</span></div>
@@ -1458,7 +1861,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/india-cyber-scam-alert-1571-crore.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/india-cyber-scam-alert-1571-crore.html">
       <div class="post-card-top">
         <span class="post-date">August 16, 2026</span>
         <div class="post-tags"><span class="tag-pill">Investment Fraud</span><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Privacy</span></div>
@@ -1468,7 +1871,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-arrest-investment-fraud-indias.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/08/digital-arrest-investment-fraud-indias.html">
       <div class="post-card-top">
         <span class="post-date">August 15, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Investment Fraud</span><span class="tag-pill">Privacy</span></div>
@@ -1478,7 +1881,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/digital-arrest-scams-cost-india-4057.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/digital-arrest-scams-cost-india-4057.html">
       <div class="post-card-top">
         <span class="post-date">July 08, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Ponzi Fraud</span><span class="tag-pill">Privacy</span></div>
@@ -1488,7 +1891,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/india-halts-whatsapp-username-rollout.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/india-halts-whatsapp-username-rollout.html">
       <div class="post-card-top">
         <span class="post-date">July 04, 2026</span>
         <div class="post-tags"><span class="tag-pill">WhatsApp Impersonation</span><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Privacy</span></div>
@@ -1498,7 +1901,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/deepfake-investment-scams-digital.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/07/deepfake-investment-scams-digital.html">
       <div class="post-card-top">
         <span class="post-date">July 02, 2026</span>
         <div class="post-tags"><span class="tag-pill">Deepfake Scam</span><span class="tag-pill">Investment Fraud</span><span class="tag-pill">Privacy</span></div>
@@ -1508,7 +1911,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/cbis-operation-chakra-vi-indias-biggest.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/cbis-operation-chakra-vi-indias-biggest.html">
       <div class="post-card-top">
         <span class="post-date">June 27, 2026</span>
         <div class="post-tags"><span class="tag-pill">Digital Arrest Scam</span><span class="tag-pill">Operation Chakra VI</span><span class="tag-pill">Privacy</span></div>
@@ -1518,7 +1921,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/operation-chakra-vi-indias-cyber-scam.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/operation-chakra-vi-indias-cyber-scam.html">
       <div class="post-card-top">
         <span class="post-date">June 27, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1528,7 +1931,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/india-cyber-scam-alert-june-2026.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/india-cyber-scam-alert-june-2026.html">
       <div class="post-card-top">
         <span class="post-date">June 17, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1538,7 +1941,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-epidemic-india-reports.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-epidemic-india-reports.html">
       <div class="post-card-top">
         <span class="post-date">June 10, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1548,7 +1951,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/indias-cyber-fraud-crisis-over-22000.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/indias-cyber-fraud-crisis-over-22000.html">
       <div class="post-card-top">
         <span class="post-date">June 09, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1558,7 +1961,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-scams-and-upi-frauds.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-scams-and-upi-frauds.html">
       <div class="post-card-top">
         <span class="post-date">June 05, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1568,7 +1971,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-scams-surge-across-india.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/06/digital-arrest-scams-surge-across-india.html">
       <div class="post-card-top">
         <span class="post-date">June 03, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1578,7 +1981,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-rise-200-in-india.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-rise-200-in-india.html">
       <div class="post-card-top">
         <span class="post-date">May 31, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1588,7 +1991,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-in-india-2026.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-in-india-2026.html">
       <div class="post-card-top">
         <span class="post-date">May 31, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1598,7 +2001,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/latest-cyber-scam-crisis-in-india-8000.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/latest-cyber-scam-crisis-in-india-8000.html">
       <div class="post-card-top">
         <span class="post-date">May 31, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1608,7 +2011,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-surge-in-india.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-surge-in-india.html">
       <div class="post-card-top">
         <span class="post-date">May 31, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1618,7 +2021,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-cost-indians-100.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-cost-indians-100.html">
       <div class="post-card-top">
         <span class="post-date">May 27, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1628,7 +2031,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-explode-in-india.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/digital-arrest-scams-explode-in-india.html">
       <div class="post-card-top">
         <span class="post-date">May 25, 2026</span>
         <div class="post-tags"><span class="tag-pill">Data Breach</span><span class="tag-pill">Digital Safety</span><span class="tag-pill">Privacy</span></div>
@@ -1638,7 +2041,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/latest-cyber-scams-in-india-iphone.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/latest-cyber-scams-in-india-iphone.html">
       <div class="post-card-top">
         <span class="post-date">May 25, 2026</span>
         <div class="post-tags"><span class="tag-pill">UPI fraud</span><span class="tag-pill">Privacy</span><span class="tag-pill">Cyber Security</span></div>
@@ -1648,7 +2051,7 @@
       <span class="post-read">Read more &rarr;</span>
     </a>
 
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/upi-fraud-prevention-india-complete.html">
+<a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/upi-fraud-prevention-india-complete.html">
       <div class="post-card-top">
         <span class="post-date">May 25, 2026</span>
         <div class="post-tags"><span class="tag-pill">UPI fraud prevention</span><span class="tag-pill">digital payment security</span><span class="tag-pill">cybersecurity India</span></div>
@@ -1657,17 +2060,6 @@
       <p class="post-excerpt">The Rising Threat of UPI Fraud in India&#x27;s Digital Payment Landscape India&#x27;s Unified Payments Interface (UPI) has revolutionized digital...</p>
       <span class="post-read">Read more &rarr;</span>
     </a>
-
-    <a class="post-card" href="https://www.scanmyshadow.com/blog/2026/05/upi-fraud-prevention-in-india-complete.html">
-      <div class="post-card-top">
-        <span class="post-date">May 25, 2026</span>
-        <div class="post-tags"><span class="tag-pill">UPI fraud</span><span class="tag-pill">digital payments</span><span class="tag-pill">cybersecurity India</span></div>
-      </div>
-      <h2 class="post-title">UPI Fraud Prevention in India: Complete Guide to Protect Your Digital Payments in 2024</h2>
-      <p class="post-excerpt">The Growing Threat of UPI Fraud in India&#x27;s Digital Payment Revolution India&#x27;s Unified Payments Interface (UPI) has revolutionized digital...</p>
-      <span class="post-read">Read more &rarr;</span>
-    </a>
-  </div>
   <div class="no-results" id="noResults">No articles match your search. Try a different keyword.</div>
 </div>
 
@@ -1721,5 +2113,6 @@
     });
   })();
 </script>
+<script src="/assets/geo-price.js"></script>
 </body>
 </html>
