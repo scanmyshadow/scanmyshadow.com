@@ -109,16 +109,21 @@ h1 .accent{color:var(--purple);}
 }
 @media(max-width:480px){.quiz-card{padding:24px 18px;border-radius:18px;}}
 
-/* progress bar */
+/* progress — segmented steps */
 .progress-wrap{margin-bottom:28px;}
-.progress-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
+.progress-meta{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:11px;}
 .progress-label{font-size:12.5px;font-weight:600;color:var(--purple);}
-.progress-count{font-size:12px;color:var(--ink-faint);}
-.progress-bar{height:6px;background:var(--purple-mist);border-radius:99px;overflow:hidden;}
-.progress-fill{height:100%;background:var(--purple);border-radius:99px;transition:width 0.4s cubic-bezier(0.4,0,0.2,1);}
+.progress-count{font-size:11.5px;color:var(--ink-faint);}
+.progress-bar{display:flex;gap:5px;}
+.progress-bar .step-seg{flex:1;height:5px;border-radius:99px;background:var(--purple-mist);overflow:hidden;position:relative;}
+.progress-bar .step-seg i{position:absolute;inset:0;background:linear-gradient(90deg,var(--purple),var(--purple-deep));border-radius:99px;transform:scaleX(0);transform-origin:left;transition:transform 0.5s cubic-bezier(0.4,0,0.2,1);}
+.progress-bar .step-seg.done i,.progress-bar .step-seg.current i{transform:scaleX(1);}
+.progress-bar .step-seg.current{box-shadow:0 0 0 3px var(--purple-mist);}
 
 /* question */
 .question-area{min-height:280px;display:flex;flex-direction:column;}
+.q-slide{animation:qSlideIn 0.38s cubic-bezier(0.22,1,0.36,1);}
+@keyframes qSlideIn{from{opacity:0;transform:translateX(14px);}to{opacity:1;transform:translateX(0);}}
 .q-text{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(17px,3.8vw,20px);line-height:1.35;margin-bottom:6px;}
 .q-hint{font-size:13px;color:var(--ink-faint);margin-bottom:20px;line-height:1.5;}
 .options{display:flex;flex-direction:column;gap:10px;flex:1;}
@@ -132,10 +137,13 @@ h1 .accent{color:var(--purple);}
 .opt-btn.selected{border-color:var(--purple);background:var(--purple-mist);font-weight:600;}
 .opt-radio{
   width:20px;height:20px;border-radius:50%;border:2px solid var(--line);flex-shrink:0;
-  display:flex;align-items:center;justify-content:center;transition:all 0.2s ease;
+  position:relative;transition:border-color 0.2s ease,background 0.2s ease;
 }
 .opt-btn.selected .opt-radio{border-color:var(--purple);background:var(--purple);}
-.opt-btn.selected .opt-radio::after{content:"";width:8px;height:8px;border-radius:50%;background:#fff;}
+.opt-radio svg{position:absolute;inset:0;width:100%;height:100%;stroke:#fff;stroke-width:2.6;fill:none;
+  stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:16;stroke-dashoffset:16;}
+.opt-btn.selected .opt-radio svg{animation:checkDraw 0.28s ease 0.05s forwards;}
+@keyframes checkDraw{to{stroke-dashoffset:0;}}
 
 /* nav buttons */
 .quiz-nav{display:flex;gap:10px;margin-top:24px;}
@@ -160,13 +168,15 @@ h1 .accent{color:var(--purple);}
 
 /* score ring */
 .score-ring-wrap{position:relative;width:180px;height:180px;margin:0 auto 8px;}
-.score-ring{width:100%;height:100%;transform:rotate(-90deg);}
+.ring-glow{position:absolute;inset:14px;border-radius:50%;filter:blur(22px);opacity:0;transition:opacity 0.6s ease 0.3s;}
+.ring-glow.on{opacity:0.35;}
+.score-ring{width:100%;height:100%;transform:rotate(-90deg);position:relative;z-index:1;}
 .score-ring-bg{fill:none;stroke:var(--purple-mist);stroke-width:10;}
 .score-ring-fill{fill:none;stroke-width:10;stroke-linecap:round;
   transition:stroke-dashoffset 1.2s cubic-bezier(0.4,0,0.2,1),stroke 0.4s ease;}
 .score-number{
   position:absolute;inset:0;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;
+  align-items:center;justify-content:center;z-index:2;
 }
 .score-val{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:48px;line-height:1;letter-spacing:-0.02em;}
 .score-max{font-size:14px;color:var(--ink-faint);margin-top:2px;}
@@ -190,7 +200,10 @@ h1 .accent{color:var(--purple);}
 }
 .factors-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
 .factors-title svg{width:18px;height:18px;color:var(--purple);}
-.factor-item{display:flex;align-items:flex-start;gap:10px;padding:9px 0;font-size:13.5px;color:var(--ink-soft);line-height:1.5;}
+.factor-item{display:flex;align-items:flex-start;gap:10px;padding:9px 0;font-size:13.5px;color:var(--ink-soft);line-height:1.5;
+  opacity:0;transform:translateY(6px);}
+.factor-item.in{animation:itemIn 0.4s cubic-bezier(0.22,1,0.36,1) forwards;}
+@keyframes itemIn{to{opacity:1;transform:translateY(0);}}
 .factor-item+.factor-item{border-top:1px solid var(--line-soft);}
 .factor-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:7px;}
 
@@ -201,7 +214,9 @@ h1 .accent{color:var(--purple);}
 }
 .recs-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
 .recs-title svg{width:18px;height:18px;color:var(--ok);}
-.rec-item{display:flex;align-items:flex-start;gap:10px;padding:9px 0;font-size:13.5px;color:var(--ink-soft);line-height:1.5;}
+.rec-item{display:flex;align-items:flex-start;gap:10px;padding:9px 0;font-size:13.5px;color:var(--ink-soft);line-height:1.5;
+  opacity:0;transform:translateY(6px);}
+.rec-item.in{animation:itemIn 0.4s cubic-bezier(0.22,1,0.36,1) forwards;}
 .rec-item+.rec-item{border-top:1px solid var(--line-soft);}
 .rec-item svg{width:15px;height:15px;color:var(--ok);flex-shrink:0;margin-top:2px;}
 
@@ -275,7 +290,8 @@ h1 .accent{color:var(--purple);}
 
 /* reduced motion */
 @media(prefers-reduced-motion:reduce){
-  .progress-fill,.score-ring-fill,.opt-btn,.btn,.share-btn{transition:none!important;}
+  .progress-bar .step-seg i,.score-ring-fill,.opt-btn,.btn,.share-btn,
+  .q-slide,.opt-radio svg,.factor-item,.rec-item,.ring-glow{transition:none!important;animation:none!important;opacity:1!important;transform:none!important;}
 }
 
 /* ============ NAV (added: full header to match main index) ============ */
@@ -494,9 +510,9 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
       <div class="progress-wrap">
         <div class="progress-meta">
           <span class="progress-label" id="progressLabel">Question 1 of 8</span>
-          <span class="progress-count" id="progressPct">0%</span>
+          <span class="progress-count" id="progressPct"></span>
         </div>
-        <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+        <div class="progress-bar" id="progressBar"></div>
       </div>
       <div class="question-area" id="questionArea"></div>
       <div class="quiz-nav">
@@ -514,6 +530,7 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
     <!-- Results area -->
     <div class="results-area" id="resultsArea">
       <div class="score-ring-wrap">
+        <div class="ring-glow" id="ringGlow"></div>
         <svg class="score-ring" viewBox="0 0 180 180">
           <circle class="score-ring-bg" cx="90" cy="90" r="78"/>
           <circle class="score-ring-fill" id="scoreRing" cx="90" cy="90" r="78"
@@ -703,7 +720,17 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
   var btnNext = document.getElementById('btnNext');
   var progressLabel = document.getElementById('progressLabel');
   var progressPct = document.getElementById('progressPct');
-  var progressFill = document.getElementById('progressFill');
+  var progressBar = document.getElementById('progressBar');
+  var checkSvg = '<svg viewBox="0 0 24 24"><polyline points="5 13 10 18 19 7"/></svg>';
+
+  // build step segments once
+  for(var s=0;s<questions.length;s++){
+    var seg = document.createElement('div');
+    seg.className = 'step-seg';
+    seg.innerHTML = '<i></i>';
+    progressBar.appendChild(seg);
+  }
+  var stepSegs = progressBar.querySelectorAll('.step-seg');
 
   function render(){
     var q = questions[current];
@@ -711,30 +738,35 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
 
     // progress
     progressLabel.textContent = 'Question ' + (current+1) + ' of ' + questions.length;
-    var pct = Math.round(((current) / questions.length) * 100);
-    progressPct.textContent = pct + '%';
-    progressFill.style.width = pct + '%';
+    var remaining = questions.length - current - 1;
+    progressPct.textContent = remaining === 0 ? 'Last one' : remaining + ' left';
+    for(var s=0;s<stepSegs.length;s++){
+      stepSegs[s].className = 'step-seg' + (s < current ? ' done' : s === current ? ' current' : '');
+    }
 
     // question
-    var html = '<div class="q-text">' + q.text + '</div>';
+    var html = '<div class="q-slide"><div class="q-text">' + q.text + '</div>';
     if(q.hint) html += '<div class="q-hint">' + q.hint + '</div>';
     else html += '<div class="q-hint" style="margin-bottom:14px"></div>';
     html += '<div class="options">';
     for(var i=0;i<q.options.length;i++){
       var sel = answers[current] === i ? ' selected' : '';
       html += '<button class="opt-btn' + sel + '" data-idx="' + i + '" type="button">' +
-        '<span class="opt-radio"></span>' + q.options[i] + '</button>';
+        '<span class="opt-radio">' + checkSvg + '</span>' + q.options[i] + '</button>';
     }
-    html += '</div>';
+    html += '</div></div>';
     questionArea.innerHTML = html;
 
-    // wire option clicks
+    // wire option clicks — toggle selection in place (no re-render, so the
+    // slide-in only plays on question change, not on every tap)
     var opts = questionArea.querySelectorAll('.opt-btn');
     for(var j=0;j<opts.length;j++){
       opts[j].addEventListener('click', function(){
         var idx = parseInt(this.getAttribute('data-idx'));
         answers[current] = idx;
-        render();
+        for(var k=0;k<opts.length;k++){ opts[k].classList.remove('selected'); }
+        this.classList.add('selected');
+        btnNext.disabled = false;
       });
     }
 
@@ -810,6 +842,9 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
     var ringColor = score < 25 ? 'var(--ok)' : score < 50 ? 'var(--warn)' : score < 75 ? '#EA580C' : 'var(--danger)';
     ring.style.stroke = ringColor;
     setTimeout(function(){ ring.style.strokeDashoffset = offset; }, 80);
+    var ringGlow = document.getElementById('ringGlow');
+    ringGlow.style.background = ringColor;
+    ringGlow.classList.add('on');
 
     // animate number
     var scoreEl = document.getElementById('scoreVal');
@@ -829,26 +864,43 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
     // summary
     document.getElementById('resultSummary').textContent = summary;
 
-    // factors list
-    var fHtml = '';
+    // factors list — build hidden, then stagger each item in
+    var factorsList = document.getElementById('factorsList');
+    factorsList.innerHTML = '';
     var dotColors = { 25: 'var(--danger)', 16: '#EA580C', 8: 'var(--warn)' };
-    for(var i=0;i<factors.length && i<5;i++){
-      var dc = dotColors[factors[i].severity] || 'var(--warn)';
-      fHtml += '<div class="factor-item"><span class="factor-dot" style="background:' + dc + '"></span>' + factors[i].text + '</div>';
-    }
-    if(factors.length === 0) fHtml = '<div class="factor-item" style="border:none;color:var(--ok)">No major risk factors detected based on your answers.</div>';
-    document.getElementById('factorsList').innerHTML = fHtml;
-
-    // recs list
-    var rHtml = '';
-    var shown = [];
-    for(var i=0;i<recs.length && shown.length<5;i++){
-      if(shown.indexOf(recs[i]) === -1){
-        shown.push(recs[i]);
-        rHtml += '<div class="rec-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>' + recs[i] + '</div>';
+    if(factors.length === 0){
+      factorsList.innerHTML = '<div class="factor-item in" style="border:none;color:var(--ok)">No major risk factors detected based on your answers.</div>';
+    } else {
+      for(var i=0;i<factors.length && i<5;i++){
+        (function(f,idx){
+          var dc = dotColors[f.severity] || 'var(--warn)';
+          var d = document.createElement('div');
+          d.className = 'factor-item';
+          d.innerHTML = '<span class="factor-dot" style="background:' + dc + '"></span>' + f.text;
+          factorsList.appendChild(d);
+          setTimeout(function(){ d.classList.add('in'); }, 550 + idx*90);
+        })(factors[i], i);
       }
     }
-    document.getElementById('recsList').innerHTML = rHtml;
+
+    // recs list — same staggered reveal, slightly after the factors
+    var recsList = document.getElementById('recsList');
+    recsList.innerHTML = '';
+    var shown = [];
+    var shownCount = 0;
+    for(var i=0;i<recs.length && shownCount<5;i++){
+      if(shown.indexOf(recs[i]) === -1){
+        shown.push(recs[i]);
+        (function(text,idx){
+          var d = document.createElement('div');
+          d.className = 'rec-item';
+          d.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>' + text;
+          recsList.appendChild(d);
+          setTimeout(function(){ d.classList.add('in'); }, 900 + idx*90);
+        })(recs[i], shownCount);
+        shownCount++;
+      }
+    }
 
     // GA4 event
     if(typeof gtag === 'function'){
@@ -905,6 +957,7 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
     quizArea.style.display = 'block';
     var ring = document.getElementById('scoreRing');
     ring.style.strokeDashoffset = 490;
+    document.getElementById('ringGlow').classList.remove('on');
     render();
     window.scrollTo({ top: document.getElementById('intro').offsetTop - 20, behavior: 'smooth' });
   });
