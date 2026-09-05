@@ -464,12 +464,23 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   /* safety strip */
   .safety{background:var(--ink); border-radius:26px; padding:52px 40px; color:#fff; position:relative; overflow:hidden;}
   .safety:before{content:""; position:absolute; bottom:-90px; left:-40px; width:320px; height:320px; background:radial-gradient(circle, rgba(123,92,250,0.4), transparent 70%);}
-  .safety-inner{position:relative; z-index:2; text-align:center;}
-  .safety h2{color:#fff; max-width:520px; margin:0 auto 12px;}
-  .safety p{color:#B7B5CC; font-size:15px; max-width:480px; margin:0 auto; line-height:1.6;}
-  .safety-badges{display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:30px;}
-  .s-badge{display:inline-flex; align-items:center; gap:9px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:999px; padding:11px 18px; font-size:13px; color:#DEDDEC; text-align:left; width:260px; max-width:100%; min-height:60px; box-sizing:border-box;}
-  .s-badge svg{width:16px; height:16px; color:var(--purple);}
+  .safety-inner{position:relative; z-index:2;}
+  .s1-grid{display:grid; grid-template-columns:1.05fr 0.95fr; gap:52px; align-items:center;}
+  .s1-head{font-family:'Inter'; font-weight:500; font-size:clamp(26px,3.4vw,38px); line-height:1.28; letter-spacing:-0.015em; color:#F5F3FC; margin:16px 0 18px; max-width:400px;}
+  .s1-copy{color:#B7B5CC; font-size:15px; line-height:1.65; max-width:400px;}
+  .s1-note{color:#8F8CA8; font-size:13.5px; margin-top:22px; line-height:1.6; max-width:380px;}
+  .s1-panel{background:rgba(255,255,255,0.045); border:1px solid rgba(255,255,255,0.1); border-radius:18px; padding:8px 22px;}
+  .s1-panel-label{font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#B39DFF; padding:18px 0 6px;}
+  .s1-row{display:flex; align-items:center; gap:12px; padding:14px 0; border-top:1px solid rgba(255,255,255,0.08); font-size:13.5px; color:#DEDDEC;}
+  .s1-row .ic{width:26px; height:26px; border-radius:8px; background:rgba(123,92,250,0.18); display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+  .s1-row .ic svg{width:14px; height:14px; color:#B39DFF;}
+  .s1-row span{flex:1;}
+  .s1-row .check{width:16px; height:16px; color:#7B5CFA; flex-shrink:0;}
+  @media(max-width:760px){
+    .s1-grid{grid-template-columns:1fr; text-align:center;}
+    .s1-head,.s1-copy,.s1-note{max-width:none; margin-left:auto; margin-right:auto;}
+    .s1-row{text-align:left;}
+  }
 
   /* founder */
   .founder-section{position:relative; max-width:900px; margin:0 auto; padding:44px 46px;}
@@ -579,16 +590,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .fx-dark .sheen{content:""; position:absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events:none; background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform:skewX(-18deg); animation:sheen 8s ease-in-out infinite;}
   @keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
 
-  /* badge shimmer + stagger in safety box */
-  .s-badge{position:relative; overflow:hidden; opacity:0; transform:translateY(10px); animation:badge-in .6s ease forwards;}
-  .s-badge svg,.s-badge span{position:relative; z-index:2;}
-  .s-badge::before{content:""; position:absolute; top:0; left:-120%; width:60%; height:100%; background:linear-gradient(100deg,transparent,rgba(179,157,255,0.25),transparent); animation:badge-shimmer 5.5s ease-in-out infinite;}
-  .s-badge:nth-child(1){animation-delay:.15s;} .s-badge:nth-child(1)::before{animation-delay:.5s;}
-  .s-badge:nth-child(2){animation-delay:.30s;} .s-badge:nth-child(2)::before{animation-delay:1.4s;}
-  .s-badge:nth-child(3){animation-delay:.45s;} .s-badge:nth-child(3)::before{animation-delay:2.3s;}
-  .s-badge:nth-child(4){animation-delay:.60s;} .s-badge:nth-child(4)::before{animation-delay:3.2s;}
-  @keyframes badge-in{to{opacity:1; transform:translateY(0);}}
-  @keyframes badge-shimmer{0%{left:-120%;}45%,100%{left:130%;}}
+  /* sheen keyframe (kept — used by fx-dark card elsewhere) */
 
   /* make price-card content sit above the fx layers */
   .price-card .p-inner{position:relative; z-index:2;}
@@ -604,8 +606,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .rp-map-cap .mc-addr{font-size:11.5px; color:var(--ink-soft);}
 
   @media(prefers-reduced-motion:reduce){
-    .nav-pill,.nav-pill::before,.btn-price,.btn-price::before,.aurora span,.particles i,.fx-dark .sheen,.s-badge,.s-badge::before{animation:none;}
-    .s-badge{opacity:1; transform:none;}
+    .nav-pill,.nav-pill::before,.btn-price,.btn-price::before,.aurora span,.particles i,.fx-dark .sheen{animation:none;}
   }
 
   /* ============ MAYA PANEL ============ */
@@ -1330,18 +1331,22 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       <div class="particles" data-particles></div>
       <div class="sheen"></div>
       <div class="safety-inner">
-        <span class="eyebrow" style="color:#B39DFF;">Your privacy, protected</span>
-        <h2 style="margin-top:14px;">Checking your privacy shouldn't create a new privacy risk.</h2>
-        <p>We only ask for what we need: your phone number and email address. Your information is used to perform your scan and generate your report — not to create an account or collect unnecessary personal details.</p>
-        <p style="color:#DEDDEC; font-size:14px; font-weight:600; margin-top:22px; margin-bottom:6px;">Built with privacy in mind</p>
-        <div class="safety-badges">
-          <span class="s-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> We don't store your search</span>
-          <span class="s-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> No login or passwords required</span>
-          <span class="s-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg> Consent-first scanning</span>
-          <span class="s-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg> DPDP-aligned privacy practices</span>
-          <span class="s-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z"/></svg> Secure payment via Razorpay</span>
+        <div class="s1-grid">
+          <div>
+            <span class="eyebrow" style="color:#B39DFF;">Your privacy, protected</span>
+            <h2 class="s1-head">Checking your privacy shouldn't create a new privacy risk.</h2>
+            <p class="s1-copy">We only ask for what we need: your phone number and email address. Your information is used to perform your scan and generate your report — not to create an account or collect unnecessary personal details.</p>
+            <p class="s1-note">Your digital privacy matters. That's why we designed the scan to be simple, automated, and privacy-conscious.</p>
+          </div>
+          <div class="s1-panel">
+            <div class="s1-panel-label">Built with privacy in mind</div>
+            <div class="s1-row"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><span>We don't store your search</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <div class="s1-row"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><span>No login or passwords required</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <div class="s1-row"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div><span>Consent-first scanning</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <div class="s1-row"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div><span>DPDP-aligned privacy practices</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <div class="s1-row"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z"/></svg></div><span>Secure payment via Razorpay</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
         </div>
-        <p style="color:#B7B5CC; font-size:14px; margin-top:22px; max-width:520px; margin-left:auto; margin-right:auto; line-height:1.6;">Your digital privacy matters. That's why we designed the scan to be simple, automated, and privacy-conscious.</p>
       </div>
     </div>
   </div>
