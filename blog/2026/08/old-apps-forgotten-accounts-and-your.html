@@ -35,18 +35,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Old Apps, Forgotten Accounts and Your Exposed Phone Number: A Practical Privacy Guide for India",
-  "description": "Photo by William Hook on Unsplash TL;DR Every app or website you signed up for — even years ago — still stores your phone number and email address. Unused...",
-  "keywords": "Privacy, Cyber Security, India, Digital Footprint, Account Safety",
-  "datePublished": "2026-08-21T15:02:18+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/old-apps-forgotten-accounts-and-your.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/old-apps-forgotten-accounts-and-your.html#article",
+      "headline": "Old Apps, Forgotten Accounts and Your Exposed Phone Number: A Practical Privacy Guide for India",
+      "description": "Photo by William Hook on Unsplash TL;DR Every app or website you signed up for — even years ago — still stores your phone number and email address. Unused...",
+      "datePublished": "2026-08-21T15:02:18+05:30",
+      "dateModified": "2026-08-21T15:02:18+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/old-apps-forgotten-accounts-and-your.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Digital Footprint, Account Safety"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Old Apps, Forgotten Accounts and Your Exposed Phone Number: A Practical Privacy Guide for India"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1. If I stopped using an app, is my data still stored there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in most cases. Simply stopping use of an app does not delete your account or the personal information tied to it. The data remains stored on the company's servers until you formally request deletion or the company's data-retention policy requires it to be removed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2. Can someone misuse my phone number even if I no longer use a particular app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Your phone number stored in an old account can be exposed if that service suffers a data breach. Once in a leaked database, your number may be used for spam calls, phishing attempts, or social-engineering attacks that rely on knowing your number to appear credible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3. What happens to my WhatsApp account if my old number gets reassigned in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under TRAI norms, a mobile number that is unused or unpaid for roughly 90 days can be deactivated and eventually reassigned to a new subscriber. If your WhatsApp is still linked to that number and you have not enabled two-step verification, the new holder of the number can register WhatsApp on their device and gain access to your account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4. Does India's new data protection law help me get my data deleted from old apps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Digital Personal Data Protection Act, 2023 and the DPDP Rules 2025 do give Indian residents the right to request erasure of their personal data from certain services. Specific categories of platforms are also required to delete data after a defined period of user inactivity. However, the law is being implemented in phases, and not all provisions apply to all types of services immediately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5. How do I find out where my phone number or email address currently appears online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A useful first step is to run your phone number and email address through a digital exposure check. Scan My Shadow scans your details across more than 1,500 sources — including data-aggregation platforms, breach databases and public directories — and returns a report of where your information has been found."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

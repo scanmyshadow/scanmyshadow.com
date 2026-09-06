@@ -28,18 +28,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "How OSINT Can Be Used to Find Someone in India.",
-  "description": "TL;DR: India has an unusually rich set of public records — voter rolls, company registries, court databases — that make OSINT searches on individuals more...",
-  "keywords": "Privacy, Cyber Security, India, Cybercrime Reporting",
-  "datePublished": "2026-08-26T12:48:27+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/how-osint-can-be-used-to-find-someone.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/how-osint-can-be-used-to-find-someone.html#article",
+      "headline": "How OSINT Can Be Used to Find Someone in India.",
+      "description": "TL;DR: India has an unusually rich set of public records — voter rolls, company registries, court databases — that make OSINT searches on individuals more...",
+      "datePublished": "2026-08-26T12:48:27+05:30",
+      "dateModified": "2026-08-26T12:48:27+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/how-osint-can-be-used-to-find-someone.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Cybercrime Reporting"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How OSINT Can Be Used to Find Someone in India."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I remove my details from India's voter roll public search?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not generally — it's a statutory public record maintained for electoral transparency, though corrections for accuracy can typically be requested through your local electoral office."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it legal for anyone to search these Indian government databases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, they're designed to be publicly accessible — the legal boundary is around what the retrieved information is subsequently used for, not the search itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this mean my privacy is worse in India than elsewhere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It reflects a different tradeoff — India's public records systems prioritize transparency and anti-fraud measures in specific domains, which does mean more individual-level data is structurally public compared to some other countries' approaches."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

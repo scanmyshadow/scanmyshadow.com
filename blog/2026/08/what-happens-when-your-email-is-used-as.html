@@ -23,18 +23,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "What Happens When Your Email Is Used as a “Forgot Password” Recovery Point You Didn’t Expect",
-  "description": "TL;DR: Most people set a recovery email once and forget about it — but that recovery point often becomes the single most powerful key to dozens of...",
-  "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Account Safety",
-  "datePublished": "2026-08-26T13:52:47+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/what-happens-when-your-email-is-used-as.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/what-happens-when-your-email-is-used-as.html#article",
+      "headline": "What Happens When Your Email Is Used as a “Forgot Password” Recovery Point You Didn’t Expect",
+      "description": "TL;DR: Most people set a recovery email once and forget about it — but that recovery point often becomes the single most powerful key to dozens of...",
+      "datePublished": "2026-08-26T13:52:47+05:30",
+      "dateModified": "2026-08-26T13:52:47+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/what-happens-when-your-email-is-used-as.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Account Safety"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What Happens When Your Email Is Used as a “Forgot Password” Recovery Point You Didn’t Expect"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I find out what recovery email is set on an old account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most platforms show a partially masked version of the recovery email or phone number in account security settings, usually under \"Security\" or \"Login & Recovery.\" If you can't access the account at all, that itself is worth addressing directly with the platform's support process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it bad to use the same recovery email for every account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's common practice and not inherently wrong, but it does mean that single email's security becomes disproportionately important — strong password and 2FA on that account are non-negotiable if it's your universal recovery point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I no longer have access to the recovery email on an old account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This varies by platform, but most offer an alternative identity-verification process for account recovery when the primary recovery method is unavailable — check the specific service's help documentation for their process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can someone reset my password just by knowing my recovery email address?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not directly — they'd need access to that recovery email's inbox itself to intercept the reset link or code. This is exactly why the recovery email's own security matters as much as the original account's."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I set up a dedicated email just for account recovery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This is a reasonable approach for people managing many accounts — a dedicated, tightly secured recovery email that isn't used for daily correspondence reduces its exposure to phishing and everyday risk."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

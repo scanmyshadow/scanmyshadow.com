@@ -23,18 +23,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "What Data Do Health and Fitness Apps in India Collect, and Where Does It Go?",
-  "description": "TL;DR: Health and fitness apps — from gym and workout apps to diagnostic and telemedicine platforms — collect some of the most sensitive personal data...",
-  "keywords": "Privacy, Cyber Security, India, Personal Information",
-  "datePublished": "2026-08-26T13:52:00+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/what-data-do-health-and-fitness-apps-in.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/what-data-do-health-and-fitness-apps-in.html#article",
+      "headline": "What Data Do Health and Fitness Apps in India Collect, and Where Does It Go?",
+      "description": "TL;DR: Health and fitness apps — from gym and workout apps to diagnostic and telemedicine platforms — collect some of the most sensitive personal data...",
+      "datePublished": "2026-08-26T13:52:00+05:30",
+      "dateModified": "2026-08-26T13:52:00+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/what-data-do-health-and-fitness-apps-in.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Personal Information"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What Data Do Health and Fitness Apps in India Collect, and Where Does It Go?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is health data more protected than other personal data in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not currently through a dedicated sector-specific law, though the DPDP Act's general consent and security requirements apply, and the ABDM framework is building structured protections specifically for digital health records shared through its ecosystem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my fitness app share my data with my health insurance provider?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This depends entirely on the specific app's privacy policy and whether you've consented to such sharing, often through a connected wellness or insurance-partner feature. It's worth checking explicitly rather than assuming either way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is ABDM and should I use apps connected to it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Ayushman Bharat Digital Mission is India's government initiative for digital health records, aimed at giving individuals more control over consent-based sharing of their health data with providers. ABDM-linked apps generally follow a more structured consent process than standalone commercial apps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do fitness trackers reveal my home location?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, potentially. Running and cycling route data, if shared publicly or set to a low privacy level, can reveal home address and regular routes with meaningful precision — this has been documented as a real security concern in several contexts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I delete my health app data if I stop using the app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's a reasonable precaution, particularly for apps holding medical history or biometric data. Check the app's account settings for a data-deletion option, and follow up with a direct request if one isn't readily available."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

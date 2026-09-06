@@ -30,18 +30,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You",
-  "description": "TL;DR: Aadhaar-linked data has been exposed in several documented incidents over the years — most notably a 2018 exposure and a large 2023 leak connected...",
-  "keywords": "Privacy, Cyber Security, India, Data Breach, Aadhaar Privacy",
-  "datePublished": "2026-08-26T13:44:29+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html#article",
+      "headline": "Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You",
+      "description": "TL;DR: Aadhaar-linked data has been exposed in several documented incidents over the years — most notably a 2018 exposure and a large 2023 leak connected...",
+      "datePublished": "2026-08-26T13:44:29+05:30",
+      "dateModified": "2026-08-26T13:44:29+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/aadhaar-linked-data-leaks-what-happened.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Data Breach, Aadhaar Privacy"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Aadhaar-Linked Data Leaks: What Happened in Past Incidents and What It Means for You"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does a leaked Aadhaar number alone let someone access my bank account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. UIDAI has stated that simply knowing an Aadhaar number does not enable unauthorised account access. Authentication requires additional verification steps as prescribed under the Aadhaar Act, 2016."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check if my Aadhaar data was part of a known leak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no official, centralised public tool to check this for past incidents. The most practical step is to focus on protective measures — biometric locking, monitoring credit reports, and being cautious with unsolicited verification requests — rather than searching for direct confirmation of past inclusion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Aadhaar biometric locking and should I use it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Biometric locking, available through the mAadhaar app or UIDAI's website, disables fingerprint and iris-based authentication until you unlock it. It's a reasonable precaution if you don't frequently need biometric Aadhaar authentication in daily life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I hold UIDAI or the government liable if my Aadhaar data was leaked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This is a legal question that depends on the specifics of each incident and applicable law, and isn't something to treat as settled without proper legal advice. The DPDP Act does establish breach-reporting and security obligations for data fiduciaries going forward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my Aadhaar number still safe to share for KYC purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aadhaar remains a legally accepted identity document for KYC in India. The practical guidance is to share it only with legitimate, verified institutions and to be wary of informal or unverified requests for a physical or digital copy."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

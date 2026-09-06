@@ -28,18 +28,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Can My Photos Reveal My Location or Other Personal Information?",
-  "description": "TL;DR: Yes, in two separate ways — hidden GPS metadata embedded in the file itself, and visible clues in the photo's background that most people never...",
-  "keywords": "Privacy, Cyber Security, India, Personal Information",
-  "datePublished": "2026-08-26T12:27:46+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/can-my-photos-reveal-your-location-or.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/can-my-photos-reveal-your-location-or.html#article",
+      "headline": "Can My Photos Reveal My Location or Other Personal Information?",
+      "description": "TL;DR: Yes, in two separate ways — hidden GPS metadata embedded in the file itself, and visible clues in the photo's background that most people never...",
+      "datePublished": "2026-08-26T12:27:46+05:30",
+      "dateModified": "2026-08-26T12:27:46+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/can-my-photos-reveal-your-location-or.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Personal Information"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Can My Photos Reveal My Location or Other Personal Information?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do WhatsApp and Instagram strip GPS data automatically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Instagram generally strips this on upload. WhatsApp's handling can vary depending on whether a photo is sent as a regular image or as a \"document\" (file) attachment — sending as a document is more likely to preserve original metadata."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I check old photos I've already posted for this risk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can check your own device copies for metadata, but you can't verify or strip metadata on copies already downloaded by others — this is a forward-looking precaution more than a retroactive fix."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this a bigger concern for photos of children?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many parents consider it more sensitive — a repeated pattern showing a child's school or regular routine location carries different stakes than an adult's own exposure, worth extra caution for."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

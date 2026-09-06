@@ -28,18 +28,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "How to Choose a Username That Doesn't Expose Me?",
-  "description": "TL;DR: A username is a small design choice most people make once and forget — but it quietly determines how easily your accounts can be linked together....",
-  "keywords": "Privacy, Cyber Security, India, Account Safety",
-  "datePublished": "2026-08-26T12:58:44+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/how-to-choose-username-that-doesnt.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/how-to-choose-username-that-doesnt.html#article",
+      "headline": "How to Choose a Username That Doesn't Expose Me?",
+      "description": "TL;DR: A username is a small design choice most people make once and forget — but it quietly determines how easily your accounts can be linked together....",
+      "datePublished": "2026-08-26T12:58:44+05:30",
+      "dateModified": "2026-08-26T12:58:44+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/how-to-choose-username-that-doesnt.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Account Safety"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Choose a Username That Doesn't Expose Me?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it too late to change my strategy if I've already reused one username everywhere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not too late to improve going forward — you can't undo existing correlations, but adopting a tiered approach for new and future accounts limits how much worse it gets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a password manager to manage multiple usernames?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It helps significantly — tracking several distinct usernames without one becomes its own hassle, and a password manager handles both usernames and passwords together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this advice apply to email addresses too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the same logic applies — using different emails for different account tiers reinforces the separation a tiered username strategy is trying to achieve."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -23,18 +23,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Setting Up Passkeys and Authenticator Apps: A Step-by-Step Guide for Your Main Accounts",
-  "description": "TL;DR: Knowing you should move beyond SMS-only authentication is one thing — actually setting it up is another. This is a practical, account-by-account...",
-  "keywords": "Privacy, Cyber Security, India, UPI fraud, Account Safety",
-  "datePublished": "2026-08-26T13:51:36+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/setting-up-passkeys-and-authenticator.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/setting-up-passkeys-and-authenticator.html#article",
+      "headline": "Setting Up Passkeys and Authenticator Apps: A Step-by-Step Guide for Your Main Accounts",
+      "description": "TL;DR: Knowing you should move beyond SMS-only authentication is one thing — actually setting it up is another. This is a practical, account-by-account...",
+      "datePublished": "2026-08-26T13:51:36+05:30",
+      "dateModified": "2026-08-26T13:51:36+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/setting-up-passkeys-and-authenticator.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, UPI fraud, Account Safety"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Setting Up Passkeys and Authenticator Apps: A Step-by-Step Guide for Your Main Accounts"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What happens if I lose my phone after setting up an authenticator app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This is why backup codes matter — most services provide them during setup specifically for this scenario. Without backup codes, recovery can be more complicated and may require identity verification through the platform's support process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use one authenticator app for multiple accounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A single authenticator app can hold codes for many different accounts simultaneously — each account you add appears as a separate entry within the same app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are passkeys supported by Indian banks yet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Support varies by institution and is expanding gradually as the RBI's authentication framework encourages movement beyond SMS-only methods. Checking your specific bank's app settings is the most reliable way to confirm current support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to sync passkeys to the cloud?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cloud-synced passkeys (through Google or Apple's system) are generally considered secure, as they remain encrypted and tied to your account's own authentication. This also makes recovery easier if you switch devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I still need an authenticator app if I've set up a passkey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily for the same account, but many platforms don't support passkeys yet, so an authenticator app remains useful as your primary method for those services in the meantime."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

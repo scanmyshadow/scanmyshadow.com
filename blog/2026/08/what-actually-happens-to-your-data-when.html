@@ -28,18 +28,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "What Actually Happens to Your Data When You Delete an App?",
-  "description": "TL;DR: Deleting an app removes it from your phone — it doesn't delete your account or the data the company holds about you on its servers. Those are two...",
-  "keywords": "Privacy, Cyber Security, India, Account Safety",
-  "datePublished": "2026-08-26T03:52:56+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/what-actually-happens-to-your-data-when.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/what-actually-happens-to-your-data-when.html#article",
+      "headline": "What Actually Happens to Your Data When You Delete an App?",
+      "description": "TL;DR: Deleting an app removes it from your phone — it doesn't delete your account or the data the company holds about you on its servers. Those are two...",
+      "datePublished": "2026-08-26T03:52:56+05:30",
+      "dateModified": "2026-08-26T03:52:56+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/what-actually-happens-to-your-data-when.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Account Safety"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What Actually Happens to Your Data When You Delete an App?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "If I never open an app again, is that basically the same as deleting my data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — an inactive account is still an active account from the company's perspective, holding your data indefinitely until you formally request deletion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do all apps in India follow the 180-day retention rule?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The rule applies broadly to intermediaries under IT rules, though specifics can vary by sector and by how a company classifies your request. It's a general baseline, not a universal guarantee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does reinstalling an app bring back my old data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you didn't delete the account, yes — logging back in usually restores your profile and history, since the underlying account was never actually closed."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

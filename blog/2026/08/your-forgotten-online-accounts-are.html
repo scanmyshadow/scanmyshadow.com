@@ -35,18 +35,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Your Forgotten Online Accounts Are a Privacy Risk — Here Is What to Do About Them",
-  "description": "Photo by Quino Al on Unsplash TL;DR Every account you have ever created — even ones you forgot years ago — still stores your personal data on a company's...",
-  "keywords": "Privacy, Cyber Security, India, Forgotten Accounts, Digital Footprint",
-  "datePublished": "2026-08-21T11:12:25+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/your-forgotten-online-accounts-are.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/your-forgotten-online-accounts-are.html#article",
+      "headline": "Your Forgotten Online Accounts Are a Privacy Risk — Here Is What to Do About Them",
+      "description": "Photo by Quino Al on Unsplash TL;DR Every account you have ever created — even ones you forgot years ago — still stores your personal data on a company's...",
+      "datePublished": "2026-08-21T11:12:25+05:30",
+      "dateModified": "2026-08-21T11:12:25+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/your-forgotten-online-accounts-are.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Forgotten Accounts, Digital Footprint"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Your Forgotten Online Accounts Are a Privacy Risk — Here Is What to Do About Them"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "If I delete an app from my phone, is my account and data also deleted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Uninstalling an app removes it from your device but leaves your account and all your personal data on the company's servers. To remove your data, you need to actively delete your account through the app, the company's website or a written request to their support team. Under India's DPDP Act, companies are required to process valid erasure requests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an old account I forgot about actually cause harm today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If the company behind that old account suffers a data breach, your details — email, phone number, password — get exposed. Attackers can use those credentials in automated attacks against your active accounts elsewhere. Even without a breach, the account may still be accessible to anyone who requests a password reset to your email."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the DPDP Act mean for my right to erase old data in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the Digital Personal Data Protection Act, 2023 and the DPDP Rules, 2025 (effective from November 13, 2025), Indian residents have a formal right to request erasure of personal data that is no longer needed for the purpose it was collected. Companies operating in India are required to respond to these requests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find accounts I have completely forgotten about?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search your email inbox for phrases like \"welcome to\", \"verify your email\" and \"your account\". Check saved passwords in your browser and review third-party app connections in your Google, Facebook and Apple account settings. Running a check on your email address through a data breach tool can also surface services you signed up for that later suffered a breach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My phone number was registered with a service I closed years ago. Can it still be exposed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Closing an account reduces future risk but does not erase data that was already collected before closure, shared with third parties or included in a breach that happened while the account was active. A digital exposure scan can help you see whether your phone number is still appearing in breach databases or open-web sources even after you have closed the underlying account."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

@@ -23,18 +23,95 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Your Personal Information Is Exposed Online? — Here's How to Find Out What's There",
-  "description": "TL;DR: \"Personal information exposed online\" usually doesn't mean one dramatic hack — it's an accumulation of old accounts, data broker listings, and...",
-  "keywords": "Account Safety, Cyber Security, cybersecurity India, Deepfake Scam, digital payments, India",
-  "datePublished": "2026-08-26T03:10:05+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/your-personal-information-is-exposed.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/your-personal-information-is-exposed.html#article",
+      "headline": "Your Personal Information Is Exposed Online? — Here's How to Find Out What's There",
+      "description": "TL;DR: \"Personal information exposed online\" usually doesn't mean one dramatic hack — it's an accumulation of old accounts, data broker listings, and...",
+      "datePublished": "2026-08-26T03:10:05+05:30",
+      "dateModified": "2026-08-26T03:10:05+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/your-personal-information-is-exposed.html",
+      "@context": "https://schema.org",
+      "keywords": "Account Safety, Cyber Security, cybersecurity India, Deepfake Scam, digital payments, India"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Your Personal Information Is Exposed Online? — Here's How to Find Out What's There"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if my personal information has been exposed in a data breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can check breach-lookup tools for your email, but many exposures — especially data broker listings — don't show up there. A dedicated scan across leak and broker sources gives a fuller picture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it illegal for my data to be listed on a data broker site in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It exists in a regulatory grey area that the DPDP Act is gradually closing. You generally have the right to request removal, even if the site itself isn't breaking any law by aggregating public information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do first if I confirm my Aadhaar number is exposed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consider using UIDAI's Aadhaar locking feature to temporarily disable biometric authentication, monitor for unfamiliar account activity, and report suspicious use through official UIDAI or cybercrime channels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can exposed personal information be completely removed from the internet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not entirely — but you can meaningfully reduce it: requesting takedowns from broker sites, deleting unused accounts, and exercising deletion rights under the DPDP Act with companies that still hold your data."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

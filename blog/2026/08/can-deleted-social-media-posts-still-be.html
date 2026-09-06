@@ -28,18 +28,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Can Deleted Social Media Posts Still Be Found Online?",
-  "description": "TL;DR: Often, yes — deletion removes a post from the platform's live display, but copies can persist through screenshots, web archives, search engine...",
-  "keywords": "Privacy, Cyber Security, India",
-  "datePublished": "2026-08-26T12:26:30+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/can-deleted-social-media-posts-still-be.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/can-deleted-social-media-posts-still-be.html#article",
+      "headline": "Can Deleted Social Media Posts Still Be Found Online?",
+      "description": "TL;DR: Often, yes — deletion removes a post from the platform's live display, but copies can persist through screenshots, web archives, search engine...",
+      "datePublished": "2026-08-26T12:26:30+05:30",
+      "dateModified": "2026-08-26T12:26:30+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/can-deleted-social-media-posts-still-be.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Can Deleted Social Media Posts Still Be Found Online?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I request the Wayback Machine remove an archived page about me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Internet Archive does accept removal requests in certain circumstances, particularly involving personal information, though it's a manual process and not guaranteed to succeed for every request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does deleting my entire account remove archived copies of my old posts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — account deletion affects the live platform, not independent archives or screenshots that were already captured elsewhere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this risk different for private versus public accounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Significantly — content that was only ever visible to approved followers on a private account is far less likely to be archived by automated crawlers, though it can still be screenshotted by someone within that circle."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

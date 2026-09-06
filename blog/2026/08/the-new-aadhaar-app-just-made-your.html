@@ -35,18 +35,95 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "The New Aadhaar App Just Made Your Digital Footprint Bigger — Here's What That Means",
-  "description": "TL;DR: India's digital footprint isn't just growing through apps you choose to use — it's expanding through infrastructure like the new Aadhaar app, which...",
-  "keywords": "Privacy, Cyber Security, India, Digital Footprint, Aadhaar Privacy",
-  "datePublished": "2026-08-26T03:32:29+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/the-new-aadhaar-app-just-made-your.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/the-new-aadhaar-app-just-made-your.html#article",
+      "headline": "The New Aadhaar App Just Made Your Digital Footprint Bigger — Here's What That Means",
+      "description": "TL;DR: India's digital footprint isn't just growing through apps you choose to use — it's expanding through infrastructure like the new Aadhaar app, which...",
+      "datePublished": "2026-08-26T03:32:29+05:30",
+      "dateModified": "2026-08-26T03:32:29+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/the-new-aadhaar-app-just-made-your.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Digital Footprint, Aadhaar Privacy"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "The New Aadhaar App Just Made Your Digital Footprint Bigger — Here's What That Means"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does using the new Aadhaar app increase my exposure compared to the old mAadhaar app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily — the newer app is designed to share less by default (age confirmation instead of full details, for instance). The bigger factor is how many places now request Aadhaar-based verification at all, since more touchpoints mean more places your data passes through, regardless of which specific app is used."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can hotels and housing societies legally store my Aadhaar data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Storage and use of Aadhaar data is governed by UIDAI regulations and increasingly by the DPDP Act, which requires purpose limitation and reasonable security. Whether a specific entity is compliant varies — it's reasonable to ask any organization requesting Aadhaar how long they retain it and why."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it possible to opt out of generated data entirely?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Realistically, no — not while participating in modern banking, telecom, and identity verification in India. The more practical goal is minimizing unnecessary generation (fewer linked apps, fewer optional sign-ups) and staying aware of what already exists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my Aadhaar-linked data has been exposed somewhere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no single central tool for this. Monitoring your phone number and email for broader exposure — since these are usually the connecting thread — is the most practical proxy available to individuals right now."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

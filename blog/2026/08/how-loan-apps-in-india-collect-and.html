@@ -30,18 +30,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "How Loan Apps in India Collect and Misuse Personal Data",
-  "description": "TL;DR: Unregulated instant-loan apps have built a well-documented playbook: request excessive permissions at install, extract a tiny loan, then use your...",
-  "keywords": "Privacy, Cyber Security, India, Personal Information",
-  "datePublished": "2026-08-26T13:52:22+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/how-loan-apps-in-india-collect-and.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/how-loan-apps-in-india-collect-and.html#article",
+      "headline": "How Loan Apps in India Collect and Misuse Personal Data",
+      "description": "TL;DR: Unregulated instant-loan apps have built a well-documented playbook: request excessive permissions at install, extract a tiny loan, then use your...",
+      "datePublished": "2026-08-26T13:52:22+05:30",
+      "dateModified": "2026-08-26T13:52:22+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/how-loan-apps-in-india-collect-and.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Personal Information"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How Loan Apps in India Collect and Misuse Personal Data"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it illegal for a loan app to contact my family about my debt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contacting family or colleagues to shame or threaten a borrower — as opposed to standard, lawful debt collection through proper channels — can amount to harassment, criminal intimidation, and defamation under Indian law, and is separate from any legitimate debt owed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check if a loan app is RBI-registered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the RBI's public Digital Lending Apps directory, available on the RBI website, and separately verify the named NBFC or bank partner against RBI's list of registered entities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if I've already given a fake loan app access to my contacts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Revoke the app's permissions immediately through your phone's app settings, uninstall it, and monitor for any harassment directed at your contacts so you can document and report it promptly if it occurs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get money back if I paid a fee before a loan was disbursed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This is a matter for your complaint through cybercrime.gov.in, the RBI Sachet portal, or local police — recovery isn't guaranteed, but documented, timely complaints improve the likelihood of action against the operator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are all instant-approval loan apps illegitimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — some RBI-regulated NBFCs do offer fast, digital-first lending. The distinguishing factor isn't speed itself, but whether the app is transparently linked to a registered lender and doesn't request excessive permissions as a condition of approval."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

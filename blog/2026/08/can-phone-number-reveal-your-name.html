@@ -28,18 +28,95 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Can a Phone Number Reveal Your Name?",
-  "description": "TL;DR: Yes, often — mainly through caller ID apps like Truecaller, which crowdsource names from other people's saved contacts, not from any official...",
-  "keywords": "Privacy, Cyber Security, India, Phone Number Exposure",
-  "datePublished": "2026-08-26T03:53:42+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/can-phone-number-reveal-your-name.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/can-phone-number-reveal-your-name.html#article",
+      "headline": "Can a Phone Number Reveal Your Name?",
+      "description": "TL;DR: Yes, often — mainly through caller ID apps like Truecaller, which crowdsource names from other people's saved contacts, not from any official...",
+      "datePublished": "2026-08-26T03:53:42+05:30",
+      "dateModified": "2026-08-26T03:53:42+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/can-phone-number-reveal-your-name.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Phone Number Exposure"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Can a Phone Number Reveal Your Name?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this actually a problem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most people, having a first name attached to their number is a minor, manageable exposure — mildly reducing anonymity for unknown calls, nothing more. It becomes more relevant when that name gets combined with other details (address, workplace, family information) into a fuller profile, which is a different and more serious category of exposure than a name alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I stop my name from being on Truecaller if I've never installed the app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — you can look up your own number on Truecaller's site or app and submit an unlisting request even without having an account, since the listing came from someone else's contact upload, not your own registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the name reappear after I get it removed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's possible — if new users upload contacts containing your number again, it can reappear over time, which is why periodic checking is more realistic than a one-time fix."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does using an unlisted or \"silent\" number setting on my phone stop this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — that setting relates to how your device's caller ID behaves for outgoing calls, not to third-party crowdsourced databases like Truecaller, which operate independently of your phone's settings."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -35,18 +35,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "What Is a Data Breach, and What Actually Gets Leaked?",
-  "description": "TL;DR: A data breach is when a company's stored information gets accessed without authorization — but \"breach\" covers a huge range, from a leaked email...",
-  "keywords": "Privacy, Cyber Security, India, Data Breach",
-  "datePublished": "2026-08-26T12:17:57+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/what-is-data-breach-and-what-actually.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/what-is-data-breach-and-what-actually.html#article",
+      "headline": "What Is a Data Breach, and What Actually Gets Leaked?",
+      "description": "TL;DR: A data breach is when a company's stored information gets accessed without authorization — but \"breach\" covers a huge range, from a leaked email...",
+      "datePublished": "2026-08-26T12:17:57+05:30",
+      "dateModified": "2026-08-26T12:17:57+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/what-is-data-breach-and-what-actually.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Data Breach"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What Is a Data Breach, and What Actually Gets Leaked?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is every data breach reported publicly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — many go undisclosed for a long time, or are never disclosed at all if the affected company doesn't detect it or isn't legally required to report it in that jurisdiction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a breach mean my specific account was definitely accessed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always — some breaches expose an entire database regardless of individual account activity, while others are more targeted. Checking your specific email or phone number against the breach is the only way to know for sure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a company be held liable for a breach in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the DPDP Act, data fiduciaries can face significant penalties for failing to implement reasonable security safeguards or for delayed breach notification, though enforcement is still developing."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

@@ -23,18 +23,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "What Information Do Food Delivery and Ride-Hailing Apps Actually Collect?",
-  "description": "TL;DR: Food delivery and ride-hailing apps are among the most-used apps on Indian smartphones — and among the most data-intensive. Beyond your name and...",
-  "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Account Safety",
-  "datePublished": "2026-08-26T13:44:06+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/what-information-do-food-delivery-and.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/what-information-do-food-delivery-and.html#article",
+      "headline": "What Information Do Food Delivery and Ride-Hailing Apps Actually Collect?",
+      "description": "TL;DR: Food delivery and ride-hailing apps are among the most-used apps on Indian smartphones — and among the most data-intensive. Beyond your name and...",
+      "datePublished": "2026-08-26T13:44:06+05:30",
+      "dateModified": "2026-08-26T13:44:06+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/what-information-do-food-delivery-and.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Account Safety"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What Information Do Food Delivery and Ride-Hailing Apps Actually Collect?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do food delivery apps track my location even when I'm not ordering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This depends on the specific permission you've granted. If you've allowed \"always\" location access, some apps may collect location data in the background. Reviewing and setting this to \"while using the app\" limits collection to active sessions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can delivery or ride-hailing partners see my exact address?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Delivery partners typically see the address you've provided for that specific order, which is a functional necessity. Ride-hailing drivers see your pickup and drop location for the specific trip. This is different from ongoing access to your saved address book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to link my UPI ID to these apps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UPI linking itself doesn't expose your bank details — the VPA system is designed to keep account numbers private. The consideration is whether the app's own security practices are sound, which varies by platform."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to my order history if I delete my account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This varies by platform and is increasingly governed by the DPDP Act , which gives data principals in India the right to request deletion. Account deletion doesn't always mean immediate removal from all systems — some data may be retained for legal or compliance reasons for a defined period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can old addresses I've deleted from an app still exist somewhere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deleted addresses are typically removed from the active account interface, but backend retention depends on the platform's data policies. If you're concerned about a specific historical address, checking the app's privacy policy or submitting a deletion request under DPDP is the most direct route."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

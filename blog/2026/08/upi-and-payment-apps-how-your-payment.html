@@ -23,18 +23,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "UPI and Payment Apps: How Your Payment History Can Be Used to Track You",
-  "description": "TL;DR: Every UPI payment you make links your identity to a Virtual Payment Address (VPA) — and if that VPA is your phone number, every transaction quietly...",
-  "keywords": "Privacy, Cyber Security, India, UPI fraud, Phone Number Exposure",
-  "datePublished": "2026-08-26T13:39:37+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-how-your-payment.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-how-your-payment.html#article",
+      "headline": "UPI and Payment Apps: How Your Payment History Can Be Used to Track You",
+      "description": "TL;DR: Every UPI payment you make links your identity to a Virtual Payment Address (VPA) — and if that VPA is your phone number, every transaction quietly...",
+      "datePublished": "2026-08-26T13:39:37+05:30",
+      "dateModified": "2026-08-26T13:39:37+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/upi-and-payment-apps-how-your-payment.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, UPI fraud, Phone Number Exposure"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "UPI and Payment Apps: How Your Payment History Can Be Used to Track You"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can someone see my bank balance from my UPI ID?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A VPA does not expose your bank balance or account number. It only routes the payment. Balance information stays within your banking app, protected by your login credentials and UPI PIN."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to share my UPI ID publicly, like on a business card or website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sharing a VPA is generally safe from a financial-security standpoint — no one can withdraw funds using just your VPA. The privacy consideration is different: if your VPA is your phone number, sharing it publicly also shares your number, which can then be used for reasons unrelated to payments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change my UPI ID if it's currently my phone number?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Most UPI apps allow you to create an additional custom VPA under \"Manage VPA\" or similar settings, without needing to change your linked phone number or bank account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do UPI apps share my transaction history with third parties?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Data-sharing practices vary by app and are governed by their privacy policies and, increasingly, by the DPDP Act's consent requirements. It's worth reviewing your UPI app's privacy policy directly, since practices differ across providers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can old UPI transaction data be found in a data breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If a merchant or payment gateway you've transacted with is breached, transaction-adjacent data — including your name, phone number, and sometimes transaction metadata — can be exposed. This is separate from your bank's own security, which is typically more tightly regulated."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

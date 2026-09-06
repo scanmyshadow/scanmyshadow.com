@@ -30,18 +30,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Can Someone Use My Photo to Track Me?",
-  "description": "TL;DR: One photo alone is rarely enough — but a pattern across several photos, combined with hidden metadata and visible clues, can reveal enough about...",
-  "keywords": "Privacy, Cyber Security, India",
-  "datePublished": "2026-08-26T12:50:16+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/can-someone-use-my-photo-to-track-me.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/can-someone-use-my-photo-to-track-me.html#article",
+      "headline": "Can Someone Use My Photo to Track Me?",
+      "description": "TL;DR: One photo alone is rarely enough — but a pattern across several photos, combined with hidden metadata and visible clues, can reveal enough about...",
+      "datePublished": "2026-08-26T12:50:16+05:30",
+      "dateModified": "2026-08-26T12:50:16+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/can-someone-use-my-photo-to-track-me.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Can Someone Use My Photo to Track Me?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many photos does it typically take to establish a pattern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no fixed number — even two or three photos showing the same location at similar times can suggest a routine, though more repetition makes the pattern more reliable and easier to notice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does deleting old photos help if the pattern has already been noticed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It prevents further confirmation going forward, but can't undo whatever was already observed or saved by someone who was paying attention before the deletion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are private accounts fully safe from this kind of pattern-building?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Safer, since the audience is limited to approved followers, but not immune — anyone within that circle, including someone you've later fallen out with, still has access to the full posting history and pattern."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

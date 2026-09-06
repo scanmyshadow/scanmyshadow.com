@@ -35,18 +35,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "What Does a Data Breach Actually Expose? A Breakdown by Data Type",
-  "description": "TL;DR: Not all breached data carries the same risk. Here's a practical breakdown of what typically gets exposed in a breach, and how seriously to treat...",
-  "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Data Breach",
-  "datePublished": "2026-08-26T03:54:03+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/what-does-data-breach-actually-expose.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/what-does-data-breach-actually-expose.html#article",
+      "headline": "What Does a Data Breach Actually Expose? A Breakdown by Data Type",
+      "description": "TL;DR: Not all breached data carries the same risk. Here's a practical breakdown of what typically gets exposed in a breach, and how seriously to treat...",
+      "datePublished": "2026-08-26T03:54:03+05:30",
+      "dateModified": "2026-08-26T03:54:03+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/what-does-data-breach-actually-expose.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Data Breach"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What Does a Data Breach Actually Expose? A Breakdown by Data Type"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a hashed password breach still dangerous?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Less dangerous than plaintext, but not risk-free — weak hashing algorithms can be cracked, especially for common or reused passwords, so changing it is still worthwhile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If only my email was in a breach, should I be worried?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mild concern is reasonable — mainly watch for a rise in phishing attempts referencing your email, and consider it a prompt to review password reuse across your accounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if Aadhaar-linked data specifically was exposed in a breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Breach notifications should specify this if applicable. If you're uncertain, UIDAI's Aadhaar locking feature is a reasonable precaution while you confirm."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

@@ -23,18 +23,103 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Two-Factor Authentication and Account Recovery: Closing the Gaps Attackers Actually Use",
-  "description": "TL;DR: Most people set up 2FA once and assume they're covered. Attackers don't target the 2FA itself — they target the recovery process around it: SIM...",
-  "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Account Safety",
-  "datePublished": "2026-08-26T13:45:20+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/two-factor-authentication-and-account.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/two-factor-authentication-and-account.html#article",
+      "headline": "Two-Factor Authentication and Account Recovery: Closing the Gaps Attackers Actually Use",
+      "description": "TL;DR: Most people set up 2FA once and assume they're covered. Attackers don't target the 2FA itself — they target the recovery process around it: SIM...",
+      "datePublished": "2026-08-26T13:45:20+05:30",
+      "dateModified": "2026-08-26T13:45:20+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/two-factor-authentication-and-account.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Account Safety"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Two-Factor Authentication and Account Recovery: Closing the Gaps Attackers Actually Use"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is SMS OTP being banned in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not banned outright. The RBI's 2025 Authentication Directions require that SMS not be the sole authentication method for domestic digital payments from April 2026 — banks are expected to layer in additional or alternative methods, particularly for higher-risk transactions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between 2FA and account recovery security?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2FA protects the normal login process. Account recovery is the separate process used when you've lost access — forgotten password, lost device — and it often has weaker default protections, making it a common target even when 2FA itself is strong."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I set a SIM port-out PIN in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This can typically be requested through your telecom operator's app, customer service, or by visiting a retail outlet. Airtel, Jio, and Vi each offer some form of additional verification for SIM porting or replacement requests — the exact process varies by operator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are authenticator apps safe if I lose my phone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most authenticator apps offer backup or cloud-sync options — worth setting up in advance. Without a backup, losing your phone can complicate recovery, which is why keeping backup codes (provided during 2FA setup) stored securely and separately is also recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I still use SMS OTP for lower-risk apps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SMS OTP is still functional and reasonably useful for lower-stakes accounts. The priority for stronger authentication should go to accounts with the highest impact if compromised — banking, primary email, and UPI apps first."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

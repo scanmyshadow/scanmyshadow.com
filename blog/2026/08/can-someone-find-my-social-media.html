@@ -28,18 +28,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Can Someone Find my Social Media Accounts Using Your Email Address?",
-  "description": "TL;DR: Yes, often — many platforms let you search by email during account recovery or \"find friends\" features, and this can be exploited to check where an...",
-  "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Account Safety",
-  "datePublished": "2026-08-26T12:17:23+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-social-media.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-social-media.html#article",
+      "headline": "Can Someone Find my Social Media Accounts Using Your Email Address?",
+      "description": "TL;DR: Yes, often — many platforms let you search by email during account recovery or \"find friends\" features, and this can be exploited to check where an...",
+      "datePublished": "2026-08-26T12:17:23+05:30",
+      "dateModified": "2026-08-26T12:17:23+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-social-media.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Account Safety"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Can Someone Find my Social Media Accounts Using Your Email Address?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can someone see my private messages just by finding my account this way?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — this method only confirms an account's existence and sometimes a basic profile preview. It doesn't grant access to private content or messages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is turning off \"find me by email\" enough to stop this completely?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It significantly reduces it on that specific platform, but doesn't affect other platforms independently, and doesn't undo any linkage that's already been discovered in the past."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this work with a phone number the same way as an email?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — most platforms support the same lookup mechanism using a phone number, which is often even more effective since fewer people use separate numbers for different accounts."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

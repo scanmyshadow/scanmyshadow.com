@@ -35,18 +35,87 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "How to Check If Your Email Has Been Leaked",
-  "description": "TL;DR: Checking your email for leaks is quick and mostly free — the trick is knowing which tools catch what, since no single one sees everything. Here's...",
-  "keywords": "Privacy, Cyber Security, India, Data Breach",
-  "datePublished": "2026-08-26T03:55:13+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-email-has-been.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-email-has-been.html#article",
+      "headline": "How to Check If Your Email Has Been Leaked",
+      "description": "TL;DR: Checking your email for leaks is quick and mostly free — the trick is knowing which tools catch what, since no single one sees everything. Here's...",
+      "datePublished": "2026-08-26T03:55:13+05:30",
+      "dateModified": "2026-08-26T03:55:13+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-email-has-been.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Data Breach"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Check If Your Email Has Been Leaked"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does a \"not found\" result mean my email is completely safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not entirely — it means your email hasn't appeared in the breaches currently indexed by that specific tool. Some breaches take months or years to surface, and broker-style exposure isn't covered by breach checkers at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I change my email address if it's been in multiple breaches?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not necessary — changing passwords and enabling 2FA addresses the real risk. Changing your email entirely is a heavier step, more relevant if the leaks are frequent and tied to serious account-takeover attempts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is checking my email for leaks itself safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reputable tools like Have I Been Pwned only check against existing breach data and don't store your email for other purposes — it's a low-risk check, but always worth confirming what a specific tool does with submitted data before using it."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

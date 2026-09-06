@@ -35,18 +35,95 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "OSINT vs. Hacking: What’s the Real Difference?",
-  "description": "TL;DR: OSINT means gathering information that's already publicly available — no unauthorized access involved. Hacking means breaking into a system you...",
-  "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Data Breach",
-  "datePublished": "2026-08-26T12:47:50+05:30",
-  "author": {"@type": "Organization", "name": "Scan My Shadow"},
-  "publisher": {
-    "@type": "Organization",
-    "name": "Scan My Shadow",
-    "logo": {"@type": "ImageObject", "url": "https://www.scanmyshadow.com/logo.png"}
-  },
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.scanmyshadow.com/blog/2026/08/osint-vs-hacking-whats-real-difference.html"}
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/08/osint-vs-hacking-whats-real-difference.html#article",
+      "headline": "OSINT vs. Hacking: What’s the Real Difference?",
+      "description": "TL;DR: OSINT means gathering information that's already publicly available — no unauthorized access involved. Hacking means breaking into a system you...",
+      "datePublished": "2026-08-26T12:47:50+05:30",
+      "dateModified": "2026-08-26T12:47:50+05:30",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/08/osint-vs-hacking-whats-real-difference.html",
+      "@context": "https://schema.org",
+      "keywords": "Privacy, Cyber Security, India, Phone Number Exposure, Data Breach"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "OSINT vs. Hacking: What’s the Real Difference?"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is OSINT itself legal in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally, yes — gathering publicly available information isn't restricted the way unauthorized system access is under the IT Act, 2000. What can create legal exposure is what's done with the assembled information afterward — using it to stalk, harass, defraud, or impersonate someone moves from information-gathering into criminal territory, regardless of how the underlying data was sourced."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If someone uses OSINT to find my information, have they done anything illegal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gathering the information itself typically isn't illegal if it's genuinely public. Using it to harass, defraud, or impersonate you would be, separately, under Indian law."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does OSINT count as a data breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — a data breach involves unauthorized access to a system. OSINT works with information that's already public or previously leaked through an unrelated breach, without any new unauthorized access occurring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can OSINT be used defensively, not just to find things about people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — security researchers, journalists, and privacy services regularly use OSINT techniques defensively, to help individuals and organizations understand and reduce their own public exposure."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 
