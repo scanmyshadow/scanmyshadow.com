@@ -50,6 +50,39 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can anyone find my name from just my phone number?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sometimes, but not always. It depends on whether your number is linked to public listings, breached data that includes your name, or messaging app profiles with visible names or photos. Many numbers show up online with no identifying name attached." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it legal to check where my own phone number appears online?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Checking publicly available information connected to your own number is generally lawful. Scan My Shadow is built specifically for consent-based checks of your own details, not for investigating other people." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I remove my phone number from search results?",
+      "acceptedAnswer": { "@type": "Answer", "text": "In some cases, yes — by contacting the specific website or directory hosting the listing and requesting removal. Our report can help point you toward where your number appears so you know where to start." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Scan My Shadow check WhatsApp or Telegram directly?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No — messaging app profile visibility is something you can check yourself in a few seconds by saving your own number as a new contact. Our scan focuses on breach records and publicly indexed sources." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my old phone number still show up online?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Search engines and archived pages often keep old listings indexed long after they're taken down or the number changes hands, which is why numbers from years-old sign-ups or classifieds can still surface in a search today." }
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -141,6 +174,11 @@ h3{font-family:'Space Grotesk'; font-weight:600; font-size:17px; margin:22px 0 8
 .callout-limit{border-left-color:var(--warn); background:#FFFBF2;}
 .callout-example{border-left-color:var(--ok); background:#F3FBF5;}
 
+/* tl;dr */
+.tldr{border-left:3px solid var(--purple); background:var(--card); border-radius:0 12px 12px 0; padding:14px 18px; margin:22px 0 6px; max-width:720px;}
+.tldr p{font-size:14.5px; line-height:1.6; margin:0; font-style:italic; color:var(--ink);}
+.tldr strong{font-style:normal; color:var(--purple-deep); font-weight:700;}
+
 /* grid cards (reused from homepage) */
 .grid3{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
 @media(max-width:760px){ .grid3{grid-template-columns:1fr;} }
@@ -167,13 +205,28 @@ h3{font-family:'Space Grotesk'; font-weight:600; font-size:17px; margin:22px 0 8
 
 /* CTA band */
 .cta-band{background:var(--ink); border-radius:24px; padding:44px 40px; text-align:center; position:relative; overflow:hidden;}
-.cta-band:before{content:""; position:absolute; top:-80px; right:-60px; width:280px; height:280px; background:radial-gradient(circle, rgba(123,92,250,0.45), transparent 70%); pointer-events:none;}
 .cta-band-inner{position:relative; z-index:2;}
 .cta-band h2{color:#fff; max-width:520px; margin:0 auto;}
 .cta-band p{color:#A5A2C0; font-size:14.5px; margin-top:12px; max-width:480px; margin-left:auto; margin-right:auto;}
 .cta-band .btn-price{display:inline-block; margin-top:22px; background:var(--purple); color:#fff; border:none; border-radius:13px; padding:15px 30px; font-size:15px; font-weight:600; font-family:'Inter'; text-decoration:none; transition:background .2s ease, transform .15s ease;}
 .cta-band .btn-price:hover{background:var(--purple-deep); transform:translateY(-1px);}
 .cta-band .price-note{color:#807CA0; font-size:12.5px; margin-top:14px;}
+
+/* CTA band animation (aurora + particles + sheen, matching blog sample) */
+.cta-band .aurora{position:absolute; inset:0; z-index:0; pointer-events:none;}
+.cta-band .aurora span{position:absolute; border-radius:50%; filter:blur(60px); opacity:0.5; mix-blend-mode:screen;}
+.cta-band .aurora .a1{width:400px; height:400px; background:radial-gradient(circle,#7B5CFA,transparent 68%); top:-140px; left:6%; animation:drift1 16s ease-in-out infinite;}
+.cta-band .aurora .a2{width:340px; height:340px; background:radial-gradient(circle,#9D6BFF,transparent 66%); bottom:-150px; right:4%; animation:drift2 19s ease-in-out infinite;}
+.cta-band .aurora .a3{width:280px; height:280px; background:radial-gradient(circle,#5A3FE0,transparent 70%); top:28%; left:44%; opacity:0.38; animation:drift3 22s ease-in-out infinite;}
+@keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(56px,38px) scale(1.12);}}
+@keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-46px,-28px) scale(1.08);}}
+@keyframes drift3{0%,100%{transform:translate(0,0) scale(1); opacity:0.32;}50%{transform:translate(-38px,28px) scale(1.15); opacity:0.48;}}
+.cta-band .particles{position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden;}
+.cta-band .particles i{position:absolute; bottom:-10px; width:3px; height:3px; border-radius:50%; background:rgba(180,150,255,0.7); box-shadow:0 0 6px rgba(155,120,255,0.9); animation:rise linear infinite;}
+@keyframes rise{0%{transform:translateY(0); opacity:0;}10%{opacity:1;}90%{opacity:0.7;}100%{transform:translateY(-380px); opacity:0;}}
+.cta-band .sheen{position:absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events:none; background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform:skewX(-18deg); animation:sheen 8s ease-in-out infinite;}
+@keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
+@media(prefers-reduced-motion:reduce){ .cta-band .aurora span,.cta-band .particles i,.cta-band .sheen{animation:none;} }
 
 /* FAQ */
 .faq-list{max-width:760px; border-top:1px solid var(--line);}
@@ -235,6 +288,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
     <div class="breadcrumb"><a href="/">Home</a> / Phone Number Exposure Check</div>
     <h1>Phone Number Exposure Check: See What Your Number Reveals Online</h1>
     <p class="page-sub">Your phone number is one of the most reused identifiers you have. Here's what it can reveal, where it tends to surface, and how to check your own number's exposure.</p>
+    <div class="tldr"><p><strong>TL;DR:</strong> Your phone number can turn up in old breaches, classifieds listings, and public directories — often without you knowing. You can check some of this yourself for free, or run a Scan My Shadow report to check your number (and email) against 1,500+ sources in about 5 minutes.</p></div>
   </div>
 </section>
 
@@ -253,7 +307,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
     <p>What's discoverable from a phone number varies a lot depending on your own history, but common possibilities include:</p>
     <ul>
       <li><strong>Which apps or services it's linked to</strong> — some apps and messaging platforms show a profile photo or name preview when a number is looked up</li>
-      <li><strong>Breach associations</strong> — if a company you signed up with was breached, your number may appear in that leaked dataset alongside other details you provided</li>
+      <li><strong>Breach associations</strong> — if a company you signed up with was <a href="/blog/2026/08/what-is-data-breach-and-what-actually.html">breached</a>, your number may appear in that leaked dataset alongside other details you provided</li>
       <li><strong>Old classifieds or marketplace listings</strong> — numbers posted on OLX, Quikr, or similar sites often stay indexed long after the listing is no longer active</li>
       <li><strong>Business or public directory listings</strong> — numbers registered against a shop, freelance profile, or public registration</li>
     </ul>
@@ -280,7 +334,8 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
 <section class="block section-line">
   <div class="wrap prose">
     <div class="sec-head"><span class="eyebrow">Why it's worth checking</span><h2>Why phone number exposure matters</h2></div>
-    <p>A phone number is a direct line of contact — which is exactly why it's a common target for spam calls, SMS phishing ("smishing"), and impersonation attempts. Knowing where your number is publicly associated with other information can help you understand your own exposure and take targeted action, like removing an old listing or being more cautious about calls referencing details a scammer shouldn't otherwise have.</p>
+    <p>A phone number is a direct line of contact — which is exactly why it's a common target for spam calls, SMS phishing ("smishing"), and impersonation attempts. Much of how a number ends up in the wrong hands comes down to <a href="/blog/2026/08/how-do-data-brokers-actually-get-your.html">how data brokers collect and resell contact details</a> in the first place. Knowing where your number is publicly associated with other information can help you understand your own exposure and take targeted action, like removing an old listing or being more cautious about calls referencing details a scammer shouldn't otherwise have.</p>
+    <p>Phone exposure is also just one part of a bigger picture — your <a href="/digital-footprint-checker/">overall digital footprint</a> covers everything from old social profiles to your email showing up in the same kinds of breaches and directories.</p>
   </div>
 </section>
 
@@ -293,7 +348,10 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
       <div class="step-card"><div class="step-num">2</div><div class="title">Check breach databases</div><div class="desc">Free tools like Have I Been Pwned let you check whether your details appear in known breaches.</div></div>
       <div class="step-card"><div class="step-num">3</div><div class="title">Check messaging app previews</div><div class="desc">Save your own number under a new contact on WhatsApp or Telegram to see what profile info, if any, is publicly visible.</div></div>
     </div>
-    <div class="callout callout-limit" style="margin-top:24px;">
+    <div class="prose" style="margin-top:24px;">
+      <p>This is a different question from a <a href="/blog/2026/09/reverse-phone-lookup-tools-india.html">reverse phone lookup</a>, which tries to identify who owns an unknown number calling you — the steps above are about checking your own number's exposure, not looking someone else up.</p>
+    </div>
+    <div class="callout callout-limit">
       <div class="callout-title">A boundary worth stating clearly</div>
       <p>These steps are for checking your own number. Using them to investigate, trace, or locate another private person without their knowledge isn't something we cover here — Scan My Shadow is built for consent-based scanning of your own information.</p>
     </div>
@@ -344,7 +402,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
     <div class="faq-list">
       <div class="faq-item"><button class="faq-q">Can anyone find my name from just my phone number?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Sometimes, but not always. It depends on whether your number is linked to public listings, breached data that includes your name, or messaging app profiles with visible names or photos. Many numbers show up online with no identifying name attached.</div></div></div>
       <div class="faq-item"><button class="faq-q">Is it legal to check where my own phone number appears online?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Yes. Checking publicly available information connected to your own number is generally lawful. Scan My Shadow is built specifically for consent-based checks of your own details, not for investigating other people.</div></div></div>
-      <div class="faq-item"><button class="faq-q">Can I remove my phone number from search results?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">In some cases, yes — by contacting the specific website or directory hosting the listing and requesting removal. Our report can help point you toward where your number appears so you know where to start.</div></div></div>
+      <div class="faq-item"><button class="faq-q">Can I remove my phone number from search results?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">In some cases, yes — by contacting the specific website or directory hosting the listing and requesting removal. Our report can help point you toward where your number appears so you know where to start. For a fuller walkthrough, see <a href="/blog/2026/08/how-to-remove-your-phone-number-from.html">how to remove your phone number from the internet</a>.</div></div></div>
       <div class="faq-item"><button class="faq-q">Does Scan My Shadow check WhatsApp or Telegram directly?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">No — messaging app profile visibility is something you can check yourself in a few seconds by saving your own number as a new contact. Our scan focuses on breach records and publicly indexed sources.</div></div></div>
       <div class="faq-item"><button class="faq-q">Why does my old phone number still show up online?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Search engines and archived pages often keep old listings indexed long after they're taken down or the number changes hands, which is why numbers from years-old sign-ups or classifieds can still surface in a search today.</div></div></div>
     </div>
@@ -367,6 +425,9 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
 <section class="block section-line">
   <div class="wrap">
     <div class="cta-band">
+      <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+      <div class="particles" data-particles></div>
+      <div class="sheen"></div>
       <div class="cta-band-inner">
         <h2>Ready to check your own phone number's exposure?</h2>
         <p>A one-time scan of your phone number and email across 1,500+ sources, with a plain-language report in about 5 minutes.</p>
@@ -451,6 +512,18 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
       if(!isOpen){ item.classList.add('open'); ans.style.maxHeight = ans.scrollHeight + 'px'; }
     });
   });
+  (function(){
+    var wrap = document.querySelector('.cta-band .particles');
+    if(!wrap) return;
+    var n = 22;
+    for(var i=0;i<n;i++){
+      var p = document.createElement('i');
+      p.style.left = (Math.random()*100)+'%';
+      p.style.animationDuration = (6+Math.random()*6)+'s';
+      p.style.animationDelay = (Math.random()*8)+'s';
+      wrap.appendChild(p);
+    }
+  })();
 </script>
 
 <script src="/assets/geo-price.js"></script>
