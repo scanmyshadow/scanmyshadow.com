@@ -174,6 +174,11 @@ h3{font-family:'Space Grotesk'; font-weight:600; font-size:17px; margin:22px 0 8
 .callout-limit{border-left-color:var(--warn); background:#FFFBF2;}
 .callout-example{border-left-color:var(--ok); background:#F3FBF5;}
 
+/* tl;dr */
+.tldr{border-left:3px solid var(--purple); background:var(--card); border-radius:0 12px 12px 0; padding:14px 18px; margin:22px 0 6px; max-width:720px;}
+.tldr p{font-size:14.5px; line-height:1.6; margin:0; font-style:italic; color:var(--ink);}
+.tldr strong{font-style:normal; color:var(--purple-deep); font-weight:700;}
+
 /* grid cards (reused from homepage) */
 .grid3{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
 @media(max-width:760px){ .grid3{grid-template-columns:1fr;} }
@@ -200,13 +205,28 @@ h3{font-family:'Space Grotesk'; font-weight:600; font-size:17px; margin:22px 0 8
 
 /* CTA band */
 .cta-band{background:var(--ink); border-radius:24px; padding:44px 40px; text-align:center; position:relative; overflow:hidden;}
-.cta-band:before{content:""; position:absolute; top:-80px; right:-60px; width:280px; height:280px; background:radial-gradient(circle, rgba(123,92,250,0.45), transparent 70%); pointer-events:none;}
 .cta-band-inner{position:relative; z-index:2;}
 .cta-band h2{color:#fff; max-width:520px; margin:0 auto;}
 .cta-band p{color:#A5A2C0; font-size:14.5px; margin-top:12px; max-width:480px; margin-left:auto; margin-right:auto;}
 .cta-band .btn-price{display:inline-block; margin-top:22px; background:var(--purple); color:#fff; border:none; border-radius:13px; padding:15px 30px; font-size:15px; font-weight:600; font-family:'Inter'; text-decoration:none; transition:background .2s ease, transform .15s ease;}
 .cta-band .btn-price:hover{background:var(--purple-deep); transform:translateY(-1px);}
 .cta-band .price-note{color:#807CA0; font-size:12.5px; margin-top:14px;}
+
+/* CTA band animation (aurora + particles + sheen, matching blog sample) */
+.cta-band .aurora{position:absolute; inset:0; z-index:0; pointer-events:none;}
+.cta-band .aurora span{position:absolute; border-radius:50%; filter:blur(60px); opacity:0.5; mix-blend-mode:screen;}
+.cta-band .aurora .a1{width:400px; height:400px; background:radial-gradient(circle,#7B5CFA,transparent 68%); top:-140px; left:6%; animation:drift1 16s ease-in-out infinite;}
+.cta-band .aurora .a2{width:340px; height:340px; background:radial-gradient(circle,#9D6BFF,transparent 66%); bottom:-150px; right:4%; animation:drift2 19s ease-in-out infinite;}
+.cta-band .aurora .a3{width:280px; height:280px; background:radial-gradient(circle,#5A3FE0,transparent 70%); top:28%; left:44%; opacity:0.38; animation:drift3 22s ease-in-out infinite;}
+@keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(56px,38px) scale(1.12);}}
+@keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-46px,-28px) scale(1.08);}}
+@keyframes drift3{0%,100%{transform:translate(0,0) scale(1); opacity:0.32;}50%{transform:translate(-38px,28px) scale(1.15); opacity:0.48;}}
+.cta-band .particles{position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden;}
+.cta-band .particles i{position:absolute; bottom:-10px; width:3px; height:3px; border-radius:50%; background:rgba(180,150,255,0.7); box-shadow:0 0 6px rgba(155,120,255,0.9); animation:rise linear infinite;}
+@keyframes rise{0%{transform:translateY(0); opacity:0;}10%{opacity:1;}90%{opacity:0.7;}100%{transform:translateY(-380px); opacity:0;}}
+.cta-band .sheen{position:absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events:none; background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform:skewX(-18deg); animation:sheen 8s ease-in-out infinite;}
+@keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
+@media(prefers-reduced-motion:reduce){ .cta-band .aurora span,.cta-band .particles i,.cta-band .sheen{animation:none;} }
 
 /* FAQ */
 .faq-list{max-width:760px; border-top:1px solid var(--line);}
@@ -268,6 +288,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
     <div class="breadcrumb"><a href="/">Home</a> / Email Exposure Check</div>
     <h1>Email Exposure Check: See Where Your Email Appears Online</h1>
     <p class="page-sub">Your email address is the one identifier nearly every account is built around. Here's what that means for your exposure, and how to check it yourself.</p>
+    <div class="tldr"><p><strong>TL;DR:</strong> Your email address can surface in old breaches, public directories, and forgotten sign-ups — often without you knowing. You can check some of this yourself for free with a breach database, or run a Scan My Shadow report to check your email (and phone number) against 1,500+ sources in about 5 minutes.</p></div>
   </div>
 </section>
 
@@ -285,10 +306,10 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
     <div class="sec-head"><span class="eyebrow">Real-world exposure</span><h2>What can someone find from an email address?</h2></div>
     <p>What's discoverable depends heavily on how you've used that email over the years, but common findings include:</p>
     <ul>
-      <li><strong>Breach history</strong> — which known data breaches your email has appeared in, and roughly what kind of data was exposed in each</li>
+      <li><strong>Breach history</strong> — which known <a href="/blog/2026/08/what-is-data-breach-and-what-actually.html">data breaches</a> your email has appeared in, and roughly what kind of data was exposed in each</li>
       <li><strong>Linked accounts</strong> — some services reveal, intentionally or not, whether an email is registered with them (for example, a "forgot password" flow confirming an account exists)</li>
       <li><strong>Public profile connections</strong> — an email used as a public contact on a personal website, GitHub profile, or forum bio</li>
-      <li><strong>Old sign-ups and directories</strong> — newsletter archives, event registration lists, or business directories that published contact emails</li>
+      <li><strong>Old sign-ups and directories</strong> — newsletter archives, event registration lists, or <a href="/blog/2026/08/how-do-data-brokers-actually-get-your.html">data broker directories</a> that published contact emails</li>
     </ul>
     <div class="callout">
       <div class="callout-title">Worth knowing</div>
@@ -313,7 +334,8 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
 <section class="block section-line">
   <div class="wrap prose">
     <div class="sec-head"><span class="eyebrow">Why it's worth checking</span><h2>Why email exposure matters</h2></div>
-    <p>An exposed email is a common entry point for phishing attempts and credential-stuffing attacks, where attackers try reused passwords from one breach against other accounts using the same email. Knowing which breaches your email has appeared in helps you prioritise where to update passwords and enable extra protections like two-factor authentication.</p>
+    <p>An exposed email is a common entry point for phishing attempts and <a href="/blog/2026/09/credential-stuffing-explained.html">credential-stuffing attacks</a>, where attackers try reused passwords from one breach against other accounts using the same email. Knowing which breaches your email has appeared in helps you prioritise where to update passwords and enable extra protections like <a href="/blog/2026/08/two-factor-authentication-and-account.html">two-factor authentication</a>.</p>
+    <p>Email exposure is also just one part of a bigger picture — your <a href="/digital-footprint-checker/">overall digital footprint</a> covers everything from old social profiles to your phone number showing up in the same kinds of breaches and directories.</p>
   </div>
 </section>
 
@@ -396,6 +418,9 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
 <section class="block section-line">
   <div class="wrap">
     <div class="cta-band">
+      <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+      <div class="particles" data-particles></div>
+      <div class="sheen"></div>
       <div class="cta-band-inner">
         <h2>Ready to check your own email's exposure?</h2>
         <p>A one-time scan of your email and phone number across 1,500+ sources, with a plain-language report in about 5 minutes.</p>
@@ -480,6 +505,18 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
       if(!isOpen){ item.classList.add('open'); ans.style.maxHeight = ans.scrollHeight + 'px'; }
     });
   });
+  (function(){
+    var wrap = document.querySelector('.cta-band .particles');
+    if(!wrap) return;
+    var n = 22;
+    for(var i=0;i<n;i++){
+      var p = document.createElement('i');
+      p.style.left = (Math.random()*100)+'%';
+      p.style.animationDuration = (6+Math.random()*6)+'s';
+      p.style.animationDelay = (Math.random()*8)+'s';
+      wrap.appendChild(p);
+    }
+  })();
 </script>
 
 <script src="/assets/geo-price.js"></script>
