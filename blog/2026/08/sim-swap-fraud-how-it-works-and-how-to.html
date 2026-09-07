@@ -198,6 +198,12 @@
   footer{border-top:1px solid var(--line); padding:32px 0; text-align:center; color:var(--ink-faint); font-size:13px;}
   footer a{color:var(--ink-faint);}
   @media(prefers-reduced-motion:reduce){ .nav-pill,.nav-pill::before,.aurora span,.particles i,.fx-dark .sheen{animation:none;} }
+  .tldr{border-left:3px solid var(--purple); padding:2px 0 2px 16px; margin-bottom:26px;}
+  .tldr p{font-size:16px; line-height:1.55; margin:0; color:var(--ink-soft);}
+  .tldr strong{color:var(--purple-deep); font-weight:700;}
+  .tldr-hook{margin:10px 0 0; font-family:'Inter',system-ui,sans-serif; font-size:14px; font-weight:600;}
+  .tldr-hook a{color:var(--purple-deep); text-decoration:none; border-bottom:1px solid var(--purple-mist);}
+  .tldr-hook a:hover{border-color:var(--purple);}
 </style>
 </head>
 <body>
@@ -223,7 +229,10 @@
   <div class="hero-img-slot" data-slug="sim-swap-fraud-how-it-works-and-how-to"></div>
 
   <div class="post-content">
+<div class="tldr">
 <p><strong>TL;DR:</strong> SIM swap fraud is when someone tricks your telecom provider into transferring your number to a SIM they control — giving them your OTPs and effectively the keys to your bank accounts. Here's how it actually happens, and the warning signs that mean it's happening to you right now.</p>
+<p class="tldr-hook">👉 <a href="https://www.scanmyshadow.com/#pricing">Check your own exposure in 30 seconds →</a></p>
+</div>
 
 <h2>What SIM swap fraud actually is</h2>
 <p>Your phone number, not just your phone, is what most of your accounts trust for identity verification — OTPs, password resets, two-factor authentication. SIM swap fraud exploits this directly: a fraudster convinces your telecom provider to issue a new SIM tied to your number, deactivating your original SIM in the process. From that point, they receive your calls, texts, and — critically — your OTPs, while your own phone loses signal entirely.</p>

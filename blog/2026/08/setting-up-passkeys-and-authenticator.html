@@ -214,6 +214,12 @@
   footer{border-top:1px solid var(--line); padding:32px 0; text-align:center; color:var(--ink-faint); font-size:13px;}
   footer a{color:var(--ink-faint);}
   @media(prefers-reduced-motion:reduce){ .nav-pill,.nav-pill::before,.aurora span,.particles i,.fx-dark .sheen{animation:none;} }
+  .tldr{border-left:3px solid var(--purple); padding:2px 0 2px 16px; margin-bottom:26px;}
+  .tldr p{font-size:16px; line-height:1.55; margin:0; color:var(--ink-soft);}
+  .tldr strong{color:var(--purple-deep); font-weight:700;}
+  .tldr-hook{margin:10px 0 0; font-family:'Inter',system-ui,sans-serif; font-size:14px; font-weight:600;}
+  .tldr-hook a{color:var(--purple-deep); text-decoration:none; border-bottom:1px solid var(--purple-mist);}
+  .tldr-hook a:hover{border-color:var(--purple);}
 </style>
 </head>
 <body>
@@ -239,7 +245,10 @@
   <div class="hero-img-slot" data-slug="setting-up-passkeys-and-authenticator"></div>
 
   <div class="post-content">
+<div class="tldr">
 <p><strong>TL;DR:</strong> Knowing you should move beyond SMS-only authentication is one thing — actually setting it up is another. This is a practical, account-by-account walkthrough for setting up authenticator apps and passkeys on the accounts that matter most: email, banking-adjacent logins, and major platforms.</p>
+<p class="tldr-hook">👉 <a href="https://www.scanmyshadow.com/#pricing">Check your own exposure in 30 seconds →</a></p>
+</div>
 
 <p>Once you understand why SMS-only 2FA has gaps, the next question is simply: how do I actually turn on something stronger? Here's the practical setup process, starting with the accounts worth prioritising.</p>
 
