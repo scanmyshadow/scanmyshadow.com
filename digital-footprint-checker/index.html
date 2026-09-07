@@ -186,6 +186,11 @@ h3{font-family:'Space Grotesk'; font-weight:600; font-size:17px; margin:22px 0 8
 .callout-limit{border-left-color:var(--warn); background:#FFFBF2;}
 .callout-example{border-left-color:var(--ok); background:#F3FBF5;}
 
+/* tl;dr */
+.tldr{border-left:3px solid var(--purple); background:var(--card); border-radius:0 12px 12px 0; padding:14px 18px; margin:22px 0 6px; max-width:720px;}
+.tldr p{font-size:14.5px; line-height:1.6; margin:0; font-style:italic; color:var(--ink);}
+.tldr strong{font-style:normal; color:var(--purple-deep); font-weight:700;}
+
 /* grid cards (reused from homepage) */
 .grid3{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
 @media(max-width:760px){ .grid3{grid-template-columns:1fr;} }
@@ -212,13 +217,28 @@ h3{font-family:'Space Grotesk'; font-weight:600; font-size:17px; margin:22px 0 8
 
 /* CTA band */
 .cta-band{background:var(--ink); border-radius:24px; padding:44px 40px; text-align:center; position:relative; overflow:hidden;}
-.cta-band:before{content:""; position:absolute; top:-80px; right:-60px; width:280px; height:280px; background:radial-gradient(circle, rgba(123,92,250,0.45), transparent 70%); pointer-events:none;}
 .cta-band-inner{position:relative; z-index:2;}
 .cta-band h2{color:#fff; max-width:520px; margin:0 auto;}
 .cta-band p{color:#A5A2C0; font-size:14.5px; margin-top:12px; max-width:480px; margin-left:auto; margin-right:auto;}
 .cta-band .btn-price{display:inline-block; margin-top:22px; background:var(--purple); color:#fff; border:none; border-radius:13px; padding:15px 30px; font-size:15px; font-weight:600; font-family:'Inter'; text-decoration:none; transition:background .2s ease, transform .15s ease;}
 .cta-band .btn-price:hover{background:var(--purple-deep); transform:translateY(-1px);}
 .cta-band .price-note{color:#807CA0; font-size:12.5px; margin-top:14px;}
+
+/* CTA band animation (aurora + particles + sheen, matching blog sample) */
+.cta-band .aurora{position:absolute; inset:0; z-index:0; pointer-events:none;}
+.cta-band .aurora span{position:absolute; border-radius:50%; filter:blur(60px); opacity:0.5; mix-blend-mode:screen;}
+.cta-band .aurora .a1{width:400px; height:400px; background:radial-gradient(circle,#7B5CFA,transparent 68%); top:-140px; left:6%; animation:drift1 16s ease-in-out infinite;}
+.cta-band .aurora .a2{width:340px; height:340px; background:radial-gradient(circle,#9D6BFF,transparent 66%); bottom:-150px; right:4%; animation:drift2 19s ease-in-out infinite;}
+.cta-band .aurora .a3{width:280px; height:280px; background:radial-gradient(circle,#5A3FE0,transparent 70%); top:28%; left:44%; opacity:0.38; animation:drift3 22s ease-in-out infinite;}
+@keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(56px,38px) scale(1.12);}}
+@keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-46px,-28px) scale(1.08);}}
+@keyframes drift3{0%,100%{transform:translate(0,0) scale(1); opacity:0.32;}50%{transform:translate(-38px,28px) scale(1.15); opacity:0.48;}}
+.cta-band .particles{position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden;}
+.cta-band .particles i{position:absolute; bottom:-10px; width:3px; height:3px; border-radius:50%; background:rgba(180,150,255,0.7); box-shadow:0 0 6px rgba(155,120,255,0.9); animation:rise linear infinite;}
+@keyframes rise{0%{transform:translateY(0); opacity:0;}10%{opacity:1;}90%{opacity:0.7;}100%{transform:translateY(-380px); opacity:0;}}
+.cta-band .sheen{position:absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events:none; background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform:skewX(-18deg); animation:sheen 8s ease-in-out infinite;}
+@keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
+@media(prefers-reduced-motion:reduce){ .cta-band .aurora span,.cta-band .particles i,.cta-band .sheen{animation:none;} }
 
 /* FAQ */
 .faq-list{max-width:760px; border-top:1px solid var(--line);}
@@ -280,6 +300,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
     <div class="breadcrumb"><a href="/">Home</a> / Digital Footprint Checker</div>
     <h1>Digital Footprint Checker: See What You Reveal Online</h1>
     <p class="page-sub">A practical guide to what a digital footprint is, what other people can actually find about you, how to check it yourself for free, and where an automated scan can help.</p>
+    <div class="tldr"><p><strong>TL;DR:</strong> Your digital footprint is everything about you that's visible or discoverable online — both what you posted yourself and what leaked, was listed, or was sold on without you noticing. You can check some of it yourself for free with Google and a breach database; an automated scan like Scan My Shadow covers far more ground in a few minutes.</p></div>
   </div>
 </section>
 
@@ -299,7 +320,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
     <h3>Active footprint</h3>
     <p>Information you knowingly shared — a LinkedIn profile, an Instagram account, a product review under your real name, a comment on a news article, a listing on OLX or Quikr.</p>
     <h3>Passive footprint</h3>
-    <p>Information collected or exposed without a deliberate post from you — your email or phone number appearing in a company's data breach, your details listed in a data broker's directory, or your number showing up because you once filled out a form that got shared or sold on.</p>
+    <p>Information collected or exposed without a deliberate post from you — your email or phone number appearing in a company's <a href="/blog/2026/08/what-is-data-breach-and-what-actually.html">data breach</a>, your details listed in a data broker's directory, or your number showing up because you once filled out a form that got shared or sold on.</p>
     <div class="callout">
       <div class="callout-title">Why this matters</div>
       <p>Passive footprint is the part most people underestimate. You can control what you post, but you can't fully control what a service you signed up for years ago did with your information afterward.</p>
@@ -331,8 +352,8 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
 <section class="block section-line">
   <div class="wrap prose">
     <div class="sec-head"><span class="eyebrow">The two identifiers that matter most</span><h2>Why your phone number and email matter</h2></div>
-    <p>Your phone number and email address are two pieces of contact information that many accounts, forms, and online services ask for. Because they can appear across different online sources, they can be useful starting points for checking your own digital exposure.</p>
-    <p>Unlike your name, which many people share, a phone number or email is usually unique to you — so if either one turns up somewhere unexpected, it's a strong signal worth investigating.</p>
+    <p>Your phone number and email address are two pieces of contact information that many accounts, forms, and online services ask for. Because they can appear across different online sources, they can be useful starting points for checking your own digital exposure — in fact, <a href="/blog/2026/08/can-phone-number-reveal-your-name.html">a phone number alone can reveal more about you than most people expect</a>.</p>
+    <p>Unlike your name, which many people share, a phone number or email is usually unique to you — so if either one turns up somewhere unexpected, it's a strong signal worth investigating. Much of how it gets there in the first place comes down to <a href="/blog/2026/08/how-do-data-brokers-actually-get-your.html">how data brokers collect and resell contact details</a> without most people ever noticing.</p>
   </div>
 </section>
 
@@ -367,7 +388,7 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
 <section class="block section-line">
   <div class="wrap prose">
     <div class="sec-head"><span class="eyebrow">Tools vs. manual search</span><h2>What a digital footprint checker does</h2></div>
-    <p>A digital footprint checker automates the search-and-compare process: instead of you manually Googling variations of your name, number, and email, the tool checks your details against a defined set of sources — breach databases, public directories, and indexed pages — and returns what it finds in one place.</p>
+    <p>A digital footprint checker automates the search-and-compare process: instead of you manually Googling variations of your name, number, and email, the tool checks your details against a defined set of sources — breach databases, public directories, and indexed pages — and returns what it finds in one place. This is broadly the same idea behind <a href="/blog/2026/08/how-osint-can-be-used-to-find-someone.html">OSINT (open-source intelligence) techniques</a> used to piece together information about a person from what's already publicly available.</p>
     <p>The value isn't magic; it's coverage and speed. A good checker can look through far more sources than a person reasonably would by hand, and it does so in minutes.</p>
     <div class="callout callout-limit">
       <div class="callout-title">What no checker can promise</div>
@@ -473,6 +494,9 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
 <section class="block section-line">
   <div class="wrap">
     <div class="cta-band">
+      <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+      <div class="particles" data-particles></div>
+      <div class="sheen"></div>
       <div class="cta-band-inner">
         <h2>Ready to check your own digital footprint?</h2>
         <p>A one-time scan of your phone number and email across 1,500+ sources, with a plain-language report in about 5 minutes.</p>
@@ -557,6 +581,18 @@ footer{border-top:1px solid var(--line); padding:56px 0 44px; background:var(--b
       if(!isOpen){ item.classList.add('open'); ans.style.maxHeight = ans.scrollHeight + 'px'; }
     });
   });
+  (function(){
+    var wrap = document.querySelector('.cta-band .particles');
+    if(!wrap) return;
+    var n = 22;
+    for(var i=0;i<n;i++){
+      var p = document.createElement('i');
+      p.style.left = (Math.random()*100)+'%';
+      p.style.animationDuration = (6+Math.random()*6)+'s';
+      p.style.animationDelay = (Math.random()*8)+'s';
+      wrap.appendChild(p);
+    }
+  })();
 </script>
 
 <script src="/assets/geo-price.js"></script>
