@@ -3,35 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Digital Exposure Score — Check Your Online Privacy Risk </title>
-<meta name="description" content="Take this free 8-question Digital Exposure Score to estimate how exposed your personal information may be online. Get your risk level and practical privacy tips.">
-<meta property="og:title" content="Digital Exposure Score — Check Your Online Privacy Risk | Scan My Shadow">
-<meta property="og:description" content="Answer 8 quick questions to estimate how exposed your personal information may be online. Free, instant, no sign-up required.">
+
+<title>Digital Exposure Score: Free Digital Exposure Check | Scan My Shadow</title>
+<meta name="description" content="Take a free 8-question Digital Exposure Score to estimate your online exposure risk. Get your score, risk level and practical privacy steps.">
+
+<meta property="og:title" content="Digital Exposure Score: Free Digital Exposure Check | Scan My Shadow">
+<meta property="og:description" content="Answer 8 quick questions to estimate your online exposure risk. Get your score, risk level and practical privacy steps.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.scanmyshadow.com/tools/digital-exposure-score/">
 <meta property="og:image" content="https://www.scanmyshadow.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:image" content="https://www.scanmyshadow.com/og-image.png">
+
 <link rel="canonical" href="https://www.scanmyshadow.com/tools/digital-exposure-score/">
+
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
 <!-- GA4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4P3YTNEDY"></script>
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
 </script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Digital Exposure Score — Check Your Online Privacy Risk",
+  "name": "Digital Exposure Score: Free Digital Exposure Check",
   "description": "A free 8-question tool that estimates how exposed your personal information may be online, with a risk level and practical privacy recommendations.",
   "url": "https://www.scanmyshadow.com/tools/digital-exposure-score/",
   "isPartOf": {
@@ -46,6 +53,7 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
   }
 }
 </script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +74,7 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
   ]
 }
 </script>
+
 <style>
 :root{
   --bg:#FFFFFF;--bg-tint:#FAF9FF;--ink:#15121F;--ink-soft:#605C73;--ink-faint:#908DA3;
@@ -100,11 +109,66 @@ a{color:inherit;}
 @media(max-width:480px){.page-content{padding:32px 0 60px;}}
 
 /* ===== INTRO ===== */
-.intro{text-align:center;margin-bottom:40px;}
+.intro{text-align:center;margin-bottom:32px;}
 .intro .eyebrow{font-size:12px;font-weight:600;color:var(--purple);letter-spacing:0.09em;text-transform:uppercase;margin-bottom:14px;display:block;}
 h1{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(26px,5.5vw,38px);line-height:1.15;letter-spacing:-0.015em;margin-bottom:14px;}
 h1 .accent{color:var(--purple);}
 .intro p{font-size:15px;color:var(--ink-soft);line-height:1.6;max-width:460px;margin:0 auto;}
+
+/* ===== STATIC TOOL EXPLANATION ===== */
+.score-overview{
+  background:var(--bg-tint);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:22px 22px 20px;
+  margin-bottom:28px;
+}
+.score-overview h2{
+  font-family:'Space Grotesk',sans-serif;
+  font-weight:600;
+  font-size:18px;
+  line-height:1.25;
+  letter-spacing:-0.01em;
+  margin-bottom:9px;
+}
+.score-overview p{
+  font-size:13.5px;
+  color:var(--ink-soft);
+  line-height:1.65;
+  margin-bottom:16px;
+}
+.score-overview p:last-child{margin-bottom:0;}
+.score-dimensions{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  list-style:none;
+}
+.score-dimensions li{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  padding:9px 10px;
+  background:#fff;
+  border:1px solid var(--line-soft);
+  border-radius:10px;
+  font-size:12px;
+  color:var(--ink-soft);
+  line-height:1.4;
+}
+.score-dimensions li::before{
+  content:"";
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:var(--purple);
+  flex-shrink:0;
+  margin-top:5px;
+}
+@media(max-width:480px){
+  .score-overview{padding:19px 16px;}
+  .score-dimensions{grid-template-columns:1fr;}
+}
 
 /* ===== QUIZ CARD ===== */
 .quiz-card{
@@ -282,6 +346,39 @@ h1 .accent{color:var(--purple);}
 .seo-section h2{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(20px,4vw,26px);line-height:1.2;letter-spacing:-0.01em;margin-bottom:16px;}
 .seo-section p{font-size:14.5px;color:var(--ink-soft);line-height:1.7;margin-bottom:16px;}
 .seo-section h3{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;margin:28px 0 10px;}
+.seo-section a{color:var(--purple);}
+
+/* ===== FAQ ===== */
+.faq-section{
+  padding:56px 0 0;
+  margin-top:48px;
+  border-top:1px solid var(--line);
+}
+.faq-section h2{
+  font-family:'Space Grotesk',sans-serif;
+  font-weight:600;
+  font-size:clamp(20px,4vw,26px);
+  line-height:1.2;
+  letter-spacing:-0.01em;
+  margin-bottom:22px;
+}
+.faq-item{
+  border-top:1px solid var(--line);
+  padding:18px 0;
+}
+.faq-item:last-child{border-bottom:1px solid var(--line);}
+.faq-item h3{
+  font-family:'Space Grotesk',sans-serif;
+  font-weight:600;
+  font-size:15.5px;
+  line-height:1.4;
+  margin-bottom:8px;
+}
+.faq-item p{
+  font-size:14px;
+  color:var(--ink-soft);
+  line-height:1.7;
+}
 
 /* ===== FOOTER ===== */
 .site-footer{
@@ -418,234 +515,616 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
 
 </style>
 </head>
+
 <body>
 
 <!-- HEADER -->
 <header class="nav" id="nav">
   <div class="nav-inner">
+
     <a href="https://www.scanmyshadow.com" class="logo">
       <img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow">
     </a>
+
     <div class="nav-menu-links">
       <div class="nav-links">
         <a class="nav-link" href="https://www.scanmyshadow.com/#how">How it works</a>
         <a class="nav-link" href="https://www.scanmyshadow.com/#pricing">Pricing</a>
         <a class="nav-link" href="https://www.scanmyshadow.com/#faq">FAQ</a>
-        <a class="nav-link" href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">Free Exposure Check</a>
+
+        <a class="nav-link" href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">
+          Free Exposure Check
+        </a>
+
         <div class="tools-item">
           <button class="tools-trigger" id="toolsTrigger" aria-haspopup="true" aria-expanded="false">
             Tools
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
           </button>
+
           <div class="tools-dropdown" id="toolsDropdown">
             <div class="tools-dropdown-head">Free Privacy Tools</div>
+
             <div class="tools-grid">
+
               <a class="tool-card" href="https://www.scanmyshadow.com/tools/digital-privacy-checklist/">
-                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="m9 13 2 2 4-4"/></svg></span>
-                <span><span class="tool-name">Digital Privacy Checklist</span><span class="tool-desc">Step-by-step checklist to reduce your exposure</span></span>
+                <span class="tool-ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+                    <rect x="9" y="3" width="6" height="4" rx="1"/>
+                    <path d="m9 13 2 2 4-4"/>
+                  </svg>
+                </span>
+                <span>
+                  <span class="tool-name">Digital Privacy Checklist</span>
+                  <span class="tool-desc">Step-by-step checklist to reduce your exposure</span>
+                </span>
               </a>
+
               <a class="tool-card" href="https://www.scanmyshadow.com/tools/email-privacy-risk-checker/">
-                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
-                <span><span class="tool-name">Email Privacy Risk Checker</span><span class="tool-desc">See how exposed your email address is</span></span>
+                <span class="tool-ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="5" width="18" height="14" rx="2"/>
+                    <path d="m3 7 9 6 9-6"/>
+                  </svg>
+                </span>
+                <span>
+                  <span class="tool-name">Email Privacy Risk Checker</span>
+                  <span class="tool-desc">See how exposed your email address is</span>
+                </span>
               </a>
+
               <a class="tool-card" href="https://www.scanmyshadow.com/tools/matrimonial-digital-safety-checklist/">
-                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-9C1 8 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6 4 4.5 8-2.5 4.65-9.5 9-9.5 9z"/></svg></span>
-                <span><span class="tool-name">Matrimonial Safety Checklist</span><span class="tool-desc">Safety checklist for matchmaking profiles</span></span>
+                <span class="tool-ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 21s-7-4.35-9.5-9C1 8 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6 4 4.5 8-2.5 4.65-9.5 9-9.5 9z"/>
+                  </svg>
+                </span>
+                <span>
+                  <span class="tool-name">Matrimonial Safety Checklist</span>
+                  <span class="tool-desc">Safety checklist for matchmaking profiles</span>
+                </span>
               </a>
+
               <a class="tool-card" href="https://www.scanmyshadow.com/tools/online-exposure-risk-quiz/">
-                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 2-2.4 3.7"/><path d="M12 17h.01"/></svg></span>
-                <span><span class="tool-name">Online Exposure Risk Quiz</span><span class="tool-desc">A 2-minute quiz on your exposure risk</span></span>
+                <span class="tool-ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M9.5 9a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 2-2.4 3.7"/>
+                    <path d="M12 17h.01"/>
+                  </svg>
+                </span>
+                <span>
+                  <span class="tool-name">Online Exposure Risk Quiz</span>
+                  <span class="tool-desc">A 2-minute quiz on your exposure risk</span>
+                </span>
               </a>
+
               <a class="tool-card" href="https://www.scanmyshadow.com/tools/phone-number-exposure-risk-checker/">
-                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
-                <span><span class="tool-name">Phone Exposure Risk Checker</span><span class="tool-desc">Check how exposed your phone number is</span></span>
+                <span class="tool-ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 0 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </span>
+                <span>
+                  <span class="tool-name">Phone Exposure Risk Checker</span>
+                  <span class="tool-desc">Check how exposed your phone number is</span>
+                </span>
               </a>
+
               <a class="tool-card" href="https://www.scanmyshadow.com/tools/digital-exposure-score/">
-                <span class="tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/><path d="m9 12 2 2 4-4"/></svg></span>
-                <span><span class="tool-name">Digital Exposure Score</span><span class="tool-desc">Get your instant digital exposure score</span></span>
+                <span class="tool-ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/>
+                    <path d="m9 12 2 2 4-4"/>
+                  </svg>
+                </span>
+                <span>
+                  <span class="tool-name">Digital Exposure Score</span>
+                  <span class="tool-desc">Get your instant digital exposure score</span>
+                </span>
               </a>
+
             </div>
           </div>
         </div>
+
         <a class="nav-link" href="https://www.scanmyshadow.com/blog/" rel="noopener">Blog</a>
         <a class="nav-link" href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
       </div>
     </div>
-    <a class="nav-pill" href="https://www.scanmyshadow.com/#pricing"><span class="cta-full">Start scan &middot; <span class="price-tag">&#8377;498</span></span><span class="cta-short">Scan &middot; <span class="price-tag">&#8377;498</span></span></a>
+
+    <a class="nav-pill" href="https://www.scanmyshadow.com/#pricing">
+      <span class="cta-full">Start scan &middot; <span class="price-tag">&#8377;498</span></span>
+      <span class="cta-short">Scan &middot; <span class="price-tag">&#8377;498</span></span>
+    </a>
+
     <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
+
   </div>
+
   <div class="mobile-menu" id="mobileMenu">
     <a href="https://www.scanmyshadow.com/#how">How it works</a>
     <a href="https://www.scanmyshadow.com/#pricing">Pricing</a>
     <a href="https://www.scanmyshadow.com/#faq">FAQ</a>
-    <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">Free Exposure Check</a>
+
+    <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">
+      Free Exposure Check
+    </a>
+
     <button class="mobile-tools-toggle" id="mobileToolsToggle" aria-expanded="false">
       Free Privacy Tools
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m6 9 6 6 6-6"/>
+      </svg>
     </button>
+
     <div class="mobile-tools-panel" id="mobileToolsPanel">
-      <a href="https://www.scanmyshadow.com/tools/digital-privacy-checklist/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="m9 13 2 2 4-4"/></svg> Digital Privacy Checklist</a>
-      <a href="https://www.scanmyshadow.com/tools/email-privacy-risk-checker/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Email Privacy Risk Checker</a>
-      <a href="https://www.scanmyshadow.com/tools/matrimonial-digital-safety-checklist/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-9C1 8 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6 4 4.5 8-2.5 4.65-9.5 9-9.5 9z"/></svg> Matrimonial Safety Checklist</a>
-      <a href="https://www.scanmyshadow.com/tools/online-exposure-risk-quiz/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 2-2.4 3.7"/><path d="M12 17h.01"/></svg> Online Exposure Risk Quiz</a>
-      <a href="https://www.scanmyshadow.com/tools/phone-number-exposure-risk-checker/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Phone Exposure Risk Checker</a>
-      <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/><path d="m9 12 2 2 4-4"/></svg> Digital Exposure Score</a>
+
+      <a href="https://www.scanmyshadow.com/tools/digital-privacy-checklist/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+          <rect x="9" y="3" width="6" height="4" rx="1"/>
+          <path d="m9 13 2 2 4-4"/>
+        </svg>
+        Digital Privacy Checklist
+      </a>
+
+      <a href="https://www.scanmyshadow.com/tools/email-privacy-risk-checker/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="5" width="18" height="14" rx="2"/>
+          <path d="m3 7 9 6 9-6"/>
+        </svg>
+        Email Privacy Risk Checker
+      </a>
+
+      <a href="https://www.scanmyshadow.com/tools/matrimonial-digital-safety-checklist/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 21s-7-4.35-9.5-9C1 8 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6 4 4.5 8-2.5 4.65-9.5 9-9.5 9z"/>
+        </svg>
+        Matrimonial Safety Checklist
+      </a>
+
+      <a href="https://www.scanmyshadow.com/tools/online-exposure-risk-quiz/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M9.5 9a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 2-2.4 3.7"/>
+          <path d="M12 17h.01"/>
+        </svg>
+        Online Exposure Risk Quiz
+      </a>
+
+      <a href="https://www.scanmyshadow.com/tools/phone-number-exposure-risk-checker/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 0 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Phone Exposure Risk Checker
+      </a>
+
+      <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/>
+          <path d="m9 12 2 2 4-4"/>
+        </svg>
+        Digital Exposure Score
+      </a>
+
     </div>
+
     <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
   </div>
 </header>
+
 
 <main class="wrap page-content">
 
   <!-- INTRO -->
   <div class="intro" id="intro">
     <span class="eyebrow">Free Privacy Tool</span>
+
     <h1>What's Your <span class="accent">Digital Exposure</span> Score?</h1>
-    <p>Answer 8 quick questions to estimate how exposed your personal information may be online. No sign-up, no data collected.</p>
+
+    <p>
+      Answer 8 quick questions to estimate how exposed your personal information may be online.
+      No sign-up. Your answers are processed in your browser and aren't submitted as scan data.
+    </p>
   </div>
+
+
+  <!-- STATIC SEO / SEARCH-ACCESSIBLE TOOL CONTEXT -->
+  <section class="score-overview" aria-labelledby="score-overview-title">
+
+    <h2 id="score-overview-title">What does the Digital Exposure Score measure?</h2>
+
+    <p>
+      The Digital Exposure Score is a free self-assessment of how easily different types of personal information may be discoverable online based on your digital habits. It gives you an estimated score from 0 to 100 and places your result into a Low, Moderate, High, or Very High exposure level.
+    </p>
+
+    <p>
+      The assessment looks at eight practical areas of online exposure:
+    </p>
+
+    <ul class="score-dimensions">
+      <li>Public visibility of your phone number</li>
+      <li>Public visibility of your personal email</li>
+      <li>How easily your full name can be found</li>
+      <li>Publicly connected work or professional information</li>
+      <li>Past public sharing of contact details</li>
+      <li>Reuse of usernames or email addresses</li>
+      <li>Old or unused online accounts</li>
+      <li>Suspicious contact involving personal information</li>
+    </ul>
+
+  </section>
+
 
   <!-- QUIZ -->
   <div class="quiz-card" id="quizCard">
 
     <!-- Quiz area (hidden when results show) -->
     <div id="quizArea">
+
       <div class="progress-wrap">
         <div class="progress-meta">
           <span class="progress-label" id="progressLabel">Question 1 of 8</span>
           <span class="progress-count" id="progressPct"></span>
         </div>
+
         <div class="progress-bar" id="progressBar"></div>
       </div>
+
       <div class="question-area" id="questionArea"></div>
+
       <div class="quiz-nav">
+
         <button class="btn btn-back" id="btnBack" style="display:none" aria-label="Previous question">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
           Back
         </button>
+
         <button class="btn btn-next" id="btnNext" disabled>
           Next
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
         </button>
+
       </div>
     </div>
 
+
     <!-- Results area -->
     <div class="results-area" id="resultsArea">
+
       <div class="score-ring-wrap">
         <div class="ring-glow" id="ringGlow"></div>
+
         <svg class="score-ring" viewBox="0 0 180 180">
           <circle class="score-ring-bg" cx="90" cy="90" r="78"/>
           <circle class="score-ring-fill" id="scoreRing" cx="90" cy="90" r="78"
             stroke-dasharray="490" stroke-dashoffset="490"/>
         </svg>
+
         <div class="score-number">
           <div class="score-val" id="scoreVal">0</div>
           <div class="score-max">/ 100</div>
         </div>
       </div>
+
       <div id="riskBadge" class="risk-badge"></div>
+
       <p class="result-summary" id="resultSummary"></p>
 
+
       <div class="factors-card" id="factorsCard">
+
         <div class="factors-title">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 8v4M12 16h.01"/>
+          </svg>
           Key Contributing Factors
         </div>
+
         <div id="factorsList"></div>
+
       </div>
+
 
       <div class="recs-card" id="recsCard">
+
         <div class="recs-title">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
           What You Can Do
         </div>
+
         <div id="recsList"></div>
+
       </div>
 
-      <p class="disclaimer">This score is an estimate based on the information you provided. It does not confirm whether your personal information has been exposed, breached or leaked online.</p>
+
+      <p class="disclaimer">
+        This score is an estimate based on the information you provided. It does not confirm whether your personal information has been exposed, breached or leaked online.
+      </p>
+
 
       <!-- Share -->
       <div class="share-strip">
+
         <button class="share-btn" id="shareWA" aria-label="Share on WhatsApp">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
           WhatsApp
         </button>
+
         <button class="share-btn" id="shareX" aria-label="Share on X">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
           Post on X
         </button>
+
         <button class="share-btn" id="shareCopy" aria-label="Copy link">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <rect x="9" y="9" width="13" height="13" rx="2"/>
+            <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+          </svg>
           Copy Link
         </button>
+
       </div>
+
 
       <!-- CTA -->
-    <div class="price-wrap">
-      <div class="price-card fx-dark">
-        <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
-        <div class="particles" data-particles></div>
-        <div class="sheen"></div>
-        <div class="cta-eyebrow">Go Beyond the Estimate</div>
-        <h2>Want to know what's actually exposed?</h2>
-        <p class="cta-desc">The free score is only an estimate based on your answers. Scan your phone number and email across 1,500+ sources and receive a full digital exposure report.</p>
-        <div class="p-inner">
-          <div class="price-left">
-            <div class="price-label">Phone + email scan &middot; Full report</div>
-            <div class="price-amount"><span class="price-tag">&#8377;498</span><span>one-time</span></div>
-            <a href="https://www.scanmyshadow.com/#pricing" class="btn-price" id="ctaBtn" >Scan My Digital Footprint</a>
-            <div class="price-razorpay">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
-              <span>Secure payment via Razorpay</span>
+      <div class="price-wrap">
+
+        <div class="price-card fx-dark">
+
+          <div class="aurora">
+            <span class="a1"></span>
+            <span class="a2"></span>
+            <span class="a3"></span>
+          </div>
+
+          <div class="particles" data-particles></div>
+          <div class="sheen"></div>
+
+          <div class="cta-eyebrow">Go Beyond the Estimate</div>
+
+          <h2>Want to know what's actually exposed?</h2>
+
+          <p class="cta-desc">
+            The free score is only an estimate based on your answers. Scan your phone number and email across 1,500+ sources and receive a full digital exposure report.
+          </p>
+
+          <div class="p-inner">
+
+            <div class="price-left">
+
+              <div class="price-label">
+                Phone + email scan &middot; Full report
+              </div>
+
+              <div class="price-amount">
+                <span class="price-tag">&#8377;498</span>
+                <span>one-time</span>
+              </div>
+
+              <a href="https://www.scanmyshadow.com/#pricing" class="btn-price" id="ctaBtn">
+                Scan My Digital Footprint
+              </a>
+
+              <div class="price-razorpay">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/>
+                </svg>
+                <span>Secure payment via Razorpay</span>
+              </div>
+
             </div>
+
+            <div class="price-right">
+
+              <ul class="price-list">
+
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"/>
+                  </svg>
+                  Results usually within about 5 minutes
+                </li>
+
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"/>
+                  </svg>
+                  Clear, plain-English report
+                </li>
+
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"/>
+                  </svg>
+                  Delivered straight to your inbox
+                </li>
+
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"/>
+                  </svg>
+                  No login or passwords required
+                </li>
+
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"/>
+                  </svg>
+                  Scan data deleted after report is generated
+                </li>
+
+              </ul>
+
+            </div>
+
           </div>
-          <div class="price-right">
-            <ul class="price-list">
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results usually within about 5 minutes</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
-            </ul>
-          </div>
+
         </div>
+
       </div>
-    </div>
+
 
       <button class="retake-link" id="retakeBtn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 102.13-9.36L1 10"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round">
+          <polyline points="1 4 1 10 7 10"/>
+          <path d="M3.51 15a9 9 0 102.13-9.36L1 10"/>
+        </svg>
         Retake the quiz
       </button>
+
     </div>
   </div>
 
+
   <!-- SEO CONTENT -->
-  <div class="seo-section">
-    <h2>What Is a Digital Exposure Score?</h2>
-    <p>Your Digital Exposure Score is a free online privacy check that estimates how visible your personal information may be across the internet. Based on your everyday digital habits — where you've shared your phone number, how you use email, whether you reuse usernames across different websites — this digital footprint check highlights areas where your identity could be easier to find, contact, or target.</p>
-    <p>This is a self-assessment tool, not a breach scanner. It does not search any databases or breach records — it uses your own answers to model the kind of personal information exposure that commonly leads to spam, scams, or worse. Think of it as a quick digital safety check you can run in under two minutes, entirely from your phone or browser.</p>
+  <section class="seo-section" aria-labelledby="seo-title">
+
+    <h2 id="seo-title">What Is a Digital Exposure Score?</h2>
+
+    <p>
+      Your Digital Exposure Score is a free online privacy assessment that estimates how visible your personal information may be across the internet. It considers everyday digital habits such as where you've shared your phone number, how you use your email address, whether you reuse usernames across websites, and whether older accounts may still contain information about you.
+    </p>
+
+    <p>
+      This is a self-assessment tool, not a breach scanner. It does not search databases or breach records. Instead, it uses your answers to estimate patterns of personal information exposure that can make someone easier to find, contact, impersonate, or target online.
+    </p>
+
 
     <h3>Why Does Online Exposure Matter?</h3>
-    <p>When personal information like phone numbers, email addresses, or professional details are publicly accessible, they can be used for spam calls, phishing attempts, impersonation, or targeted scams. Data brokers and people-search sites often aggregate scattered pieces of information into a single, easily searchable profile — sometimes without you ever finding out. A basic online privacy check like this one is a useful starting point for understanding where you stand before deciding what, if anything, to do about it.</p>
+
+    <p>
+      When personal information such as phone numbers, email addresses, names, or professional details is publicly accessible, it can contribute to spam calls, phishing attempts, impersonation, or targeted scams. Different pieces of information can also be connected across websites, creating a more complete picture of a person than they may realise.
+    </p>
+
+    <p>
+      A Digital Exposure Score is therefore a useful starting point: it helps you identify habits and areas worth reviewing before deciding what action to take.
+    </p>
+
 
     <h3>How Is the Score Calculated?</h3>
-    <p>Each of the 8 questions in this online exposure checker assesses a specific dimension of digital exposure — from public visibility of your phone number and email, to old unused accounts and repeated usernames. Your answers are weighted by severity, so higher-risk habits contribute more to the overall score. The result is a number between 0 and 100, mapped to four risk levels: Low, Moderate, High, and Very High Exposure. The scoring logic is transparent and deterministic — the same answers will always produce the same score.</p>
+
+    <p>
+      Each of the 8 questions assesses a specific dimension of digital exposure, including contact information visibility, name discoverability, professional information, public sharing, repeated identifiers, old accounts, and suspicious contact. Answers are weighted by severity, so higher-risk answers contribute more to the overall result.
+    </p>
+
+    <p>
+      The final result is a number between 0 and 100 and is mapped to four exposure levels: Low, Moderate, High, and Very High. The scoring is deterministic, meaning the same answers produce the same score.
+    </p>
+
+
+    <h3>What Is the Difference Between the Score and a Digital Footprint Check?</h3>
+
+    <p>
+      The Digital Exposure Score is a quick self-assessment based on your answers. It does not establish what information actually appears online.
+    </p>
+
+    <p>
+      If you want to understand your broader online footprint, you can use our
+      <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Digital Footprint Checker guide</a>.
+      If you want to go beyond an estimate and check your actual exposure, the paid Scan My Shadow report checks your phone number and email across 1,500+ sources.
+    </p>
+
 
     <h3>What Can You Do Next?</h3>
-    <p>The score comes with personalised, practical recommendations based on your specific answers — not generic advice. If you want to go beyond an estimate and see exactly what's out there, <a href="https://www.scanmyshadow.com/#pricing" style="color:var(--purple);">Scan My Shadow's paid scan</a> checks your actual phone number and email address across 1,500+ breach and public data sources, with a plain-language report delivered to your inbox in minutes. You can also read our <a href="https://www.scanmyshadow.com/digital-footprint-checker/" style="color:var(--purple);">Digital Footprint Checker guide</a> to understand what a digital footprint is, read answers to common questions on our <a href="https://www.scanmyshadow.com/#faq" style="color:var(--purple);">FAQ page</a>, learn more about who runs this service on our <a href="https://www.scanmyshadow.com/about.html" style="color:var(--purple);">About page</a>, or <a href="https://www.scanmyshadow.com/contact.html" style="color:var(--purple);">get in touch</a> if you have questions.</p>
-  </div>
+
+    <p>
+      Your result includes practical recommendations based on the answers you selected. You can use those recommendations to review old accounts, public profiles, contact details, usernames, and privacy settings.
+    </p>
+
+    <p>
+      If you want to go beyond a self-assessment and see what may actually be exposed, the
+      <a href="https://www.scanmyshadow.com/#pricing">Scan My Shadow paid scan</a>
+      checks your phone number and email across 1,500+ sources and provides a plain-language digital exposure report. You can also read common privacy questions on our
+      <a href="https://www.scanmyshadow.com/#faq">FAQ page</a>,
+      learn more on our
+      <a href="https://www.scanmyshadow.com/about.html">About page</a>,
+      or
+      <a href="https://www.scanmyshadow.com/contact.html">get in touch</a>
+      if you have questions.
+    </p>
+
+  </section>
+
+
+  <!-- FAQ -->
+  <section class="faq-section" aria-labelledby="faq-title">
+
+    <h2 id="faq-title">Digital Exposure Score FAQs</h2>
+
+    <div class="faq-item">
+      <h3>What is a Digital Exposure Score?</h3>
+      <p>
+        It is a free self-assessment that estimates how exposed your personal information may be online based on eight questions about your digital habits. Your result ranges from 0 to 100 and is grouped into four exposure levels.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Does the Digital Exposure Score search the internet?</h3>
+      <p>
+        No. The score is calculated from your answers and does not search the internet, breach databases, or public records. It is an estimate rather than confirmation of actual exposure.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Does a high score mean my data has been leaked?</h3>
+      <p>
+        No. A high score means your answers indicate several factors associated with greater online exposure. It does not confirm that your information has been breached, leaked, or published in a particular place.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Are my answers stored?</h3>
+      <p>
+        No sign-up is required. The quiz calculates your result in your browser, and your answers are not submitted as scan data. Site analytics may still operate separately according to the site's analytics configuration.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What does a high Digital Exposure Score mean?</h3>
+      <p>
+        It means your answers indicate multiple areas that may make your personal information easier to discover or connect online. The recommendations shown with your result highlight practical areas you can review.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the difference between this score and the paid scan?</h3>
+      <p>
+        The Digital Exposure Score is a free self-assessment based on your answers. The paid Scan My Shadow report is designed to go beyond that estimate by checking your submitted phone number and email across 1,500+ sources and providing a digital exposure report.
+      </p>
+    </div>
+
+  </section>
 
 </main>
+
 
 <!-- FOOTER -->
 <footer class="site-footer">
   <p>&copy; <span id="footYear"></span> <a href="https://www.scanmyshadow.com">Scan My Shadow</a></p>
 </footer>
 
+
 <script>
 (function(){
+
   // === QUESTIONS ===
   var questions = [
     {
@@ -725,6 +1204,7 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
   var progressLabel = document.getElementById('progressLabel');
   var progressPct = document.getElementById('progressPct');
   var progressBar = document.getElementById('progressBar');
+
   var checkSvg = '<svg viewBox="0 0 24 24"><polyline points="5 13 10 18 19 7"/></svg>';
 
   // build step segments once
@@ -734,312 +1214,715 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
     seg.innerHTML = '<i></i>';
     progressBar.appendChild(seg);
   }
+
   var stepSegs = progressBar.querySelectorAll('.step-seg');
 
   function render(){
+
     var q = questions[current];
     var isLast = current === questions.length - 1;
 
     // progress
     progressLabel.textContent = 'Question ' + (current+1) + ' of ' + questions.length;
+
     var remaining = questions.length - current - 1;
+
     progressPct.textContent = remaining === 0 ? 'Last one' : remaining + ' left';
+
     for(var s=0;s<stepSegs.length;s++){
-      stepSegs[s].className = 'step-seg' + (s < current ? ' done' : s === current ? ' current' : '');
+      stepSegs[s].className =
+        'step-seg' +
+        (s < current ? ' done' : s === current ? ' current' : '');
     }
 
     // question
-    var html = '<div class="q-slide"><div class="q-text">' + q.text + '</div>';
-    if(q.hint) html += '<div class="q-hint">' + q.hint + '</div>';
-    else html += '<div class="q-hint" style="margin-bottom:14px"></div>';
-    html += '<div class="options">';
-    for(var i=0;i<q.options.length;i++){
-      var sel = answers[current] === i ? ' selected' : '';
-      html += '<button class="opt-btn' + sel + '" data-idx="' + i + '" type="button">' +
-        '<span class="opt-radio">' + checkSvg + '</span>' + q.options[i] + '</button>';
+    var html =
+      '<div class="q-slide">' +
+      '<div class="q-text">' + q.text + '</div>';
+
+    if(q.hint){
+      html += '<div class="q-hint">' + q.hint + '</div>';
+    }else{
+      html += '<div class="q-hint" style="margin-bottom:14px"></div>';
     }
+
+    html += '<div class="options">';
+
+    for(var i=0;i<q.options.length;i++){
+
+      var sel = answers[current] === i ? ' selected' : '';
+
+      html +=
+        '<button class="opt-btn' + sel + '" data-idx="' + i + '" type="button">' +
+        '<span class="opt-radio">' + checkSvg + '</span>' +
+        q.options[i] +
+        '</button>';
+    }
+
     html += '</div></div>';
+
     questionArea.innerHTML = html;
 
-    // wire option clicks — toggle selection in place (no re-render, so the
-    // slide-in only plays on question change, not on every tap)
+    // wire option clicks
     var opts = questionArea.querySelectorAll('.opt-btn');
+
     for(var j=0;j<opts.length;j++){
+
       opts[j].addEventListener('click', function(){
+
         var idx = parseInt(this.getAttribute('data-idx'));
+
         answers[current] = idx;
-        for(var k=0;k<opts.length;k++){ opts[k].classList.remove('selected'); }
+
+        for(var k=0;k<opts.length;k++){
+          opts[k].classList.remove('selected');
+        }
+
         this.classList.add('selected');
+
         btnNext.disabled = false;
       });
+
     }
 
     // nav
     btnBack.style.display = current === 0 ? 'none' : 'flex';
+
     btnNext.disabled = answers[current] === -1;
+
     btnNext.innerHTML = isLast ?
+
       'See My Score <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>' :
+
       'Next <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>';
   }
 
+
   btnBack.addEventListener('click', function(){
-    if(current > 0){ current--; render(); }
+
+    if(current > 0){
+      current--;
+      render();
+    }
+
   });
+
 
   btnNext.addEventListener('click', function(){
+
     if(answers[current] === -1) return;
+
     if(current < questions.length - 1){
+
       current++;
       render();
-    } else {
+
+    }else{
+
       showResults();
+
     }
+
   });
 
+
   function showResults(){
+
     // score
     var raw = 0;
-    for(var i=0;i<answers.length;i++) raw += questions[i].points[answers[i]];
+
+    for(var i=0;i<answers.length;i++){
+      raw += questions[i].points[answers[i]];
+    }
+
     var score = Math.round(raw / 2);
+
 
     // risk level
     var level, levelClass, summary;
+
     if(score < 25){
-      level = 'LOW EXPOSURE'; levelClass = 'risk-low';
-      summary = 'Your answers suggest a relatively low level of online exposure. Your personal information does not appear to be widely accessible based on your habits.';
-    } else if(score < 50){
-      level = 'MODERATE EXPOSURE'; levelClass = 'risk-moderate';
-      summary = 'Your answers suggest a moderate level of online exposure. Some of your personal information may be accessible through common channels.';
-    } else if(score < 75){
-      level = 'HIGH EXPOSURE'; levelClass = 'risk-high';
-      summary = 'Your answers suggest that several pieces of information about you may be relatively easy to discover online.';
-    } else {
-      level = 'VERY HIGH EXPOSURE'; levelClass = 'risk-veryhigh';
-      summary = 'Your answers suggest significant online exposure. Multiple types of personal information may be readily accessible to anyone looking.';
+
+      level = 'LOW EXPOSURE';
+      levelClass = 'risk-low';
+
+      summary =
+        'Your answers suggest a relatively low level of online exposure. Your personal information does not appear to be widely accessible based on your habits.';
+
+    }else if(score < 50){
+
+      level = 'MODERATE EXPOSURE';
+      levelClass = 'risk-moderate';
+
+      summary =
+        'Your answers suggest a moderate level of online exposure. Some of your personal information may be accessible through common channels.';
+
+    }else if(score < 75){
+
+      level = 'HIGH EXPOSURE';
+      levelClass = 'risk-high';
+
+      summary =
+        'Your answers suggest that several pieces of information about you may be relatively easy to discover online.';
+
+    }else{
+
+      level = 'VERY HIGH EXPOSURE';
+      levelClass = 'risk-veryhigh';
+
+      summary =
+        'Your answers suggest significant online exposure. Multiple types of personal information may be readily accessible to anyone looking.';
+
     }
 
-    // factors (show top contributors, score > 0)
+
+    // factors
     var factors = [];
     var recs = [];
+
     for(var i=0;i<answers.length;i++){
+
       if(questions[i].points[answers[i]] > 0){
-        factors.push({ text: questions[i].factor, severity: questions[i].points[answers[i]] });
+
+        factors.push({
+          text: questions[i].factor,
+          severity: questions[i].points[answers[i]]
+        });
+
         recs.push(questions[i].rec);
       }
+
     }
-    factors.sort(function(a,b){ return b.severity - a.severity; });
+
+    factors.sort(function(a,b){
+      return b.severity - a.severity;
+    });
+
 
     // always show at least one general rec
     if(recs.length === 0){
-      recs.push('Continue practising good digital hygiene — review your privacy settings periodically');
+
+      recs.push(
+        'Continue practising good digital hygiene — review your privacy settings periodically'
+      );
+
     }
+
 
     // hide quiz, show results
     quizArea.style.display = 'none';
     resultsArea.classList.add('visible');
-    window.scrollTo({ top: document.getElementById('quizCard').offsetTop - 80, behavior: 'smooth' });
+
+    window.scrollTo({
+      top: document.getElementById('quizCard').offsetTop - 80,
+      behavior: 'smooth'
+    });
+
 
     // animate score ring
-    var circumference = 2 * Math.PI * 78; // ~490
+    var circumference = 2 * Math.PI * 78;
+
     var ring = document.getElementById('scoreRing');
-    var offset = circumference - (score / 100) * circumference;
-    var ringColor = score < 25 ? 'var(--ok)' : score < 50 ? 'var(--warn)' : score < 75 ? '#EA580C' : 'var(--danger)';
+
+    var offset =
+      circumference -
+      (score / 100) * circumference;
+
+    var ringColor =
+      score < 25
+        ? 'var(--ok)'
+        : score < 50
+          ? 'var(--warn)'
+          : score < 75
+            ? '#EA580C'
+            : 'var(--danger)';
+
     ring.style.stroke = ringColor;
-    setTimeout(function(){ ring.style.strokeDashoffset = offset; }, 80);
+
+    setTimeout(function(){
+      ring.style.strokeDashoffset = offset;
+    },80);
+
+
     var ringGlow = document.getElementById('ringGlow');
+
     ringGlow.style.background = ringColor;
     ringGlow.classList.add('on');
 
+
     // animate number
     var scoreEl = document.getElementById('scoreVal');
+
     var counter = 0;
-    var step = Math.max(1, Math.floor(score / 40));
+
+    var step = Math.max(
+      1,
+      Math.floor(score / 40)
+    );
+
     var iv = setInterval(function(){
+
       counter += step;
-      if(counter >= score){ counter = score; clearInterval(iv); }
+
+      if(counter >= score){
+
+        counter = score;
+        clearInterval(iv);
+
+      }
+
       scoreEl.textContent = counter;
-    }, 30);
+
+    },30);
+
     scoreEl.style.color = ringColor;
 
+
     // badge
-    document.getElementById('riskBadge').className = 'risk-badge ' + levelClass;
-    document.getElementById('riskBadge').textContent = level;
+    document.getElementById('riskBadge').className =
+      'risk-badge ' + levelClass;
+
+    document.getElementById('riskBadge').textContent =
+      level;
+
 
     // summary
-    document.getElementById('resultSummary').textContent = summary;
+    document.getElementById('resultSummary').textContent =
+      summary;
 
-    // factors list — build hidden, then stagger each item in
-    var factorsList = document.getElementById('factorsList');
+
+    // factors
+    var factorsList =
+      document.getElementById('factorsList');
+
     factorsList.innerHTML = '';
-    var dotColors = { 25: 'var(--danger)', 16: '#EA580C', 8: 'var(--warn)' };
+
+    var dotColors = {
+      25: 'var(--danger)',
+      16: '#EA580C',
+      8: 'var(--warn)'
+    };
+
     if(factors.length === 0){
-      factorsList.innerHTML = '<div class="factor-item in" style="border:none;color:var(--ok)">No major risk factors detected based on your answers.</div>';
-    } else {
+
+      factorsList.innerHTML =
+        '<div class="factor-item in" style="border:none;color:var(--ok)">No major risk factors detected based on your answers.</div>';
+
+    }else{
+
       for(var i=0;i<factors.length && i<5;i++){
+
         (function(f,idx){
-          var dc = dotColors[f.severity] || 'var(--warn)';
-          var d = document.createElement('div');
+
+          var dc =
+            dotColors[f.severity] ||
+            'var(--warn)';
+
+          var d =
+            document.createElement('div');
+
           d.className = 'factor-item';
-          d.innerHTML = '<span class="factor-dot" style="background:' + dc + '"></span>' + f.text;
+
+          d.innerHTML =
+            '<span class="factor-dot" style="background:' +
+            dc +
+            '"></span>' +
+            f.text;
+
           factorsList.appendChild(d);
-          setTimeout(function(){ d.classList.add('in'); }, 550 + idx*90);
+
+          setTimeout(function(){
+            d.classList.add('in');
+          },550 + idx*90);
+
         })(factors[i], i);
+
       }
+
     }
 
-    // recs list — same staggered reveal, slightly after the factors
-    var recsList = document.getElementById('recsList');
+
+    // recommendations
+    var recsList =
+      document.getElementById('recsList');
+
     recsList.innerHTML = '';
+
     var shown = [];
     var shownCount = 0;
+
     for(var i=0;i<recs.length && shownCount<5;i++){
+
       if(shown.indexOf(recs[i]) === -1){
+
         shown.push(recs[i]);
+
         (function(text,idx){
-          var d = document.createElement('div');
+
+          var d =
+            document.createElement('div');
+
           d.className = 'rec-item';
-          d.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>' + text;
+
+          d.innerHTML =
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">' +
+            '<polyline points="20 6 9 17 4 12"/>' +
+            '</svg>' +
+            text;
+
           recsList.appendChild(d);
-          setTimeout(function(){ d.classList.add('in'); }, 900 + idx*90);
+
+          setTimeout(function(){
+            d.classList.add('in');
+          },900 + idx*90);
+
         })(recs[i], shownCount);
+
         shownCount++;
+
       }
+
     }
+
 
     // GA4 event
     if(typeof gtag === 'function'){
+
       gtag('event', 'exposure_score_complete', {
         score: score,
         risk_level: level
       });
+
     }
+
 
     // store score for sharing
     window._desScore = score;
     window._desLevel = level;
+
   }
+
 
   // share
   function shareText(){
+
     var s = window._desScore || 0;
     var l = window._desLevel || '';
-    return 'I scored ' + s + '/100 (' + l + ') on the Digital Exposure Score by Scan My Shadow. Check yours: https://www.scanmyshadow.com/tools/digital-exposure-score/';
+
+    return 'I scored ' +
+      s +
+      '/100 (' +
+      l +
+      ') on the Digital Exposure Score by Scan My Shadow. Check yours: https://www.scanmyshadow.com/tools/digital-exposure-score/';
+
   }
 
+
   document.getElementById('shareWA').addEventListener('click', function(){
-    window.open('https://wa.me/?text=' + encodeURIComponent(shareText()), '_blank');
+
+    window.open(
+      'https://wa.me/?text=' +
+      encodeURIComponent(shareText()),
+      '_blank'
+    );
+
   });
+
 
   document.getElementById('shareX').addEventListener('click', function(){
-    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText()), '_blank');
+
+    window.open(
+      'https://twitter.com/intent/tweet?text=' +
+      encodeURIComponent(shareText()),
+      '_blank'
+    );
+
   });
+
 
   document.getElementById('shareCopy').addEventListener('click', function(){
+
     var btn = this;
+
     navigator.clipboard.writeText(shareText()).then(function(){
+
       btn.classList.add('copied');
-      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> Copied!';
+
+      btn.innerHTML =
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">' +
+        '<polyline points="20 6 9 17 4 12"/>' +
+        '</svg> Copied!';
+
       setTimeout(function(){
+
         btn.classList.remove('copied');
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy Link';
-      }, 2000);
+
+        btn.innerHTML =
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">' +
+          '<rect x="9" y="9" width="13" height="13" rx="2"/>' +
+          '<path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>' +
+          '</svg> Copy Link';
+
+      },2000);
+
     });
+
   });
 
-  // CTA click tracking (link navigates to #pricing directly)
+
+  // CTA click tracking
   document.getElementById('ctaBtn').addEventListener('click', function(){
+
     if(typeof gtag === 'function'){
-      gtag('event', 'exposure_score_cta_click', { score: window._desScore || 0 });
+
+      gtag('event', 'exposure_score_cta_click', {
+        score: window._desScore || 0
+      });
+
     }
+
   });
+
 
   // retake
   document.getElementById('retakeBtn').addEventListener('click', function(){
-    answers = new Array(questions.length).fill(-1);
+
+    answers =
+      new Array(questions.length).fill(-1);
+
     current = 0;
+
     resultsArea.classList.remove('visible');
+
     quizArea.style.display = 'block';
-    var ring = document.getElementById('scoreRing');
+
+    var ring =
+      document.getElementById('scoreRing');
+
     ring.style.strokeDashoffset = 490;
-    document.getElementById('ringGlow').classList.remove('on');
+
+    document.getElementById('ringGlow')
+      .classList.remove('on');
+
     render();
-    window.scrollTo({ top: document.getElementById('intro').offsetTop - 20, behavior: 'smooth' });
+
+    window.scrollTo({
+      top: document.getElementById('intro').offsetTop - 20,
+      behavior: 'smooth'
+    });
+
   });
 
+
   // footer year
-  document.getElementById('footYear').textContent = new Date().getFullYear();
+  document.getElementById('footYear').textContent =
+    new Date().getFullYear();
+
 
   // init
   render();
+
 })();
 </script>
 
-  <script src="/assets/geo-price.js"></script>
+
+<script src="/assets/geo-price.js"></script>
+
+
 <script>
   var nav = document.getElementById('nav');
-  window.addEventListener('scroll', function(){ nav.classList.toggle('scrolled', window.scrollY > 8); });
-  var navToggle = document.getElementById('navToggle');
-  var mobileMenu = document.getElementById('mobileMenu');
+
+  window.addEventListener('scroll', function(){
+    nav.classList.toggle(
+      'scrolled',
+      window.scrollY > 8
+    );
+  });
+
+
+  var navToggle =
+    document.getElementById('navToggle');
+
+  var mobileMenu =
+    document.getElementById('mobileMenu');
+
+
   if(navToggle && mobileMenu){
+
     navToggle.addEventListener('click', function(){
-      var open = mobileMenu.classList.toggle('open');
-      navToggle.classList.toggle('open', open);
-      navToggle.setAttribute('aria-expanded', open);
+
+      var open =
+        mobileMenu.classList.toggle('open');
+
+      navToggle.classList.toggle(
+        'open',
+        open
+      );
+
+      navToggle.setAttribute(
+        'aria-expanded',
+        open
+      );
+
     });
-    Array.prototype.forEach.call(mobileMenu.querySelectorAll('a'), function(a){
-      a.addEventListener('click', function(){
-        mobileMenu.classList.remove('open');
-        navToggle.classList.remove('open');
-        navToggle.setAttribute('aria-expanded', 'false');
-      });
-    });
+
+
+    Array.prototype.forEach.call(
+      mobileMenu.querySelectorAll('a'),
+      function(a){
+
+        a.addEventListener('click', function(){
+
+          mobileMenu.classList.remove('open');
+
+          navToggle.classList.remove('open');
+
+          navToggle.setAttribute(
+            'aria-expanded',
+            'false'
+          );
+
+        });
+
+      }
+    );
+
   }
-  var toolsTrigger = document.getElementById('toolsTrigger');
-  var toolsDropdown = document.getElementById('toolsDropdown');
+
+
+  var toolsTrigger =
+    document.getElementById('toolsTrigger');
+
+  var toolsDropdown =
+    document.getElementById('toolsDropdown');
+
+
   if(toolsTrigger && toolsDropdown){
+
     toolsTrigger.addEventListener('click', function(e){
+
       e.stopPropagation();
-      var open = toolsDropdown.classList.toggle('open');
-      toolsTrigger.classList.toggle('open', open);
-      toolsTrigger.setAttribute('aria-expanded', open);
+
+      var open =
+        toolsDropdown.classList.toggle('open');
+
+      toolsTrigger.classList.toggle(
+        'open',
+        open
+      );
+
+      toolsTrigger.setAttribute(
+        'aria-expanded',
+        open
+      );
+
     });
+
+
     document.addEventListener('click', function(e){
-      if(!toolsDropdown.contains(e.target) && e.target !== toolsTrigger){
+
+      if(
+        !toolsDropdown.contains(e.target) &&
+        e.target !== toolsTrigger
+      ){
+
         toolsDropdown.classList.remove('open');
+
         toolsTrigger.classList.remove('open');
-        toolsTrigger.setAttribute('aria-expanded', 'false');
+
+        toolsTrigger.setAttribute(
+          'aria-expanded',
+          'false'
+        );
+
       }
+
     });
+
+
     document.addEventListener('keydown', function(e){
+
       if(e.key === 'Escape'){
+
         toolsDropdown.classList.remove('open');
+
         toolsTrigger.classList.remove('open');
-        toolsTrigger.setAttribute('aria-expanded', 'false');
+
+        toolsTrigger.setAttribute(
+          'aria-expanded',
+          'false'
+        );
+
       }
+
     });
+
   }
-  var mobileToolsToggle = document.getElementById('mobileToolsToggle');
-  var mobileToolsPanel = document.getElementById('mobileToolsPanel');
+
+
+  var mobileToolsToggle =
+    document.getElementById('mobileToolsToggle');
+
+  var mobileToolsPanel =
+    document.getElementById('mobileToolsPanel');
+
+
   if(mobileToolsToggle && mobileToolsPanel){
+
     mobileToolsToggle.addEventListener('click', function(){
-      var open = mobileToolsPanel.classList.toggle('open');
-      mobileToolsToggle.classList.toggle('open', open);
-      mobileToolsToggle.setAttribute('aria-expanded', open);
+
+      var open =
+        mobileToolsPanel.classList.toggle('open');
+
+      mobileToolsToggle.classList.toggle(
+        'open',
+        open
+      );
+
+      mobileToolsToggle.setAttribute(
+        'aria-expanded',
+        open
+      );
+
     });
+
   }
+
 </script>
+
+
 <script>
   document.querySelectorAll('[data-particles]').forEach(function(box){
+
     for(var i=0;i<14;i++){
-      var s=document.createElement('i');
-      s.style.left=(Math.random()*100)+'%';
-      s.style.animationDuration=(7+Math.random()*7)+'s';
-      s.style.animationDelay=(-Math.random()*10)+'s';
-      var sc=0.6+Math.random()*1.3;
-      s.style.width=(3*sc)+'px'; s.style.height=(3*sc)+'px';
+
+      var s =
+        document.createElement('i');
+
+      s.style.left =
+        (Math.random()*100) + '%';
+
+      s.style.animationDuration =
+        (7 + Math.random()*7) + 's';
+
+      s.style.animationDelay =
+        (-Math.random()*10) + 's';
+
+      var sc =
+        0.6 + Math.random()*1.3;
+
+      s.style.width =
+        (3*sc) + 'px';
+
+      s.style.height =
+        (3*sc) + 'px';
+
       box.appendChild(s);
+
     }
+
   });
 </script>
+
 </body>
 </html>
