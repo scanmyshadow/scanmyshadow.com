@@ -141,21 +141,23 @@ gtag('config','G-S4P3YTNEDY');
 <style>
 :root{
 --bg:#fff;
---bg-tint:#FAF9FF;
---ink:#15121F;
---ink-soft:#605C73;
---ink-faint:#908DA3;
+--bg-tint:#F8F6FF;
+--ink:#100C1C;
+--ink-soft:#57536B;
+--ink-faint:#9692A8;
 --purple:#7B5CFA;
---purple-deep:#5A3FE0;
+--purple-deep:#4B2FD6;
+--purple-ink:#251564;
 --purple-mist:#F1EEFE;
---line:#E9E7F5;
---line-soft:#F0EEF9;
+--line:#E9E6F6;
+--line-soft:#F1EFFA;
 --card:#FBFAFF;
 --ok:#16A34A;
---warn:#D97706;
---shadow-sm:0 2px 8px rgba(43,29,102,.05);
---shadow-md:0 14px 40px rgba(43,29,102,.09);
---shadow-lg:0 30px 80px rgba(43,29,102,.14)
+--warn:#B7791F;
+--shadow-sm:0 2px 10px rgba(37,21,100,.06);
+--shadow-md:0 18px 44px rgba(37,21,100,.10);
+--shadow-lg:0 40px 100px rgba(20,10,64,.20);
+--shadow-purple:0 18px 40px rgba(123,92,250,.28)
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
@@ -171,13 +173,26 @@ color:var(--ink);
 font-family:Inter,system-ui,sans-serif;
 -webkit-font-smoothing:antialiased;
 line-height:1.5;
-overflow-x:hidden
+overflow-x:hidden;
+position:relative
+}
+
+/* subtle premium grain — tactile, static, non-distracting */
+body::before{
+content:"";
+position:fixed;
+inset:0;
+z-index:1;
+pointer-events:none;
+opacity:.025;
+mix-blend-mode:multiply;
+background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")
 }
 
 a{color:inherit}
 
 .wrap{
-max-width:1080px;
+max-width:1120px;
 margin:0 auto;
 padding:0 24px
 }
@@ -192,12 +207,22 @@ padding:0 24px
 font-family:"Space Grotesk",sans-serif
 }
 
-.eyebrow{
-font-size:12px;
+.kicker{
+display:inline-flex;
+align-items:center;
+gap:9px;
+font-size:13px;
 font-weight:600;
-color:var(--purple);
-letter-spacing:.09em;
-text-transform:uppercase
+color:var(--purple-deep)
+}
+
+.kicker::before{
+content:"";
+width:7px;
+height:7px;
+border-radius:2px;
+background:var(--purple);
+flex-shrink:0
 }
 
 ::selection{
@@ -211,23 +236,24 @@ header.nav{
 position:sticky;
 top:0;
 z-index:80;
-background:rgba(255,255,255,.72);
-backdrop-filter:saturate(180%) blur(14px);
+background:rgba(255,255,255,.78);
+backdrop-filter:saturate(180%) blur(16px);
 border-bottom:1px solid transparent;
 transition:border-color .25s ease,background .25s ease
 }
 
 header.nav.scrolled{
 border-color:var(--line);
-background:rgba(255,255,255,.86)
+background:rgba(255,255,255,.9);
+box-shadow:0 1px 0 rgba(37,21,100,.03)
 }
 
 .nav-inner{
 display:flex;
 justify-content:space-between;
 align-items:center;
-height:66px;
-max-width:1080px;
+height:70px;
+max-width:1120px;
 margin:0 auto;
 padding:0 24px
 }
@@ -309,7 +335,7 @@ display:flex
 .nav-links{
 display:flex;
 align-items:center;
-gap:28px
+gap:30px
 }
 
 .nav-link{
@@ -324,26 +350,21 @@ color:var(--ink)
 }
 
 .nav-pill{
-font-size:14.85px;
+font-size:14.5px;
 font-weight:600;
 color:#fff;
-background:var(--purple);
-border-radius:999px;
+background:linear-gradient(155deg,var(--purple) 0%,var(--purple-deep) 100%);
+border-radius:11px;
 padding:11px 22px;
 text-decoration:none;
-box-shadow:0 8px 20px rgba(123,92,250,.28);
-transition:transform .18s ease,box-shadow .18s ease;
-position:relative;
-animation:cta-glow 2.8s ease-in-out infinite
-}
-
-@keyframes cta-glow{
-0%,100%{box-shadow:0 8px 20px rgba(123,92,250,.28)}
-50%{box-shadow:0 8px 26px rgba(123,92,250,.55)}
+box-shadow:0 10px 24px rgba(75,47,214,.30),inset 0 1px 0 rgba(255,255,255,.16);
+transition:transform .2s cubic-bezier(.2,.8,.2,1),box-shadow .2s ease;
+position:relative
 }
 
 .nav-pill:hover{
-transform:translateY(-1px)
+transform:translateY(-1px);
+box-shadow:0 14px 30px rgba(75,47,214,.38),inset 0 1px 0 rgba(255,255,255,.2)
 }
 
 .cta-short{
@@ -397,7 +418,7 @@ flex-shrink:1
 
 .nav-pill{
 flex-shrink:0;
-font-size:13.75px;
+font-size:13.5px;
 padding:10px 17px;
 white-space:nowrap;
 order:3
@@ -432,13 +453,41 @@ padding:9px 14px
 /* HERO */
 
 .page-hero{
-padding:56px 0 8px
+padding:76px 0 32px;
+position:relative
+}
+
+.hero-glow{
+position:absolute;
+top:-120px;
+right:-160px;
+width:520px;
+height:520px;
+background:radial-gradient(circle,rgba(123,92,250,.16),transparent 70%);
+pointer-events:none;
+z-index:0
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1.15fr .85fr;
+gap:56px;
+align-items:center;
+position:relative;
+z-index:1
+}
+
+@media(max-width:900px){
+.hero-grid{
+grid-template-columns:1fr;
+gap:40px
+}
 }
 
 .breadcrumb{
 font-size:12.5px;
 color:var(--ink-faint);
-margin-bottom:18px
+margin-bottom:22px
 }
 
 .breadcrumb a{
@@ -453,22 +502,22 @@ color:var(--purple)
 h1{
 font-family:"Space Grotesk";
 font-weight:600;
-letter-spacing:-.015em;
-font-size:clamp(28px,5vw,44px);
-line-height:1.14;
-max-width:20ch
+letter-spacing:-.022em;
+font-size:clamp(32px,4.6vw,52px);
+line-height:1.08;
+max-width:17ch
 }
 
 .page-sub{
-font-size:16px;
+font-size:16.5px;
 color:var(--ink-soft);
-max-width:690px;
-margin-top:16px;
+max-width:52ch;
+margin-top:18px;
 line-height:1.65
 }
 
 section.block{
-padding:56px 0
+padding:88px 0
 }
 
 .section-line{
@@ -477,20 +526,20 @@ border-top:1px solid var(--line)
 
 .sec-head{
 max-width:720px;
-margin:0 0 28px
+margin:0 0 32px
 }
 
-.sec-head .eyebrow{
-display:block;
-margin-bottom:12px
+.sec-head .kicker{
+display:inline-flex;
+margin-bottom:14px
 }
 
 h2{
 font-family:"Space Grotesk";
 font-weight:600;
-font-size:clamp(21px,3.2vw,28px);
-line-height:1.22;
-letter-spacing:-.01em
+font-size:clamp(23px,3vw,32px);
+line-height:1.2;
+letter-spacing:-.015em
 }
 
 h3{
@@ -502,14 +551,14 @@ color:var(--ink)
 }
 
 .prose{
-max-width:720px
+max-width:680px
 }
 
 .prose p{
-font-size:15.5px;
+font-size:16px;
 color:var(--ink-soft);
 line-height:1.75;
-margin-bottom:16px
+margin-bottom:17px
 }
 
 .prose p strong{
@@ -523,26 +572,27 @@ margin:0 0 16px
 }
 
 .prose li{
-font-size:15.5px;
+font-size:16px;
 color:var(--ink-soft);
-line-height:1.7;
-margin-bottom:8px
+line-height:1.72;
+margin-bottom:9px
 }
 
 .prose a{
-color:var(--purple);
+color:var(--purple-deep);
 text-decoration:underline;
-text-decoration-color:rgba(123,92,250,.35)
+text-decoration-color:rgba(123,92,250,.35);
+text-underline-offset:2px
 }
 
 .callout{
 background:var(--card);
 border:1px solid var(--line);
-border-left:4px solid var(--purple);
-border-radius:12px;
-padding:18px 22px;
-margin:20px 0 24px;
-max-width:720px
+border-left:3px solid var(--purple);
+border-radius:4px 14px 14px 4px;
+padding:19px 23px;
+margin:22px 0 26px;
+max-width:680px
 }
 
 .callout-title{
@@ -570,33 +620,45 @@ background:#FFFBF2
 }
 
 .tldr{
-border-left:3px solid var(--purple);
-background:var(--card);
-border-radius:0 12px 12px 0;
-padding:14px 18px;
-margin:22px 0 6px;
-max-width:720px
+position:relative;
+background:linear-gradient(180deg,var(--card),#fff);
+border:1px solid var(--line);
+border-radius:16px;
+padding:20px 24px;
+margin:24px 0 8px;
+max-width:640px;
+box-shadow:var(--shadow-sm)
+}
+
+.tldr::before{
+content:"";
+position:absolute;
+left:0;
+top:14px;
+bottom:14px;
+width:3px;
+border-radius:3px;
+background:linear-gradient(180deg,var(--purple),var(--purple-deep))
 }
 
 .tldr p{
 font-size:14.5px;
-line-height:1.6;
+line-height:1.65;
 margin:0;
-font-style:italic;
-color:var(--ink)
+color:var(--ink-soft)
 }
 
 .tldr strong{
-font-style:normal;
 color:var(--purple-deep);
 font-weight:700
 }
 
 .hero-cta{
 display:flex;
-gap:12px;
+gap:14px;
 flex-wrap:wrap;
-margin-top:22px
+margin-top:26px;
+align-items:center
 }
 
 .btn-primary,
@@ -605,16 +667,30 @@ display:inline-flex;
 align-items:center;
 justify-content:center;
 border-radius:12px;
-padding:13px 19px;
+padding:15px 24px;
 text-decoration:none;
-font-size:14px;
-font-weight:600
+font-size:14.5px;
+font-weight:600;
+transition:transform .22s cubic-bezier(.2,.8,.2,1),box-shadow .22s ease
 }
 
 .btn-primary{
-background:var(--purple);
+background:linear-gradient(155deg,var(--purple) 0%,var(--purple-deep) 100%);
 color:#fff;
-box-shadow:0 8px 20px rgba(123,92,250,.25)
+box-shadow:var(--shadow-purple),inset 0 1px 0 rgba(255,255,255,.18);
+position:relative;
+overflow:hidden;
+animation:cta-breathe 4.5s ease-in-out infinite
+}
+
+@keyframes cta-breathe{
+0%,100%{box-shadow:var(--shadow-purple),inset 0 1px 0 rgba(255,255,255,.18)}
+50%{box-shadow:0 22px 52px rgba(75,47,214,.4),inset 0 1px 0 rgba(255,255,255,.22)}
+}
+
+.btn-primary:hover{
+transform:translateY(-2px);
+box-shadow:0 24px 56px rgba(75,47,214,.44),inset 0 1px 0 rgba(255,255,255,.22)
 }
 
 .btn-secondary{
@@ -622,10 +698,48 @@ background:var(--purple-mist);
 color:var(--purple-deep)
 }
 
+.btn-secondary:hover{
+transform:translateY(-1px)
+}
+
+@media(prefers-reduced-motion:reduce){
+.btn-primary{
+animation:none
+}
+}
+
+.trust-strip{
+display:flex;
+flex-wrap:wrap;
+gap:26px;
+margin-top:34px;
+padding-top:22px;
+border-top:1px solid var(--line-soft)
+}
+
+.trust-item{
+display:flex;
+flex-direction:column;
+gap:2px
+}
+
+.trust-item .num{
+font-family:"Space Grotesk";
+font-weight:700;
+font-size:19px;
+color:var(--ink)
+}
+
+.trust-item .label{
+font-size:12.5px;
+color:var(--ink-faint)
+}
+
 @media(max-width:600px){
 
 .hero-cta{
-flex-direction:column
+flex-direction:column;
+align-items:stretch
 }
 
 .btn-primary,
@@ -634,12 +748,133 @@ width:100%
 }
 }
 
+/* HERO MOCK PANEL */
+
+.hero-mock{
+background:linear-gradient(165deg,#1B1330 0%,var(--purple-ink) 60%,#150E32 100%);
+border-radius:22px;
+padding:28px;
+box-shadow:var(--shadow-lg);
+position:relative;
+overflow:hidden
+}
+
+.hero-mock::after{
+content:"";
+position:absolute;
+inset:0;
+background:radial-gradient(circle at 80% 0%,rgba(123,92,250,.35),transparent 55%);
+pointer-events:none
+}
+
+.mock-head{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-bottom:18px;
+position:relative;
+z-index:1
+}
+
+.mock-title{
+font-family:"Space Grotesk";
+font-size:13px;
+font-weight:600;
+color:#fff
+}
+
+.mock-badge{
+font-size:11px;
+font-weight:600;
+color:#B9A8FF;
+background:rgba(123,92,250,.18);
+border:1px solid rgba(123,92,250,.35);
+border-radius:999px;
+padding:4px 10px
+}
+
+.mock-row{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:14px;
+padding:13px 14px;
+border-radius:11px;
+background:rgba(255,255,255,.045);
+border:1px solid rgba(255,255,255,.07);
+margin-bottom:9px;
+position:relative;
+z-index:1
+}
+
+.mock-row .src{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:13px;
+color:#E7E2FA
+}
+
+.mock-dot{
+width:7px;
+height:7px;
+border-radius:50%;
+flex-shrink:0
+}
+
+.mock-dot.hit{background:#F2A94C}
+.mock-dot.clear{background:#34D399}
+
+.mock-tag{
+font-size:11px;
+font-weight:600;
+padding:3px 9px;
+border-radius:999px
+}
+
+.mock-tag.hit{
+color:#F2A94C;
+background:rgba(242,169,76,.14)
+}
+
+.mock-tag.clear{
+color:#34D399;
+background:rgba(52,211,153,.14)
+}
+
+.mock-foot{
+margin-top:16px;
+padding-top:16px;
+border-top:1px solid rgba(255,255,255,.08);
+display:flex;
+align-items:center;
+justify-content:space-between;
+position:relative;
+z-index:1
+}
+
+.mock-foot .score-label{
+font-size:11.5px;
+color:#A79EC9
+}
+
+.mock-foot .score{
+font-family:"Space Grotesk";
+font-size:22px;
+font-weight:700;
+color:#fff
+}
+
 /* CARDS */
 
 .grid3{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:16px
+gap:1px;
+background:var(--line);
+border:1px solid var(--line);
+border-radius:18px;
+overflow:hidden
 }
 
 @media(max-width:760px){
@@ -648,36 +883,36 @@ grid-template-columns:1fr
 }
 }
 
-.grid2{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:16px
-}
-
-@media(max-width:760px){
-.grid2{
-grid-template-columns:1fr
-}
-}
-
 .info-card{
-background:var(--card);
-border:1px solid var(--line);
-border-radius:18px;
-padding:24px 22px
+background:#fff;
+padding:30px 26px;
+transition:background .2s ease
+}
+
+.info-card:hover{
+background:var(--bg-tint)
+}
+
+.info-card .idx{
+font-family:"Space Grotesk";
+font-size:12px;
+font-weight:600;
+color:var(--purple);
+margin-bottom:14px;
+display:block
 }
 
 .info-card .title{
 font-weight:600;
-font-size:15px;
-margin-bottom:6px;
+font-size:15.5px;
+margin-bottom:8px;
 font-family:"Space Grotesk"
 }
 
 .info-card .desc{
 font-size:13.5px;
 color:var(--ink-soft);
-line-height:1.6
+line-height:1.65
 }
 
 /* STEPS */
@@ -685,49 +920,68 @@ line-height:1.6
 .steps{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:16px;
-counter-reset:step
+gap:0;
+position:relative
 }
 
 @media(max-width:760px){
 .steps{
-grid-template-columns:1fr
+grid-template-columns:1fr;
+gap:20px
 }
 }
 
 .step-card{
-background:#fff;
-border:1px solid var(--line);
-border-radius:18px;
-padding:26px 22px 22px;
-box-shadow:0 10px 30px rgba(43,29,102,.06)
+padding:0 26px 0 0;
+position:relative
+}
+
+.step-card:not(:last-child)::after{
+content:"";
+position:absolute;
+top:19px;
+right:0;
+width:26px;
+height:1px;
+background:var(--line)
+}
+
+@media(max-width:760px){
+.step-card:not(:last-child)::after{
+display:none
+}
+.step-card{
+padding-right:0
+}
 }
 
 .step-num{
-width:34px;
-height:34px;
-border-radius:10px;
-background:var(--purple);
-color:#fff;
+width:38px;
+height:38px;
+border-radius:50%;
+border:1.5px solid var(--purple);
+color:var(--purple-deep);
 font-family:"Space Grotesk";
 font-weight:700;
 font-size:14px;
 display:flex;
 align-items:center;
 justify-content:center;
-margin-bottom:14px
+margin-bottom:18px;
+background:var(--purple-mist)
 }
 
 .step-card .title{
 font-weight:600;
-font-size:14.5px;
-margin-bottom:5px
+font-size:15px;
+margin-bottom:6px;
+font-family:"Space Grotesk"
 }
 
 .step-card .desc{
 font-size:13.5px;
 color:var(--ink-soft);
-line-height:1.55
+line-height:1.6
 }
 
 /* RELATED LINKS */
@@ -736,7 +990,7 @@ line-height:1.55
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:14px;
-max-width:960px
+max-width:1000px
 }
 
 @media(max-width:760px){
@@ -750,23 +1004,22 @@ display:block;
 background:#fff;
 border:1px solid var(--line);
 border-radius:14px;
-padding:18px 20px;
+padding:20px 22px;
 text-decoration:none;
-transition:border-color .2s ease,transform .15s ease
+transition:border-color .2s ease,transform .18s cubic-bezier(.2,.8,.2,1),box-shadow .2s ease
 }
 
 .linkcard:hover{
 border-color:var(--purple);
-transform:translateY(-2px)
+transform:translateY(-3px);
+box-shadow:var(--shadow-md)
 }
 
 .linkcard .lc-eyebrow{
-font-size:11px;
+font-size:11.5px;
 font-weight:600;
-color:var(--purple);
-text-transform:uppercase;
-letter-spacing:.06em;
-margin-bottom:6px
+color:var(--purple-deep);
+margin-bottom:7px
 }
 
 .linkcard .lc-title{
@@ -779,9 +1032,11 @@ font-family:"Space Grotesk"
 /* CTA BAND */
 
 .cta-band{
-background:var(--ink);
-border-radius:24px;
-padding:44px 40px;
+background:radial-gradient(circle at 20% -10%,#2C1B78,transparent 55%),
+           radial-gradient(circle at 90% 110%,#3A1F8F,transparent 50%),
+           linear-gradient(160deg,#120C24,#0C0917 70%);
+border-radius:26px;
+padding:56px 40px;
 text-align:center;
 position:relative;
 overflow:hidden
@@ -800,29 +1055,37 @@ margin:0 auto
 
 .cta-band p{
 color:#A5A2C0;
-font-size:14.5px;
-margin-top:12px;
-max-width:500px;
+font-size:15px;
+margin-top:14px;
+max-width:480px;
 margin-left:auto;
-margin-right:auto
+margin-right:auto;
+line-height:1.6
 }
 
 .cta-band .btn-price{
 display:inline-block;
-margin-top:22px;
-background:var(--purple);
+margin-top:26px;
+background:linear-gradient(155deg,var(--purple) 0%,var(--purple-deep) 100%);
 color:#fff;
 border-radius:13px;
-padding:15px 30px;
+padding:16px 32px;
 font-size:15px;
 font-weight:600;
-text-decoration:none
+text-decoration:none;
+box-shadow:0 18px 44px rgba(123,92,250,.34),inset 0 1px 0 rgba(255,255,255,.2);
+transition:transform .22s cubic-bezier(.2,.8,.2,1),box-shadow .22s ease
+}
+
+.cta-band .btn-price:hover{
+transform:translateY(-2px);
+box-shadow:0 24px 56px rgba(123,92,250,.42),inset 0 1px 0 rgba(255,255,255,.24)
 }
 
 .cta-band .price-note{
 color:#807CA0;
 font-size:12.5px;
-margin-top:14px
+margin-top:16px
 }
 
 .aurora{
@@ -835,66 +1098,52 @@ pointer-events:none
 .aurora span{
 position:absolute;
 border-radius:50%;
-filter:blur(60px);
-opacity:.5;
+filter:blur(64px);
+opacity:.55;
 mix-blend-mode:screen
 }
 
 .aurora .a1{
-width:400px;
-height:400px;
+width:420px;
+height:420px;
 background:radial-gradient(circle,#7B5CFA,transparent 68%);
-top:-140px;
+top:-150px;
 left:6%;
-animation:drift1 16s ease-in-out infinite
+animation:drift1 18s ease-in-out infinite
 }
 
 .aurora .a2{
-width:340px;
-height:340px;
+width:360px;
+height:360px;
 background:radial-gradient(circle,#9D6BFF,transparent 66%);
-bottom:-150px;
+bottom:-160px;
 right:4%;
-animation:drift2 19s ease-in-out infinite
+animation:drift2 21s ease-in-out infinite
 }
 
 .aurora .a3{
-width:280px;
-height:280px;
+width:300px;
+height:300px;
 background:radial-gradient(circle,#5A3FE0,transparent 70%);
 top:28%;
 left:44%;
-opacity:.38;
-animation:drift3 22s ease-in-out infinite
+opacity:.4;
+animation:drift3 24s ease-in-out infinite
 }
 
 @keyframes drift1{
-0%,100%{
-transform:translate(0,0) scale(1)
-}
-50%{
-transform:translate(56px,38px) scale(1.12)
-}
+0%,100%{transform:translate(0,0) scale(1)}
+50%{transform:translate(56px,38px) scale(1.12)}
 }
 
 @keyframes drift2{
-0%,100%{
-transform:translate(0,0) scale(1)
-}
-50%{
-transform:translate(-46px,-28px) scale(1.08)
-}
+0%,100%{transform:translate(0,0) scale(1)}
+50%{transform:translate(-46px,-28px) scale(1.08)}
 }
 
 @keyframes drift3{
-0%,100%{
-transform:translate(0,0) scale(1);
-opacity:.32
-}
-50%{
-transform:translate(-38px,28px) scale(1.15);
-opacity:.48
-}
+0%,100%{transform:translate(0,0) scale(1);opacity:.34}
+50%{transform:translate(-38px,28px) scale(1.15);opacity:.5}
 }
 
 .particles{
@@ -917,44 +1166,15 @@ animation:rise linear infinite
 }
 
 @keyframes rise{
-0%{
-transform:translateY(0);
-opacity:0
-}
-10%{
-opacity:1
-}
-90%{
-opacity:.7
-}
-100%{
-transform:translateY(-380px);
-opacity:0
-}
-}
-
-.sheen{
-position:absolute;
-top:0;
-left:-60%;
-width:40%;
-height:100%;
-z-index:1;
-pointer-events:none;
-background:linear-gradient(105deg,transparent,rgba(255,255,255,.06),transparent);
-transform:skewX(-18deg);
-animation:sheen 8s ease-in-out infinite
-}
-
-@keyframes sheen{
-0%{left:-60%}
-55%,100%{left:130%}
+0%{transform:translateY(0);opacity:0}
+10%{opacity:1}
+90%{opacity:.7}
+100%{transform:translateY(-380px);opacity:0}
 }
 
 @media(prefers-reduced-motion:reduce){
 .aurora span,
-.particles i,
-.sheen{
+.particles i{
 animation:none
 }
 }
@@ -976,15 +1196,20 @@ background:none;
 border:none;
 text-align:left;
 cursor:pointer;
-padding:20px 4px;
+padding:22px 4px;
 display:flex;
 align-items:center;
 justify-content:space-between;
 gap:20px;
 font-family:Inter;
-font-size:15px;
+font-size:15.5px;
 font-weight:600;
-color:var(--ink)
+color:var(--ink);
+transition:color .18s ease
+}
+
+.faq-q:hover{
+color:var(--purple-deep)
 }
 
 .faq-q .chev{
@@ -1009,8 +1234,8 @@ transition:max-height .3s ease
 }
 
 .faq-a-inner{
-padding:0 4px 20px;
-font-size:14px;
+padding:0 4px 22px;
+font-size:14.5px;
 color:var(--ink-soft);
 line-height:1.65
 }
@@ -1019,7 +1244,7 @@ line-height:1.65
 
 footer{
 border-top:1px solid var(--line);
-padding:56px 0 44px;
+padding:64px 0 48px;
 background:var(--bg-tint)
 }
 
@@ -1052,10 +1277,8 @@ flex-wrap:wrap
 
 .foot-col h4{
 font-size:12px;
-text-transform:uppercase;
-letter-spacing:.07em;
 color:var(--ink-faint);
-margin-bottom:14px;
+margin-bottom:15px;
 font-weight:600
 }
 
@@ -1064,16 +1287,17 @@ display:block;
 font-size:13.5px;
 color:var(--ink-soft);
 text-decoration:none;
-margin-bottom:10px
+margin-bottom:11px;
+transition:color .18s ease
 }
 
 .foot-col a:hover{
-color:var(--purple)
+color:var(--purple-deep)
 }
 
 .foot-bottom{
-margin-top:44px;
-padding-top:24px;
+margin-top:48px;
+padding-top:26px;
 border-top:1px solid var(--line);
 display:flex;
 justify-content:space-between;
@@ -1134,35 +1358,88 @@ border-radius:6px
 </header>
 
 <section class="page-hero">
+  <div class="hero-glow"></div>
   <div class="wrap">
 
 <div class="breadcrumb">
   <a href="/">Home</a> / Data Broker Exposure Check
 </div>
 
-<h1>Data Broker Exposure Check: What Information Do They Have About You?</h1>
+<div class="hero-grid">
 
-<p class="page-sub">
-  Find out what data brokers are, how they collect personal information, where your details may appear, and how to check and reduce your own exposure.
-</p>
+  <div>
 
-<div class="tldr">
-  <p>
-    <strong>TL;DR:</strong>
-    Data brokers collect and combine information from many sources to build profiles about people.
-    Your name, phone number, email, address, professional details, interests, and other information may appear in those profiles.
-    You can check some exposure yourself, or use Scan My Shadow to check your phone number and email across 1,500+ sources.
-  </p>
-</div>
+    <h1>Data Broker Exposure Check: What Information Do They Have About You?</h1>
 
-<div class="hero-cta">
-  <a class="btn-primary" href="/#pricing">
-    Check My Exposure · <span class="price-tag">₹498</span>
-  </a>
+    <p class="page-sub">
+      Find out what data brokers are, how they collect personal information, where your details may appear, and how to check and reduce your own exposure.
+    </p>
 
-  <a class="btn-secondary" href="/digital-footprint-checker/">
-    Learn how to check your digital footprint →
-  </a>
+    <div class="tldr">
+      <p>
+        <strong>TL;DR:</strong>
+        Data brokers collect and combine information from many sources to build profiles about people.
+        Your name, phone number, email, address, professional details, interests, and other information may appear in those profiles.
+        You can check some exposure yourself, or use Scan My Shadow to check your phone number and email across 1,500+ sources.
+      </p>
+    </div>
+
+    <div class="hero-cta">
+      <a class="btn-primary" href="/#pricing">
+        Check My Exposure · <span class="price-tag">₹498</span>
+      </a>
+
+      <a class="btn-secondary" href="/digital-footprint-checker/">
+        Learn how to check your digital footprint
+      </a>
+    </div>
+
+    <div class="trust-strip">
+      <div class="trust-item">
+        <span class="num">1,500+</span>
+        <span class="label">Sources checked</span>
+      </div>
+      <div class="trust-item">
+        <span class="num">~5 min</span>
+        <span class="label">To your report</span>
+      </div>
+      <div class="trust-item">
+        <span class="num">0</span>
+        <span class="label">Data retained after scan</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero-mock">
+    <div class="mock-head">
+      <span class="mock-title">Exposure snapshot</span>
+      <span class="mock-badge">Sample</span>
+    </div>
+
+    <div class="mock-row">
+      <span class="src"><span class="mock-dot hit"></span>People-search directory</span>
+      <span class="mock-tag hit">Match found</span>
+    </div>
+    <div class="mock-row">
+      <span class="src"><span class="mock-dot hit"></span>2022 breach dataset</span>
+      <span class="mock-tag hit">Match found</span>
+    </div>
+    <div class="mock-row">
+      <span class="src"><span class="mock-dot clear"></span>Marketing data broker</span>
+      <span class="mock-tag clear">Clear</span>
+    </div>
+    <div class="mock-row">
+      <span class="src"><span class="mock-dot clear"></span>Public records index</span>
+      <span class="mock-tag clear">Clear</span>
+    </div>
+
+    <div class="mock-foot">
+      <span class="score-label">Overall exposure</span>
+      <span class="score">Moderate</span>
+    </div>
+  </div>
+
 </div>
 
   </div>
@@ -1172,7 +1449,7 @@ border-radius:6px
   <div class="wrap prose">
 
 <div class="sec-head">
-  <span class="eyebrow">The short answer</span>
+  <span class="kicker">The short answer</span>
   <h2>What is a data broker?</h2>
 </div>
 
@@ -1201,13 +1478,14 @@ border-radius:6px
   <div class="wrap">
 
 <div class="sec-head">
-  <span class="eyebrow">Where the data comes from</span>
+  <span class="kicker">Where the data comes from</span>
   <h2>How do data brokers get your information?</h2>
 </div>
 
 <div class="grid3">
 
   <div class="info-card">
+    <span class="idx">01</span>
     <div class="title">Public information</div>
     <div class="desc">
       Public records, business information, directories, public profiles, and other openly available information can contribute to a profile.
@@ -1215,6 +1493,7 @@ border-radius:6px
   </div>
 
   <div class="info-card">
+    <span class="idx">02</span>
     <div class="title">Online activity</div>
     <div class="desc">
       Websites, apps, forms, cookies, purchases, loyalty programs, and other digital interactions can create data that may be shared with third parties.
@@ -1222,6 +1501,7 @@ border-radius:6px
   </div>
 
   <div class="info-card">
+    <span class="idx">03</span>
     <div class="title">Commercial sources</div>
     <div class="desc">
       Companies may obtain information through partnerships, marketing lists, data licensing, or other commercial relationships and combine it with other records.
@@ -1237,7 +1517,7 @@ border-radius:6px
   <div class="wrap prose">
 
 <div class="sec-head">
-  <span class="eyebrow">What may be in a profile</span>
+  <span class="kicker">What may be in a profile</span>
   <h2>What information do data brokers have about you?</h2>
 </div>
 
@@ -1264,7 +1544,7 @@ border-radius:6px
   <div class="wrap">
 
 <div class="sec-head narrow">
-  <span class="eyebrow">Check yourself first</span>
+  <span class="kicker">Check yourself first</span>
   <h2>How to check if a data broker has your information</h2>
 </div>
 
@@ -1304,7 +1584,7 @@ border-radius:6px
   <div class="wrap prose">
 
 <div class="sec-head">
-  <span class="eyebrow">Why this matters</span>
+  <span class="kicker">Why this matters</span>
   <h2>Why should you care about data broker exposure?</h2>
 </div>
 
@@ -1325,7 +1605,7 @@ border-radius:6px
   <div class="wrap prose">
 
 <div class="sec-head">
-  <span class="eyebrow">When manual checks aren't enough</span>
+  <span class="kicker">When manual checks aren't enough</span>
   <h2>What a broader exposure check adds</h2>
 </div>
 
@@ -1354,13 +1634,14 @@ border-radius:6px
   <div class="wrap">
 
 <div class="sec-head narrow">
-  <span class="eyebrow">Our approach</span>
+  <span class="kicker">Our approach</span>
   <h2>What Scan My Shadow checks</h2>
 </div>
 
 <div class="grid3">
 
   <div class="info-card">
+    <span class="idx">01</span>
     <div class="title">Phone number</div>
     <div class="desc">
       Checks your submitted number against relevant breach records and publicly indexed sources for exposure matches.
@@ -1368,6 +1649,7 @@ border-radius:6px
   </div>
 
   <div class="info-card">
+    <span class="idx">02</span>
     <div class="title">Email address</div>
     <div class="desc">
       Checks your submitted email against relevant breach records and public sources connected to it.
@@ -1375,6 +1657,7 @@ border-radius:6px
   </div>
 
   <div class="info-card">
+    <span class="idx">03</span>
     <div class="title">Plain-language report</div>
     <div class="desc">
       Brings relevant findings together so you can understand what was found and decide what to address first.
@@ -1390,7 +1673,7 @@ border-radius:6px
   <div class="wrap prose">
 
 <div class="sec-head">
-  <span class="eyebrow">Reducing exposure</span>
+  <span class="kicker">Reducing exposure</span>
   <h2>How to reduce your data broker exposure</h2>
 </div>
 
@@ -1409,7 +1692,7 @@ border-radius:6px
   <div class="wrap prose">
 
 <div class="sec-head">
-  <span class="eyebrow">Being upfront</span>
+  <span class="kicker">Being upfront</span>
   <h2>Limitations and privacy</h2>
 </div>
 
@@ -1428,7 +1711,7 @@ border-radius:6px
   <div class="wrap">
 
 <div class="sec-head narrow">
-  <span class="eyebrow">FAQ</span>
+  <span class="kicker">FAQ</span>
   <h2>Frequently asked questions</h2>
 </div>
 
@@ -1539,7 +1822,7 @@ border-radius:6px
   <div class="wrap">
 
 <div class="sec-head narrow">
-  <span class="eyebrow">Related checks</span>
+  <span class="kicker">Related checks</span>
   <h2>Continue your privacy audit</h2>
 </div>
 
@@ -1547,17 +1830,17 @@ border-radius:6px
 
   <a class="linkcard" href="/personal-information-exposure-check/">
     <div class="lc-eyebrow">Personal information</div>
-    <div class="lc-title">Personal Information Exposure Check →</div>
+    <div class="lc-title">Personal Information Exposure Check</div>
   </a>
 
   <a class="linkcard" href="/phone-number-exposure-check/">
     <div class="lc-eyebrow">Phone</div>
-    <div class="lc-title">Phone Number Exposure Check →</div>
+    <div class="lc-title">Phone Number Exposure Check</div>
   </a>
 
   <a class="linkcard" href="/email-exposure-check/">
     <div class="lc-eyebrow">Email</div>
-    <div class="lc-title">Email Exposure Check →</div>
+    <div class="lc-title">Email Exposure Check</div>
   </a>
 
 </div>
@@ -1577,8 +1860,6 @@ border-radius:6px
   </div>
 
   <div class="particles" data-particles></div>
-
-  <div class="sheen"></div>
 
   <div class="cta-band-inner">
 
