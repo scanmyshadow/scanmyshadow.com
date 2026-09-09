@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -806,6 +805,403 @@ line-height:1.5
 
 .rc-foot svg{width:14px;height:14px;color:var(--sage);flex-shrink:0}
 
+/* LIVE CHECK — free HIBP email breach check, hero card */
+
+:root{
+--crit:#D64545;
+--crit-wash:#FDF0F0;
+--crit-line:#F6D9D9
+}
+
+.lc-card{
+background:#fff;
+border:1px solid var(--line);
+border-radius:var(--r-lg);
+padding:30px 28px;
+box-shadow:var(--soft-lg);
+position:relative;
+transition:height .42s cubic-bezier(.4,0,.2,1);
+overflow:hidden
+}
+
+.lc-card::after{
+content:"";
+position:absolute;
+inset:auto 22px -9px 22px;
+height:18px;
+border-radius:0 0 var(--r-lg) var(--r-lg);
+background:#fff;
+border:1px solid var(--line);
+border-top:none;
+opacity:.55;
+z-index:-1
+}
+
+.lc-phase{
+opacity:1;
+transition:opacity .28s ease
+}
+
+.lc-phase[hidden]{display:none}
+
+.lc-card.lc-swapping .lc-phase{opacity:0}
+
+.lc-tag{
+display:inline-flex;
+align-items:center;
+gap:7px;
+font-size:11.5px;
+font-weight:600;
+letter-spacing:.01em;
+color:var(--purple-deep);
+background:var(--purple-mist);
+border-radius:999px;
+padding:6px 13px;
+margin-bottom:18px
+}
+
+.lc-tag svg{width:13px;height:13px;flex-shrink:0}
+
+.lc-h{
+font-family:"Space Grotesk";
+font-size:19px;
+font-weight:600;
+color:var(--ink);
+line-height:1.3;
+letter-spacing:-.01em
+}
+
+.lc-sub{
+font-size:13.5px;
+color:var(--ink-soft);
+margin-top:8px;
+line-height:1.6
+}
+
+.lc-form{margin-top:22px}
+
+.lc-field{
+display:flex;
+align-items:center;
+gap:9px;
+background:var(--paper-warm);
+border:1px solid var(--line-warm);
+border-radius:var(--r-sm);
+padding:0 14px;
+transition:border-color .2s ease, background .2s ease
+}
+
+.lc-field:focus-within{
+border-color:var(--purple-soft);
+background:#fff
+}
+
+.lc-field svg{width:16px;height:16px;color:var(--ink-faint);flex-shrink:0}
+
+.lc-field input{
+flex:1;
+min-width:0;
+border:0;
+outline:0;
+background:transparent;
+font-family:Inter,system-ui,sans-serif;
+font-size:15px;
+color:var(--ink);
+padding:15px 0
+}
+
+.lc-field input::placeholder{color:var(--ink-faint)}
+
+.lc-hp{
+position:absolute;
+left:-9999px;
+width:1px;
+height:1px;
+opacity:0
+}
+
+.lc-btn{
+width:100%;
+margin-top:11px;
+border:0;
+cursor:pointer;
+font-family:"Space Grotesk";
+font-size:15px;
+font-weight:600;
+color:#fff;
+background:var(--purple);
+border-radius:var(--r-sm);
+padding:15px 20px;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+transition:background .2s ease, transform .15s ease;
+animation:lcPulse 2.8s ease-out infinite
+}
+
+.lc-btn:hover{background:var(--purple-deep);animation:none}
+.lc-btn:active{transform:scale(.988)}
+.lc-btn:disabled{opacity:.6;cursor:default;animation:none}
+
+@keyframes lcPulse{
+0%{box-shadow:0 0 0 0 rgba(123,92,250,.31)}
+70%{box-shadow:0 0 0 8px rgba(123,92,250,0)}
+100%{box-shadow:0 0 0 0 rgba(123,92,250,0)}
+}
+
+@media(prefers-reduced-motion:reduce){
+.lc-btn{animation:none}
+.lc-card{transition:none}
+}
+
+.lc-note{
+margin-top:14px;
+display:flex;
+align-items:flex-start;
+gap:9px;
+font-size:12px;
+color:var(--ink-faint);
+line-height:1.55
+}
+
+.lc-note svg{width:13px;height:13px;color:var(--sage);flex-shrink:0;margin-top:2px}
+
+.lc-err{
+margin-top:11px;
+font-size:12.5px;
+color:var(--crit);
+line-height:1.5
+}
+
+/* loading */
+
+.lc-load{
+display:flex;
+align-items:center;
+gap:13px;
+padding:14px 0
+}
+
+.lc-spin{
+width:19px;height:19px;
+border:2px solid var(--purple-mist);
+border-top-color:var(--purple);
+border-radius:50%;
+animation:lcSpin .8s linear infinite;
+flex-shrink:0
+}
+
+@keyframes lcSpin{to{transform:rotate(360deg)}}
+
+.lc-load-txt{font-size:13.5px;color:var(--ink-soft)}
+
+.lc-skel{margin-top:16px}
+
+.lc-skel span{
+display:block;
+height:9px;
+border-radius:999px;
+background:var(--line);
+margin-bottom:10px;
+animation:lcShim 1.4s ease-in-out infinite
+}
+
+.lc-skel span:nth-child(2){width:72%;animation-delay:.12s}
+.lc-skel span:nth-child(3){width:48%;animation-delay:.24s}
+
+@keyframes lcShim{0%,100%{opacity:.5}50%{opacity:1}}
+
+/* result */
+
+.lc-res-head{
+display:flex;
+align-items:center;
+gap:13px;
+padding-bottom:19px;
+margin-bottom:5px;
+border-bottom:1px solid var(--line)
+}
+
+.lc-seal{
+width:42px;height:42px;
+border-radius:50%;
+display:flex;align-items:center;justify-content:center;
+flex-shrink:0
+}
+
+.lc-seal svg{width:20px;height:20px}
+
+.lc-seal.crit{background:var(--crit-wash)}
+.lc-seal.crit svg{color:var(--crit)}
+.lc-seal.note{background:var(--apricot-wash)}
+.lc-seal.note svg{color:#C98A4E}
+.lc-seal.calm{background:var(--sage-wash)}
+.lc-seal.calm svg{color:var(--sage)}
+
+.lc-count{
+font-family:"Space Grotesk";
+font-size:26px;
+font-weight:600;
+color:var(--ink);
+line-height:1.1;
+letter-spacing:-.02em
+}
+
+.lc-count-sub{
+font-size:12.5px;
+color:var(--ink-faint);
+margin-top:3px
+}
+
+.lc-pill{
+margin-left:auto;
+font-size:11px;
+font-weight:600;
+padding:5px 11px;
+border-radius:999px;
+flex-shrink:0;
+letter-spacing:.01em
+}
+
+.lc-pill.crit{color:var(--crit);background:var(--crit-wash)}
+.lc-pill.note{color:#B4762F;background:var(--apricot-wash)}
+.lc-pill.calm{color:#4E8A6E;background:var(--sage-wash)}
+
+.lc-bar{
+display:flex;
+height:5px;
+border-radius:999px;
+overflow:hidden;
+margin:19px 0 9px;
+background:var(--line)
+}
+
+.lc-bar i{display:block;height:100%}
+.lc-bar i.crit{background:var(--crit)}
+.lc-bar i.note{background:var(--apricot)}
+.lc-bar i.calm{background:var(--sage)}
+
+.lc-legend{
+display:flex;
+gap:13px;
+flex-wrap:wrap;
+font-size:10.5px;
+color:var(--ink-faint);
+margin-bottom:5px
+}
+
+.lc-legend span{display:flex;align-items:center;gap:5px}
+
+.lc-legend b{
+width:6px;height:6px;
+border-radius:50%;
+display:block
+}
+
+.lc-legend b.crit{background:var(--crit)}
+.lc-legend b.note{background:var(--apricot)}
+.lc-legend b.calm{background:var(--sage)}
+
+.lc-list{margin-top:14px}
+
+.lc-item{
+display:flex;
+align-items:flex-start;
+gap:13px;
+padding:13px 0;
+border-top:1px solid var(--line)
+}
+
+.lc-item:first-child{border-top:0}
+
+.lc-dot{
+width:26px;height:26px;
+border-radius:50%;
+flex-shrink:0;
+display:flex;align-items:center;justify-content:center;
+margin-top:1px
+}
+
+.lc-dot svg{width:13px;height:13px}
+
+.lc-dot.crit{background:var(--crit-wash)}
+.lc-dot.crit svg{color:var(--crit)}
+.lc-dot.note{background:var(--apricot-wash)}
+.lc-dot.note svg{color:#C98A4E}
+
+.lc-item .nm{font-size:14px;color:var(--ink);line-height:1.5;font-weight:500}
+.lc-item .mt{font-size:12.5px;color:var(--ink-faint);margin-top:3px;line-height:1.5}
+
+.lc-more{
+font-size:12.5px;
+color:var(--ink-faint);
+padding:12px 0 0;
+border-top:1px solid var(--line);
+line-height:1.5
+}
+
+.lc-gap{
+margin-top:20px;
+padding:15px 16px;
+background:var(--paper-warm);
+border:1px solid var(--line-warm);
+border-radius:var(--r-sm)
+}
+
+.lc-gap-t{
+font-family:"Space Grotesk";
+font-size:13.5px;
+font-weight:600;
+color:var(--ink);
+margin-bottom:7px
+}
+
+.lc-gap-p{
+font-size:12.5px;
+color:var(--ink-soft);
+line-height:1.6
+}
+
+.lc-gap-p b{color:var(--ink);font-weight:600}
+
+.lc-cta{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+width:100%;
+margin-top:15px;
+font-family:"Space Grotesk";
+font-size:15px;
+font-weight:600;
+color:#fff;
+background:var(--purple);
+border-radius:var(--r-sm);
+padding:15px 20px;
+text-decoration:none;
+transition:background .2s ease
+}
+
+.lc-cta:hover{background:var(--purple-deep)}
+
+.lc-again{
+display:block;
+width:100%;
+margin-top:11px;
+border:0;
+background:transparent;
+cursor:pointer;
+font-family:Inter,system-ui,sans-serif;
+font-size:12.5px;
+color:var(--ink-faint);
+text-align:center;
+padding:4px
+}
+
+.lc-again:hover{color:var(--purple-deep)}
+
+
 /* REASSURE STRIP */
 
 .reassure{
@@ -1329,49 +1725,62 @@ to{opacity:1;transform:translateY(0)}
 
   </div>
 
-  <div class="report-card settle settle-4">
+  <div class="lc-card settle settle-4" id="lcCard">
 
-    <div class="rc-head">
-      <span class="rc-seal">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg>
+    <div class="lc-phase" id="lcIdle">
+
+      <span class="lc-tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        Free breach check
       </span>
-      <div>
-        <div class="rc-title">What your report looks like</div>
-        <div class="rc-sub">Plain language. No jargon.</div>
+
+      <div class="lc-h">Check your email against known data breaches</div>
+
+      <div class="lc-sub">
+        Instant result, no payment and no account. We check your email address against publicly known breach records and show you exactly what we find.
       </div>
+
+      <div class="lc-form">
+
+        <label class="lc-field" for="lcEmail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+          <input type="email" id="lcEmail" name="email" placeholder="you@example.com" autocomplete="email" spellcheck="false" inputmode="email">
+        </label>
+
+        <input type="text" class="lc-hp" id="lcHp" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button type="button" class="lc-btn" id="lcBtn">Check my email free</button>
+
+        <div class="lc-err" id="lcErr" hidden></div>
+
+        <div class="lc-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          Your email is checked and discarded. We don't store it, log it, or send you anything.
+        </div>
+
+      </div>
+
     </div>
 
-    <div class="rc-line">
-      <span class="rc-icon note">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 8v5"/><path d="M12 17h.01"/></svg>
+    <div class="lc-phase" id="lcLoading" hidden>
+
+      <span class="lc-tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        Free breach check
       </span>
-      <div>
-        <div class="txt">An old classifieds listing still shows your number</div>
-        <div class="sub">How to ask the site to take it down</div>
+
+      <div class="lc-load">
+        <span class="lc-spin"></span>
+        <span class="lc-load-txt">Checking known breach records</span>
       </div>
+
+      <div class="lc-skel"><span></span><span></span><span></span></div>
+
     </div>
-    <div class="rc-line">
-      <span class="rc-icon note">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 8v5"/><path d="M12 17h.01"/></svg>
-      </span>
-      <div>
-        <div class="txt">A forgotten profile turned up in a public search</div>
-        <div class="sub">Where it's from and what it shows</div>
-      </div>
-    </div>
-    <div class="rc-line">
-      <span class="rc-icon calm">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
-      </span>
-      <div>
-        <div class="txt">Nothing found across the other sources</div>
-        <div class="sub">Good news, and worth rechecking now and then</div>
-      </div>
-    </div>
-    <div class="rc-foot">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
-      Sent only to your email. We delete your details once it's made.
-    </div>
+
+    <div class="lc-phase" id="lcResult" hidden></div>
+
+  </div>
 
   </div>
 
@@ -1927,6 +2336,191 @@ ans.style.maxHeight=ans.scrollHeight+'px';
 
 });
 
+</script>
+
+<script>
+(function(){
+
+var EP='https://sms-hibp-teaser-180556751015.asia-south1.run.app';
+
+var card=document.getElementById('lcCard');
+var idle=document.getElementById('lcIdle');
+var loading=document.getElementById('lcLoading');
+var result=document.getElementById('lcResult');
+var input=document.getElementById('lcEmail');
+var hp=document.getElementById('lcHp');
+var btn=document.getElementById('lcBtn');
+var err=document.getElementById('lcErr');
+
+if(!card||!btn)return;
+
+function esc(t){
+var d=document.createElement('div');
+d.textContent=t==null?'':String(t);
+return d.innerHTML;
+}
+
+function showErr(m){
+err.textContent=m;
+err.hidden=false;
+}
+
+function clearErr(){
+err.hidden=true;
+err.textContent='';
+}
+
+function valid(v){
+return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+}
+
+function swap(hide,show){
+var from=card.offsetHeight;
+card.style.height=from+'px';
+card.classList.add('lc-swapping');
+setTimeout(function(){
+hide.hidden=true;
+show.hidden=false;
+var to=show.scrollHeight+60;
+card.style.height=to+'px';
+card.classList.remove('lc-swapping');
+setTimeout(function(){card.style.height='auto'},440);
+},260);
+}
+
+function fmt(n){
+if(!n||isNaN(n))return null;
+return Number(n).toLocaleString('en-IN');
+}
+
+function yr(d){
+if(!d)return null;
+var m=String(d).match(/^(\d{4})/);
+return m?m[1]:null;
+}
+
+function band(c){
+if(c===0)return{k:'calm',pill:'No breaches found',crit:0,note:0,calm:100};
+if(c<=2)return{k:'note',pill:'Moderate',crit:0,note:100,calm:0};
+return{k:'crit',pill:'High',crit:100,note:0,calm:0};
+}
+
+var ICON_CRIT='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 8v5"/><path d="M12 17h.01"/></svg>';
+var ICON_CALM='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
+
+function render(list,count){
+var b=band(count);
+var h='';
+
+h+='<div class="lc-res-head">';
+h+='<span class="lc-seal '+b.k+'">'+(count===0?ICON_CALM:ICON_CRIT)+'</span>';
+h+='<div>';
+h+='<div class="lc-count">'+(count===0?'No breaches':count+(count===1?' breach':' breaches'))+'</div>';
+h+='<div class="lc-count-sub">'+(count===0?'across known breach records':'your email appears in known breach records')+'</div>';
+h+='</div>';
+h+='<span class="lc-pill '+b.k+'">'+b.pill+'</span>';
+h+='</div>';
+
+h+='<div class="lc-bar">';
+if(b.crit)h+='<i class="crit" style="width:'+b.crit+'%"></i>';
+if(b.note)h+='<i class="note" style="width:'+b.note+'%"></i>';
+if(b.calm)h+='<i class="calm" style="width:'+b.calm+'%"></i>';
+h+='</div>';
+
+h+='<div class="lc-legend">';
+h+='<span><b class="calm"></b>Nothing found</span>';
+h+='<span><b class="note"></b>Some exposure</span>';
+h+='<span><b class="crit"></b>Significant exposure</span>';
+h+='</div>';
+
+if(count>0){
+h+='<div class="lc-list">';
+var show=list.slice(0,4);
+for(var i=0;i<show.length;i++){
+var it=show[i]||{};
+var y=yr(it.date);
+var a=fmt(it.accounts);
+var cls=(list.length>2)?'crit':'note';
+var meta=[];
+if(y)meta.push('Breached '+y);
+if(a)meta.push(a+' accounts exposed');
+if(it.dataClasses&&it.dataClasses.length)meta.push(it.dataClasses.slice(0,3).join(', '));
+h+='<div class="lc-item">';
+h+='<span class="lc-dot '+cls+'">'+ICON_CRIT+'</span>';
+h+='<div><div class="nm">'+esc(it.name||'Unnamed breach')+'</div>';
+if(meta.length)h+='<div class="mt">'+esc(meta.join(' · '))+'</div>';
+h+='</div></div>';
+}
+h+='</div>';
+if(list.length>show.length){
+h+='<div class="lc-more">'+(list.length-show.length)+' more '+((list.length-show.length)===1?'breach':'breaches')+' found on this email.</div>';
+}
+}
+
+h+='<div class="lc-gap">';
+h+='<div class="lc-gap-t">What this check did not cover</div>';
+h+='<div class="lc-gap-p">This checked <b>your email address only</b>, against publicly known breach records. It did not check your <b>phone number</b>, data broker listings, classifieds, or public directories &mdash; the sources where contact details most often resurface. The paid scan covers your phone and email across <b>1,500+ sources</b> and returns a plain-language report with what was found and what to do about it.</div>';
+h+='</div>';
+
+h+='<a class="lc-cta" href="/#pricing">Run the full scan &middot; <span class="price-tag">&#8377;498</span></a>';
+h+='<button type="button" class="lc-again" id="lcAgain">Check a different email</button>';
+
+result.innerHTML=h;
+
+var again=document.getElementById('lcAgain');
+if(again){
+again.addEventListener('click',function(){
+input.value='';
+clearErr();
+swap(result,idle);
+});
+}
+
+if(window.gtag){
+try{gtag('event','free_breach_check_complete')}catch(e){}
+}
+}
+
+function run(){
+var v=(input.value||'').trim();
+clearErr();
+
+if(!v){showErr('Enter your email address to run the check.');input.focus();return}
+if(!valid(v)){showErr('That doesn\'t look like a valid email address.');input.focus();return}
+
+btn.disabled=true;
+swap(idle,loading);
+
+fetch(EP,{
+method:'POST',
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify({email:v,hp:(hp&&hp.value)||''})
+}).then(function(r){
+if(r.status===429)throw new Error('rate');
+if(!r.ok)throw new Error('fail');
+return r.json();
+}).then(function(d){
+var list=(d&&d.breaches)||[];
+var count=(d&&typeof d.count==='number')?d.count:list.length;
+render(list,count);
+swap(loading,result);
+btn.disabled=false;
+}).catch(function(e){
+swap(loading,idle);
+btn.disabled=false;
+showErr(e&&e.message==='rate'?'Too many checks from this connection. Please try again in a few minutes.':'We could not complete the check just now. Please try again in a moment.');
+});
+}
+
+btn.addEventListener('click',run);
+
+input.addEventListener('input',clearErr);
+
+input.addEventListener('keydown',function(e){
+if(e.key==='Enter'){e.preventDefault();run()}
+});
+
+})();
 </script>
 
 <script src="/assets/geo-price.js"></script>
