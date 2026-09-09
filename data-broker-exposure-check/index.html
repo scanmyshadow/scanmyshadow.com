@@ -140,24 +140,40 @@ gtag('config','G-S4P3YTNEDY');
 
 <style>
 :root{
---bg:#fff;
---bg-tint:#F8F6FF;
---ink:#100C1C;
---ink-soft:#57536B;
---ink-faint:#9692A8;
+/* warm paper base — softer than clinical white */
+--paper:#FDFCFA;
+--paper-warm:#FBF8F3;
+--lilac-wash:#F6F3FE;
+
+/* soft indigo ink, never harsh black */
+--ink:#2A2440;
+--ink-soft:#655F7A;
+--ink-faint:#9A94AC;
+
+/* brand purple, kept */
 --purple:#7B5CFA;
---purple-deep:#4B2FD6;
---purple-ink:#251564;
---purple-mist:#F1EEFE;
---line:#E9E6F6;
---line-soft:#F1EFFA;
---card:#FBFAFF;
---ok:#16A34A;
---warn:#B7791F;
---shadow-sm:0 2px 10px rgba(37,21,100,.06);
---shadow-md:0 18px 44px rgba(37,21,100,.10);
---shadow-lg:0 40px 100px rgba(20,10,64,.20);
---shadow-purple:0 18px 40px rgba(123,92,250,.28)
+--purple-deep:#5B3EE0;
+--purple-soft:#A48FFB;
+--purple-mist:#F1EDFE;
+
+/* human warmth + calm reassurance */
+--apricot:#F0B183;
+--apricot-wash:#FDF3EA;
+--sage:#6FA98D;
+--sage-wash:#EEF6F2;
+
+--line:#EDEAF4;
+--line-warm:#F0EAE2;
+
+--r-sm:14px;
+--r-md:20px;
+--r-lg:28px;
+--r-xl:36px;
+
+--soft-sm:0 2px 12px rgba(60,45,110,.05);
+--soft-md:0 16px 40px rgba(60,45,110,.08);
+--soft-lg:0 30px 70px rgba(60,45,110,.10);
+--soft-warm:0 20px 50px rgba(150,110,70,.09)
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
@@ -168,60 +184,44 @@ scroll-behavior:smooth;
 }
 
 body{
-background:var(--bg);
+background:var(--paper);
 color:var(--ink);
 font-family:Inter,system-ui,sans-serif;
 -webkit-font-smoothing:antialiased;
 line-height:1.5;
-overflow-x:hidden;
-position:relative
-}
-
-/* subtle premium grain — tactile, static, non-distracting */
-body::before{
-content:"";
-position:fixed;
-inset:0;
-z-index:1;
-pointer-events:none;
-opacity:.025;
-mix-blend-mode:multiply;
-background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")
+overflow-x:hidden
 }
 
 a{color:inherit}
 
 .wrap{
-max-width:1120px;
+max-width:1080px;
 margin:0 auto;
-padding:0 24px
+padding:0 26px
 }
 
 .narrow{
 max-width:720px;
 margin:0 auto;
-padding:0 24px
+padding:0 26px
 }
 
-.display{
-font-family:"Space Grotesk",sans-serif
-}
-
+/* soft sentence-case marker — no shouty caps labels */
 .kicker{
 display:inline-flex;
 align-items:center;
-gap:9px;
-font-size:13px;
-font-weight:600;
+gap:10px;
+font-size:13.5px;
+font-weight:500;
 color:var(--purple-deep)
 }
 
 .kicker::before{
 content:"";
-width:7px;
-height:7px;
+width:18px;
+height:2px;
 border-radius:2px;
-background:var(--purple);
+background:var(--purple-soft);
 flex-shrink:0
 }
 
@@ -236,26 +236,25 @@ header.nav{
 position:sticky;
 top:0;
 z-index:80;
-background:rgba(255,255,255,.78);
-backdrop-filter:saturate(180%) blur(16px);
+background:rgba(253,252,250,.8);
+backdrop-filter:saturate(160%) blur(16px);
 border-bottom:1px solid transparent;
-transition:border-color .25s ease,background .25s ease
+transition:border-color .3s ease,background .3s ease
 }
 
 header.nav.scrolled{
 border-color:var(--line);
-background:rgba(255,255,255,.9);
-box-shadow:0 1px 0 rgba(37,21,100,.03)
+background:rgba(253,252,250,.94)
 }
 
 .nav-inner{
 display:flex;
 justify-content:space-between;
 align-items:center;
-height:70px;
-max-width:1120px;
+height:72px;
+max-width:1080px;
 margin:0 auto;
-padding:0 24px
+padding:0 26px
 }
 
 .logo{
@@ -311,13 +310,13 @@ transform:translateY(-7px) rotate(-45deg)
 .mobile-menu{
 display:none;
 flex-direction:column;
-background:rgba(255,255,255,.98);
+background:rgba(253,252,250,.99);
 border-top:1px solid var(--line);
-padding:8px 24px 16px
+padding:8px 26px 18px
 }
 
 .mobile-menu a{
-padding:14px 4px;
+padding:15px 4px;
 font-size:15px;
 color:var(--ink-soft);
 text-decoration:none;
@@ -339,7 +338,7 @@ gap:30px
 }
 
 .nav-link{
-font-size:14px;
+font-size:14.5px;
 color:var(--ink-soft);
 text-decoration:none;
 transition:color .2s ease
@@ -353,18 +352,17 @@ color:var(--ink)
 font-size:14.5px;
 font-weight:600;
 color:#fff;
-background:linear-gradient(155deg,var(--purple) 0%,var(--purple-deep) 100%);
-border-radius:11px;
-padding:11px 22px;
+background:var(--purple);
+border-radius:999px;
+padding:12px 24px;
 text-decoration:none;
-box-shadow:0 10px 24px rgba(75,47,214,.30),inset 0 1px 0 rgba(255,255,255,.16);
-transition:transform .2s cubic-bezier(.2,.8,.2,1),box-shadow .2s ease;
-position:relative
+box-shadow:0 8px 22px rgba(123,92,250,.26);
+transition:transform .25s cubic-bezier(.22,.9,.28,1),box-shadow .25s ease
 }
 
 .nav-pill:hover{
-transform:translateY(-1px);
-box-shadow:0 14px 30px rgba(75,47,214,.38),inset 0 1px 0 rgba(255,255,255,.2)
+transform:translateY(-1.5px);
+box-shadow:0 12px 28px rgba(123,92,250,.34)
 }
 
 .cta-short{
@@ -377,15 +375,11 @@ align-items:center;
 gap:28px
 }
 
-@media(max-width:820px){
+@media(max-width:860px){
 
-.nav-toggle{
-display:flex
-}
+.nav-toggle{display:flex}
 
-.nav-menu-links{
-display:none
-}
+.nav-menu-links{display:none}
 
 .nav-inner{
 display:grid;
@@ -395,150 +389,120 @@ gap:8px;
 padding:0 16px
 }
 
-.nav-toggle{
-margin-left:0;
-flex-shrink:0;
-order:1
-}
+.nav-toggle{margin-left:0;flex-shrink:0;order:1}
 
-.logo{
-margin:0;
-min-width:0;
-justify-content:center;
-overflow:hidden;
-order:2
-}
+.logo{margin:0;min-width:0;justify-content:center;overflow:hidden;order:2}
 
-.logo-img{
-height:29px;
-max-width:100%;
-width:auto;
-flex-shrink:1
-}
+.logo-img{height:29px;max-width:100%;width:auto;flex-shrink:1}
 
-.nav-pill{
-flex-shrink:0;
-font-size:13.5px;
-padding:10px 17px;
-white-space:nowrap;
-order:3
-}
+.nav-pill{flex-shrink:0;font-size:13.5px;padding:10px 18px;white-space:nowrap;order:3}
 
-.cta-full{
-display:none
-}
+.cta-full{display:none}
 
-.cta-short{
-display:inline
-}
+.cta-short{display:inline}
 }
 
 @media(max-width:360px){
-
-.nav-inner{
-padding:0 12px;
-gap:6px
+.nav-inner{padding:0 12px;gap:6px}
+.logo-img{height:26px}
+.nav-pill{font-size:12.5px;padding:9px 15px}
 }
 
-.logo-img{
-height:26px
-}
-
-.nav-pill{
-font-size:12.5px;
-padding:9px 14px
-}
-}
-
-/* HERO */
+/* HERO — soft organic warmth behind, no hard edges */
 
 .page-hero{
-padding:76px 0 32px;
-position:relative
+position:relative;
+padding:72px 0 40px;
+overflow:hidden
 }
 
-.hero-glow{
+.blob{
 position:absolute;
-top:-120px;
-right:-160px;
-width:520px;
-height:520px;
-background:radial-gradient(circle,rgba(123,92,250,.16),transparent 70%);
+border-radius:50%;
+filter:blur(80px);
 pointer-events:none;
 z-index:0
 }
 
-.hero-grid{
-display:grid;
-grid-template-columns:1.15fr .85fr;
-gap:56px;
-align-items:center;
-position:relative;
-z-index:1
+.blob-1{
+width:520px;height:520px;
+background:rgba(164,143,251,.20);
+top:-200px;right:-120px
 }
 
-@media(max-width:900px){
-.hero-grid{
-grid-template-columns:1fr;
-gap:40px
+.blob-2{
+width:400px;height:400px;
+background:rgba(240,177,131,.16);
+top:120px;left:-180px
 }
+
+.hero-grid{
+position:relative;
+z-index:1;
+display:grid;
+grid-template-columns:1.08fr .92fr;
+gap:60px;
+align-items:center
+}
+
+@media(max-width:920px){
+.hero-grid{grid-template-columns:1fr;gap:44px}
 }
 
 .breadcrumb{
+position:relative;
+z-index:1;
 font-size:12.5px;
 color:var(--ink-faint);
-margin-bottom:22px
+margin-bottom:26px
 }
 
-.breadcrumb a{
-color:var(--ink-faint);
-text-decoration:none
-}
-
-.breadcrumb a:hover{
-color:var(--purple)
-}
+.breadcrumb a{color:var(--ink-faint);text-decoration:none}
+.breadcrumb a:hover{color:var(--purple)}
 
 h1{
 font-family:"Space Grotesk";
 font-weight:600;
-letter-spacing:-.022em;
-font-size:clamp(32px,4.6vw,52px);
-line-height:1.08;
-max-width:17ch
+letter-spacing:-.02em;
+font-size:clamp(31px,4.3vw,49px);
+line-height:1.12;
+max-width:17ch;
+color:var(--ink)
 }
 
 .page-sub{
 font-size:16.5px;
 color:var(--ink-soft);
-max-width:52ch;
-margin-top:18px;
-line-height:1.65
+max-width:50ch;
+margin-top:20px;
+line-height:1.7
 }
 
-section.block{
-padding:88px 0
+section.block{padding:84px 0}
+
+.section-line{border-top:1px solid var(--line)}
+
+.band-warm{
+background:var(--paper-warm);
+border-top:1px solid var(--line-warm);
+border-bottom:1px solid var(--line-warm)
 }
 
-.section-line{
-border-top:1px solid var(--line)
+.band-lilac{
+background:var(--lilac-wash);
+border-top:1px solid var(--line);
+border-bottom:1px solid var(--line)
 }
 
-.sec-head{
-max-width:720px;
-margin:0 0 32px
-}
+.sec-head{max-width:720px;margin:0 0 34px}
 
-.sec-head .kicker{
-display:inline-flex;
-margin-bottom:14px
-}
+.sec-head .kicker{display:inline-flex;margin-bottom:15px}
 
 h2{
 font-family:"Space Grotesk";
 font-weight:600;
-font-size:clamp(23px,3vw,32px);
-line-height:1.2;
+font-size:clamp(23px,3vw,31px);
+line-height:1.22;
 letter-spacing:-.015em
 }
 
@@ -550,100 +514,133 @@ margin:22px 0 8px;
 color:var(--ink)
 }
 
-.prose{
-max-width:680px
-}
+.prose{max-width:660px}
 
 .prose p{
-font-size:16px;
+font-size:16.5px;
 color:var(--ink-soft);
-line-height:1.75;
-margin-bottom:17px
+line-height:1.8;
+margin-bottom:18px
 }
 
-.prose p strong{
-color:var(--ink)
-}
+.prose p strong{color:var(--ink);font-weight:600}
 
-.prose ul,
-.prose ol{
-padding-left:22px;
-margin:0 0 16px
-}
+.prose ul,.prose ol{padding-left:4px;margin:0 0 18px;list-style:none}
 
 .prose li{
-font-size:16px;
+position:relative;
+font-size:16.5px;
 color:var(--ink-soft);
-line-height:1.72;
-margin-bottom:9px
+line-height:1.75;
+margin-bottom:13px;
+padding-left:28px
 }
+
+.prose ul li::before{
+content:"";
+position:absolute;
+left:4px;
+top:11px;
+width:8px;height:8px;
+border-radius:50%;
+background:var(--purple-mist);
+border:1.5px solid var(--purple-soft)
+}
+
+.prose ol{counter-reset:c}
+
+.prose ol li{counter-increment:c;padding-left:34px}
+
+.prose ol li::before{
+content:counter(c);
+position:absolute;
+left:0;top:2px;
+width:23px;height:23px;
+border-radius:50%;
+background:var(--purple-mist);
+color:var(--purple-deep);
+font-family:"Space Grotesk";
+font-size:12px;
+font-weight:700;
+display:flex;
+align-items:center;
+justify-content:center
+}
+
+.prose li strong{color:var(--ink);font-weight:600}
 
 .prose a{
 color:var(--purple-deep);
 text-decoration:underline;
-text-decoration-color:rgba(123,92,250,.35);
-text-underline-offset:2px
+text-decoration-color:rgba(123,92,250,.3);
+text-underline-offset:3px
 }
+
+/* CALLOUT — soft, warm, never alarming */
 
 .callout{
-background:var(--card);
-border:1px solid var(--line);
-border-left:3px solid var(--purple);
-border-radius:4px 14px 14px 4px;
-padding:19px 23px;
-margin:22px 0 26px;
-max-width:680px
+background:var(--paper-warm);
+border:1px solid var(--line-warm);
+border-radius:var(--r-md);
+padding:22px 26px;
+margin:26px 0 30px;
+max-width:660px;
+display:flex;
+gap:16px;
+align-items:flex-start
 }
 
+.callout-mark{
+flex-shrink:0;
+width:30px;height:30px;
+border-radius:50%;
+background:var(--apricot-wash);
+display:flex;align-items:center;justify-content:center;
+margin-top:1px
+}
+
+.callout-mark svg{width:15px;height:15px;color:#C98A4E}
+
 .callout-title{
+font-family:"Space Grotesk";
 font-weight:600;
-font-size:14px;
+font-size:14.5px;
 color:var(--ink);
 margin-bottom:6px
 }
 
 .callout p{
-font-size:14px;
+font-size:14.5px;
 color:var(--ink-soft);
-line-height:1.65;
+line-height:1.7;
 margin:0
 }
 
-.callout-example{
-border-left-color:var(--ok);
-background:#F3FBF5
-}
-
-.callout-limit{
-border-left-color:var(--warn);
-background:#FFFBF2
-}
+/* TLDR — reads like a friendly note, not a system message */
 
 .tldr{
 position:relative;
-background:linear-gradient(180deg,var(--card),#fff);
+background:#fff;
 border:1px solid var(--line);
-border-radius:16px;
-padding:20px 24px;
-margin:24px 0 8px;
-max-width:640px;
-box-shadow:var(--shadow-sm)
+border-radius:var(--r-md);
+padding:22px 26px 22px 28px;
+margin:26px 0 10px;
+max-width:600px;
+box-shadow:var(--soft-sm)
 }
 
 .tldr::before{
 content:"";
 position:absolute;
-left:0;
-top:14px;
-bottom:14px;
+left:0;top:20px;bottom:20px;
 width:3px;
-border-radius:3px;
-background:linear-gradient(180deg,var(--purple),var(--purple-deep))
+border-radius:0 3px 3px 0;
+background:linear-gradient(180deg,var(--purple-soft),var(--apricot))
 }
 
 .tldr p{
-font-size:14.5px;
-line-height:1.65;
+font-size:15px;
+line-height:1.75;
 margin:0;
 color:var(--ink-soft)
 }
@@ -653,541 +650,462 @@ color:var(--purple-deep);
 font-weight:700
 }
 
+/* BUTTONS — soft, welcoming, generous tap area */
+
 .hero-cta{
 display:flex;
 gap:14px;
 flex-wrap:wrap;
-margin-top:26px;
+margin-top:30px;
 align-items:center
 }
 
-.btn-primary,
-.btn-secondary{
+.btn-primary,.btn-secondary{
 display:inline-flex;
 align-items:center;
 justify-content:center;
-border-radius:12px;
-padding:15px 24px;
+gap:9px;
+border-radius:999px;
+padding:16px 30px;
 text-decoration:none;
-font-size:14.5px;
+font-size:15px;
 font-weight:600;
-transition:transform .22s cubic-bezier(.2,.8,.2,1),box-shadow .22s ease
+transition:transform .28s cubic-bezier(.22,.9,.28,1),box-shadow .28s ease
 }
 
 .btn-primary{
-background:linear-gradient(155deg,var(--purple) 0%,var(--purple-deep) 100%);
+background:var(--purple);
 color:#fff;
-box-shadow:var(--shadow-purple),inset 0 1px 0 rgba(255,255,255,.18);
-position:relative;
-overflow:hidden;
-animation:cta-breathe 4.5s ease-in-out infinite
-}
-
-@keyframes cta-breathe{
-0%,100%{box-shadow:var(--shadow-purple),inset 0 1px 0 rgba(255,255,255,.18)}
-50%{box-shadow:0 22px 52px rgba(75,47,214,.4),inset 0 1px 0 rgba(255,255,255,.22)}
+box-shadow:0 12px 30px rgba(123,92,250,.28)
 }
 
 .btn-primary:hover{
 transform:translateY(-2px);
-box-shadow:0 24px 56px rgba(75,47,214,.44),inset 0 1px 0 rgba(255,255,255,.22)
+box-shadow:0 18px 40px rgba(123,92,250,.36)
 }
 
 .btn-secondary{
-background:var(--purple-mist);
-color:var(--purple-deep)
+background:transparent;
+color:var(--purple-deep);
+border:1.5px solid var(--line);
+padding:15px 26px
 }
 
 .btn-secondary:hover{
+border-color:var(--purple-soft);
 transform:translateY(-1px)
 }
 
-@media(prefers-reduced-motion:reduce){
-.btn-primary{
-animation:none
-}
-}
-
-.trust-strip{
-display:flex;
-flex-wrap:wrap;
-gap:26px;
-margin-top:34px;
-padding-top:22px;
-border-top:1px solid var(--line-soft)
-}
-
-.trust-item{
-display:flex;
-flex-direction:column;
-gap:2px
-}
-
-.trust-item .num{
-font-family:"Space Grotesk";
-font-weight:700;
-font-size:19px;
-color:var(--ink)
-}
-
-.trust-item .label{
-font-size:12.5px;
-color:var(--ink-faint)
-}
-
-@media(max-width:600px){
-
-.hero-cta{
-flex-direction:column;
-align-items:stretch
-}
-
-.btn-primary,
-.btn-secondary{
-width:100%
-}
-}
-
-/* HERO MOCK PANEL */
-
-.hero-mock{
-background:linear-gradient(165deg,#1B1330 0%,var(--purple-ink) 60%,#150E32 100%);
-border-radius:22px;
-padding:28px;
-box-shadow:var(--shadow-lg);
-position:relative;
-overflow:hidden
-}
-
-.hero-mock::after{
-content:"";
-position:absolute;
-inset:0;
-background:radial-gradient(circle at 80% 0%,rgba(123,92,250,.35),transparent 55%);
-pointer-events:none
-}
-
-.mock-head{
+.cta-reassure{
+margin-top:16px;
+font-size:13.5px;
+color:var(--ink-faint);
 display:flex;
 align-items:center;
-justify-content:space-between;
-margin-bottom:18px;
-position:relative;
-z-index:1
+gap:8px;
+line-height:1.5
 }
 
-.mock-title{
-font-family:"Space Grotesk";
-font-size:13px;
-font-weight:600;
-color:#fff
-}
-
-.mock-badge{
-font-size:11px;
-font-weight:600;
-color:#B9A8FF;
-background:rgba(123,92,250,.18);
-border:1px solid rgba(123,92,250,.35);
-border-radius:999px;
-padding:4px 10px
-}
-
-.mock-row{
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:14px;
-padding:13px 14px;
-border-radius:11px;
-background:rgba(255,255,255,.045);
-border:1px solid rgba(255,255,255,.07);
-margin-bottom:9px;
-position:relative;
-z-index:1
-}
-
-.mock-row .src{
-display:flex;
-align-items:center;
-gap:10px;
-font-size:13px;
-color:#E7E2FA
-}
-
-.mock-dot{
-width:7px;
-height:7px;
-border-radius:50%;
+.cta-reassure svg{
+width:15px;height:15px;
+color:var(--sage);
 flex-shrink:0
 }
 
-.mock-dot.hit{background:#F2A94C}
-.mock-dot.clear{background:#34D399}
-
-.mock-tag{
-font-size:11px;
-font-weight:600;
-padding:3px 9px;
-border-radius:999px
+@media(max-width:600px){
+.hero-cta{flex-direction:column;align-items:stretch}
+.btn-primary,.btn-secondary{width:100%}
 }
 
-.mock-tag.hit{
-color:#F2A94C;
-background:rgba(242,169,76,.14)
+/* HERO CARD — the calm report they receive, not a threat dashboard */
+
+.report-card{
+background:#fff;
+border:1px solid var(--line);
+border-radius:var(--r-lg);
+padding:30px 28px;
+box-shadow:var(--soft-lg);
+position:relative
 }
 
-.mock-tag.clear{
-color:#34D399;
-background:rgba(52,211,153,.14)
+.report-card::after{
+content:"";
+position:absolute;
+inset:auto 22px -9px 22px;
+height:18px;
+border-radius:0 0 var(--r-lg) var(--r-lg);
+background:#fff;
+border:1px solid var(--line);
+border-top:none;
+opacity:.55;
+z-index:-1
 }
 
-.mock-foot{
-margin-top:16px;
-padding-top:16px;
-border-top:1px solid rgba(255,255,255,.08);
+.rc-head{
 display:flex;
 align-items:center;
-justify-content:space-between;
-position:relative;
-z-index:1
+gap:13px;
+padding-bottom:20px;
+margin-bottom:20px;
+border-bottom:1px solid var(--line)
 }
 
-.mock-foot .score-label{
-font-size:11.5px;
-color:#A79EC9
+.rc-seal{
+width:42px;height:42px;
+border-radius:50%;
+background:var(--purple-mist);
+display:flex;align-items:center;justify-content:center;
+flex-shrink:0
 }
 
-.mock-foot .score{
+.rc-seal svg{width:20px;height:20px;color:var(--purple-deep)}
+
+.rc-title{
 font-family:"Space Grotesk";
-font-size:22px;
-font-weight:700;
-color:#fff
+font-size:15px;
+font-weight:600;
+color:var(--ink)
 }
 
-/* CARDS */
+.rc-sub{
+font-size:12.5px;
+color:var(--ink-faint);
+margin-top:2px
+}
+
+.rc-line{
+display:flex;
+align-items:flex-start;
+gap:13px;
+padding:13px 0
+}
+
+.rc-icon{
+width:26px;height:26px;
+border-radius:50%;
+flex-shrink:0;
+display:flex;align-items:center;justify-content:center;
+margin-top:1px
+}
+
+.rc-icon svg{width:13px;height:13px}
+
+.rc-icon.calm{background:var(--sage-wash)}
+.rc-icon.calm svg{color:var(--sage)}
+
+.rc-icon.note{background:var(--apricot-wash)}
+.rc-icon.note svg{color:#C98A4E}
+
+.rc-line .txt{font-size:14px;color:var(--ink);line-height:1.5;font-weight:500}
+.rc-line .sub{font-size:12.5px;color:var(--ink-faint);margin-top:3px;line-height:1.5}
+
+.rc-foot{
+margin-top:20px;
+padding-top:18px;
+border-top:1px solid var(--line);
+display:flex;
+align-items:center;
+gap:10px;
+font-size:12.5px;
+color:var(--ink-faint);
+line-height:1.5
+}
+
+.rc-foot svg{width:14px;height:14px;color:var(--sage);flex-shrink:0}
+
+/* REASSURE STRIP */
+
+.reassure{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:14px;
+margin-top:36px
+}
+
+@media(max-width:600px){
+.reassure{grid-template-columns:1fr;gap:10px}
+}
+
+.re-item{
+display:flex;
+align-items:center;
+gap:11px
+}
+
+.re-item .ic{
+width:34px;height:34px;
+border-radius:50%;
+background:var(--sage-wash);
+display:flex;align-items:center;justify-content:center;
+flex-shrink:0
+}
+
+.re-item .ic svg{width:15px;height:15px;color:var(--sage)}
+
+.re-item .lab{
+font-size:13px;
+color:var(--ink-soft);
+line-height:1.45
+}
+
+.re-item .lab b{
+display:block;
+color:var(--ink);
+font-weight:600;
+font-size:13.5px
+}
+
+/* SOURCE CARDS — soft, distinct, not a cookie-cutter kit */
 
 .grid3{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:1px;
-background:var(--line);
-border:1px solid var(--line);
-border-radius:18px;
-overflow:hidden
+gap:18px
 }
 
-@media(max-width:760px){
-.grid3{
-grid-template-columns:1fr
-}
+@media(max-width:800px){
+.grid3{grid-template-columns:1fr}
 }
 
 .info-card{
 background:#fff;
-padding:30px 26px;
-transition:background .2s ease
+border:1px solid var(--line);
+border-radius:var(--r-md);
+padding:28px 26px;
+transition:transform .3s cubic-bezier(.22,.9,.28,1),box-shadow .3s ease
 }
 
 .info-card:hover{
-background:var(--bg-tint)
+transform:translateY(-3px);
+box-shadow:var(--soft-md)
 }
 
-.info-card .idx{
-font-family:"Space Grotesk";
-font-size:12px;
-font-weight:600;
-color:var(--purple);
-margin-bottom:14px;
-display:block
+.ic-mark{
+width:38px;height:38px;
+border-radius:12px;
+display:flex;align-items:center;justify-content:center;
+margin-bottom:18px
 }
+
+.ic-mark svg{width:18px;height:18px}
+
+.ic-mark.m1{background:var(--purple-mist)}
+.ic-mark.m1 svg{color:var(--purple-deep)}
+
+.ic-mark.m2{background:var(--apricot-wash)}
+.ic-mark.m2 svg{color:#C98A4E}
+
+.ic-mark.m3{background:var(--sage-wash)}
+.ic-mark.m3 svg{color:var(--sage)}
 
 .info-card .title{
 font-weight:600;
 font-size:15.5px;
-margin-bottom:8px;
-font-family:"Space Grotesk"
+margin-bottom:9px;
+font-family:"Space Grotesk";
+color:var(--ink)
 }
 
 .info-card .desc{
-font-size:13.5px;
+font-size:14px;
 color:var(--ink-soft);
-line-height:1.65
+line-height:1.7
 }
 
-/* STEPS */
+/* STEPS — a real sequence, so numbers earn their place */
 
 .steps{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:0;
+gap:26px;
 position:relative
 }
 
-@media(max-width:760px){
-.steps{
-grid-template-columns:1fr;
-gap:20px
-}
+@media(max-width:800px){
+.steps{grid-template-columns:1fr;gap:26px}
 }
 
-.step-card{
-padding:0 26px 0 0;
-position:relative
-}
-
-.step-card:not(:last-child)::after{
-content:"";
-position:absolute;
-top:19px;
-right:0;
-width:26px;
-height:1px;
-background:var(--line)
-}
-
-@media(max-width:760px){
-.step-card:not(:last-child)::after{
-display:none
-}
-.step-card{
-padding-right:0
-}
-}
+.step-card{position:relative;padding-top:6px}
 
 .step-num{
-width:38px;
-height:38px;
+width:40px;height:40px;
 border-radius:50%;
-border:1.5px solid var(--purple);
+background:#fff;
+border:1.5px solid var(--purple-soft);
 color:var(--purple-deep);
 font-family:"Space Grotesk";
 font-weight:700;
-font-size:14px;
-display:flex;
-align-items:center;
-justify-content:center;
+font-size:15px;
+display:flex;align-items:center;justify-content:center;
 margin-bottom:18px;
-background:var(--purple-mist)
+box-shadow:0 4px 14px rgba(123,92,250,.14)
 }
 
 .step-card .title{
 font-weight:600;
-font-size:15px;
-margin-bottom:6px;
-font-family:"Space Grotesk"
+font-size:15.5px;
+margin-bottom:8px;
+font-family:"Space Grotesk";
+color:var(--ink)
 }
 
 .step-card .desc{
-font-size:13.5px;
+font-size:14px;
 color:var(--ink-soft);
-line-height:1.6
+line-height:1.7
 }
 
-/* RELATED LINKS */
+/* RELATED */
 
 .linkcards{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:14px;
+gap:16px;
 max-width:1000px
 }
 
-@media(max-width:760px){
-.linkcards{
-grid-template-columns:1fr
-}
+@media(max-width:800px){
+.linkcards{grid-template-columns:1fr}
 }
 
 .linkcard{
 display:block;
 background:#fff;
 border:1px solid var(--line);
-border-radius:14px;
-padding:20px 22px;
+border-radius:var(--r-md);
+padding:24px 24px;
 text-decoration:none;
-transition:border-color .2s ease,transform .18s cubic-bezier(.2,.8,.2,1),box-shadow .2s ease
+transition:border-color .25s ease,transform .28s cubic-bezier(.22,.9,.28,1),box-shadow .28s ease
 }
 
 .linkcard:hover{
-border-color:var(--purple);
+border-color:var(--purple-soft);
 transform:translateY(-3px);
-box-shadow:var(--shadow-md)
+box-shadow:var(--soft-md)
 }
 
 .linkcard .lc-eyebrow{
-font-size:11.5px;
-font-weight:600;
+font-size:12px;
+font-weight:500;
 color:var(--purple-deep);
-margin-bottom:7px
+margin-bottom:8px
 }
 
 .linkcard .lc-title{
 font-weight:600;
-font-size:14.5px;
+font-size:15px;
 color:var(--ink);
-font-family:"Space Grotesk"
+font-family:"Space Grotesk";
+line-height:1.4
 }
 
-/* CTA BAND */
+/* CTA — warm and inviting, not a dark threat panel */
 
 .cta-band{
-background:radial-gradient(circle at 20% -10%,#2C1B78,transparent 55%),
-           radial-gradient(circle at 90% 110%,#3A1F8F,transparent 50%),
-           linear-gradient(160deg,#120C24,#0C0917 70%);
-border-radius:26px;
-padding:56px 40px;
-text-align:center;
 position:relative;
+background:linear-gradient(160deg,#F7F3FF 0%,#FDF6F0 100%);
+border:1px solid var(--line);
+border-radius:var(--r-xl);
+padding:60px 44px;
+text-align:center;
 overflow:hidden
 }
 
-.cta-band-inner{
-position:relative;
-z-index:2
+.cta-band .glow-a{
+position:absolute;
+width:380px;height:380px;
+border-radius:50%;
+background:rgba(164,143,251,.22);
+filter:blur(70px);
+top:-160px;left:8%;
+animation:float-a 20s ease-in-out infinite
 }
 
+.cta-band .glow-b{
+position:absolute;
+width:320px;height:320px;
+border-radius:50%;
+background:rgba(240,177,131,.22);
+filter:blur(70px);
+bottom:-150px;right:6%;
+animation:float-b 24s ease-in-out infinite
+}
+
+@keyframes float-a{
+0%,100%{transform:translate(0,0)}
+50%{transform:translate(40px,26px)}
+}
+
+@keyframes float-b{
+0%,100%{transform:translate(0,0)}
+50%{transform:translate(-34px,-22px)}
+}
+
+@media(prefers-reduced-motion:reduce){
+.cta-band .glow-a,.cta-band .glow-b{animation:none}
+}
+
+.cta-band-inner{position:relative;z-index:2}
+
 .cta-band h2{
-color:#fff;
-max-width:560px;
+color:var(--ink);
+max-width:540px;
 margin:0 auto
 }
 
 .cta-band p{
-color:#A5A2C0;
-font-size:15px;
-margin-top:14px;
-max-width:480px;
+color:var(--ink-soft);
+font-size:15.5px;
+margin-top:16px;
+max-width:470px;
 margin-left:auto;
 margin-right:auto;
-line-height:1.6
+line-height:1.7
 }
 
 .cta-band .btn-price{
-display:inline-block;
-margin-top:26px;
-background:linear-gradient(155deg,var(--purple) 0%,var(--purple-deep) 100%);
+display:inline-flex;
+align-items:center;
+gap:10px;
+margin-top:28px;
+background:var(--purple);
 color:#fff;
-border-radius:13px;
-padding:16px 32px;
-font-size:15px;
+border-radius:999px;
+padding:17px 36px;
+font-size:15.5px;
 font-weight:600;
 text-decoration:none;
-box-shadow:0 18px 44px rgba(123,92,250,.34),inset 0 1px 0 rgba(255,255,255,.2);
-transition:transform .22s cubic-bezier(.2,.8,.2,1),box-shadow .22s ease
+box-shadow:0 14px 34px rgba(123,92,250,.3);
+transition:transform .28s cubic-bezier(.22,.9,.28,1),box-shadow .28s ease
 }
 
 .cta-band .btn-price:hover{
 transform:translateY(-2px);
-box-shadow:0 24px 56px rgba(123,92,250,.42),inset 0 1px 0 rgba(255,255,255,.24)
+box-shadow:0 20px 44px rgba(123,92,250,.38)
 }
 
 .cta-band .price-note{
-color:#807CA0;
-font-size:12.5px;
-margin-top:16px
+color:var(--ink-faint);
+font-size:13px;
+margin-top:18px;
+line-height:1.6
 }
 
-.aurora{
-position:absolute;
-inset:0;
-z-index:0;
-pointer-events:none
-}
+/* FAQ — calm, open, no hard chrome */
 
-.aurora span{
-position:absolute;
-border-radius:50%;
-filter:blur(64px);
-opacity:.55;
-mix-blend-mode:screen
-}
-
-.aurora .a1{
-width:420px;
-height:420px;
-background:radial-gradient(circle,#7B5CFA,transparent 68%);
-top:-150px;
-left:6%;
-animation:drift1 18s ease-in-out infinite
-}
-
-.aurora .a2{
-width:360px;
-height:360px;
-background:radial-gradient(circle,#9D6BFF,transparent 66%);
-bottom:-160px;
-right:4%;
-animation:drift2 21s ease-in-out infinite
-}
-
-.aurora .a3{
-width:300px;
-height:300px;
-background:radial-gradient(circle,#5A3FE0,transparent 70%);
-top:28%;
-left:44%;
-opacity:.4;
-animation:drift3 24s ease-in-out infinite
-}
-
-@keyframes drift1{
-0%,100%{transform:translate(0,0) scale(1)}
-50%{transform:translate(56px,38px) scale(1.12)}
-}
-
-@keyframes drift2{
-0%,100%{transform:translate(0,0) scale(1)}
-50%{transform:translate(-46px,-28px) scale(1.08)}
-}
-
-@keyframes drift3{
-0%,100%{transform:translate(0,0) scale(1);opacity:.34}
-50%{transform:translate(-38px,28px) scale(1.15);opacity:.5}
-}
-
-.particles{
-position:absolute;
-inset:0;
-z-index:1;
-pointer-events:none;
-overflow:hidden
-}
-
-.particles i{
-position:absolute;
-bottom:-10px;
-width:3px;
-height:3px;
-border-radius:50%;
-background:rgba(180,150,255,.7);
-box-shadow:0 0 6px rgba(155,120,255,.9);
-animation:rise linear infinite
-}
-
-@keyframes rise{
-0%{transform:translateY(0);opacity:0}
-10%{opacity:1}
-90%{opacity:.7}
-100%{transform:translateY(-380px);opacity:0}
-}
-
-@media(prefers-reduced-motion:reduce){
-.aurora span,
-.particles i{
-animation:none
-}
-}
-
-/* FAQ */
-
-.faq-list{
-max-width:760px;
-border-top:1px solid var(--line)
-}
+.faq-list{max-width:760px}
 
 .faq-item{
-border-bottom:1px solid var(--line)
+background:#fff;
+border:1px solid var(--line);
+border-radius:var(--r-sm);
+margin-bottom:10px;
+transition:border-color .25s ease,box-shadow .25s ease
+}
+
+.faq-item.open{
+border-color:var(--purple-soft);
+box-shadow:var(--soft-sm)
 }
 
 .faq-q{
@@ -1196,7 +1114,7 @@ background:none;
 border:none;
 text-align:left;
 cursor:pointer;
-padding:22px 4px;
+padding:20px 22px;
 display:flex;
 align-items:center;
 justify-content:space-between;
@@ -1205,78 +1123,59 @@ font-family:Inter;
 font-size:15.5px;
 font-weight:600;
 color:var(--ink);
-transition:color .18s ease
+transition:color .2s ease
 }
 
-.faq-q:hover{
-color:var(--purple-deep)
-}
+.faq-q:hover{color:var(--purple-deep)}
 
 .faq-q .chev{
 flex-shrink:0;
 color:var(--purple);
-transition:transform .25s ease
+transition:transform .3s ease
 }
 
-.faq-q svg{
-width:20px;
-height:20px
-}
+.faq-q svg{width:19px;height:19px}
 
-.faq-item.open .chev{
-transform:rotate(180deg)
-}
+.faq-item.open .chev{transform:rotate(180deg)}
 
-.faq-a{
-max-height:0;
-overflow:hidden;
-transition:max-height .3s ease
-}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
 
 .faq-a-inner{
-padding:0 4px 22px;
+padding:0 22px 22px;
 font-size:14.5px;
 color:var(--ink-soft);
-line-height:1.65
+line-height:1.75
 }
 
 /* FOOTER */
 
 footer{
-border-top:1px solid var(--line);
-padding:64px 0 48px;
-background:var(--bg-tint)
+border-top:1px solid var(--line-warm);
+padding:62px 0 48px;
+background:var(--paper-warm)
 }
 
 .foot-grid{
 display:flex;
 justify-content:space-between;
 flex-wrap:wrap;
-gap:32px
+gap:34px
 }
 
-.foot-brand{
-max-width:280px
-}
+.foot-brand{max-width:290px}
 
-.foot-brand .logo{
-margin-bottom:14px
-}
+.foot-brand .logo{margin-bottom:15px}
 
 .foot-brand p{
-font-size:13px;
+font-size:13.5px;
 color:var(--ink-soft);
-line-height:1.6
+line-height:1.7
 }
 
-.foot-cols{
-display:flex;
-gap:56px;
-flex-wrap:wrap
-}
+.foot-cols{display:flex;gap:56px;flex-wrap:wrap}
 
 .foot-col h4{
-font-size:12px;
+font-size:12.5px;
 color:var(--ink-faint);
 margin-bottom:15px;
 font-weight:600
@@ -1288,17 +1187,15 @@ font-size:13.5px;
 color:var(--ink-soft);
 text-decoration:none;
 margin-bottom:11px;
-transition:color .18s ease
+transition:color .2s ease
 }
 
-.foot-col a:hover{
-color:var(--purple-deep)
-}
+.foot-col a:hover{color:var(--purple-deep)}
 
 .foot-bottom{
-margin-top:48px;
+margin-top:46px;
 padding-top:26px;
-border-top:1px solid var(--line);
+border-top:1px solid var(--line-warm);
 display:flex;
 justify-content:space-between;
 flex-wrap:wrap;
@@ -1309,8 +1206,26 @@ color:var(--ink-faint)
 
 :focus-visible{
 outline:2px solid var(--purple);
-outline-offset:2px;
-border-radius:6px
+outline-offset:3px;
+border-radius:8px
+}
+
+/* one gentle, orchestrated arrival — reassurance, not urgency */
+
+@media(prefers-reduced-motion:no-preference){
+.settle{
+opacity:0;
+transform:translateY(14px);
+animation:settle .9s cubic-bezier(.22,.9,.28,1) forwards
+}
+.settle-1{animation-delay:.05s}
+.settle-2{animation-delay:.16s}
+.settle-3{animation-delay:.27s}
+.settle-4{animation-delay:.38s}
+}
+
+@keyframes settle{
+to{opacity:1;transform:translateY(0)}
 }
 </style>
 
@@ -1358,10 +1273,13 @@ border-radius:6px
 </header>
 
 <section class="page-hero">
-  <div class="hero-glow"></div>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
   <div class="wrap">
 
-<div class="breadcrumb">
+<div class="breadcrumb settle settle-1">
   <a href="/">Home</a> / Data Broker Exposure Check
 </div>
 
@@ -1369,13 +1287,13 @@ border-radius:6px
 
   <div>
 
-    <h1>Data Broker Exposure Check: What Information Do They Have About You?</h1>
+    <h1 class="settle settle-1">Data Broker Exposure Check: What Information Do They Have About You?</h1>
 
-    <p class="page-sub">
+    <p class="page-sub settle settle-2">
       Find out what data brokers are, how they collect personal information, where your details may appear, and how to check and reduce your own exposure.
     </p>
 
-    <div class="tldr">
+    <div class="tldr settle settle-2">
       <p>
         <strong>TL;DR:</strong>
         Data brokers collect and combine information from many sources to build profiles about people.
@@ -1384,7 +1302,7 @@ border-radius:6px
       </p>
     </div>
 
-    <div class="hero-cta">
+    <div class="hero-cta settle settle-3">
       <a class="btn-primary" href="/#pricing">
         Check My Exposure · <span class="price-tag">₹498</span>
       </a>
@@ -1394,50 +1312,103 @@ border-radius:6px
       </a>
     </div>
 
-    <div class="trust-strip">
-      <div class="trust-item">
-        <span class="num">1,500+</span>
-        <span class="label">Sources checked</span>
+    <div class="cta-reassure settle settle-3">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6 9 17l-5-5"/>
+      </svg>
+      No account needed. Your number and email are deleted right after your report is made.
+    </div>
+
+    <div class="reassure settle settle-4">
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+          </svg>
+        </span>
+        <span class="lab"><b>1,500+ sources</b>checked for you</span>
       </div>
-      <div class="trust-item">
-        <span class="num">~5 min</span>
-        <span class="label">To your report</span>
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+          </svg>
+        </span>
+        <span class="lab"><b>About 5 minutes</b>from scan to report</span>
       </div>
-      <div class="trust-item">
-        <span class="num">0</span>
-        <span class="label">Data retained after scan</span>
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3l7 3v6c0 4.2-2.9 7.4-7 9-4.1-1.6-7-4.8-7-9V6z"/>
+          </svg>
+        </span>
+        <span class="lab"><b>Nothing kept</b>data deleted after</span>
       </div>
+
     </div>
 
   </div>
 
-  <div class="hero-mock">
-    <div class="mock-head">
-      <span class="mock-title">Exposure snapshot</span>
-      <span class="mock-badge">Sample</span>
+  <div class="report-card settle settle-4">
+
+    <div class="rc-head">
+      <span class="rc-seal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/>
+        </svg>
+      </span>
+      <div>
+        <div class="rc-title">What your report looks like</div>
+        <div class="rc-sub">Plain language. No jargon.</div>
+      </div>
     </div>
 
-    <div class="mock-row">
-      <span class="src"><span class="mock-dot hit"></span>People-search directory</span>
-      <span class="mock-tag hit">Match found</span>
-    </div>
-    <div class="mock-row">
-      <span class="src"><span class="mock-dot hit"></span>2022 breach dataset</span>
-      <span class="mock-tag hit">Match found</span>
-    </div>
-    <div class="mock-row">
-      <span class="src"><span class="mock-dot clear"></span>Marketing data broker</span>
-      <span class="mock-tag clear">Clear</span>
-    </div>
-    <div class="mock-row">
-      <span class="src"><span class="mock-dot clear"></span>Public records index</span>
-      <span class="mock-tag clear">Clear</span>
+    <div class="rc-line">
+      <span class="rc-icon note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <path d="M12 8v5"/><path d="M12 17h.01"/>
+        </svg>
+      </span>
+      <div>
+        <div class="txt">Your email appeared in an old shopping site leak</div>
+        <div class="sub">Here's what to change, and why it matters</div>
+      </div>
     </div>
 
-    <div class="mock-foot">
-      <span class="score-label">Overall exposure</span>
-      <span class="score">Moderate</span>
+    <div class="rc-line">
+      <span class="rc-icon note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <path d="M12 8v5"/><path d="M12 17h.01"/>
+        </svg>
+      </span>
+      <div>
+        <div class="txt">Your number is listed on a people-search page</div>
+        <div class="sub">Steps to ask them to take it down</div>
+      </div>
     </div>
+
+    <div class="rc-line">
+      <span class="rc-icon calm">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 6 9 17l-5-5"/>
+        </svg>
+      </span>
+      <div>
+        <div class="txt">Nothing found across the other sources</div>
+        <div class="sub">Good news, and worth rechecking now and then</div>
+      </div>
+    </div>
+
+    <div class="rc-foot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/>
+      </svg>
+      Sent only to your email. We delete your details once it's made.
+    </div>
+
   </div>
 
 </div>
@@ -1464,17 +1435,24 @@ border-radius:6px
 </p>
 
 <div class="callout">
-  <div class="callout-title">Data brokers are different from a single public webpage</div>
-  <p>
-    The concern is not only that one piece of information is visible.
-    It is that information from different sources can be collected, linked, and made easier to search or use.
-  </p>
+  <span class="callout-mark">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+      <path d="M12 8v5"/><path d="M12 17h.01"/>
+    </svg>
+  </span>
+  <div>
+    <div class="callout-title">Data brokers are different from a single public webpage</div>
+    <p>
+      The concern is not only that one piece of information is visible.
+      It is that information from different sources can be collected, linked, and made easier to search or use.
+    </p>
+  </div>
 </div>
 
   </div>
 </section>
 
-<section class="block section-line">
+<section class="block band-warm">
   <div class="wrap">
 
 <div class="sec-head">
@@ -1485,7 +1463,11 @@ border-radius:6px
 <div class="grid3">
 
   <div class="info-card">
-    <span class="idx">01</span>
+    <span class="ic-mark m1">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 21h18"/><path d="M5 21V9l7-5 7 5v12"/><path d="M10 21v-6h4v6"/>
+      </svg>
+    </span>
     <div class="title">Public information</div>
     <div class="desc">
       Public records, business information, directories, public profiles, and other openly available information can contribute to a profile.
@@ -1493,7 +1475,11 @@ border-radius:6px
   </div>
 
   <div class="info-card">
-    <span class="idx">02</span>
+    <span class="ic-mark m2">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="3" width="12" height="18" rx="2.5"/><path d="M11 18h2"/>
+      </svg>
+    </span>
     <div class="title">Online activity</div>
     <div class="desc">
       Websites, apps, forms, cookies, purchases, loyalty programs, and other digital interactions can create data that may be shared with third parties.
@@ -1501,7 +1487,11 @@ border-radius:6px
   </div>
 
   <div class="info-card">
-    <span class="idx">03</span>
+    <span class="ic-mark m3">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9h18"/><rect x="3" y="5" width="18" height="15" rx="2.5"/><path d="M8 14h5"/>
+      </svg>
+    </span>
     <div class="title">Commercial sources</div>
     <div class="desc">
       Companies may obtain information through partnerships, marketing lists, data licensing, or other commercial relationships and combine it with other records.
@@ -1513,7 +1503,7 @@ border-radius:6px
   </div>
 </section>
 
-<section class="block section-line">
+<section class="block">
   <div class="wrap prose">
 
 <div class="sec-head">
@@ -1540,10 +1530,10 @@ border-radius:6px
   </div>
 </section>
 
-<section class="block section-line">
+<section class="block band-lilac">
   <div class="wrap">
 
-<div class="sec-head narrow">
+<div class="sec-head">
   <span class="kicker">Check yourself first</span>
   <h2>How to check if a data broker has your information</h2>
 </div>
@@ -1580,7 +1570,7 @@ border-radius:6px
   </div>
 </section>
 
-<section class="block section-line">
+<section class="block">
   <div class="wrap prose">
 
 <div class="sec-head">
@@ -1620,20 +1610,27 @@ border-radius:6px
 </p>
 
 <div class="callout">
-  <div class="callout-title">Coverage matters</div>
-  <p>
-    No exposure checker can guarantee complete visibility into every private, newly created, unindexed, or changing data-broker record.
-    A clean result means no relevant match was found across the sources checked.
-  </p>
+  <span class="callout-mark">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+      <path d="M12 8v5"/><path d="M12 17h.01"/>
+    </svg>
+  </span>
+  <div>
+    <div class="callout-title">Coverage matters</div>
+    <p>
+      No exposure checker can guarantee complete visibility into every private, newly created, unindexed, or changing data-broker record.
+      A clean result means no relevant match was found across the sources checked.
+    </p>
+  </div>
 </div>
 
   </div>
 </section>
 
-<section class="block section-line">
+<section class="block band-warm">
   <div class="wrap">
 
-<div class="sec-head narrow">
+<div class="sec-head">
   <span class="kicker">Our approach</span>
   <h2>What Scan My Shadow checks</h2>
 </div>
@@ -1641,7 +1638,11 @@ border-radius:6px
 <div class="grid3">
 
   <div class="info-card">
-    <span class="idx">01</span>
+    <span class="ic-mark m1">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M11 18.5h2"/>
+      </svg>
+    </span>
     <div class="title">Phone number</div>
     <div class="desc">
       Checks your submitted number against relevant breach records and publicly indexed sources for exposure matches.
@@ -1649,7 +1650,11 @@ border-radius:6px
   </div>
 
   <div class="info-card">
-    <span class="idx">02</span>
+    <span class="ic-mark m2">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/>
+      </svg>
+    </span>
     <div class="title">Email address</div>
     <div class="desc">
       Checks your submitted email against relevant breach records and public sources connected to it.
@@ -1657,7 +1662,11 @@ border-radius:6px
   </div>
 
   <div class="info-card">
-    <span class="idx">03</span>
+    <span class="ic-mark m3">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/>
+      </svg>
+    </span>
     <div class="title">Plain-language report</div>
     <div class="desc">
       Brings relevant findings together so you can understand what was found and decide what to address first.
@@ -1669,7 +1678,7 @@ border-radius:6px
   </div>
 </section>
 
-<section class="block section-line">
+<section class="block">
   <div class="wrap prose">
 
 <div class="sec-head">
@@ -1707,10 +1716,10 @@ border-radius:6px
   </div>
 </section>
 
-<section class="block section-line" id="faq">
+<section class="block band-warm" id="faq">
   <div class="wrap">
 
-<div class="sec-head narrow">
+<div class="sec-head">
   <span class="kicker">FAQ</span>
   <h2>Frequently asked questions</h2>
 </div>
@@ -1721,7 +1730,7 @@ border-radius:6px
     <button class="faq-q">
       What is a data broker?
       <span class="chev">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="m6 9 6 6 6-6"/>
         </svg>
       </span>
@@ -1737,7 +1746,7 @@ border-radius:6px
     <button class="faq-q">
       How do data brokers get my information?
       <span class="chev">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="m6 9 6 6 6-6"/>
         </svg>
       </span>
@@ -1753,7 +1762,7 @@ border-radius:6px
     <button class="faq-q">
       What information do data brokers have about me?
       <span class="chev">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="m6 9 6 6 6-6"/>
         </svg>
       </span>
@@ -1769,7 +1778,7 @@ border-radius:6px
     <button class="faq-q">
       How can I find out if a data broker has my information?
       <span class="chev">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="m6 9 6 6 6-6"/>
         </svg>
       </span>
@@ -1785,7 +1794,7 @@ border-radius:6px
     <button class="faq-q">
       Can I remove my information from data brokers?
       <span class="chev">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="m6 9 6 6 6-6"/>
         </svg>
       </span>
@@ -1801,7 +1810,7 @@ border-radius:6px
     <button class="faq-q">
       Does Scan My Shadow search every data broker?
       <span class="chev">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="m6 9 6 6 6-6"/>
         </svg>
       </span>
@@ -1818,10 +1827,10 @@ border-radius:6px
   </div>
 </section>
 
-<section class="block section-line">
+<section class="block">
   <div class="wrap">
 
-<div class="sec-head narrow">
+<div class="sec-head">
   <span class="kicker">Related checks</span>
   <h2>Continue your privacy audit</h2>
 </div>
@@ -1848,18 +1857,13 @@ border-radius:6px
   </div>
 </section>
 
-<section class="block section-line">
+<section class="block">
   <div class="wrap">
 
 <div class="cta-band">
 
-  <div class="aurora">
-    <span class="a1"></span>
-    <span class="a2"></span>
-    <span class="a3"></span>
-  </div>
-
-  <div class="particles" data-particles></div>
+  <span class="glow-a"></span>
+  <span class="glow-b"></span>
 
   <div class="cta-band-inner">
 
@@ -2009,29 +2013,6 @@ ans.style.maxHeight=ans.scrollHeight+'px';
 });
 
 });
-
-
-(function(){
-
-var wrap=document.querySelector('.particles');
-
-if(!wrap)return;
-
-for(var i=0;i<22;i++){
-
-var p=document.createElement('i');
-
-p.style.left=(Math.random()*100)+'%';
-
-p.style.animationDuration=(6+Math.random()*6)+'s';
-
-p.style.animationDelay=(Math.random()*8)+'s';
-
-wrap.appendChild(p);
-
-}
-
-})();
 
 </script>
 
