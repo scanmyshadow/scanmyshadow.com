@@ -79,6 +79,40 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is it safe to enter my email here?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Your email is only used to run the breach check against Have I Been Pwned's database — there's no sign-up, no password, and nothing is stored after your results are shown." }
+    },
+    {
+      "@type": "Question",
+      "name": "Where does the breach data come from?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Breach results come from Have I Been Pwned, a widely used database of real, recorded data breaches. It's not an estimate or a guess — if your email shows up, it was found in an actual breach." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a clear result mean I'm completely safe online?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Not entirely. A clear result means your email wasn't found in known breach records — it doesn't check your phone number, the dark web, or people-search sites. A paid scan covers 1,500+ sources for a fuller picture." }
+    },
+    {
+      "@type": "Question",
+      "name": "How is my Digital Exposure Score calculated?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It combines your real breach check with five short questions about things a breach database can't see — like your phone number and password habits — to produce a score out of 100." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this really free, with no hidden charges?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, the Digital Exposure Score check is completely free — no card, no sign-up. The full phone + email scan across 1,500+ sources is a separate, optional paid product." }
+    }
+  ]
+}
+</script>
+
 <style>
 :root{
   --bg:#FFFFFF;--bg-tint:#FAF9FF;--ink:#15121F;--ink-soft:#605C73;--ink-faint:#908DA3;
@@ -193,8 +227,9 @@ h1 .accent{color:var(--purple);}
 .gate-submit svg{width:16px;height:16px;}
 .gate-err-msg{font-size:12.5px;color:var(--danger);min-height:16px;}
 .gate-trust{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px;padding-top:18px;border-top:1px solid var(--line-soft);}
-.gate-trust span{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-faint);}
+.gate-trust span{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-faint);white-space:nowrap;}
 .gate-trust svg{width:14px;height:14px;color:var(--ok);flex-shrink:0;}
+@media(max-width:400px){.gate-trust{gap:8px;justify-content:space-between;}.gate-trust span{font-size:10.5px;gap:4px;}.gate-trust svg{width:12px;height:12px;}}
 @media(max-width:480px){.gate-input-row{flex-direction:column;}.gate-submit{width:100%;}}
 
 /* ===== PHASE: SCANNING ===== */
@@ -358,6 +393,7 @@ h1 .accent{color:var(--purple);}
 .price-list{list-style:none;margin:0 0 18px;padding:0;}
 .price-list li{display:flex;align-items:flex-start;gap:10px;padding:7px 0;font-size:13px;color:#DEDDEC;}
 .price-list li svg{width:15px;height:15px;color:var(--purple);flex-shrink:0;margin-top:1px;}
+.price-list li span{flex:1;text-align:left;}
 .btn-price{display:block;width:100%;text-align:center;background:var(--purple);color:#fff;border:none;border-radius:13px;padding:14px;font-size:14.5px;font-weight:600;font-family:'Inter';cursor:pointer;text-decoration:none;margin-top:20px;}
 .btn-price:hover{background:var(--purple-deep);text-decoration:none;}
 .btn-price{animation:cta-pulse 2.2s ease-out infinite;}
@@ -396,10 +432,15 @@ h1 .accent{color:var(--purple);}
 .seo-section a{color:var(--purple);}
 .faq-section{padding:52px 0 0;margin-top:44px;border-top:1px solid var(--line);}
 .faq-section h2{font-family:'Space Grotesk';font-weight:600;font-size:clamp(20px,4vw,26px);line-height:1.2;letter-spacing:-0.01em;margin-bottom:22px;}
-.faq-item{border-top:1px solid var(--line);padding:18px 0;}
-.faq-item:last-child{border-bottom:1px solid var(--line);}
-.faq-item h3{font-family:'Space Grotesk';font-weight:600;font-size:15.5px;line-height:1.4;margin-bottom:8px;}
-.faq-item p{font-size:14px;color:var(--ink-soft);line-height:1.7;}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden;transition:border-color .2s ease,box-shadow .2s ease;}
+.faq-item.open{border-color:var(--purple);box-shadow:var(--shadow-sm);}
+.faq-q{width:100%;background:none;border:none;text-align:left;cursor:pointer;padding:16px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-family:'Space Grotesk';font-size:14.5px;font-weight:600;color:var(--ink);transition:color .2s ease;}
+.faq-q:hover{color:var(--purple-deep);}
+.faq-q .chev{flex-shrink:0;color:var(--purple);transition:transform .25s ease;display:flex;}
+.faq-q svg{width:16px;height:16px;}
+.faq-item.open .chev{transform:rotate(180deg);}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;}
+.faq-a-inner{padding:0 18px 16px;font-size:13.5px;color:var(--ink-soft);line-height:1.65;}
 .site-footer{text-align:center;padding:32px 20px;border-top:1px solid var(--line);background:var(--bg-tint);margin-top:44px;}
 .site-footer p{font-size:12.5px;color:var(--ink-faint);}
 .site-footer a{color:var(--purple);text-decoration:none;}
@@ -728,11 +769,11 @@ h1 .accent{color:var(--purple);}
             </div>
             <div class="price-right">
               <ul class="price-list">
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Results usually within about 5 minutes</li>
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Clear, plain-English report</li>
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Delivered straight to your inbox</li>
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No login or passwords required</li>
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Scan data deleted after report is generated</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Results usually within about 5 minutes</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Clear, plain-English report</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Delivered straight to your inbox</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>No login or passwords required</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Scan data deleted after report is generated</span></li>
               </ul>
             </div>
           </div>
@@ -760,12 +801,68 @@ h1 .accent{color:var(--purple);}
     </p>
   </section>
 
+  <!-- FAQ -->
+  <section class="faq-section" aria-labelledby="faq-title">
+    <h2 id="faq-title">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">
+        Is it safe to enter my email here?
+        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">Yes. Your email is only used to run the breach check against Have I Been Pwned's database — there's no sign-up, no password, and nothing is stored after your results are shown.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">
+        Where does the breach data come from?
+        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">Breach results come from Have I Been Pwned, a widely used database of real, recorded data breaches. It's not an estimate or a guess — if your email shows up, it was found in an actual breach.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">
+        Does a clear result mean I'm completely safe online?
+        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">Not entirely. A clear result means your email wasn't found in known breach records — it doesn't check your phone number, the dark web, or people-search sites. A paid scan covers 1,500+ sources for a fuller picture.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">
+        How is my Digital Exposure Score calculated?
+        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">It combines your real breach check with five short questions about things a breach database can't see — like your phone number and password habits — to produce a score out of 100.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">
+        Is this really free, with no hidden charges?
+        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">Yes, the Digital Exposure Score check is completely free — no card, no sign-up. The full phone + email scan across 1,500+ sources is a separate, optional paid product.</div>
+      </div>
+    </div>
+
+  </section>
+
 </main>
 
 
 <!-- FOOTER -->
 <footer class="site-footer">
-  <p>&copy; <span id="footYear"></span> <a href="https://www.scanmyshadow.com">Scan My Shadow</a></p>
+  <p>&copy; <span id="footYear"></span> <a href="https://www.scanmyshadow.com">Scan My Shadow</a>. All rights reserved.</p>
 </footer>
 
 
@@ -1405,6 +1502,24 @@ h1 .accent{color:var(--purple);}
       mobileToolsToggle.setAttribute('aria-expanded', open);
     });
   }
+
+  document.querySelectorAll('.faq-q').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var item = btn.parentElement;
+      var ans = item.querySelector('.faq-a');
+      var isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function(i){
+        i.classList.remove('open');
+        i.querySelector('.faq-q').setAttribute('aria-expanded','false');
+        i.querySelector('.faq-a').style.maxHeight = null;
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded','true');
+        ans.style.maxHeight = ans.scrollHeight + 'px';
+      }
+    });
+  });
 </script>
 
 
