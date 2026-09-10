@@ -1201,6 +1201,35 @@ padding:4px
 
 .lc-again:hover{color:var(--purple-deep)}
 
+.lc-attrib{
+margin-top:15px;
+padding-top:14px;
+border-top:1px solid var(--line);
+font-size:11.5px;
+color:var(--ink-faint);
+line-height:1.55
+}
+
+.lc-attrib a{color:var(--ink-soft);text-decoration:underline;text-underline-offset:2px}
+.lc-attrib a:hover{color:var(--purple-deep)}
+
+.lc-tag a{color:var(--purple-deep);text-decoration:underline;text-underline-offset:2px}
+.lc-tag a:hover{color:var(--purple)}
+
+.lc-flag{
+display:inline-block;
+font-size:10.5px;
+font-weight:600;
+padding:2px 7px;
+border-radius:999px;
+margin-left:7px;
+vertical-align:1px;
+letter-spacing:.01em
+}
+
+.lc-flag.crit{color:var(--crit);background:var(--crit-wash)}
+.lc-flag.mute{color:var(--ink-faint);background:var(--paper-warm)}
+
 
 /* REASSURE STRIP */
 
@@ -1731,7 +1760,7 @@ to{opacity:1;transform:translateY(0)}
 
       <span class="lc-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        Free breach check
+        Free breach check &middot; data by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>
       </span>
 
       <div class="lc-h">Check your email against known data breaches</div>
@@ -1766,7 +1795,7 @@ to{opacity:1;transform:translateY(0)}
 
       <span class="lc-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        Free breach check
+        Free breach check &middot; data by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>
       </span>
 
       <div class="lc-load">
@@ -2399,17 +2428,22 @@ var m=String(d).match(/^(\d{4})/);
 return m?m[1]:null;
 }
 
-function band(c){
-if(c===0)return{k:'calm',pill:'No breaches found',crit:0,note:0,calm:100};
-if(c<=2)return{k:'note',pill:'Moderate',crit:0,note:100,calm:0};
-return{k:'crit',pill:'High',crit:100,note:0,calm:0};
+function band(sev,count){
+if(sev==='high')return{k:'crit',pill:'High exposure',crit:100,note:0,calm:0};
+if(sev==='moderate')return{k:'note',pill:'Some exposure',crit:0,note:100,calm:0};
+if(sev==='low')return{k:'note',pill:'Low exposure',crit:0,note:100,calm:0};
+return{k:'calm',pill:'Nothing found',crit:0,note:0,calm:100};
 }
 
 var ICON_CRIT='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 8v5"/><path d="M12 17h.01"/></svg>';
 var ICON_CALM='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
 
-function render(list,count){
-var b=band(count);
+function render(d){
+var list=(d&&d.breaches)||[];
+var count=(d&&typeof d.count==='number')?d.count:list.length;
+var sev=(d&&d.severity)||(count?'moderate':'clear');
+var critN=(d&&d.criticalCount)||0;
+var b=band(sev,count);
 var h='';
 
 h+='<div class="lc-res-head">';
@@ -2430,8 +2464,15 @@ h+='</div>';
 h+='<div class="lc-legend">';
 h+='<span><b class="calm"></b>Nothing found</span>';
 h+='<span><b class="note"></b>Some exposure</span>';
-h+='<span><b class="crit"></b>Significant exposure</span>';
+h+='<span><b class="crit"></b>Passwords or ID data exposed</span>';
 h+='</div>';
+
+if(critN>0){
+h+='<div class="lc-gap" style="margin-top:16px;background:var(--crit-wash);border-color:var(--crit-line)">';
+h+='<div class="lc-gap-t" style="color:var(--crit)">Why this is marked high</div>';
+h+='<div class="lc-gap-p">'+critN+' of these '+(critN===1?'breach exposed':'breaches exposed')+' passwords or identity data, not just an email address. If you have reused that password anywhere, change it on those accounts first.</div>';
+h+='</div>';
+}
 
 if(count>0){
 h+='<div class="lc-list">';
@@ -2440,15 +2481,20 @@ for(var i=0;i<show.length;i++){
 var it=show[i]||{};
 var y=yr(it.date);
 var a=fmt(it.accounts);
-var cls=(list.length>2)?'crit':'note';
+var cls=it.critical?'crit':'note';
 var meta=[];
 if(y)meta.push('Breached '+y);
 if(a)meta.push(a+' accounts exposed');
 if(it.dataClasses&&it.dataClasses.length)meta.push(it.dataClasses.slice(0,3).join(', '));
+var flag='';
+if(it.stealerLog)flag='<span class="lc-flag crit">Stealer log</span>';
+else if(it.malware)flag='<span class="lc-flag crit">Malware</span>';
+else if(it.spamList)flag='<span class="lc-flag mute">Spam list</span>';
+else if(it.unverified)flag='<span class="lc-flag mute">Unverified</span>';
 h+='<div class="lc-item">';
 h+='<span class="lc-dot '+cls+'">'+ICON_CRIT+'</span>';
-h+='<div><div class="nm">'+esc(it.name||'Unnamed breach')+'</div>';
-if(meta.length)h+='<div class="mt">'+esc(meta.join(' · '))+'</div>';
+h+='<div><div class="nm">'+esc(it.name||'Unnamed breach')+flag+'</div>';
+if(meta.length)h+='<div class="mt">'+esc(meta.join(' \u00b7 '))+'</div>';
 h+='</div></div>';
 }
 h+='</div>';
@@ -2465,6 +2511,8 @@ h+='</div>';
 h+='<a class="lc-cta" href="/#pricing">Run the full scan &middot; <span class="price-tag">&#8377;498</span></a>';
 h+='<button type="button" class="lc-again" id="lcAgain">Check a different email</button>';
 
+h+='<div class="lc-attrib">Breach data supplied by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>, used under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 licence</a>. Your email was not stored or logged.</div>';
+
 result.innerHTML=h;
 
 var again=document.getElementById('lcAgain');
@@ -2477,7 +2525,7 @@ swap(result,idle);
 }
 
 if(window.gtag){
-try{gtag('event','free_breach_check_complete')}catch(e){}
+try{gtag('event','free_breach_check_complete',{severity:sev})}catch(e){}
 }
 }
 
@@ -2500,9 +2548,7 @@ if(r.status===429)throw new Error('rate');
 if(!r.ok)throw new Error('fail');
 return r.json();
 }).then(function(d){
-var list=(d&&d.breaches)||[];
-var count=(d&&typeof d.count==='number')?d.count:list.length;
-render(list,count);
+render(d||{});
 swap(loading,result);
 btn.disabled=false;
 }).catch(function(e){
