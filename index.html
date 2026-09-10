@@ -891,6 +891,9 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .free-breach-count{font-family:'Source Serif 4'; font-weight:700; font-size:44px; letter-spacing:-0.02em; line-height:1; margin-top:10px;}
   .free-breach-count span{font-family:'Inter'; font-size:14px; color:var(--ink-faint); font-weight:500; margin-left:6px;}
   .free-breach-list{display:flex; flex-direction:column; gap:7px; margin:14px 0 18px;}
+  .scan-box.wide{max-width:560px; transition:max-width .48s cubic-bezier(.4,0,.2,1);}
+  .scan-box.wide .free-breach-list{display:grid; grid-template-columns:1fr 1fr; gap:8px;}
+  @media(max-width:520px){ .scan-box.wide .free-breach-list{grid-template-columns:1fr;} }
   .free-breach-row{display:flex; align-items:center; gap:11px; border:1px solid var(--line-soft); background:var(--bg-tint); border-radius:12px; padding:10px 12px;}
   .free-b-avatar{width:32px; height:32px; border-radius:9px; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk'; font-weight:700; font-size:13px; color:#fff; background:var(--purple-deep);}
   .free-b-body{flex:1; min-width:0;}
@@ -1058,7 +1061,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
           <input type="text" id="hpField" class="hp-field" tabindex="-1" autocomplete="off">
         </div>
         <button class="btn-scan free-pulse" id="freeCheckBtn">
-          Check my Digital Footprint - Free
+          Check My Email Free
         </button>
         <div id="freeCheckError" class="free-error" style="display:none;"></div>
         <div class="scan-note">
@@ -1096,16 +1099,9 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
           <span><b>This only checked your email against known breach databases.</b> Your phone number, and 1,500+ deeper public sources, haven't been scanned yet.</span>
         </div>
 
-        <div class="free-phone-label">Add your phone to scan everything</div>
-        <div class="scan-fields">
-          <div class="field" style="display:none;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-            <input type="email" id="emailInput" placeholder="Your email address" autocomplete="email" readonly>
-          </div>
-          <div class="field">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <input type="tel" id="phoneInput" placeholder="Your phone number" autocomplete="tel">
-          </div>
+        <div class="field" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <input type="email" id="emailInput" placeholder="Your email address" autocomplete="email" readonly>
         </div>
         <button class="btn-scan" id="scanBtn">
           Get Full Report — <span class="price-tag">₹498</span>
@@ -2049,15 +2045,18 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       if(!result.ok){
         freeCheckError.textContent = (result.data && result.data.error) || 'Something went wrong — try again.';
         freeCheckError.style.display = 'block';
+        box.classList.remove('wide');
         animateTo(pIdle, [pLoad, pRes]);
         return;
       }
       renderResult(email, result.data);
+      box.classList.add('wide');
       animateTo(pRes, [pLoad, pIdle]);
     })
     .catch(function(){
       freeCheckError.textContent = 'Could not reach the check service — try again in a moment.';
       freeCheckError.style.display = 'block';
+      box.classList.remove('wide');
       animateTo(pIdle, [pLoad, pRes]);
     });
   });
