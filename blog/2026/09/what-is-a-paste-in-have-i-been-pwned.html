@@ -1,64 +1,570 @@
 <!DOCTYPE html>
-<html lang="en-IN">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>What Is a Paste in Have I Been Pwned? | Scan My Shadow</title>
-<link rel="icon" type="image/png" sizes="16x16" href="https://www.scanmyshadow.com/favicon-16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.scanmyshadow.com/favicon.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https://www.scanmyshadow.com/favicon-192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.scanmyshadow.com/apple-touch-icon.png">
-<!-- Google Analytics (GA4) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S4P3YTNEDY"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-S4P3YTNEDY');
-</script>
-<meta name="description" content="HIBP can show paste records as well as traditional breaches. Here is what a paste means, why it matters, and what you should do when one appears.">
-<meta name="keywords" content="Have I Been Pwned, Pastes, Data Exposure, Email Privacy, what is a paste in Have I Been Pwned">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-<meta name="theme-color" content="#7B5CFA">
-<meta name="geo.region" content="IN">
-<meta name="geo.placename" content="India">
-<meta name="geo.position" content="20.5937;78.9629">
-<meta name="ICBM" content="20.5937, 78.9629">
-<meta property="og:title" content="What Is a Paste in Have I Been Pwned?">
-<meta property="og:description" content="HIBP can show paste records as well as traditional breaches. Here is what a paste means, why it matters, and what you should do when one appears.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://www.scanmyshadow.com/blog/2026/09/what-is-a-paste-in-have-i-been-pwned.html">
-<meta property="og:image" content="https://www.scanmyshadow.com/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="What Is a Paste in Have I Been Pwned?">
-<meta name="twitter:description" content="HIBP can show paste records as well as traditional breaches. Here is what a paste means, why it matters, and what you should do when one appears.">
-<meta name="twitter:image" content="https://www.scanmyshadow.com/og-image.png">
-<link rel="canonical" href="https://www.scanmyshadow.com/blog/2026/09/what-is-a-paste-in-have-i-been-pwned.html">
-<script type="application/ld+json">
-{
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>What Is a Paste in Have I Been Pwned? | Scan My Shadow</title>
+  <meta name="description" content="What does “paste” mean in Have I Been Pwned? Learn how paste records differ from company breaches and what a paste result means for your email.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <meta name="geo.region" content="IN">
+  <meta name="geo.placename" content="India">
+  <meta name="geo.position" content="20.5937;78.9629">
+  <meta name="ICBM" content="20.5937, 78.9629">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="What Is a Paste in Have I Been Pwned?">
+  <meta property="og:description" content="What does “paste” mean in Have I Been Pwned? Learn how paste records differ from company breaches and what a paste result means for your email.">
+  <meta property="og:url" content="https://www.scanmyshadow.com/blog/2026/09/what-is-a-paste-in-have-i-been-pwned.html">
+  <meta property="og:image" content="https://www.scanmyshadow.com/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What Is a Paste in Have I Been Pwned?">
+  <meta name="twitter:description" content="What does “paste” mean in Have I Been Pwned? Learn how paste records differ from company breaches and what a paste result means for your email.">
+  <meta name="twitter:image" content="https://www.scanmyshadow.com/logo.png">
+
+  <link rel="canonical" href="https://www.scanmyshadow.com/blog/2026/09/what-is-a-paste-in-have-i-been-pwned.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+
+  <!-- Google tag (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4P3YTNEDY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S4P3YTNEDY');
+  </script>
+
+  <style>
+    :root{
+      --bg:#FFFFFF;
+      --bg-tint:#FAF9FF;
+      --ink:#15121F;
+      --ink-soft:#403B4D;
+      --ink-faint:#908DA3;
+      --purple:#7B5CFA;
+      --purple-deep:#5A3FE0;
+      --purple-mist:#F1EEFE;
+      --line:#E1DEEE;
+      --line-soft:#EDEBF6;
+      --card:#FBFAFF;
+      --shadow-lg:0 30px 80px rgba(43,29,102,0.14);
+      --ok:#16A34A;
+      --warn:#D97706;
+      --danger:#DC2626;
+      --shadow-sm:0 2px 8px rgba(43,29,102,0.05);
+      --shadow-md:0 14px 40px rgba(43,29,102,0.09);
+      --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    }
+
+    *{box-sizing:border-box;}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--ink);
+      font-family:'Inter',system-ui,sans-serif;
+      line-height:1.6;
+    }
+    a{color:inherit;text-decoration:none;}
+    img{max-width:100%;height:auto;}
+
+    .site-nav{
+      position:sticky;
+      top:0;
+      z-index:50;
+      background:rgba(255,255,255,0.94);
+      backdrop-filter:blur(14px);
+      -webkit-backdrop-filter:blur(14px);
+      border-bottom:1px solid var(--line-soft);
+    }
+
+    .nav-inner{
+      max-width:1080px;
+      margin:0 auto;
+      min-height:64px;
+      padding:0 24px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+    }
+
+    .logo{
+      display:flex;
+      align-items:center;
+      flex-shrink:0;
+    }
+
+    .logo-img{
+      height:30px;
+      width:auto;
+      display:block;
+    }
+
+    .nav-links{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:22px;
+      flex:1;
+    }
+
+    .nav-link{
+      font-family:'Space Grotesk',sans-serif;
+      font-size:13px;
+      font-weight:600;
+      color:var(--ink-soft);
+      white-space:nowrap;
+      transition:color .2s ease;
+    }
+
+    .nav-link:hover{color:var(--purple-deep);}
+
+    .nav-pill{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      background:var(--purple);
+      color:#fff;
+      padding:10px 17px;
+      border-radius:999px;
+      font-family:'Space Grotesk',sans-serif;
+      font-size:13px;
+      font-weight:700;
+      white-space:nowrap;
+      box-shadow:var(--shadow-sm);
+    }
+
+    .price-tag{font-weight:700;}
+
+    .nav-toggle{
+      display:none;
+      width:36px;
+      height:36px;
+      padding:7px;
+      border:0;
+      background:transparent;
+      cursor:pointer;
+    }
+
+    .nav-toggle span{
+      display:block;
+      height:2px;
+      margin:5px 0;
+      border-radius:2px;
+      background:var(--ink);
+      transition:transform .2s ease,opacity .2s ease;
+    }
+
+    .mobile-menu{
+      display:none;
+      max-width:1080px;
+      margin:0 auto;
+      padding:0 24px 18px;
+    }
+
+    .mobile-menu a{
+      display:block;
+      padding:9px 0;
+      font-family:'Space Grotesk',sans-serif;
+      font-size:14px;
+      font-weight:600;
+    }
+
+    article{
+      max-width:640px;
+      margin:0 auto;
+      padding:14px 24px 72px;
+    }
+
+    .breadcrumb{
+      font-family:'Inter',sans-serif;
+      font-size:11.5px;
+      color:var(--ink-faint);
+      margin:5px 0 2px;
+    }
+
+    .breadcrumb a{color:var(--ink-faint);}
+    .breadcrumb a:hover{color:var(--purple-deep);}
+
+    .tags{
+      display:flex;
+      gap:7px;
+      flex-wrap:wrap;
+      margin:18px 0 16px;
+    }
+
+    .tag{
+      font-family:'Inter';
+      font-size:11px;
+      font-weight:600;
+      color:var(--purple-deep);
+      background:var(--purple-mist);
+      padding:4px 10px;
+      border-radius:999px;
+    }
+
+    h1{
+      font-family:var(--serif);
+      font-weight:700;
+      font-size:clamp(26px,3.6vw,36px);
+      line-height:1.14;
+      letter-spacing:-0.005em;
+      margin:0 0 12px;
+      color:var(--ink);
+    }
+
+    .byline{
+      font-family:'Inter';
+      font-size:12.5px;
+      color:var(--ink-faint);
+      margin-bottom:22px;
+      padding-bottom:20px;
+      border-bottom:1px solid var(--line);
+      display:flex;
+      gap:8px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .byline .dot{
+      width:3px;
+      height:3px;
+      border-radius:50%;
+      background:var(--ink-faint);
+      display:inline-block;
+    }
+
+    article p{
+      font-family:var(--serif);
+      font-size:18px;
+      line-height:1.65;
+      color:var(--ink-soft);
+      margin:0 0 17px;
+    }
+
+    article h2{
+      font-family:var(--serif);
+      font-weight:700;
+      font-size:22px;
+      line-height:1.25;
+      margin:34px 0 12px;
+      color:var(--ink);
+      padding-top:4px;
+    }
+
+    article h3{
+      font-family:var(--serif);
+      font-weight:600;
+      font-size:17px;
+      margin:22px 0 7px;
+      color:var(--ink);
+    }
+
+    article ul{
+      margin:0 0 17px 0;
+      color:var(--ink-soft);
+      list-style:none;
+      border-left:2px solid var(--purple-mist);
+      padding-left:0;
+    }
+
+    article li{
+      margin:0;
+      font-family:var(--serif);
+      font-size:16.5px;
+      line-height:1.5;
+      padding:9px 0 9px 16px;
+      border-bottom:1px solid var(--line-soft);
+    }
+
+    article li:last-child{border-bottom:none;}
+
+    article strong{color:var(--ink);}
+
+    article a{
+      color:var(--purple-deep);
+      text-decoration:underline;
+      text-decoration-color:rgba(90,63,224,.28);
+      text-underline-offset:3px;
+    }
+
+    article a:hover{
+      text-decoration-color:var(--purple-deep);
+    }
+
+    .tldr{
+      background:var(--bg-tint);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:18px 19px 16px;
+      margin:0 0 28px;
+      box-shadow:var(--shadow-sm);
+    }
+
+    .tldr-label{
+      font-family:'Space Grotesk',sans-serif;
+      font-size:11px;
+      font-weight:700;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:var(--purple-deep);
+      margin-bottom:7px;
+    }
+
+    .tldr p{
+      font-size:16px;
+      line-height:1.55;
+      margin:0;
+    }
+
+    .dropcap:first-letter{
+      float:left;
+      font-family:var(--serif);
+      font-size:56px;
+      line-height:.78;
+      padding:8px 8px 0 0;
+      color:var(--purple-deep);
+      font-weight:700;
+    }
+
+    .price-card{
+      position:relative;
+      overflow:hidden;
+      margin:38px 0 32px;
+      padding:28px 24px 25px;
+      border-radius:22px;
+      background:
+        radial-gradient(circle at 20% 10%,rgba(123,92,250,.34),transparent 34%),
+        radial-gradient(circle at 90% 85%,rgba(255,255,255,.12),transparent 28%),
+        linear-gradient(135deg,#171321,#272035 55%,#181421);
+      color:#fff;
+      box-shadow:var(--shadow-lg);
+    }
+
+    .price-card:before{
+      content:"";
+      position:absolute;
+      inset:-50%;
+      background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.08) 45%,transparent 55%);
+      transform:rotate(12deg);
+      pointer-events:none;
+    }
+
+    .price-card-inner{position:relative;z-index:1;}
+
+    .price-label{
+      font-family:'Space Grotesk',sans-serif;
+      font-size:12px;
+      line-height:1.45;
+      color:rgba(255,255,255,.72);
+      margin-bottom:12px;
+    }
+
+    .price-amount{
+      display:flex;
+      align-items:baseline;
+      gap:9px;
+      margin-bottom:17px;
+      font-family:'Space Grotesk',sans-serif;
+    }
+
+    .price-amount .price-tag{
+      font-size:34px;
+      line-height:1;
+    }
+
+    .price-amount span:last-child{
+      font-size:12px;
+      color:rgba(255,255,255,.58);
+    }
+
+    .btn-price{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:12px 18px;
+      border-radius:999px;
+      background:#fff;
+      color:#21182f;
+      font-family:'Space Grotesk',sans-serif;
+      font-size:13px;
+      font-weight:700;
+      text-decoration:none;
+    }
+
+    .price-note{
+      margin:12px 0 0;
+      font-family:'Inter',sans-serif;
+      font-size:11px;
+      line-height:1.5;
+      color:rgba(255,255,255,.55);
+    }
+
+    .faq{
+      margin-top:34px;
+      padding-top:6px;
+    }
+
+    .faq-item{
+      border-top:1px solid var(--line);
+      padding:16px 0;
+    }
+
+    .faq-item:last-child{border-bottom:1px solid var(--line);}
+
+    .faq-q{
+      font-family:var(--serif);
+      font-weight:700;
+      font-size:17px;
+      line-height:1.35;
+      color:var(--ink);
+      margin-bottom:6px;
+    }
+
+    .faq-a{
+      font-family:var(--serif);
+      font-size:16px;
+      line-height:1.55;
+      color:var(--ink-soft);
+    }
+
+    footer{
+      border-top:1px solid var(--line-soft);
+      background:var(--bg-tint);
+      padding:28px 24px 36px;
+    }
+
+    .footer-inner{
+      max-width:640px;
+      margin:0 auto;
+    }
+
+    .footer-brand{
+      font-family:'Space Grotesk',sans-serif;
+      font-weight:700;
+      font-size:14px;
+      margin-bottom:8px;
+    }
+
+    .footer-copy{
+      font-family:'Inter',sans-serif;
+      font-size:11.5px;
+      line-height:1.55;
+      color:var(--ink-faint);
+    }
+
+    .footer-links{
+      display:flex;
+      gap:14px;
+      flex-wrap:wrap;
+      margin-top:14px;
+      font-family:'Inter',sans-serif;
+      font-size:11.5px;
+    }
+
+    .footer-links a:hover{color:var(--purple-deep);}
+
+    .cta-full{display:inline;}
+    .cta-short{display:none;}
+
+    @media (max-width:820px){
+      .nav-inner{
+        padding:0 16px;
+        gap:8px;
+      }
+
+      .nav-links{display:none;}
+
+      .nav-toggle{
+        display:block;
+        order:1;
+        margin-left:0;
+      }
+
+      .logo{
+        order:2;
+        min-width:0;
+        justify-content:flex-start;
+        overflow:visible;
+      }
+
+      .logo-img{
+        height:26px;
+        max-width:100%;
+        width:auto;
+        flex-shrink:1;
+      }
+
+      .nav-pill{
+        flex-shrink:0;
+        font-size:13.75px;
+        padding:10px 17px;
+        white-space:nowrap;
+        order:3;
+      }
+
+      .cta-full{display:none;}
+      .cta-short{display:inline;}
+
+      .mobile-menu.open{display:block;}
+    }
+
+    @media (max-width:480px){
+      article{
+        padding-left:20px;
+        padding-right:20px;
+      }
+
+      article p{font-size:17.5px;}
+      h1{font-size:29px;}
+
+      .price-card{
+        padding:24px 20px 22px;
+      }
+
+      .footer-inner{
+        padding:0;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",
       "@id": "https://www.scanmyshadow.com/blog/2026/09/what-is-a-paste-in-have-i-been-pwned.html#article",
       "headline": "What Is a Paste in Have I Been Pwned?",
-      "description": "HIBP can show paste records as well as traditional breaches. Here is what a paste means, why it matters, and what you should do when one appears.",
-      "datePublished": "2026-09-10",
-      "dateModified": "2026-09-10",
-      "image": "https://www.scanmyshadow.com/og-image.png",
-      "keywords": "Have I Been Pwned, Pastes, Data Exposure, Email Privacy, what is a paste in Have I Been Pwned",
+      "description": "What does “paste” mean in Have I Been Pwned? Learn how paste records differ from company breaches and what a paste result means for your email.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.scanmyshadow.com/blog/2026/09/what-is-a-paste-in-have-i-been-pwned.html"
+      },
       "author": {
-        "@id": "https://www.scanmyshadow.com/#organization"
+        "@type": "Organization",
+        "name": "Scan My Shadow"
       },
       "publisher": {
-        "@id": "https://www.scanmyshadow.com/#organization"
+        "@type": "Organization",
+        "name": "Scan My Shadow",
+        "url": "https://www.scanmyshadow.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.scanmyshadow.com/logo.png"
+        }
       },
-      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/09/what-is-a-paste-in-have-i-been-pwned.html"
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "image": "https://www.scanmyshadow.com/logo.png"
     },
     {
       "@type": "Organization",
@@ -72,6 +578,7 @@ gtag('config', 'G-S4P3YTNEDY');
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://www.scanmyshadow.com/blog/2026/09/what-is-a-paste-in-have-i-been-pwned.html#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -97,292 +604,152 @@ gtag('config', 'G-S4P3YTNEDY');
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is a paste?",
+          "name": "Can I check several email addresses?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It is an appearance of an identifier in a public text-sharing or paste-style source recorded by HIBP."
+            "text": "Yes. Check each address separately and keep the results clearly associated with the correct identifier."
           }
         },
         {
           "@type": "Question",
-          "name": "Is a paste the same as a data breach?",
+          "name": "Should I upload a list of emails to a random checker?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. A breach describes an incident involving an organisation or dataset; a paste describes where HIBP observed the information."
+            "text": "No. A list of addresses is itself sensitive information. Use a trusted service or an official API rather than an unknown bulk-checking website."
           }
         },
         {
           "@type": "Question",
-          "name": "Does a paste prove my account was hacked?",
+          "name": "Which email should I check first?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. It is an exposure signal and needs context."
+            "text": "Start with addresses connected to important current accounts, recovery functions and services containing sensitive information."
           }
         },
         {
           "@type": "Question",
-          "name": "Should I download a paste containing my data?",
+          "name": "Can multiple email addresses make my digital footprint larger?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Do not download or redistribute leaked personal information just to investigate it."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I do after a paste appears?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Review passwords, MFA and phishing risk, then consider a broader exposure check."
+            "text": "They can make it more fragmented. Each address may be associated with different accounts and public traces, so checking them separately can reveal different parts of your online presence."
           }
         }
       ]
     }
   ]
 }
-</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<style>:root{
---bg:#FFFFFF; --bg-tint:#FAF9FF; --ink:#15121F; --ink-soft:#403B4D; --ink-faint:#908DA3;
---purple:#7B5CFA; --purple-deep:#5A3FE0; --purple-mist:#F1EEFE; --line:#E1DEEE; --line-soft:#EDEBF6;
---card:#FBFAFF; --shadow-lg:0 30px 80px rgba(43,29,102,0.14); --ok:#16A34A; --warn:#D97706; --danger:#DC2626;
---shadow-sm:0 2px 8px rgba(43,29,102,0.05); --shadow-md:0 14px 40px rgba(43,29,102,0.09);
---serif:'Source Serif 4',Georgia,'Times New Roman',serif;
-}
-*{box-sizing :border-box; margin:0; padding:0;}
-html{scroll-behavior :smooth; -webkit-text-size-adjust:100%;}
-body{background :var(--bg); color :var(--ink); font-family:'Inter',system-ui,sans-serif; line-height:1.6;}
-a{color :inherit;}
-.wrap{max-width:1080px; margin:0 auto; padding:0 24px;}
-.display{font-family:'Space Grotesk',sans-serif;}
-<br>
-header.nav{position :sticky; top:0; z-index:80; background :rgba(255,255,255,0.92); backdrop-filter :saturate(180%) blur(14px); border-bottom:1px solid var(--line);}
-.nav-inner{display :flex; justify-content :space-between; align-items :center; height:58px; max-width:1080px; margin:0 auto; padding:0 24px;}
-.logo{font-family:'Space Grotesk'; font-weight:700; font-size:17px; display :flex; align-items :center; gap:9px; text-decoration :none; color :var(--ink);}
-.logo-img{height:33px; width :auto; display :block; max-width:100%;}
-.nav-links{display :flex; align-items :center; gap:26px;}
-.nav-link{font-size:13.5px; color :var(--ink-soft); text-decoration :none;}
-.nav-link :hover{color :var(--ink);}
-.nav-pill{font-size:14px; font-weight:600; color:#fff; background :var(--purple); border-radius:999px; padding:10px 20px; text-decoration :none; box-shadow:0 8px 20px rgba(123,92,250,0.28);}
-.cta-short{display :none;}
-.nav-toggle{display :none; background :none; border :none; cursor :pointer; padding:8px; margin-left:6px; flex-direction :column; gap:5px;}
-.nav-toggle span{display :block; width:22px; height:2px; background :var(--ink); border-radius:2px; transition :transform .25s ease, opacity .2s ease;}
-.nav-toggle.open span :nth-child(1){transform :translateY(7px) rotate(45deg);}
-.nav-toggle.open span :nth-child(2){opacity:0;}
-.nav-toggle.open span :nth-child(3){transform :translateY(-7px) rotate(-45deg);}
-.mobile-menu{display :none; flex-direction :column; background :rgba(255,255,255,0.98); border-top:1px solid var(--line); padding:8px 24px 16px;}
-.mobile-menu a{padding:14px 4px; font-size:15px; color :var(--ink-soft); text-decoration :none; border-bottom:1px solid var(--line); font-family:'Inter';}
-.mobile-menu a :last-child{border-bottom :none;}
-.mobile-menu.open{display :flex;}
-@media(max-width:820px){
-.nav-toggle{display :flex;}
-.nav-links{display :none;}
-.nav-inner{display :grid; grid-template-columns :auto 1fr auto; align-items :center; gap:8px; padding:0 16px;}
-.nav-toggle{margin-left:0; flex-shrink:0; order:1;}
-.logo{margin:0; min-width:0; justify-content :flex-start; overflow :visible; order:2;}
-.logo-img{height:26px; max-width:100%; width :auto; flex-shrink:1;}
-.nav-pill{flex-shrink:0; font-size:13.75px; padding:10px 17px; white-space :nowrap; order:3;}
-.cta-full{display :none;}
-.cta-short{display :inline;}
-}
-@media(max-width:360px){
-.nav-inner{padding:0 12px; gap:6px;}
-.nav-pill{font-size:12.5px; padding:9px 14px;}
-}
-<br>
-.crumb{max-width:640px; margin:22px auto 0; padding:0 24px; font-size:12.5px; color :var(--ink-faint); display :flex; align-items :center; gap:6px; flex-wrap :wrap; font-family:'Inter';}
-.crumb a{color :var(--ink-faint); text-decoration :none;}
-.crumb a :hover{color :var(--purple);}
-.crumb .sep{color :var(--line); font-size:12px;}
-.crumb .current{color :var(--ink-soft);}
-<br>
-article{max-width:640px; margin:0 auto; padding:14px 24px 72px;}
-.tags{display :flex; gap:7px; flex-wrap :wrap; margin:18px 0 16px;}
-.tag{font-family:'Inter'; font-size:11px; font-weight:600; color :var(--purple-deep); background :var(--purple-mist); padding:4px 10px; border-radius:999px;}
-h1{font-family :var(--serif); font-weight:700; font-size :clamp(26px,3.6vw,36px); line-height:1.14; letter-spacing:-0.005em; margin-bottom:12px; color :var(--ink);}
-.byline{font-family:'Inter'; font-size:12.5px; color :var(--ink-faint); margin-bottom:22px; padding-bottom:20px; border-bottom:1px solid var(--line); display :flex; gap:8px; align-items :center;}
-.byline .dot{width:3px; height:3px; border-radius:50%; background :var(--ink-faint); display :inline-block;}
-article p{font-family :var(--serif); font-size:18px; line-height:1.65; color :var(--ink-soft); margin:0 0 17px;}
-article h2{font-family :var(--serif); font-weight:700; font-size:22px; line-height:1.25; margin:34px 0 12px; color :var(--ink); padding-top:4px;}
-article h3{font-family :var(--serif); font-weight:600; font-size:17px; margin:22px 0 7px; color :var(--ink);}
-article ul{margin:0 0 17px 0; color :var(--ink-soft); list-style :none; border-left:2px solid var(--purple-mist); padding-left:0;}
-article li{margin:0; font-family :var(--serif); font-size:16.5px; line-height:1.5; padding:9px 0 9px 16px; border-bottom:1px solid var(--line-soft);}
-article li :last-child{border-bottom :none;}
-article a{color :var(--purple-deep); font-weight:600; text-decoration :none; border-bottom:1px solid var(--purple-mist);}
-article a :hover{border-color :var(--purple);}
-.tldr{border-left:3px solid var(--purple); padding:2px 0 2px 16px; margin-bottom:26px;}
-.tldr p{font-family :var(--serif); font-size:16.5px; line-height:1.55; margin:0; font-style :italic; color :var(--ink);}
-.tldr strong{font-style :normal; color :var(--purple-deep); font-weight:700;}
-.tldr-hook{margin:10px 0 0; font-family:'Inter',system-ui,sans-serif; font-style :normal; font-size:14px; font-weight:600;}
-.tldr-hook a{color :var(--purple-deep); text-decoration :none; border-bottom:1px solid var(--purple-mist);}
-.tldr-hook a :hover{border-color :var(--purple);}
-.dropcap::first-letter{font-family :var(--serif); font-weight:700; font-size:52px; line-height:1; float :left; padding:2px 6px 0 0; margin-top:-2px; color :var(--purple-deep);}
-<br>
-.price-wrap{display :flex; justify-content :center; margin:42px 0 8px;}
-.price-card{position :relative; width:100%; max-width:600px; background :var(--ink); color:#fff; border-radius:18px; padding:30px 34px; overflow :hidden; box-shadow :var(--shadow-lg);}
-.price-card .p-inner{position :relative; z-index:2; display :flex; align-items :center; gap:32px;}
-.price-left{flex:0 0 auto; width:230px;}
-.price-right{flex:1; min-width:0; border-left:1px solid rgba(255,255,255,0.1); padding-left:30px;}
-.price-label{font-family:'Inter'; font-size:12.5px; line-height:1.5; color:#A5A2C0; margin-bottom:9px;}
-.price-amount{font-family:'Space Grotesk'; font-weight:700; font-size:40px; line-height:1; letter-spacing:-0.02em;}
-.price-amount span{font-size:13px; color:#A5A2C0; font-weight:500; margin-left:6px;}
-.price-amount .price-tag{font-size:40px; color:#fff; font-weight:700; margin-left:0;}
-.price-list{list-style :none; margin:0 0 16px; padding:0; border-left :none;}
-.price-list li{display :flex; align-items :flex-start; gap:10px; padding:6px 0; font-size:12.5px; color:#DEDDEC; border-bottom :none; font-family:'Inter';}
-.price-list li svg{width:15px; height:15px; color :var(--purple); flex-shrink:0; margin-top:1px;}
-.btn-price{display :block; width:100%; text-align :center; background :var(--purple); color:#fff; border :none; border-radius:13px; padding:14px 10px; font-size:14px; font-weight:600; font-family:'Inter'; cursor :pointer; text-decoration :none; margin-top:20px; white-space :nowrap;}
-.btn-price :hover{background :var(--purple-deep); text-decoration :none;}
-.price-razorpay{display :flex; align-items :center; justify-content :center; gap:7px; margin-top:12px; opacity:0.6;}
-.price-razorpay span{font-size:11.5px; color:#A5A2C0;}
-@media(max-width:640px){
-.price-card .p-inner{flex-direction :column; align-items :stretch; gap:24px;}
-.price-left{width:100%;}
-.price-right{border-left :none; border-top:1px solid rgba(255,255,255,0.1); padding-left:0; padding-top:20px;}
-}
-.price-razorpay svg{width:15px; height:15px;}
-<br>
-.fx-dark{position :relative; overflow :hidden;}
-.aurora{position :absolute; inset:0; z-index:0; pointer-events :none;}
-.aurora span{position :absolute; border-radius:50%; filter :blur(60px); opacity:0.5; mix-blend-mode :screen;}
-.aurora .a1{width:400px; height:400px; background :radial-gradient(circle,#7B5CFA,transparent 68%); top:-140px; left:6%; animation :drift1 16s ease-in-out infinite;}
-.aurora .a2{width:340px; height:340px; background :radial-gradient(circle,#9D6BFF,transparent 66%); bottom:-150px; right:4%; animation :drift2 19s ease-in-out infinite;}
-.aurora .a3{width:280px; height:280px; background :radial-gradient(circle,#5A3FE0,transparent 70%); top:28%; left:44%; opacity:0.38; animation :drift3 22s ease-in-out infinite;}
-@keyframes drift1{0%,100%{transform :translate(0,0) scale(1);}50%{transform :translate(56px,38px) scale(1.12);}}
-@keyframes drift2{0%,100%{transform :translate(0,0) scale(1);}50%{transform :translate(-46px,-28px) scale(1.08);}}
-@keyframes drift3{0%,100%{transform :translate(0,0) scale(1); opacity:0.32;}50%{transform :translate(-38px,28px) scale(1.15); opacity:0.48;}}
-.particles{position :absolute; inset:0; z-index:1; pointer-events :none; overflow :hidden;}
-.particles i{position :absolute; bottom:-10px; width:3px; height:3px; border-radius:50%; background :rgba(180,150,255,0.7); box-shadow:0 0 6px rgba(155,120,255,0.9); animation :rise linear infinite;}
-@keyframes rise{0%{transform :translateY(0); opacity:0;}10%{opacity:1;}90%{opacity:0.7;}100%{transform :translateY(-380px); opacity:0;}}
-.fx-dark .sheen{content:""; position :absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events :none; background :linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform :skewX(-18deg); animation :sheen 8s ease-in-out infinite;}
-@keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
-@media(prefers-reduced-motion :reduce){ .aurora span,.particles i,.fx-dark .sheen{animation :none;} }
-.faq{margin-top:8px;}
-.faq h3{border-top:1px solid var(--line-soft); padding-top:18px; margin-top:18px;}
-.faq h3 :first-of-type{margin-top:0;}
-footer{border-top:1px solid var(--line); padding:32px 0; text-align :center; color :var(--ink-faint); font-size:13px;}
-footer a{color :var(--ink-faint);}
-footer .copyright{margin-top:8px;}
-.related-block{margin-top:30px; padding-top:4px;}.related-block h2{font-family:var(--serif);font-weight:700;font-size:22px;line-height:1.25;margin:34px 0 12px;color:var(--ink);}.related-block p{margin:0 0 10px;font-family:var(--serif);font-size:16.5px;line-height:1.5;color:var(--ink-soft);}</style>
+  </script>
 </head>
+
 <body>
 
-<header class="nav" id="nav">
-  <div class="nav-inner">
-    <a href="https://www.scanmyshadow.com/" class="logo">
-      <img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow">
-    </a>
-    <div class="nav-links">
-      <a class="nav-link" href="https://www.scanmyshadow.com/#how">How it works</a>
-      <a class="nav-link" href="https://www.scanmyshadow.com/#pricing">Pricing</a>
-      <a class="nav-link" href="https://www.scanmyshadow.com/#faq">FAQ</a>
-      <a class="nav-link" href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">Free Exposure Check</a>
-      <a class="nav-link" href="https://www.scanmyshadow.com/tools/">Tools</a>
-      <a class="nav-link" href="https://www.scanmyshadow.com/blog/">Blog</a>
-      <a class="nav-link" href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
-    </div>
-    <a class="nav-pill" href="https://www.scanmyshadow.com/#pricing"><span class="cta-full">Start scan &middot; <span class="price-tag">&#8377;498</span></span><span class="cta-short">Scan &middot; <span class="price-tag">&#8377;498</span></span></a>
-    <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
-  </div>
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="https://www.scanmyshadow.com/#how">How it works</a>
-    <a href="https://www.scanmyshadow.com/#pricing">Pricing</a>
-    <a href="https://www.scanmyshadow.com/#faq">FAQ</a>
-    <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">Free Exposure Check</a>
-    <a href="https://www.scanmyshadow.com/tools/">Tools</a>
-    <a href="https://www.scanmyshadow.com/blog/">Blog</a>
-    <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
-  </div>
-</header>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-<nav class="crumb" aria-label="Breadcrumb">
-<a href="https://www.scanmyshadow.com/">Home</a><span class="sep">&rsaquo;</span><a href="https://www.scanmyshadow.com/blog/">Blog</a><span class="sep">&rsaquo;</span><span class="current">What Is a Paste in Have I Been Pwned?</span>
-</nav>
-<article>
-<div class="tags"><span class="tag">Have I Been Pwned</span>
-<span class="tag">Pastes</span>
-<span class="tag">Data Exposure</span>
-<span class="tag">Email Privacy</span></div>
-<h1>What Is a Paste in Have I Been Pwned?</h1>
-<div class="byline"><span>Scan My Shadow</span><span class="dot"></span><span>September 10, 2026</span><span class="dot"></span><span>4 min read</span></div>
-<div class="tldr"><p><strong>TL;DR:</strong> A paste in HIBP refers to an appearance of data in a public text-sharing or paste-style source. It is different from a conventional company breach. A paste result can be a useful exposure signal, but it does not by itself prove that a specific account was hacked.</p><p class="tldr-hook">👉 <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Check your own exposure in 30 seconds →</a></p></div>
-<h2>Paste vs breach</h2><p class="dropcap">A breach usually refers to an incident where an organisation&#x27;s system or dataset was compromised or exposed. A paste is about where information appeared in a public text-sharing or dump-style location.</p><p>The two can overlap: stolen data may later be copied into public dumps. But the labels answer different questions about where HIBP observed the identifier.</p>
-<h2>Why a paste result can matter</h2><p>If your email appears in a paste record, it may indicate that information associated with the address was publicly circulated. That can increase the likelihood of phishing, spam or targeted social engineering.</p><p>The right response depends on what the paste represents and whether it contains current credentials or other sensitive information. Do not assume every paste is authentic or complete.</p><h2>What HIBP can and cannot tell you</h2><p><a href="https://haveibeenpwned.com/" rel="noopener noreferrer">HIBP</a> can tell you that the searched identifier is associated with the paste record in its dataset. It does not give you a complete map of everything an attacker may possess.</p><p>Use the record as a reason to review account security and broader exposure, not as permission to download or redistribute leaked material.</p><h2>What to do next</h2><p>Review important account passwords and remove reuse. Turn on multi-factor authentication. Be especially cautious of messages that reference a real service, old account or personal detail.</p><p>If the same email or phone number is publicly visible elsewhere, consider reducing unnecessary exposure there as well.</p><h2>A paste is one signal inside a larger footprint</h2><p>Paste records are useful because they can reveal an exposure route that ordinary Google searches may not surface. But they remain one category of evidence.</p><p>For a fuller privacy review, combine breach intelligence with a broader check of public listings, profiles, directories and other places your identifiers appear.</p>
-<div class="related-block"><h2>Continue the privacy check</h2><p>→ <a href="/blog/2026/09/what-does-a-have-i-been-pwned-result-mean.html">what does a HIBP result mean</a></p><p>→ <a href="/blog/2026/09/can-have-i-been-pwned-find-every-data-leak.html">Can HIBP find every data leak?</a></p><p>→ <a href="/data-breach-leak-check/">the Data Breach &amp; Leak Check</a></p></div>
-<div class="faq">
-<h2>Frequently Asked Questions</h2>
-<h3>What is a paste?</h3><p>It is an appearance of an identifier in a public text-sharing or paste-style source recorded by HIBP.</p><h3>Is a paste the same as a data breach?</h3><p>No. A breach describes an incident involving an organisation or dataset; a paste describes where HIBP observed the information.</p><h3>Does a paste prove my account was hacked?</h3><p>No. It is an exposure signal and needs context.</p><h3>Should I download a paste containing my data?</h3><p>No. Do not download or redistribute leaked personal information just to investigate it.</p><h3>What should I do after a paste appears?</h3><p>Review passwords, MFA and phishing risk, then consider a broader exposure check.</p>
-</div>
-<p>Have I Been Pwned is a useful reference for known breach exposure, but it is only one part of a broader privacy picture. If you want to see what is associated with your own phone number and email across a defined set of sources, <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Scan My Shadow's Digital Footprint Checker</a> provides a broader automated check.</p>
+      <a href="https://www.scanmyshadow.com/" class="logo">
+        <img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow">
+      </a>
 
-<div class="price-wrap">
-  <div class="price-card fx-dark">
-    <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
-    <div class="particles" data-particles></div>
-    <div class="sheen"></div>
-    <div class="p-inner">
-      <div class="price-left">
-        <div class="price-label">Phone + email scan &middot; 1,500+ data sources worldwide &middot; Full report</div>
-        <div class="price-amount"><span class="price-tag">&#8377;498</span><span>one-time</span></div>
-        <a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Scan My Digital Footprint</a>
-        <div class="price-razorpay">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
-          <span>Secure payment via Razorpay</span>
-        </div>
+      <div class="nav-links">
+        <a class="nav-link" href="https://www.scanmyshadow.com/#how-it-works">How it works</a>
+        <a class="nav-link" href="https://www.scanmyshadow.com/#pricing">Pricing</a>
+        <a class="nav-link" href="https://www.scanmyshadow.com/#faq">FAQ</a>
+        <a class="nav-link" href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple);font-weight:600;">Free Exposure Check</a>
+        <a class="nav-link" href="https://www.scanmyshadow.com/tools/">Tools</a>
+        <a class="nav-link" href="https://www.scanmyshadow.com/blog/">Blog</a>
+        <a class="nav-link" href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
       </div>
-      <div class="price-right">
-        <ul class="price-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results within about 5 minutes</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
-        </ul>
+
+      <a class="nav-pill" href="https://www.scanmyshadow.com/#pricing">
+        <span class="cta-full">Start scan &middot; <span class="price-tag">&#8377;498</span></span>
+        <span class="cta-short">Scan &middot; <span class="price-tag">&#8377;498</span></span>
+      </a>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="https://www.scanmyshadow.com/#how-it-works">How it works</a>
+      <a href="https://www.scanmyshadow.com/#pricing">Pricing</a>
+      <a href="https://www.scanmyshadow.com/#faq">FAQ</a>
+      <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/">Free Exposure Check</a>
+      <a href="https://www.scanmyshadow.com/tools/">Tools</a>
+      <a href="https://www.scanmyshadow.com/blog/">Blog</a>
+      <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
+    </div>
+  </nav>
+
+  <article>
+    <div class="breadcrumb"><a href="https://www.scanmyshadow.com/">Home</a><span> / </span><a href="https://www.scanmyshadow.com/blog/">Blog</a><span> / </span><span>Check Multiple Email Addresses for Breaches</span></div>
+<div class="tags"><span class="tag">India</span><span class="tag">Email Security</span><span class="tag">Data Breaches</span><span class="tag">Privacy</span></div>
+<h1>How to Check Multiple Email Addresses for Data Breaches</h1>
+<div class="byline"><span>Scan My Shadow</span><span class="dot"></span><span>10 September 2026</span><span class="dot"></span><span>6 min read</span></div>
+<div class="tldr"><div class="tldr-label">TL;DR</div><p>If you have personal, work and older email addresses, check each address separately and keep the results organised. Never combine the process with password sharing. For larger-scale checks, use an authorised service or API rather than building unsafe manual workarounds.</p></div>
+<p class="dropcap">Many people in India have more than one email address: one for work, another for shopping and personal communication, and perhaps an older Gmail or Yahoo account that still receives recovery messages.</p>
+<p>Checking only your main inbox can leave gaps. A better approach is to treat each address as a separate identifier and record what you learn.</p>
+<h2>Why multiple email addresses matter</h2>
+<p>An old address can remain connected to accounts long after you stop using it regularly. If it appeared in a historical breach, that exposure can still matter when the same password or recovery details were reused elsewhere.</p>
+<h2>A simple manual process</h2>
+<ul><li>Make a list of the email addresses you actually control.</li><li>Prioritise addresses used for important accounts and older services.</li><li>Run each address through the same trusted breach-checking service.</li><li>Record the affected service and relevant breach information.</li><li>Secure affected accounts before moving to the next address.</li></ul>
+<h2>Do not turn convenience into a security problem</h2>
+<p>A common mistake is trying to automate a batch check by sending a spreadsheet of email addresses to an unknown website. That can create a bigger privacy problem than the original question.</p>
+<p>If you need programmatic checking for a legitimate application, use the official API documentation and follow its authentication, rate-limit and privacy requirements. For ordinary personal checking, manual searches can be enough.</p>
+<h2>How to prioritise your results</h2>
+<p>Not every result has the same practical importance. Start with addresses connected to financial, work, recovery or other high-value accounts. Then look at older accounts and addresses that you rarely monitor.</p>
+<ul><li><strong>High priority:</strong> current primary address and recovery addresses.</li><li><strong>Medium priority:</strong> shopping, subscriptions and frequently used services.</li><li><strong>Review carefully:</strong> abandoned or very old addresses that may still be linked to accounts.</li></ul>
+<h2>Remember that breach checking is only one layer</h2>
+<p>Multiple email addresses can also create a broader digital-footprint problem. Different addresses may be attached to different public profiles, old accounts and online records.</p>
+<div class="price-card"><div class="price-card-inner"><div class="price-label">Broader phone + email exposure scan &middot; 1,500+ data sources worldwide</div><div class="price-amount"><span class="price-tag">&#8377;498</span><span>one-time</span></div><a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Start My Full Scan</a><p class="price-note">Useful when you want to investigate wider online exposure beyond breach results.</p></div></div>
+<h2>Related Have I Been Pwned guides</h2><ul><li><a href="https://www.scanmyshadow.com/blog/2026/09/what-does-a-have-i-been-pwned-result-mean.html">What Does a Have I Been Pwned Result Actually Mean?</a></li><li><a href="https://www.scanmyshadow.com/blog/2026/09/can-have-i-been-pwned-find-every-data-leak.html">Can Have I Been Pwned Find Every Data Leak?</a></li></ul>
+<p>If you want to investigate exposure beyond known breach records, start with the <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Digital Footprint Checker</a> for a broader view of your online exposure.</p>
+<div class="faq" id="faq"><h2>Frequently Asked Questions</h2>
+<div class="faq-item"><div class="faq-q">Can I check several email addresses?</div><div class="faq-a">Yes. Check each address separately and keep the results clearly associated with the correct identifier.</div></div>
+<div class="faq-item"><div class="faq-q">Should I upload a list of emails to a random checker?</div><div class="faq-a">No. A list of addresses is itself sensitive information. Use a trusted service or an official API rather than an unknown bulk-checking website.</div></div>
+<div class="faq-item"><div class="faq-q">Which email should I check first?</div><div class="faq-a">Start with addresses connected to important current accounts, recovery functions and services containing sensitive information.</div></div>
+<div class="faq-item"><div class="faq-q">Can multiple email addresses make my digital footprint larger?</div><div class="faq-a">They can make it more fragmented. Each address may be associated with different accounts and public traces, so checking them separately can reveal different parts of your online presence.</div></div></div>
+<h2>Bottom line</h2>
+<p>Checking multiple email addresses is worthwhile when you have used different addresses over the years. Keep the process organised, never submit passwords, and avoid unknown bulk-checking services.</p>
+  </article>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">Scan My Shadow</div>
+      <div class="footer-copy">Understand what information about you is exposed online — and take practical steps to reduce it.</div>
+      <div class="footer-links">
+        <a href="https://www.scanmyshadow.com/about.html">About</a>
+        <a href="https://www.scanmyshadow.com/contact.html">Contact</a>
+        <a href="https://www.scanmyshadow.com/tools/">Tools</a>
+        <a href="https://www.scanmyshadow.com/blog/">Blog</a>
       </div>
     </div>
-  </div>
-</div>
+  </footer>
 
-</article>
+  <script>
+    (function(){
+      const toggle = document.getElementById('navToggle');
+      const menu = document.getElementById('mobileMenu');
 
-<footer>
-  <div class="wrap">
-    <a href="https://www.scanmyshadow.com/blog/">More articles</a>
-    <div class="copyright">&copy; 2026 Scan My Shadow &middot; All rights Reserved</div>
-  </div>
-</footer>
+      if(!toggle || !menu) return;
 
+      toggle.addEventListener('click', function(){
+        const isOpen = menu.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(isOpen));
+        toggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+      });
 
-<script src="https://www.scanmyshadow.com/assets/geo-price.js"></script>
-<script>
-var navToggle = document.getElementById('navToggle');
-var mobileMenu = document.getElementById('mobileMenu');
-if(navToggle && mobileMenu){
-  navToggle.addEventListener('click', function(){
-    var open = mobileMenu.classList.toggle('open');
-    navToggle.classList.toggle('open', open);
-    navToggle.setAttribute('aria-expanded', open);
-  });
-  Array.prototype.forEach.call(mobileMenu.querySelectorAll('a'), function(a){
-    a.addEventListener('click', function(){
-      mobileMenu.classList.remove('open');
-      navToggle.classList.remove('open');
-      navToggle.setAttribute('aria-expanded', 'false');
-    });
-  });
-}
-document.querySelectorAll('[data-particles]').forEach(function(box){
-  for(var i=0;i<14;i++){
-    var s=document.createElement('i');
-    s.style.left=(Math.random()*100)+'%';
-    s.style.animationDuration=(7+Math.random()*7)+'s';
-    s.style.animationDelay=(-Math.random()*10)+'s';
-    var sc=0.6+Math.random()*1.3;
-    s.style.width=(3*sc)+'px'; s.style.height=(3*sc)+'px';
-    box.appendChild(s);
-  }
-});
-</script>
+      menu.querySelectorAll('a').forEach(function(link){
+        link.addEventListener('click', function(){
+          menu.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.setAttribute('aria-label', 'Open menu');
+        });
+      });
+    })();
+  </script>
 
+  <script src="https://www.scanmyshadow.com/assets/geo-price.js"></script>
 </body>
 </html>
