@@ -124,7 +124,7 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
   --shadow-lg:0 26px 68px rgba(43,29,102,0.13);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden;}
 body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;overflow-x:hidden;}
 a{color:inherit;}
 ::selection{background:var(--purple-mist);color:var(--purple-deep);}
@@ -206,7 +206,7 @@ h1 .accent{color:var(--purple);}
 .score-overview strong{color:var(--ink);font-weight:600;}
 
 /* ===== SHARED CARD SHELL ===== */
-.tool-card-shell{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden;}
+.tool-card-shell{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden;contain:paint;}
 @media(max-width:480px){.tool-card-shell{border-radius:18px;}}
 
 /* ===== PHASE: GATE (email capture) ===== */
@@ -409,7 +409,7 @@ h1 .accent{color:var(--purple);}
 .retake-link svg{width:14px;height:14px;}
 
 /* ===== FX (aurora / particles, reused for dark panels) ===== */
-.fx-dark{position:relative;overflow:hidden;}
+.fx-dark{position:relative;overflow:hidden;contain:paint;}
 .aurora{position:absolute;inset:0;z-index:0;pointer-events:none;}
 .aurora span{position:absolute;border-radius:50%;filter:blur(60px);opacity:.5;mix-blend-mode:screen;}
 .aurora .a1{width:400px;height:400px;background:radial-gradient(circle,#7B5CFA,transparent 68%);top:-140px;left:6%;animation:drift1 16s ease-in-out infinite;}
@@ -418,7 +418,7 @@ h1 .accent{color:var(--purple);}
 @keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(56px,38px) scale(1.12);}}
 @keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-46px,-28px) scale(1.08);}}
 @keyframes drift3{0%,100%{transform:translate(0,0) scale(1);opacity:.32;}50%{transform:translate(-38px,28px) scale(1.15);opacity:.48;}}
-.particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;}
+.particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;contain:paint;}
 .particles i{position:absolute;bottom:-10px;width:3px;height:3px;border-radius:50%;background:rgba(180,150,255,0.7);box-shadow:0 0 6px rgba(155,120,255,0.9);animation:rise linear infinite;}
 @keyframes rise{0%{transform:translateY(0);opacity:0;}10%{opacity:1;}90%{opacity:.7;}100%{transform:translateY(-380px);opacity:0;}}
 .fx-dark .sheen{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;z-index:1;pointer-events:none;background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent);transform:skewX(-18deg);animation:sheen 8s ease-in-out infinite;}
@@ -769,7 +769,7 @@ h1 .accent{color:var(--purple);}
             </div>
             <div class="price-right">
               <ul class="price-list">
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Results usually within about 5 minutes</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Results within about 5 minutes</span></li>
                 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Clear, plain-English report</span></li>
                 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Delivered straight to your inbox</span></li>
                 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>No login or passwords required</span></li>
