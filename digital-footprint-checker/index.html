@@ -406,14 +406,13 @@ top:120px;left:-180px
 position:relative;
 z-index:1;
 display:grid;
-grid-template-columns:1.08fr .92fr;
-gap:60px;
+grid-template-columns:1fr;
+gap:34px;
 align-items:start
 }
 
-@media(max-width:920px){
-.hero-grid{grid-template-columns:1fr;gap:44px}
-}
+.hero-grid > div{max-width:720px}
+.hero-grid .lc-card{max-width:720px}
 
 .breadcrumb{
 position:relative;
@@ -1201,6 +1200,12 @@ padding:4px
 
 .lc-again:hover{color:var(--purple-deep)}
 
+@media(min-width:620px){
+.lc-row{display:flex;gap:10px;align-items:stretch}
+.lc-row .lc-field{flex:1;min-width:0}
+.lc-row .lc-btn{width:auto;margin-top:0;white-space:nowrap;padding-left:26px;padding-right:26px}
+}
+
 .lc-attrib{
 margin-top:15px;
 padding-top:14px;
@@ -1718,30 +1723,6 @@ to{opacity:1;transform:translateY(0)}
       </p>
     </div>
 
-    <div class="reassure settle settle-4">
-
-      <div class="re-item">
-        <span class="ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        </span>
-        <span class="lab"><b>1,500+ sources</b> checked for you</span>
-      </div>
-
-      <div class="re-item">
-        <span class="ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-        </span>
-        <span class="lab"><b>About 5 minutes</b> from scan to report</span>
-      </div>
-
-      <div class="re-item">
-        <span class="ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.2-2.9 7.4-7 9-4.1-1.6-7-4.8-7-9V6z"/></svg>
-        </span>
-        <span class="lab"><b>Nothing kept</b> data deleted after</span>
-      </div>
-    </div>
-
   </div>
 
   <div class="lc-card settle settle-4" id="lcCard">
@@ -1761,6 +1742,7 @@ to{opacity:1;transform:translateY(0)}
 
       <div class="lc-form">
 
+        <div class="lc-row">
         <label class="lc-field" for="lcEmail">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
           <input type="email" id="lcEmail" name="email" placeholder="you@example.com" autocomplete="email" spellcheck="false" inputmode="email">
@@ -1769,6 +1751,7 @@ to{opacity:1;transform:translateY(0)}
         <input type="text" class="lc-hp" id="lcHp" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <button type="button" class="lc-btn" id="lcBtn">Check my email free</button>
+      </div>
 
         <div class="lc-err" id="lcErr" hidden></div>
 
@@ -1800,6 +1783,32 @@ to{opacity:1;transform:translateY(0)}
     <div class="lc-phase" id="lcResult" hidden></div>
 
   </div>
+
+  <div class="reassure settle settle-4">
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </span>
+        <span class="lab"><b>1,500+ sources</b> checked for you</span>
+      </div>
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        </span>
+        <span class="lab"><b>About 5 minutes</b> from scan to report</span>
+      </div>
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.2-2.9 7.4-7 9-4.1-1.6-7-4.8-7-9V6z"/></svg>
+        </span>
+        <span class="lab"><b>Nothing kept</b> data deleted after</span>
+      </div>
+    </div>
+
+
 
   </div>
 
