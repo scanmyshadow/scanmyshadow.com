@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Free Email Breach Checker | Digital Exposure Score</title>
-<meta name="description" content="Check if your email has appeared in a real data breach — free and instant, powered by Have I Been Pwned. Then get your full Digital Exposure Score in under 2 minutes.">
+<title>Digital Exposure Score — Check Your Online Privacy Risk | Scan My Shadow</title>
+<meta name="description" content="Real breach check across 800+ known data leaks via Have I Been Pwned — free, instant, no sign-up. Then get your full Digital Exposure Score.">
 
-<meta property="og:title" content="Digital Exposure Score: Free Email Breach Checker | Scan My Shadow">
-<meta property="og:description" content="See real breach data for your email in seconds, then get your full Digital Exposure Score. Free, instant, no sign-up.">
+<meta property="og:title" content="Digital Exposure Score — Check Your Online Privacy Risk | Scan My Shadow">
+<meta property="og:description" content="Real breach check across 800+ known data leaks via Have I Been Pwned — free, instant, no sign-up.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.scanmyshadow.com/tools/digital-exposure-score/">
 <meta property="og:image" content="https://www.scanmyshadow.com/og-image.png">
@@ -79,40 +79,6 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is it safe to enter my email here?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Your email is only used to run the breach check against Have I Been Pwned's database — there's no sign-up, no password, and nothing is stored after your results are shown." }
-    },
-    {
-      "@type": "Question",
-      "name": "Where does the breach data come from?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Breach results come from Have I Been Pwned, a widely used database of real, recorded data breaches. It's not an estimate or a guess — if your email shows up, it was found in an actual breach." }
-    },
-    {
-      "@type": "Question",
-      "name": "Does a clear result mean I'm completely safe online?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Not entirely. A clear result means your email wasn't found in known breach records — it doesn't check your phone number, the dark web, or people-search sites. A paid scan covers 1,500+ sources for a fuller picture." }
-    },
-    {
-      "@type": "Question",
-      "name": "How is my Digital Exposure Score calculated?",
-      "acceptedAnswer": { "@type": "Answer", "text": "It combines your real breach check with five short questions about things a breach database can't see — like your phone number and password habits — to produce a score out of 100." }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this really free, with no hidden charges?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, the Digital Exposure Score check is completely free — no card, no sign-up. The full phone + email scan across 1,500+ sources is a separate, optional paid product." }
-    }
-  ]
-}
-</script>
-
 <style>
 :root{
   --bg:#FFFFFF;--bg-tint:#FAF9FF;--ink:#15121F;--ink-soft:#605C73;--ink-faint:#908DA3;
@@ -124,7 +90,7 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');
   --shadow-lg:0 26px 68px rgba(43,29,102,0.13);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
 body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;overflow-x:hidden;}
 a{color:inherit;}
 ::selection{background:var(--purple-mist);color:var(--purple-deep);}
@@ -166,12 +132,17 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
 .nav-pill .cta-short{display:none;}
 .mobile-menu{display:none;}
 @media(max-width:900px){
+  .nav-inner{justify-content:flex-start;gap:10px;padding:0 16px;}
   .nav-menu-links{display:none;}
-  .nav-toggle{display:flex;order:-1;}
-  .logo{order:0;}
-  .nav-pill{order:1;}
+  .nav-toggle{display:flex;order:-1;margin-left:0;}
+  .logo{order:0;min-width:0;}
+  .nav-pill{order:1;margin-left:auto;flex-shrink:1;min-width:0;padding:8px 14px;font-size:12.5px;}
   .nav-pill .cta-full{display:none;}
   .nav-pill .cta-short{display:inline;}
+}
+@media(max-width:480px){
+  .logo-img{height:22px;}
+  .nav-pill{padding:7px 12px;font-size:11.5px;}
 }
 @media(max-width:900px){
   .mobile-menu{display:none;flex-direction:column;gap:2px;padding:10px 20px 22px;border-top:1px solid var(--line);background:#fff;}
@@ -206,7 +177,7 @@ h1 .accent{color:var(--purple);}
 .score-overview strong{color:var(--ink);font-weight:600;}
 
 /* ===== SHARED CARD SHELL ===== */
-.tool-card-shell{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden;contain:paint;}
+.tool-card-shell{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden;}
 @media(max-width:480px){.tool-card-shell{border-radius:18px;}}
 
 /* ===== PHASE: GATE (email capture) ===== */
@@ -227,9 +198,8 @@ h1 .accent{color:var(--purple);}
 .gate-submit svg{width:16px;height:16px;}
 .gate-err-msg{font-size:12.5px;color:var(--danger);min-height:16px;}
 .gate-trust{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px;padding-top:18px;border-top:1px solid var(--line-soft);}
-.gate-trust span{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-faint);white-space:nowrap;}
+.gate-trust span{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-faint);}
 .gate-trust svg{width:14px;height:14px;color:var(--ok);flex-shrink:0;}
-@media(max-width:400px){.gate-trust{gap:8px;justify-content:space-between;}.gate-trust span{font-size:10.5px;gap:4px;}.gate-trust svg{width:12px;height:12px;}}
 @media(max-width:480px){.gate-input-row{flex-direction:column;}.gate-submit{width:100%;}}
 
 /* ===== PHASE: SCANNING ===== */
@@ -393,7 +363,6 @@ h1 .accent{color:var(--purple);}
 .price-list{list-style:none;margin:0 0 18px;padding:0;}
 .price-list li{display:flex;align-items:flex-start;gap:10px;padding:7px 0;font-size:13px;color:#DEDDEC;}
 .price-list li svg{width:15px;height:15px;color:var(--purple);flex-shrink:0;margin-top:1px;}
-.price-list li span{flex:1;text-align:left;}
 .btn-price{display:block;width:100%;text-align:center;background:var(--purple);color:#fff;border:none;border-radius:13px;padding:14px;font-size:14.5px;font-weight:600;font-family:'Inter';cursor:pointer;text-decoration:none;margin-top:20px;}
 .btn-price:hover{background:var(--purple-deep);text-decoration:none;}
 .btn-price{animation:cta-pulse 2.2s ease-out infinite;}
@@ -409,7 +378,7 @@ h1 .accent{color:var(--purple);}
 .retake-link svg{width:14px;height:14px;}
 
 /* ===== FX (aurora / particles, reused for dark panels) ===== */
-.fx-dark{position:relative;overflow:hidden;contain:paint;}
+.fx-dark{position:relative;overflow:hidden;}
 .aurora{position:absolute;inset:0;z-index:0;pointer-events:none;}
 .aurora span{position:absolute;border-radius:50%;filter:blur(60px);opacity:.5;mix-blend-mode:screen;}
 .aurora .a1{width:400px;height:400px;background:radial-gradient(circle,#7B5CFA,transparent 68%);top:-140px;left:6%;animation:drift1 16s ease-in-out infinite;}
@@ -418,7 +387,7 @@ h1 .accent{color:var(--purple);}
 @keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(56px,38px) scale(1.12);}}
 @keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-46px,-28px) scale(1.08);}}
 @keyframes drift3{0%,100%{transform:translate(0,0) scale(1);opacity:.32;}50%{transform:translate(-38px,28px) scale(1.15);opacity:.48;}}
-.particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;contain:paint;}
+.particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;}
 .particles i{position:absolute;bottom:-10px;width:3px;height:3px;border-radius:50%;background:rgba(180,150,255,0.7);box-shadow:0 0 6px rgba(155,120,255,0.9);animation:rise linear infinite;}
 @keyframes rise{0%{transform:translateY(0);opacity:0;}10%{opacity:1;}90%{opacity:.7;}100%{transform:translateY(-380px);opacity:0;}}
 .fx-dark .sheen{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;z-index:1;pointer-events:none;background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent);transform:skewX(-18deg);animation:sheen 8s ease-in-out infinite;}
@@ -430,17 +399,13 @@ h1 .accent{color:var(--purple);}
 .seo-section p{font-size:14.5px;color:var(--ink-soft);line-height:1.7;margin-bottom:16px;}
 .seo-section h3{font-family:'Space Grotesk';font-weight:600;font-size:17px;margin:28px 0 10px;}
 .seo-section a{color:var(--purple);}
+@media(max-width:480px){.seo-section{padding-left:14px;padding-right:14px;}}
 .faq-section{padding:52px 0 0;margin-top:44px;border-top:1px solid var(--line);}
 .faq-section h2{font-family:'Space Grotesk';font-weight:600;font-size:clamp(20px,4vw,26px);line-height:1.2;letter-spacing:-0.01em;margin-bottom:22px;}
-.faq-item{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden;transition:border-color .2s ease,box-shadow .2s ease;}
-.faq-item.open{border-color:var(--purple);box-shadow:var(--shadow-sm);}
-.faq-q{width:100%;background:none;border:none;text-align:left;cursor:pointer;padding:16px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-family:'Space Grotesk';font-size:14.5px;font-weight:600;color:var(--ink);transition:color .2s ease;}
-.faq-q:hover{color:var(--purple-deep);}
-.faq-q .chev{flex-shrink:0;color:var(--purple);transition:transform .25s ease;display:flex;}
-.faq-q svg{width:16px;height:16px;}
-.faq-item.open .chev{transform:rotate(180deg);}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;}
-.faq-a-inner{padding:0 18px 16px;font-size:13.5px;color:var(--ink-soft);line-height:1.65;}
+.faq-item{border-top:1px solid var(--line);padding:18px 0;}
+.faq-item:last-child{border-bottom:1px solid var(--line);}
+.faq-item h3{font-family:'Space Grotesk';font-weight:600;font-size:15.5px;line-height:1.4;margin-bottom:8px;}
+.faq-item p{font-size:14px;color:var(--ink-soft);line-height:1.7;}
 .site-footer{text-align:center;padding:32px 20px;border-top:1px solid var(--line);background:var(--bg-tint);margin-top:44px;}
 .site-footer p{font-size:12.5px;color:var(--ink-faint);}
 .site-footer a{color:var(--purple);text-decoration:none;}
@@ -566,7 +531,7 @@ h1 .accent{color:var(--purple);}
     <span class="eyebrow">Free Privacy Tool &middot; Real Breach Data</span>
     <h1>Is your email already <span class="accent">out there?</span></h1>
     <p>
-      Check it against real, recorded data breaches in seconds.
+      Check it against real, recorded data breaches in seconds. Then answer five quick questions to get your full Digital Exposure Score.
     </p>
   </div>
 
@@ -769,11 +734,11 @@ h1 .accent{color:var(--purple);}
             </div>
             <div class="price-right">
               <ul class="price-list">
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Results usually within about 5 minutes</span></li>
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Clear, plain-English report</span></li>
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Delivered straight to your inbox</span></li>
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>No login or passwords required</span></li>
-                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Scan data deleted after report is generated</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Results usually within about 5 minutes</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Clear, plain-English report</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Delivered straight to your inbox</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No login or passwords required</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Scan data deleted after report is generated</li>
               </ul>
             </div>
           </div>
@@ -801,68 +766,12 @@ h1 .accent{color:var(--purple);}
     </p>
   </section>
 
-  <!-- FAQ -->
-  <section class="faq-section" aria-labelledby="faq-title">
-    <h2 id="faq-title">Frequently Asked Questions</h2>
-
-    <div class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        Is it safe to enter my email here?
-        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">Yes. Your email is only used to run the breach check against Have I Been Pwned's database — there's no sign-up, no password, and nothing is stored after your results are shown.</div>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        Where does the breach data come from?
-        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">Breach results come from Have I Been Pwned, a widely used database of real, recorded data breaches. It's not an estimate or a guess — if your email shows up, it was found in an actual breach.</div>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        Does a clear result mean I'm completely safe online?
-        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">Not entirely. A clear result means your email wasn't found in known breach records — it doesn't check your phone number, the dark web, or people-search sites. A paid scan covers 1,500+ sources for a fuller picture.</div>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        How is my Digital Exposure Score calculated?
-        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">It combines your real breach check with five short questions about things a breach database can't see — like your phone number and password habits — to produce a score out of 100.</div>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        Is this really free, with no hidden charges?
-        <span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">Yes, the Digital Exposure Score check is completely free — no card, no sign-up. The full phone + email scan across 1,500+ sources is a separate, optional paid product.</div>
-      </div>
-    </div>
-
-  </section>
-
 </main>
 
 
 <!-- FOOTER -->
 <footer class="site-footer">
-  <p>&copy; <span id="footYear"></span> <a href="https://www.scanmyshadow.com">Scan My Shadow</a>. All rights reserved.</p>
+  <p>&copy; <span id="footYear"></span> <a href="https://www.scanmyshadow.com">Scan My Shadow</a></p>
 </footer>
 
 
@@ -1502,24 +1411,6 @@ h1 .accent{color:var(--purple);}
       mobileToolsToggle.setAttribute('aria-expanded', open);
     });
   }
-
-  document.querySelectorAll('.faq-q').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      var item = btn.parentElement;
-      var ans = item.querySelector('.faq-a');
-      var isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item').forEach(function(i){
-        i.classList.remove('open');
-        i.querySelector('.faq-q').setAttribute('aria-expanded','false');
-        i.querySelector('.faq-a').style.maxHeight = null;
-      });
-      if(!isOpen){
-        item.classList.add('open');
-        btn.setAttribute('aria-expanded','true');
-        ans.style.maxHeight = ans.scrollHeight + 'px';
-      }
-    });
-  });
 </script>
 
 
