@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How HIBP Protects Email Search Privacy | Scan My Shadow</title>
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.scanmyshadow.com/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.scanmyshadow.com/favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.scanmyshadow.com/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.scanmyshadow.com/apple-touch-icon.png">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S4P3YTNEDY"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S4P3YTNEDY');
+</script>
+<meta name="description" content="HIBP offers direct email searches and a k-anonymity option through its API. Here is how the privacy models differ in plain English.">
+<meta name="keywords" content="Have I Been Pwned, Email Privacy, K-Anonymity, Data Breach, Have I Been Pwned email privacy search">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#7B5CFA">
+<meta name="geo.region" content="IN">
+<meta name="geo.placename" content="India">
+<meta name="geo.position" content="20.5937;78.9629">
+<meta name="ICBM" content="20.5937, 78.9629">
+<meta property="og:title" content="How Have I Been Pwned Protects Email Search Privacy">
+<meta property="og:description" content="HIBP offers direct email searches and a k-anonymity option through its API. Here is how the privacy models differ in plain English.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.scanmyshadow.com/blog/2026/09/have-i-been-pwned-email-privacy-how-search-works.html">
+<meta property="og:image" content="https://www.scanmyshadow.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Have I Been Pwned Protects Email Search Privacy">
+<meta name="twitter:description" content="HIBP offers direct email searches and a k-anonymity option through its API. Here is how the privacy models differ in plain English.">
+<meta name="twitter:image" content="https://www.scanmyshadow.com/og-image.png">
+<link rel="canonical" href="https://www.scanmyshadow.com/blog/2026/09/have-i-been-pwned-email-privacy-how-search-works.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.scanmyshadow.com/blog/2026/09/have-i-been-pwned-email-privacy-how-search-works.html#article",
+      "headline": "How Have I Been Pwned Protects Email Search Privacy",
+      "description": "HIBP offers direct email searches and a k-anonymity option through its API. Here is how the privacy models differ in plain English.",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "image": "https://www.scanmyshadow.com/og-image.png",
+      "keywords": "Have I Been Pwned, Email Privacy, K-Anonymity, Data Breach, Have I Been Pwned email privacy search",
+      "author": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.scanmyshadow.com/#organization"
+      },
+      "mainEntityOfPage": "https://www.scanmyshadow.com/blog/2026/09/have-i-been-pwned-email-privacy-how-search-works.html"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.scanmyshadow.com/#organization",
+      "name": "Scan My Shadow",
+      "url": "https://www.scanmyshadow.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scanmyshadow.com/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.scanmyshadow.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.scanmyshadow.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How Have I Been Pwned Protects Email Search Privacy"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is HIBP k-anonymity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a search method where the client sends only a partial hash prefix rather than the complete email address."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does direct API search use the full email?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. HIBP documents direct email-account API searches that send the full address to the API."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many hash characters are used for email k-anonymity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HIBP's current API documentation describes sending the first six characters of the SHA-1 hash for email-address k-anonymity searches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is k-anonymity the same as zero logging?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It protects the identifier sent to the search endpoint; it should not be interpreted as a blanket statement that the entire web request has no operational logs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does HIBP use k-anonymity for passwords too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Pwned Passwords uses a separate five-character SHA-1 hash-prefix design."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>:root{
+--bg:#FFFFFF; --bg-tint:#FAF9FF; --ink:#15121F; --ink-soft:#403B4D; --ink-faint:#908DA3;
+--purple:#7B5CFA; --purple-deep:#5A3FE0; --purple-mist:#F1EEFE; --line:#E1DEEE; --line-soft:#EDEBF6;
+--card:#FBFAFF; --shadow-lg:0 30px 80px rgba(43,29,102,0.14); --ok:#16A34A; --warn:#D97706; --danger:#DC2626;
+--shadow-sm:0 2px 8px rgba(43,29,102,0.05); --shadow-md:0 14px 40px rgba(43,29,102,0.09);
+--serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+*{box-sizing :border-box; margin:0; padding:0;}
+html{scroll-behavior :smooth; -webkit-text-size-adjust:100%;}
+body{background :var(--bg); color :var(--ink); font-family:'Inter',system-ui,sans-serif; line-height:1.6;}
+a{color :inherit;}
+.wrap{max-width:1080px; margin:0 auto; padding:0 24px;}
+.display{font-family:'Space Grotesk',sans-serif;}
+<br>
+header.nav{position :sticky; top:0; z-index:80; background :rgba(255,255,255,0.92); backdrop-filter :saturate(180%) blur(14px); border-bottom:1px solid var(--line);}
+.nav-inner{display :flex; justify-content :space-between; align-items :center; height:58px; max-width:1080px; margin:0 auto; padding:0 24px;}
+.logo{font-family:'Space Grotesk'; font-weight:700; font-size:17px; display :flex; align-items :center; gap:9px; text-decoration :none; color :var(--ink);}
+.logo-img{height:33px; width :auto; display :block; max-width:100%;}
+.nav-links{display :flex; align-items :center; gap:26px;}
+.nav-link{font-size:13.5px; color :var(--ink-soft); text-decoration :none;}
+.nav-link :hover{color :var(--ink);}
+.nav-pill{font-size:14px; font-weight:600; color:#fff; background :var(--purple); border-radius:999px; padding:10px 20px; text-decoration :none; box-shadow:0 8px 20px rgba(123,92,250,0.28);}
+.cta-short{display :none;}
+.nav-toggle{display :none; background :none; border :none; cursor :pointer; padding:8px; margin-left:6px; flex-direction :column; gap:5px;}
+.nav-toggle span{display :block; width:22px; height:2px; background :var(--ink); border-radius:2px; transition :transform .25s ease, opacity .2s ease;}
+.nav-toggle.open span :nth-child(1){transform :translateY(7px) rotate(45deg);}
+.nav-toggle.open span :nth-child(2){opacity:0;}
+.nav-toggle.open span :nth-child(3){transform :translateY(-7px) rotate(-45deg);}
+.mobile-menu{display :none; flex-direction :column; background :rgba(255,255,255,0.98); border-top:1px solid var(--line); padding:8px 24px 16px;}
+.mobile-menu a{padding:14px 4px; font-size:15px; color :var(--ink-soft); text-decoration :none; border-bottom:1px solid var(--line); font-family:'Inter';}
+.mobile-menu a :last-child{border-bottom :none;}
+.mobile-menu.open{display :flex;}
+@media(max-width:820px){
+.nav-toggle{display :flex;}
+.nav-links{display :none;}
+.nav-inner{display :grid; grid-template-columns :auto 1fr auto; align-items :center; gap:8px; padding:0 16px;}
+.nav-toggle{margin-left:0; flex-shrink:0; order:1;}
+.logo{margin:0; min-width:0; justify-content :flex-start; overflow :visible; order:2;}
+.logo-img{height:26px; max-width:100%; width :auto; flex-shrink:1;}
+.nav-pill{flex-shrink:0; font-size:13.75px; padding:10px 17px; white-space :nowrap; order:3;}
+.cta-full{display :none;}
+.cta-short{display :inline;}
+}
+@media(max-width:360px){
+.nav-inner{padding:0 12px; gap:6px;}
+.nav-pill{font-size:12.5px; padding:9px 14px;}
+}
+<br>
+.crumb{max-width:640px; margin:22px auto 0; padding:0 24px; font-size:12.5px; color :var(--ink-faint); display :flex; align-items :center; gap:6px; flex-wrap :wrap; font-family:'Inter';}
+.crumb a{color :var(--ink-faint); text-decoration :none;}
+.crumb a :hover{color :var(--purple);}
+.crumb .sep{color :var(--line); font-size:12px;}
+.crumb .current{color :var(--ink-soft);}
+<br>
+article{max-width:640px; margin:0 auto; padding:14px 24px 72px;}
+.tags{display :flex; gap:7px; flex-wrap :wrap; margin:18px 0 16px;}
+.tag{font-family:'Inter'; font-size:11px; font-weight:600; color :var(--purple-deep); background :var(--purple-mist); padding:4px 10px; border-radius:999px;}
+h1{font-family :var(--serif); font-weight:700; font-size :clamp(26px,3.6vw,36px); line-height:1.14; letter-spacing:-0.005em; margin-bottom:12px; color :var(--ink);}
+.byline{font-family:'Inter'; font-size:12.5px; color :var(--ink-faint); margin-bottom:22px; padding-bottom:20px; border-bottom:1px solid var(--line); display :flex; gap:8px; align-items :center;}
+.byline .dot{width:3px; height:3px; border-radius:50%; background :var(--ink-faint); display :inline-block;}
+article p{font-family :var(--serif); font-size:18px; line-height:1.65; color :var(--ink-soft); margin:0 0 17px;}
+article h2{font-family :var(--serif); font-weight:700; font-size:22px; line-height:1.25; margin:34px 0 12px; color :var(--ink); padding-top:4px;}
+article h3{font-family :var(--serif); font-weight:600; font-size:17px; margin:22px 0 7px; color :var(--ink);}
+article ul{margin:0 0 17px 0; color :var(--ink-soft); list-style :none; border-left:2px solid var(--purple-mist); padding-left:0;}
+article li{margin:0; font-family :var(--serif); font-size:16.5px; line-height:1.5; padding:9px 0 9px 16px; border-bottom:1px solid var(--line-soft);}
+article li :last-child{border-bottom :none;}
+article a{color :var(--purple-deep); font-weight:600; text-decoration :none; border-bottom:1px solid var(--purple-mist);}
+article a :hover{border-color :var(--purple);}
+.tldr{border-left:3px solid var(--purple); padding:2px 0 2px 16px; margin-bottom:26px;}
+.tldr p{font-family :var(--serif); font-size:16.5px; line-height:1.55; margin:0; font-style :italic; color :var(--ink);}
+.tldr strong{font-style :normal; color :var(--purple-deep); font-weight:700;}
+.tldr-hook{margin:10px 0 0; font-family:'Inter',system-ui,sans-serif; font-style :normal; font-size:14px; font-weight:600;}
+.tldr-hook a{color :var(--purple-deep); text-decoration :none; border-bottom:1px solid var(--purple-mist);}
+.tldr-hook a :hover{border-color :var(--purple);}
+.dropcap::first-letter{font-family :var(--serif); font-weight:700; font-size:52px; line-height:1; float :left; padding:2px 6px 0 0; margin-top:-2px; color :var(--purple-deep);}
+<br>
+.price-wrap{display :flex; justify-content :center; margin:42px 0 8px;}
+.price-card{position :relative; width:100%; max-width:600px; background :var(--ink); color:#fff; border-radius:18px; padding:30px 34px; overflow :hidden; box-shadow :var(--shadow-lg);}
+.price-card .p-inner{position :relative; z-index:2; display :flex; align-items :center; gap:32px;}
+.price-left{flex:0 0 auto; width:230px;}
+.price-right{flex:1; min-width:0; border-left:1px solid rgba(255,255,255,0.1); padding-left:30px;}
+.price-label{font-family:'Inter'; font-size:12.5px; line-height:1.5; color:#A5A2C0; margin-bottom:9px;}
+.price-amount{font-family:'Space Grotesk'; font-weight:700; font-size:40px; line-height:1; letter-spacing:-0.02em;}
+.price-amount span{font-size:13px; color:#A5A2C0; font-weight:500; margin-left:6px;}
+.price-amount .price-tag{font-size:40px; color:#fff; font-weight:700; margin-left:0;}
+.price-list{list-style :none; margin:0 0 16px; padding:0; border-left :none;}
+.price-list li{display :flex; align-items :flex-start; gap:10px; padding:6px 0; font-size:12.5px; color:#DEDDEC; border-bottom :none; font-family:'Inter';}
+.price-list li svg{width:15px; height:15px; color :var(--purple); flex-shrink:0; margin-top:1px;}
+.btn-price{display :block; width:100%; text-align :center; background :var(--purple); color:#fff; border :none; border-radius:13px; padding:14px 10px; font-size:14px; font-weight:600; font-family:'Inter'; cursor :pointer; text-decoration :none; margin-top:20px; white-space :nowrap;}
+.btn-price :hover{background :var(--purple-deep); text-decoration :none;}
+.price-razorpay{display :flex; align-items :center; justify-content :center; gap:7px; margin-top:12px; opacity:0.6;}
+.price-razorpay span{font-size:11.5px; color:#A5A2C0;}
+@media(max-width:640px){
+.price-card .p-inner{flex-direction :column; align-items :stretch; gap:24px;}
+.price-left{width:100%;}
+.price-right{border-left :none; border-top:1px solid rgba(255,255,255,0.1); padding-left:0; padding-top:20px;}
+}
+.price-razorpay svg{width:15px; height:15px;}
+<br>
+.fx-dark{position :relative; overflow :hidden;}
+.aurora{position :absolute; inset:0; z-index:0; pointer-events :none;}
+.aurora span{position :absolute; border-radius:50%; filter :blur(60px); opacity:0.5; mix-blend-mode :screen;}
+.aurora .a1{width:400px; height:400px; background :radial-gradient(circle,#7B5CFA,transparent 68%); top:-140px; left:6%; animation :drift1 16s ease-in-out infinite;}
+.aurora .a2{width:340px; height:340px; background :radial-gradient(circle,#9D6BFF,transparent 66%); bottom:-150px; right:4%; animation :drift2 19s ease-in-out infinite;}
+.aurora .a3{width:280px; height:280px; background :radial-gradient(circle,#5A3FE0,transparent 70%); top:28%; left:44%; opacity:0.38; animation :drift3 22s ease-in-out infinite;}
+@keyframes drift1{0%,100%{transform :translate(0,0) scale(1);}50%{transform :translate(56px,38px) scale(1.12);}}
+@keyframes drift2{0%,100%{transform :translate(0,0) scale(1);}50%{transform :translate(-46px,-28px) scale(1.08);}}
+@keyframes drift3{0%,100%{transform :translate(0,0) scale(1); opacity:0.32;}50%{transform :translate(-38px,28px) scale(1.15); opacity:0.48;}}
+.particles{position :absolute; inset:0; z-index:1; pointer-events :none; overflow :hidden;}
+.particles i{position :absolute; bottom:-10px; width:3px; height:3px; border-radius:50%; background :rgba(180,150,255,0.7); box-shadow:0 0 6px rgba(155,120,255,0.9); animation :rise linear infinite;}
+@keyframes rise{0%{transform :translateY(0); opacity:0;}10%{opacity:1;}90%{opacity:0.7;}100%{transform :translateY(-380px); opacity:0;}}
+.fx-dark .sheen{content:""; position :absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events :none; background :linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform :skewX(-18deg); animation :sheen 8s ease-in-out infinite;}
+@keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
+@media(prefers-reduced-motion :reduce){ .aurora span,.particles i,.fx-dark .sheen{animation :none;} }
+.faq{margin-top:8px;}
+.faq h3{border-top:1px solid var(--line-soft); padding-top:18px; margin-top:18px;}
+.faq h3 :first-of-type{margin-top:0;}
+footer{border-top:1px solid var(--line); padding:32px 0; text-align :center; color :var(--ink-faint); font-size:13px;}
+footer a{color :var(--ink-faint);}
+footer .copyright{margin-top:8px;}
+.related-block{margin-top:30px; padding-top:4px;}.related-block h2{font-family:var(--serif);font-weight:700;font-size:22px;line-height:1.25;margin:34px 0 12px;color:var(--ink);}.related-block p{margin:0 0 10px;font-family:var(--serif);font-size:16.5px;line-height:1.5;color:var(--ink-soft);}</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="https://www.scanmyshadow.com/" class="logo">
+      <img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow">
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="https://www.scanmyshadow.com/#how">How it works</a>
+      <a class="nav-link" href="https://www.scanmyshadow.com/#pricing">Pricing</a>
+      <a class="nav-link" href="https://www.scanmyshadow.com/#faq">FAQ</a>
+      <a class="nav-link" href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">Free Exposure Check</a>
+      <a class="nav-link" href="https://www.scanmyshadow.com/tools/">Tools</a>
+      <a class="nav-link" href="https://www.scanmyshadow.com/blog/">Blog</a>
+      <a class="nav-link" href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
+    </div>
+    <a class="nav-pill" href="https://www.scanmyshadow.com/#pricing"><span class="cta-full">Start scan &middot; <span class="price-tag">&#8377;498</span></span><span class="cta-short">Scan &middot; <span class="price-tag">&#8377;498</span></span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="https://www.scanmyshadow.com/#how">How it works</a>
+    <a href="https://www.scanmyshadow.com/#pricing">Pricing</a>
+    <a href="https://www.scanmyshadow.com/#faq">FAQ</a>
+    <a href="https://www.scanmyshadow.com/tools/digital-exposure-score/" style="color:var(--purple); font-weight:600;">Free Exposure Check</a>
+    <a href="https://www.scanmyshadow.com/tools/">Tools</a>
+    <a href="https://www.scanmyshadow.com/blog/">Blog</a>
+    <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
+  </div>
+</header>
+
+<nav class="crumb" aria-label="Breadcrumb">
+<a href="https://www.scanmyshadow.com/">Home</a><span class="sep">&rsaquo;</span><a href="https://www.scanmyshadow.com/blog/">Blog</a><span class="sep">&rsaquo;</span><span class="current">How Have I Been Pwned Protects Email Search Privacy</span>
+</nav>
+<article>
+<div class="tags"><span class="tag">Have I Been Pwned</span>
+<span class="tag">Email Privacy</span>
+<span class="tag">K-Anonymity</span>
+<span class="tag">Data Breach</span></div>
+<h1>How Have I Been Pwned Protects Email Search Privacy</h1>
+<div class="byline"><span>Scan My Shadow</span><span class="dot"></span><span>September 10, 2026</span><span class="dot"></span><span>4 min read</span></div>
+<div class="tldr"><p><strong>TL;DR:</strong> HIBP documents two approaches for email-breach searches: a direct API lookup, which sends the email address to HIBP, and a k-anonymity hash-range method that sends only a partial hash prefix. The latter is designed to avoid disclosing the full email address to HIBP.</p><p class="tldr-hook">👉 <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Check your own exposure in 30 seconds →</a></p></div>
+<h2>There are two different search models</h2><p class="dropcap">HIBP&#x27;s current API documentation describes direct email-account searches and a k-anonymity email-search method. They solve the same problem - finding breach matches - with different privacy properties.</p><p>The direct API call sends the full email address as part of the request. The k-anonymity approach hashes the email locally and sends only a prefix of that hash.</p>
+<h2>How k-anonymity works</h2><p>The client turns the email into a SHA-1 hash, sends only the first six characters to the <a href="https://haveibeenpwned.com/" rel="noopener noreferrer">HIBP</a> k-anonymity endpoint, receives a set of matching suffixes and then checks locally whether the complete hash is present.</p><p>Because only a partial hash prefix is sent, <a href="https://haveibeenpwned.com/" rel="noopener noreferrer">HIBP</a> does not receive the original email address through that request. The client does the final matching step.</p><h2>Why the distinction matters</h2><p>If you are integrating breach intelligence into an application, the way the lookup is performed is part of the privacy design.</p><p>A service that sends full identifiers to an external API should explain that clearly. A service using k-anonymity should also explain its limits rather than presenting the word anonymous as a blanket guarantee.</p><h2>Do not confuse this with password checking</h2><p><a href="https://haveibeenpwned.com/" rel="noopener noreferrer">HIBP</a> also uses k-anonymity for Pwned Passwords, but the password range search uses the first five characters of the SHA-1 hash rather than the six-character prefix described for email-address searches.</p><p>The important principle is the same: the complete secret or identifier is not sent in the k-anonymity request.</p><h2>What users should ask any breach checker</h2><p>Before entering an email, ask whether the service needs the full address, whether it stores searches, what it returns, and whether the result is used for another purpose.</p><p><a href="https://haveibeenpwned.com/" rel="noopener noreferrer">HIBP</a> publishes detailed privacy documentation, which makes its approach easier to evaluate than an unknown breach-checking site with no clear data policy.</p>
+<div class="related-block"><h2>Continue the privacy check</h2><p>→ <a href="/blog/2026/09/is-have-i-been-pwned-safe-to-use.html">Is Have I Been Pwned safe to use?</a></p><p>→ <a href="/blog/2026/09/have-i-been-pwned-india-email-check.html">Have I Been Pwned India guide</a></p><p>→ <a href="/digital-footprint-checker/">the Digital Footprint Checker</a></p></div>
+<div class="faq">
+<h2>Frequently Asked Questions</h2>
+<h3>What is HIBP k-anonymity?</h3><p>It is a search method where the client sends only a partial hash prefix rather than the complete email address.</p><h3>Does direct API search use the full email?</h3><p>Yes. HIBP documents direct email-account API searches that send the full address to the API.</p><h3>How many hash characters are used for email k-anonymity?</h3><p>HIBP&#x27;s current API documentation describes sending the first six characters of the SHA-1 hash for email-address k-anonymity searches.</p><h3>Is k-anonymity the same as zero logging?</h3><p>No. It protects the identifier sent to the search endpoint; it should not be interpreted as a blanket statement that the entire web request has no operational logs.</p><h3>Does HIBP use k-anonymity for passwords too?</h3><p>Yes. Pwned Passwords uses a separate five-character SHA-1 hash-prefix design.</p>
+</div>
+<p>Have I Been Pwned is a useful reference for known breach exposure, but it is only one part of a broader privacy picture. If you want to see what is associated with your own phone number and email across a defined set of sources, <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Scan My Shadow's Digital Footprint Checker</a> provides a broader automated check.</p>
+
+<div class="price-wrap">
+  <div class="price-card fx-dark">
+    <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+    <div class="particles" data-particles></div>
+    <div class="sheen"></div>
+    <div class="p-inner">
+      <div class="price-left">
+        <div class="price-label">Phone + email scan &middot; 1,500+ data sources worldwide &middot; Full report</div>
+        <div class="price-amount"><span class="price-tag">&#8377;498</span><span>one-time</span></div>
+        <a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Scan My Digital Footprint</a>
+        <div class="price-razorpay">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
+          <span>Secure payment via Razorpay</span>
+        </div>
+      </div>
+      <div class="price-right">
+        <ul class="price-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results within about 5 minutes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</article>
+
+<footer>
+  <div class="wrap">
+    <a href="https://www.scanmyshadow.com/blog/">More articles</a>
+    <div class="copyright">&copy; 2026 Scan My Shadow &middot; All rights Reserved</div>
+  </div>
+</footer>
+
+
+<script src="https://www.scanmyshadow.com/assets/geo-price.js"></script>
+<script>
+var navToggle = document.getElementById('navToggle');
+var mobileMenu = document.getElementById('mobileMenu');
+if(navToggle && mobileMenu){
+  navToggle.addEventListener('click', function(){
+    var open = mobileMenu.classList.toggle('open');
+    navToggle.classList.toggle('open', open);
+    navToggle.setAttribute('aria-expanded', open);
+  });
+  Array.prototype.forEach.call(mobileMenu.querySelectorAll('a'), function(a){
+    a.addEventListener('click', function(){
+      mobileMenu.classList.remove('open');
+      navToggle.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
+document.querySelectorAll('[data-particles]').forEach(function(box){
+  for(var i=0;i<14;i++){
+    var s=document.createElement('i');
+    s.style.left=(Math.random()*100)+'%';
+    s.style.animationDuration=(7+Math.random()*7)+'s';
+    s.style.animationDelay=(-Math.random()*10)+'s';
+    var sc=0.6+Math.random()*1.3;
+    s.style.width=(3*sc)+'px'; s.style.height=(3*sc)+'px';
+    box.appendChild(s);
+  }
+});
+</script>
+
+</body>
+</html>
