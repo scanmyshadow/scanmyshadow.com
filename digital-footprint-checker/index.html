@@ -67,7 +67,12 @@
     {
       "@type": "Question",
       "name": "Can I check my digital footprint for free?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes — manually searching your name, number, and email on Google, and checking a free breach database like Have I Been Pwned, costs nothing. It's slower and less comprehensive than an automated scan, but it's a genuinely useful first step." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. The free breach check at the top of this page tells you instantly whether your email appears in publicly known data breaches, including which breaches, when they happened and what data was exposed. You can also search your own name, number and email on Google. Both are free and a genuinely useful first step — they're just narrower than an automated scan across 1,500+ sources." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the free email breach checker on this page really free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. There is no payment, no account and no sign-up. Enter your email and the result appears immediately, with full detail of every breach found — nothing is held back behind a paywall. Your email address is checked and discarded; it is not stored, logged or added to any list. Breach data is supplied by Have I Been Pwned. The paid scan is a separate, optional product that additionally covers your phone number and 1,500+ sources beyond breach databases." }
     },
     {
       "@type": "Question",
@@ -85,6 +90,31 @@
       "acceptedAnswer": { "@type": "Answer", "text": "A background check typically compiles records like employment or criminal history from official databases. Scan My Shadow focuses specifically on where your phone number and email appear across breaches and public sources — it's a privacy exposure check, not a background check." }
     }
   ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Free Email Data Breach Checker",
+  "url": "https://www.scanmyshadow.com/digital-footprint-checker/",
+  "description": "A free tool that checks whether your email address appears in publicly known data breaches, and shows the breach name, date, number of accounts exposed and the types of data leaked.",
+  "applicationCategory": "SecurityApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript",
+  "isAccessibleForFree": true,
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+  "featureList": [
+    "Instant email breach check",
+    "Breach names, dates and affected account counts",
+    "Types of data exposed in each breach",
+    "Severity rating based on whether passwords or identity data leaked",
+    "No account, no payment and no data stored"
+  ],
+  "provider": { "@type": "Organization", "name": "Scan My Shadow", "url": "https://www.scanmyshadow.com" },
+  "creditText": "Breach data supplied by Have I Been Pwned",
+  "isBasedOn": "https://haveibeenpwned.com"
 }
 </script>
 
@@ -406,13 +436,19 @@ top:120px;left:-180px
 position:relative;
 z-index:1;
 display:grid;
-grid-template-columns:1fr;
-gap:34px;
+grid-template-columns:1.08fr .92fr;
+gap:60px;
 align-items:start
 }
 
-.hero-grid > div{max-width:720px}
-.hero-grid .lc-card{max-width:720px}
+/* drop the tool card so its top sits level with the TL;DR, not the H1 */
+@media(min-width:921px){
+.hero-grid .lc-card{margin-top:118px}
+}
+
+@media(max-width:920px){
+.hero-grid{grid-template-columns:1fr;gap:40px}
+}
 
 .breadcrumb{
 position:relative;
@@ -1200,12 +1236,6 @@ padding:4px
 
 .lc-again:hover{color:var(--purple-deep)}
 
-@media(min-width:620px){
-.lc-row{display:flex;gap:10px;align-items:stretch}
-.lc-row .lc-field{flex:1;min-width:0}
-.lc-row .lc-btn{width:auto;margin-top:0;white-space:nowrap;padding-left:26px;padding-right:26px}
-}
-
 .lc-attrib{
 margin-top:15px;
 padding-top:14px;
@@ -1696,7 +1726,7 @@ to{opacity:1;transform:translateY(0)}
   </div>
 </header>
 
-<section class="page-hero">
+<section class="page-hero" id="top">
 
   <div class="blob blob-1"></div>
   <div class="blob blob-2"></div>
@@ -1723,6 +1753,30 @@ to{opacity:1;transform:translateY(0)}
       </p>
     </div>
 
+    <div class="reassure settle settle-4">
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </span>
+        <span class="lab"><b>1,500+ sources</b> checked for you</span>
+      </div>
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        </span>
+        <span class="lab"><b>About 5 minutes</b> from scan to report</span>
+      </div>
+
+      <div class="re-item">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.2-2.9 7.4-7 9-4.1-1.6-7-4.8-7-9V6z"/></svg>
+        </span>
+        <span class="lab"><b>Nothing kept</b> data deleted after</span>
+      </div>
+    </div>
+
   </div>
 
   <div class="lc-card settle settle-4" id="lcCard">
@@ -1742,7 +1796,6 @@ to{opacity:1;transform:translateY(0)}
 
       <div class="lc-form">
 
-        <div class="lc-row">
         <label class="lc-field" for="lcEmail">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
           <input type="email" id="lcEmail" name="email" placeholder="you@example.com" autocomplete="email" spellcheck="false" inputmode="email">
@@ -1751,7 +1804,6 @@ to{opacity:1;transform:translateY(0)}
         <input type="text" class="lc-hp" id="lcHp" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <button type="button" class="lc-btn" id="lcBtn">Check my email free</button>
-      </div>
 
         <div class="lc-err" id="lcErr" hidden></div>
 
@@ -1784,29 +1836,6 @@ to{opacity:1;transform:translateY(0)}
 
   </div>
 
-  <div class="reassure settle settle-4">
-
-      <div class="re-item">
-        <span class="ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        </span>
-        <span class="lab"><b>1,500+ sources</b> checked for you</span>
-      </div>
-
-      <div class="re-item">
-        <span class="ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-        </span>
-        <span class="lab"><b>About 5 minutes</b> from scan to report</span>
-      </div>
-
-      <div class="re-item">
-        <span class="ic">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.2-2.9 7.4-7 9-4.1-1.6-7-4.8-7-9V6z"/></svg>
-        </span>
-        <span class="lab"><b>Nothing kept</b> data deleted after</span>
-      </div>
-    </div>
 
 
 
@@ -1935,7 +1964,7 @@ to{opacity:1;transform:translateY(0)}
     <div class="step-num">3</div>
     <div class="title">Check a breach database</div>
     <div class="desc">
-      Sites like Have I Been Pwned let you check whether your email appears in publicly known breaches, free of charge.
+      Use the <a href="#top">free breach check at the top of this page</a> to see whether your email appears in publicly known breaches. It returns the breach name, date, how many accounts were exposed and what type of data leaked, at no cost.
     </div>
   </div>
 </div>
@@ -2134,7 +2163,20 @@ to{opacity:1;transform:translateY(0)}
     </button>
     <div class="faq-a">
       <div class="faq-a-inner">
-        Yes — manually searching your name, number, and email on Google, and checking a free breach database like Have I Been Pwned, costs nothing. It's slower and less comprehensive than an automated scan, but it's a genuinely useful first step.
+        Yes. The free breach check at the top of this page tells you instantly whether your email appears in publicly known data breaches, including which breaches, when they happened and what data was exposed. You can also search your own name, number and email on Google. Both are free and a genuinely useful first step — they're just narrower than an automated scan across 1,500+ sources.
+      </div>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-q">
+      Is the free email breach checker on this page really free?
+      <span class="chev">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </span>
+    </button>
+    <div class="faq-a">
+      <div class="faq-a-inner">
+        Yes. There is no payment, no account and no sign-up. Enter your email and the result appears immediately, with full detail of every breach found &mdash; nothing is held back behind a paywall. Your email address is checked and discarded; it is not stored, logged or added to any list. Breach data is supplied by Have I Been Pwned. The paid scan is a separate, optional product that additionally covers your phone number and 1,500+ sources beyond breach databases.
       </div>
     </div>
   </div>
@@ -2416,6 +2458,18 @@ setTimeout(function(){card.style.height='auto'},440);
 },260);
 }
 
+function livePrice(){
+try{
+var tags=document.querySelectorAll('.price-tag');
+for(var i=0;i<tags.length;i++){
+if(result&&result.contains(tags[i]))continue;
+var t=(tags[i].textContent||'').trim();
+if(t)return esc(t);
+}
+}catch(e){}
+return '\u20b9498';
+}
+
 function fmt(n){
 if(!n||isNaN(n))return null;
 return Number(n).toLocaleString('en-IN');
@@ -2507,7 +2561,7 @@ h+='<div class="lc-gap-t">What this check did not cover</div>';
 h+='<div class="lc-gap-p">This checked <b>your email address only</b>, against publicly known breach records. It did not check your <b>phone number</b>, data broker listings, classifieds, or public directories &mdash; the sources where contact details most often resurface. The paid scan covers your phone and email across <b>1,500+ sources</b> and returns a plain-language report with what was found and what to do about it.</div>';
 h+='</div>';
 
-h+='<a class="lc-cta" href="/#pricing">Run the full scan &middot; <span class="price-tag">&#8377;498</span></a>';
+h+='<a class="lc-cta" href="/#pricing">Run the full scan &middot; <span class="price-tag">'+livePrice()+'</span></a>';
 h+='<button type="button" class="lc-again" id="lcAgain">Check a different email</button>';
 
 h+='<div class="lc-attrib">Breach data supplied by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>, used under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 licence</a>. Your email was not stored or logged.</div>';
@@ -2536,6 +2590,7 @@ if(!v){showErr('Enter your email address to run the check.');input.focus();retur
 if(!valid(v)){showErr('That doesn\'t look like a valid email address.');input.focus();return}
 
 btn.disabled=true;
+if(window.gtag){try{gtag('event','free_breach_check_start')}catch(e){}}
 swap(idle,loading);
 
 fetch(EP,{
