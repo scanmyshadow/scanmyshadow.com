@@ -2034,6 +2034,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     }
     document.getElementById('freeLoadingEmail').textContent = 'for ' + email;
     animateTo(pLoad, [pIdle, pRes]);
+    if(typeof gtag === 'function'){ gtag('event','free_breach_check_start',{}); }
 
     fetch(HIBP_ENDPOINT, {
       method: 'POST',
@@ -2052,6 +2053,12 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       renderResult(email, result.data);
       box.classList.add('wide');
       animateTo(pRes, [pLoad, pIdle]);
+      if(typeof gtag === 'function'){
+        gtag('event','free_breach_check_complete',{
+          severity: (result.data && result.data.severity) || 'unknown',
+          breach_count: (result.data && result.data.count) || 0
+        });
+      }
     })
     .catch(function(){
       freeCheckError.textContent = 'Could not reach the check service — try again in a moment.';
