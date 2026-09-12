@@ -206,6 +206,32 @@ footer{background:var(--bg-tint);border-top:1px solid var(--line);padding:56px 0
 @keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
 @media(prefers-reduced-motion:reduce){ .aurora span,.particles i,.fx-dark .sheen{animation:none;} }
 
+/* founder */
+.founder-section{position:relative; max-width:900px; margin:40px auto 0; padding:44px 46px;}
+.founder-section::before{content:''; position:absolute; inset:0; z-index:-1; border-radius:32px; background:radial-gradient(120% 140% at 15% 15%, var(--purple-mist) 0%, rgba(241,238,254,0) 60%);}
+.founder-grid{display:grid; grid-template-columns:210px 1fr; gap:48px; align-items:center;}
+.founder-photo-wrap{position:relative;}
+.founder-photo-wrap::before{content:''; position:absolute; inset:0; transform:translate(10px,10px); background:var(--purple-mist); border-radius:20px; z-index:0;}
+.founder-photo{position:relative; z-index:1; display:block; width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:20px; box-shadow:var(--shadow-md);}
+.founder-body{padding-top:4px;}
+.founder-eyebrow{font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--purple); margin-bottom:6px;}
+.founder-mark{font-family:'Space Grotesk'; font-weight:700; font-size:56px; line-height:0.6; color:var(--purple-mist); display:block; margin-bottom:2px;}
+.founder-body p.q{font-family:'Space Grotesk'; font-size:19px; line-height:1.55; font-weight:500; margin:0 0 14px; color:var(--ink);}
+.founder-body p.q:last-of-type{margin-bottom:0;}
+.founder-pull{display:block; margin:16px 0; padding-left:18px; border-left:2px solid var(--purple); color:var(--purple-deep); font-style:italic;}
+.founder-meta{display:flex; align-items:center; gap:12px; margin-top:26px; padding-top:20px; border-top:1px solid var(--line);}
+.founder-name{font-size:14.5px; font-weight:600; color:var(--ink); font-family:'Space Grotesk';}
+.founder-tag{font-size:11px; font-weight:600; color:var(--purple); background:var(--purple-mist); padding:4px 11px; border-radius:999px;}
+@media(max-width:640px){
+  .founder-section{padding:36px 26px;}
+  .founder-grid{grid-template-columns:1fr; text-align:center; gap:22px;}
+  .founder-photo-wrap{width:140px; margin:0 auto;}
+  .founder-mark{margin-left:auto; margin-right:auto;}
+  .founder-pull{border-left:none; padding-left:0; border-top:2px solid var(--purple); padding-top:12px;}
+  .founder-meta{justify-content:center; flex-direction:column; gap:8px;}
+  .founder-body p.q{font-size:17px;}
+}
+
 </style>
 </head>
 <body>
@@ -313,6 +339,28 @@ footer{background:var(--bg-tint);border-top:1px solid var(--line);padding:56px 0
         <div class="info-row"><span class="info-label">GSTIN</span><span class="info-value">23AIVPG9795M1Z6</span></div>
         <div class="info-row"><span class="info-label">Registered State</span><span class="info-value">Madhya Pradesh, India</span></div>
         <div class="info-row"><span class="info-label">Website</span><span class="info-value"><a href="https://www.scanmyshadow.com">www.scanmyshadow.com</a></span></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="founder-section">
+      <div class="founder-grid">
+        <div class="founder-photo-wrap">
+          <img src="founder.jpg" class="founder-photo" alt="Siddharth, founder of Scan My Shadow">
+        </div>
+        <div class="founder-body">
+          <div class="founder-eyebrow">Why I built this</div>
+          <span class="founder-mark">&ldquo;</span>
+          <p class="q">My own personal details were exposed online before I even knew they were out there — including my phone numbers, addresses and other information that shouldn't have been so easy to find.</p>
+          <p class="q">That experience made me realise something:</p>
+          <span class="founder-pull">You shouldn't have to become a victim to find out what the internet already knows about you.</span>
+          <p class="q">So I built Scan My Shadow to make it simple &amp; affordable for anyone to check their digital exposure, understand what they find, and take action.</p>
+          <div class="founder-meta">
+            <span class="founder-name">Siddharth</span>
+            <span class="founder-tag">Founder, Scan My Shadow</span>
+          </div>
+        </div>
       </div>
     </div>
 
