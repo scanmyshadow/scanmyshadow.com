@@ -56,6 +56,7 @@ gtag('config','G-S4P3YTNEDY');
  "@context":"https://schema.org",
  "@type":"FAQPage",
  "mainEntity":[
+  {"@type":"Question","name":"What's actually inside a leaked database record?","acceptedAnswer":{"@type":"Answer","text":"It depends on the breach, but common fields include email address, password (often hashed), name, and sometimes address or order history. More sensitive breaches — healthcare or financial services — can include policy numbers or partial payment details. A breach and leak check tells you which specific incidents your details appeared in, and what type of data was involved."}},
   {"@type":"Question","name":"How can I check if my data has been leaked?","acceptedAnswer":{"@type":"Answer","text":"Start with your email address in a reputable breach database, then search your phone number and review relevant account alerts. A broader exposure scan can check your phone number and email across a defined set of breach and public sources."}},
   {"@type":"Question","name":"Does a data breach mean my account was hacked?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. A breach usually means a company or service holding your information was compromised. Your details may have been included in the exposed dataset without your individual account being directly accessed."}},
   {"@type":"Question","name":"What should I do if my email appears in a breach?","acceptedAnswer":{"@type":"Answer","text":"Change the password for the affected service, use a unique password, enable two-factor authentication where available, and review other accounts if you reused the same password."}},
@@ -1557,6 +1558,27 @@ to{opacity:1;transform:translateY(0)}
   </div>
 </section>
 
+<section class="block section-line">
+  <div class="wrap prose">
+<div class="sec-head">
+  <span class="kicker">In practice</span>
+  <h2>What's Actually Inside a Leaked Record</h2>
+</div>
+<p>
+  These aren't abstract — here's what a real leaked or breached record typically contains:
+</p>
+<ul>
+<li><strong>A SaaS credential dump</strong> — an email address paired with a hashed (or occasionally plaintext) password from a signup years ago, still circulating in “combolists” used for automated login attempts elsewhere.</li>
+<li><strong>An e-commerce customer database</strong> — name, address, order history, and sometimes partial payment details, exposed when a retailer's backend is compromised.</li>
+<li><strong>A healthcare or insurance breach</strong> — records that go beyond the basics — policy numbers, diagnosis codes, or insurance IDs — which is why these breaches are treated more seriously than most.</li>
+<li><strong>A recycled breach re-surfacing</strong> — the same dataset re-posted months or years later under a new name, which is why a single clean check doesn't guarantee permanent safety.</li>
+</ul>
+<p>
+  A breach and leak check's value is in matching your specific email or phone number against known incidents like these — not guessing whether something “might” be out there.
+</p>
+  </div>
+</section>
+
 <section class="block band-warm" id="faq">
   <div class="wrap">
 <div class="sec-head narrow">
@@ -1565,6 +1587,19 @@ to{opacity:1;transform:translateY(0)}
 </div>
 <div class="faq-list">
 
+  <div class="faq-item">
+    <button class="faq-q">
+      What's actually inside a leaked database record?
+      <span class="chev">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </span>
+    </button>
+    <div class="faq-a">
+      <div class="faq-a-inner">
+        It depends on the breach, but common fields include email address, password (often hashed), name, and sometimes address or order history. More sensitive breaches — healthcare or financial services — can include policy numbers or partial payment details. A breach and leak check tells you which specific incidents your details appeared in, and what type of data was involved.
+      </div>
+    </div>
+  </div>
   <div class="faq-item">
     <button class="faq-q">
       How can I check if my data has been leaked?
