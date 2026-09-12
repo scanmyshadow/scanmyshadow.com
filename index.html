@@ -603,6 +603,10 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .stat-bar{display:grid; grid-template-columns:repeat(3,1fr); gap:32px; max-width:720px; margin:0 auto; text-align:center;}
   .stat-number{font-family:'Space Grotesk'; font-weight:700; font-size:34px; color:var(--purple); line-height:1.1; margin-bottom:8px;}
   .stat-label{font-size:13.5px; color:var(--ink-soft); line-height:1.4;}
+  .stat-item{opacity:0; transform:translateY(10px) scale(.96); transition:opacity .5s ease, transform .5s ease;}
+  .stat-bar.in .stat-item{opacity:1; transform:translateY(0) scale(1);}
+  .stat-bar.in .stat-item:nth-child(2){transition-delay:.1s;}
+  .stat-bar.in .stat-item:nth-child(3){transition-delay:.2s;}
   @media(max-width:640px){
     .stat-bar{grid-template-columns:1fr; gap:24px;}
   }
@@ -1283,11 +1287,11 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   <div class="wrap">
     <div class="stat-bar">
       <div class="stat-item">
-        <div class="stat-number">2,800+</div>
+        <div class="stat-number" data-target="2800" data-suffix="+">0</div>
         <div class="stat-label">Scans completed</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">1,500+</div>
+        <div class="stat-number" data-target="1500" data-suffix="+">0</div>
         <div class="stat-label">Sources checked per scan</div>
       </div>
       <div class="stat-item">
@@ -1904,10 +1908,29 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   });
 
   // reveal on scroll
+  function animateStats(bar){
+    if(bar.dataset.animated) return; bar.dataset.animated = '1';
+    bar.querySelectorAll('.stat-number[data-target]').forEach(function(el){
+      var target = parseInt(el.dataset.target, 10);
+      var suffix = el.dataset.suffix || '';
+      var t0 = performance.now(), dur = 900;
+      function step(t){
+        var p = Math.min((t - t0) / dur, 1);
+        el.textContent = Math.floor(p * target).toLocaleString('en-IN') + suffix;
+        if(p < 1) requestAnimationFrame(step); else el.textContent = target.toLocaleString('en-IN') + suffix;
+      }
+      requestAnimationFrame(step);
+    });
+  }
   var io = new IntersectionObserver(function(entries){
-    entries.forEach(function(e){ if(e.isIntersecting) e.target.classList.add('in'); });
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        e.target.classList.add('in');
+        if(e.target.classList.contains('stat-bar')) animateStats(e.target);
+      }
+    });
   }, {threshold:0.12});
-  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  document.querySelectorAll('.reveal, .stat-bar').forEach(function(el){ io.observe(el); });
 
 </script>
 
