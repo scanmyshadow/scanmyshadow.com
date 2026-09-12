@@ -58,6 +58,11 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "Can someone find my name and address from just my phone number?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sometimes, yes — through reverse-lookup apps, payment apps that display a registered name, or a phone number listed in a data broker's public record. It depends on which services the number has been used with and whether any of them expose that information publicly." }
+    },
+    {
+      "@type": "Question",
       "name": "What is the difference between the Phone Number Exposure Check and the Risk Quiz?",
       "acceptedAnswer": { "@type": "Answer", "text": "The Risk Quiz estimates your exposure risk from your answers and does not search the internet. The Phone Number Exposure Check is the actual scan: you submit your number and Scan My Shadow checks it against the sources included in the scan." }
     },
@@ -1571,6 +1576,26 @@ to{opacity:1;transform:translateY(0)}
   </div>
 </section>
 
+<section class="block section-line">
+  <div class="wrap prose">
+<div class="sec-head">
+  <span class="kicker">In practice</span>
+  <h2>What a Phone Number Alone Can Reveal</h2>
+</div>
+<p>
+  A phone number can expose more than people expect, even without a name attached. For example:
+</p>
+<ul>
+<li><strong>A WhatsApp profile</strong> — photo, “about” text, and last-seen status are often visible to anyone who has the number, without needing to save it as a contact.</li>
+<li><strong>A reverse-lookup app</strong> — apps that crowdsource caller-ID data can surface a name attached to a number, even if that number was never given to the app's own users.</li>
+<li><strong>Reuse across UPI or food-delivery apps</strong> — payment and delivery apps frequently display a registered name once a number is entered, which is how a number alone can confirm an identity.</li>
+</ul>
+<p>
+  A phone number exposure check matters because a number is often treated as less sensitive than an email — but in practice it can reveal just as much, just through different apps and services.
+</p>
+  </div>
+</section>
+
 <section class="block band-lilac" id="faq">
   <div class="wrap">
 <div class="sec-head narrow">
@@ -1579,6 +1604,19 @@ to{opacity:1;transform:translateY(0)}
 </div>
 <div class="faq-list">
 
+  <div class="faq-item">
+    <button class="faq-q">
+      Can someone find my name and address from just my phone number?
+      <span class="chev">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </span>
+    </button>
+    <div class="faq-a">
+      <div class="faq-a-inner">
+        Sometimes, yes — through reverse-lookup apps, payment apps that display a registered name, or a phone number listed in a data broker's public record. It depends on which services the number has been used with and whether any of them expose that information publicly.
+      </div>
+    </div>
+  </div>
   <div class="faq-item">
     <button class="faq-q">
       What is the difference between the Phone Number Exposure Check and the Risk Quiz?
