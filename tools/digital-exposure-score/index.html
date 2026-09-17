@@ -627,11 +627,41 @@ h1 .accent{color:var(--purple);}
       </div>
 
       <div class="breach-actions">
-        <button class="breach-continue" id="breachContinue">
-          Continue to My Full Score
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </button>
-        <button class="breach-skip" id="breachSkip">Skip the questions — go straight to the full 1,500+ source scan</button>
+
+        <div class="price-wrap" style="margin:0 0 4px;">
+          <div class="price-card fx-dark">
+            <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+            <div class="particles" data-particles></div>
+            <div class="sheen"></div>
+
+            <div class="cta-eyebrow">Go Beyond The Free Check</div>
+            <h2>Your phone number hasn't been checked yet</h2>
+            <p class="cta-desc">This free check only covers your email against known breaches. Scan your phone number and email across 1,500+ sources and get a full digital exposure report.</p>
+
+            <div class="p-inner">
+              <div class="price-left">
+                <div class="price-label">Phone + email scan &middot; Full report</div>
+                <div class="price-amount"><span class="price-tag">&#8377;498</span><span>one-time</span></div>
+                <a href="https://www.scanmyshadow.com/#pricing" class="btn-price" id="ctaBtnBreach">Scan My Digital Footprint</a>
+                <div class="price-razorpay">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
+                  <span>Secure payment via Razorpay</span>
+                </div>
+              </div>
+              <div class="price-right">
+                <ul class="price-list">
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Results usually within about 5 minutes</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Clear, plain-English report</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Delivered straight to your inbox</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No login or passwords required</li>
+                  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Scan data deleted after report is generated</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="breach-skip" id="breachContinue">Or continue for your free Digital Exposure Score — 5 quick questions &rarr;</button>
       </div>
 
       <!-- error state -->
@@ -862,7 +892,6 @@ h1 .accent{color:var(--purple);}
   var breachList = document.getElementById('breachList');
   var hibpAttrib = document.getElementById('hibpAttrib');
   var breachContinue = document.getElementById('breachContinue');
-  var breachSkip = document.getElementById('breachSkip');
   var breachError = document.getElementById('breachError');
   var breachErrorMsg = document.getElementById('breachErrorMsg');
   var breachErrorRetry = document.getElementById('breachErrorRetry');
@@ -1071,12 +1100,20 @@ h1 .accent{color:var(--purple);}
   }
 
   breachContinue.addEventListener('click', function(){
+    if(typeof gtag === 'function'){
+      gtag('event','score_quiz_started',{});
+    }
     startQuiz();
   });
 
-  breachSkip.addEventListener('click', function(){
-    window.location.href = 'https://www.scanmyshadow.com/#pricing';
-  });
+  var ctaBtnBreach = document.getElementById('ctaBtnBreach');
+  if(ctaBtnBreach){
+    ctaBtnBreach.addEventListener('click', function(){
+      if(typeof gtag === 'function'){
+        gtag('event','breach_result_cta_click',{ breach_count: (hibpResult?hibpResult.count:0) });
+      }
+    });
+  }
 
 
   // ===== behavioral quiz (5 questions) =====
