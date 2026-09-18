@@ -190,7 +190,7 @@ h1 .accent{color:var(--purple);}
 .score-overview strong{color:var(--ink);font-weight:600;}
 
 /* ===== SHARED CARD SHELL ===== */
-.tool-card-shell{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden;}
+.tool-card-shell{background:#fff;border:1.5px solid rgba(123,92,250,0.28);border-radius:22px;box-shadow:0 26px 68px rgba(43,29,102,0.13), 0 0 0 1px rgba(123,92,250,0.16), 0 0 32px rgba(123,92,250,0.18);position:relative;overflow:hidden;}
 @media(max-width:480px){.tool-card-shell{border-radius:18px;}}
 
 /* ===== PHASE: GATE (email capture) ===== */
@@ -1524,6 +1524,30 @@ h1 .accent{color:var(--purple);}
       box.appendChild(s);
     }
   });
+</script>
+
+<!-- ============ Gate email field — looping typewriter placeholder ============ -->
+<script>
+(function(){
+  var input = document.getElementById('gateEmail');
+  if(!input) return;
+  var sample = "you@example.com";
+  var pos = 0, deleting = false;
+  function tick(){
+    if(document.activeElement === input || input.value){ setTimeout(tick, 600); return; }
+    if(!deleting){
+      pos++;
+      input.placeholder = sample.slice(0, pos);
+      if(pos === sample.length){ deleting = true; setTimeout(tick, 1400); return; }
+    } else {
+      pos--;
+      input.placeholder = sample.slice(0, pos);
+      if(pos === 0){ deleting = false; setTimeout(tick, 500); return; }
+    }
+    setTimeout(tick, deleting ? 45 : 85);
+  }
+  setTimeout(tick, 600);
+})();
 </script>
 
 </body>
