@@ -417,6 +417,9 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .fc-report .rrow:last-child{border-bottom:0;}
   .fc-report .rlabel{font-size:11px; color:var(--ink-soft);}
   .fc-report .rval{font-size:11px; font-weight:600; color:var(--ink);}
+  .fc-wys-row{display:flex; align-items:center; gap:7px; padding:5px 0; border-top:1px solid var(--line-soft); font-size:11px; color:var(--ink-soft);}
+  .fc-wys-row:first-of-type{border-top:none; margin-top:8px;}
+  .fc-wys-dot{width:6px; height:6px; border-radius:50%; flex-shrink:0;}
 
   .fc-2{animation-delay:-2.3s;} .fc-3{animation-delay:-1.1s;} .fc-4{animation-delay:-3.4s;}
   @keyframes floaty{0%,100%{transform:translateY(0);}50%{transform:translateY(-4px);}}
@@ -452,12 +455,12 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   /* below grid breakpoint: hide side columns, show mobile masonry */
   @media(max-width:992px){ .stage-grid{display:block;} .stage-grid .side-col{display:none;} }
 
-  /* mobile: reversely-style staggered 2-col masonry (below the CTA) */
+  /* mobile/tablet: stacked card order (below the CTA) */
   .mobile-grid{display:none;}
   @media(max-width:992px){
-    .mobile-grid{display:flex; justify-content:center; gap:10px; margin:30px auto 0; max-width:400px; padding:0 20px;}
-    .mobile-grid .mcol{display:flex; flex-direction:column; gap:10px; flex:1;}
-    .mobile-grid .mcol.right{margin-top:26px;}
+    .mobile-grid{display:flex; flex-direction:column; gap:10px; margin:30px auto 0; max-width:400px; padding:0 20px;}
+    .mobile-grid .two-col{display:grid; grid-template-columns:1fr 1fr; gap:10px; align-items:stretch;}
+    .mobile-grid .two-col .float-card{display:flex; flex-direction:column;}
     .mobile-grid .float-card{animation:none;}
     .mobile-grid .float-card .fc-banner{height:64px;}
     .mobile-grid .float-card.tall .fc-banner{height:104px;}
@@ -692,7 +695,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   @keyframes cta-ping{0%{box-shadow:0 0 0 0 rgba(123,92,250,0.45);}70%{box-shadow:0 0 0 12px rgba(123,92,250,0);}100%{box-shadow:0 0 0 0 rgba(123,92,250,0);}}
 
   /* --- (2,4,7,9) subtle "pop" elevation --- */
-  .scan-box{box-shadow:0 30px 80px rgba(43,29,102,0.16), 0 0 0 1px rgba(123,92,250,0.10), 0 2px 0 rgba(255,255,255,0.9) inset; background:linear-gradient(180deg,#ffffff,#FCFBFF);}
+  .scan-box{box-shadow:0 30px 80px rgba(43,29,102,0.16), 0 0 0 1px rgba(123,92,250,0.28), 0 0 34px rgba(123,92,250,0.20), 0 2px 0 rgba(255,255,255,0.9) inset; background:linear-gradient(180deg,#ffffff,#FCFBFF); border-color:rgba(123,92,250,0.28);}
   .maya-card{box-shadow:0 16px 40px rgba(43,29,102,0.10);}
 
   /* --- (8 + pricing) animated dark boxes: aurora, particles, sheen --- */
@@ -1142,28 +1145,33 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     </div>
 
     <div class="float-card fc-report fc-4">
-      <div class="fc-top" style="margin-bottom:10px;">
-        <div class="fc-title">Sample report</div>
-        <span class="fc-badge danger" style="margin-left:auto;">High</span>
+      <div class="fc-top" style="margin-bottom:8px;">
+        <div class="fc-title">What you'll see</div>
       </div>
-      <div class="fc-sevbar"><span class="fc-sevseg crit"></span><span class="fc-sevseg mod"></span><span class="fc-sevseg info"></span></div>
-      <div class="fc-sevlegend">
-        <span><i class="fc-sevdot crit"></i>1 critical</span>
-        <span><i class="fc-sevdot mod"></i>1 moderate</span>
-        <span><i class="fc-sevdot info"></i>1 info</span>
-      </div>
-      <div class="rrow"><span class="rlabel">Canva</span><span class="rval">Password leaked</span></div>
-      <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
-      <div class="rrow"><span class="rlabel">Location</span><span class="rval">Singapore</span></div>
+      <div class="fc-desc" style="margin-top:0; margin-bottom:2px;">A simple look at what's inside your report.</div>
+      <div class="fc-wys-row"><span class="fc-wys-dot" style="background:var(--purple);"></span>What was found</div>
+      <div class="fc-wys-row"><span class="fc-wys-dot" style="background:var(--warn);"></span>Where it showed up</div>
+      <div class="fc-wys-row"><span class="fc-wys-dot" style="background:var(--ok);"></span>What to do next</div>
     </div>
     </div>
 
    </div>
   </div>
 
-  <!-- mobile: reversely-style staggered 2-col masonry -->
+  <!-- mobile/tablet: new card order — What you'll see (1st, full width) → Deleted after scan + DPDP-aligned (side by side) → 1,500+ sources (last, full width) -->
   <div class="mobile-grid">
-    <div class="mcol left">
+
+    <div class="float-card fc-report">
+      <div class="fc-top" style="margin-bottom:8px;">
+        <div class="fc-title">What you'll see</div>
+      </div>
+      <div class="fc-desc" style="margin-top:0; margin-bottom:2px;">A simple look at what's inside your report.</div>
+      <div class="fc-wys-row"><span class="fc-wys-dot" style="background:var(--purple);"></span>What was found</div>
+      <div class="fc-wys-row"><span class="fc-wys-dot" style="background:var(--warn);"></span>Where it showed up</div>
+      <div class="fc-wys-row"><span class="fc-wys-dot" style="background:var(--ok);"></span>What to do next</div>
+    </div>
+
+    <div class="two-col">
       <div class="float-card tall">
         <div class="fc-body"><div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="fc-title">Deleted after scan</div></div>
         <div class="fc-desc">Your phone number and email are deleted immediately after your report is sent.</div>
@@ -1171,33 +1179,21 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
         <div class="fc-sweep-cap">Wiping scan data…</div>
         </div>
       </div>
-      <div class="float-card fc-report">
-        <div class="fc-top" style="margin-bottom:8px;"><div class="fc-title">Sample report</div><span class="fc-badge danger" style="margin-left:auto;">High</span></div>
-        <div class="fc-sevbar"><span class="fc-sevseg crit"></span><span class="fc-sevseg mod"></span><span class="fc-sevseg info"></span></div>
-        <div class="fc-sevlegend">
-          <span><i class="fc-sevdot crit"></i>1 critical</span>
-          <span><i class="fc-sevdot mod"></i>1 moderate</span>
-          <span><i class="fc-sevdot info"></i>1 info</span>
-        </div>
-        <div class="rrow"><span class="rlabel">Canva</span><span class="rval">Password leaked</span></div>
-        <div class="rrow"><span class="rlabel">LinkedIn</span><span class="rval">Phone visible</span></div>
-        <div class="rrow"><span class="rlabel">Location</span><span class="rval">Singapore</span></div>
-      </div>
-    </div>
-    <div class="mcol right">
-      <div class="float-card">
-        <div class="fc-body"><div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div><div class="fc-title">1,500+ sources</div></div>
-        <div class="fc-desc">Breaches, leaks and exposed records — checked in one pass.</div>
-        <div class="fc-dotrow"><span class="fc-dot"></span><span class="fc-dot"></span><span class="fc-dot"></span><span class="fc-dot"></span><span class="fc-dot"></span></div>
-        <div class="fc-dot-cap">Checking sources live</div>
-        </div>
-      </div>
       <div class="float-card tall">
-        <div class="fc-body"><div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="fc-checkpath" d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div><div class="fc-title">DPDP-aligned</div></div>
-        <div class="fc-desc">Consent-first and built as per DPDP 2023 data-protection norms.</div>
+        <div class="fc-body"><div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="fc-checkpath" d="m9 12 2 2 4-4"/><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/></svg></div><div class="fc-title" id="privacyBadgeTitleMobile">DPDP-aligned</div></div>
+        <div class="fc-desc" id="privacyBadgeDescMobile">Consent-first and built as per DPDP 2023 data-protection norms.</div>
         </div>
       </div>
     </div>
+
+    <div class="float-card">
+      <div class="fc-body"><div class="fc-top"><div class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div><div class="fc-title">1,500+ sources</div></div>
+      <div class="fc-desc">Breaches, leaks and exposed records — checked in one pass.</div>
+      <div class="fc-dotrow"><span class="fc-dot"></span><span class="fc-dot"></span><span class="fc-dot"></span><span class="fc-dot"></span><span class="fc-dot"></span></div>
+      <div class="fc-dot-cap">Checking sources live</div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -1719,6 +1715,10 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
           var badgeDesc = document.getElementById('privacyBadgeDesc');
           if(badgeTitle) badgeTitle.textContent = 'Privacy-first';
           if(badgeDesc) badgeDesc.textContent = "Consent-first, with your data deleted immediately after your report.";
+          var badgeTitleM = document.getElementById('privacyBadgeTitleMobile');
+          var badgeDescM = document.getElementById('privacyBadgeDescMobile');
+          if(badgeTitleM) badgeTitleM.textContent = 'Privacy-first';
+          if(badgeDescM) badgeDescM.textContent = "Consent-first, with your data deleted immediately after your report.";
         }
       })
       .catch(function(){
