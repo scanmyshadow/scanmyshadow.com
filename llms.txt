@@ -1,0 +1,65 @@
+# Scan My Shadow
+
+> Scan My Shadow is a digital privacy service. For a one-time fee (₹498 in India, $9.99 elsewhere) it scans a phone number and email address against 1,500+ breach and public-data sources and delivers a report of what is exposed. The site also offers free breach and exposure checks and publishes plain-English guides on digital footprints, data breaches, hacked accounts and scams, with a focus on India.
+
+Site: https://www.scanmyshadow.com/
+
+## Free tools and scan pages
+- [Digital Footprint Checker: See What You Reveal Online](https://www.scanmyshadow.com/digital-footprint-checker/)
+- [Is your email already out there?](https://www.scanmyshadow.com/tools/digital-exposure-score/)
+- [Email Exposure Check: Is Your Email Exposed Online?](https://www.scanmyshadow.com/email-exposure-check/)
+- [Phone Number Exposure Check: Is Your Number Exposed Online?](https://www.scanmyshadow.com/phone-number-exposure-check/)
+- [Data Breach & Leak Check: Has Your Data Been Exposed?](https://www.scanmyshadow.com/data-breach-leak-check/)
+- [Data Broker Exposure Check: What Information Do They Have About You?](https://www.scanmyshadow.com/data-broker-exposure-check/)
+- [Personal Information Exposure Check: See What's Online About You](https://www.scanmyshadow.com/personal-information-exposure-check/)
+- [Is my husband cheating? Start with what's actually exposed.](https://www.scanmyshadow.com/tools/my-husband-is-cheating-on-me/)
+- [Matrimonial Digital Safety Checklist](https://www.scanmyshadow.com/tools/matrimonial-digital-safety-checklist/)
+- [Phone Number Privacy Risk Quiz](https://www.scanmyshadow.com/tools/phone-number-exposure-risk-checker/)
+- [Email Privacy Risk Checker](https://www.scanmyshadow.com/tools/email-privacy-risk-checker/)
+- [How Exposed Is Your Digital Shadow?](https://www.scanmyshadow.com/tools/online-exposure-risk-quiz/)
+- [Digital Privacy Checklist](https://www.scanmyshadow.com/tools/digital-privacy-checklist/)
+
+## Digital footprint
+- [How to Check Your Digital Footprint (Step-by-Step, for Indian Users)](https://www.scanmyshadow.com/blog/2026/08/how-to-check-your-digital-footprint.html)
+- [What Does "Digital Footprint" Actually Mean?](https://www.scanmyshadow.com/blog/2026/09/what-does-digital-footprint-mean.html)
+- [What Is a Social Media Footprint?](https://www.scanmyshadow.com/blog/2026/09/what-is-a-social-media-footprint.html)
+- [What Makes Up Your Digital Footprint?](https://www.scanmyshadow.com/blog/2026/08/what-makes-up-your-digital-footprint.html)
+- [How to Reduce Your Digital Footprint](https://www.scanmyshadow.com/blog/2026/09/how-to-reduce-your-digital-footprint.html)
+- [How to Protect Your Family Online](https://www.scanmyshadow.com/blog/2026/09/how-to-protect-your-family-online.html)
+
+## Data breaches and email checks
+- [What Is a Data Breach, and What Actually Gets Leaked?](https://www.scanmyshadow.com/blog/2026/08/what-is-data-breach-and-what-actually.html)
+- [Have I Been Pwned India: Check If Your Email Was Leaked](https://www.scanmyshadow.com/blog/2026/09/have-i-been-pwned-india-email-check.html)
+- [Can Have I Been Pwned Check a Phone Number in India?](https://www.scanmyshadow.com/blog/2026/09/can-have-i-been-pwned-check-phone-number-india.html)
+- [Stealer Logs vs Data Breaches: What’s the Difference?](https://www.scanmyshadow.com/blog/2026/09/what-is-a-stealer-log-and-how-is-it-different-from-a-breach.html)
+- [My Email Account Was Hacked — What to Do Right Now](https://www.scanmyshadow.com/blog/2026/09/my-email-account-was-hacked-what-to-do.html)
+- [My Password Was Leaked — What to Do Right Now](https://www.scanmyshadow.com/blog/2026/09/password-leaked-or-breached-what-to-do.html)
+
+## Phone number exposure
+- [How to Check If Your Phone Number Is Exposed Online: A Guide for Indian Users](https://www.scanmyshadow.com/blog/2026/08/how-to-check-if-your-phone-number-is.html)
+- [Can Someone Find My Address Using My Phone Number?](https://www.scanmyshadow.com/blog/2026/08/can-someone-find-my-address-using-my.html)
+- [Reverse Phone Lookup Tools: Which Ones Actually Work in India](https://www.scanmyshadow.com/blog/2026/09/reverse-phone-lookup-tools-india.html)
+- [SIM Swap Fraud: How It Works and How to Protect Your Number](https://www.scanmyshadow.com/blog/2026/08/sim-swap-fraud-how-it-works-and-how-to.html)
+- [Truecaller Privacy: How to Remove Your Name From India's Biggest Caller ID App](https://www.scanmyshadow.com/blog/2026/09/truecaller-privacy-how-to-remove-your-name.html)
+
+## OSINT and public records
+- [OSINT India: The Complete Guide to What's Publicly Findable About You](https://www.scanmyshadow.com/blog/2026/09/osint-india-complete-guide.html)
+- [What Is OSINT, and How Can It Be Used to Find Information About Me?](https://www.scanmyshadow.com/blog/2026/08/what-is-osint-and-how-can-it-be-used-to.html)
+- [How Voter ID and Electoral Roll Listings Expose Your Address in India](https://www.scanmyshadow.com/blog/2026/09/voter-id-electoral-roll-exposes-your-address.html)
+- [PAN Card Misuse: How to Check and Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/pan-card-misuse-how-to-check-and-protect.html)
+
+## Hacked accounts and scam recovery
+- [Google Account Hacked? What to Do Now](https://www.scanmyshadow.com/blog/2026/09/google-account-hacked-what-to-do.html)
+- [Facebook Account Hacked? What to Do Now](https://www.scanmyshadow.com/blog/2026/09/facebook-account-hacked-what-to-do.html)
+- [Microsoft Account Hacked? What to Do Now](https://www.scanmyshadow.com/blog/2026/09/microsoft-account-hacked-what-to-do.html)
+- [Twitter/X Account Hacked? What to Do Now](https://www.scanmyshadow.com/blog/2026/09/twitter-x-account-hacked-what-to-do.html)
+- [I Just Got Scammed in the US — What Do I Do Right Now?](https://www.scanmyshadow.com/blog/2026/09/i-just-got-scammed-in-the-usa.html)
+- [Wire Fraud Recovery in the US: The 72-Hour Bank Recall Window](https://www.scanmyshadow.com/blog/2026/09/wire-fraud-recovery-us-72-hour-recall-window.html)
+- [Common Scams in India Right Now (2026): A Field Guide](https://www.scanmyshadow.com/blog/2026/09/common-scams-india-2026-field-guide.html)
+- [Common Scams Right Now (2026): An International Field Guide](https://www.scanmyshadow.com/blog/2026/09/common-scams-international-2026-field-guide.html)
+
+## Optional
+- [Blog index](https://www.scanmyshadow.com/blog/)
+- [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
+- [About](https://www.scanmyshadow.com/about.html)
+- [Contact](https://www.scanmyshadow.com/contact.html)
