@@ -945,10 +945,13 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .fr-grp-row span{min-width:0; overflow-wrap:anywhere;}
   .fr-grp-row em{font-style:normal; color:var(--ink-faint); flex-shrink:0;}
   @media(prefers-reduced-motion:no-preference){
-    .fr-in{opacity:0; animation:frUp .5s ease forwards; animation-delay:calc(var(--i,0)*.12s + .15s);}
-    .fr-bar i{transform-origin:left; animation:frFill 1s ease .25s both;}
-    .fr-tl:before{animation:frGrow 1.4s ease .3s both;}
-    .fr-tl-dot{animation:frPing 1s ease-out 1; animation-delay:calc(var(--i,0)*.12s + .4s);}
+    .fr-in{opacity:0;}
+    .fr-go .fr-in{animation:frUp .5s ease forwards; animation-delay:calc(var(--i,0)*.12s + .05s);}
+    .fr-bar i{transform:scaleX(0); transform-origin:left;}
+    .fr-go .fr-bar i{animation:frFill 1s ease .2s both;}
+    .fr-tl:before{transform:scaleY(0);}
+    .fr-go .fr-tl:before{animation:frGrow 1.4s ease .3s both;}
+    .fr-go .fr-tl-dot{animation:frPing 1s ease-out 1; animation-delay:calc(var(--i,0)*.12s + .3s);}
   }
   @keyframes frUp{from{opacity:0; transform:translateY(14px);}to{opacity:1; transform:none;}}
   @keyframes frFill{from{transform:scaleX(0);}to{transform:scaleX(1);}}
@@ -2039,7 +2042,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   }
 
-  function animateTo(showEl, hideEls){
+  function animateTo(showEl, hideEls, alignTop){
     var startH = box.offsetHeight;
     box.style.height = startH + 'px';
     hideEls.forEach(function(e){ e.style.display = 'none'; e.classList.remove('in'); });
@@ -2053,6 +2056,19 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     });
     setTimeout(function(){
       box.style.height = 'auto';
+      if(alignTop){
+        // result phase: bring the top of the card (the breach count) into view, then play the reveal
+        var nav = document.querySelector('header.nav');
+        var dy = box.getBoundingClientRect().top - (nav ? nav.offsetHeight : 0) - 16;
+        var moved = Math.abs(dy) > 8;
+        if(moved) window.scrollBy({top: dy, behavior:'smooth'});
+        setTimeout(function(){
+          var l = document.getElementById('freeBreachList');
+          if(l) l.classList.add('fr-go');
+          frCountUp();
+        }, moved ? 350 : 0);
+        return;
+      }
       var rect = box.getBoundingClientRect();
       if(rect.bottom > window.innerHeight){
         window.scrollBy({top: rect.bottom - window.innerHeight + 40, behavior:'smooth'});
@@ -2157,6 +2173,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     var topRow = document.querySelector('#freePhaseResult .free-result-top');
     if(topRow) topRow.style.display = 'none';
     document.getElementById('freeBreachCount').style.display = 'none';
+    list.classList.remove('fr-go');
     list.innerHTML = frBuild(email, data, breaches);
     var frBtns = list.querySelectorAll('.fr-grp');
     for(var gi2 = 0; gi2 < frBtns.length; gi2++){
@@ -2167,7 +2184,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
         this.classList.toggle('open', open);
       });
     }
-    setTimeout(frCountUp, 120);
+    setTimeout(function(){ list.classList.add('fr-go'); }, 4000); // safety net so results never stay hidden
     // prefill the existing (unmodified) paid-flow email field so the current scanBtn/captureLead logic works untouched
     var existingEmailInput = document.getElementById('emailInput');
     if(existingEmailInput) existingEmailInput.value = email;
@@ -2202,7 +2219,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       }
       renderResult(email, result.data);
       box.classList.add('wide');
-      animateTo(pRes, [pLoad, pIdle]);
+      animateTo(pRes, [pLoad, pIdle], true);
       if(typeof gtag === 'function'){
         gtag('event','free_breach_check_complete',{
           severity: (result.data && result.data.severity) || 'unknown',
