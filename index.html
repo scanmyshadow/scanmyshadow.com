@@ -901,6 +901,59 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .scan-box.wide{max-width:560px; transition:max-width .48s cubic-bezier(.4,0,.2,1);}
   .scan-box.wide .free-breach-list{display:grid; grid-template-columns:1fr 1fr; gap:8px;}
   @media(max-width:520px){ .scan-box.wide .free-breach-list{grid-template-columns:1fr;} }
+
+  /* ============ HIBP result — timeline layout ============ */
+  .fr-res{grid-column:1/-1; min-width:0; text-align:left;}
+  .fr-count{font-family:'Space Grotesk',sans-serif; font-size:34px; font-weight:600; color:var(--ink); line-height:1.1; letter-spacing:-.02em;}
+  .fr-sub{font-size:12.5px; color:var(--ink-faint); margin-top:4px;}
+  .fr-pill{display:inline-block; margin-top:12px; font-size:11px; font-weight:600; padding:5px 11px; border-radius:999px;}
+  .fr-pill.crit{color:#D64545; background:#FDF0F0;}
+  .fr-pill.note{color:#B4762F; background:#FDF3E9;}
+  .fr-pill.calm{color:#4E8A6E; background:#EAF4EE;}
+  .fr-bar{display:flex; height:5px; border-radius:999px; overflow:hidden; margin:18px 0 9px; background:var(--line);}
+  .fr-bar i{display:block; height:100%; width:100%;}
+  .fr-bar i.crit{background:#D64545;} .fr-bar i.note{background:#F0B183;} .fr-bar i.calm{background:#6FA98A;}
+  .fr-legend{display:flex; gap:13px; flex-wrap:wrap; font-size:10.5px; color:var(--ink-faint);}
+  .fr-legend span{display:flex; align-items:center; gap:5px;}
+  .fr-legend b{width:6px; height:6px; border-radius:50%; display:block;}
+  .fr-legend b.calm{background:#6FA98A;} .fr-legend b.note{background:#F0B183;} .fr-legend b.crit{background:#D64545;}
+  .fr-why{margin-top:14px; padding:14px 15px; background:#FDF0F0; border:1px solid #F6D9D9; border-radius:12px;}
+  .fr-why-t{font-family:'Space Grotesk',sans-serif; font-size:13.5px; font-weight:600; color:#D64545; margin-bottom:6px;}
+  .fr-why-p{font-size:12.5px; color:var(--ink-soft); line-height:1.6;}
+  .fr-tl{position:relative; margin:20px 0 8px; padding-left:28px;}
+  .fr-tl:before{content:""; position:absolute; left:7px; top:8px; bottom:10px; width:2px; background:#C9BDFC; transform-origin:top;}
+  .fr-tl-item{position:relative; padding-bottom:22px; min-width:0;}
+  .fr-tl-item:last-child{padding-bottom:4px;}
+  .fr-tl-dot{position:absolute; left:-28px; top:2px; width:16px; height:16px; border-radius:50%; background:#fff; border:3px solid var(--purple);}
+  .fr-tl-dot.crit{border-color:#D64545;}
+  .fr-tl-yr{font-size:12px; font-weight:600; color:var(--purple-deep); letter-spacing:.02em;}
+  .fr-tl-name{font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:600; color:var(--ink); line-height:1.25; margin-top:1px; overflow-wrap:anywhere;}
+  .fr-tl-sub{font-size:12.5px; color:var(--ink-faint); margin-top:3px; overflow-wrap:anywhere;}
+  .fr-chips{display:flex; flex-wrap:wrap; gap:5px; margin-top:9px;}
+  .fr-chip{font-size:11px; padding:3px 9px; border-radius:999px; background:#F5F3FB; color:var(--ink-soft);}
+  .fr-chip.crit{background:#FDF0F0; color:#D64545;}
+  .fr-grps{margin-top:6px;}
+  .fr-grps > div{margin-bottom:8px;}
+  .fr-grp{display:flex; align-items:center; gap:10px; width:100%; text-align:left; font:inherit; font-size:14px; color:var(--purple-deep); background:rgba(123,92,250,.08); border:0; border-radius:12px; padding:13px 14px; cursor:pointer;}
+  .fr-grp span{min-width:0;}
+  .fr-grp b{margin-left:auto; font-size:12px; font-weight:600; background:#fff; border-radius:999px; padding:1px 9px;}
+  .fr-grp-chev{width:16px; height:16px; flex-shrink:0; transition:transform .25s ease;}
+  .fr-grp.open .fr-grp-chev{transform:rotate(180deg);}
+  .fr-grp-list{padding:6px 4px 2px;}
+  .fr-grp-row{display:flex; justify-content:space-between; gap:12px; padding:8px 0; border-top:1px solid var(--line); font-size:13px; color:var(--ink-soft); line-height:1.4;}
+  .fr-grp-row:first-child{border-top:0;}
+  .fr-grp-row span{min-width:0; overflow-wrap:anywhere;}
+  .fr-grp-row em{font-style:normal; color:var(--ink-faint); flex-shrink:0;}
+  @media(prefers-reduced-motion:no-preference){
+    .fr-in{opacity:0; animation:frUp .5s ease forwards; animation-delay:calc(var(--i,0)*.12s + .15s);}
+    .fr-bar i{transform-origin:left; animation:frFill 1s ease .25s both;}
+    .fr-tl:before{animation:frGrow 1.4s ease .3s both;}
+    .fr-tl-dot{animation:frPing 1s ease-out 1; animation-delay:calc(var(--i,0)*.12s + .4s);}
+  }
+  @keyframes frUp{from{opacity:0; transform:translateY(14px);}to{opacity:1; transform:none;}}
+  @keyframes frFill{from{transform:scaleX(0);}to{transform:scaleX(1);}}
+  @keyframes frGrow{from{transform:scaleY(0);}to{transform:scaleY(1);}}
+  @keyframes frPing{0%{box-shadow:0 0 0 0 rgba(123,92,250,.5);}100%{box-shadow:0 0 0 9px rgba(123,92,250,0);}}
   .free-breach-row{display:flex; align-items:center; gap:11px; border:1px solid var(--line-soft); background:var(--bg-tint); border-radius:12px; padding:10px 12px;}
   .free-b-avatar{width:32px; height:32px; border-radius:9px; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk'; font-weight:700; font-size:13px; color:#fff; background:var(--purple-deep);}
   .free-b-body{flex:1; min-width:0;}
@@ -2013,6 +2066,78 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     return parts[0].slice(0,3) + '••••@' + parts[1];
   }
 
+    var frSENS = /password|phone|government|credit|card|bank|financial|passport|security question/i;
+    function frEsc(t){ var d=document.createElement('div'); d.textContent = t==null ? '' : String(t); return d.innerHTML; }
+    function frShort(n){
+      if(!n || isNaN(n)) return null;
+      try{ return new Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:1}).format(n); }catch(e){ return Number(n).toLocaleString('en-IN'); }
+    }
+    function frYear(d){ var m = String(d||'').match(/^(\d{4})/); return m ? m[1] : null; }
+    function frIsStealer(b){ return !!(b && (b.stealerLog || b.malware)); }
+    function frIsBrand(b){ return !!(b && b.domain && !b.stealerLog && !b.malware && !b.spamList); }
+    function frItem(b,i){
+      var y = frYear(b.date), a = frShort(b.accounts), sub = [];
+      if(b.domain) sub.push(b.domain);
+      if(a) sub.push(a + ' accounts');
+      var dc = (b.dataClasses||[]).slice();
+      dc.sort(function(p,q){ return (frSENS.test(q)?1:0) - (frSENS.test(p)?1:0); });
+      dc = dc.slice(0,4);
+      var h = '<div class="fr-tl-item fr-in" style="--i:'+(i+3)+'"><span class="fr-tl-dot'+(b.critical?' crit':'')+'"></span>';
+      if(y) h += '<div class="fr-tl-yr">'+frEsc(y)+'</div>';
+      h += '<div class="fr-tl-name">'+frEsc(b.name || b.domain || 'Unnamed breach')+'</div>';
+      if(sub.length) h += '<div class="fr-tl-sub">'+frEsc(sub.join(' \u00b7 '))+'</div>';
+      if(dc.length){
+        h += '<div class="fr-chips">';
+        dc.forEach(function(c){ h += '<span class="fr-chip'+(frSENS.test(c)?' crit':'')+'">'+frEsc(c)+'</span>'; });
+        h += '</div>';
+      }
+      return h + '</div>';
+    }
+    function frGroup(label, items, i){
+      var h = '<div class="fr-in" style="--i:'+i+'"><button type="button" class="fr-grp" aria-expanded="false"><span>'+frEsc(label)+'</span><b>'+items.length+'</b><svg class="fr-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="fr-grp-list" style="display:none;">';
+      items.slice(0,50).forEach(function(b){
+        var y = frYear(b.date);
+        h += '<div class="fr-grp-row"><span>'+frEsc(b.name || 'Unnamed breach')+'</span>'+(y?'<em>'+frEsc(y)+'</em>':'')+'</div>';
+      });
+      return h + '</div></div>';
+    }
+    function frCountUp(){
+      var el = document.querySelector('#freeBreachList .fr-num');
+      if(!el) return;
+      if(window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+      var t = parseInt(el.getAttribute('data-t'),10) || 0, s = null;
+      el.textContent = '0';
+      function f(ts){ if(!s) s = ts; var p = Math.min((ts-s)/900,1); el.textContent = Math.round(t*p); if(p<1) requestAnimationFrame(f); }
+      requestAnimationFrame(f);
+    }
+    function frBuild(email, data, breaches){
+      var sev = data.severity || 'clear', count = breaches.length;
+      var band = {clear:{k:'calm',t:'Nothing found'}, low:{k:'note',t:'Low exposure'}, moderate:{k:'note',t:'Some exposure'}, high:{k:'crit',t:'High exposure'}}[sev] || {k:'calm',t:'Nothing found'};
+      var critN = data.criticalCount || 0;
+      var h = '<div class="fr-res">';
+      h += '<div class="fr-in" style="--i:0"><div class="fr-count">' + (count===0 ? 'No breaches' : '<span class="fr-num" data-t="'+count+'">'+count+'</span> '+(count===1?'breach':'breaches')) + '</div>';
+      h += '<div class="fr-sub">' + (count===0 ? 'across known breach records' : frEsc(maskEmail(email))+' appears in known breach records') + '</div>';
+      h += '<span class="fr-pill '+band.k+'">'+band.t+'</span></div>';
+      h += '<div class="fr-bar"><i class="'+band.k+'"></i></div>';
+      h += '<div class="fr-legend fr-in" style="--i:1"><span><b class="calm"></b>Nothing found</span><span><b class="note"></b>Some exposure</span><span><b class="crit"></b>Passwords or ID data exposed</span></div>';
+      if(critN > 0){
+        h += '<div class="fr-why fr-in" style="--i:2"><div class="fr-why-t">Why this is marked high</div><div class="fr-why-p">'+critN+' of these '+(critN===1?'breach exposed':'breaches exposed')+' passwords or identity data, not just an email address. If you have reused that password anywhere, change it on those accounts first.</div></div>';
+      }
+      if(count > 0){
+        var top = breaches.filter(frIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,5);
+        top.sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
+        var steal = breaches.filter(frIsStealer);
+        var rest = breaches.filter(function(x){ return top.indexOf(x) < 0 && !frIsStealer(x); });
+        if(top.length){ h += '<div class="fr-tl">'; top.forEach(function(b,i){ h += frItem(b,i); }); h += '</div>'; }
+        var gi = top.length + 3;
+        if(steal.length || rest.length) h += '<div class="fr-grps">';
+        if(steal.length) h += frGroup('Infostealer malware logs', steal, gi++);
+        if(rest.length) h += frGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++);
+        if(steal.length || rest.length) h += '</div>';
+      }
+      return h + '</div>';
+    }
+
   function renderResult(email, data){
     var breaches = (data && data.breaches) || [];
     document.getElementById('freeResultEmail').textContent = maskEmail(email);
@@ -2029,27 +2154,20 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     badge.textContent = bMeta.text; badge.className = bMeta.cls;
     var list = document.getElementById('freeBreachList');
     list.innerHTML = '';
-    breaches.forEach(function(b){
-      var year = (b.date || '').slice(0,4);
-      var row = document.createElement('div');
-      row.className = 'free-breach-row';
-      if(b.critical) row.style.borderColor = 'var(--danger)';
-      row.innerHTML =
-        '<div class="free-b-avatar">' + (b.name ? b.name.charAt(0).toUpperCase() : '?') + '</div>' +
-        '<div class="free-b-body"><div class="free-b-name"></div><div class="free-b-meta"></div></div>';
-      row.querySelector('.free-b-name').textContent = b.name || 'Unknown source';
-      var flags = [];
-      if(b.stealerLog) flags.push('Stealer log');
-      if(b.malware) flags.push('Malware');
-      if(b.spamList) flags.push('Spam list');
-      if(b.unverified) flags.push('Unverified');
-      var metaBits = [];
-      if(year) metaBits.push(year);
-      if(b.accounts) metaBits.push(b.accounts.toLocaleString() + ' accounts');
-      if(flags.length) metaBits.push(flags.join(' · '));
-      row.querySelector('.free-b-meta').textContent = metaBits.join(' · ');
-      list.appendChild(row);
-    });
+    var topRow = document.querySelector('#freePhaseResult .free-result-top');
+    if(topRow) topRow.style.display = 'none';
+    document.getElementById('freeBreachCount').style.display = 'none';
+    list.innerHTML = frBuild(email, data, breaches);
+    var frBtns = list.querySelectorAll('.fr-grp');
+    for(var gi2 = 0; gi2 < frBtns.length; gi2++){
+      frBtns[gi2].addEventListener('click', function(){
+        var l = this.nextElementSibling, open = l.style.display === 'none';
+        l.style.display = open ? 'block' : 'none';
+        this.setAttribute('aria-expanded', open ? 'true' : 'false');
+        this.classList.toggle('open', open);
+      });
+    }
+    setTimeout(frCountUp, 120);
     // prefill the existing (unmodified) paid-flow email field so the current scanBtn/captureLead logic works untouched
     var existingEmailInput = document.getElementById('emailInput');
     if(existingEmailInput) existingEmailInput.value = email;
