@@ -258,6 +258,64 @@ h1 .accent{color:var(--purple);}
 .breach-tag.flag-critical{background:rgba(220,38,38,0.08);border-color:rgba(220,38,38,0.22);color:var(--danger);font-weight:600;}
 .breach-more{text-align:center;font-size:12px;color:var(--ink-faint);padding:10px 0 4px;}
 
+
+  /* ===== HIBP result — timeline layout ===== */
+  .breach-list.dx-on{max-height:none; overflow:visible;}
+  .dx-res{min-width:0; text-align:left; width:100%;}
+  .dx-count{font-family:'Space Grotesk',sans-serif; font-size:34px; font-weight:600; color:var(--ink); line-height:1.1; letter-spacing:-.02em;}
+  .dx-sub{font-size:12.5px; color:var(--ink-faint); margin-top:4px;}
+  .dx-pill{display:inline-block; margin-top:12px; font-size:11px; font-weight:600; padding:5px 11px; border-radius:999px;}
+  .dx-pill.crit{color:#D64545; background:#FDF0F0;}
+  .dx-pill.note{color:#B4762F; background:#FDF3E9;}
+  .dx-pill.calm{color:#4E8A6E; background:#EAF4EE;}
+  .dx-bar{display:flex; height:5px; border-radius:999px; overflow:hidden; margin:18px 0 9px; background:var(--line);}
+  .dx-bar i{display:block; height:100%; width:100%;}
+  .dx-bar i.crit{background:#D64545;} .dx-bar i.note{background:#F0B183;} .dx-bar i.calm{background:#6FA98A;}
+  .dx-legend{display:flex; gap:13px; flex-wrap:wrap; font-size:10.5px; color:var(--ink-faint);}
+  .dx-legend span{display:flex; align-items:center; gap:5px;}
+  .dx-legend b{width:6px; height:6px; border-radius:50%; display:block;}
+  .dx-legend b.calm{background:#6FA98A;} .dx-legend b.note{background:#F0B183;} .dx-legend b.crit{background:#D64545;}
+  .dx-why{margin-top:14px; padding:14px 15px; background:#FDF0F0; border:1px solid #F6D9D9; border-radius:12px;}
+  .dx-why-t{font-family:'Space Grotesk',sans-serif; font-size:13.5px; font-weight:600; color:#D64545; margin-bottom:6px;}
+  .dx-why-p{font-size:12.5px; color:var(--ink-soft); line-height:1.6;}
+  .dx-tl{position:relative; margin:20px 0 8px; padding-left:28px;}
+  .dx-tl:before{content:""; position:absolute; left:7px; top:8px; bottom:10px; width:2px; background:#C9BDFC; transform-origin:top;}
+  .dx-tl-item{position:relative; padding-bottom:22px; min-width:0;}
+  .dx-tl-item:last-child{padding-bottom:4px;}
+  .dx-tl-dot{position:absolute; left:-28px; top:2px; width:16px; height:16px; border-radius:50%; background:#fff; border:3px solid var(--purple);}
+  .dx-tl-dot.crit{border-color:#D64545;}
+  .dx-tl-yr{font-size:12px; font-weight:600; color:var(--purple-deep); letter-spacing:.02em;}
+  .dx-tl-name{font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:600; color:var(--ink); line-height:1.25; margin-top:1px; overflow-wrap:anywhere;}
+  .dx-tl-sub{font-size:12.5px; color:var(--ink-faint); margin-top:3px; overflow-wrap:anywhere;}
+  .dx-chips{display:flex; flex-wrap:wrap; gap:5px; margin-top:9px;}
+  .dx-chip{font-size:11px; padding:3px 9px; border-radius:999px; background:#F5F3FB; color:var(--ink-soft);}
+  .dx-chip.crit{background:#FDF0F0; color:#D64545;}
+  .dx-grps{margin-top:6px;}
+  .dx-grps > div{margin-bottom:8px;}
+  .dx-grp{display:flex; align-items:center; gap:10px; width:100%; text-align:left; font:inherit; font-size:14px; color:var(--purple-deep); background:rgba(123,92,250,.08); border:0; border-radius:12px; padding:13px 14px; cursor:pointer;}
+  .dx-grp span{min-width:0;}
+  .dx-grp b{margin-left:auto; font-size:12px; font-weight:600; background:#fff; border-radius:999px; padding:1px 9px;}
+  .dx-grp-chev{width:16px; height:16px; flex-shrink:0; transition:transform .25s ease;}
+  .dx-grp.open .dx-grp-chev{transform:rotate(180deg);}
+  .dx-grp-list{padding:6px 4px 2px;}
+  .dx-grp-row{display:flex; justify-content:space-between; gap:12px; padding:8px 0; border-top:1px solid var(--line); font-size:13px; color:var(--ink-soft); line-height:1.4;}
+  .dx-grp-row:first-child{border-top:0;}
+  .dx-grp-row span{min-width:0; overflow-wrap:anywhere;}
+  .dx-grp-row em{font-style:normal; color:var(--ink-faint); flex-shrink:0;}
+  @media(prefers-reduced-motion:no-preference){
+    .dx-in{opacity:0;}
+    .dx-go .dx-in{animation:dxUp .5s ease forwards; animation-delay:calc(var(--i,0)*.12s + .05s);}
+    .dx-bar i{transform:scaleX(0); transform-origin:left;}
+    .dx-go .dx-bar i{animation:dxFill 1s ease .2s both;}
+    .dx-tl:before{transform:scaleY(0);}
+    .dx-go .dx-tl:before{animation:dxGrow 1.4s ease .3s both;}
+    .dx-go .dx-tl-dot{animation:dxPing 1s ease-out 1; animation-delay:calc(var(--i,0)*.12s + .3s);}
+  }
+  @keyframes dxUp{from{opacity:0; transform:translateY(14px);}to{opacity:1; transform:none;}}
+  @keyframes dxFill{from{transform:scaleX(0);}to{transform:scaleX(1);}}
+  @keyframes dxGrow{from{transform:scaleY(0);}to{transform:scaleY(1);}}
+  @keyframes dxPing{0%{box-shadow:0 0 0 0 rgba(123,92,250,.5);}100%{box-shadow:0 0 0 9px rgba(123,92,250,0);}}
+
 .breach-actions{padding:22px 30px 30px;display:flex;flex-direction:column;gap:10px;}
 @media(max-width:480px){.breach-actions{padding:18px 20px 26px;}}
 .breach-continue{display:flex;align-items:center;justify-content:center;gap:8px;padding:15px;border:none;border-radius:13px;background:var(--purple);color:#fff;font-family:'Inter';font-size:14.5px;font-weight:600;cursor:pointer;box-shadow:0 8px 20px rgba(123,92,250,0.26);transition:background .2s ease,transform .15s ease;}
@@ -1023,6 +1081,78 @@ h1 .accent{color:var(--purple);}
     return String(n);
   }
 
+  var dxSENS = /password|phone|government|credit|card|bank|financial|passport|security question/i;
+  function dxEsc(t){ var d=document.createElement('div'); d.textContent = t==null ? '' : String(t); return d.innerHTML; }
+  function dxShort(n){
+    if(!n || isNaN(n)) return null;
+    try{ return new Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:1}).format(n); }catch(e){ return Number(n).toLocaleString('en-IN'); }
+  }
+  function dxYear(d){ var m = String(d||'').match(/^(\d{4})/); return m ? m[1] : null; }
+  function dxIsStealer(b){ return !!(b && (b.stealerLog || b.malware)); }
+  function dxIsBrand(b){ return !!(b && b.domain && !b.stealerLog && !b.malware && !b.spamList); }
+  function dxItem(b,i){
+    var y = dxYear(b.date), a = dxShort(b.accounts), sub = [];
+    if(b.domain) sub.push(b.domain);
+    if(a) sub.push(a + ' accounts');
+    var dc = (b.dataClasses||[]).slice();
+    dc.sort(function(p,q){ return (dxSENS.test(q)?1:0) - (dxSENS.test(p)?1:0); });
+    dc = dc.slice(0,4);
+    var h = '<div class="dx-tl-item dx-in" style="--i:'+(i+3)+'"><span class="dx-tl-dot'+(b.critical?' crit':'')+'"></span>';
+    if(y) h += '<div class="dx-tl-yr">'+dxEsc(y)+'</div>';
+    h += '<div class="dx-tl-name">'+dxEsc(b.name || b.domain || 'Unnamed breach')+'</div>';
+    if(sub.length) h += '<div class="dx-tl-sub">'+dxEsc(sub.join(' \u00b7 '))+'</div>';
+    if(dc.length){
+      h += '<div class="dx-chips">';
+      dc.forEach(function(c){ h += '<span class="dx-chip'+(dxSENS.test(c)?' crit':'')+'">'+dxEsc(c)+'</span>'; });
+      h += '</div>';
+    }
+    return h + '</div>';
+  }
+  function dxGroup(label, items, i){
+    var h = '<div class="dx-in" style="--i:'+i+'"><button type="button" class="dx-grp" aria-expanded="false"><span>'+dxEsc(label)+'</span><b>'+items.length+'</b><svg class="dx-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="dx-grp-list" style="display:none;">';
+    items.slice(0,50).forEach(function(b){
+      var y = dxYear(b.date);
+      h += '<div class="dx-grp-row"><span>'+dxEsc(b.name || 'Unnamed breach')+'</span>'+(y?'<em>'+dxEsc(y)+'</em>':'')+'</div>';
+    });
+    return h + '</div></div>';
+  }
+  function dxCountUp(){
+    var el = document.querySelector('#breachList .dx-num');
+    if(!el) return;
+    if(window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+    var t = parseInt(el.getAttribute('data-t'),10) || 0, s = null;
+    el.textContent = '0';
+    function f(ts){ if(!s) s = ts; var p = Math.min((ts-s)/900,1); el.textContent = Math.round(t*p); if(p<1) requestAnimationFrame(f); }
+    requestAnimationFrame(f);
+  }
+  function dxBuild(data, breaches){
+    var sev = data.severity || 'clear', count = breaches.length;
+    var band = {clear:{k:'calm',t:'Nothing found'}, low:{k:'note',t:'Low exposure'}, moderate:{k:'note',t:'Some exposure'}, high:{k:'crit',t:'High exposure'}}[sev] || {k:'calm',t:'Nothing found'};
+    var critN = data.criticalCount || 0;
+    var h = '<div class="dx-res">';
+    h += '<div class="dx-in" style="--i:0"><div class="dx-count">' + (count===0 ? 'No breaches' : '<span class="dx-num" data-t="'+count+'">'+count+'</span> '+(count===1?'breach':'breaches')) + '</div>';
+    h += '<div class="dx-sub">' + 'real, recorded breach data for your email, not an estimate' + '</div>';
+    h += '<span class="dx-pill '+band.k+'">'+band.t+'</span></div>';
+    h += '<div class="dx-bar"><i class="'+band.k+'"></i></div>';
+    h += '<div class="dx-legend dx-in" style="--i:1"><span><b class="calm"></b>Nothing found</span><span><b class="note"></b>Some exposure</span><span><b class="crit"></b>Passwords or ID data exposed</span></div>';
+    if(critN > 0){
+      h += '<div class="dx-why dx-in" style="--i:2"><div class="dx-why-t">Why this is marked high</div><div class="dx-why-p">'+critN+' of these '+(critN===1?'breach exposed':'breaches exposed')+' passwords or identity data, not just an email address. If you have reused that password anywhere, change it on those accounts first.</div></div>';
+    }
+    if(count > 0){
+      var top = breaches.filter(dxIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,5);
+      top.sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
+      var steal = breaches.filter(dxIsStealer);
+      var rest = breaches.filter(function(x){ return top.indexOf(x) < 0 && !dxIsStealer(x); });
+      if(top.length){ h += '<div class="dx-tl">'; top.forEach(function(b,i){ h += dxItem(b,i); }); h += '</div>'; }
+      var gi = top.length + 3;
+      if(steal.length || rest.length) h += '<div class="dx-grps">';
+      if(steal.length) h += dxGroup('Infostealer malware logs', steal, gi++);
+      if(rest.length) h += dxGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++);
+      if(steal.length || rest.length) h += '</div>';
+    }
+    return h + '</div>';
+  }
+
   function renderBreachResult(data){
     var count = data.count || (data.breaches ? data.breaches.length : 0);
     var severity = data.severity || (count === 0 ? 'clear' : 'moderate');
@@ -1050,46 +1180,26 @@ h1 .accent{color:var(--purple);}
       breachSub.innerHTML = 'This is real, recorded breach data for your email — <strong>not an estimate.</strong> Here\'s what turned up:';
     }
 
+    breachList.classList.remove('dx-on','dx-go');
+    document.querySelector('.breach-hero').style.display = 'block';
     breachList.innerHTML = '';
 
     if(data.breaches && data.breaches.length){
-      var shown = data.breaches.slice(0,8);
-
-      shown.forEach(function(b, idx){
-        var card = document.createElement('div');
-        card.className = 'breach-card';
-
-        var tags = '';
-        (b.dataClasses || []).slice(0,4).forEach(function(dc){
-          tags += '<span class="breach-tag">'+dc+'</span>';
+      // timeline layout (same as homepage + /digital-footprint-checker/)
+      document.querySelector('.breach-hero').style.display = 'none';
+      breachList.classList.add('dx-on');
+      breachList.innerHTML = dxBuild(data, data.breaches);
+      var dxBtns = breachList.querySelectorAll('.dx-grp');
+      for(var dg = 0; dg < dxBtns.length; dg++){
+        dxBtns[dg].addEventListener('click', function(){
+          var l = this.nextElementSibling, open = l.style.display === 'none';
+          l.style.display = open ? 'block' : 'none';
+          this.setAttribute('aria-expanded', open ? 'true' : 'false');
+          this.classList.toggle('open', open);
         });
-        if((b.dataClasses||[]).length > 4){
-          tags += '<span class="breach-tag">+'+((b.dataClasses.length)-4)+' more</span>';
-        }
-        if(b.stealerLog) tags += '<span class="breach-tag flag-critical">Stealer log</span>';
-        if(b.malware) tags += '<span class="breach-tag flag-critical">Malware</span>';
-        if(b.spamList) tags += '<span class="breach-tag">Spam list</span>';
-        if(b.unverified) tags += '<span class="breach-tag">Unverified</span>';
-
-        card.innerHTML =
-          '<div class="breach-card-top">' +
-            '<span class="breach-name">'+(b.name||b.domain||'Unknown source')+'</span>' +
-            '<span class="breach-date">'+fmtDate(b.date)+'</span>' +
-          '</div>' +
-          (b.accounts ? '<div class="breach-meta">'+fmtCount(b.accounts)+' accounts affected</div>' : '') +
-          '<div class="breach-tags">'+tags+'</div>';
-
-        breachList.appendChild(card);
-
-        setTimeout(function(){ card.classList.add('in'); }, 120 + idx*90);
-      });
-
-      if(data.breaches.length > 8){
-        var more = document.createElement('div');
-        more.className = 'breach-more';
-        more.textContent = '+ ' + (data.breaches.length - 8) + ' more breaches found';
-        breachList.appendChild(more);
       }
+      setTimeout(function(){ breachList.classList.add('dx-go'); dxCountUp(); }, 350);
+      setTimeout(function(){ breachList.classList.add('dx-go'); }, 4000); // safety net
 
       hibpAttrib.style.display = 'block';
     }else{
