@@ -2801,5 +2801,29 @@ if(e.key==='Enter'){e.preventDefault();run()}
 
 <script src="/assets/geo-price.js"></script>
 
+<!-- Hero email field — looping typewriter placeholder (same as homepage) -->
+<script>
+(function(){
+  var input = document.getElementById('lcEmail');
+  if(!input) return;
+  var sample = "you@example.com";
+  var pos = 0, deleting = false;
+  function tick(){
+    if(document.activeElement === input || input.value){ setTimeout(tick, 600); return; }
+    if(!deleting){
+      pos++;
+      input.placeholder = sample.slice(0, pos);
+      if(pos === sample.length){ deleting = true; setTimeout(tick, 1400); return; }
+    } else {
+      pos--;
+      input.placeholder = sample.slice(0, pos);
+      if(pos === 0){ deleting = false; setTimeout(tick, 500); return; }
+    }
+    setTimeout(tick, deleting ? 45 : 85);
+  }
+  setTimeout(tick, 600);
+})();
+</script>
+
 </body>
 </html>
