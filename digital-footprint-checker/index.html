@@ -471,7 +471,7 @@ top:120px;left:-180px
 position:relative;
 z-index:1;
 display:grid;
-grid-template-columns:1fr;
+grid-template-columns:minmax(0,1fr);
 gap:34px;
 align-items:start
 }
@@ -1327,6 +1327,50 @@ letter-spacing:.01em
 
 .lc-flag.crit{color:var(--crit);background:var(--crit-wash)}
 .lc-flag.mute{color:var(--ink-faint);background:var(--paper-warm)}
+
+/* RESULT — timeline layout */
+
+.lc-hd{padding-bottom:4px}
+.lc-hd .lc-count{font-size:34px}
+.lc-hd .lc-count-sub{margin-top:4px}
+.lc-hd .lc-pill{display:inline-block;margin:12px 0 0}
+
+.lc-tl{position:relative;margin:20px 0 8px;padding-left:28px}
+.lc-tl:before{content:"";position:absolute;left:7px;top:8px;bottom:10px;width:2px;background:var(--purple-soft);transform-origin:top}
+.lc-tl-item{position:relative;padding-bottom:22px;min-width:0}
+.lc-tl-item:last-child{padding-bottom:4px}
+.lc-tl-dot{position:absolute;left:-28px;top:2px;width:16px;height:16px;border-radius:50%;background:#fff;border:3px solid var(--purple)}
+.lc-tl-dot.crit{border-color:var(--crit)}
+.lc-tl-yr{font-size:12px;font-weight:600;color:var(--purple-deep);letter-spacing:.02em}
+.lc-tl-name{font-family:"Space Grotesk";font-size:20px;font-weight:600;color:var(--ink);line-height:1.25;margin-top:1px;overflow-wrap:anywhere}
+.lc-tl-sub{font-size:12.5px;color:var(--ink-faint);margin-top:3px;overflow-wrap:anywhere}
+.lc-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+.lc-chip{font-size:11px;padding:3px 9px;border-radius:999px;background:var(--paper-warm);color:var(--ink-soft)}
+.lc-chip.crit{background:var(--crit-wash);color:var(--crit)}
+
+.lc-grps{margin-top:6px}
+.lc-grps > div{margin-bottom:8px}
+.lc-grp{display:flex;align-items:center;gap:10px;width:100%;text-align:left;font:inherit;font-size:14px;color:var(--purple-deep);background:rgba(123,92,250,.08);border:0;border-radius:12px;padding:13px 14px;cursor:pointer}
+.lc-grp span{min-width:0}
+.lc-grp b{margin-left:auto;font-size:12px;font-weight:600;background:#fff;border-radius:999px;padding:1px 9px}
+.lc-grp-chev{width:16px;height:16px;flex-shrink:0;transition:transform .25s ease}
+.lc-grp.open .lc-grp-chev{transform:rotate(180deg)}
+.lc-grp-list{padding:6px 4px 2px}
+.lc-grp-row{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--line);font-size:13px;color:var(--ink-soft);line-height:1.4}
+.lc-grp-row:first-child{border-top:0}
+.lc-grp-row span{min-width:0;overflow-wrap:anywhere}
+.lc-grp-row em{font-style:normal;color:var(--ink-faint);flex-shrink:0}
+
+@media(prefers-reduced-motion:no-preference){
+.lc-in{opacity:0;animation:lcUp .5s ease forwards;animation-delay:calc(var(--i,0)*.12s + .15s)}
+.lc-bar i{transform-origin:left;animation:lcFill 1s ease .25s both}
+.lc-tl:before{animation:lcGrow 1.4s ease .3s both}
+.lc-tl-dot{animation:lcPing 1s ease-out 1;animation-delay:calc(var(--i,0)*.12s + .4s)}
+}
+@keyframes lcUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes lcFill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes lcGrow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes lcPing{0%{box-shadow:0 0 0 0 rgba(123,92,250,.5)}100%{box-shadow:0 0 0 9px rgba(123,92,250,0)}}
 
 
 /* REASSURE STRIP */
@@ -2667,6 +2711,64 @@ return{k:'calm',pill:'Nothing found',crit:0,note:0,calm:100};
 var ICON_CRIT='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 8v5"/><path d="M12 17h.01"/></svg>';
 var ICON_CALM='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
 
+function short(n){
+if(!n||isNaN(n))return null;
+try{return new Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:1}).format(n)}catch(e){return fmt(n)}
+}
+
+var SENS=/password|phone|government|credit|card|bank|financial|passport|security question/i;
+
+function isStealer(it){return !!(it&&(it.stealerLog||it.malware))}
+function isBrand(it){return !!(it&&it.domain&&!it.stealerLog&&!it.malware&&!it.spamList)}
+
+function tlItem(it,i){
+var y=yr(it.date);
+var a=short(it.accounts);
+var sub=[];
+if(it.domain)sub.push(it.domain);
+if(a)sub.push(a+' accounts');
+var dc=(it.dataClasses||[]).slice();
+dc.sort(function(p,q){return (SENS.test(q)?1:0)-(SENS.test(p)?1:0)});
+dc=dc.slice(0,4);
+var h='<div class="lc-tl-item lc-in" style="--i:'+(i+3)+'"><span class="lc-tl-dot'+(it.critical?' crit':'')+'"></span>';
+if(y)h+='<div class="lc-tl-yr">'+esc(y)+'</div>';
+h+='<div class="lc-tl-name">'+esc(it.name||it.domain||'Unnamed breach')+'</div>';
+if(sub.length)h+='<div class="lc-tl-sub">'+esc(sub.join(' \u00b7 '))+'</div>';
+if(dc.length){
+h+='<div class="lc-chips">';
+for(var k=0;k<dc.length;k++)h+='<span class="lc-chip'+(SENS.test(dc[k])?' crit':'')+'">'+esc(dc[k])+'</span>';
+h+='</div>';
+}
+h+='</div>';
+return h;
+}
+
+function grp(label,items,i){
+var h='<div class="lc-in" style="--i:'+i+'"><button type="button" class="lc-grp" aria-expanded="false"><span>'+esc(label)+'</span><b>'+items.length+'</b><svg class="lc-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="lc-grp-list" hidden>';
+var s=items.slice(0,50);
+for(var k=0;k<s.length;k++){
+var y=yr(s[k].date);
+h+='<div class="lc-grp-row"><span>'+esc(s[k].name||'Unnamed breach')+'</span>'+(y?'<em>'+esc(y)+'</em>':'')+'</div>';
+}
+h+='</div></div>';
+return h;
+}
+
+function countUp(){
+var el=result.querySelector('.lc-num');
+if(!el)return;
+if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+var t=parseInt(el.getAttribute('data-t'),10)||0,s=null;
+el.textContent='0';
+function f(ts){
+if(!s)s=ts;
+var p=Math.min((ts-s)/900,1);
+el.textContent=Math.round(t*p);
+if(p<1)requestAnimationFrame(f);
+}
+requestAnimationFrame(f);
+}
+
 function render(d){
 var list=(d&&d.breaches)||[];
 var count=(d&&typeof d.count==='number')?d.count:list.length;
@@ -2675,12 +2777,9 @@ var critN=(d&&d.criticalCount)||0;
 var b=band(sev,count);
 var h='';
 
-h+='<div class="lc-res-head">';
-h+='<span class="lc-seal '+b.k+'">'+(count===0?ICON_CALM:ICON_CRIT)+'</span>';
-h+='<div>';
-h+='<div class="lc-count">'+(count===0?'No breaches':count+(count===1?' breach':' breaches'))+'</div>';
+h+='<div class="lc-hd lc-in" style="--i:0">';
+h+='<div class="lc-count">'+(count===0?'No breaches':'<span class="lc-num" data-t="'+count+'">'+count+'</span> '+(count===1?'breach':'breaches'))+'</div>';
 h+='<div class="lc-count-sub">'+(count===0?'across known breach records':'your email appears in known breach records')+'</div>';
-h+='</div>';
 h+='<span class="lc-pill '+b.k+'">'+b.pill+'</span>';
 h+='</div>';
 
@@ -2690,46 +2789,37 @@ if(b.note)h+='<i class="note" style="width:'+b.note+'%"></i>';
 if(b.calm)h+='<i class="calm" style="width:'+b.calm+'%"></i>';
 h+='</div>';
 
-h+='<div class="lc-legend">';
+h+='<div class="lc-legend lc-in" style="--i:1">';
 h+='<span><b class="calm"></b>Nothing found</span>';
 h+='<span><b class="note"></b>Some exposure</span>';
 h+='<span><b class="crit"></b>Passwords or ID data exposed</span>';
 h+='</div>';
 
 if(critN>0){
-h+='<div class="lc-gap" style="margin-top:16px;background:var(--crit-wash);border-color:var(--crit-line)">';
+h+='<div class="lc-gap lc-in" style="--i:2;margin-top:16px;background:var(--crit-wash);border-color:var(--crit-line)">';
 h+='<div class="lc-gap-t" style="color:var(--crit)">Why this is marked high</div>';
 h+='<div class="lc-gap-p">'+critN+' of these '+(critN===1?'breach exposed':'breaches exposed')+' passwords or identity data, not just an email address. If you have reused that password anywhere, change it on those accounts first.</div>';
 h+='</div>';
 }
 
 if(count>0){
-h+='<div class="lc-list">';
-var show=list.slice(0,4);
-for(var i=0;i<show.length;i++){
-var it=show[i]||{};
-var y=yr(it.date);
-var a=fmt(it.accounts);
-var cls=it.critical?'crit':'note';
-var meta=[];
-if(y)meta.push('Breached '+y);
-if(a)meta.push(a+' accounts exposed');
-if(it.dataClasses&&it.dataClasses.length)meta.push(it.dataClasses.slice(0,3).join(', '));
-var flag='';
-if(it.stealerLog)flag='<span class="lc-flag crit">Stealer log</span>';
-else if(it.malware)flag='<span class="lc-flag crit">Malware</span>';
-else if(it.spamList)flag='<span class="lc-flag mute">Spam list</span>';
-else if(it.unverified)flag='<span class="lc-flag mute">Unverified</span>';
-h+='<div class="lc-item">';
-h+='<span class="lc-dot '+cls+'">'+ICON_CRIT+'</span>';
-h+='<div><div class="nm">'+esc(it.name||'Unnamed breach')+flag+'</div>';
-if(meta.length)h+='<div class="mt">'+esc(meta.join(' \u00b7 '))+'</div>';
-h+='</div></div>';
-}
+var brands=list.filter(isBrand);
+var top=brands.slice().sort(function(p,q){return (q.critical?1:0)-(p.critical?1:0)||(q.accounts||0)-(p.accounts||0)}).slice(0,5);
+top.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
+var steal=list.filter(isStealer);
+var rest=list.filter(function(x){return top.indexOf(x)<0&&!isStealer(x)});
+
+if(top.length){
+h+='<div class="lc-tl">';
+for(var i=0;i<top.length;i++)h+=tlItem(top[i]||{},i);
 h+='</div>';
-if(list.length>show.length){
-h+='<div class="lc-more">'+(list.length-show.length)+' more '+((list.length-show.length)===1?'breach':'breaches')+' found on this email.</div>';
 }
+
+var gi=top.length+3;
+if(steal.length||rest.length)h+='<div class="lc-grps">';
+if(steal.length)h+=grp('Infostealer malware logs',steal,gi++);
+if(rest.length)h+=grp(top.length?'Other breaches':'Breaches found',rest,gi++);
+if(steal.length||rest.length)h+='</div>';
 }
 
 h+='<div class="lc-gap">';
@@ -2743,6 +2833,17 @@ h+='<button type="button" class="lc-again" id="lcAgain">Check a different email<
 h+='<div class="lc-attrib">Breach data supplied by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>, used under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 licence</a>. Your email was not stored or logged.</div>';
 
 result.innerHTML=h;
+
+var gs=result.querySelectorAll('.lc-grp');
+for(var g=0;g<gs.length;g++){
+gs[g].addEventListener('click',function(){
+var l=this.nextElementSibling;
+var open=l.hidden;
+l.hidden=!open;
+this.setAttribute('aria-expanded',open?'true':'false');
+this.classList.toggle('open',open);
+});
+}
 
 var again=document.getElementById('lcAgain');
 if(again){
@@ -2780,6 +2881,7 @@ return r.json();
 }).then(function(d){
 render(d||{});
 swap(loading,result);
+setTimeout(countUp,265);
 btn.disabled=false;
 }).catch(function(e){
 swap(loading,idle);
