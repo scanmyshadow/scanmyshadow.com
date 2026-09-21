@@ -1,6 +1,6 @@
 # Scan My Shadow
 
-> Scan My Shadow is a digital privacy service. For a one-time fee (₹498 in India, $9.99 elsewhere) it scans a phone number and email address against 1,500+ breach and public-data sources and delivers a report of what is exposed. The site also offers free breach and exposure checks and publishes plain-English guides on digital footprints, data breaches, hacked accounts and scams, with a focus on India.
+> Scan My Shadow is a digital privacy service. For a one-time fee ($9.99, or ₹498 in India) it scans a phone number and email address against 1,500+ breach and public-data sources and delivers a report of what is exposed. The site also offers free breach and exposure checks and publishes plain-English guides on digital footprints, data breaches, hacked accounts and scams, with a focus on India.
 
 Site: https://www.scanmyshadow.com/
 
