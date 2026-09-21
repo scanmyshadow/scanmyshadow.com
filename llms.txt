@@ -103,6 +103,23 @@ Site: https://www.scanmyshadow.com/
 - [Strong Password Examples and Ideas That Are Hard to Crack](https://www.scanmyshadow.com/blog/2026/09/strong-password-examples-and-ideas.html)
 - [Delete Your Personal Information From the Internet (2026)](https://www.scanmyshadow.com/blog/2026/09/delete-your-personal-information-from-the-internet.html)
 
+## New guides (added Sep 21, 2026)
+- [Credit Card Fraud in India: What to Do and Your RBI Rights](https://www.scanmyshadow.com/blog/2026/09/credit-card-fraud-india-rbi-zero-liability.html)
+- [Electricity Bill Disconnection Scam in India: How It Works](https://www.scanmyshadow.com/blog/2026/09/fake-electricity-bill-disconnection-scam-india.html)
+- [Call Forwarding Scam (*401#): How to Check and Cancel It](https://www.scanmyshadow.com/blog/2026/09/call-forwarding-scam-401-ussd-how-to-check-and-cancel.html)
+- [Fake Insurance Bonus Calls and Mutual Fund Fraud in India](https://www.scanmyshadow.com/blog/2026/09/fake-insurance-bonus-calls-mutual-fund-fraud-india.html)
+- [KBC Lottery WhatsApp Scam: Why the ₹25 Lakh Prize Is Fake](https://www.scanmyshadow.com/blog/2026/09/kbc-lottery-whatsapp-scam-india.html)
+- [Is My Phone Hacked or Tapped? Stalkerware Signs and Fixes](https://www.scanmyshadow.com/blog/2026/09/is-my-phone-hacked-tapped-stalkerware-signs.html)
+- [Kids' Gaming Scams: Free Robux, V-Bucks and Diamond Traps](https://www.scanmyshadow.com/blog/2026/09/kids-gaming-scams-robux-v-bucks-free-fire-parents.html)
+- [Fake Customer Care Numbers on Google: How the Scam Works](https://www.scanmyshadow.com/blog/2026/09/fake-customer-care-number-google-search-scam.html)
+- [USPS Package Text Scam: How to Spot It and What to Do](https://www.scanmyshadow.com/blog/2026/09/usps-package-text-scam-smishing-what-to-do.html)
+- [Zelle, Cash App and Venmo Scams: Can You Get Money Back?](https://www.scanmyshadow.com/blog/2026/09/zelle-cash-app-venmo-scams-can-you-get-money-back.html)
+- [Medicare Card Scam Calls: What Medicare Will Never Ask](https://www.scanmyshadow.com/blog/2026/09/medicare-card-scam-calls-what-to-do.html)
+- [HMRC, ATO and myGov Scam Texts: How to Spot and Report](https://www.scanmyshadow.com/blog/2026/09/hmrc-ato-mygov-tax-scam-texts-emails.html)
+- [Rental Listing Scams: How to Spot a Fake Apartment Ad](https://www.scanmyshadow.com/blog/2026/09/rental-listing-scams-fake-apartment-ads.html)
+- [Student Loan Forgiveness Scams: Red Flags and Free Help](https://www.scanmyshadow.com/blog/2026/09/student-loan-forgiveness-scams-how-to-avoid.html)
+- [What Is Doxxing? What to Do If Your Info Is Posted Online](https://www.scanmyshadow.com/blog/2026/09/what-is-doxxing-what-to-do-if-your-info-is-posted.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
