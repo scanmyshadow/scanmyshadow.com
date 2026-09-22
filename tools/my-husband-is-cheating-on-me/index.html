@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+(function(){
+  try{
+    var t = localStorage.getItem('sms-theme');
+    if(!t){ t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    document.documentElement.setAttribute('data-theme', t);
+  }catch(e){}
+})();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -33,6 +42,7 @@ gtag('js',new Date());gtag('config','G-S4P3YTNEDY');gtag('config','AW-1818845558
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.scanmyshadow.com/assets/theme.css">
 
 <script type="application/ld+json">
 {
@@ -102,6 +112,8 @@ a{color:inherit;}
 /* ===== HEADER (unchanged, matches site-wide nav) ===== */
 header.nav{position:sticky; top:0; z-index:80; background:rgba(255,255,255,0.72); backdrop-filter:saturate(180%) blur(14px); border-bottom:1px solid transparent; transition:border-color .25s ease, background .25s ease;}
 header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);}
+html[data-theme="dark"] header.nav{background:rgba(15,13,23,0.72);}
+html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 .nav-inner{display:flex; justify-content:space-between; align-items:center; height:66px; max-width:1080px; margin:0 auto; padding:0 24px;}
 .logo{font-family:'Space Grotesk'; font-weight:700; font-size:17px; letter-spacing:-0.01em; display:flex; align-items:center; gap:9px; text-decoration:none; color:var(--ink);}
 .logo-img{height:33px; width:auto; display:block;}
@@ -120,7 +132,7 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
 .tools-trigger svg{width:14px;height:14px;transition:transform .2s ease;}
 .tools-trigger.open svg{transform:rotate(180deg);}
 .tools-dropdown{position:absolute;top:calc(100% + 16px);left:50%;transform:translateX(-50%) translateY(-6px);opacity:0;pointer-events:none;
-  background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow-lg);padding:14px;width:520px;transition:opacity .18s ease, transform .18s ease;z-index:90;}
+  background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow-lg);padding:14px;width:520px;transition:opacity .18s ease, transform .18s ease;z-index:90;}
 .tools-dropdown.open{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0);}
 .tools-dropdown-head{font-size:11.5px;font-weight:600;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.07em;padding:4px 8px 10px;}
 .tools-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;}
@@ -138,6 +150,7 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
   .nav-inner{justify-content:flex-start;gap:10px;padding:0 16px;}
   .nav-menu-links{display:none;}
   .nav-toggle{display:flex;order:-1;margin-left:0;}
+  .nav-mobile-controls{display:none;}
   .logo{order:0;min-width:0;}
   .nav-pill{order:1;margin-left:auto;flex-shrink:1;min-width:0;padding:8px 14px;font-size:12.5px;}
   .nav-pill .cta-full{display:none;}
@@ -148,7 +161,7 @@ header.nav.scrolled{border-color:var(--line); background:rgba(255,255,255,0.86);
   .nav-pill{padding:7px 12px;font-size:11.5px;}
 }
 @media(max-width:900px){
-  .mobile-menu{display:none;flex-direction:column;gap:2px;padding:10px 20px 22px;border-top:1px solid var(--line);background:#fff;}
+  .mobile-menu{display:none;flex-direction:column;gap:2px;padding:10px 20px 22px;border-top:1px solid var(--line);background:var(--card);}
   .mobile-menu.open{display:flex;}
   .mobile-menu a{padding:12px 4px;font-size:14.5px;font-weight:500;color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--line-soft);}
   .mobile-tools-toggle{display:flex;align-items:center;justify-content:space-between;background:none;border:none;font-family:'Inter';font-size:14.5px;font-weight:500;color:var(--ink-soft);padding:12px 4px;border-bottom:1px solid var(--line-soft);cursor:pointer;}
@@ -174,13 +187,13 @@ h1 .accent{color:var(--purple);}
 
 /* ===== METHOD OVERVIEW ===== */
 .score-overview{background:var(--bg-tint);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin-bottom:24px;display:flex;gap:14px;align-items:flex-start;}
-.score-overview .ov-ic{width:36px;height:36px;border-radius:10px;background:#fff;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.score-overview .ov-ic{width:36px;height:36px;border-radius:10px;background:var(--card);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
 .score-overview .ov-ic svg{width:18px;height:18px;color:var(--purple);}
 .score-overview p{font-size:13.5px;color:var(--ink-soft);line-height:1.65;}
 .score-overview strong{color:var(--ink);font-weight:600;}
 
 /* ===== SHARED CARD SHELL ===== */
-.tool-card-shell{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden;}
+.tool-card-shell{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden;}
 @media(max-width:480px){.tool-card-shell{border-radius:18px;}}
 
 /* ===== PHASE: GATE (email capture) ===== */
@@ -194,7 +207,7 @@ h1 .accent{color:var(--purple);}
 .gate-input-row{display:flex;gap:8px;}
 .gate-input{flex:1;min-width:0;padding:15px 17px;border:1.5px solid var(--line);border-radius:13px;font-family:'Inter';font-size:15px;color:var(--ink);background:var(--bg-tint);transition:border-color .18s ease,background .18s ease;}
 .gate-input::placeholder{color:var(--ink-faint);}
-.gate-input:focus{outline:none;border-color:var(--purple);background:#fff;}
+.gate-input:focus{outline:none;border-color:var(--purple);background:var(--card);}
 .gate-input.err{border-color:var(--danger);}
 .gate-submit{display:flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;padding:15px 22px;border:none;border-radius:13px;background:var(--purple);color:#fff;font-family:'Inter';font-size:14.5px;font-weight:600;cursor:pointer;box-shadow:0 8px 20px rgba(123,92,250,0.26);transition:background .2s ease,transform .15s ease,box-shadow .2s ease;}
 .gate-submit:hover{background:var(--purple-deep);transform:translateY(-1px);box-shadow:0 10px 24px rgba(123,92,250,.34);}
@@ -244,7 +257,7 @@ h1 .accent{color:var(--purple);}
 .breach-date{font-size:11.5px;color:var(--ink-faint);white-space:nowrap;}
 .breach-meta{font-size:12px;color:var(--ink-soft);margin-bottom:9px;}
 .breach-tags{display:flex;flex-wrap:wrap;gap:6px;}
-.breach-tag{font-size:11px;padding:3px 9px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink-soft);}
+.breach-tag{font-size:11px;padding:3px 9px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--ink-soft);}
 .breach-tag.flag-critical{background:rgba(220,38,38,0.08);border-color:rgba(220,38,38,0.22);color:var(--danger);font-weight:600;}
 .breach-more{text-align:center;font-size:12px;color:var(--ink-faint);padding:10px 0 4px;}
 
@@ -320,7 +333,7 @@ h1 .accent{color:var(--purple);}
 .risk-veryhigh{color:var(--danger);background:rgba(220,38,38,0.1);}
 .result-summary{font-size:15px;color:var(--ink-soft);line-height:1.6;max-width:480px;margin:0 auto 24px;}
 
-.breach-recap{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px;text-align:left;margin-bottom:20px;display:flex;align-items:flex-start;gap:12px;}
+.breach-recap{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;text-align:left;margin-bottom:20px;display:flex;align-items:flex-start;gap:12px;}
 .breach-recap svg{width:20px;height:20px;flex-shrink:0;margin-top:1px;}
 .breach-recap p{font-size:13px;color:var(--ink-soft);line-height:1.55;}
 .breach-recap strong{color:var(--ink);}
@@ -345,7 +358,7 @@ h1 .accent{color:var(--purple);}
 .disclaimer{font-size:12px;color:var(--ink-faint);line-height:1.55;margin-bottom:28px;padding:0 8px;}
 
 .share-strip{display:flex;gap:10px;justify-content:center;margin-bottom:28px;flex-wrap:wrap;}
-.share-btn{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:#fff;font-family:'Inter';font-size:13px;font-weight:500;color:var(--ink-soft);cursor:pointer;transition:all .2s ease;}
+.share-btn{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-family:'Inter';font-size:13px;font-weight:500;color:var(--ink-soft);cursor:pointer;transition:all .2s ease;}
 .share-btn:hover{border-color:var(--purple);color:var(--purple);transform:translateY(-1px);}
 .share-btn svg{width:16px;height:16px;}
 .share-btn.copied{border-color:var(--ok);color:var(--ok);}
@@ -432,6 +445,7 @@ h1 .accent{color:var(--purple);}
 
     <a href="https://www.scanmyshadow.com" class="logo">
       <img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow">
+      <img src="https://www.scanmyshadow.com/logo-dark.png" class="logo-img logo-dark-img" alt="Scan My Shadow">
     </a>
 
     <div class="nav-menu-links">
@@ -498,6 +512,13 @@ h1 .accent{color:var(--purple);}
       <span class="cta-short">Scan &middot; <span class="price-tag">$9.99</span></span>
     </a>
 
+    <div class="nav-mobile-controls">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+    </div>
+
     <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
 
   </div>
@@ -524,6 +545,13 @@ h1 .accent{color:var(--purple);}
 
     <a href="https://www.scanmyshadow.com/blog/" rel="noopener">Blog</a>
     <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
+    <button class="theme-toggle mobile-theme-row" id="themeToggleMobile" aria-label="Toggle dark mode">
+      <span class="mtr-icon">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </span>
+      Dark mode
+    </button>
   </div>
 </header>
 
@@ -956,6 +984,7 @@ h1 .accent{color:var(--purple);}
 
 
 <script src="/assets/geo-price.js"></script>
+<script src="https://www.scanmyshadow.com/assets/theme.js"></script>
 
 
 <script>
