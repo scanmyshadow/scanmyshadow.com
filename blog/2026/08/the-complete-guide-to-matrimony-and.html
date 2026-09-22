@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+(function(){
+  try{
+    var t = localStorage.getItem('sms-theme');
+    if(!t){ t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    document.documentElement.setAttribute('data-theme', t);
+  }catch(e){}
+})();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Complete Guide to Matrimony and Dating | Scan My Shadow</title>
@@ -27,6 +36,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.scanmyshadow.com/assets/theme.css">
 <style>
   :root{
     --accent:#7B5CFA;
@@ -36,6 +46,25 @@
     --line:#ececf3;
     --bg:#ffffff;
     --bg-soft:#f8f7fc;
+    --card:#FBFAFF;
+    --purple:#7B5CFA;
+    --purple-deep:#5A3FE0;
+    --purple-mist:#F1EEFE;
+    --ink-soft:#403B4D;
+  }
+  html[data-theme="dark"]{
+    --accent:#8B6FFF;
+    --accent-dark:#B39DFF;
+    --ink:#F5F3FA;
+    --sub:#B8B4CC;
+    --line:#2A2438;
+    --bg:#0F0D17;
+    --bg-soft:#17131F;
+    --card:#1B1726;
+    --purple:#8B6FFF;
+    --purple-deep:#B39DFF;
+    --purple-mist:#241E38;
+    --ink-soft:#B8B4CC;
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   body{
@@ -279,10 +308,17 @@
 
 <header class="site-header">
   <a class="logo" href="https://www.scanmyshadow.com/">
-    <img src="https://www.scanmyshadow.com/logo.png" alt="Scan My Shadow">
+    <img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow">
+    <img src="https://www.scanmyshadow.com/logo-dark.png" class="logo-img logo-dark-img" alt="Scan My Shadow">
     Scan My Shadow
   </a>
-  <a class="cta-pill" href="https://www.scanmyshadow.com/#pricing">Scan · <span class="price-tag">$9.99</span></a>
+  <div class="nav-cta-group">
+    <a class="cta-pill" href="https://www.scanmyshadow.com/#pricing">Scan · <span class="price-tag">$9.99</span></a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+    </button>
+  </div>
 </header>
 
 <nav class="breadcrumb">
@@ -525,9 +561,10 @@
 </main>
 
 <footer class="site-footer">
-  Scan My Shadow · <a href="https://www.scanmyshadow.com/blog/">More articles</a>
+  Scan My Shadow &middot; All Rights Reserved &middot; <a href="https://www.scanmyshadow.com/blog/">More Articles</a>
 </footer>
 
 <script src="/assets/geo-price.js"></script>
+<script src="https://www.scanmyshadow.com/assets/theme.js"></script>
 </body>
 </html>
