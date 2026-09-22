@@ -49,6 +49,7 @@ html[data-theme="dark"] .logo-dark-img{display:block;}
    in dark mode. Pin it to the dedicated always-dark surface instead. ============ */
 .price-card{background:var(--surface-dark) !important;}
 .safety{background:var(--surface-dark) !important;}
+.cta-card{background:var(--surface-dark) !important;}
 
 /* ============ Theme toggle button (header, circular) ============ */
 .nav-mobile-controls{display:flex; align-items:center;}
