@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+(function(){
+  try{
+    var t = localStorage.getItem('sms-theme');
+    if(!t){ t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    document.documentElement.setAttribute('data-theme', t);
+  }catch(e){}
+})();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Can My Old Username Still Reveal Who I Am? | Scan My Shadow</title>
@@ -114,6 +123,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.scanmyshadow.com/assets/theme.css">
 
 <style>
   :root{
@@ -152,7 +162,8 @@
     .nav-toggle{display:flex;}
     .nav-links{display:none;}
     .nav-inner{display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:8px; padding:0 16px;}
-    .nav-toggle{margin-left:0; flex-shrink:0; order:1;}
+    .nav-mobile-controls{order:1;}
+    .nav-toggle{margin-left:0; flex-shrink:0;}
     .logo{margin:0; min-width:0; justify-content:flex-start; overflow:visible; order:2;}
     .logo-img{height:26px; max-width:100%; width:auto; flex-shrink:1;}
     .nav-pill{flex-shrink:0; font-size:13.75px; padding:10px 17px; white-space:nowrap; order:3;}
@@ -250,6 +261,7 @@
   <div class="nav-inner">
     <a href="/" class="logo">
       <img src="/logo.png" class="logo-img" alt="Scan My Shadow">
+      <img src="/logo-dark.png" class="logo-img logo-dark-img" alt="Scan My Shadow">
     </a>
     <div class="nav-links">
       <a class="nav-link" href="/#how">How it works</a>
@@ -261,9 +273,15 @@
       <a class="nav-link" href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
     </div>
     <a class="nav-pill" href="/#pricing"><span class="cta-full">Start scan &middot; <span class="price-tag">$9.99</span></span><span class="cta-short">Scan &middot; <span class="price-tag">$9.99</span></span></a>
-    <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="nav-mobile-controls">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
   <div class="mobile-menu" id="mobileMenu">
     <a href="/#how">How it works</a>
@@ -273,6 +291,13 @@
     <a href="/tools/">Tools</a>
     <a href="/blog/">Blog</a>
     <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
+    <button class="theme-toggle mobile-theme-row" id="themeToggleMobile" aria-label="Toggle dark mode">
+      <span class="mtr-icon">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </span>
+      Dark mode
+    </button>
   </div>
 </header>
 
@@ -385,12 +410,12 @@
 
 <footer>
   <div class="wrap">
-    <a href="/blog/">More articles</a>
-    <div class="copyright">&copy; 2026 Scan My Shadow &middot; All rights Reserved</div>
+    Scan My Shadow &middot; All Rights Reserved &middot; <a href="/blog/">More Articles</a>
   </div>
 </footer>
 
 <script src="/assets/geo-price.js"></script>
+<script src="https://www.scanmyshadow.com/assets/theme.js"></script>
 
 <script>
   var navToggle = document.getElementById('navToggle');
