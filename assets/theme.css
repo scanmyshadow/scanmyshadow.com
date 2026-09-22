@@ -40,7 +40,7 @@ body{transition:background-color .25s ease, color .25s ease;}
 /* ============ NAV background + logo swap ============ */
 header.nav{background:var(--nav-bg) !important;}
 header.nav.scrolled{background:var(--nav-bg-scrolled) !important;}
-.logo-dark-img{display:none;}
+img.logo-dark-img{display:none;}
 html[data-theme="dark"] img.logo-img:not(.logo-dark-img){display:none;}
 html[data-theme="dark"] .logo-dark-img{display:block;}
 
