@@ -1,0 +1,87 @@
+/* Scan My Shadow — shared dark-mode theme
+   Assumes the page's own <style> block already defines the standard
+   brand :root vars (--bg, --ink, --purple, --card, --line, etc).
+   This file adds the 5 new tokens + full dark palette + nav/toggle/logo UI. */
+
+:root{
+  --surface-dark:#15121F;
+  --nav-bg:rgba(255,255,255,0.72);
+  --nav-bg-scrolled:rgba(255,255,255,0.86);
+  --menu-bg:rgba(255,255,255,0.98);
+  --card-inset:rgba(255,255,255,0.9);
+}
+html[data-theme="dark"]{
+  --bg:#0F0D17;
+  --bg-tint:#17131F;
+  --ink:#F5F3FA;
+  --ink-soft:#B8B4CC;
+  --ink-faint:#8B87A3;
+  --purple:#8B6FFF;
+  --purple-deep:#B39DFF;
+  --purple-mist:#241E38;
+  --line:#2A2438;
+  --line-soft:#221D33;
+  --card:#1B1726;
+  --ok:#22C55E;
+  --warn:#F59E0B;
+  --danger:#EF4444;
+  --shadow-sm:0 2px 8px rgba(0,0,0,0.35);
+  --shadow-md:0 14px 40px rgba(0,0,0,0.45);
+  --shadow-lg:0 30px 80px rgba(0,0,0,0.55);
+  --surface-dark:#241E38;
+  --nav-bg:rgba(15,13,23,0.72);
+  --nav-bg-scrolled:rgba(15,13,23,0.88);
+  --menu-bg:rgba(23,19,31,0.98);
+  --card-inset:rgba(255,255,255,0.05);
+}
+html{transition:background-color .25s ease;}
+body{transition:background-color .25s ease, color .25s ease;}
+
+/* ============ NAV background + logo swap ============ */
+header.nav{background:var(--nav-bg) !important;}
+header.nav.scrolled{background:var(--nav-bg-scrolled) !important;}
+.logo-dark-img{display:none;}
+html[data-theme="dark"] img.logo-img:not(.logo-dark-img){display:none;}
+html[data-theme="dark"] .logo-dark-img{display:block;}
+
+/* ============ Known shared-component bug: price-card CTA used sitewide
+   sets a fixed-dark background via var(--ink), which flips to near-white
+   in dark mode. Pin it to the dedicated always-dark surface instead. ============ */
+.price-card{background:var(--surface-dark) !important;}
+.safety{background:var(--surface-dark) !important;}
+
+/* ============ Theme toggle button (header, circular) ============ */
+.nav-mobile-controls{display:flex; align-items:center;}
+.theme-toggle{
+  display:flex; align-items:center; justify-content:center;
+  width:36px; height:36px; border-radius:50%;
+  border:1px solid var(--line); background:var(--card);
+  cursor:pointer; flex-shrink:0; margin-left:10px;
+  transition:background .2s ease, border-color .2s ease;
+}
+.theme-toggle:hover{border-color:var(--purple);}
+.theme-toggle svg{width:17px; height:17px; stroke:var(--ink); display:block;}
+.theme-toggle .icon-sun{display:none;}
+html[data-theme="dark"] .theme-toggle .icon-moon{display:none;}
+html[data-theme="dark"] .theme-toggle .icon-sun{display:block;}
+@media(max-width:820px){
+  .theme-toggle:not(.mobile-theme-row){width:34px; height:34px; margin-left:4px;}
+  .nav-mobile-controls .theme-toggle{display:none;}
+}
+
+/* ============ Theme toggle row (inside mobile hamburger menu) ============ */
+.mobile-theme-row{
+  width:100%; height:auto; border-radius:0; border:none; background:none;
+  margin-left:0; justify-content:flex-start; gap:10px;
+  padding:14px 4px; font-size:15px; font-weight:400; color:var(--ink-soft);
+  font-family:'Inter'; border-bottom:1px solid var(--line);
+}
+.mobile-theme-row:hover{border-color:var(--line);}
+.mobile-theme-row .mtr-icon{display:flex; align-items:center; justify-content:center; width:18px; height:18px; flex-shrink:0;}
+
+/* ============ Mobile hamburger menu background ============ */
+.mobile-menu{background:var(--menu-bg) !important;}
+
+/* ============ Simple nav templates (no hamburger): group CTA + toggle
+   so justify-content:space-between doesn't strand the toggle in the middle ============ */
+.nav-cta-group{display:flex; align-items:center;}
