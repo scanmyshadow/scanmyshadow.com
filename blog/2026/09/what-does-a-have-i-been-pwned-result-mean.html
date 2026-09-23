@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+(function(){
+  try{
+    var t = localStorage.getItem('sms-theme');
+    if(!t){ t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    document.documentElement.setAttribute('data-theme', t);
+  }catch(e){}
+})();
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -31,6 +40,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.scanmyshadow.com/assets/theme.css">
 
   <!-- Google tag (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4P3YTNEDY"></script>
@@ -83,6 +93,10 @@
       backdrop-filter:blur(14px);
       -webkit-backdrop-filter:blur(14px);
       border-bottom:1px solid var(--line-soft);
+    }
+
+    html[data-theme="dark"] .site-nav{
+      background:rgba(15,13,23,0.94);
     }
 
     .nav-inner{
@@ -349,6 +363,16 @@
       box-shadow:var(--shadow-lg);
     }
 
+    /* reclaim this page's own gradient from the shared theme.css .price-card !important rule
+       (that rule targets pages where .price-card used var(--ink) as a background trick; this
+       template already has a proper fixed-dark gradient and must not be flattened) */
+    .price-card{
+      background:
+        radial-gradient(circle at 20% 10%,rgba(123,92,250,.34),transparent 34%),
+        radial-gradient(circle at 90% 85%,rgba(255,255,255,.12),transparent 28%),
+        linear-gradient(135deg,#171321,#272035 55%,#181421) !important;
+    }
+
     .price-card:before{
       content:"";
       position:absolute;
@@ -514,6 +538,8 @@
       .cta-full{display:none;}
       .cta-short{display:inline;}
 
+      .nav-mobile-controls{display:none;}
+
       .mobile-menu.open{display:block;}
     }
 
@@ -653,6 +679,7 @@
 
       <a href="https://www.scanmyshadow.com/" class="logo">
         <img src="https://www.scanmyshadow.com/logo.png" class="logo-img" alt="Scan My Shadow">
+        <img src="https://www.scanmyshadow.com/logo-dark.png" class="logo-img logo-dark-img" alt="Scan My Shadow">
       </a>
 
       <div class="nav-links">
@@ -669,6 +696,13 @@
         <span class="cta-full">Start scan &middot; <span class="price-tag">$9.99</span></span>
         <span class="cta-short">Scan &middot; <span class="price-tag">$9.99</span></span>
       </a>
+
+      <div class="nav-mobile-controls">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+      </div>
     </div>
 
     <div class="mobile-menu" id="mobileMenu">
@@ -679,6 +713,14 @@
       <a href="https://www.scanmyshadow.com/tools/">Tools</a>
       <a href="https://www.scanmyshadow.com/blog/">Blog</a>
       <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
+
+      <button class="theme-toggle mobile-theme-row" id="themeToggleMobile" aria-label="Toggle dark mode">
+        <span class="mtr-icon">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </span>
+        Dark mode
+      </button>
     </div>
   </nav>
 
@@ -757,5 +799,6 @@
   </script>
 
   <script src="https://www.scanmyshadow.com/assets/geo-price.js"></script>
+  <script src="https://www.scanmyshadow.com/assets/theme.js"></script>
 </body>
 </html>
