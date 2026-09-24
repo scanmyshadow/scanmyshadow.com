@@ -308,53 +308,107 @@
       font-weight:700;
     }
 
-  /* ===== price-card CTA (matches homepage pricing block exactly) ===== */
-    .price-wrap{display:flex; justify-content:center; margin:38px 0 32px;}
-    .price-card{position:relative; width:100%; max-width:680px; background:var(--ink); color:#fff; border-radius:24px; padding:36px 40px; overflow:hidden; box-shadow:var(--shadow-lg);}
-    .price-card .p-inner{position:relative; z-index:2; display:flex; align-items:center; gap:40px;}
-    .price-left{flex:0 0 auto; width:220px;}
-    .price-right{flex:1; min-width:0; border-left:1px solid rgba(255,255,255,0.1); padding-left:36px;}
-    .price-label{font-size:13px; color:#A5A2C0; margin-bottom:10px;}
-    .price-amount{font-family:'Space Grotesk'; font-weight:700; font-size:40px; line-height:1; letter-spacing:-0.02em;}
-    .price-amount span{font-size:13px; color:#A5A2C0; font-weight:500; margin-left:6px;}
-    .price-amount .price-tag{font-size:40px; color:#fff; font-weight:700; margin-left:0;}
-    .price-list{list-style:none; margin:0 0 18px; padding:0;}
-    .price-list li{display:flex; align-items:flex-start; gap:10px; padding:7px 0; font-size:13px; color:#DEDDEC;}
-    .price-list li svg{width:15px; height:15px; color:var(--purple); flex-shrink:0; margin-top:1px;}
-    .btn-price{display:block; width:100%; text-align:center; background:var(--purple); color:#fff; border:none; border-radius:13px; padding:14px; font-size:14.5px; font-weight:600; font-family:'Inter'; cursor:pointer; text-decoration:none; margin-top:20px;}
-    .btn-price:hover{background:var(--purple-deep); text-decoration:none;}
-    .price-razorpay{display:flex; align-items:center; justify-content:center; gap:7px; margin-top:12px; opacity:0.6;}
-    .price-razorpay span{font-size:11.5px; color:#A5A2C0;}
-    .price-razorpay svg{width:15px; height:15px;}
-    @media(max-width:640px){
-      .price-card .p-inner{flex-direction:column; align-items:stretch; gap:24px;}
-      .price-left{width:100%;}
-      .price-right{border-left:none; border-top:1px solid rgba(255,255,255,0.1); padding-left:0; padding-top:20px;}
+    .price-card{
+      position:relative;
+      overflow:hidden;
+      margin:38px 0 32px;
+      padding:28px 24px 25px;
+      border-radius:22px;
+      background:
+        radial-gradient(circle at 20% 10%,rgba(123,92,250,.34),transparent 34%),
+        radial-gradient(circle at 90% 85%,rgba(255,255,255,.12),transparent 28%),
+        linear-gradient(135deg,#171321,#272035 55%,#181421);
+      color:#fff;
+      box-shadow:var(--shadow-lg);
     }
 
-    .fx-dark{position:relative; overflow:hidden;}
-    .aurora{position:absolute; inset:0; z-index:0; pointer-events:none;}
-    .aurora span{position:absolute; border-radius:50%; filter:blur(60px); opacity:0.5; mix-blend-mode:screen;}
-    .aurora .a1{width:400px; height:400px; background:radial-gradient(circle,#7B5CFA,transparent 68%); top:-140px; left:6%; animation:drift1 16s ease-in-out infinite;}
-    .aurora .a2{width:340px; height:340px; background:radial-gradient(circle,#9D6BFF,transparent 66%); bottom:-150px; right:4%; animation:drift2 19s ease-in-out infinite;}
-    .aurora .a3{width:280px; height:280px; background:radial-gradient(circle,#5A3FE0,transparent 70%); top:28%; left:44%; opacity:0.38; animation:drift3 22s ease-in-out infinite;}
-    @keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(56px,38px) scale(1.12);}}
-    @keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-46px,-28px) scale(1.08);}}
-    @keyframes drift3{0%,100%{transform:translate(0,0) scale(1); opacity:0.32;}50%{transform:translate(-38px,28px) scale(1.15); opacity:0.48;}}
-    .particles{position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden;}
+    /* reclaim this page's own gradient from the shared theme.css .price-card !important rule
+       (that rule targets pages where .price-card used var(--ink) as a background trick; this
+       template already has a proper fixed-dark gradient and must not be flattened) */
+    .price-card{
+      background:
+        radial-gradient(circle at 20% 10%,rgba(123,92,250,.34),transparent 34%),
+        radial-gradient(circle at 90% 85%,rgba(255,255,255,.12),transparent 28%),
+        linear-gradient(135deg,#171321,#272035 55%,#181421) !important;
+    }
+
+    .price-card:before{
+      content:"";
+      position:absolute;
+      inset:-50%;
+      background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.08) 45%,transparent 55%);
+      transform:rotate(12deg);
+      pointer-events:none;
+    }
+
+    .particles{position:absolute; inset:0; z-index:0; pointer-events:none; overflow:hidden;}
     .particles i{position:absolute; bottom:-10px; width:3px; height:3px; border-radius:50%; background:rgba(180,150,255,0.7); box-shadow:0 0 6px rgba(155,120,255,0.9); animation:rise linear infinite;}
     @keyframes rise{0%{transform:translateY(0); opacity:0;}10%{opacity:1;}90%{opacity:0.7;}100%{transform:translateY(-380px); opacity:0;}}
-    .fx-dark .sheen{content:""; position:absolute; top:0; left:-60%; width:40%; height:100%; z-index:1; pointer-events:none; background:linear-gradient(105deg,transparent,rgba(255,255,255,0.06),transparent); transform:skewX(-18deg); animation:sheen 8s ease-in-out infinite;}
-    @keyframes sheen{0%{left:-60%;}55%,100%{left:130%;}}
+    @media(prefers-reduced-motion:reduce){ .btn-price,.btn-price::before,.particles i{animation:none;} }
 
-    .nav-pill{position:relative; animation:cta-glow 2.8s ease-in-out infinite;}
-    .nav-pill::before{content:""; position:absolute; inset:0; border-radius:999px; z-index:-1; animation:cta-ping 2.8s ease-out infinite;}
-    .btn-price{position:relative; animation:cta-glow 2.8s ease-in-out infinite;}
-    .btn-price::before{content:"";position:absolute;inset:0;border-radius:13px;z-index:-1;animation:cta-ping 2.8s ease-out infinite;}
+    .price-card-inner{position:relative;z-index:1;}
+
+    .price-label{
+      font-family:'Space Grotesk',sans-serif;
+      font-size:12px;
+      line-height:1.45;
+      color:rgba(255,255,255,.72);
+      margin-bottom:12px;
+    }
+
+    .price-amount{
+      display:flex;
+      align-items:baseline;
+      gap:9px;
+      margin-bottom:17px;
+      font-family:'Space Grotesk',sans-serif;
+    }
+
+    .price-amount .price-tag{
+      font-size:34px;
+      line-height:1;
+    }
+
+    .price-amount span:last-child{
+      font-size:12px;
+      color:rgba(255,255,255,.58);
+    }
+
+    .btn-price{
+      position:relative;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:12px 18px;
+      border-radius:999px;
+      background:#fff;
+      color:#21182f;
+      font-family:'Space Grotesk',sans-serif;
+      font-size:13px;
+      font-weight:700;
+      text-decoration:none;
+      animation:cta-glow 2.8s ease-in-out infinite;
+    }
+
+    .btn-price::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      border-radius:999px;
+      z-index:-1;
+      animation:cta-ping 2.8s ease-out infinite;
+    }
+
     @keyframes cta-glow{0%,100%{box-shadow:0 8px 20px rgba(123,92,250,0.28);}50%{box-shadow:0 8px 26px rgba(123,92,250,0.55);}}
     @keyframes cta-ping{0%{box-shadow:0 0 0 0 rgba(123,92,250,0.45);}70%{box-shadow:0 0 0 12px rgba(123,92,250,0);}100%{box-shadow:0 0 0 0 rgba(123,92,250,0);}}
 
-    @media(prefers-reduced-motion:reduce){ .nav-pill,.nav-pill::before,.btn-price,.btn-price::before,.aurora span,.particles i,.fx-dark .sheen{animation:none;} }
+    .price-note{
+      margin:12px 0 0;
+      font-family:'Inter',sans-serif;
+      font-size:11px;
+      line-height:1.5;
+      color:rgba(255,255,255,.55);
+    }
 
     .faq{
       margin-top:34px;
@@ -411,6 +465,10 @@
 
       article p{font-size:17.5px;}
       h1{font-size:29px;}
+
+      .price-card{
+        padding:24px 20px 22px;
+      }
 
     }
   </style>
@@ -669,33 +727,7 @@
 <h2>Have I Been Pwned is not the same as a full digital footprint scan</h2>
 <p>A breach lookup answers a relatively narrow question: <strong>has this identifier appeared in known breach data?</strong> Your broader digital footprint can include information that was never part of a breach at all — such as public profiles, old accounts, exposed contact details and other traces spread across the web.</p>
 <p>If you want to understand the wider picture, you can use Scan My Shadow's <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Digital Footprint Checker</a> to investigate your broader online exposure.</p>
-<div class="price-wrap">
-    <div class="price-card fx-dark">
-      <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
-      <div class="particles" data-particles></div>
-      <div class="sheen"></div>
-      <div class="p-inner">
-        <div class="price-left">
-          <div class="price-label">Phone + email scan &middot; 1,500+ data sources worldwide &middot; Full report</div>
-          <div class="price-amount"><span class="price-tag">$9.99</span><span>one-time</span></div>
-          <a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Scan My Digital Footprint</a>
-          <div class="price-razorpay">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
-            <span>Secure payment via Razorpay &middot; Apple Pay</span>
-          </div>
-        </div>
-        <div class="price-right">
-          <ul class="price-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results within about 5 minutes</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="price-card"><div class="particles" data-particles></div><div class="price-card-inner"><div class="price-label">Phone + email scan &middot; 1,500+ data sources worldwide &middot; Full report</div><div class="price-amount"><span class="price-tag">$9.99</span><span>one-time</span></div><a href="https://www.scanmyshadow.com/#pricing" class="btn-price">Scan My Digital Footprint</a><p class="price-note">For people who want a broader picture of what may be publicly exposed or associated with their phone number and email address.</p></div></div>
 <h2>What should you do if your email was found in a breach?</h2>
 <ul><li><strong>Change the affected password.</strong> Do this first for the breached service.</li><li><strong>Stop password reuse.</strong> A unique password for each important account limits the impact of future breaches.</li><li><strong>Enable two-factor authentication.</strong> Use it on important accounts wherever it is available.</li><li><strong>Review old accounts.</strong> If you no longer need an account, consider closing it and removing unnecessary information.</li><li><strong>Watch for targeted scams.</strong> Breach information can make phishing and scam messages more convincing.</li></ul>
 <h2>For Indian users, the bigger issue is often what happens next</h2>
