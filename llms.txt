@@ -317,6 +317,19 @@ Site: https://www.scanmyshadow.com/
 - [Zillow Scams: How to Spot Fake Listings and Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/zillow-scam-what-to-know.html)
 - [ZipRecruiter Scams: How to Spot Fake Listings and Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/ziprecruiter-scam-what-to-know.html)
 
+## New guides (added Sep 29, 2026, batch 11: retailer, tax software, and student loan servicer scam guides)
+- [Argos Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/argos-uk-scam-what-to-know.html)
+- [Best Buy Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/best-buy-scam-what-to-know.html)
+- [Costco Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/costco-scam-what-to-know.html)
+- [H&R Block Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/hr-block-scam-what-to-know.html)
+- [Kohl’s Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/kohls-scam-what-to-know.html)
+- [Macy’s Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/macys-scam-what-to-know.html)
+- [Navient Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/navient-scam-what-to-know.html)
+- [Nelnet Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/nelnet-scam-what-to-know.html)
+- [Nordstrom Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/nordstrom-scam-what-to-know.html)
+- [TurboTax Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/turbotax-scam-what-to-know.html)
+- [Walmart Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/walmart-scam-what-to-know.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
