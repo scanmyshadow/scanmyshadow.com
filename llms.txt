@@ -330,6 +330,20 @@ Site: https://www.scanmyshadow.com/
 - [TurboTax Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/turbotax-scam-what-to-know.html)
 - [Walmart Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/walmart-scam-what-to-know.html)
 
+## New guides (added Sep 29, 2026, batch 12: pension/retirement scam and platform-hacked guides (final batch))
+- [401(k) Rollover Scams: Red Flags, Real Examples, and How to Protect Your Savings](https://www.scanmyshadow.com/blog/2026/09/401k-rollover-scam-us-scam-what-to-know.html)
+- [Etsy Account Hacked: Recovery Steps and How to Secure It](https://www.scanmyshadow.com/blog/2026/09/etsy-account-hacked-what-to-do.html)
+- [Fiverr Account Hacked: Recovery Steps and How to Secure It](https://www.scanmyshadow.com/blog/2026/09/fiverr-account-hacked-what-to-do.html)
+- [Grindr Account Hacked: Recovery Steps and How to Secure It](https://www.scanmyshadow.com/blog/2026/09/grindr-account-hacked-what-to-do.html)
+- [OkCupid Account Hacked: Recovery Steps and How to Secure It](https://www.scanmyshadow.com/blog/2026/09/okcupid-account-hacked-what-to-do.html)
+- [Pension Transfer Scams: Red Flags, Real Examples, and How to Protect Your Savings](https://www.scanmyshadow.com/blog/2026/09/pension-transfer-uk-scam-what-to-know.html)
+- [Roblox Account Hacked: Recovery Steps and How to Secure It](https://www.scanmyshadow.com/blog/2026/09/roblox-account-hacked-what-to-do.html)
+- [RRSP Scams: Red Flags, Real Examples, and How to Protect Your Savings](https://www.scanmyshadow.com/blog/2026/09/rrsp-scam-canada-scam-what-to-know.html)
+- [Shopify Account Hacked: Recovery Steps and How to Secure It](https://www.scanmyshadow.com/blog/2026/09/shopify-seller-account-hacked-what-to-do.html)
+- [Superannuation Scams: Red Flags, Real Examples, and How to Protect Your Savings](https://www.scanmyshadow.com/blog/2026/09/superannuation-scam-au-scam-what-to-know.html)
+- [Upwork Account Hacked: Recovery Steps and How to Secure It](https://www.scanmyshadow.com/blog/2026/09/upwork-account-hacked-what-to-do.html)
+- [Workplace Pension Scams: Red Flags, Real Examples, and How to Protect Your Savings](https://www.scanmyshadow.com/blog/2026/09/workplace-pension-scam-uk-scam-what-to-know.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
