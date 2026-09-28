@@ -193,6 +193,17 @@ Site: https://www.scanmyshadow.com/
 - [Wells Fargo Impersonation Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/wells-fargo-impersonation-scam-what-to-know.html)
 - [Westpac Impersonation Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/westpac-impersonation-scam-what-to-know.html)
 
+## New guides (added Sep 29, 2026, batch 4 — courier delivery scams)
+- [Australia Post Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/australia-post-delivery-text-scam-what-to-do.html)
+- [Canada Post Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/canada-post-delivery-text-scam-what-to-do.html)
+- [DHL Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/dhl-delivery-text-scam-what-to-do.html)
+- [Evri Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/evri-delivery-text-scam-what-to-do.html)
+- [FedEx Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/fedex-delivery-text-scam-what-to-do.html)
+- [Purolator Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/purolator-delivery-text-scam-what-to-do.html)
+- [Royal Mail Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/royal-mail-delivery-text-scam-what-to-do.html)
+- [StarTrack Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/startrack-delivery-text-scam-what-to-do.html)
+- [UPS Delivery Text Scam: Red Flags, Real Examples, and What to Do](https://www.scanmyshadow.com/blog/2026/09/ups-delivery-text-scam-what-to-do.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
