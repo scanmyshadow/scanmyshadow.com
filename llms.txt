@@ -779,6 +779,23 @@ Site: https://www.scanmyshadow.com/
 - [What Is UPI Fraud? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-upi-fraud-explained.html)
 - [What Is Vishing Calls in India? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-vishing-calls-india-explained.html)
 
+## New guides (added Sep 29, 2026, India "is X safe" trust cluster)
+- [Is Amazon Pay India Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-amazon-pay-india-safe-from-scams.html)
+- [Is BharatMatrimony Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-bharatmatrimony-safe-from-scams.html)
+- [Is BHIM UPI Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-bhim-upi-safe-from-scams.html)
+- [Is CRED Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-cred-safe-from-scams.html)
+- [Is Google Pay Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-google-pay-safe-from-scams-in-india.html)
+- [Is Groww Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-groww-safe-from-scams.html)
+- [Is Jeevansathi Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-jeevansathi-safe-from-scams.html)
+- [Is MobiKwik Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-mobikwik-safe-from-scams.html)
+- [Is Naukri.com Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-naukricom-safe-from-scams.html)
+- [Is Paytm Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-paytm-safe-from-scams.html)
+- [Is PhonePe Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-phonepe-safe-from-scams.html)
+- [Is Shaadi.com Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-shaadicom-safe-from-scams.html)
+- [Is Swiggy Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-swiggy-safe-from-scams.html)
+- [Is Upstox Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-upstox-safe-from-scams.html)
+- [Is Zerodha Safe? What to Know Before You Use It](https://www.scanmyshadow.com/blog/2026/09/is-zerodha-safe-from-scams.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
