@@ -762,6 +762,23 @@ Site: https://www.scanmyshadow.com/
 - [Which Industry Gets Breached the Most?](https://www.scanmyshadow.com/blog/2026/09/which-industry-gets-breached-most.html)
 - [Which US State Has the Most Reported Identity Theft?](https://www.scanmyshadow.com/blog/2026/09/which-us-state-has-most-identity-theft.html)
 
+## New guides (added Sep 29, 2026, India glossary/pillar terms)
+- [What Is Courier/Parcel Scam Calls? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-courier-parcel-scam-calls-india.html)
+- [What Is Digital Arrest Scams? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-digital-arrest-scams-explained.html)
+- [What Is Fake Electricity Bill Scams? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-fake-electricity-bill-scam-calls.html)
+- [What Is Fake Trading App Scams? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-fake-trading-app-scams-india.html)
+- [What Is Job Fraud via WhatsApp? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-job-fraud-whatsapp-india.html)
+- [What Is KYC Update Fraud? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-kyc-update-fraud-explained.html)
+- [What Is Loan App Harassment? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-loan-app-harassment-explained.html)
+- [What Is OTP Fraud? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-otp-fraud-explained.html)
+- [What Is Screen-Sharing App Fraud? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-screen-sharing-app-fraud-india.html)
+- [What Is SEBI/RBI Impersonation Scams? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-sebi-rbi-impersonation-scams.html)
+- [What Is Sextortion Scams in India? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-sextortion-scams-india-explained.html)
+- [What Is SIM Swap Fraud in India? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-sim-swap-fraud-india-explained.html)
+- [What Is Task-Based Job Scams? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-task-based-part-time-job-scams.html)
+- [What Is UPI Fraud? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-upi-fraud-explained.html)
+- [What Is Vishing Calls in India? How It Works and How to Protect Yourself](https://www.scanmyshadow.com/blog/2026/09/what-is-vishing-calls-india-explained.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
