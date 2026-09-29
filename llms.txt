@@ -818,6 +818,23 @@ Site: https://www.scanmyshadow.com/
 - [Cybercrime Helpline in Uttarakhand: How to Report Online Fraud](https://www.scanmyshadow.com/blog/2026/09/cybercrime-helpline-uttarakhand-how-to-report-fraud.html)
 - [Cybercrime Helpline in West Bengal: How to Report Online Fraud](https://www.scanmyshadow.com/blog/2026/09/cybercrime-helpline-west-bengal-how-to-report-fraud.html)
 
+## New guides (added Sep 29, 2026, India recovery how-tos)
+- [How to Block a SIM Card That's Been Swapped](https://www.scanmyshadow.com/blog/2026/09/how-to-block-a-swapped-sim-card.html)
+- [How to Check Your CIBIL Score for Fraudulent Accounts](https://www.scanmyshadow.com/blog/2026/09/how-to-check-cibil-score-for-fraud.html)
+- [How to Check If Your Aadhaar Was Misused](https://www.scanmyshadow.com/blog/2026/09/how-to-check-if-aadhaar-was-misused.html)
+- [How to File a Complaint on the 1930 Cybercrime Helpline](https://www.scanmyshadow.com/blog/2026/09/how-to-file-a-1930-cybercrime-complaint.html)
+- [How to Report a SEBI SCORES Complaint](https://www.scanmyshadow.com/blog/2026/09/how-to-file-a-sebi-scores-complaint.html)
+- [How to File an RBI Ombudsman Complaint](https://www.scanmyshadow.com/blog/2026/09/how-to-file-an-rbi-ombudsman-complaint.html)
+- [How to Freeze a Bank Account After UPI Fraud](https://www.scanmyshadow.com/blog/2026/09/how-to-freeze-bank-account-after-upi-fraud.html)
+- [How to Lock Your Aadhaar Biometrics](https://www.scanmyshadow.com/blog/2026/09/how-to-lock-aadhaar-biometrics.html)
+- [How to Recover a Hacked WhatsApp Account in India](https://www.scanmyshadow.com/blog/2026/09/how-to-recover-a-hacked-whatsapp-account-india.html)
+- [How to Recover Money Lost to a UPI Scam](https://www.scanmyshadow.com/blog/2026/09/how-to-recover-money-lost-to-upi-scam.html)
+- [How to Report a Fake Job Offer in India](https://www.scanmyshadow.com/blog/2026/09/how-to-report-a-fake-job-offer-india.html)
+- [How to Report a Fake Trading App to SEBI](https://www.scanmyshadow.com/blog/2026/09/how-to-report-a-fake-trading-app-sebi.html)
+- [How to Report Credit Card Fraud to Your Bank in India](https://www.scanmyshadow.com/blog/2026/09/how-to-report-credit-card-fraud-india.html)
+- [How to Report Fraud on cybercrime.gov.in](https://www.scanmyshadow.com/blog/2026/09/how-to-report-fraud-cybercrime-gov-in.html)
+- [How to Report Loan App Harassment in India](https://www.scanmyshadow.com/blog/2026/09/how-to-report-loan-app-harassment.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
