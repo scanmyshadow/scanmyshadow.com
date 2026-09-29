@@ -864,6 +864,18 @@ Site: https://www.scanmyshadow.com/
 - [Wedding Season Scams in India](https://www.scanmyshadow.com/blog/2026/09/wedding-season-scams-india.html)
 - [Year-End Bonus and Payroll Phishing (India)](https://www.scanmyshadow.com/blog/2026/09/year-end-payroll-phishing-india.html)
 
+## New guides (added Sep 29, 2026, India tool/service comparisons)
+- [Best Antivirus Apps for Android in India](https://www.scanmyshadow.com/blog/2026/09/best-antivirus-apps-android-india.html)
+- [Best Call-Blocking Apps for Spam Calls in India](https://www.scanmyshadow.com/blog/2026/09/best-call-blocking-apps-india.html)
+- [Best Parental Control Apps for Indian Families](https://www.scanmyshadow.com/blog/2026/09/best-parental-control-apps-india.html)
+- [Best Password Managers Available in India](https://www.scanmyshadow.com/blog/2026/09/best-password-managers-india.html)
+- [Best Secure Messaging Apps for Privacy in India](https://www.scanmyshadow.com/blog/2026/09/best-secure-messaging-apps-india.html)
+- [Best VPNs for Privacy in India, Compared](https://www.scanmyshadow.com/blog/2026/09/best-vpns-for-privacy-india.html)
+- [CIBIL vs Experian vs CRIF: Which Credit Report Should You Check?](https://www.scanmyshadow.com/blog/2026/09/cibil-vs-experian-vs-crif.html)
+- [Free vs Paid Credit Score Monitoring in India](https://www.scanmyshadow.com/blog/2026/09/free-vs-paid-credit-monitoring-india.html)
+- [PhonePe vs Google Pay vs Paytm: Which Is Safer?](https://www.scanmyshadow.com/blog/2026/09/phonepe-vs-gpay-vs-paytm-safety.html)
+- [Truecaller vs getContact: Which Caller ID App Is Safer?](https://www.scanmyshadow.com/blog/2026/09/truecaller-vs-getcontact-caller-id-apps-compared.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
