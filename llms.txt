@@ -18,6 +18,7 @@ Site: https://www.scanmyshadow.com/
 - [Email Privacy Risk Checker](https://www.scanmyshadow.com/tools/email-privacy-risk-checker/)
 - [How Exposed Is Your Digital Shadow?](https://www.scanmyshadow.com/tools/online-exposure-risk-quiz/)
 - [Digital Privacy Checklist](https://www.scanmyshadow.com/tools/digital-privacy-checklist/)
+- [How Our Scan Works: Methodology and Limits](https://www.scanmyshadow.com/methodology/)
 
 ## Digital footprint
 - [How to Check Your Digital Footprint (Step-by-Step, for Indian Users)](https://www.scanmyshadow.com/blog/2026/08/how-to-check-your-digital-footprint.html)
