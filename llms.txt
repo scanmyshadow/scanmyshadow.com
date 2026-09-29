@@ -835,6 +835,23 @@ Site: https://www.scanmyshadow.com/
 - [How to Report Fraud on cybercrime.gov.in](https://www.scanmyshadow.com/blog/2026/09/how-to-report-fraud-cybercrime-gov-in.html)
 - [How to Report Loan App Harassment in India](https://www.scanmyshadow.com/blog/2026/09/how-to-report-loan-app-harassment.html)
 
+## New guides (added Sep 29, 2026, India demographic-targeted scam guides)
+- [Scams Targeting College Students in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-college-students-india.html)
+- [Scams Targeting Elderly Parents in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-elderly-parents-india.html)
+- [Scams Targeting First-Time Investors in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-first-time-investors-india.html)
+- [Scams Targeting Gig Workers in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-gig-workers-india.html)
+- [Scams Targeting Government Job Aspirants](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-government-job-aspirants.html)
+- [Scams Targeting Homebuyers in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-homebuyers-india.html)
+- [Scams Targeting Job Seekers in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-job-seekers-india.html)
+- [Scams Targeting NRIs (Non-Resident Indians)](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-nris.html)
+- [Scams Targeting Online Sellers in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-online-sellers-india.html)
+- [Scams Targeting Parents of School-Going Children](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-parents-school-children-india.html)
+- [Scams Targeting Pensioners in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-pensioners-india.html)
+- [Scams Targeting Rural and Semi-Urban Users](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-rural-semi-urban-users.html)
+- [Scams Targeting Small Business Owners in India](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-small-business-owners-india.html)
+- [Scams Targeting Students Applying to Study Abroad](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-study-abroad-applicants.html)
+- [Scams Targeting Women on Matrimonial Sites](https://www.scanmyshadow.com/blog/2026/09/scams-targeting-women-matrimonial-sites.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
