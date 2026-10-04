@@ -984,6 +984,11 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .scan-box.wide .free-breach-list{display:grid; grid-template-columns:1fr 1fr; gap:8px;}
   @media(max-width:520px){ .scan-box.wide .free-breach-list{grid-template-columns:1fr;} }
 
+  /* ===== free-check consent checkbox (new, additive) ===== */
+  .free-consent{display:flex; align-items:flex-start; gap:9px; margin:4px 0 14px; cursor:pointer;}
+  .free-consent input{width:15px; height:15px; margin-top:2px; accent-color:var(--purple); flex-shrink:0; cursor:pointer;}
+  .free-consent span{font-size:12px; color:var(--ink-soft); line-height:1.5;}
+
   /* ============ HIBP result — timeline layout ============ */
   .fr-res{grid-column:1/-1; min-width:0; text-align:left;}
   .fr-count{font-family:'Space Grotesk',sans-serif; font-size:34px; font-weight:600; color:var(--ink); line-height:1.1; letter-spacing:-.02em;}
@@ -1219,6 +1224,10 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
           </div>
           <input type="text" id="hpField" class="hp-field" tabindex="-1" autocomplete="off">
         </div>
+        <label class="free-consent">
+          <input type="checkbox" id="freeConsent">
+          <span>This is my own email, or I have permission to check it.</span>
+        </label>
         <button class="btn-scan free-pulse" id="freeCheckBtn">
           Digital Footprint Check - Free
         </button>
@@ -2133,6 +2142,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   var hpField = document.getElementById('hpField');
   var freeCheckBtn = document.getElementById('freeCheckBtn');
   var freeCheckError = document.getElementById('freeCheckError');
+  var freeConsent = document.getElementById('freeConsent');
 
   function isValidEmail(email){
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -2292,6 +2302,11 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     if(hpField && hpField.value){ return; } // honeypot tripped — silently do nothing
     if(!isValidEmail(email)){
       freeCheckError.textContent = 'Enter a valid email address.';
+      freeCheckError.style.display = 'block';
+      return;
+    }
+    if(freeConsent && !freeConsent.checked){
+      freeCheckError.textContent = 'Please confirm this is your own email, or that you have permission to check it.';
       freeCheckError.style.display = 'block';
       return;
     }

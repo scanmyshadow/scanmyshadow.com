@@ -1100,6 +1100,11 @@ line-height:1.55
 
 .lc-note svg{width:13px;height:13px;color:var(--sage);flex-shrink:0;margin-top:2px}
 
+/* ===== free-check consent checkbox (new, additive) ===== */
+.lc-consent{display:flex;align-items:flex-start;gap:9px;margin:2px 0 12px;cursor:pointer}
+.lc-consent input{width:15px;height:15px;margin-top:2px;accent-color:var(--purple);flex-shrink:0;cursor:pointer}
+.lc-consent span{font-size:12px;color:var(--ink-faint);line-height:1.5}
+
 .lc-err{
 margin-top:11px;
 font-size:12.5px;
@@ -1944,6 +1949,11 @@ to{opacity:1;transform:translateY(0)}
         <button type="button" class="lc-btn" id="lcBtn">Check My Footprint - Free</button>
       </div>
 
+        <label class="lc-consent">
+          <input type="checkbox" id="lcConsent">
+          <span>This is my own email, or I have permission to check it.</span>
+        </label>
+
         <div class="lc-err" id="lcErr" hidden></div>
 
         <div class="lc-note">
@@ -2701,6 +2711,7 @@ var input=document.getElementById('lcEmail');
 var hp=document.getElementById('lcHp');
 var btn=document.getElementById('lcBtn');
 var err=document.getElementById('lcErr');
+var consent=document.getElementById('lcConsent');
 
 if(!card||!btn)return;
 
@@ -2925,6 +2936,7 @@ clearErr();
 
 if(!v){showErr('Enter your email address to run the check.');input.focus();return}
 if(!valid(v)){showErr('That doesn\'t look like a valid email address.');input.focus();return}
+if(consent&&!consent.checked){showErr('Please confirm this is your own email, or that you have permission to check it.');return}
 
 btn.disabled=true;
 if(window.gtag){try{gtag('event','free_breach_check_start')}catch(e){}}
@@ -2953,6 +2965,7 @@ showErr(e&&e.message==='rate'?'Too many checks from this connection. Please try 
 btn.addEventListener('click',run);
 
 input.addEventListener('input',clearErr);
+if(consent)consent.addEventListener('change',clearErr);
 
 input.addEventListener('keydown',function(e){
 if(e.key==='Enter'){e.preventDefault();run()}
