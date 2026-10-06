@@ -960,6 +960,18 @@ Site: https://www.scanmyshadow.com/
 - [Hijacked X Account: The 'Vote for Me' DM Trap](https://www.scanmyshadow.com/blog/2026/10/australia-hijacked-x-account-vote-for-me-dm-scam.html)
 - [Fake Purchase Callback Scams: Scamwatch Alert](https://www.scanmyshadow.com/blog/2026/10/australia-fake-purchase-callback-scams-scamwatch-alert.html)
 
+## Scam statistics and data (added Oct 7, 2026; CSV and embeddable charts)
+- [Fraud and Scam Losses: US, UK, Canada, Australia 2025](https://www.scanmyshadow.com/blog/2026/10/scam-losses-us-uk-canada-australia-2025-data.html)
+- [Investment Fraud Losses: US, UK, Canada, Australia 2025](https://www.scanmyshadow.com/blog/2026/10/investment-fraud-losses-us-uk-canada-australia-2025.html)
+- [Scam Losses 2021 to 2025: US, UK, Canada, Australia](https://www.scanmyshadow.com/blog/2026/10/scam-losses-2021-2025-trend-us-uk-canada-australia.html)
+- [FBI IC3 2025 Report in Numbers: $20.9B in Losses](https://www.scanmyshadow.com/blog/2026/10/fbi-ic3-2025-report-in-numbers.html)
+- [UK Fraud 2025: £1.28bn Lost, APP Scams Up 19%](https://www.scanmyshadow.com/blog/2026/10/uk-fraud-2025-uk-finance-app-scam-numbers.html)
+- [Canada Fraud 2025: C$704M Reported Lost to Scams](https://www.scanmyshadow.com/blog/2026/10/canada-fraud-2025-cafc-losses-and-top-scams.html)
+- [Australia Scams 2025: A$2.18B Lost, NASC Data](https://www.scanmyshadow.com/blog/2026/10/australia-scams-2025-national-anti-scam-centre-data.html)
+- [India Cyber Fraud 2021 to 2025: NCRP Complaints, Losses](https://www.scanmyshadow.com/blog/2026/10/india-cyber-fraud-2021-2025-ncrp-complaints-losses.html)
+- [RBI Bank Fraud Data: 2020-21 to 2024-25 by Category](https://www.scanmyshadow.com/blog/2026/10/rbi-bank-fraud-data-2020-21-to-2024-25-by-category.html)
+- [1930 Helpline: ₹11,158 Cr Put on Hold, UPI Fraud Data](https://www.scanmyshadow.com/blog/2026/10/india-1930-helpline-money-saved-and-upi-fraud-data.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)

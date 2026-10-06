@@ -1,0 +1,25 @@
+﻿section,item,complaints,amount_usd,note,source_url
+year,2021,847376,6900000000.0,reported losses,https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf
+year,2022,800944,10300000000.0,reported losses,https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf
+year,2023,880418,12500000000.0,reported losses,https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf
+year,2024,859532,16600000000.0,reported losses,https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf
+year,2025,1008597,20877000000.0,reported losses,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+crime type 2025,Investment,,8648617756,reported losses,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+crime type 2025,Business email compromise,,3046598558,reported losses,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+crime type 2025,Tech and customer support,,2134675818,reported losses,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+crime type 2025,Personal data breach,,1314923988,reported losses,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+crime type 2025,Confidence and romance,,929287469,reported losses,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+complaints by type 2025,Phishing/Spoofing,191561,,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+complaints by type 2025,Extortion,89129,,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+complaints by type 2025,Investment,72984,,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+complaints by type 2025,Personal Data Breach,67456,,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+complaints by type 2025,Non-Payment/Non-Delivery,56478,,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+age 2025,Under 20,31254,67100000.0,"reported losses, rounded as published",https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+age 2025,20-29,112069,563100000.0,"reported losses, rounded as published",https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+age 2025,30-39,153293,1700000000.0,"reported losses, rounded as published",https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+age 2025,40-49,167066,2957000000.0,"reported losses, rounded as published",https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+age 2025,50-59,124820,3700000000.0,"reported losses, rounded as published",https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+age 2025,60+,201266,7748000000.0,reported losses,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+cryptocurrency 2025,all crypto-related,181565,11366000000.0,overlaps crime types,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+FFKC 2025,frozen of attempted,3900 incidents,679013183,amount frozen; attempted 1163919846; 58% success,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+FFKC 2024,frozen of attempted,3020 incidents,561600000,amount frozen; attempted 848400000; 66% success,https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf

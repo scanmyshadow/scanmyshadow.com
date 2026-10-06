@@ -1,0 +1,6 @@
+﻿country,agency,currency,investment_losses_2025,reports_or_cases,share_of_denominator_pct,denominator,change_vs_2024,source_url
+United States,FBI IC3,USD,8648617756,72984 complaints,41.4,all IC3 losses ($20.877B),about +32% (computed from rounded 6.57B),https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FTC,USD,7900000000,,49.7,all FTC fraud losses ($15.9B),not compared,https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud
+United Kingdom,UK Finance (APP),GBP,221500000,14893 cases,38.4,APP losses (576.4M),+40% losses; +26% cases,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+Canada,CAFC,CAD,351000000,4409 reports; 3867 victims,49.9,reported losses (over 704M; share is about),about +13% (computed),https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Australia,National Anti-Scam Centre,AUD,837700000,,38.4,combined losses (2.18B),-11.4%,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf

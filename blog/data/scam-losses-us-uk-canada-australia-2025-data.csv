@@ -1,0 +1,6 @@
+﻿country,agency,currency,reported_losses_2025,reports_or_cases_2025,change_vs_2024_pct,change_basis,population,population_as_of,losses_per_resident_computed,source_url
+United States,FBI IC3,USD,20877000000,1008597 complaints,26,as published,341800000,2025-07-01,61,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FTC,USD,15900000000,about 3.0 million fraud reports,27,about; computed from 12.5B and 15.9B (rounded by FTC),341800000,2025-07-01,47,https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud
+United Kingdom,UK Finance,GBP,1280000000,3.81 million unauthorised cases; 248070 APP cases,4,as published; total is about 1.28 billion (703.4M unauthorised + 576.4M APP),69281400,mid-2024,18,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+Canada,CAFC,CAD,704000000,over 112000 reports,10,about; computed from over 638M and over 704M,41417056,2026-04-01 (preliminary),17,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Australia,National Anti-Scam Centre,AUD,2180000000,481523 reports; 274577 with a loss,7.8,as published,27801000,2025-12-31,78,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf

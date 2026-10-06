@@ -1,0 +1,23 @@
+﻿section,item,reports,reported_loss_aud,note,source_url
+year,2021,,1760000000,source mix differs before 2023; ACCC 2021 report: nearly A$1.8B,https://www.scamwatch.gov.au/system/files/Targeting%20scams%20-%20report%20of%20the%20ACCC%20on%20scams%20activity%202021.pdf
+year,2022,,3150000000,source mix differs before 2023; ACCC 2022 report: just over A$3.1B,https://www.accc.gov.au/system/files/Targeting%20scams%202022.pdf
+year,2023,,2741000000,,https://www.nasc.gov.au/system/files/targeting-scams-report-2023.pdf
+year,2024,,2030000000,,https://www.nasc.gov.au/system/files/targeting-scams-report-2024.pdf
+year,2025,,2180000000,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+source 2025,Scamwatch,200675,334800000,before removing duplicates,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+source 2025,ReportCyber,58876,774200000,before removing duplicates,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+source 2025,AFCX,202943,842300000,before removing duplicates,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+source 2025,ASIC,1565,135000000,before removing duplicates,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+source 2025,IDCARE,47589,535800000,before removing duplicates,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+combined 2025,after removing duplicates,481523,2180000000,274577 reports with a loss,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+scam type 2025,Investment,,837700000,-11.4%,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+scam type 2025,Payment redirection,,166800000,+9.3%,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+scam type 2025,Romance,,139900000,-10.8%,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+scam type 2025,Phishing,,97600000,+15.5%,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+scam type 2025,Remote access,,69900000,-34.1%,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+payment method 2025 (Scamwatch),Cryptocurrency,3993,121300000,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+payment method 2025 (Scamwatch),Bank transfer,8858,118100000,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+older Australians 2025,65+ share of Scamwatch losses,,, 26.5% of losses vs about 17.1% of population,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+disruption 2025,Scam websites referred,8400+,,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+disruption 2025,Scam websites removed,7500+,,report cites a 30% increase; NASC estimates A$89.4M avoided loss,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+disruption 2025,Phone numbers referred,4246,,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf

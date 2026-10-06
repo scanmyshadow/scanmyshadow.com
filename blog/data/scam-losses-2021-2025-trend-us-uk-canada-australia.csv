@@ -1,0 +1,21 @@
+﻿country,agency,currency,unit,year,reported_losses,index_2021_100,note
+United States,FBI IC3,USD,billion,2021,6.9,100.0,
+United States,FBI IC3,USD,billion,2022,10.3,149.3,
+United States,FBI IC3,USD,billion,2023,12.5,181.2,
+United States,FBI IC3,USD,billion,2024,16.6,240.6,
+United States,FBI IC3,USD,billion,2025,20.877,302.6,
+United Kingdom,UK Finance,GBP,million,2021,1313.6,100.0,
+United Kingdom,UK Finance,GBP,million,2022,1212.1,92.3,
+United Kingdom,UK Finance,GBP,million,2023,1168.4,88.9,
+United Kingdom,UK Finance,GBP,million,2024,1228.2,93.5,restated in 2026 report; first published as 1170
+United Kingdom,UK Finance,GBP,million,2025,1279.8,97.4,
+Canada,CAFC,CAD,million,2021,379,100.0,restated about 383 in 2022 report
+Canada,CAFC,CAD,million,2022,530.4,139.9,
+Canada,CAFC,CAD,million,2023,578,152.5,RCMP Gazette quoting CAFC; CAFC presentation shows 572
+Canada,CAFC,CAD,million,2024,638,168.3,
+Canada,CAFC,CAD,million,2025,704,185.8,
+Australia,National Anti-Scam Centre,AUD,billion,2021,1.76,100.0,source mix differs before 2023
+Australia,National Anti-Scam Centre,AUD,billion,2022,3.15,179.0,source mix differs before 2023
+Australia,National Anti-Scam Centre,AUD,billion,2023,2.741,155.7,
+Australia,National Anti-Scam Centre,AUD,billion,2024,2.03,115.3,
+Australia,National Anti-Scam Centre,AUD,billion,2025,2.18,123.9,
