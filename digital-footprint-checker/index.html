@@ -2926,7 +2926,7 @@ swap(result,idle);
 }
 
 if(window.gtag){
-try{gtag('event','free_breach_check_complete',{severity:sev})}catch(e){}
+try{gtag('event','free_breach_check_complete_exc',{severity:sev})}catch(e){}
 }
 }
 
@@ -2939,7 +2939,7 @@ if(!valid(v)){showErr('That doesn\'t look like a valid email address.');input.fo
 if(consent&&!consent.checked){showErr('Please confirm this is your own email, or that you have permission to check it.');return}
 
 btn.disabled=true;
-if(window.gtag){try{gtag('event','free_breach_check_start')}catch(e){}}
+if(window.gtag){try{gtag('event','free_breach_check_start_exc')}catch(e){}}
 swap(idle,loading);
 
 fetch(EP,{
