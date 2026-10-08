@@ -1905,6 +1905,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     var btn = document.getElementById('proceedBtn');
     if(!btn.classList.contains('enabled') || paymentInProgress) return;
     paymentInProgress = true;
+    if(typeof gtag === 'function'){ gtag('event','continue_secure_payment_click',{currency: window.SMS_CURRENCY || 'INR'}); }
     var originalText = btn.textContent;
     btn.textContent = 'Processing...';
 
@@ -2073,7 +2074,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
 
   // modal
   var overlay = document.getElementById('overlay');
-  function openModal(){ overlay.classList.add('open'); }
+  function openModal(){ overlay.classList.add('open'); if(typeof gtag === 'function'){ gtag('event','consent_modal_open',{}); } }
   function closeModal(){
     overlay.classList.remove('open');
     document.getElementById('agree1').checked=false;
