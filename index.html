@@ -2333,9 +2333,13 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       box.classList.add('wide');
       animateTo(pRes, [pLoad, pIdle], true);
       if(typeof gtag === 'function'){
+        var bx = (function(d){var b=(d&&d.breaches)||[],pw=false,top='',ta=-1,yr=0,i,x;for(i=0;i<b.length;i++){x=b[i];if((x.dataClasses||[]).indexOf('Passwords')>-1)pw=true;if((x.accounts||0)>ta){ta=x.accounts||0;top=x.name||''}var y=parseInt((x.date||'').slice(0,4),10)||0;if(y>yr)yr=y}return{pw:pw?'yes':'no',top:String(top).slice(0,100),yr:yr}})(result.data);
         gtag('event','free_breach_check_complete_home',{
           severity: (result.data && result.data.severity) || 'unknown',
-          breach_count: (result.data && result.data.count) || 0
+          breach_count: (result.data && result.data.count) || 0,
+          has_password_leak: bx.pw,
+          top_breach: bx.top,
+          latest_breach_year: bx.yr
         });
       }
     })

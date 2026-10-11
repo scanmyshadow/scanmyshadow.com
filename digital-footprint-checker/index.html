@@ -2926,7 +2926,7 @@ swap(result,idle);
 }
 
 if(window.gtag){
-try{gtag('event','free_breach_check_complete_exc',{severity:sev})}catch(e){}
+try{var bx=(function(d){var b=(d&&d.breaches)||[],pw=false,top='',ta=-1,yr=0,i,x;for(i=0;i<b.length;i++){x=b[i];if((x.dataClasses||[]).indexOf('Passwords')>-1)pw=true;if((x.accounts||0)>ta){ta=x.accounts||0;top=x.name||''}var y=parseInt((x.date||'').slice(0,4),10)||0;if(y>yr)yr=y}return{pw:pw?'yes':'no',top:String(top).slice(0,100),yr:yr}})(d);gtag('event','free_breach_check_complete_exc',{severity:sev,breach_count:count,has_password_leak:bx.pw,top_breach:bx.top,latest_breach_year:bx.yr})}catch(e){}
 }
 }
 
