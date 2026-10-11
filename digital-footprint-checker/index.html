@@ -1839,6 +1839,400 @@ animation:settle .9s cubic-bezier(.22,.9,.28,1) forwards
 to{opacity:1;transform:translateY(0)}
 }
 
+/* =====================================================================
+   HERO REDESIGN v2 — bold centered hero, glass check card, new result UI
+   (additive layer: JS hooks and IDs untouched)
+   ===================================================================== */
+
+.page-hero{padding:22px 0 64px}
+
+.page-hero::before{
+content:"";
+position:absolute;
+inset:0;
+background-image:radial-gradient(rgba(123,92,250,.20) 1.1px,transparent 1.2px);
+background-size:24px 24px;
+-webkit-mask-image:radial-gradient(ellipse 70% 62% at 50% 34%,#000 15%,transparent 72%);
+mask-image:radial-gradient(ellipse 70% 62% at 50% 34%,#000 15%,transparent 72%);
+pointer-events:none;
+z-index:0
+}
+
+.blob-1{width:640px;height:640px;background:rgba(123,92,250,.24);top:-260px;right:-160px}
+.blob-2{width:520px;height:520px;background:rgba(240,177,131,.20);top:60px;left:-240px}
+
+.hero-grid{max-width:820px;margin:0 auto;gap:34px;text-align:center}
+.hero-grid > div{max-width:none}
+.hero-copy{display:flex;flex-direction:column;align-items:center}
+
+.hero-eyebrow{
+display:inline-flex;align-items:center;gap:9px;
+font-size:12.5px;font-weight:600;letter-spacing:.02em;
+color:var(--purple-deep);
+background:#fff;
+border:1px solid rgba(123,92,250,.22);
+border-radius:999px;
+padding:7px 15px 7px 12px;
+box-shadow:0 6px 18px rgba(123,92,250,.12);
+margin-bottom:22px
+}
+
+.hero-eyebrow i{
+width:8px;height:8px;border-radius:50%;
+background:var(--sage);
+box-shadow:0 0 0 0 rgba(111,169,141,.55);
+animation:heroLive 2.2s ease-out infinite
+}
+
+@keyframes heroLive{
+0%{box-shadow:0 0 0 0 rgba(111,169,141,.55)}
+80%,100%{box-shadow:0 0 0 9px rgba(111,169,141,0)}
+}
+
+.page-hero h1{
+max-width:none;
+margin:0 auto;
+font-size:clamp(31px,5vw,54px);
+line-height:1.06;
+letter-spacing:-.03em
+}
+
+.h1-grad{
+display:block;
+background:linear-gradient(100deg,#5B3EE0 0%,#7B5CFA 45%,#C47BE4 100%);
+-webkit-background-clip:text;background-clip:text;
+-webkit-text-fill-color:transparent;color:transparent
+}
+
+.page-hero .page-sub{
+max-width:54ch;
+margin:22px auto 0;
+font-size:17px;
+text-align:center
+}
+
+.hero-chips{
+list-style:none;
+display:flex;flex-wrap:wrap;justify-content:center;gap:10px;
+margin-top:26px
+}
+
+.hero-chips li{
+display:inline-flex;align-items:center;gap:8px;
+font-size:13px;font-weight:500;color:var(--ink-soft);
+background:#fff;
+border:1px solid var(--line);
+border-radius:999px;
+padding:8px 15px 8px 12px;
+box-shadow:var(--soft-sm)
+}
+
+.hero-chips svg{width:15px;height:15px;color:var(--purple);flex-shrink:0}
+
+/* ---------- check card ---------- */
+
+.hero-grid .lc-card{
+max-width:760px;width:100%;margin:0 auto;
+text-align:center;
+padding:38px 38px 30px;
+border:1.5px solid transparent;
+border-radius:32px;
+background:linear-gradient(#fff,#fff) padding-box,linear-gradient(135deg,rgba(123,92,250,.85),rgba(164,143,251,.28) 42%,rgba(240,177,131,.65)) border-box;
+box-shadow:0 40px 90px rgba(60,45,110,.14),0 0 60px rgba(123,92,250,.20),0 0 0 7px rgba(123,92,250,.055)
+}
+
+.hero-grid .lc-card:hover{
+border-color:transparent;
+box-shadow:0 44px 96px rgba(60,45,110,.16),0 0 70px rgba(123,92,250,.26),0 0 0 7px rgba(123,92,250,.08)
+}
+
+.lc-card::before{height:150px;background:linear-gradient(180deg,rgba(123,92,250,.10),rgba(123,92,250,0))}
+.lc-card::after{display:none}
+
+.hero-grid .lc-tag{margin-bottom:20px;justify-content:center;text-align:center;line-height:1.4}
+
+.hero-grid .lc-h{font-size:clamp(21px,3vw,27px);letter-spacing:-.02em;line-height:1.22}
+
+.hero-grid .lc-sub{font-size:14.5px;max-width:52ch;margin:10px auto 0}
+
+.hero-grid .lc-form{margin-top:26px;text-align:left}
+
+.hero-grid .lc-field{
+border-radius:18px;
+background:#fff;
+border:1.5px solid var(--line);
+box-shadow:inset 0 1px 2px rgba(60,45,110,.04);
+padding:0 18px;
+gap:12px
+}
+
+.hero-grid .lc-field svg{width:19px;height:19px;color:var(--purple-soft)}
+.hero-grid .lc-field input{font-size:16px;padding:20px 0}
+.hero-grid .lc-field:focus-within{border-color:var(--purple);box-shadow:0 0 0 5px rgba(123,92,250,.13)}
+
+.hero-grid .lc-btn{
+border-radius:18px;
+padding:18px 28px;
+font-size:16px;
+background:linear-gradient(135deg,#8A6CFF 0%,#6A47F0 55%,#5B3EE0 100%);
+box-shadow:0 12px 26px rgba(91,62,224,.34);
+animation:lcPulse2 3.4s ease-in-out infinite;
+position:relative;
+overflow:hidden
+}
+
+.hero-grid .lc-btn::after{
+content:"";position:absolute;top:0;bottom:0;left:-60%;width:40%;
+background:linear-gradient(100deg,transparent,rgba(255,255,255,.28),transparent);
+transform:skewX(-18deg);
+animation:lcShine 4.2s ease-in-out infinite
+}
+
+.hero-grid .lc-btn:hover{
+background:linear-gradient(135deg,#9578FF 0%,#7352F5 55%,#6446EA 100%);
+transform:translateY(-2px);
+box-shadow:0 16px 32px rgba(91,62,224,.42);
+animation:none
+}
+
+.hero-grid .lc-btn:active{transform:translateY(0) scale(.99)}
+
+@keyframes lcPulse2{
+0%{box-shadow:0 12px 26px rgba(91,62,224,.34),0 0 0 0 rgba(123,92,250,.30)}
+65%{box-shadow:0 12px 26px rgba(91,62,224,.34),0 0 0 10px rgba(123,92,250,0)}
+100%{box-shadow:0 12px 26px rgba(91,62,224,.34),0 0 0 0 rgba(123,92,250,0)}
+}
+
+@keyframes lcShine{
+0%,55%{left:-60%}
+85%,100%{left:130%}
+}
+
+@media(min-width:620px){
+.hero-grid .lc-row{gap:12px}
+.hero-grid .lc-row .lc-btn{padding-left:32px;padding-right:32px}
+}
+
+.hero-grid .lc-consent{justify-content:center;margin:14px 0 4px}
+.hero-grid .lc-consent span{font-size:12.5px;text-align:left}
+
+.hero-grid .lc-err{
+margin:12px auto 0;
+max-width:560px;
+text-align:center;
+font-size:13px;
+font-weight:500;
+color:var(--crit);
+background:var(--crit-wash);
+border:1px solid var(--crit-line);
+border-radius:12px;
+padding:10px 14px
+}
+
+.hero-grid .lc-note{
+justify-content:center;
+align-items:center;
+margin-top:16px;
+padding-top:16px;
+border-top:1px solid var(--line);
+font-size:12.5px
+}
+
+.hero-grid .lc-note svg{margin-top:0}
+
+/* ---------- loading: radar ---------- */
+
+.hero-grid .lc-load{flex-direction:column;gap:18px;padding:30px 0 6px}
+
+.hero-grid .lc-spin{
+width:84px;height:84px;
+border:2px solid rgba(123,92,250,.30);
+border-radius:50%;
+animation:none;
+position:relative;
+background:
+radial-gradient(circle,var(--purple) 0 4px,transparent 5px),
+radial-gradient(circle,transparent 0 17px,rgba(123,92,250,.22) 18px,transparent 19px),
+radial-gradient(circle,transparent 0 30px,rgba(123,92,250,.18) 31px,transparent 32px),
+rgba(123,92,250,.05)
+}
+
+.hero-grid .lc-spin::after{
+content:"";
+position:absolute;inset:-2px;border-radius:50%;
+background:conic-gradient(from 0deg,rgba(123,92,250,0) 0 62%,rgba(123,92,250,.65) 100%);
+animation:lcSpin 1.3s linear infinite
+}
+
+.hero-grid .lc-load-txt{font-family:"Space Grotesk";font-size:16px;font-weight:500;color:var(--ink)}
+
+.hero-grid .lc-skel{max-width:420px;margin:12px auto 6px}
+.hero-grid .lc-skel span{height:11px}
+
+/* ---------- result: severity badge ---------- */
+
+.hero-grid #lcResult{text-align:left}
+
+.lc-hd{text-align:center;padding:4px 0 6px}
+.lc-hd .lc-count{font-size:clamp(38px,6vw,54px);letter-spacing:-.035em}
+.lc-hd .lc-count-sub{font-size:14px;margin-top:6px}
+
+.lc-hd .lc-pill{
+display:inline-flex;align-items:center;gap:9px;
+margin:18px 0 0;
+font-family:"Space Grotesk";
+font-size:14px;font-weight:600;
+padding:10px 20px 10px 16px;
+border-radius:999px;
+border:1.5px solid transparent
+}
+
+.lc-hd .lc-pill::before{content:"";width:10px;height:10px;border-radius:50%;background:currentColor;animation:heroLive 2.2s ease-out infinite}
+
+.lc-hd .lc-pill.crit{border-color:var(--crit-line);box-shadow:0 8px 22px rgba(214,69,69,.18)}
+.lc-hd .lc-pill.note{border-color:#F4DCC4;color:#B4762F;box-shadow:0 8px 22px rgba(201,138,78,.18)}
+.lc-hd .lc-pill.calm{border-color:#CFE5DA;box-shadow:0 8px 22px rgba(111,169,141,.2)}
+
+.lc-hd .lc-pill.crit::before{--cr:214,69,69;box-shadow:0 0 0 0 rgba(214,69,69,.5)}
+
+.lc-bar{height:9px;margin:24px 0 12px}
+.lc-legend{justify-content:center;font-size:11.5px;gap:16px}
+.lc-legend b{width:8px;height:8px}
+
+/* ---------- result: breach cards ---------- */
+
+.lc-tl{padding-left:0;margin:22px 0 10px}
+.lc-tl:before{display:none}
+
+.lc-tl-item{
+background:#fff;
+border:1px solid var(--line);
+border-radius:20px;
+padding:18px 20px 18px 24px;
+margin-bottom:12px;
+box-shadow:0 2px 14px rgba(60,45,110,.06);
+overflow:hidden;
+transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease
+}
+
+.lc-tl-item:last-child{padding-bottom:18px;margin-bottom:0}
+
+.lc-tl-item::before{
+content:"";position:absolute;left:0;top:0;bottom:0;width:5px;
+background:linear-gradient(180deg,var(--purple),var(--purple-soft))
+}
+
+.lc-tl-item:hover{transform:translateY(-2px);border-color:rgba(123,92,250,.35);box-shadow:0 14px 34px rgba(60,45,110,.12)}
+
+.lc-tl-item:has(.lc-tl-dot.crit)::before{background:linear-gradient(180deg,#E25555,#F08A8A)}
+
+.lc-tl-dot{display:none}
+
+.lc-tl-yr{
+position:absolute;top:16px;right:16px;
+font-size:11.5px;font-weight:600;
+color:var(--purple-deep);
+background:var(--purple-mist);
+border-radius:999px;
+padding:4px 11px
+}
+
+.lc-tl-name{font-size:19px;padding-right:62px;letter-spacing:-.01em}
+.lc-tl-sub{margin-top:4px}
+.lc-chips{gap:6px;margin-top:12px}
+.lc-chip{font-size:11.5px;padding:4px 10px;background:var(--purple-mist);color:var(--purple-deep)}
+.lc-chip.crit{background:var(--crit-wash);color:var(--crit);font-weight:600}
+
+.lc-grp{
+background:#fff;
+border:1px solid var(--line);
+border-radius:16px;
+padding:15px 16px;
+color:var(--ink);
+font-weight:500;
+transition:border-color .2s ease,box-shadow .2s ease
+}
+
+.lc-grp:hover{border-color:rgba(123,92,250,.35);box-shadow:var(--soft-sm)}
+.lc-grp b{background:var(--purple-mist);color:var(--purple-deep)}
+.lc-grp-chev{color:var(--purple)}
+
+.lc-gap{
+border-radius:20px;
+background:linear-gradient(135deg,var(--purple-mist),#fff 70%);
+border:1px solid rgba(123,92,250,.20);
+padding:18px 20px
+}
+
+.lc-gap-t{font-size:15px}
+.lc-gap-p{font-size:13px}
+
+.lc-cta{
+border-radius:18px;
+padding:18px 24px;
+font-size:16px;
+background:linear-gradient(135deg,#8A6CFF 0%,#6A47F0 55%,#5B3EE0 100%);
+box-shadow:0 12px 26px rgba(91,62,224,.34);
+transition:transform .15s ease,box-shadow .2s ease
+}
+
+.lc-cta:hover{background:linear-gradient(135deg,#9578FF 0%,#7352F5 55%,#6446EA 100%);transform:translateY(-2px);box-shadow:0 16px 32px rgba(91,62,224,.42)}
+
+.lc-again{font-size:13px;margin-top:14px}
+
+/* ---------- tl;dr under the card ---------- */
+
+.page-hero .tldr{max-width:760px;margin:0 auto;text-align:left}
+
+/* ---------- dark mode ---------- */
+
+html[data-theme="dark"] .hero-eyebrow,
+html[data-theme="dark"] .hero-chips li,
+html[data-theme="dark"] .hero-grid .lc-field,
+html[data-theme="dark"] .lc-tl-item,
+html[data-theme="dark"] .lc-grp{background:#1B1726}
+
+html[data-theme="dark"] .hero-grid .lc-card{
+background:linear-gradient(#1B1726,#1B1726) padding-box,linear-gradient(135deg,rgba(164,143,251,.8),rgba(123,92,250,.22) 42%,rgba(240,177,131,.5)) border-box;
+box-shadow:0 40px 90px rgba(0,0,0,.5),0 0 60px rgba(123,92,250,.22),0 0 0 7px rgba(123,92,250,.08)
+}
+
+html[data-theme="dark"] .h1-grad{background:linear-gradient(100deg,#A48FFB 0%,#C9B8FF 50%,#F0B183 100%);-webkit-background-clip:text;background-clip:text}
+html[data-theme="dark"] .hero-eyebrow{color:#C9B8FF;border-color:rgba(164,143,251,.3)}
+html[data-theme="dark"] .hero-chips svg{color:var(--purple-soft)}
+html[data-theme="dark"] .page-hero::before{background-image:radial-gradient(rgba(164,143,251,.22) 1.1px,transparent 1.2px)}
+html[data-theme="dark"] .lc-gap{background:linear-gradient(135deg,rgba(123,92,250,.14),#1B1726 70%);border-color:rgba(164,143,251,.25)}
+html[data-theme="dark"] .lc-chip,
+html[data-theme="dark"] .lc-tl-yr,
+html[data-theme="dark"] .lc-grp b{background:rgba(123,92,250,.2);color:#C9B8FF}
+html[data-theme="dark"] .lc-chip.crit{background:rgba(214,69,69,.18);color:#FF8F8F}
+html[data-theme="dark"]{--crit-wash:rgba(214,69,69,.16);--crit-line:rgba(214,69,69,.38)}
+html[data-theme="dark"] .lc-pill.crit,
+html[data-theme="dark"] .lc-gap-t[style*="crit"]{color:#FF8F8F !important}
+html[data-theme="dark"] .lc-hd .lc-pill.note{color:#F0B183;border-color:rgba(240,177,131,.35)}
+html[data-theme="dark"] .lc-hd .lc-pill.calm{color:#8FD0B0;border-color:rgba(111,169,141,.4)}
+html[data-theme="dark"] .hero-grid .lc-err{color:#FF8F8F}
+
+/* ---------- mobile ---------- */
+
+@media(max-width:620px){
+.page-hero{padding-bottom:44px}
+.hero-grid{gap:26px}
+.page-hero .page-sub{font-size:15.5px}
+.hero-chips{gap:8px}
+.hero-chips li{font-size:12px;padding:7px 12px 7px 10px}
+.hero-grid .lc-card{padding:26px 18px 22px;border-radius:26px}
+.hero-grid .lc-row{display:block}
+.hero-grid .lc-row .lc-btn{width:100%;margin-top:11px}
+.lc-tl-item{padding:16px 16px 16px 20px}
+.lc-tl-name{font-size:17px}
+}
+
+@media(prefers-reduced-motion:reduce){
+.hero-eyebrow i,.hero-grid .lc-btn,.hero-grid .lc-btn::after,.lc-hd .lc-pill::before{animation:none}
+.hero-grid .lc-spin::after{animation-duration:2.6s}
+}
+
 </style>
 
 </head>
@@ -1911,13 +2305,22 @@ to{opacity:1;transform:translateY(0)}
 
 <div class="hero-grid">
 
-  <div>
+  <div class="hero-copy">
 
-    <h1 class="settle settle-1">Digital Footprint Checker: See What You Reveal Online</h1>
+    <span class="hero-eyebrow settle settle-1"><i></i>Free exposure check</span>
+
+    <h1 class="settle settle-1">Digital Footprint Checker:<span class="h1-grad"> See What You Reveal Online</span></h1>
 
     <p class="page-sub settle settle-2">
-      Free, instant email breach check.
+      Free, instant email breach check. See which known data breaches your email address appears in. No payment, no account.
     </p>
+
+    <ul class="hero-chips settle settle-3">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.2 7.8 8 9 4.8-1.2 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>800+ breaches checked</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Email never stored</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3 5 13h6l-1 8 8-10h-6l1-8Z"/></svg>Instant result</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>Free, no account</li>
+    </ul>
 
   </div>
 
@@ -2976,6 +3379,22 @@ if(e.key==='Enter'){e.preventDefault();run()}
 
 <script src="/assets/geo-price.js"></script>
 <script src="https://www.scanmyshadow.com/assets/theme.js"></script>
+
+<!-- Loading radar — cycling status text (cosmetic only) -->
+<script>
+(function(){
+  var ld = document.getElementById('lcLoading');
+  var tx = ld && ld.querySelector('.lc-load-txt');
+  if(!ld || !tx) return;
+  var msgs = ['Checking known breach records','Matching against 800+ breaches','Reading which data types leaked','Preparing your result'];
+  var i = 0;
+  setInterval(function(){
+    if(ld.hidden){ i = 0; tx.textContent = msgs[0]; return; }
+    i = Math.min(i + 1, msgs.length - 1);
+    tx.textContent = msgs[i];
+  }, 1100);
+})();
+</script>
 
 <!-- Hero email field — looping typewriter placeholder (same as homepage) -->
 <script>
