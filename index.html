@@ -1933,7 +1933,25 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
               payment_id: response.razorpay_payment_id
             });
             var formTarget = data.currency === 'USD' ? FORM_URL_INTL : FORM_URL;
-            window.location.href = formTarget + '?' + params.toString();
+            var redirected = false;
+            function goToForm(){
+              if(redirected) return;
+              redirected = true;
+              window.location.href = formTarget + '?' + params.toString();
+            }
+            try{
+              if(typeof gtag === 'function'){
+                var paidAmt = (data.amount || 0) / 100;
+                gtag('event','purchase',{
+                  transaction_id: response.razorpay_payment_id,
+                  value: paidAmt,
+                  currency: data.currency,
+                  items: [{item_id:'privacy_scan', item_name:'Privacy Scan', price: paidAmt, quantity: 1}],
+                  event_callback: goToForm
+                });
+                setTimeout(goToForm, 1000);
+              } else { goToForm(); }
+            }catch(e){ goToForm(); }
           },
           modal: {
             ondismiss: function(){
