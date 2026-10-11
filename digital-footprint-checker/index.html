@@ -3257,6 +3257,12 @@ h+='<div class="lc-count-sub">'+(count===0?'across known breach records':'your e
 h+='<span class="lc-pill '+b.k+'">'+b.pill+'</span>';
 h+='</div>';
 
+var topLine = count===0
+  ? 'Good sign, but this check only covers 800 sources. The full scan covers 1,500+, and your phone number too.'
+  : count+' '+(count===1?'breach':'breaches')+' here. This check covers 800 sources. The full scan covers 1,500+, plus your phone number.';
+h+='<a class="lc-cta" href="/#pricing" style="margin-top:14px" onclick="if(typeof gtag===&quot;function&quot;){gtag(&quot;event&quot;,&quot;full_report_cta_click_exc_top&quot;,{})}">'+topLine+' See full scan &middot; <span class="price-tag">'+livePrice()+'</span></a>';
+h+='<div class="scan-ticker" style="justify-content:center;margin-top:10px"><span class="scan-ticker-dot"></span>3,100+ people have checked their exposure so far</div>';
+
 h+='<div class="lc-bar">';
 if(b.crit)h+='<i class="crit" style="width:'+b.crit+'%"></i>';
 if(b.note)h+='<i class="note" style="width:'+b.note+'%"></i>';

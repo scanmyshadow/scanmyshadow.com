@@ -2259,6 +2259,11 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       h += '<div class="fr-in" style="--i:0"><div class="fr-count">' + (count===0 ? 'No breaches' : '<span class="fr-num" data-t="'+count+'">'+count+'</span> '+(count===1?'breach':'breaches')) + '</div>';
       h += '<div class="fr-sub">' + (count===0 ? 'across known breach records' : frEsc(maskEmail(email))+' appears in known breach records') + '</div>';
       h += '<span class="fr-pill '+band.k+'">'+band.t+'</span></div>';
+      var frTop = count===0
+        ? 'Good sign, but this check only covers 800 sources. The full scan covers 1,500+, and your phone number too.'
+        : count+' '+(count===1?'breach':'breaches')+' here. This check covers 800 sources. The full scan covers 1,500+, plus your phone number.';
+      h += '<a class="btn-price" href="/#pricing" style="margin-top:14px;display:block;text-align:center;text-decoration:none;box-sizing:border-box" onclick="if(typeof gtag===\'function\'){gtag(\'event\',\'full_report_cta_click_home_top\',{})}">'+frTop+' See full scan &middot; <span class="price-tag">$9.99</span></a>';
+      h += '<div class="scan-ticker" style="justify-content:center;margin-top:10px"><span class="scan-ticker-dot"></span>3,100+ people have checked their exposure so far</div>';
       h += '<div class="fr-bar"><i class="'+band.k+'"></i></div>';
       h += '<div class="fr-legend fr-in" style="--i:1"><span><b class="calm"></b>Nothing found</span><span><b class="note"></b>Some exposure</span><span><b class="crit"></b>Passwords or ID data exposed</span></div>';
       if(critN > 0){
