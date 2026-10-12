@@ -989,6 +989,36 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .free-consent input{width:15px; height:15px; margin-top:2px; accent-color:var(--purple); flex-shrink:0; cursor:pointer;}
   .free-consent span{font-size:12px; color:var(--ink-soft); line-height:1.5;}
 
+  /* ============ result-screen sales flow (additive, new classes only) ============ */
+  .fr-lead{margin-top:16px;}
+  .fr-lead-t{font-family:'Space Grotesk',sans-serif; font-size:19px; font-weight:600; color:var(--ink); line-height:1.3; overflow-wrap:anywhere;}
+  .fr-lead p{font-size:13.5px; color:var(--ink-soft); line-height:1.6; margin-top:6px;}
+  .fr-leak{margin-top:18px; padding:14px 15px; background:var(--bg-tint); border-radius:12px;}
+  .fr-leak-h,.fr-gap-h{font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--purple-deep); margin-bottom:8px;}
+  .fr-leak-row{padding:8px 0; border-top:1px solid var(--line); font-size:13px; color:var(--ink-soft); line-height:1.5;}
+  .fr-leak-row:first-of-type{border-top:0; padding-top:0;}
+  .fr-leak-row b{color:var(--ink); font-weight:600;}
+  .fr-leak-row em{font-style:normal; color:var(--ink-faint); font-size:12px; margin-left:4px;}
+  .fr-gap{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:18px;}
+  .fr-gap-col{padding:13px 14px; border:1px solid var(--line); border-radius:12px; min-width:0;}
+  .fr-gap-col.no{border-color:#F0D9B8; background:#FFFAF3;}
+  .fr-gap-h.ok{color:#4E8A6E;} .fr-gap-h.no{color:#B4762F;}
+  .fr-gap-col ul{list-style:none; margin:0; padding:0;}
+  .fr-gap-col li{font-size:12.5px; color:var(--ink-soft); line-height:1.5; padding:3px 0; overflow-wrap:anywhere;}
+  @media(max-width:380px){ .fr-gap{grid-template-columns:1fr;} }
+  .fr-sample{margin-top:16px; border:1px solid var(--line); border-radius:12px; padding:13px 14px; background:var(--card);}
+  .fr-sample-h{font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:6px;}
+  .fr-sample-row{display:flex; justify-content:space-between; gap:12px; padding:9px 0; border-top:1px solid var(--line); font-size:13px; color:var(--ink-soft);}
+  .fr-sample-row:first-of-type{border-top:0;}
+  .fr-sample-row b{color:var(--ink); font-weight:600; flex-shrink:0;}
+  .fr-sample-blur{filter:blur(5px); user-select:none; pointer-events:none;}
+  .fr-sample-cap{font-size:11px; color:var(--ink-faint); line-height:1.5; margin-top:8px;}
+  .fr-cta-note{font-size:12px; color:var(--ink-soft); line-height:1.55; margin-top:10px; text-align:center;}
+  .fr-cta-note a,.fr-founder a{color:var(--purple-deep); text-decoration:underline;}
+  .fr-founder{display:flex; align-items:center; gap:11px; margin-top:14px; padding:11px 13px; background:var(--bg-tint); border-radius:12px; font-size:12.5px; color:var(--ink-soft); line-height:1.5; text-align:left;}
+  .fr-founder img{width:44px; height:44px; border-radius:50%; object-fit:cover; flex-shrink:0;}
+  .fr-founder b{color:var(--ink); font-weight:600;}
+
   /* ============ HIBP result — timeline layout ============ */
   .fr-res{grid-column:1/-1; min-width:0; text-align:left;}
   .fr-count{font-family:'Space Grotesk',sans-serif; font-size:34px; font-weight:600; color:var(--ink); line-height:1.1; letter-spacing:-.02em;}
@@ -1216,7 +1246,6 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
           Free breach check · data by <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">Have I Been Pwned</a>
         </div>
-        <div class="scan-ticker"><span class="scan-ticker-dot"></span>3,100+ people have checked their exposure so far</div>
         <div class="scan-fields">
           <div class="field">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
@@ -1262,27 +1291,19 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
         <div class="free-breach-count" id="freeBreachCount">0<span>breaches found</span></div>
         <div class="free-breach-list" id="freeBreachList"></div>
 
-        <div class="free-upsell-note">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg>
-          <span><b>Initial results — a check of your email against known breach records.</b> The full scan goes deeper: your phone number + your email across 1,500+ public sources, and a simple, detailed guide to remove your digital footprint.</span>
-        </div>
-
         <div class="field" style="display:none;">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
           <input type="email" id="emailInput" placeholder="Your email address" autocomplete="email" readonly>
         </div>
         <button class="btn-scan" id="scanBtn">
-          Get Full Report — <span class="price-tag">$9.99</span>
+          <span><span id="scanBtnLabel">Check my phone + email</span> &middot; <span class="price-tag">$9.99</span></span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </button>
-        <div class="scan-note">
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login</span>
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No passwords</span>
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Private</span>
-        </div>
-        <div class="scan-trust" style="display:flex; align-items:flex-start; gap:8px; font-size:13px; color:var(--ink-soft); line-height:1.55; margin-top:14px; text-align:left;">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px; height:15px; flex-shrink:0; margin-top:2px;"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-          Your phone and email are used only to run your scan. We do Not store, share or sell your information. Your Scan data is deleted immediately after your report is delivered.
+        <div class="fr-cta-note">One-time payment. Report in about 5 minutes. Your scan data is deleted after your report is delivered.</div>
+        <div class="fr-cta-note">System error? Free re-scan or full refund. <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a></div>
+        <div class="fr-founder">
+          <img src="/founder.jpg" width="44" height="44" alt="Siddharth, founder of Scan My Shadow" loading="lazy">
+          <div><b>Built by Siddharth, founder.</b> Questions before you pay? <a href="/contact.html">Message me</a>.</div>
         </div>
         <div class="lc-attrib" style="text-align:center;font-size:10.5px;color:var(--ink-faint);margin-top:10px;">
           Breach data from <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener">Have I Been Pwned</a>, used under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
@@ -2251,36 +2272,80 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       function f(ts){ if(!s) s = ts; var p = Math.min((ts-s)/900,1); el.textContent = Math.round(t*p); if(p<1) requestAnimationFrame(f); }
       requestAnimationFrame(f);
     }
+    function frLead(sev, count, pwN, critN){
+      var w = count===1 ? 'breach' : 'breaches';
+      var phone = "Your phone number, where scam calls and texts arrive, hasn't been checked yet.";
+      if(sev==='high'){
+        var t = 'Your email was in '+count+' '+w+'.';
+        if(pwN>0) t += ' A password was exposed in '+pwN+'.';
+        else if(critN>0) t += ' Sensitive identity data was exposed in '+critN+'.';
+        var p = (pwN>0 ? "If you've reused that password anywhere, those accounts are at risk right now. " : 'More than just your email address was exposed. ') + 'This check covered your email only. ' + phone;
+        return {t:t,p:p};
+      }
+      if(sev==='moderate') return {t:'Your email showed up in '+count+' '+w+'.', p:'Details like these are what fake bank and courier messages are built from. '+phone};
+      if(sev==='low') return {t:'Your email was in '+count+' '+w+'. Low risk, not zero.', p:'Even one leak can put an address on phishing lists. '+phone};
+      return {t:'No breaches found for this email. Good news.', p:"This was one email checked against breach records. Scam calls and texts reach you through your phone number, which breach records don't cover."};
+    }
+    var frLEAK = [
+      {re:/password/i, label:'Passwords', note:'Anyone holding that list can try it on your other accounts.'},
+      {re:/phone/i, label:'Phone numbers', note:'Can explain the spam and scam calls you may be getting.'},
+      {re:/date of birth|physical address|government|passport|social security/i, label:'Birth date, address or ID details', note:'Used to answer security questions and attempt fake KYC.'},
+      {re:/email address/i, label:'Email addresses', note:'Can put you on phishing lists.'}
+    ];
+    function frLeaks(breaches, i){
+      var rows = '';
+      frLEAK.forEach(function(L){
+        var n = 0;
+        breaches.forEach(function(b){ if((b.dataClasses||[]).some(function(c){ return L.re.test(c); })) n++; });
+        if(n>0) rows += '<div class="fr-leak-row"><b>'+L.label+'</b><em>in '+n+' '+(n===1?'breach':'breaches')+'</em><br>'+L.note+'</div>';
+      });
+      if(!rows) return '';
+      return '<div class="fr-leak fr-in" style="--i:'+i+'"><div class="fr-leak-h">What leaked about you</div>'+rows+'</div>';
+    }
+    function frGap(i){
+      return '<div class="fr-gap fr-in" style="--i:'+i+'">'
+        + '<div class="fr-gap-col"><div class="fr-gap-h ok">Checked</div><ul><li>Your email, against known breach records</li></ul></div>'
+        + '<div class="fr-gap-col no"><div class="fr-gap-h no">Not checked yet</div><ul><li>Your phone number</li><li>1,500+ public sources</li><li>Where your details are listed</li><li>How to remove them</li></ul></div>'
+        + '</div>';
+    }
+    function frSample(i){
+      return '<div class="fr-sample fr-in" style="--i:'+i+'"><div class="fr-sample-h">Sample report</div>'
+        + '<div class="fr-sample-row"><span>Account / profile matches</span><b>Multiple</b></div>'
+        + '<div class="fr-sample-blur" aria-hidden="true">'
+        + '<div class="fr-sample-row"><span>Public service registration</span><b>Found</b></div>'
+        + '<div class="fr-sample-row"><span>Activity history</span><b>3 events</b></div>'
+        + '<div class="fr-sample-row"><span>What to do next</span><b>Step-by-step guide</b></div>'
+        + '</div>'
+        + '<div class="fr-sample-cap">From a real report, personal details removed. Yours will show your own results.</div></div>';
+    }
     function frBuild(email, data, breaches){
       var sev = data.severity || 'clear', count = breaches.length;
       var band = {clear:{k:'calm',t:'Nothing found'}, low:{k:'note',t:'Low exposure'}, moderate:{k:'note',t:'Some exposure'}, high:{k:'crit',t:'High exposure'}}[sev] || {k:'calm',t:'Nothing found'};
-      var critN = data.criticalCount || 0;
+      var critN = data.criticalCount || 0, pwN = 0;
+      breaches.forEach(function(b){ if((b.dataClasses||[]).some(function(c){ return /password/i.test(c); })) pwN++; });
+      var lead = frLead(sev, count, pwN, critN);
       var h = '<div class="fr-res">';
       h += '<div class="fr-in" style="--i:0"><div class="fr-count">' + (count===0 ? 'No breaches' : '<span class="fr-num" data-t="'+count+'">'+count+'</span> '+(count===1?'breach':'breaches')) + '</div>';
       h += '<div class="fr-sub">' + (count===0 ? 'across known breach records' : frEsc(maskEmail(email))+' appears in known breach records') + '</div>';
       h += '<span class="fr-pill '+band.k+'">'+band.t+'</span></div>';
-      var frTop = count===0
-        ? 'Good sign, but this check only covers 800 sources. The full scan covers 1,500+, and your phone number too.'
-        : count+' '+(count===1?'breach':'breaches')+' here. This check covers 800 sources. The full scan covers 1,500+, plus your phone number.';
-      h += '<a class="btn-price" href="/#pricing" style="margin-top:14px;display:block;text-align:center;text-decoration:none;box-sizing:border-box" onclick="if(typeof gtag===\'function\'){gtag(\'event\',\'full_report_cta_click_home_top\',{})}">'+frTop+' See full scan &middot; <span class="price-tag">$9.99</span></a>';
-      h += '<div class="scan-ticker" style="justify-content:center;margin-top:10px"><span class="scan-ticker-dot"></span>3,100+ people have checked their exposure so far</div>';
+      h += '<div class="fr-lead fr-in" style="--i:1"><div class="fr-lead-t">'+frEsc(lead.t)+'</div><p>'+frEsc(lead.p)+'</p></div>';
       h += '<div class="fr-bar"><i class="'+band.k+'"></i></div>';
-      h += '<div class="fr-legend fr-in" style="--i:1"><span><b class="calm"></b>Nothing found</span><span><b class="note"></b>Some exposure</span><span><b class="crit"></b>Passwords or ID data exposed</span></div>';
-      if(critN > 0){
-        h += '<div class="fr-why fr-in" style="--i:2"><div class="fr-why-t">Why this is marked high</div><div class="fr-why-p">'+critN+' of these '+(critN===1?'breach exposed':'breaches exposed')+' passwords or identity data, not just an email address. If you have reused that password anywhere, change it on those accounts first.</div></div>';
-      }
+      h += frLeaks(breaches, 2);
+      var gi = 3;
       if(count > 0){
-        var top = breaches.filter(frIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,5);
+        var top = breaches.filter(frIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,3);
         top.sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
         var steal = breaches.filter(frIsStealer);
         var rest = breaches.filter(function(x){ return top.indexOf(x) < 0 && !frIsStealer(x); });
         if(top.length){ h += '<div class="fr-tl">'; top.forEach(function(b,i){ h += frItem(b,i); }); h += '</div>'; }
-        var gi = top.length + 3;
+        gi = top.length + 3;
         if(steal.length || rest.length) h += '<div class="fr-grps">';
         if(steal.length) h += frGroup('Infostealer malware logs', steal, gi++);
         if(rest.length) h += frGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++);
         if(steal.length || rest.length) h += '</div>';
       }
+      h += frGap(gi++);
+      h += frSample(gi++);
       return h + '</div>';
     }
 
@@ -2298,6 +2363,8 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     };
     var bMeta = badgeMap[sev] || badgeMap.clear;
     badge.textContent = bMeta.text; badge.className = bMeta.cls;
+    var scanLbl = document.getElementById('scanBtnLabel');
+    if(scanLbl) scanLbl.textContent = (sev==='clear') ? 'Check my phone number too' : 'Check my phone + email';
     var list = document.getElementById('freeBreachList');
     list.innerHTML = '';
     var topRow = document.querySelector('#freePhaseResult .free-result-top');
