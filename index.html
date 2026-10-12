@@ -1006,13 +1006,19 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .fr-gap-col ul{list-style:none; margin:0; padding:0;}
   .fr-gap-col li{font-size:12.5px; color:var(--ink-soft); line-height:1.5; padding:3px 0; overflow-wrap:anywhere;}
   @media(max-width:380px){ .fr-gap{grid-template-columns:1fr;} }
-  .fr-sample{margin-top:16px; border:1px solid var(--line); border-radius:12px; padding:13px 14px; background:var(--card);}
-  .fr-sample-h{font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:6px;}
-  .fr-sample-row{display:flex; justify-content:space-between; gap:12px; padding:9px 0; border-top:1px solid var(--line); font-size:13px; color:var(--ink-soft);}
-  .fr-sample-row:first-of-type{border-top:0;}
-  .fr-sample-row b{color:var(--ink); font-weight:600; flex-shrink:0;}
-  .fr-sample-blur{filter:blur(5px); user-select:none; pointer-events:none;}
-  .fr-sample-cap{font-size:11px; color:var(--ink-faint); line-height:1.5; margin-top:8px;}
+  .fr-sample{margin-top:18px; border:1px solid var(--line); border-radius:12px; padding:14px; background:var(--card);}
+  .fr-sample-h{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--purple-deep); background:var(--purple-mist); padding:4px 10px; border-radius:999px;}
+  .fr-sample-flag{position:absolute; top:10px; left:10px; z-index:1; font-size:10px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#fff; background:rgba(21,18,31,.78); padding:3px 9px; border-radius:999px;}
+  .fr-sample-cap b{color:var(--ink-soft); font-weight:600;}
+  .fr-sample-t{font-family:'Space Grotesk',sans-serif; font-size:16px; font-weight:600; color:var(--ink); line-height:1.3; margin-top:4px;}
+  .fr-sample-id{font-size:12px; color:var(--ink-faint); margin-top:2px;}
+  .fr-sample-stats{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:12px;}
+  .fr-sample-stat{padding:10px 11px; background:var(--bg-tint); border-radius:10px; min-width:0;}
+  .fr-sample-stat b{display:block; font-family:'Space Grotesk',sans-serif; font-size:22px; font-weight:600; color:var(--ink); line-height:1.1;}
+  .fr-sample-stat.hot b{color:#D64545;}
+  .fr-sample-stat span{display:block; font-size:11.5px; color:var(--ink-soft); margin-top:2px;}
+  .fr-sample .proof-map{margin-top:12px; height:150px;}
+  .fr-sample-cap{font-size:11px; color:var(--ink-faint); line-height:1.5; margin-top:10px;}
   .fr-cta-note{font-size:12px; color:var(--ink-soft); line-height:1.55; margin-top:10px; text-align:center;}
   .fr-cta-note a,.fr-founder a{color:var(--purple-deep); text-decoration:underline;}
   .fr-founder{display:flex; align-items:center; gap:11px; margin-top:14px; padding:11px 13px; background:var(--bg-tint); border-radius:12px; font-size:12.5px; color:var(--ink-soft); line-height:1.5; text-align:left;}
@@ -1200,7 +1206,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   <div class="wrap hero-inner">
     <div class="eyebrow" style="margin-bottom:12px;">Scan My Shadow</div>
     <h1>Where Does Your Data Really Show Up? <span class="accent">Start With Your Email.</span></h1>
-    <p class="hero-sub">Run a free instant check of your email against known data breaches. Then see the full picture: your phone number and email scanned across 1,500+ sources, with step-by-step removal guidance, in about 5 minutes.</p>
+    <p class="hero-sub">Your email address, phone number and old accounts leave traces across the internet. Run a free digital footprint scan to see which known data breaches your email appears in — and what to do next.</p>
     <p style="font-size:13px; color:var(--ink-faint); margin-top:14px; letter-spacing:0.02em;">Phone + Email • Automated • No passwords required</p>
   </div>
 
@@ -2309,14 +2315,19 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
         + '</div>';
     }
     function frSample(i){
-      return '<div class="fr-sample fr-in" style="--i:'+i+'"><div class="fr-sample-h">Sample report</div>'
-        + '<div class="fr-sample-row"><span>Account / profile matches</span><b>Multiple</b></div>'
-        + '<div class="fr-sample-blur" aria-hidden="true">'
-        + '<div class="fr-sample-row"><span>Public service registration</span><b>Found</b></div>'
-        + '<div class="fr-sample-row"><span>Activity history</span><b>3 events</b></div>'
-        + '<div class="fr-sample-row"><span>What to do next</span><b>Step-by-step guide</b></div>'
+      return '<div class="fr-sample fr-in" style="--i:'+i+'">'
+        + '<div class="fr-sample-h">Sample report &middot; not your data</div>'
+        + '<div class="fr-sample-t">What one email address can reveal</div>'
+        + '<div class="fr-sample-id">s\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022@gmail.com</div>'
+        + '<div class="fr-sample-stats">'
+        + '<div class="fr-sample-stat"><b>22</b><span>accounts found</span></div>'
+        + '<div class="fr-sample-stat"><b>26</b><span>past data leaks</span></div>'
+        + '<div class="fr-sample-stat"><b>114</b><span>activity found</span></div>'
+        + '<div class="fr-sample-stat hot"><b>71</b><span>locations found</span></div>'
         + '</div>'
-        + '<div class="fr-sample-cap">From a real report, personal details removed. Yours will show your own results.</div></div>';
+        + '<div class="proof-map"><span class="fr-sample-flag">Sample</span><img src="/pushkar.png" alt="Sample redacted map from a real report showing an approximate location area in Buenos Aires, Argentina" loading="lazy">'
+        + '<div class="proof-map-overlay"><span class="tag">Location found</span><strong>Buenos Aires, Argentina</strong><small>Exact point hidden in this sample</small></div></div>'
+        + '<div class="fr-sample-cap"><b>This is a sample report, not your results.</b> It comes from a real scan, with personal identifiers and exact points hidden. Yours will show your own findings.</div></div>';
     }
     function frBuild(email, data, breaches){
       var sev = data.severity || 'clear', count = breaches.length;
