@@ -1356,6 +1356,47 @@ line-height:1.55
 
 .lc-attrib a{color:var(--ink-soft);text-decoration:underline;text-underline-offset:2px}
 .lc-attrib a:hover{color:var(--purple-deep)}
+/* ===== result-screen sales flow (additive, lcx- classes only) ===== */
+.lcx-lead{margin-top:16px}
+.lcx-lead-t{font-family:"Space Grotesk";font-size:19px;font-weight:600;color:var(--ink);line-height:1.3;overflow-wrap:anywhere}
+.lcx-lead p{font-size:13.5px;color:var(--ink-soft);line-height:1.6;margin-top:6px}
+.lcx-leak{margin-top:18px;padding:14px 15px;background:var(--paper-warm);border:1px solid var(--line-warm);border-radius:var(--r-sm)}
+.lcx-h{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--purple-deep);margin-bottom:8px}
+.lcx-leak-row{padding:8px 0;border-top:1px solid var(--line);font-size:13px;color:var(--ink-soft);line-height:1.5}
+.lcx-leak-row:first-of-type{border-top:0;padding-top:0}
+.lcx-leak-row b{color:var(--ink);font-weight:600}
+.lcx-leak-row em{font-style:normal;color:var(--ink-faint);font-size:12px;margin-left:4px}
+.lcx-gap{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.lcx-gap-col{padding:13px 14px;border:1px solid var(--line);border-radius:var(--r-sm);min-width:0}
+.lcx-gap-col.no{border-color:rgba(240,177,131,.5);background:var(--apricot-wash)}
+.lcx-gap-col .lcx-h.ok{color:var(--sage)}
+.lcx-gap-col .lcx-h.no{color:#B4762F}
+.lcx-gap-col ul{list-style:none;margin:0;padding:0}
+.lcx-gap-col li{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding:3px 0;overflow-wrap:anywhere}
+@media(max-width:380px){.lcx-gap{grid-template-columns:1fr}}
+.lcx-sample{margin-top:18px;border:1px solid var(--line);border-radius:var(--r-sm);padding:14px;background:var(--paper)}
+.lcx-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--purple-deep);background:var(--purple-mist);padding:4px 10px;border-radius:999px}
+.lcx-sample-t{font-family:"Space Grotesk";font-size:16px;font-weight:600;color:var(--ink);line-height:1.3;margin-top:8px}
+.lcx-sample-id{font-size:12px;color:var(--ink-faint);margin-top:2px}
+.lcx-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.lcx-stat{padding:10px 11px;background:var(--paper-warm);border-radius:10px;min-width:0}
+.lcx-stat b{display:block;font-family:"Space Grotesk";font-size:22px;font-weight:600;color:var(--ink);line-height:1.1}
+.lcx-stat.hot b{color:var(--crit)}
+.lcx-stat span{display:block;font-size:11.5px;color:var(--ink-soft);margin-top:2px}
+.lcx-map{position:relative;height:150px;border-radius:13px;overflow:hidden;margin-top:12px;background:#EEF0EA}
+.lcx-map img{width:100%;height:100%;object-fit:cover;display:block}
+.lcx-flag{position:absolute;top:10px;left:10px;z-index:1;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:rgba(21,18,31,.78);padding:3px 9px;border-radius:999px}
+.lcx-ov{position:absolute;left:11px;bottom:11px;background:rgba(255,255,255,.94);border:1px solid rgba(233,231,245,.95);border-radius:10px;padding:8px 10px;box-shadow:0 6px 18px rgba(43,29,102,.10)}
+.lcx-ov span{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.06em;color:#5A3FE0;text-transform:uppercase}
+.lcx-ov strong{display:block;font-size:12px;margin-top:2px;color:#15121F}
+.lcx-ov small{display:block;color:#605C73;font-size:10.5px;margin-top:1px}
+.lcx-cap{font-size:11px;color:var(--ink-faint);line-height:1.5;margin-top:10px}
+.lcx-cap b{color:var(--ink-soft);font-weight:600}
+.lcx-note{font-size:12px;color:var(--ink-soft);line-height:1.55;margin-top:10px;text-align:center}
+.lcx-note a,.lcx-founder a{color:var(--purple-deep);text-decoration:underline}
+.lcx-founder{display:flex;align-items:center;gap:11px;margin-top:14px;padding:11px 13px;background:var(--paper-warm);border-radius:var(--r-sm);font-size:12.5px;color:var(--ink-soft);line-height:1.5;text-align:left}
+.lcx-founder img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0}
+.lcx-founder b{color:var(--ink);font-weight:600}
 
 .lc-tag a{color:var(--purple-deep);text-decoration:underline;text-underline-offset:2px}
 .lc-tag a:hover{color:var(--purple)}
@@ -2312,7 +2353,7 @@ html[data-theme="dark"] .hero-grid .lc-err{color:#FF8F8F}
     <h1 class="settle settle-1">Digital Footprint Checker:<span class="h1-grad"> See What You Reveal Online</span></h1>
 
     <p class="page-sub settle settle-2">
-      Run a free instant check of your email against known data breaches. Then see the full picture: your phone number and email scanned across 1,500+ sources, with step-by-step removal guidance, in about 5 minutes.
+      Your email address, phone number and old accounts leave traces across the internet. Run a free digital footprint scan to see which known data breaches your email appears in — and what to do next.
     </p>
 
     <ul class="hero-chips settle settle-3">
@@ -3243,6 +3284,61 @@ if(p<1)requestAnimationFrame(f);
 requestAnimationFrame(f);
 }
 
+function lcxLead(sev,count,pwN,critN){
+var w=count===1?'breach':'breaches';
+var phone="Your phone number, where scam calls and texts arrive, hasn't been checked yet.";
+if(sev==='high'){
+var t='Your email was in '+count+' '+w+'.';
+if(pwN>0)t+=' A password was exposed in '+pwN+'.';
+else if(critN>0)t+=' Sensitive identity data was exposed in '+critN+'.';
+var p=(pwN>0?"If you've reused that password anywhere, those accounts are at risk right now. ":'More than just your email address was exposed. ')+'This check covered your email only. '+phone;
+return {t:t,p:p};
+}
+if(sev==='moderate')return {t:'Your email showed up in '+count+' '+w+'.',p:'Details like these are what fake bank and courier messages are built from. '+phone};
+if(sev==='low')return {t:'Your email was in '+count+' '+w+'. Low risk, not zero.',p:'Even one leak can put an address on phishing lists. '+phone};
+return {t:'No breaches found for this email. Good news.',p:"This was one email checked against breach records. Scam calls and texts reach you through your phone number, which breach records don't cover."};
+}
+var LCX_LEAK=[
+{re:/password/i,label:'Passwords',note:'Anyone holding that list can try it on your other accounts.'},
+{re:/phone/i,label:'Phone numbers',note:'Can explain the spam and scam calls you may be getting.'},
+{re:/date of birth|physical address|government|passport|social security/i,label:'Birth date, address or ID details',note:'Used to answer security questions and attempt fake KYC.'},
+{re:/email address/i,label:'Email addresses',note:'Can put you on phishing lists.'}
+];
+function lcxLeaks(list,i){
+var rows='';
+for(var a=0;a<LCX_LEAK.length;a++){
+var L=LCX_LEAK[a],n=0;
+for(var b=0;b<list.length;b++){
+var dc=list[b].dataClasses||[];
+for(var c=0;c<dc.length;c++){if(L.re.test(dc[c])){n++;break}}
+}
+if(n>0)rows+='<div class="lcx-leak-row"><b>'+L.label+'</b><em>in '+n+' '+(n===1?'breach':'breaches')+'</em><br>'+L.note+'</div>';
+}
+if(!rows)return '';
+return '<div class="lcx-leak lc-in" style="--i:'+i+'"><div class="lcx-h">What leaked about you</div>'+rows+'</div>';
+}
+function lcxGap(i){
+return '<div class="lcx-gap lc-in" style="--i:'+i+'">'
++'<div class="lcx-gap-col"><div class="lcx-h ok">Checked</div><ul><li>Your email, against known breach records</li></ul></div>'
++'<div class="lcx-gap-col no"><div class="lcx-h no">Not checked yet</div><ul><li>Your phone number</li><li>1,500+ public sources</li><li>Where your details are listed</li><li>How to remove them</li></ul></div>'
++'</div>';
+}
+function lcxSample(i){
+return '<div class="lcx-sample lc-in" style="--i:'+i+'">'
++'<span class="lcx-badge">Sample report &middot; not your data</span>'
++'<div class="lcx-sample-t">What one email address can reveal</div>'
++'<div class="lcx-sample-id">s••••••••@gmail.com</div>'
++'<div class="lcx-stats">'
++'<div class="lcx-stat"><b>22</b><span>accounts found</span></div>'
++'<div class="lcx-stat"><b>26</b><span>past data leaks</span></div>'
++'<div class="lcx-stat"><b>114</b><span>activity found</span></div>'
++'<div class="lcx-stat hot"><b>71</b><span>locations found</span></div>'
++'</div>'
++'<div class="lcx-map"><span class="lcx-flag">Sample</span><img src="/pushkar.png" alt="Sample redacted map from a real report showing an approximate location area in Buenos Aires, Argentina" loading="lazy">'
++'<div class="lcx-ov"><span>Location found</span><strong>Buenos Aires, Argentina</strong><small>Exact point hidden in this sample</small></div></div>'
++'<div class="lcx-cap"><b>This is a sample report, not your results.</b> It comes from a real scan, with personal identifiers and exact points hidden. Yours will show your own findings.</div></div>';
+}
+
 function render(d){
 var list=(d&&d.breaches)||[];
 var count=(d&&typeof d.count==='number')?d.count:list.length;
@@ -3257,11 +3353,10 @@ h+='<div class="lc-count-sub">'+(count===0?'across known breach records':'your e
 h+='<span class="lc-pill '+b.k+'">'+b.pill+'</span>';
 h+='</div>';
 
-var topLine = count===0
-  ? 'Good sign, but this check only covers 800 sources. The full scan covers 1,500+, and your phone number too.'
-  : count+' '+(count===1?'breach':'breaches')+' here. This check covers 800 sources. The full scan covers 1,500+, plus your phone number.';
-h+='<a class="lc-cta" href="/#pricing" style="margin-top:14px" onclick="if(typeof gtag===&quot;function&quot;){gtag(&quot;event&quot;,&quot;full_report_cta_click_exc_top&quot;,{})}">'+topLine+' See full scan &middot; <span class="price-tag">'+livePrice()+'</span></a>';
-h+='<div class="scan-ticker" style="justify-content:center;margin-top:10px"><span class="scan-ticker-dot"></span>3,100+ people have checked their exposure so far</div>';
+var pwN=0;
+for(var q=0;q<list.length;q++){var qc=list[q].dataClasses||[];for(var r2=0;r2<qc.length;r2++){if(/password/i.test(qc[r2])){pwN++;break}}}
+var lead=lcxLead(sev,count,pwN,critN);
+h+='<div class="lcx-lead lc-in" style="--i:1"><div class="lcx-lead-t">'+esc(lead.t)+'</div><p>'+esc(lead.p)+'</p></div>';
 
 h+='<div class="lc-bar">';
 if(b.crit)h+='<i class="crit" style="width:'+b.crit+'%"></i>';
@@ -3269,22 +3364,11 @@ if(b.note)h+='<i class="note" style="width:'+b.note+'%"></i>';
 if(b.calm)h+='<i class="calm" style="width:'+b.calm+'%"></i>';
 h+='</div>';
 
-h+='<div class="lc-legend lc-in" style="--i:1">';
-h+='<span><b class="calm"></b>Nothing found</span>';
-h+='<span><b class="note"></b>Some exposure</span>';
-h+='<span><b class="crit"></b>Passwords or ID data exposed</span>';
-h+='</div>';
-
-if(critN>0){
-h+='<div class="lc-gap lc-in" style="--i:2;margin-top:16px;background:var(--crit-wash);border-color:var(--crit-line)">';
-h+='<div class="lc-gap-t" style="color:var(--crit)">Why this is marked high</div>';
-h+='<div class="lc-gap-p">'+critN+' of these '+(critN===1?'breach exposed':'breaches exposed')+' passwords or identity data, not just an email address. If you have reused that password anywhere, change it on those accounts first.</div>';
-h+='</div>';
-}
+h+=lcxLeaks(list,2);
 
 if(count>0){
 var brands=list.filter(isBrand);
-var top=brands.slice().sort(function(p,q){return (q.critical?1:0)-(p.critical?1:0)||(q.accounts||0)-(p.accounts||0)}).slice(0,5);
+var top=brands.slice().sort(function(p,q){return (q.critical?1:0)-(p.critical?1:0)||(q.accounts||0)-(p.accounts||0)}).slice(0,3);
 top.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
 var steal=list.filter(isStealer);
 var rest=list.filter(function(x){return top.indexOf(x)<0&&!isStealer(x)});
@@ -3302,12 +3386,14 @@ if(rest.length)h+=grp(top.length?'Other breaches':'Breaches found',rest,gi++);
 if(steal.length||rest.length)h+='</div>';
 }
 
-h+='<div class="lc-gap">';
-h+='<div class="lc-gap-t">What this check did not cover</div>';
-h+='<div class="lc-gap-p">This checked <b>your email address only</b>, against publicly known breach records. It did not check your <b>phone number</b>, data broker listings, classifieds, or public directories &mdash; the sources where contact details most often resurface. The paid scan covers your phone and email across <b>1,500+ sources</b> and returns a plain-language report with what was found and what to do about it.</div>';
-h+='</div>';
+var gx=(typeof gi==='number')?gi:3;
+h+=lcxGap(gx+1);
+h+=lcxSample(gx+2);
 
-h+='<a class="lc-cta" href="/#pricing" onclick="if(typeof gtag===&quot;function&quot;){gtag(&quot;event&quot;,&quot;full_report_cta_click_exc&quot;,{})}">Run the full scan &middot; <span class="price-tag">'+livePrice()+'</span></a>';
+h+='<a class="lc-cta" href="/#pricing" onclick="if(typeof gtag===&quot;function&quot;){gtag(&quot;event&quot;,&quot;full_report_cta_click_exc&quot;,{})}">'+(sev==='clear'?'Check my phone number too':'Check my phone + email')+' &middot; <span class="price-tag">'+livePrice()+'</span></a>';
+h+='<div class="lcx-note">One-time payment. Report in about 5 minutes. Your scan data is deleted after your report is delivered.</div>';
+h+='<div class="lcx-note">System error? Free re-scan or full refund. <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a></div>';
+h+='<div class="lcx-founder"><img src="/founder.jpg" width="44" height="44" alt="Siddharth, founder of Scan My Shadow" loading="lazy"><div><b>Built by Siddharth, founder.</b> Questions before you pay? <a href="/contact.html">Message me</a>.</div></div>';
 h+='<button type="button" class="lc-again" id="lcAgain">Check a different email</button>';
 
 h+='<div class="lc-attrib">Breach data supplied by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>, used under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 licence</a>. Your email was not stored or logged.</div>';
