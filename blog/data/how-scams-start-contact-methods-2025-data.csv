@@ -1,0 +1,36 @@
+﻿country,agency,year,contact_method,metric,value,unit,note,source_url
+United Kingdom,UK Finance,2025,Online,share_of_app_cases_pct,66,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Telecommunications,share_of_app_cases_pct,17,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Email,share_of_app_cases_pct,1,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Other,share_of_app_cases_pct,5,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Unknown,share_of_app_cases_pct,11,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Online,share_of_app_losses_pct,32,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Telecommunications,share_of_app_losses_pct,28,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Email,share_of_app_losses_pct,7,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Other,share_of_app_losses_pct,8,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,Unknown,share_of_app_losses_pct,24,percent,,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+Australia,National Anti-Scam Centre (Scamwatch),2025,"Online (internet, apps, social media, forums)",reports_with_loss,19169,count,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Phone call,reports_with_loss,2012,count,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Email,reports_with_loss,4329,count,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,In person,reports_with_loss,870,count,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Text message,reports_with_loss,1603,count,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Mail,reports_with_loss,218,count,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,"Online (internet, apps, social media, forums)",losses,158500000,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Phone call,losses,72500000,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Email,losses,57900000,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,In person,losses,25300000,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Text message,losses,17900000,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Mail,losses,2700000,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,"Online (internet, apps, social media, forums)",average_loss_per_loss_report_computed,8269,AUD,computed by Scan My Shadow,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Phone call,average_loss_per_loss_report_computed,36034,AUD,computed by Scan My Shadow,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Email,average_loss_per_loss_report_computed,13375,AUD,computed by Scan My Shadow,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,In person,average_loss_per_loss_report_computed,29080,AUD,computed by Scan My Shadow,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Text message,average_loss_per_loss_report_computed,11167,AUD,computed by Scan My Shadow,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Mail,average_loss_per_loss_report_computed,12385,AUD,computed by Scan My Shadow,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Phone call,median_loss,3800,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Online,median_loss,400,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Text message,reports_2025,29058,count,77365 in 2024,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Email,reports_2025,84861,count,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+United States,FTC,2025,Social media,aggregate_losses_over,2000000000,USD,fiscal year 2025; FTC testimony,https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-testimony-jec-hearing-on-the-rising-scam-economy.pdf
+United States,FTC,2024,Phone (older adults),median_loss,2210,USD,ages 60+,https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf
+United States,FTC,2024,Social media (older adults),median_loss,650,USD,ages 60+,https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf

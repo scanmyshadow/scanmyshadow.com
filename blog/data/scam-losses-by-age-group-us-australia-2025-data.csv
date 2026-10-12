@@ -1,0 +1,30 @@
+﻿country,agency,year,age_group,metric,value,unit,note,source_url
+United States,FBI IC3,2025,Under 20,complaints,31254,count,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,20-29,complaints,112069,count,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,30-39,complaints,153293,count,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,40-49,complaints,167066,count,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,50-59,complaints,124820,count,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,60+,complaints,201266,count,,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Under 20,reported_losses,67100000,USD,published figure; several are rounded,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,20-29,reported_losses,563100000,USD,published figure; several are rounded,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,30-39,reported_losses,1700000000,USD,published figure; several are rounded,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,40-49,reported_losses,2957000000,USD,published figure; several are rounded,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,50-59,reported_losses,3700000000,USD,published figure; several are rounded,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,60+,reported_losses,7748000000,USD,published figure; several are rounded,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Under 20,crypto_nexus_losses,26955462,USD,page 52,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,20-29,crypto_nexus_losses,288875060,USD,page 52,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,30-39,crypto_nexus_losses,861551625,USD,page 52,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,40-49,crypto_nexus_losses,1552700119,USD,page 52,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,50-59,crypto_nexus_losses,2139033232,USD,page 52,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,60+,crypto_nexus_losses,4432224488,USD,page 52,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,All ages,complaints,1008597,count,headline total,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,All ages,reported_losses,20877000000,USD,headline total,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FTC,2024,60+,reported_losses,2400000000,USD,nearly $2.4 billion,https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf
+United States,FTC,2024,60+,median_loss,900,USD,up from $650 in 2023,https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf
+United States,FTC,2024,80+,median_loss,1650,USD,,https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf
+United States,FTC,2024,60+,reports_with_age_data,421031,count,,https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf
+United States,FTC,2024,60+,reports_with_loss,109580,count,,https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf
+United States,FTC,2024,60+,reports_over_100000,5125,count,1136 in 2020,https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,65+,share_of_scamwatch_losses_pct,26.5,percent,ages 65+ are about 17.1% of the population,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,All ages,scamwatch_losses,334800000,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+United States,FBI IC3 (kiosk supplement),2025,Over 50,kiosk_losses_over,302000000,USD,more than half of 13460 complaints,https://www.ic3.gov/PSA/2026/PSA260515-2

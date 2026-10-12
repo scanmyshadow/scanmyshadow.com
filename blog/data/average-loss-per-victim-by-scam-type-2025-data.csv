@@ -1,0 +1,27 @@
+﻿country,agency,year,scam_type,losses,count,count_basis,average_computed,currency,note,source_url
+United States,FBI IC3,2025,Business email compromise,3046598558,24768,complaints,123005,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Investment,8648617756,72984,complaints,118500,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Tech and customer support,2134675818,47794,complaints,44664,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Confidence and romance,929287469,23159,complaints,40126,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Government impersonation,797943193,32424,complaints,24610,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Real estate,275110419,12368,complaints,22244,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Personal data breach,1314923988,67456,complaints,19493,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Credit card and check fraud,282670235,18774,complaints,15056,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Employment,362934762,24688,complaints,14701,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Non-payment and non-delivery,503373587,56478,complaints,8913,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Extortion,122499133,89129,complaints,1374,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Phishing and spoofing,215843126,191561,complaints,1127,USD,average computed by Scan My Shadow,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+Canada,CAFC,2025,Investments,351000000,3867,victims (CAFC table),90768,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Spear phishing,67900000,571,victims (CAFC table),118914,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Relationship,63300000,933,victims (CAFC table),67846,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Job,50600000,1726,victims (CAFC table),29316,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Fraud investigator,28300000,1137,victims (CAFC table),24890,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Recovery pitch,25900000,569,victims (CAFC table),45518,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Extortion,23000000,835,victims (CAFC table),27545,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Service,19500000,2444,victims (CAFC table),7979,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Merchandise,11700000,2222,victims (CAFC table),5266,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+Canada,CAFC,2025,Prize,5700000,151,victims (CAFC table),37748,CAD,average computed by Scan My Shadow,https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm
+United Kingdom,UK Finance,2025,Investment (APP),221500000,14893,cases,14873,GBP,average computed by Scan My Shadow,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+United Kingdom,UK Finance,2025,All APP fraud,576400000,248070,cases,2324,GBP,average computed by Scan My Shadow,https://www.ukfinance.org.uk/news-and-insight/press-release/fraud-report-2026-press-release
+Australia,National Anti-Scam Centre (Scamwatch),2025,All Scamwatch reports,334800000,28200,reports with loss (approx.),11872,AUD,average computed; median published as 400,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+United States,FTC,2025,Investment scams,7900000000,,,,USD,"published: average individual loss over $10,000",https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-testimony-jec-hearing-on-the-rising-scam-economy.pdf

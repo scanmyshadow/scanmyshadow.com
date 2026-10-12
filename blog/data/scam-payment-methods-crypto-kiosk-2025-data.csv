@@ -1,0 +1,22 @@
+﻿country,agency,year,payment_method,metric,value,unit,note,source_url
+Australia,National Anti-Scam Centre (Scamwatch),2025,Cryptocurrency / digital currency exchange,losses,121300000,AUD,"3,993 transactions",https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Bank transfer,losses,118100000,AUD,"8,858 reports",https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Cash,losses,10000000,AUD,not stated,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Credit card,losses,9100000,AUD,not stated,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,Gift card (other),losses,5800000,AUD,not stated,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+Australia,National Anti-Scam Centre (Scamwatch),2025,All methods,scamwatch_losses_total,334800000,AUD,,https://www.nasc.gov.au/system/files/targeting-scams-report-2025.pdf
+United States,FBI IC3,2025,Cryptocurrency,crypto_nexus_losses,11366669732,USD,page 8,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Cryptocurrency,complaints,181565,count,page 53,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3,2025,Cryptocurrency investment fraud,losses,7228000000,USD,61559 complaints; page 53,https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk,complaints,13460,count,all states,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk,losses,388981267,USD,all states; not solely kiosk,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: Florida,complaints,1213,count,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: Texas,complaints,1179,count,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: California,complaints,978,count,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: Pennsylvania,complaints,518,count,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: Illinois,complaints,510,count,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: Florida,losses,32765444,USD,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: Texas,losses,56802197,USD,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: California,losses,24017535,USD,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: Pennsylvania,losses,14485236,USD,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
+United States,FBI IC3 (kiosk supplement),2025,Crypto kiosk: Illinois,losses,20077277,USD,top five by complaints,https://www.ic3.gov/PSA/2026/PSA260515-2
