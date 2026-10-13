@@ -2288,6 +2288,37 @@ html[data-theme="dark"] .lc-hd .lc-pill.note{color:#F0B183;border-color:rgba(240
 html[data-theme="dark"] .lc-hd .lc-pill.calm{color:#8FD0B0;border-color:rgba(111,169,141,.4)}
 html[data-theme="dark"] .hero-grid .lc-err{color:#FF8F8F}
 
+/* ---------- result preview (blurred, unlocks on check) ---------- */
+.lc-peek{position:relative;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:26px;padding:26px 26px 30px;box-shadow:var(--soft-lg);overflow:hidden}
+.lc-peek-top{font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint)}
+.lc-peek-big{font-family:"Space Grotesk",sans-serif;font-size:44px;font-weight:700;color:var(--ink);margin-top:6px;line-height:1.1}
+.lc-peek-pill{display:inline-block;margin:10px 0 16px;background:#FDECEC;color:#C24141;font-weight:700;font-size:12px;padding:5px 11px;border-radius:999px}
+.lc-peek-row{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid var(--line);font-size:14px;color:var(--ink-soft)}
+.lc-peek-blur{filter:blur(5px);user-select:none}
+.lc-peek-lock{position:absolute;left:50%;top:58%;transform:translate(-50%,-50%);display:inline-flex;align-items:center;gap:8px;white-space:nowrap;border:none;cursor:pointer;background:#1E1A33;color:#fff;font:inherit;font-size:13.5px;font-weight:600;padding:11px 18px;border-radius:999px;box-shadow:0 14px 34px rgba(20,14,40,.3);transition:transform .2s ease}
+.lc-peek-lock:hover{transform:translate(-50%,-52%)}
+.lc-peek-lock svg{width:15px;height:15px}
+.hero-grid.has-result .lc-peek{display:none}
+html[data-theme="dark"] .lc-peek-pill{background:rgba(194,65,65,.18);color:#FF8F8F}
+html[data-theme="dark"] .lc-peek-lock{background:#F5F3FA;color:#1E1A33}
+@media(min-width:980px){
+.hero-grid:not(.has-result){max-width:1160px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:52px;row-gap:0;align-items:start;text-align:left}
+.hero-grid:not(.has-result) .hero-copy{grid-column:1;grid-row:1 / span 2;align-items:flex-start;padding-top:10px}
+.hero-grid:not(.has-result) .hero-copy h1{font-size:clamp(38px,3.6vw,50px)}
+.hero-grid:not(.has-result) .page-sub{text-align:left;margin-left:0}
+.hero-grid:not(.has-result) .hero-chips{justify-content:flex-start}
+.hero-grid:not(.has-result) .lc-peek{grid-column:2;grid-row:1;margin:0 18px;padding:20px 24px 64px;transform:rotate(1.5deg)}
+.hero-grid:not(.has-result) .lc-peek-big{font-size:34px}
+.hero-grid:not(.has-result) .lc-peek-pill{margin:8px 0 10px}
+.hero-grid:not(.has-result) .lc-peek-row:nth-of-type(n+3){display:none}
+.hero-grid:not(.has-result) .lc-peek-lock{top:auto;bottom:66px;left:auto;right:22px;transform:rotate(-1.5deg)}
+.hero-grid:not(.has-result) .lc-peek-lock:hover{transform:rotate(-1.5deg) translateY(-2px)}
+.hero-grid:not(.has-result) .lc-card{grid-column:2;grid-row:2;position:relative;z-index:2;margin-top:-48px}
+.hero-grid:not(.has-result) .lc-row{display:block}
+.hero-grid:not(.has-result) .lc-row .lc-btn{width:100%;margin-top:11px}
+.hero-grid:not(.has-result) > .lc-peek + div{grid-column:1 / -1;grid-row:3;margin-top:34px}
+}
+
 /* ---------- mobile ---------- */
 
 @media(max-width:620px){
@@ -2462,6 +2493,16 @@ html[data-theme="dark"] .hero-grid .lc-err{color:#FF8F8F}
     <div class="lc-phase" id="lcResult" hidden></div>
 
   </div>
+  <aside class="lc-peek settle settle-4" id="lcPeek" aria-label="Preview of your result">
+    <div class="lc-peek-top">Your result &middot; preview</div>
+    <div class="lc-peek-big lc-peek-blur">7 breaches</div>
+    <span class="lc-peek-pill lc-peek-blur">Passwords exposed</span>
+    <div class="lc-peek-row"><span class="lc-peek-blur">LinkedIn &middot; 2012</span><span class="lc-peek-blur">Password</span></div>
+    <div class="lc-peek-row"><span class="lc-peek-blur">Canva &middot; 2019</span><span class="lc-peek-blur">Name, city</span></div>
+    <div class="lc-peek-row"><span class="lc-peek-blur">Zomato &middot; 2017</span><span class="lc-peek-blur">Password</span></div>
+    <div class="lc-peek-row"><span class="lc-peek-blur">Dropbox &middot; 2012</span><span class="lc-peek-blur">Email</span></div>
+    <button type="button" class="lc-peek-lock" id="lcPeekLock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Enter your email to unlock</button>
+  </aside>
 
   <div>
 
@@ -3656,6 +3697,18 @@ window.smsBuyBar={
 enable:function(){enabled=!!io;watch('#lcResult .lc-cta');update()},
 disable:function(){enabled=false;update()}
 };
+})();
+</script>
+
+<script>
+/* Result preview: unlock button focuses the email box; preview hides once a real result shows. */
+(function(){
+var grid=document.querySelector('.hero-grid'),res=document.getElementById('lcResult'),lock=document.getElementById('lcPeekLock'),input=document.getElementById('lcEmail');
+if(lock&&input)lock.addEventListener('click',function(){input.scrollIntoView({behavior:'smooth',block:'center'});setTimeout(function(){input.focus()},350)});
+if(!grid||!res||!('MutationObserver' in window))return;
+function sync(){grid.classList.toggle('has-result',!res.hidden)}
+new MutationObserver(sync).observe(res,{attributes:true,attributeFilter:['hidden']});
+sync();
 })();
 </script>
 
