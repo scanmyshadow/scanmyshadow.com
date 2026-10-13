@@ -838,24 +838,63 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     .hiw .hiw-scene:not(.hiw-s4){animation:none!important; opacity:0;}
   }
 
-  /* facts strip */
+  /* facts band */
   .block.fact-sec{padding-top:56px; padding-bottom:56px;}
-  .fact-strip{position:relative; display:grid; grid-template-columns:repeat(3,1fr); max-width:640px; margin:0 auto; overflow:hidden; border-radius:16px;}
-  .fact{text-align:center; padding:6px 8px; opacity:.3; transition:opacity .5s ease;}
-  .fact + .fact{border-left:1px solid var(--line);}
-  .fact b{display:block; font-family:'Space Grotesk'; font-weight:700; font-size:34px; line-height:1.1; color:var(--purple); letter-spacing:-.01em;}
-  .fact span{display:block; margin-top:6px; font-size:13px; color:var(--ink-soft);}
-  .fact-scan{position:absolute; top:0; bottom:0; left:-12%; width:10%; background:linear-gradient(90deg,transparent,rgba(123,92,250,0.22),transparent); opacity:0; pointer-events:none;}
-  .fact-sec.in .fact-scan{animation:factScan 1.5s ease-in-out .2s 1 both;}
-  .fact-sec.in .f1{opacity:1; transition-delay:.45s;}
-  .fact-sec.in .f2{opacity:1; transition-delay:.9s;}
-  .fact-sec.in .f3{opacity:1; transition-delay:1.35s;}
-  @keyframes factScan{0%{left:-12%;opacity:1}100%{left:102%;opacity:1}}
-  @media(max-width:560px){ .fact b{font-size:26px;} .fact span{font-size:12px;} }
-  @media(prefers-reduced-motion:reduce){ .fact{opacity:1; transition:none;} .fact-scan{display:none;} }
+  .fact-band{max-width:780px; margin:0 auto; background:var(--surface-dark); color:#fff; border-radius:24px; padding:40px 22px 36px; box-shadow:var(--shadow-lg);}
+  .fact-grid{position:relative; z-index:2; display:grid; grid-template-columns:repeat(3,1fr); gap:8px;}
+  .fact{text-align:center; opacity:0; transform:translateY(14px); transition:opacity .6s ease, transform .6s ease;}
+  .fact-band.go .f1{opacity:1; transform:none; transition-delay:.05s;}
+  .fact-band.go .f2{opacity:1; transform:none; transition-delay:.3s;}
+  .fact-band.go .f3{opacity:1; transition:opacity .6s ease .55s, transform .6s ease .55s; transform:none;}
+  .fact-vis{position:relative; width:112px; height:112px; margin:0 auto 12px; display:flex; align-items:center; justify-content:center;}
+  .fact-vis b{position:relative; z-index:2; font-family:'Space Grotesk'; font-weight:700; font-size:30px; line-height:1; color:#fff; text-shadow:0 0 22px rgba(157,107,255,0.75); letter-spacing:-.01em;}
+  .fact-vis b small{display:block; margin-top:4px; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#C9B8FF; text-shadow:none;}
+  .fact-lbl{font-size:13px; color:#C4C0DA;}
+  .fact-cloud{position:absolute; inset:-4px -22px; pointer-events:none;}
+  .fact-cloud span{position:absolute; font-size:9.5px; font-weight:600; letter-spacing:.03em; color:#B9A6FF; opacity:0; white-space:nowrap;}
+  .fact-cloud span:nth-child(1){top:4%; left:6%;} .fact-cloud span:nth-child(2){top:10%; right:2%;}
+  .fact-cloud span:nth-child(3){top:30%; left:-4%;} .fact-cloud span:nth-child(4){top:66%; right:-2%;}
+  .fact-cloud span:nth-child(5){bottom:6%; left:4%;} .fact-cloud span:nth-child(6){bottom:2%; right:12%;}
+  .fact-cloud span:nth-child(7){top:-6%; left:38%;} .fact-cloud span:nth-child(8){top:48%; right:-8%;}
+  .fact-band.go .fact-cloud span{animation:factFlick 3.6s ease-in-out infinite;}
+  .fact-band.go .fact-cloud span:nth-child(2){animation-delay:.45s} .fact-band.go .fact-cloud span:nth-child(3){animation-delay:.9s}
+  .fact-band.go .fact-cloud span:nth-child(4){animation-delay:1.35s} .fact-band.go .fact-cloud span:nth-child(5){animation-delay:1.8s}
+  .fact-band.go .fact-cloud span:nth-child(6){animation-delay:2.25s} .fact-band.go .fact-cloud span:nth-child(7){animation-delay:2.7s}
+  .fact-band.go .fact-cloud span:nth-child(8){animation-delay:3.15s}
+  @keyframes factFlick{0%,100%{opacity:0} 18%{opacity:.6} 40%{opacity:0}}
+  .fact-ring{position:absolute; inset:0; width:100%; height:100%; transform:rotate(-90deg);}
+  .fact-ring circle{fill:none; stroke-width:5;}
+  .fact-ring .trk{stroke:rgba(255,255,255,0.12);}
+  .fact-ring .arc{stroke:#A88BFF; stroke-linecap:round; stroke-dasharray:100; stroke-dashoffset:100; filter:drop-shadow(0 0 6px rgba(157,107,255,0.8));}
+  .fact-band.go .fact-ring .arc{animation:factRing 1.8s cubic-bezier(.4,0,.2,1) .5s forwards;}
+  @keyframes factRing{to{stroke-dashoffset:0}}
+  .fact-shield{position:absolute; inset:2px; width:108px; height:108px;}
+  .fact-shield path{fill:rgba(123,92,250,0.14); stroke:#A88BFF; stroke-width:1.1; stroke-linejoin:round; stroke-dasharray:100; stroke-dashoffset:100; filter:drop-shadow(0 0 6px rgba(157,107,255,0.7));}
+  .fact-band.go .fact-shield path{animation:factRing 1.3s ease-out .8s forwards;}
+  .fact-badge{position:absolute; z-index:3; right:14px; bottom:16px; width:28px; height:28px; border-radius:50%; background:#3FBF86; box-shadow:0 0 0 4px rgba(63,191,134,0.22); display:flex; align-items:center; justify-content:center; transform:scale(0);}
+  .fact-badge svg{width:15px; height:15px; fill:none; stroke:#fff; stroke-width:3.2; stroke-linecap:round; stroke-linejoin:round;}
+  .fact-band.go .fact-badge{animation:factPop .45s cubic-bezier(.3,1.6,.5,1) 2.1s forwards;}
+  @keyframes factPop{to{transform:scale(1)}}
+  @media(max-width:560px){
+    .fact-band{padding:32px 8px 28px; border-radius:20px;}
+    .fact-vis{width:92px; height:92px;}
+    .fact-vis b{font-size:24px;}
+    .fact-shield{width:88px; height:88px;}
+    .fact-badge{width:24px; height:24px; right:8px; bottom:10px;}
+    .fact-lbl{font-size:12px;}
+    .fact-cloud{inset:-2px -10px;}
+    .fact-cloud span{font-size:8.5px;}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .fact{opacity:1; transform:none; transition:none;}
+    .fact-ring .arc,.fact-shield path{stroke-dashoffset:0; animation:none!important;}
+    .fact-badge{transform:scale(1); animation:none!important;}
+    .fact-cloud{display:none;}
+  }
 
   /* founder note */
-  .founder-note{max-width:560px; margin:0 auto 26px; display:flex; gap:16px; align-items:flex-start; background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 20px; box-shadow:var(--shadow-sm); text-align:left;}
+  .block.founder-sec{padding-top:48px; padding-bottom:48px;}
+  .founder-note{max-width:560px; margin:0 auto; display:flex; gap:16px; align-items:flex-start; background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 20px; box-shadow:var(--shadow-sm); text-align:left;}
   .founder-note img{width:60px; height:60px; border-radius:50%; object-fit:cover; flex-shrink:0; border:2px solid rgba(123,92,250,0.35);}
   .founder-note blockquote{margin:0; font-size:14.5px; line-height:1.6; color:var(--ink);}
   .founder-note blockquote::before{content:"\201C"; font-family:'Space Grotesk'; font-size:30px; line-height:0; vertical-align:-10px; margin-right:3px; color:var(--purple);}
@@ -1409,8 +1448,8 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
         <div class="fr-cta-note">One-time payment. Report in about 5 minutes. Your scan data is deleted after your report is delivered.</div>
         <div class="fr-cta-note">System error? Free re-scan or full refund. <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a></div>
         <div class="fr-founder">
-          <img src="/founder.jpg" width="44" height="44" alt="Siddharth, founder of Scan My Shadow" loading="lazy">
-          <div><b>Built by Siddharth, founder.</b> Questions before you pay? <a href="/contact.html">Message me</a>.</div>
+          <img src="/founder.jpg" width="44" height="44" alt="Sid, founder of Scan My Shadow" loading="lazy">
+          <div><b>Built by Sid, founder.</b> Questions before you pay? <a href="/contact.html">Message me</a>.</div>
         </div>
         <div class="lc-attrib" style="text-align:center;font-size:10.5px;color:var(--ink-faint);margin-top:10px;">
           Breach data from <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener">Have I Been Pwned</a>, used under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
@@ -1483,64 +1522,6 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       </div>
     </div>
 
-  </div>
-</section>
-
-<!-- ============ HOW IT WORKS ============ -->
-<section class="block section-line reveal" id="how">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="eyebrow">How it works</span>
-      <h2>Three steps, a few minutes</h2>
-    </div>
-    <div class="hiw" id="hiw">
-      <div class="hiw-phone" aria-hidden="true">
-        <div class="hiw-notch"></div>
-        <div class="hiw-brand">Scan My <span>Shadow</span></div>
-        <div class="hiw-scene hiw-s1">
-          <div class="hiw-q">How exposed am I?</div>
-          <div class="hiw-btn">Check my full exposure<i class="hiw-ripple"></i></div>
-        </div>
-        <div class="hiw-scene hiw-s2">
-          <div class="hiw-tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
-          <div class="hiw-paid">One-time payment</div>
-        </div>
-        <div class="hiw-scene hiw-s3">
-          <div class="hiw-lbl">Phone number</div>
-          <div class="hiw-field"><span class="hiw-type t1">&bull;&bull;&bull;&bull;&bull; &bull;&bull;210</span></div>
-          <div class="hiw-lbl">Email</div>
-          <div class="hiw-field"><span class="hiw-type t2">you@example.com</span></div>
-        </div>
-        <div class="hiw-scene hiw-s4">
-          <div class="hiw-mail">
-            <div class="hiw-mail-top"><span class="hiw-mail-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span><b>Your report is ready</b><em>Scan My Shadow &middot; just now</em></span></div>
-            <div class="hiw-mail-row"><b class="hiw-blur">12</b> leaks found</div>
-            <div class="hiw-mail-row"><b class="hiw-blur">4</b> locations</div>
-            <div class="hiw-mail-row"><b class="hiw-blur">9</b> old accounts</div>
-          </div>
-        </div>
-      </div>
-      <div class="hiw-side">
-        <ol class="hiw-steps">
-          <li class="hiw-step"><span class="hiw-n">1</span><div><b>Start your full scan</b><p>One-time payment. No account, no app.</p></div></li>
-          <li class="hiw-step"><span class="hiw-n">2</span><div><b>Enter your phone + email</b><p>On a secure form right after payment. Takes about ten seconds.</p></div></li>
-          <li class="hiw-step"><span class="hiw-n">3</span><div><b>Get your report in about 5 minutes</b><p>A clear PDF in your inbox: what was found, where, and what to do next.</p></div></li>
-        </ol>
-        <button type="button" class="btn-scan how-cta" onclick="openModal()"><span>Check my full exposure <span style="white-space:nowrap">&middot; <span class="price-tag">$9.99</span></span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ TRUST STATS ============ -->
-<section class="block section-line reveal fact-sec" aria-label="Scan facts">
-  <div class="wrap">
-    <div class="fact-strip">
-      <span class="fact-scan" aria-hidden="true"></span>
-      <div class="fact f1"><b>1,500+</b><span>sources checked</span></div>
-      <div class="fact f2"><b>5 min</b><span>to your inbox</span></div>
-      <div class="fact f3"><b>0</b><span>copies kept</span></div>
-    </div>
   </div>
 </section>
 
@@ -1702,6 +1683,100 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
 
 
 
+<!-- ============ FOUNDER NOTE ============ -->
+<section class="block section-line reveal founder-sec" aria-label="From the founder">
+  <div class="wrap">
+    <figure class="founder-note">
+      <img src="/founder.jpg" width="60" height="60" alt="Sid, founder of Scan My Shadow" loading="lazy">
+      <div>
+        <blockquote>I got scammed, and I needed to know how they knew so much about me. So I built Scan My Shadow: affordable, easy to understand, and clear on what to do next, so anyone can stay invisible to criminals.</blockquote>
+        <figcaption>Sid, founder &middot; <a href="/contact.html">Message me</a></figcaption>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="block section-line reveal" id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">How it works</span>
+      <h2>Three steps, a few minutes</h2>
+    </div>
+    <div class="hiw" id="hiw">
+      <div class="hiw-phone" aria-hidden="true">
+        <div class="hiw-notch"></div>
+        <div class="hiw-brand">Scan My <span>Shadow</span></div>
+        <div class="hiw-scene hiw-s1">
+          <div class="hiw-q">How exposed am I?</div>
+          <div class="hiw-btn">Check my full exposure<i class="hiw-ripple"></i></div>
+        </div>
+        <div class="hiw-scene hiw-s2">
+          <div class="hiw-tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <div class="hiw-paid">One-time payment</div>
+        </div>
+        <div class="hiw-scene hiw-s3">
+          <div class="hiw-lbl">Phone number</div>
+          <div class="hiw-field"><span class="hiw-type t1">&bull;&bull;&bull;&bull;&bull; &bull;&bull;210</span></div>
+          <div class="hiw-lbl">Email</div>
+          <div class="hiw-field"><span class="hiw-type t2">you@example.com</span></div>
+        </div>
+        <div class="hiw-scene hiw-s4">
+          <div class="hiw-mail">
+            <div class="hiw-mail-top"><span class="hiw-mail-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span><b>Your report is ready</b><em>Scan My Shadow &middot; just now</em></span></div>
+            <div class="hiw-mail-row"><b class="hiw-blur">12</b> leaks found</div>
+            <div class="hiw-mail-row"><b class="hiw-blur">4</b> locations</div>
+            <div class="hiw-mail-row"><b class="hiw-blur">9</b> old accounts</div>
+          </div>
+        </div>
+      </div>
+      <div class="hiw-side">
+        <ol class="hiw-steps">
+          <li class="hiw-step"><span class="hiw-n">1</span><div><b>Start your full scan</b><p>One-time payment. No account, no app.</p></div></li>
+          <li class="hiw-step"><span class="hiw-n">2</span><div><b>Enter your phone + email</b><p>On a secure form right after payment. Takes about ten seconds.</p></div></li>
+          <li class="hiw-step"><span class="hiw-n">3</span><div><b>Get your report in about 5 minutes</b><p>A clear PDF in your inbox: what was found, where, and what to do next.</p></div></li>
+        </ol>
+        <button type="button" class="btn-scan how-cta" onclick="openModal()"><span>Check my full exposure <span style="white-space:nowrap">&middot; <span class="price-tag">$9.99</span></span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST STATS ============ -->
+<section class="block section-line reveal fact-sec" aria-label="Scan facts">
+  <div class="wrap">
+    <div class="fact-band fx-dark" id="factBand">
+      <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+      <div class="particles" data-particles></div>
+      <div class="sheen"></div>
+      <div class="fact-grid">
+        <div class="fact f1">
+          <div class="fact-vis">
+            <div class="fact-cloud" aria-hidden="true"><span>Google</span><span>WhatsApp</span><span>LinkedIn</span><span>Truecaller</span><span>Instagram</span><span>Telegram</span><span>GitHub</span><span>Skype</span></div>
+            <b><span class="fact-count" data-to="1500">1,500</span>+</b>
+          </div>
+          <span class="fact-lbl">sources checked</span>
+        </div>
+        <div class="fact f2">
+          <div class="fact-vis">
+            <svg class="fact-ring" viewBox="0 0 100 100" aria-hidden="true"><circle class="trk" cx="50" cy="50" r="44"/><circle class="arc" cx="50" cy="50" r="44" pathLength="100"/></svg>
+            <b>5<small>min</small></b>
+          </div>
+          <span class="fact-lbl">to your inbox</span>
+        </div>
+        <div class="fact f3">
+          <div class="fact-vis">
+            <svg class="fact-shield" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="100" d="M12 2.6a12 12 0 0 0 8.4 3A12 12 0 0 1 12 21.2 12 12 0 0 1 3.6 5.6 12 12 0 0 0 12 2.6z"/></svg>
+            <b>0</b>
+            <span class="fact-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+          </div>
+          <span class="fact-lbl">copies kept</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ============ PRICING ============ -->
 <section class="block section-line reveal" id="pricing">
   <div class="wrap">
@@ -1710,13 +1785,6 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       <h2>One scan. One price.</h2>
       <p>No subscription. No upsells. Just one complete digital exposure scan for your phone number and email.</p>
     </div>
-    <figure class="founder-note">
-      <img src="/founder.jpg" width="60" height="60" alt="Sid, founder of Scan My Shadow" loading="lazy">
-      <div>
-        <blockquote>I got scammed, and I needed to know how they knew so much about me. So I built Scan My Shadow: affordable, easy to understand, and clear on what to do next, so anyone can stay invisible to criminals.</blockquote>
-        <figcaption>Sid, founder &middot; <a href="/contact.html">Message me</a></figcaption>
-      </div>
-    </figure>
     <div class="price-wrap">
       <div class="price-card fx-dark">
         <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
@@ -2093,6 +2161,24 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     var h = document.getElementById('hiw'); if(!h) return;
     if(!('IntersectionObserver' in window)){ h.classList.add('play'); return; }
     new IntersectionObserver(function(es){ es.forEach(function(e){ h.classList.toggle('play', e.isIntersecting); }); }, {threshold:0.25}).observe(h);
+  })();
+
+  // facts band: start once when seen, count 0 -> 1,500
+  (function(){
+    var band = document.getElementById('factBand'); if(!band) return;
+    var num = band.querySelector('.fact-count');
+    function go(){
+      if(band.classList.contains('go')) return;
+      band.classList.add('go');
+      if(!num || (window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches)) return;
+      var to = parseInt(num.getAttribute('data-to'),10) || 0, t0 = null;
+      num.textContent = '0';
+      function f(ts){ if(!t0) t0 = ts; var p = Math.min((ts-t0)/1400,1), e = 1-Math.pow(1-p,3); num.textContent = Math.round(to*e).toLocaleString('en-IN'); if(p<1) requestAnimationFrame(f); }
+      requestAnimationFrame(f);
+    }
+    if(!('IntersectionObserver' in window)){ go(); return; }
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ go(); io.disconnect(); } }); }, {threshold:0.35});
+    io.observe(band);
   })();
 
   // year
