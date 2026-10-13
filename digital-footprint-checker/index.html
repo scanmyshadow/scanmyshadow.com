@@ -2335,6 +2335,19 @@ html[data-theme="dark"] .hero-radar i{border-color:rgba(164,143,251,.42)}
 .hero-radar i{width:640px;height:640px;margin:-320px 0 0 -320px}
 }
 @media(prefers-reduced-motion:reduce){.hero-radar i{display:none}}
+/* phones/tablets: blurred preview sits above the email card, card overlaps its bottom (same stack as desktop) */
+@media(max-width:979px){
+.hero-grid:not(.has-result) .hero-copy{grid-row:1}
+.hero-grid:not(.has-result) .lc-peek{grid-row:2;margin:0 12px;padding:18px 20px 62px;transform:rotate(1.5deg)}
+.hero-grid:not(.has-result) .lc-peek-big{font-size:30px}
+.hero-grid:not(.has-result) .lc-peek-pill{margin:8px 0 6px}
+.hero-grid:not(.has-result) .lc-peek-row{display:none}
+.hero-grid:not(.has-result) .lc-peek-lock{top:auto;bottom:62px;left:auto;right:16px;transform:rotate(-1.5deg);font-size:12.5px;padding:10px 14px}
+.hero-grid:not(.has-result) .lc-peek-lock:hover{transform:rotate(-1.5deg) translateY(-2px)}
+.hero-grid:not(.has-result) .lc-card{grid-row:3;position:relative;z-index:2;margin-top:-72px}
+.hero-grid:not(.has-result) .hero-radar{grid-row:2}
+.hero-grid:not(.has-result) > .lc-peek + div{grid-row:4}
+}
 
 /* ---------- mobile ---------- */
 
