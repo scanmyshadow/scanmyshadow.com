@@ -461,6 +461,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     transition:border-color .2s ease, background .2s ease, box-shadow .2s ease;
   }
   .field input::placeholder{color:var(--ink-faint);}
+  @media(max-width:920px){ .field input{font-size:16px;} } /* 16px stops iPhone auto-zoom on tap */
   .field input:focus{border-color:var(--purple); background:var(--card); box-shadow:0 0 0 4px rgba(123,92,250,0.12);}
   .btn-scan{
     width:100%; background:var(--purple); color:#fff; border:none; border-radius:13px;
