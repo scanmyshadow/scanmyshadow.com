@@ -2319,6 +2319,23 @@ html[data-theme="dark"] .lc-peek-lock{background:#F5F3FA;color:#1E1A33}
 .hero-grid:not(.has-result) > .lc-peek + div{grid-column:1 / -1;grid-row:3;margin-top:34px}
 }
 
+/* ---------- hero radar: two rings pinging like sonar, evenly spaced ---------- */
+.page-hero .blob{display:none}
+.hero-radar{position:absolute;grid-column:1;grid-row:2;left:50%;top:50%;width:1100px;height:1100px;margin:-550px 0 0 -550px;z-index:-1;pointer-events:none;
+background:repeating-radial-gradient(circle at 50% 50%,transparent 0 46px,rgba(123,92,250,.07) 46px 47px);
+-webkit-mask-image:radial-gradient(circle at 50% 50%,#000 18%,transparent 62%);mask-image:radial-gradient(circle at 50% 50%,#000 18%,transparent 62%)}
+.hero-radar i{position:absolute;left:50%;top:50%;width:520px;height:520px;margin:-260px 0 0 -260px;border-radius:50%;border:1.5px solid rgba(123,92,250,.55);opacity:0;transform:scale(.12);animation:dfcPing 6s cubic-bezier(.2,.6,.35,1) infinite;will-change:transform,opacity}
+.hero-radar i:nth-child(2){animation-delay:-3s}
+.hero-radar.paused i{animation-play-state:paused}
+@keyframes dfcPing{0%{opacity:0;transform:scale(.12)} 8%{opacity:.9} 65%{opacity:.75} 100%{opacity:0;transform:scale(1)}}
+html[data-theme="dark"] .hero-radar{background:repeating-radial-gradient(circle at 50% 50%,transparent 0 46px,rgba(164,143,251,.06) 46px 47px)}
+html[data-theme="dark"] .hero-radar i{border-color:rgba(164,143,251,.42)}
+@media(min-width:980px){
+.hero-grid:not(.has-result) .hero-radar{grid-column:2;grid-row:1;top:97px}
+.hero-radar i{width:640px;height:640px;margin:-320px 0 0 -320px}
+}
+@media(prefers-reduced-motion:reduce){.hero-radar i{display:none}}
+
 /* ---------- mobile ---------- */
 
 @media(max-width:620px){
@@ -2410,6 +2427,7 @@ html[data-theme="dark"] .lc-peek-lock{background:#F5F3FA;color:#1E1A33}
 </div>
 
 <div class="hero-grid">
+  <div class="hero-radar" id="heroRadar" aria-hidden="true"><i></i><i></i></div>
 
   <div class="hero-copy">
 
@@ -3701,6 +3719,11 @@ disable:function(){enabled=false;update()}
 </script>
 
 <script>
+/* Hero radar: pause the ping while the hero is off screen. */
+(function(){
+var r=document.getElementById('heroRadar');if(!r||!('IntersectionObserver' in window))return;
+new IntersectionObserver(function(es){es.forEach(function(e){r.classList.toggle('paused',!e.isIntersecting)})}).observe(r.parentNode);
+})();
 /* Result preview: unlock button focuses the email box; preview hides once a real result shows. */
 (function(){
 var grid=document.querySelector('.hero-grid'),res=document.getElementById('lcResult'),lock=document.getElementById('lcPeekLock'),input=document.getElementById('lcEmail');
