@@ -1393,6 +1393,40 @@ line-height:1.55
 .lcx-cap{font-size:11px;color:var(--ink-faint);line-height:1.5;margin-top:10px}
 .lcx-cap b{color:var(--ink-soft);font-weight:600}
 .lcx-note{font-size:12px;color:var(--ink-soft);line-height:1.55;margin-top:10px;text-align:center}
+.lcx-top-cta{margin-top:16px}
+.lcx-top-cta .lc-cta{margin-top:0}
+/* sticky buy bar */
+.buybar{position:fixed;left:0;right:0;bottom:0;z-index:150;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:var(--paper);border-top:1px solid var(--line);box-shadow:0 -10px 28px rgba(40,25,90,.12);transform:translateY(110%);visibility:hidden;transition:transform .25s ease,visibility 0s linear .25s}
+.buybar.show{transform:none;visibility:visible;transition:transform .25s ease,visibility 0s}
+.buybar-in{max-width:520px;margin:0 auto;display:flex;align-items:center;gap:12px}
+.buybar-txt{flex:1;min-width:0;font-size:12px;line-height:1.35;color:var(--ink-soft)}
+.buybar-txt b{display:block;font-size:13.5px;color:var(--ink);font-weight:700}
+.buybar-btn{flex:0 0 auto;border:none;cursor:pointer;background:linear-gradient(135deg,#8A6CFF 0%,#6A47F0 55%,#5B3EE0 100%);color:#fff;font:inherit;font-size:14px;font-weight:700;padding:12px 16px;border-radius:12px;white-space:nowrap;box-shadow:0 8px 20px rgba(91,62,224,.35)}
+/* on-page payment confirmation (same content as the homepage modal) */
+.pm-overlay{position:fixed;inset:0;background:rgba(21,18,31,.5);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:200;padding:24px}
+.pm-overlay.open{display:flex}
+.pm-modal{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:32px 28px;max-width:400px;width:100%;max-height:calc(100vh - 48px);overflow-y:auto;position:relative;box-shadow:var(--soft-lg);color:var(--ink)}
+.pm-close{position:absolute;top:16px;right:18px;background:none;border:none;color:var(--ink-faint);cursor:pointer;padding:4px;line-height:0}
+.pm-close svg{width:18px;height:18px}
+.pm-lock{width:50px;height:50px;border-radius:14px;background:var(--purple-mist);display:flex;align-items:center;justify-content:center;color:var(--purple);margin-bottom:18px}
+.pm-lock svg{width:24px;height:24px}
+.pm-modal h3{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:20px;margin:0 0 8px;color:var(--ink)}
+.pm-sub{font-size:13.5px;color:var(--ink-soft);margin:0 0 20px;line-height:1.55}
+.pm-list{list-style:none;padding:0;margin:0 0 18px;border-top:1px solid var(--line)}
+.pm-list li{display:flex;gap:10px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--ink-soft);line-height:1.5}
+.pm-list li svg{width:15px;height:15px;color:var(--purple);flex-shrink:0;margin-top:2px}
+.pm-check{display:flex;align-items:flex-start;gap:10px;margin:10px 0;cursor:pointer}
+.pm-check input{width:16px;height:16px;margin-top:2px;accent-color:var(--purple);flex-shrink:0}
+.pm-check span{font-size:12.5px;color:var(--ink-soft);line-height:1.5}
+.pm-check span a{color:var(--purple);text-decoration:none}
+.pm-proceed{display:block;width:100%;margin-top:16px;padding:14px;border:none;border-radius:13px;background:var(--purple);color:#fff;font:inherit;font-size:14.5px;font-weight:600;cursor:pointer;opacity:.4;pointer-events:none;transition:opacity .2s ease,background .2s ease}
+.pm-proceed.enabled{opacity:1;pointer-events:auto}
+.pm-proceed.enabled:hover{background:var(--purple-deep)}
+.pm-cancel{display:block;width:100%;background:none;border:none;text-align:center;margin-top:12px;color:var(--ink-faint);font:inherit;font-size:12.5px;cursor:pointer}
+.pm-rzp{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:14px;opacity:.6}
+.pm-rzp span{font-size:12px;color:var(--ink-faint)}
+.pm-rzp svg{width:15px;height:15px}
+@media(prefers-reduced-motion:reduce){.buybar,.buybar.show{transition:none}}
 .lcx-note a,.lcx-founder a{color:var(--purple-deep);text-decoration:underline}
 .lcx-founder{display:flex;align-items:center;gap:11px;margin-top:14px;padding:11px 13px;background:var(--paper-warm);border-radius:var(--r-sm);font-size:12.5px;color:var(--ink-soft);line-height:1.5;text-align:left}
 .lcx-founder img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0}
@@ -3317,11 +3351,16 @@ if(n>0)rows+='<div class="lcx-leak-row"><b>'+L.label+'</b><em>in '+n+' '+(n===1?
 if(!rows)return '';
 return '<div class="lcx-leak lc-in" style="--i:'+i+'"><div class="lcx-h">What leaked about you</div>'+rows+'</div>';
 }
-function lcxGap(i){
+function lcxGap(i,count){
 return '<div class="lcx-gap lc-in" style="--i:'+i+'">'
-+'<div class="lcx-gap-col"><div class="lcx-h ok">Checked</div><ul><li>Your email, against known breach records</li></ul></div>'
++'<div class="lcx-gap-col"><div class="lcx-h ok">Checked</div><ul><li>Your email: '+(count===0?'no breaches found':count+' '+(count===1?'breach':'breaches')+' found')+'</li></ul></div>'
 +'<div class="lcx-gap-col no"><div class="lcx-h no">Not checked yet</div><ul><li>Your phone number</li><li>1,500+ public sources</li><li>Where your details are listed</li><li>How to remove them</li></ul></div>'
 +'</div>';
+}
+function lcxTopCta(i,sev){
+return '<div class="lcx-top-cta lc-in" style="--i:'+i+'">'
++'<a class="lc-cta" href="/#pricing" data-pay="top"><span style="text-align:center">'+(sev==='clear'?'Check my phone number too':'Check my phone + email')+' <span style="white-space:nowrap">&middot; <span class="price-tag">'+livePrice()+'</span></span></span></a>'
++'<div class="lcx-note">One-time payment. Report in about 5 minutes.</div></div>';
 }
 function lcxSample(i){
 return '<div class="lcx-sample lc-in" style="--i:'+i+'">'
@@ -3357,6 +3396,8 @@ var pwN=0;
 for(var q=0;q<list.length;q++){var qc=list[q].dataClasses||[];for(var r2=0;r2<qc.length;r2++){if(/password/i.test(qc[r2])){pwN++;break}}}
 var lead=lcxLead(sev,count,pwN,critN);
 h+='<div class="lcx-lead lc-in" style="--i:1"><div class="lcx-lead-t">'+esc(lead.t)+'</div><p>'+esc(lead.p)+'</p></div>';
+h+=lcxGap(2,count);
+h+=lcxTopCta(3,sev);
 
 h+='<div class="lc-bar">';
 if(b.crit)h+='<i class="crit" style="width:'+b.crit+'%"></i>';
@@ -3364,7 +3405,7 @@ if(b.note)h+='<i class="note" style="width:'+b.note+'%"></i>';
 if(b.calm)h+='<i class="calm" style="width:'+b.calm+'%"></i>';
 h+='</div>';
 
-h+=lcxLeaks(list,2);
+h+=lcxLeaks(list,4);
 
 if(count>0){
 var brands=list.filter(isBrand);
@@ -3379,18 +3420,17 @@ for(var i=0;i<top.length;i++)h+=tlItem(top[i]||{},i);
 h+='</div>';
 }
 
-var gi=top.length+3;
+var gi=top.length+5;
 if(steal.length||rest.length)h+='<div class="lc-grps">';
 if(steal.length)h+=grp('Infostealer malware logs',steal,gi++);
 if(rest.length)h+=grp(top.length?'Other breaches':'Breaches found',rest,gi++);
 if(steal.length||rest.length)h+='</div>';
 }
 
-var gx=(typeof gi==='number')?gi:3;
-h+=lcxGap(gx+1);
-h+=lcxSample(gx+2);
+var gx=(typeof gi==='number')?gi:5;
+h+=lcxSample(gx+1);
 
-h+='<a class="lc-cta" href="/#pricing" onclick="if(typeof gtag===&quot;function&quot;){gtag(&quot;event&quot;,&quot;full_report_cta_click_exc&quot;,{})}"><span style="text-align:center">'+(sev==='clear'?'Check my phone number too':'Check my phone + email')+' <span style="white-space:nowrap">&middot; <span class="price-tag">'+livePrice()+'</span></span></span></a>';
+h+='<a class="lc-cta" href="/#pricing" data-pay="bottom"><span style="text-align:center">'+(sev==='clear'?'Check my phone number too':'Check my phone + email')+' <span style="white-space:nowrap">&middot; <span class="price-tag">'+livePrice()+'</span></span></span></a>';
 h+='<div class="lcx-note">One-time payment. Report in about 5 minutes. Your scan data is deleted after your report is delivered.</div>';
 h+='<div class="lcx-note">System error? Free re-scan or full refund. <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a></div>';
 h+='<div class="lcx-founder"><img src="/founder.jpg" width="44" height="44" alt="Siddharth, founder of Scan My Shadow" loading="lazy"><div><b>Built by Siddharth, founder.</b> Questions before you pay? <a href="/contact.html">Message me</a>.</div></div>';
@@ -3411,9 +3451,20 @@ this.classList.toggle('open',open);
 });
 }
 
+var pays=result.querySelectorAll('[data-pay]');
+for(var pi=0;pi<pays.length;pi++){
+pays[pi].addEventListener('click',function(e){
+var where=this.getAttribute('data-pay');
+if(window.gtag){try{gtag('event','full_report_cta_click_exc',{placement:where})}catch(x){}}
+if(window.smsPay){e.preventDefault();window.smsPay.open()}
+});
+}
+if(window.smsBuyBar)window.smsBuyBar.enable();
+
 var again=document.getElementById('lcAgain');
 if(again){
 again.addEventListener('click',function(){
+if(window.smsBuyBar)window.smsBuyBar.disable();
 input.value='';
 clearErr();
 swap(result,idle);
@@ -3466,6 +3517,145 @@ input.addEventListener('keydown',function(e){
 if(e.key==='Enter'){e.preventDefault();run()}
 });
 
+})();
+</script>
+
+<div class="buybar" id="buyBar" aria-hidden="true">
+<div class="buybar-in">
+<div class="buybar-txt"><b>Your phone isn't checked yet</b>One-time payment &middot; report in about 5 min</div>
+<button type="button" class="buybar-btn" id="buyBarBtn">Check now &middot; <span class="price-tag">$9.99</span></button>
+</div>
+</div>
+
+<div class="pm-overlay" id="pmOverlay" role="dialog" aria-modal="true" aria-labelledby="pmTitle">
+<div class="pm-modal">
+<button type="button" class="pm-close" id="pmClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+<div class="pm-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+<h3 id="pmTitle">Before your scan starts</h3>
+<p class="pm-sub">A quick confirmation so your report reaches the right place.</p>
+<ul class="pm-list">
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> You'll enter your Phone number and Email you wish to scan, on a secure form right after the payment.</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> This scan is for your own details, or for someone who's asked you to help.</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Your phone number and email are permanently deleted from our servers immediately after your report is delivered.</li>
+</ul>
+<label class="pm-check"><input type="checkbox" id="pmAgree"><span>I have read and agree to the above, and to the <a href="https://legal.scanmyshadow.com/terms.html" target="_blank" rel="noopener">Terms</a>, <a href="https://legal.scanmyshadow.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a>.</span></label>
+<button type="button" class="pm-proceed" id="pmProceed">Continue to secure payment</button>
+<button type="button" class="pm-cancel" id="pmCancel">Cancel</button>
+<div class="pm-rzp"><svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg><span>Powered by Razorpay &bull; Apple Pay</span></div>
+</div>
+</div>
+
+<script>
+/* On-page checkout for the free-check result (same order service, same post-payment forms and the same GA4 events as the homepage). */
+(function(){
+var ORDER_CREATE_URL='https://sms-order-creator-180556751015.asia-south1.run.app';
+var FORM_URL='https://scan.scanmyshadow.com/form.html';
+var FORM_URL_INTL='https://scan.scanmyshadow.com/new_user_form_intl.html';
+var RZP_SRC='https://checkout.razorpay.com/v1/checkout.js';
+var ov=document.getElementById('pmOverlay');
+var agree=document.getElementById('pmAgree');
+var go=document.getElementById('pmProceed');
+if(!ov||!agree||!go)return;
+var busy=false,rzpLoading=null;
+function loadRzp(){
+if(window.Razorpay)return Promise.resolve();
+if(rzpLoading)return rzpLoading;
+rzpLoading=new Promise(function(res,rej){
+var sc=document.createElement('script');sc.src=RZP_SRC;sc.async=true;
+sc.onload=function(){res()};sc.onerror=function(){rzpLoading=null;rej(new Error('rzp'))};
+document.head.appendChild(sc);
+});
+return rzpLoading;
+}
+function sync(){go.classList.toggle('enabled',agree.checked)}
+function open(){
+loadRzp().catch(function(){});
+ov.classList.add('open');
+if(window.gtag){try{gtag('event','consent_modal_open',{})}catch(e){}}
+}
+function close(){
+ov.classList.remove('open');
+agree.checked=false;sync();
+}
+agree.addEventListener('change',sync);
+document.getElementById('pmClose').addEventListener('click',close);
+document.getElementById('pmCancel').addEventListener('click',close);
+ov.addEventListener('click',function(e){if(e.target===ov)close()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&ov.classList.contains('open'))close()});
+go.addEventListener('click',function(){
+if(!go.classList.contains('enabled')||busy)return;
+busy=true;
+var cur=window.SMS_CURRENCY||'INR';
+if(window.gtag){try{gtag('event','continue_secure_payment_click',{currency:cur})}catch(e){}}
+var label=go.textContent;go.textContent='Processing...';
+function reset(){busy=false;go.textContent=label}
+Promise.all([
+fetch(ORDER_CREATE_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({currency:cur})}).then(function(r){if(!r.ok)throw new Error('order');return r.json()}),
+loadRzp()
+]).then(function(arr){
+var data=arr[0];
+var rzp=new Razorpay({
+key:data.key_id,amount:data.amount,currency:data.currency,order_id:data.order_id,
+name:'Scan My Shadow',description:'Privacy Scan',theme:{color:'#7B5CFA'},
+handler:function(response){
+var params=new URLSearchParams({order_id:response.razorpay_order_id,payment_id:response.razorpay_payment_id});
+var target=data.currency==='USD'?FORM_URL_INTL:FORM_URL;
+var done=false;
+function toForm(){if(done)return;done=true;window.location.href=target+'?'+params.toString()}
+try{
+if(window.gtag){
+var amt=(data.amount||0)/100;
+gtag('event','purchase',{transaction_id:response.razorpay_payment_id,value:amt,currency:data.currency,items:[{item_id:'privacy_scan',item_name:'Privacy Scan',price:amt,quantity:1}],event_callback:toForm});
+setTimeout(toForm,1000);
+}else{toForm()}
+}catch(e){toForm()}
+},
+modal:{ondismiss:reset}
+});
+rzp.on('payment.failed',function(){reset();alert('Payment could not be completed. Please try again.')});
+rzp.open();
+reset();
+}).catch(function(err){
+if(window.console)console.error(err);
+reset();
+alert('Could not start payment right now. Please try again in a moment.');
+});
+});
+window.smsPay={open:open,close:close};
+})();
+
+/* Sticky buy bar: shows only after a free result, and only while no other buy button is on screen. */
+(function(){
+var bar=document.getElementById('buyBar');if(!bar)return;
+var ov=document.getElementById('pmOverlay');
+var enabled=false,watched=[];
+function update(){
+var modalOpen=ov&&ov.classList.contains('open');
+var cta=watched.some(function(el){return el.__smsVis&&document.body.contains(el)});
+var on=enabled&&!modalOpen&&!cta;
+bar.classList.toggle('show',on);
+bar.setAttribute('aria-hidden',on?'false':'true');
+}
+var io=('IntersectionObserver' in window)?new IntersectionObserver(function(es){es.forEach(function(e){e.target.__smsVis=e.isIntersecting});update()}):null;
+function watch(sel){
+var els=document.querySelectorAll(sel);
+for(var i=0;i<els.length;i++){
+var el=els[i];
+if(watched.indexOf(el)>-1)continue;
+watched.push(el);el.__smsVis=false;
+if(io)io.observe(el);
+}
+}
+watch('.cta-band-inner a');
+if(ov&&'MutationObserver' in window){new MutationObserver(update).observe(ov,{attributes:true,attributeFilter:['class']})}
+document.getElementById('buyBarBtn').addEventListener('click',function(){
+if(window.gtag){try{gtag('event','full_report_cta_click_exc',{placement:'sticky'})}catch(e){}}
+if(window.smsPay)window.smsPay.open();else window.location.href='/#pricing';
+});
+window.smsBuyBar={
+enable:function(){enabled=!!io;watch('#lcResult .lc-cta');update()},
+disable:function(){enabled=false;update()}
+};
 })();
 </script>
 

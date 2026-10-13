@@ -761,6 +761,17 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .modal-razorpay span{font-size:12px; color:var(--ink-faint);}
   .modal-razorpay svg{width:15px; height:15px;}
 
+  /* result: top CTA + sticky buy bar */
+  .fr-top-cta{margin-top:16px;}
+  .buybar{position:fixed; left:0; right:0; bottom:0; z-index:150; padding:10px 14px calc(10px + env(safe-area-inset-bottom)); background:var(--card); border-top:1px solid var(--line); box-shadow:0 -10px 28px rgba(40,25,90,0.12); transform:translateY(110%); visibility:hidden; transition:transform .25s ease, visibility 0s linear .25s;}
+  .buybar.show{transform:none; visibility:visible; transition:transform .25s ease, visibility 0s;}
+  .buybar-in{max-width:520px; margin:0 auto; display:flex; align-items:center; gap:12px;}
+  .buybar-txt{flex:1; min-width:0; font-size:12px; line-height:1.35; color:var(--ink-soft);}
+  .buybar-txt b{display:block; font-size:13.5px; color:var(--ink); font-weight:700;}
+  .buybar-btn{flex:0 0 auto; border:none; cursor:pointer; background:var(--purple); color:#fff; font-family:'Inter'; font-size:14px; font-weight:700; padding:12px 16px; border-radius:12px; white-space:nowrap; box-shadow:0 8px 20px rgba(123,92,250,0.35);}
+  .buybar-btn:hover{background:var(--purple-deep);}
+  @media(prefers-reduced-motion:reduce){ .buybar,.buybar.show{transition:none;} }
+
   /* reveal */
   .reveal{opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease;}
   .reveal.in{opacity:1; transform:translateY(0);}
@@ -1869,8 +1880,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> This scan is for your own details, or for someone who's asked you to help.</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Your phone number and email are permanently deleted from our servers immediately after your report is delivered.</li>
     </ul>
-    <label class="modal-check"><input type="checkbox" id="agree1" onchange="modalCheck()"><span>I have read and agree to the above.</span></label>
-    <label class="modal-check"><input type="checkbox" id="agree2" onchange="modalCheck()"><span>I agree to the <a href="https://legal.scanmyshadow.com/terms.html" target="_blank" rel="noopener">Terms</a>, <a href="https://legal.scanmyshadow.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>, and <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a>.</span></label>
+    <label class="modal-check"><input type="checkbox" id="agree1" onchange="modalCheck()"><span>I have read and agree to the above, and to the <a href="https://legal.scanmyshadow.com/terms.html" target="_blank" rel="noopener">Terms</a>, <a href="https://legal.scanmyshadow.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a>.</span></label>
     <button class="modal-proceed" id="proceedBtn" onclick="initiatePayment()">Continue to secure payment</button>
     <span class="modal-cancel" onclick="closeModal()">Cancel</span>
     <div class="modal-razorpay">
@@ -1880,6 +1890,47 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   </div>
 </div>
 
+<div class="buybar" id="buyBar" aria-hidden="true">
+  <div class="buybar-in">
+    <div class="buybar-txt"><b>Your phone isn't checked yet</b>One-time payment &middot; report in about 5 min</div>
+    <button type="button" class="buybar-btn" id="buyBarBtn">Check now &middot; <span class="price-tag">$9.99</span></button>
+  </div>
+</div>
+<script>
+  // Sticky buy bar: shows only after a free result, and only while no other buy button is on screen.
+  (function(){
+    var bar = document.getElementById('buyBar'); if(!bar) return;
+    var overlay = document.getElementById('overlay');
+    var enabled = false, watched = [];
+    function update(){
+      var modalOpen = overlay && overlay.classList.contains('open');
+      var ctaOnScreen = watched.some(function(el){ return el.__smsVis; });
+      var on = enabled && !modalOpen && !ctaOnScreen;
+      bar.classList.toggle('show', on);
+      bar.setAttribute('aria-hidden', on ? 'false' : 'true');
+    }
+    var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ e.target.__smsVis = e.isIntersecting; });
+      update();
+    }) : null;
+    function watch(sel){
+      document.querySelectorAll(sel).forEach(function(el){
+        if(watched.indexOf(el) > -1) return;
+        watched.push(el); el.__smsVis = false;
+        if(io) io.observe(el);
+      });
+    }
+    watch('#scanBtn, .btn-price, .proof-cta');
+    if(overlay && 'MutationObserver' in window){ new MutationObserver(update).observe(overlay, {attributes:true, attributeFilter:['class']}); }
+    document.getElementById('buyBarBtn').addEventListener('click', function(){
+      if(window.smsStartCheckout) window.smsStartCheckout('sticky');
+    });
+    window.smsBuyBar = {
+      enable: function(){ enabled = !!io; watch('.fr-cta-top'); update(); },
+      disable: function(){ enabled = false; update(); }
+    };
+  })();
+</script>
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script>
   // ---- rising particles for dark boxes ----
@@ -2117,18 +2168,24 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     document.getElementById('pricing').scrollIntoView({behavior:'smooth'});
   });
 
+  // new result CTAs (top button + sticky bar): same steps as #scanBtn, keeps the reader in place
+  window.smsStartCheckout = function(placement){
+    if(typeof gtag === 'function'){ gtag('event','full_report_cta_click',{placement: placement}); }
+    captureLead();
+    openModal();
+  };
+
   // modal
   var overlay = document.getElementById('overlay');
   function openModal(){ overlay.classList.add('open'); if(typeof gtag === 'function'){ gtag('event','consent_modal_open',{}); } }
   function closeModal(){
     overlay.classList.remove('open');
     document.getElementById('agree1').checked=false;
-    document.getElementById('agree2').checked=false;
     document.getElementById('proceedBtn').classList.remove('enabled');
   }
   function modalCheck(){
-    var a=document.getElementById('agree1').checked, b=document.getElementById('agree2').checked;
-    document.getElementById('proceedBtn').classList.toggle('enabled', a&&b);
+    var a=document.getElementById('agree1').checked;
+    document.getElementById('proceedBtn').classList.toggle('enabled', a);
   }
   overlay.addEventListener('click', function(e){ if(e.target===overlay) closeModal(); });
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
@@ -2308,11 +2365,18 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       if(!rows) return '';
       return '<div class="fr-leak fr-in" style="--i:'+i+'"><div class="fr-leak-h">What leaked about you</div>'+rows+'</div>';
     }
-    function frGap(i){
+    function frGap(i, count){
       return '<div class="fr-gap fr-in" style="--i:'+i+'">'
-        + '<div class="fr-gap-col"><div class="fr-gap-h ok">Checked</div><ul><li>Your email, against known breach records</li></ul></div>'
+        + '<div class="fr-gap-col"><div class="fr-gap-h ok">Checked</div><ul><li>Your email: '+(count===0 ? 'no breaches found' : count+' '+(count===1?'breach':'breaches')+' found')+'</li></ul></div>'
         + '<div class="fr-gap-col no"><div class="fr-gap-h no">Not checked yet</div><ul><li>Your phone number</li><li>1,500+ public sources</li><li>Where your details are listed</li><li>How to remove them</li></ul></div>'
         + '</div>';
+    }
+    function frTopCta(i, sev){
+      var cur = window.SMS_CURRENCY === 'INR' ? '\u20b9498' : '$9.99';
+      return '<div class="fr-top-cta fr-in" style="--i:'+i+'"><button type="button" class="btn-scan fr-cta-top">'
+        + '<span>'+(sev==='clear' ? 'Check my phone number too' : 'Check my phone + email')+' <span style="white-space:nowrap">&middot; <span class="price-tag">'+cur+'</span></span></span>'
+        + '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>'
+        + '<div class="fr-cta-note">One-time payment. Report in about 5 minutes.</div></div>';
     }
     function frSample(i){
       return '<div class="fr-sample fr-in" style="--i:'+i+'">'
@@ -2340,22 +2404,23 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       h += '<div class="fr-sub">' + (count===0 ? 'across known breach records' : frEsc(maskEmail(email))+' appears in known breach records') + '</div>';
       h += '<span class="fr-pill '+band.k+'">'+band.t+'</span></div>';
       h += '<div class="fr-lead fr-in" style="--i:1"><div class="fr-lead-t">'+frEsc(lead.t)+'</div><p>'+frEsc(lead.p)+'</p></div>';
+      h += frGap(2, count);
+      h += frTopCta(3, sev);
       h += '<div class="fr-bar"><i class="'+band.k+'"></i></div>';
-      h += frLeaks(breaches, 2);
-      var gi = 3;
+      h += frLeaks(breaches, 4);
+      var gi = 5;
       if(count > 0){
         var top = breaches.filter(frIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,3);
         top.sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
         var steal = breaches.filter(frIsStealer);
         var rest = breaches.filter(function(x){ return top.indexOf(x) < 0 && !frIsStealer(x); });
         if(top.length){ h += '<div class="fr-tl">'; top.forEach(function(b,i){ h += frItem(b,i); }); h += '</div>'; }
-        gi = top.length + 3;
+        gi = top.length + 5;
         if(steal.length || rest.length) h += '<div class="fr-grps">';
         if(steal.length) h += frGroup('Infostealer malware logs', steal, gi++);
         if(rest.length) h += frGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++);
         if(steal.length || rest.length) h += '</div>';
       }
-      h += frGap(gi++);
       h += frSample(gi++);
       return h + '</div>';
     }
@@ -2392,6 +2457,9 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
         this.classList.toggle('open', open);
       });
     }
+    var frTop = list.querySelector('.fr-cta-top');
+    if(frTop) frTop.addEventListener('click', function(){ if(window.smsStartCheckout) window.smsStartCheckout('top'); });
+    if(window.smsBuyBar) window.smsBuyBar.enable();
     setTimeout(function(){ list.classList.add('fr-go'); }, 4000); // safety net so results never stay hidden
     // prefill the existing (unmodified) paid-flow email field so the current scanBtn/captureLead logic works untouched
     var existingEmailInput = document.getElementById('emailInput');
