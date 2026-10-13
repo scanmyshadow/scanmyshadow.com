@@ -561,6 +561,49 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     .mobile-grid .float-card.tall .fc-banner{height:104px;}
   }
 
+  /* ============ HERO: split layout, trust cards orbit a shield ============ */
+  .orbit-core{display:none; position:relative; width:96px; height:96px; border-radius:50%; align-items:center; justify-content:center; color:#fff; z-index:3;
+    background:linear-gradient(135deg,#8A6CFF,#5B3EE0); box-shadow:0 0 0 14px rgba(123,92,250,.12), 0 0 0 30px rgba(123,92,250,.06), 0 20px 40px rgba(91,62,224,.35);}
+  .orbit-core svg{position:relative; z-index:2; width:40px; height:40px;}
+  @media(min-width:993px){
+    .hero{display:grid; grid-template-columns:minmax(24px,1fr) minmax(0,560px) minmax(0,540px) minmax(24px,1fr); column-gap:48px; align-items:start;}
+    .hero-inner{grid-column:2; grid-row:1; text-align:left; max-width:none; margin:0; padding:6px 0 0;}
+    .hero-inner h1{margin:0; max-width:none; font-size:clamp(40px,3.9vw,52px);}
+    .hero-sub{margin:16px 0 0; max-width:540px;}
+    .hero-stage,.hero-stage .stage-grid,.hero-stage .side-col{display:contents;}
+    .hero .scan-box{grid-column:2; grid-row:2; margin:22px 0 0; max-width:480px;}
+    .hero .hero-radar{grid-column:3; grid-row:1 / span 2; left:250px; top:300px;}
+    .orbit-core.oc-desk{display:flex; position:absolute; grid-column:3; grid-row:1 / span 2; left:250px; top:300px; margin:-48px 0 0 -48px;}
+    .hero .side-col .float-card{position:absolute; grid-column:3; grid-row:1 / span 2; width:220px; z-index:4;}
+    .hero .fc-1{left:0; top:40px;}
+    .hero .fc-2{left:290px; top:150px;}
+    .hero .fc-3{left:280px; top:400px;}
+    .hero .fc-4{left:0; top:420px;}
+  }
+  @media(min-width:993px) and (max-width:1199px){
+    .hero .side-col .float-card{width:190px;}
+    .hero .fc-2{left:235px;} .hero .fc-3{left:225px;}
+    .orbit-core.oc-desk{left:212px;} .hero .hero-radar{left:212px;}
+  }
+  @media(max-width:992px){
+    .hero .hero-radar{display:none;}
+    .mobile-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px; align-items:stretch;}
+    .mobile-grid .two-col{display:contents;}
+    .mobile-grid > .fc-report{grid-column:1; grid-row:1;}
+    .mobile-grid > .float-card:last-child{grid-column:2; grid-row:1;}
+    .mobile-grid .two-col .float-card{grid-row:3;}
+    .orbit-core.oc-mob{display:flex; grid-column:1 / -1; grid-row:2; justify-self:center; width:76px; height:76px; margin:34px 0;}
+    .orbit-core.oc-mob svg{width:32px; height:32px;}
+    .oc-rings{position:absolute; left:50%; top:50%; width:700px; height:700px; margin:-350px 0 0 -350px; z-index:-1; pointer-events:none;
+      background:repeating-radial-gradient(circle at 50% 50%,transparent 0 46px,rgba(123,92,250,.07) 46px 47px);
+      -webkit-mask-image:radial-gradient(circle at 50% 50%,#000 18%,transparent 62%); mask-image:radial-gradient(circle at 50% 50%,#000 18%,transparent 62%);}
+    .oc-rings i{position:absolute; left:50%; top:50%; width:420px; height:420px; margin:-210px 0 0 -210px; border-radius:50%; border:1.5px solid rgba(123,92,250,.55); opacity:0; transform:scale(.12); animation:heroPing 6s cubic-bezier(.2,.6,.35,1) infinite;}
+    .oc-rings i:nth-child(2){animation-delay:-3s;}
+    html[data-theme="dark"] .oc-rings i{border-color:rgba(164,143,251,.42);}
+    .mobile-grid{position:relative; overflow:visible;}
+  }
+  @media(prefers-reduced-motion:reduce){ .oc-rings i{display:none;} }
+
   /* ============ SECTIONS ============ */
   section.block{padding:88px 0;}
   .section-line{border-top:1px solid var(--line);}
@@ -1365,6 +1408,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
 
   <div class="hero-stage">
    <div class="stage-grid">
+    <div class="orbit-core oc-desk" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/><path d="m9 12 2 2 4-4"/></svg></div>
     <!-- LEFT column -->
     <div class="side-col">
     <div class="float-card fc-1">
@@ -1501,6 +1545,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
 
   <!-- mobile/tablet: new card order — What you'll see (1st, full width) → Deleted after scan + DPDP-aligned (side by side) → 1,500+ sources (last, full width) -->
   <div class="mobile-grid">
+    <div class="orbit-core oc-mob" aria-hidden="true"><span class="oc-rings"><i></i><i></i></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/><path d="m9 12 2 2 4-4"/></svg></div>
 
     <div class="float-card fc-report">
       <div class="fc-top" style="margin-bottom:8px;">
