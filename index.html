@@ -586,7 +586,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     .orbit-core.oc-desk{left:212px;} .hero .hero-radar{left:212px;}
   }
   @media(max-width:992px){
-    .hero .hero-radar{display:none;}
+    .hero .hero-radar{top:var(--hero-radar-y,300px);}
     .mobile-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px; align-items:stretch;}
     .mobile-grid .two-col{display:contents;}
     .mobile-grid > .fc-report{grid-column:1; grid-row:1;}
@@ -2258,6 +2258,20 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     if(!('IntersectionObserver' in window)){ go(); return; }
     var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ go(); io.disconnect(); } }); }, {threshold:0.35});
     io.observe(band);
+  })();
+
+  // hero radar on phones/tablets: centre the ping between the headline and the sub-line
+  (function(){
+    var r = document.getElementById('heroRadar'); if(!r) return;
+    function place(){
+      if(window.innerWidth > 992){ r.style.removeProperty('--hero-radar-y'); return; }
+      var h = document.querySelector('.hero-inner h1'), sub = document.querySelector('.hero-inner .hero-sub'); if(!h || !sub) return;
+      var top = r.parentNode.getBoundingClientRect().top;
+      r.style.setProperty('--hero-radar-y', Math.round((h.getBoundingClientRect().bottom + sub.getBoundingClientRect().top)/2 - top) + 'px');
+    }
+    place();
+    window.addEventListener('resize', place);
+    if(document.fonts && document.fonts.ready) document.fonts.ready.then(place);
   })();
 
   // hero radar: pause the ping when the hero is off screen
