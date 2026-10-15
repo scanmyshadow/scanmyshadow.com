@@ -3818,5 +3818,22 @@ sync();
 })();
 </script>
 
+<script>
+/* Prefill from blog hook boxes: email handed over in sessionStorage (never in the URL), then auto-run */
+(function(){
+  var raw=null; try{raw=sessionStorage.getItem('sms_prefill');sessionStorage.removeItem('sms_prefill');}catch(e){}
+  if(!raw) return;
+  var d; try{d=JSON.parse(raw);}catch(e){return;}
+  if(!d||!d.e||d.hp||(Date.now()-(d.t||0))>10*60*1000) return;
+  function go(){
+    var input=document.getElementById('lcEmail'),btn=document.getElementById('lcBtn'),c=document.getElementById('lcConsent'),card=document.getElementById('lcCard');
+    if(!input||!btn) return;
+    input.value=d.e; if(c) c.checked=true;
+    if(card&&card.scrollIntoView) card.scrollIntoView({block:'center'});
+    setTimeout(function(){btn.click();},350);
+  }
+  if(document.readyState==='complete') go(); else window.addEventListener('load',go);
+})();
+</script>
 </body>
 </html>
