@@ -399,9 +399,9 @@
       </div>
     </div>
 
-    <a class="nav-pill" href="https://www.scanmyshadow.com/#scanBox" onclick="if(typeof gtag==='function'){gtag('event','nav_cta_click',{})}">
-      <span class="cta-full">Start scan &middot; <span class="price-tag">$9.99</span></span>
-      <span class="cta-short">Scan &middot; <span class="price-tag">$9.99</span></span>
+    <a class="nav-pill" href="https://www.scanmyshadow.com/digital-footprint-checker/" onclick="if(typeof gtag==='function'){gtag('event','nav_cta_click',{})}">
+      <span class="cta-full">Free email check</span>
+      <span class="cta-short">Free check</span>
     </a>
 
     <div class="nav-mobile-controls">
@@ -470,8 +470,9 @@
 
   <div class="tldr">
     <p><strong>TL;DR:</strong> More than just a contact point — the structure, age, and pattern of your email address can hint at your name, when you first got online, and which accounts it's linked to, even before it's involved in any leak. The only way to know for sure is to check.</p>
-    <p class="tldr-hook">👉 <a href="https://www.scanmyshadow.com/digital-footprint-checker/">See what your own email already reveals — free 30-second check →</a></p>
   </div>
+<div class="sms-cta" data-sms-cta="tldr"><p class="tldr-hook">👉 <a href="https://www.scanmyshadow.com/digital-footprint-checker/">See what your own email already reveals — free 30-second check →</a></p></div>
+<script src="/assets/blog-cta.js"></script>
 
   <h2>What the email itself can hint at, structurally</h2>
 <p class="dropcap">Plenty of people's email addresses directly encode their real name (firstname.lastname@), sometimes a birth year, sometimes an old nickname or interest from when the account was created — often as a teenager, with all the identifying (or embarrassing) specificity that implies. Even a seemingly anonymous-looking address can carry unintended signals: a creation-era username style, a domain choice that hints at a specific era or platform preference.</p>
@@ -482,6 +483,7 @@
 <h2>What it reveals through breach history</h2>
 <p>An email with a long online history is statistically more likely to have appeared in at least one breach over the years, simply from accumulated exposure across services used over time. Checking an email against <a href="/blog/2026/08/how-to-check-if-your-email-has-been.html">breach databases</a> doesn't just show current risk — it effectively shows a partial history of which services you've used, since each breach entry is tied to a specific past service.</p>
 
+<div class="sms-cta" data-sms-cta="mid"></div>
 <h2>What it reveals through metadata and headers (for received emails)</h2>
 <p>This cuts the other way — if you're evaluating an email you received, the sender's address and headers can reveal information about them: rough server location, whether it's a personal or corporate domain, sometimes the underlying service used to send it. It's worth knowing this works both directions: your own outgoing emails carry some of the same signals about you.</p>
 
@@ -544,21 +546,18 @@
       <div class="sheen"></div>
       <div class="p-inner">
         <div class="price-left">
-          <div class="price-label">Phone + email scan &middot; 1,500+ data sources worldwide &middot; Full report</div>
-          <div class="price-amount"><span class="price-tag">$9.99</span><span>one-time</span></div>
-          <a href="https://www.scanmyshadow.com/#scanBox" class="btn-price" onclick="if(typeof gtag==='function'){gtag('event','blog_bottom_cta_click',{})}">Scan My Digital Footprint</a>
-          <div class="price-razorpay">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M18.5 3L14 10.5H18L9.5 21L12 13.5H8L12.5 3H18.5Z" fill="#528FF0"/></svg>
-            <span>Secure payment via Razorpay</span>
-          </div>
+          <div class="price-step">Step 1 &middot; Free</div>
+          <p class="price-free-h">See if your email has already leaked</p>
+          <a href="https://www.scanmyshadow.com/digital-footprint-checker/" class="btn-price" onclick="if(typeof gtag==='function'){gtag('event','blog_bottom_cta_click',{})}">Check my email free &rarr;</a>
+          <div class="price-next">Want your phone checked too? Full scan <span class="price-tag">$9.99</span> one-time, only if you choose.</div>
         </div>
         <div class="price-right">
           <ul class="price-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Results within about 5 minutes</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Clear, plain-English report</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Delivered straight to your inbox</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No login or passwords required</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Scan data deleted after report is generated</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Checks your email against known data breaches</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Shows which sites leaked it, and when</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Shows what leaked: passwords, phone, address</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Result on screen in about 30 seconds</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> We don&#x27;t store the email you check</li>
           </ul>
         </div>
       </div>
