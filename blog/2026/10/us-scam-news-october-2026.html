@@ -292,52 +292,6 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
   .tldr-hook{margin:10px 0 0; font-family:'Inter',system-ui,sans-serif; font-size:14px; font-weight:600;}
   .tldr-hook a{color:var(--purple-deep); text-decoration:none; border-bottom:1px solid var(--purple-mist);}
   .tldr-hook a:hover{border-color:var(--purple);}
-
-  /* ===== Conversion hooks (free email check) ===== */
-  .hook-box{position:relative; overflow:hidden; background:var(--purple-mist); border:1px solid rgba(123,92,250,0.28); border-radius:20px; padding:22px 20px 18px; margin:0 0 30px; box-shadow:0 10px 30px rgba(123,92,250,0.14);}
-  .hb-head{display:flex; align-items:center; gap:14px; margin-bottom:14px;}
-  .hb-ping{position:relative; flex:0 0 40px; width:40px; height:40px; border-radius:50%; background:var(--purple); color:#fff; display:flex; align-items:center; justify-content:center;}
-  .hb-ping svg{width:22px; height:22px; position:relative; z-index:2;}
-  .hb-ping i{position:absolute; inset:0; border-radius:50%; border:2px solid var(--purple); animation:hbPing 3s ease-out infinite; z-index:1;}
-  .hb-ping i:nth-child(2){animation-delay:1.5s;}
-  @keyframes hbPing{0%{transform:scale(1); opacity:.75;}100%{transform:scale(1.9); opacity:0;}}
-  .post-content .hb-title, .hb-title{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; line-height:1.3; color:var(--ink); margin:0; letter-spacing:-0.01em;}
-  .hb-title em{font-style:normal; color:var(--purple-deep);}
-  .hb-form{display:flex; gap:8px; flex-wrap:wrap;}
-  .hb-form input[type=email]{flex:1 1 220px; min-width:0; font:500 16px 'Inter',sans-serif; padding:14px 16px; border-radius:13px; border:1.5px solid rgba(123,92,250,0.35); background:var(--bg); color:var(--ink); outline:none;}
-  .hb-form input[type=email]:focus{border-color:var(--purple); box-shadow:0 0 0 4px rgba(123,92,250,0.18);}
-  .hb-form button{flex:1 1 auto; font:700 15.5px 'Inter',sans-serif; color:#fff; background:var(--purple); border:none; border-radius:13px; padding:14px 20px; cursor:pointer; box-shadow:0 6px 18px rgba(123,92,250,0.35); animation:hbGlow 2.6s ease-in-out infinite;}
-  .hb-form button:hover{background:var(--purple-deep);}
-  @keyframes hbGlow{0%,100%{box-shadow:0 6px 18px rgba(123,92,250,0.30);}50%{box-shadow:0 6px 28px rgba(123,92,250,0.60);}}
-  .hb-hp{position:absolute; left:-9999px; width:1px; height:1px; opacity:0;}
-  .hb-trust{display:flex; flex-wrap:wrap; gap:6px 14px; margin:12px 0 0; font-size:12.5px; color:var(--ink-soft);}
-  .hb-trust span{display:inline-flex; align-items:center; gap:5px;}
-  .hb-trust svg{width:13px; height:13px; color:var(--purple);}
-  .post-content .hb-legal, .hb-legal{margin:8px 0 0; font-size:11.5px; line-height:1.45; color:var(--ink-faint);}
-  .post-content .hb-err, .hb-err{margin:8px 0 0; font-size:13px; color:#DC2626; font-weight:600;}
-  .hook-box.mid{background:var(--ink); border:none; color:#fff;}
-  .post-content .hook-box.mid .hb-title{color:#fff;}
-  .hook-box.mid .hb-title em{color:#B39DFF;}
-  .hook-box.mid .hb-trust{color:#B8B4CC;}
-  .post-content .hook-box.mid .hb-legal{color:#8B87A3;}
-  .hook-box.mid .hb-form input[type=email]{background:#fff; color:#15121F; border-color:transparent;}
-  html[data-theme="dark"] .hook-box.mid{background:#241E38;}
-  .price-step{display:inline-block; font-size:11.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#B39DFF; background:rgba(123,92,250,0.18); padding:5px 10px; border-radius:999px; margin-bottom:12px;}
-  .price-free-h{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:26px; line-height:1.15; color:#fff; margin:0 0 16px; letter-spacing:-0.02em;}
-  .price-next{margin-top:12px; font-size:12px; line-height:1.5; color:#A5A2C0; text-align:center;}
-  .price-next .price-tag{font-size:12px; color:#DEDDEC; font-weight:600;}
-  .price-card .price-left{width:250px;}
-  .sticky-check{box-sizing:border-box; position:fixed; left:10px; right:10px; max-width:calc(100vw - 20px); bottom:10px; z-index:90; display:flex; align-items:center; gap:10px; background:var(--ink); color:#fff; border-radius:16px; padding:10px 10px 10px 14px; box-shadow:0 14px 40px rgba(0,0,0,0.35); transform:translateY(140%); transition:transform .35s ease;}
-  .sticky-check.show{transform:translateY(0);}
-  .sticky-check .sc-dot{width:9px; height:9px; border-radius:50%; background:#F59E0B; flex:0 0 9px; box-shadow:0 0 0 0 rgba(245,158,11,.7); animation:scDot 1.8s infinite;}
-  @keyframes scDot{0%{box-shadow:0 0 0 0 rgba(245,158,11,.6);}70%{box-shadow:0 0 0 9px rgba(245,158,11,0);}100%{box-shadow:0 0 0 0 rgba(245,158,11,0);}}
-  .sticky-check .sc-txt{flex:1; min-width:0; font-size:13px; line-height:1.3; color:#DEDDEC;}
-  .sticky-check .sc-txt b{color:#fff;}
-  .sticky-check a{flex:0 0 auto; background:var(--purple); color:#fff; font:700 14px 'Inter',sans-serif; padding:11px 16px; border-radius:11px; text-decoration:none;}
-  html[data-theme="dark"] .sticky-check{background:#241E38;}
-  @media(min-width:900px){ .sticky-check{display:none;} }
-  @media(max-width:640px){ .post-content .hb-title{font-size:18px;} .price-card .price-left{width:100%;} .price-free-h{font-size:24px;} }
-  @media(prefers-reduced-motion:reduce){ .hb-ping i,.hb-form button,.sticky-check .sc-dot{animation:none;} }
 </style><body>
 
 <header class="nav" id="nav">
@@ -472,33 +426,12 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <div class="tldr">
   <p><strong>TL;DR:</strong> This page collects 10 dated, sourced scam and fraud stories from United States, reported by the FBI, FTC and state attorneys general and local media between August and October 2026. Each links to a full write-up with the red flags and what to do. Report scams quickly: speed is the biggest factor in recovering money. Most of these stories start with contact details that were already exposed.</p>
 </div>
-<div class="hook-box">
-  <div class="hb-head"><span class="hb-ping" aria-hidden="true"><i></i><i></i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/><path d="m9 12 2 2 4-4"/></svg></span>
-  <p class="hb-title">Most of these scams start with an email that was <em>already leaked</em>. Is yours one of them?</p></div>
-  <form class="hb-form" data-src="tldr" novalidate>
-    <input type="email" name="email" placeholder="you@example.com" autocomplete="email" inputmode="email" spellcheck="false" aria-label="Your email address">
-    <input type="text" name="hp" class="hb-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-    <button type="submit">Check my email free</button>
-  </form>
-  <p class="hb-err" hidden></p>
-  <div class="hb-trust"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Free</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> About 30 seconds</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No sign-up</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Email not stored</span></div>
-  <p class="hb-legal">By tapping the button you confirm this is your own email, or that you have permission to check it.</p>
-</div>
+<div class="sms-cta" data-sms-cta="tldr"><p class="tldr-hook">👉 <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Free check covers your email in 30 seconds — full scan adds your phone number →</a></p></div>
+<script src="/assets/blog-cta.js"></script>
 
 <h2>This month&#x27;s stories</h2>
 <ul><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-fbi-impersonation-complaints-61000-1-6-billion.html">FBI Reports Nearly 61,000 Law Enforcement Impersonation Complaints and More Than $1.6 Billion in Losses</a>: The FBI&#x27;s Sept 17, 2026 alert counts nearly 61,000 law enforcement impersonation complaints and over $1.6 billion lost since January 2025.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-fbi-oauth-consent-phishing-bypasses-2fa.html">FBI Warns of a Messaging-App Campaign That Steals Account Access Without a Password</a>: An FBI alert (Sept 1, 2026) describes phishing that tricks users into approving a permission screen, giving attackers access a password change won&#x27;t end.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-fake-qr-codes-parking-meters-ftc-warning.html">FTC Warns That Fake QR Codes Are Being Stuck Over Real Parking Meter Codes</a>: An FTC alert on Sept 3, 2026 warns that scammers paste fake QR codes over real parking meter codes to steal payment and personal information.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-ai-cloned-car-dealership-websites-ftc.html">FTC: Scammers Are Using AI to Clone Real Car Dealership Websites</a>: An FTC alert dated Sept 1, 2026 says scammers use AI to copy dealer websites and push buyers of rare cars to pay by wire transfer only.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-fake-fbi-video-meetings-agent-impersonation.html">FBI Newark Warns of Fake Agents Who Spoof Office Numbers and Stage Video Meetings</a>: FBI Newark warned on Sept 29, 2026 that scammers spoof field office numbers and hold fake video meetings with FBI backdrops and seals.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-fbi-operation-blackout-level-up-scam-compounds.html">Inside Operation Blackout: How the FBI Is Targeting Overseas Scam Compounds</a>: According to FOX 10, an August 2026 raid on a Cambodian scam compound seized 113 hard drives; Operation Level Up has contacted 10,406 potential victims.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-georgia-vendor-email-scam-158000-sentenced.html">Georgia Woman Sentenced After a $158,000 Vendor-Impersonation Email Scam</a>: On Sept 16, 2026 Georgia&#x27;s attorney general announced a sentence in a $158,000 business email compromise that diverted payments for strawberry seeds.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-wisconsin-crypto-atm-law-1000-cap-refunds.html">Wisconsin&#x27;s New Crypto ATM Law Caps Transactions at $1,000 and Offers Refunds</a>: Wisconsin Watch reported Sept 28, 2026 that Act 226 caps crypto ATM transactions at $1,000 a day and offers refunds to victims who report within 30 days.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-new-hampshire-fake-mcafee-gold-scam-arrests.html">Two Charged in New Hampshire After Callers Posing as McAfee Told a Senior to Buy Gold</a>: Wilton, NH police charged two Brooklyn men after callers posing as McAfee told an elderly victim to turn bank funds into gold, per a Sept 30, 2026 report.</li><li><a href="https://www.scanmyshadow.com/blog/2026/10/us-long-island-senior-919200-fake-police-arrest.html">Long Island Woman Wired $919,200 to Callers Posing as Police, Then Asked for Gold</a>: A 70-year-old Hicksville woman wired $919,200 to callers claiming a crime in India; police made an arrest on Sept 2, 2026 after she called them.</li></ul>
-<div class="hook-box mid">
-  <div class="hb-head"><span class="hb-ping" aria-hidden="true"><i></i><i></i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21 12 12 0 0 1 3.5 6 12 12 0 0 0 12 3z"/><path d="m9 12 2 2 4-4"/></svg></span>
-  <p class="hb-title">Every story above began the same way: the scammer <em>already had the contact details</em>. Check yours before someone uses them.</p></div>
-  <form class="hb-form" data-src="mid" novalidate>
-    <input type="email" name="email" placeholder="you@example.com" autocomplete="email" inputmode="email" spellcheck="false" aria-label="Your email address">
-    <input type="text" name="hp" class="hb-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-    <button type="submit">Check if my email leaked</button>
-  </form>
-  <p class="hb-err" hidden></p>
-  <div class="hb-trust"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Free</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> About 30 seconds</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No sign-up</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Email not stored</span></div>
-  <p class="hb-legal">By tapping the button you confirm this is your own email, or that you have permission to check it.</p>
-</div>
+<div class="sms-cta" data-sms-cta="mid"></div>
 <h2>What the stories have in common</h2>
 <p>Most of these scams rely on pressure, secrecy and a request for payment or a login. The simplest defence is to stop, check the request through a contact method you find yourself, and tell someone before you act.</p>
 <h2>Where to report</h2>
@@ -628,43 +561,6 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
   });
 </script>
 
-<div class="sticky-check" id="stickyCheck" aria-hidden="true">
-  <span class="sc-dot"></span>
-  <span class="sc-txt">Your email: <b>not checked yet</b></span>
-  <a href="https://www.scanmyshadow.com/digital-footprint-checker/" onclick="if(typeof gtag==='function'){gtag('event','blog_sticky_cta_click',{})}">Check free</a>
-</div>
-<script>
-(function(){
-  var RE=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
-  var DEST='https://www.scanmyshadow.com/digital-footprint-checker/';
-  document.querySelectorAll('.hb-form').forEach(function(f){
-    f.addEventListener('submit',function(ev){
-      ev.preventDefault();
-      var inp=f.querySelector('input[type=email]'), hp=f.querySelector('.hb-hp');
-      var err=f.parentNode.querySelector('.hb-err'), v=(inp.value||'').trim();
-      if(!RE.test(v)){err.textContent=v?'That doesn\u2019t look like a valid email.':'Enter your email to run the free check.';err.hidden=false;inp.focus();return;}
-      err.hidden=true;
-      try{sessionStorage.setItem('sms_prefill',JSON.stringify({e:v,hp:(hp&&hp.value)||'',t:Date.now()}));}catch(e){}
-      var done=false, go=function(){if(done)return;done=true;location.href=DEST;};
-      if(typeof gtag==='function'){try{gtag('event','blog_hook_submit',{position:f.getAttribute('data-src'),event_callback:go,event_timeout:600});setTimeout(go,700);return;}catch(e){}}
-      go();
-    });
-  });
-  var bar=document.getElementById('stickyCheck');
-  var watch=[].slice.call(document.querySelectorAll('.hook-box,.price-card'));
-  var vis=new Set(), top=document.querySelector('.hook-box');
-  function upd(){
-    var passed=top?top.getBoundingClientRect().bottom<0:true;
-    var on=passed&&vis.size===0;
-    bar.classList.toggle('show',on); bar.setAttribute('aria-hidden',on?'false':'true');
-  }
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target);});upd();});
-    watch.forEach(function(w){io.observe(w);});
-  }
-  window.addEventListener('scroll',upd,{passive:true});
-})();
-</script>
 <script src="/assets/geo-price.js"></script>
 <script src="https://www.scanmyshadow.com/assets/theme.js"></script>
 
