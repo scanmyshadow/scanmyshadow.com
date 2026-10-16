@@ -2335,6 +2335,24 @@ html[data-theme="dark"] .hero-radar i{border-color:rgba(164,143,251,.42)}
 .hero-radar i{width:640px;height:640px;margin:-320px 0 0 -320px}
 }
 @media(prefers-reduced-motion:reduce){.hero-radar i{display:none}}
+/* phones/tablets: leaked-data tags float up out of the blurred result (replaces the second sonar there) */
+.lc-leaks{display:none}
+@media(max-width:979px){
+.hero-radar{display:none}
+.lc-leaks{display:block;position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;border-radius:inherit}
+.lc-peek-lock{z-index:3}
+.lc-leaks span{position:absolute;bottom:-32px;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;font-size:11px;font-weight:700;color:#5B3EE0;background:rgba(241,237,254,.96);border:1px solid rgba(123,92,250,.35);padding:5px 10px;border-radius:999px;box-shadow:0 4px 12px rgba(91,62,224,.15);opacity:0;animation:lcLeakRise 6s linear infinite}
+.lc-leaks span svg{width:12px;height:12px}
+.lc-leaks span:nth-child(1){left:6%;animation-delay:0s}
+.lc-leaks span:nth-child(2){left:56%;animation-delay:-1s}
+.lc-leaks span:nth-child(3){left:18%;animation-delay:-2s}
+.lc-leaks span:nth-child(4){left:52%;animation-delay:-3s}
+.lc-leaks span:nth-child(5){left:8%;animation-delay:-4s}
+.lc-leaks span:nth-child(6){left:58%;animation-delay:-5s}
+@keyframes lcLeakRise{0%{transform:translateY(0);opacity:0}12%{opacity:1}75%{opacity:1}100%{transform:translateY(-230px);opacity:0}}
+html[data-theme="dark"] .lc-leaks span{color:#D9CCFF;background:rgba(43,34,72,.95);border-color:rgba(164,143,251,.4)}
+}
+@media(prefers-reduced-motion:reduce){.lc-leaks{display:none!important}}
 /* phones/tablets: second sonar ping centred between the headline and the sub-line */
 .hero-radar-top{display:none}
 @media(max-width:979px){
@@ -2546,6 +2564,7 @@ html[data-theme="dark"] .hero-radar-top i{border-color:rgba(164,143,251,.42)}
     <div class="lc-peek-row"><span class="lc-peek-blur">Canva &middot; 2019</span><span class="lc-peek-blur">Name, city</span></div>
     <div class="lc-peek-row"><span class="lc-peek-blur">Zomato &middot; 2017</span><span class="lc-peek-blur">Password</span></div>
     <div class="lc-peek-row"><span class="lc-peek-blur">Dropbox &middot; 2012</span><span class="lc-peek-blur">Email</span></div>
+    <div class="lc-leaks" aria-hidden="true"><span>Password</span><span>Phone number</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Google Maps location</span><span>Home address</span><span>Date of birth</span><span>Old account</span></div>
     <button type="button" class="lc-peek-lock" id="lcPeekLock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Enter your email to unlock</button>
   </aside>
 
