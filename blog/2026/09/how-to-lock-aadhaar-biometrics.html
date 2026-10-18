@@ -44,7 +44,7 @@
       "headline": "How to Lock Your Aadhaar Biometrics",
       "description": "Both the official mAadhaar app and the UIDAI website offer a biometric lock/unlock feature under Aadhaar services.",
       "datePublished": "2026-09-29T12:00:00+05:30",
-      "dateModified": "2026-09-29T12:00:00+05:30",
+      "dateModified": "2026-10-18T12:00:00+05:30",
       "image": "https://www.scanmyshadow.com/og-image.png",
       "author": {
         "@id": "https://www.scanmyshadow.com/#organization"
@@ -542,6 +542,14 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 
 <p>If this looks similar to something else you've seen, it's worth reading <a href="https://www.scanmyshadow.com/blog/2026/09/how-to-recover-a-hacked-whatsapp-account-india.html">How to Recover a Hacked WhatsApp Account in India</a>.</p>
 <p>This pattern shows up elsewhere too — see <a href="https://www.scanmyshadow.com/blog/2026/09/how-to-recover-money-lost-to-upi-scam.html">How to Recover Money Lost to a UPI Scam</a>.</p>
+<h2>Lock or unlock Aadhaar biometrics by SMS</h2>
+<p>No internet? <a href="https://uidai.gov.in/my-aadhaar/avail-aadhaar-services/aadhaar-services-on-sms.html" target="_blank" rel="noopener">UIDAI&#x27;s SMS service</a> lets you do it by text to <strong>1947</strong> from your Aadhaar-registered mobile number:</p>
+<ol>
+<li>Send <code>GETOTP</code> followed by the last 4 digits of your Aadhaar (for example, <code>GETOTP 9123</code>).</li>
+<li>To unlock temporarily, send <code>UNLOCKBIO</code>, the same 4 digits and the 6-digit OTP (for example, <code>UNLOCKBIO 9123 012345</code>).</li>
+<li>To switch the lock on, use <code>ENABLEBIOLOCK</code> in the same format; to turn it off fully, <code>DISABLEBIOLOCK</code>.</li>
+</ol>
+<p>You can use the last 6 digits of your Virtual ID instead of the Aadhaar digits. While you&#x27;re protecting your ID, also <a href="https://www.scanmyshadow.com/blog/2026/10/how-many-sim-cards-in-my-name-check.html">check how many SIM cards are in your name</a>.</p>
 <h2>Frequently Asked Questions</h2>
 <h3>Step 1: Open the mAadhaar app or visit uidai.gov.in</h3>
 <p>Both the official mAadhaar app and the UIDAI website offer a biometric lock/unlock feature under Aadhaar services.</p>
@@ -555,6 +563,7 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <h2>Sources</h2>
 <ul>
 <li><a href="https://uidai.gov.in/" target="_blank" rel="noopener">UIDAI (Unique Identification Authority of India)</a></li>
+<li><a href="https://uidai.gov.in/my-aadhaar/avail-aadhaar-services/aadhaar-services-on-sms.html" target="_blank" rel="noopener">UIDAI: Aadhaar services on SMS</a></li>
 </ul>
 <h2>Related Reading</h2>
 <ul>
