@@ -1111,6 +1111,9 @@ Site: https://www.scanmyshadow.com/
 - [WiGLE: Is Your Wi-Fi on a Public Map? How to Opt Out](https://www.scanmyshadow.com/blog/2026/10/wigle-wifi-map-how-to-remove-your-network.html)
 - [X (Twitter) Privacy Settings: Protect Posts and What Shows](https://www.scanmyshadow.com/blog/2026/10/x-twitter-privacy-settings-guide.html)
 
+## India: spam calls and DND (added Oct 20, 2026)
+- [TRAI DND Registration: Stop Spam Calls in India (1909)](https://www.scanmyshadow.com/blog/2026/10/trai-dnd-registration-stop-spam-calls-india.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
