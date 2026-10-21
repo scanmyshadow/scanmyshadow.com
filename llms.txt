@@ -1114,6 +1114,18 @@ Site: https://www.scanmyshadow.com/
 ## India: spam calls and DND (added Oct 20, 2026)
 - [TRAI DND Registration: Stop Spam Calls in India (1909)](https://www.scanmyshadow.com/blog/2026/10/trai-dnd-registration-stop-spam-calls-india.html)
 
+## App privacy, records and ID protection reviews (added Oct 21, 2026)
+- [AAA ProtectMyID: Free Identity Theft Protection Explained](https://www.scanmyshadow.com/blog/2026/10/aaa-protectmyid-identity-theft-protection.html)
+- [Discord Privacy Settings: DMs, Friend Requests and Data](https://www.scanmyshadow.com/blog/2026/10/discord-privacy-settings-guide.html)
+- [What Is FOIA? How to Request Government Records About You](https://www.scanmyshadow.com/blog/2026/10/foia-privacy-act-request-your-government-records.html)
+- [How to Check Your Own Criminal Record (US, UK, India)](https://www.scanmyshadow.com/blog/2026/10/how-to-check-your-own-criminal-record.html)
+- [How to Make VSCO Private (What You Can and Can't Hide)](https://www.scanmyshadow.com/blog/2026/10/how-to-make-vsco-private.html)
+- [IdentityIQ $1 Trial: What You Pay After 7 Days](https://www.scanmyshadow.com/blog/2026/10/identityiq-1-dollar-trial-explained.html)
+- [IDShield Review (2026): Plans, Prices and Is It Worth It](https://www.scanmyshadow.com/blog/2026/10/idshield-review.html)
+- [Kik Username Search: How People Find You and Privacy](https://www.scanmyshadow.com/blog/2026/10/kik-username-search-privacy-safety.html)
+- [YouTube Privacy Settings: Subscriptions, History and Ads](https://www.scanmyshadow.com/blog/2026/10/youtube-privacy-settings-guide.html)
+- [Zander Identity Theft Protection Review: Plans and Prices](https://www.scanmyshadow.com/blog/2026/10/zander-identity-theft-protection-review.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
