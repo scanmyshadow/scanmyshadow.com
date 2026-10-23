@@ -506,6 +506,28 @@ h1 .accent{color:var(--purple);}
   }
 }
 </style>
+<style id="smsl-css">
+.smsl{margin:18px 0 8px;border:1px solid rgba(123,92,250,.28);border-radius:14px;padding:14px 14px 16px;background:rgba(123,92,250,.05);text-align:left}
+.smsl-h{display:flex;align-items:center;gap:7px;font:700 12.5px/1.3 'Space Grotesk',Inter,sans-serif;color:var(--purple-deep,#5B3FD6);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.smsl-h svg{width:14px;height:14px;flex-shrink:0}
+.smsl-row{position:relative;padding:10px 26px 10px 0;border-top:1px dashed rgba(123,92,250,.22)}
+.smsl-row:first-of-type{border-top:0}
+.smsl-yr{font-size:11.5px;font-weight:700;color:var(--ink-faint,#8B87A3);margin-right:8px}
+.smsl-nm{display:inline-block;font-weight:700;font-size:14px;color:var(--ink,#1A1630);filter:blur(5px);user-select:none;-webkit-user-select:none;pointer-events:none}
+.smsl-lk{position:absolute;right:2px;top:11px;width:15px;height:15px;color:var(--purple-deep,#5B3FD6)}
+.smsl-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.smsl-chip{font-size:11px;line-height:1.5;padding:1px 8px;border-radius:999px;background:rgba(123,92,250,.1);color:var(--ink-soft,#55507A)}
+.smsl-chip.crit{background:rgba(229,72,77,.12);color:#D2353A}
+.smsl-panel{margin-top:12px;padding:14px;border-radius:12px;background:rgba(123,92,250,.08);border:1px solid rgba(123,92,250,.2)}
+.smsl-pt{font:700 17px/1.3 'Space Grotesk',Inter,sans-serif;color:var(--ink,#1A1630)}
+.smsl-ps{font-size:13px;line-height:1.5;color:var(--ink-soft,#55507A);margin:4px 0 8px}
+.smsl-ul{margin:0 0 12px;padding:0;list-style:none;font-size:13.5px;line-height:1.45;color:var(--ink,#1A1630)}
+.smsl-ul li{padding:3px 0 3px 22px;position:relative}
+.smsl-ul li:before{content:'';position:absolute;left:4px;top:8px;width:9px;height:5px;border-left:2px solid #7B5CFA;border-bottom:2px solid #7B5CFA;transform:rotate(-45deg)}
+.smsl-btn{display:block;box-sizing:border-box;width:100%;text-align:center;padding:13px 16px;border-radius:999px;background:linear-gradient(135deg,#7B5CFA,#5B3FD6);color:#fff!important;font-weight:700;font-size:15px;text-decoration:none!important;border:0;cursor:pointer}
+.smsl-panel .lc-cta,.smsl-panel .btn-scan{margin:0;width:100%}
+.smsl-tiny{font-size:9.5px!important;line-height:1.4;color:var(--ink-faint,#8B87A3)!important;opacity:.7;text-align:center}
+</style>
 </head>
 
 <body>
@@ -708,8 +730,8 @@ h1 .accent{color:var(--purple);}
 
       <div class="breach-list" id="breachList"></div>
 
-      <div class="hibp-attrib" id="hibpAttrib" style="display:none;">
-        Breach data via <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+      <div class="hibp-attrib smsl-tiny" id="hibpAttrib" style="display:none;">
+        Breach data: Have I Been Pwned (CC BY 4.0).
       </div>
 
       <div class="breach-actions">
@@ -1157,6 +1179,37 @@ h1 .accent{color:var(--purple);}
     function f(ts){ if(!s) s = ts; var p = Math.min((ts-s)/900,1); el.textContent = Math.round(t*p); if(p<1) requestAnimationFrame(f); }
     requestAnimationFrame(f);
   }
+
+var SMSL_LOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
+function smslEsc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML}
+function smslSplit(list){
+var s=(list||[]).slice();
+s.sort(function(p,q){var a=((p.stealerLog||p.malware)?2:0)+(p.critical?1:0),b=((q.stealerLog||q.malware)?2:0)+(q.critical?1:0);return (b-a)||String(q.date||'').localeCompare(String(p.date||''))});
+var n=Math.ceil(s.length/2);
+return {locked:s.slice(0,n),vis:s.slice(n)};
+}
+function smslLocked(locked,btnHtml){
+if(!locked||!locked.length)return '';
+var SN=/password|phone|government|credit|card|bank|financial|passport|security question|date of birth|physical address/i;
+var NM=['Hidden breach name','Hidden source','Hidden breach','Hidden account source','Hidden name'];
+var h='<div class="smsl"><div class="smsl-h">'+SMSL_LOCK+'More results hidden</div>';
+var r=locked.slice(0,5);
+for(var i=0;i<r.length;i++){
+var b=r[i]||{},m=String(b.date||'').match(/^(\d{4})/),dc=(b.dataClasses||[]).slice();
+dc.sort(function(p,q){return (SN.test(q)?1:0)-(SN.test(p)?1:0)});
+dc=dc.slice(0,3);
+if(b.stealerLog||b.malware)dc.unshift('Malware log');
+h+='<div class="smsl-row">'+(m?'<span class="smsl-yr">'+m[1]+'</span>':'')+'<span class="smsl-nm" aria-hidden="true">'+NM[i%5]+'</span><span class="smsl-lk">'+SMSL_LOCK+'</span>';
+if(dc.length){h+='<div class="smsl-chips">';for(var k=0;k<dc.length;k++)h+='<span class="smsl-chip'+(SN.test(dc[k])||dc[k]==='Malware log'?' crit':'')+'">'+smslEsc(dc[k])+'</span>';h+='</div>'}
+h+='</div>';
+}
+h+='<div class="smsl-panel"><div class="smsl-pt">Unlock your full report</div>'
++'<div class="smsl-ps">The complete phone + email report shows everything, including:</div>'
++'<ul class="smsl-ul"><li>Breach and leak names</li><li>Linked account names</li><li>Google Maps locations</li><li>Where your phone number appears</li><li>A step-by-step removal guide</li></ul>'
++(btnHtml||'')+'</div></div>';
+return h;
+}
+
   function dxBuild(data, breaches){
     var sev = data.severity || 'clear', count = breaches.length;
     var band = {clear:{k:'calm',t:'Nothing found'}, low:{k:'note',t:'Low exposure'}, moderate:{k:'note',t:'Some exposure'}, high:{k:'crit',t:'High exposure'}}[sev] || {k:'calm',t:'Nothing found'};
@@ -1170,17 +1223,19 @@ h1 .accent{color:var(--purple);}
     if(critN > 0){
       h += '<div class="dx-why dx-in" style="--i:2"><div class="dx-why-t">Why this is marked high</div><div class="dx-why-p">'+critN+' of these '+(critN===1?'breach exposed':'breaches exposed')+' passwords or identity data, not just an email address. If you have reused that password anywhere, change it on those accounts first.</div></div>';
     }
+    var smsl = smslSplit(breaches);
     if(count > 0){
-      var top = breaches.filter(dxIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,5);
+      var top = smsl.vis.filter(dxIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,5);
       top.sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
-      var steal = breaches.filter(dxIsStealer);
-      var rest = breaches.filter(function(x){ return top.indexOf(x) < 0 && !dxIsStealer(x); });
+      var steal = smsl.vis.filter(dxIsStealer);
+      var rest = smsl.vis.filter(function(x){ return top.indexOf(x) < 0 && !dxIsStealer(x); });
       if(top.length){ h += '<div class="dx-tl">'; top.forEach(function(b,i){ h += dxItem(b,i); }); h += '</div>'; }
       var gi = top.length + 3;
       if(steal.length || rest.length) h += '<div class="dx-grps">';
       if(steal.length) h += dxGroup('Infostealer malware logs', steal, gi++);
       if(rest.length) h += dxGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++);
       if(steal.length || rest.length) h += '</div>';
+      h += smslLocked(smsl.locked, '<a class="smsl-btn" href="https://www.scanmyshadow.com/#pricing" onclick="if(window.gtag){try{gtag(\'event\',\'breach_result_cta_click\',{placement:\'locked\'})}catch(e){}}">Unlock full phone + email report</a>');
     }
     return h + '</div>';
   }
@@ -1206,7 +1261,7 @@ h1 .accent{color:var(--purple);}
 
     if(count === 0){
       breachHeadline.textContent = 'No known breaches found';
-      breachSub.innerHTML = 'Your email wasn\'t found in Have I Been Pwned\'s current records. <strong>That\'s good news</strong> — but it only checks email breaches, not your phone number or 1,500+ other sources.';
+      breachSub.innerHTML = 'Your email wasn\'t found in known breach records. <strong>That\'s good news</strong> — but it only checks email breaches, not your phone number or 1,500+ other sources.';
     }else{
       breachHeadline.textContent = count === 1 ? 'Found in 1 data breach' : 'Found in ' + count + ' data breaches';
       breachSub.innerHTML = 'This is real, recorded breach data for your email — <strong>not an estimate.</strong> Here\'s what turned up:';

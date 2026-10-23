@@ -1298,6 +1298,28 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
   .lc-attrib a{color:inherit; text-decoration:underline;}
 
 </style>
+<style id="smsl-css">
+.smsl{margin:18px 0 8px;border:1px solid rgba(123,92,250,.28);border-radius:14px;padding:14px 14px 16px;background:rgba(123,92,250,.05);text-align:left}
+.smsl-h{display:flex;align-items:center;gap:7px;font:700 12.5px/1.3 'Space Grotesk',Inter,sans-serif;color:var(--purple-deep,#5B3FD6);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.smsl-h svg{width:14px;height:14px;flex-shrink:0}
+.smsl-row{position:relative;padding:10px 26px 10px 0;border-top:1px dashed rgba(123,92,250,.22)}
+.smsl-row:first-of-type{border-top:0}
+.smsl-yr{font-size:11.5px;font-weight:700;color:var(--ink-faint,#8B87A3);margin-right:8px}
+.smsl-nm{display:inline-block;font-weight:700;font-size:14px;color:var(--ink,#1A1630);filter:blur(5px);user-select:none;-webkit-user-select:none;pointer-events:none}
+.smsl-lk{position:absolute;right:2px;top:11px;width:15px;height:15px;color:var(--purple-deep,#5B3FD6)}
+.smsl-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.smsl-chip{font-size:11px;line-height:1.5;padding:1px 8px;border-radius:999px;background:rgba(123,92,250,.1);color:var(--ink-soft,#55507A)}
+.smsl-chip.crit{background:rgba(229,72,77,.12);color:#D2353A}
+.smsl-panel{margin-top:12px;padding:14px;border-radius:12px;background:rgba(123,92,250,.08);border:1px solid rgba(123,92,250,.2)}
+.smsl-pt{font:700 17px/1.3 'Space Grotesk',Inter,sans-serif;color:var(--ink,#1A1630)}
+.smsl-ps{font-size:13px;line-height:1.5;color:var(--ink-soft,#55507A);margin:4px 0 8px}
+.smsl-ul{margin:0 0 12px;padding:0;list-style:none;font-size:13.5px;line-height:1.45;color:var(--ink,#1A1630)}
+.smsl-ul li{padding:3px 0 3px 22px;position:relative}
+.smsl-ul li:before{content:'';position:absolute;left:4px;top:8px;width:9px;height:5px;border-left:2px solid #7B5CFA;border-bottom:2px solid #7B5CFA;transform:rotate(-45deg)}
+.smsl-btn{display:block;box-sizing:border-box;width:100%;text-align:center;padding:13px 16px;border-radius:999px;background:linear-gradient(135deg,#7B5CFA,#5B3FD6);color:#fff!important;font-weight:700;font-size:15px;text-decoration:none!important;border:0;cursor:pointer}
+.smsl-panel .lc-cta,.smsl-panel .btn-scan{margin:0;width:100%}
+.smsl-tiny{font-size:9.5px!important;line-height:1.4;color:var(--ink-faint,#8B87A3)!important;opacity:.7;text-align:center}
+</style>
 </head>
 <body>
 
@@ -1451,7 +1473,7 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       <div class="free-phase in" id="freePhaseIdle">
         <div class="scan-box-tag free-tag">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
-          Free breach check · data by <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">Have I Been Pwned</a>
+          Free breach check
         </div>
         <div class="scan-fields">
           <div class="field">
@@ -1512,8 +1534,8 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
           <img src="/founder.jpg" width="44" height="44" alt="Sid, founder of Scan My Shadow" loading="lazy">
           <div><b>Built by Sid, founder.</b> Questions before you pay? <a href="/contact.html">Message me</a>.</div>
         </div>
-        <div class="lc-attrib" style="text-align:center;font-size:10.5px;color:var(--ink-faint);margin-top:10px;">
-          Breach data from <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener">Have I Been Pwned</a>, used under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        <div class="lc-attrib smsl-tiny" style="margin-top:10px;">
+          Breach data: Have I Been Pwned (CC BY 4.0).
         </div>
       </div>
 
@@ -2628,6 +2650,37 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
         + '<div class="proof-map-overlay"><span class="tag">Location found</span><strong>Buenos Aires, Argentina</strong><small>Exact point hidden in this sample</small></div></div>'
         + '<div class="fr-sample-cap"><b>This is a sample report, not your results.</b> It comes from a real scan, with personal identifiers and exact points hidden. Yours will show your own findings.</div></div>';
     }
+
+var SMSL_LOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
+function smslEsc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML}
+function smslSplit(list){
+var s=(list||[]).slice();
+s.sort(function(p,q){var a=((p.stealerLog||p.malware)?2:0)+(p.critical?1:0),b=((q.stealerLog||q.malware)?2:0)+(q.critical?1:0);return (b-a)||String(q.date||'').localeCompare(String(p.date||''))});
+var n=Math.ceil(s.length/2);
+return {locked:s.slice(0,n),vis:s.slice(n)};
+}
+function smslLocked(locked,btnHtml){
+if(!locked||!locked.length)return '';
+var SN=/password|phone|government|credit|card|bank|financial|passport|security question|date of birth|physical address/i;
+var NM=['Hidden breach name','Hidden source','Hidden breach','Hidden account source','Hidden name'];
+var h='<div class="smsl"><div class="smsl-h">'+SMSL_LOCK+'More results hidden</div>';
+var r=locked.slice(0,5);
+for(var i=0;i<r.length;i++){
+var b=r[i]||{},m=String(b.date||'').match(/^(\d{4})/),dc=(b.dataClasses||[]).slice();
+dc.sort(function(p,q){return (SN.test(q)?1:0)-(SN.test(p)?1:0)});
+dc=dc.slice(0,3);
+if(b.stealerLog||b.malware)dc.unshift('Malware log');
+h+='<div class="smsl-row">'+(m?'<span class="smsl-yr">'+m[1]+'</span>':'')+'<span class="smsl-nm" aria-hidden="true">'+NM[i%5]+'</span><span class="smsl-lk">'+SMSL_LOCK+'</span>';
+if(dc.length){h+='<div class="smsl-chips">';for(var k=0;k<dc.length;k++)h+='<span class="smsl-chip'+(SN.test(dc[k])||dc[k]==='Malware log'?' crit':'')+'">'+smslEsc(dc[k])+'</span>';h+='</div>'}
+h+='</div>';
+}
+h+='<div class="smsl-panel"><div class="smsl-pt">Unlock your full report</div>'
++'<div class="smsl-ps">The complete phone + email report shows everything, including:</div>'
++'<ul class="smsl-ul"><li>Breach and leak names</li><li>Linked account names</li><li>Google Maps locations</li><li>Where your phone number appears</li><li>A step-by-step removal guide</li></ul>'
++(btnHtml||'')+'</div></div>';
+return h;
+}
+
     function frBuild(email, data, breaches){
       var sev = data.severity || 'clear', count = breaches.length;
       var band = {clear:{k:'calm',t:'Nothing found'}, low:{k:'note',t:'Low exposure'}, moderate:{k:'note',t:'Some exposure'}, high:{k:'crit',t:'High exposure'}}[sev] || {k:'calm',t:'Nothing found'};
@@ -2644,17 +2697,20 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       h += '<div class="fr-bar"><i class="'+band.k+'"></i></div>';
       h += frLeaks(breaches, 4);
       var gi = 5;
+      var smsl = smslSplit(breaches);
       if(count > 0){
-        var top = breaches.filter(frIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,3);
+        var top = smsl.vis.filter(frIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,3);
         top.sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
-        var steal = breaches.filter(frIsStealer);
-        var rest = breaches.filter(function(x){ return top.indexOf(x) < 0 && !frIsStealer(x); });
+        var steal = smsl.vis.filter(frIsStealer);
+        var rest = smsl.vis.filter(function(x){ return top.indexOf(x) < 0 && !frIsStealer(x); });
         if(top.length){ h += '<div class="fr-tl">'; top.forEach(function(b,i){ h += frItem(b,i); }); h += '</div>'; }
         gi = top.length + 5;
         if(steal.length || rest.length) h += '<div class="fr-grps">';
         if(steal.length) h += frGroup('Infostealer malware logs', steal, gi++);
         if(rest.length) h += frGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++);
         if(steal.length || rest.length) h += '</div>';
+        var smslCur = window.SMS_CURRENCY === 'INR' ? '\u20b9498' : '$9.99';
+        h += smslLocked(smsl.locked, '<button type="button" class="btn-scan fr-cta-lock"><span>Unlock full phone + email report <span style="white-space:nowrap">&middot; <span class="price-tag">'+smslCur+'</span></span></span></button>');
       }
       h += frSample(gi++);
       return h + '</div>';
@@ -2694,6 +2750,8 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
     }
     var frTop = list.querySelector('.fr-cta-top');
     if(frTop) frTop.addEventListener('click', function(){ if(window.smsStartCheckout) window.smsStartCheckout('top'); });
+    var frLock = list.querySelector('.fr-cta-lock');
+    if(frLock) frLock.addEventListener('click', function(){ if(window.smsStartCheckout) window.smsStartCheckout('locked'); });
     if(window.smsBuyBar) window.smsBuyBar.enable();
     setTimeout(function(){ list.classList.add('fr-go'); }, 4000); // safety net so results never stay hidden
     // prefill the existing (unmodified) paid-flow email field so the current scanBtn/captureLead logic works untouched

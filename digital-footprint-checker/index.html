@@ -96,12 +96,12 @@
     {
       "@type": "Question",
       "name": "Can I check my digital footprint for free?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes. The free breach check at the top of this page tells you instantly whether your email appears in publicly known data breaches, including which breaches, when they happened and what data was exposed. You can also search your own name, number and email on Google. Both are free and a genuinely useful first step — they're just narrower than an automated scan across 1,500+ sources." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. The free breach check at the top of this page tells you instantly whether your email appears in publicly known data breaches, including how many breaches, when they happened and what types of data were exposed. The full breach list is in the paid report. You can also search your own name, number and email on Google. Both are free and a genuinely useful first step — they're just narrower than an automated scan across 1,500+ sources." }
     },
     {
       "@type": "Question",
       "name": "Is the free email breach checker on this page really free?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes. There is no payment, no account and no sign-up. Enter your email and the result appears immediately, with full detail of every breach found — nothing is held back behind a paywall. Your email address is checked and discarded; it is not stored, logged or added to any list. Breach data is supplied by Have I Been Pwned. The paid scan is a separate, optional product that additionally covers your phone number and 1,500+ sources beyond breach databases." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. There is no payment, no account and no sign-up. Enter your email and the result appears immediately, showing how many breaches were found, what types of data leaked and part of the breach list. The complete list, with account names and locations, is in the paid report. Your email address is checked and discarded; it is not stored, logged or added to any list. Breach data is supplied by Have I Been Pwned. The paid scan is a separate, optional product that additionally covers your phone number and 1,500+ sources beyond breach databases." }
     },
     {
       "@type": "Question",
@@ -143,7 +143,7 @@
   "@type": "WebApplication",
   "name": "Free Email Data Breach Checker",
   "url": "https://www.scanmyshadow.com/digital-footprint-checker/",
-  "description": "A free tool that checks whether your email address appears in publicly known data breaches, and shows the breach name, date, number of accounts exposed and the types of data leaked.",
+  "description": "A free tool that checks whether your email address appears in publicly known data breaches, and shows how many breaches were found, when they happened and the types of data leaked.",
   "applicationCategory": "SecurityApplication",
   "operatingSystem": "Any",
   "browserRequirements": "Requires JavaScript",
@@ -151,7 +151,7 @@
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
   "featureList": [
     "Instant email breach check",
-    "Breach names, dates and affected account counts",
+    "Breach count, dates and a partial breach list",
     "Types of data exposed in each breach",
     "Severity rating based on whether passwords or identity data leaked",
     "No account, no payment and no data stored"
@@ -2402,6 +2402,28 @@ html[data-theme="dark"] .hero-radar-top i{border-color:rgba(164,143,251,.42)}
 
 </style>
 
+<style id="smsl-css">
+.smsl{margin:18px 0 8px;border:1px solid rgba(123,92,250,.28);border-radius:14px;padding:14px 14px 16px;background:rgba(123,92,250,.05);text-align:left}
+.smsl-h{display:flex;align-items:center;gap:7px;font:700 12.5px/1.3 'Space Grotesk',Inter,sans-serif;color:var(--purple-deep,#5B3FD6);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.smsl-h svg{width:14px;height:14px;flex-shrink:0}
+.smsl-row{position:relative;padding:10px 26px 10px 0;border-top:1px dashed rgba(123,92,250,.22)}
+.smsl-row:first-of-type{border-top:0}
+.smsl-yr{font-size:11.5px;font-weight:700;color:var(--ink-faint,#8B87A3);margin-right:8px}
+.smsl-nm{display:inline-block;font-weight:700;font-size:14px;color:var(--ink,#1A1630);filter:blur(5px);user-select:none;-webkit-user-select:none;pointer-events:none}
+.smsl-lk{position:absolute;right:2px;top:11px;width:15px;height:15px;color:var(--purple-deep,#5B3FD6)}
+.smsl-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.smsl-chip{font-size:11px;line-height:1.5;padding:1px 8px;border-radius:999px;background:rgba(123,92,250,.1);color:var(--ink-soft,#55507A)}
+.smsl-chip.crit{background:rgba(229,72,77,.12);color:#D2353A}
+.smsl-panel{margin-top:12px;padding:14px;border-radius:12px;background:rgba(123,92,250,.08);border:1px solid rgba(123,92,250,.2)}
+.smsl-pt{font:700 17px/1.3 'Space Grotesk',Inter,sans-serif;color:var(--ink,#1A1630)}
+.smsl-ps{font-size:13px;line-height:1.5;color:var(--ink-soft,#55507A);margin:4px 0 8px}
+.smsl-ul{margin:0 0 12px;padding:0;list-style:none;font-size:13.5px;line-height:1.45;color:var(--ink,#1A1630)}
+.smsl-ul li{padding:3px 0 3px 22px;position:relative}
+.smsl-ul li:before{content:'';position:absolute;left:4px;top:8px;width:9px;height:5px;border-left:2px solid #7B5CFA;border-bottom:2px solid #7B5CFA;transform:rotate(-45deg)}
+.smsl-btn{display:block;box-sizing:border-box;width:100%;text-align:center;padding:13px 16px;border-radius:999px;background:linear-gradient(135deg,#7B5CFA,#5B3FD6);color:#fff!important;font-weight:700;font-size:15px;text-decoration:none!important;border:0;cursor:pointer}
+.smsl-panel .lc-cta,.smsl-panel .btn-scan{margin:0;width:100%}
+.smsl-tiny{font-size:9.5px!important;line-height:1.4;color:var(--ink-faint,#8B87A3)!important;opacity:.7;text-align:center}
+</style>
 </head>
 
 <body>
@@ -2499,7 +2521,7 @@ html[data-theme="dark"] .hero-radar-top i{border-color:rgba(164,143,251,.42)}
 
       <span class="lc-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        Free breach check &middot; data by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>
+        Free breach check
       </span>
 
       <div class="lc-h">Check your email against 800+ known data breaches</div>
@@ -2541,7 +2563,7 @@ html[data-theme="dark"] .hero-radar-top i{border-color:rgba(164,143,251,.42)}
 
       <span class="lc-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        Free breach check &middot; data by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>
+        Free breach check
       </span>
 
       <div class="lc-load">
@@ -2725,7 +2747,7 @@ html[data-theme="dark"] .hero-radar-top i{border-color:rgba(164,143,251,.42)}
     <div class="step-num">3</div>
     <div class="title">Check a breach database</div>
     <div class="desc">
-      Use the <a href="#top">free breach check at the top of this page</a> to see whether your email appears in publicly known breaches. It returns the breach name, date, how many accounts were exposed and what type of data leaked, at no cost.
+      Use the <a href="#top">free breach check at the top of this page</a> to see whether your email appears in publicly known breaches. It returns how many breaches were found, when they happened and what type of data leaked, at no cost.
     </div>
   </div>
 </div>
@@ -2996,7 +3018,7 @@ html[data-theme="dark"] .hero-radar-top i{border-color:rgba(164,143,251,.42)}
     </button>
     <div class="faq-a">
       <div class="faq-a-inner">
-        Yes. The free breach check at the top of this page tells you instantly whether your email appears in publicly known data breaches, including which breaches, when they happened and what data was exposed. You can also search your own name, number and email on Google. Both are free and a genuinely useful first step — they're just narrower than an automated scan across 1,500+ sources.
+        Yes. The free breach check at the top of this page tells you instantly whether your email appears in publicly known data breaches, including how many breaches, when they happened and what types of data were exposed. The full breach list is in the paid report. You can also search your own name, number and email on Google. Both are free and a genuinely useful first step — they're just narrower than an automated scan across 1,500+ sources.
       </div>
     </div>
   </div>
@@ -3009,7 +3031,7 @@ html[data-theme="dark"] .hero-radar-top i{border-color:rgba(164,143,251,.42)}
     </button>
     <div class="faq-a">
       <div class="faq-a-inner">
-        Yes. There is no payment, no account and no sign-up. Enter your email and the result appears immediately, with full detail of every breach found &mdash; nothing is held back behind a paywall. Your email address is checked and discarded; it is not stored, logged or added to any list. Breach data is supplied by Have I Been Pwned. The paid scan is a separate, optional product that additionally covers your phone number and 1,500+ sources beyond breach databases.
+        Yes. There is no payment, no account and no sign-up. Enter your email and the result appears immediately, showing how many breaches were found, what types of data leaked and part of the breach list. The complete list, with account names and locations, is in the paid report. Your email address is checked and discarded; it is not stored, logged or added to any list. Breach data is supplied by Have I Been Pwned. The paid scan is a separate, optional product that additionally covers your phone number and 1,500+ sources beyond breach databases.
       </div>
     </div>
   </div>
@@ -3483,6 +3505,37 @@ return '<div class="lcx-sample lc-in" style="--i:'+i+'">'
 +'<div class="lcx-cap"><b>This is a sample report, not your results.</b> It comes from a real scan, with personal identifiers and exact points hidden. Yours will show your own findings.</div></div>';
 }
 
+
+var SMSL_LOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
+function smslEsc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML}
+function smslSplit(list){
+var s=(list||[]).slice();
+s.sort(function(p,q){var a=((p.stealerLog||p.malware)?2:0)+(p.critical?1:0),b=((q.stealerLog||q.malware)?2:0)+(q.critical?1:0);return (b-a)||String(q.date||'').localeCompare(String(p.date||''))});
+var n=Math.ceil(s.length/2);
+return {locked:s.slice(0,n),vis:s.slice(n)};
+}
+function smslLocked(locked,btnHtml){
+if(!locked||!locked.length)return '';
+var SN=/password|phone|government|credit|card|bank|financial|passport|security question|date of birth|physical address/i;
+var NM=['Hidden breach name','Hidden source','Hidden breach','Hidden account source','Hidden name'];
+var h='<div class="smsl"><div class="smsl-h">'+SMSL_LOCK+'More results hidden</div>';
+var r=locked.slice(0,5);
+for(var i=0;i<r.length;i++){
+var b=r[i]||{},m=String(b.date||'').match(/^(\d{4})/),dc=(b.dataClasses||[]).slice();
+dc.sort(function(p,q){return (SN.test(q)?1:0)-(SN.test(p)?1:0)});
+dc=dc.slice(0,3);
+if(b.stealerLog||b.malware)dc.unshift('Malware log');
+h+='<div class="smsl-row">'+(m?'<span class="smsl-yr">'+m[1]+'</span>':'')+'<span class="smsl-nm" aria-hidden="true">'+NM[i%5]+'</span><span class="smsl-lk">'+SMSL_LOCK+'</span>';
+if(dc.length){h+='<div class="smsl-chips">';for(var k=0;k<dc.length;k++)h+='<span class="smsl-chip'+(SN.test(dc[k])||dc[k]==='Malware log'?' crit':'')+'">'+smslEsc(dc[k])+'</span>';h+='</div>'}
+h+='</div>';
+}
+h+='<div class="smsl-panel"><div class="smsl-pt">Unlock your full report</div>'
++'<div class="smsl-ps">The complete phone + email report shows everything, including:</div>'
++'<ul class="smsl-ul"><li>Breach and leak names</li><li>Linked account names</li><li>Google Maps locations</li><li>Where your phone number appears</li><li>A step-by-step removal guide</li></ul>'
++(btnHtml||'')+'</div></div>';
+return h;
+}
+
 function render(d){
 var list=(d&&d.breaches)||[];
 var count=(d&&typeof d.count==='number')?d.count:list.length;
@@ -3512,12 +3565,13 @@ h+='</div>';
 
 h+=lcxLeaks(list,4);
 
+var smsl=smslSplit(list);
 if(count>0){
-var brands=list.filter(isBrand);
+var brands=smsl.vis.filter(isBrand);
 var top=brands.slice().sort(function(p,q){return (q.critical?1:0)-(p.critical?1:0)||(q.accounts||0)-(p.accounts||0)}).slice(0,3);
 top.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
-var steal=list.filter(isStealer);
-var rest=list.filter(function(x){return top.indexOf(x)<0&&!isStealer(x)});
+var steal=smsl.vis.filter(isStealer);
+var rest=smsl.vis.filter(function(x){return top.indexOf(x)<0&&!isStealer(x)});
 
 if(top.length){
 h+='<div class="lc-tl">';
@@ -3530,6 +3584,7 @@ if(steal.length||rest.length)h+='<div class="lc-grps">';
 if(steal.length)h+=grp('Infostealer malware logs',steal,gi++);
 if(rest.length)h+=grp(top.length?'Other breaches':'Breaches found',rest,gi++);
 if(steal.length||rest.length)h+='</div>';
+h+=smslLocked(smsl.locked,'<a class="lc-cta" href="/#pricing" data-pay="locked"><span style="text-align:center">Unlock full phone + email report <span style="white-space:nowrap">&middot; <span class="price-tag">'+livePrice()+'</span></span></span></a>');
 }
 
 var gx=(typeof gi==='number')?gi:5;
@@ -3541,7 +3596,7 @@ h+='<div class="lcx-note">System error? Free re-scan or full refund. <a href="ht
 h+='<div class="lcx-founder"><img src="/founder.jpg" width="44" height="44" alt="Sid, founder of Scan My Shadow" loading="lazy"><div><b>Built by Sid, founder.</b> Questions before you pay? <a href="/contact.html">Message me</a>.</div></div>';
 h+='<button type="button" class="lc-again" id="lcAgain">Check a different email</button>';
 
-h+='<div class="lc-attrib">Breach data supplied by <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>, used under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 licence</a>. Your email was not stored or logged.</div>';
+h+='<div class="lc-attrib smsl-tiny">Breach data: Have I Been Pwned (CC BY 4.0). Your email was not stored or logged.</div>';
 
 result.innerHTML=h;
 
