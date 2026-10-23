@@ -2584,12 +2584,13 @@ src="https://www.facebook.com/tr?id=4173151409484633&ev=PageView&noscript=1"
       }
       return h + '</div>';
     }
-    function frGroup(label, items, i){
-      var h = '<div class="fr-in" style="--i:'+i+'"><button type="button" class="fr-grp" aria-expanded="false"><span>'+frEsc(label)+'</span><b>'+items.length+'</b><svg class="fr-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="fr-grp-list" style="display:none;">';
+    function frGroup(label, items, i, total){
+      var h = '<div class="fr-in" style="--i:'+i+'"><button type="button" class="fr-grp" aria-expanded="false"><span>'+frEsc(label)+'</span><b>'+(total||items.length)+'</b><svg class="fr-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="fr-grp-list" style="display:none;">';
       items.slice(0,50).forEach(function(b){
         var y = frYear(b.date);
         h += '<div class="fr-grp-row"><span>'+frEsc(b.name || 'Unnamed breach')+'</span>'+(y?'<em>'+frEsc(y)+'</em>':'')+'</div>';
       });
+      if(total && total > items.length) h += '<div class="fr-grp-row"><span style="color:var(--purple-deep)">+ '+(total-items.length)+' more in your full report</span></div>';
       return h + '</div></div>';
     }
     function frCountUp(){
@@ -2706,7 +2707,13 @@ return h;
       h += '<div class="fr-bar"><i class="'+band.k+'"></i></div>';
       h += frLeaks(breaches, 4);
       var gi = 5;
-      var smsl = smslSplit(breaches);
+      var smsl = (function(){
+        var all = breaches.slice().sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
+        var cap = Math.min(Math.floor(all.length/2), 4), pick = [];
+        all.filter(frIsBrand).slice(0, Math.min(3, cap)).forEach(function(b){ pick.push(b); });
+        all.forEach(function(b){ if(pick.length < cap && pick.indexOf(b) < 0) pick.push(b); });
+        return {vis: pick, locked: all.filter(function(b){ return pick.indexOf(b) < 0; })};
+      })();
       if(count > 0){
         var top = smsl.vis.filter(frIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,3);
         top.sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
@@ -2714,10 +2721,12 @@ return h;
         var rest = smsl.vis.filter(function(x){ return top.indexOf(x) < 0 && !frIsStealer(x); });
         if(top.length){ h += '<div class="fr-tl">'; top.forEach(function(b,i){ h += frItem(b,i); }); h += '</div>'; }
         gi = top.length + 5;
-        if(steal.length || rest.length) h += '<div class="fr-grps">';
-        if(steal.length) h += frGroup('Infostealer malware logs', steal, gi++);
-        if(rest.length) h += frGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++);
-        if(steal.length || rest.length) h += '</div>';
+        var stealTotal = breaches.filter(frIsStealer).length;
+        var restTotal = breaches.filter(function(x){ return top.indexOf(x) < 0 && !frIsStealer(x); }).length;
+        if(stealTotal || restTotal) h += '<div class="fr-grps">';
+        if(stealTotal) h += frGroup('Infostealer malware logs', steal, gi++, stealTotal);
+        if(restTotal) h += frGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++, restTotal);
+        if(stealTotal || restTotal) h += '</div>';
         var smslCur = window.SMS_CURRENCY === 'INR' ? '\u20b9498' : '$9.99';
         h += smslLocked(smsl.locked, '<button type="button" class="btn-scan fr-cta-lock"><span>Unlock full phone + email report <span style="white-space:nowrap">&middot; <span class="price-tag">'+smslCur+'</span></span></span></button>');
       }
