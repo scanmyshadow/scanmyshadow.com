@@ -2655,15 +2655,15 @@ var SMSL_LOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke
 function smslEsc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML}
 function smslSplit(list){
 var s=(list||[]).slice();
-s.sort(function(p,q){var a=((p.stealerLog||p.malware)?2:0)+(p.critical?1:0),b=((q.stealerLog||q.malware)?2:0)+(q.critical?1:0);return (b-a)||String(q.date||'').localeCompare(String(p.date||''))});
-var n=Math.ceil(s.length/2);
-return {locked:s.slice(0,n),vis:s.slice(n)};
+s.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
+var n=Math.floor(s.length/2);
+return {vis:s.slice(0,n),locked:s.slice(n)};
 }
 function smslLocked(locked,btnHtml){
 if(!locked||!locked.length)return '';
 var SN=/password|phone|government|credit|card|bank|financial|passport|security question|date of birth|physical address/i;
 var NM=['Hidden breach name','Hidden source','Hidden breach','Hidden account source','Hidden name'];
-var h='<div class="smsl"><div class="smsl-h">'+SMSL_LOCK+'More results hidden</div>';
+var h='<div class="smsl"><div class="smsl-h">'+SMSL_LOCK+'Also found &middot; in your full report</div>';
 var r=locked.slice(0,5);
 for(var i=0;i<r.length;i++){
 var b=r[i]||{},m=String(b.date||'').match(/^(\d{4})/),dc=(b.dataClasses||[]).slice();
