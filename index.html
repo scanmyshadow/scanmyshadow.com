@@ -2709,9 +2709,17 @@ return h;
       var gi = 5;
       var smsl = (function(){
         var all = breaches.slice().sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
-        var cap = Math.min(Math.floor(all.length/2), 4), pick = [];
-        all.filter(frIsBrand).slice(0, Math.min(3, cap)).forEach(function(b){ pick.push(b); });
-        all.forEach(function(b){ if(pick.length < cap && pick.indexOf(b) < 0) pick.push(b); });
+        var pick = [];
+        if(all.length <= 6){
+          var cap = Math.floor(all.length/2);
+          all.filter(frIsBrand).slice(0, Math.min(3, cap)).forEach(function(b){ pick.push(b); });
+          all.forEach(function(b){ if(pick.length < cap && pick.indexOf(b) < 0) pick.push(b); });
+        } else {
+          var tp = all.filter(frIsBrand).slice(0,3);
+          var sp = all.filter(frIsStealer).slice(0,3);
+          var op = all.filter(function(x){ return !frIsStealer(x) && tp.indexOf(x) < 0; }).slice(0,3);
+          all.forEach(function(b){ if(tp.indexOf(b)>=0 || sp.indexOf(b)>=0 || op.indexOf(b)>=0) pick.push(b); });
+        }
         return {vis: pick, locked: all.filter(function(b){ return pick.indexOf(b) < 0; })};
       })();
       if(count > 0){
