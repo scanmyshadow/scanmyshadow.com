@@ -930,10 +930,19 @@ h1 .accent{color:var(--purple);}
 var SMSL_LOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
 function smslEsc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML}
 function smslSplit(list){
-var s=(list||[]).slice();
-s.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
-var n=Math.floor(s.length/2);
-return {vis:s.slice(0,n),locked:s.slice(n)};
+var all=(list||[]).slice();
+all.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
+var pick=[];
+var IB=function(b){return !!(b&&b.domain&&!b.stealerLog&&!b.malware&&!b.spamList)},IS=function(b){return !!(b&&(b.stealerLog||b.malware))};
+if(all.length<=6){
+var cap=Math.floor(all.length/2);
+all.filter(IB).slice(0,Math.min(3,cap)).forEach(function(b){pick.push(b)});
+all.forEach(function(b){if(pick.length<cap&&pick.indexOf(b)<0)pick.push(b)});
+}else{
+var tp=all.filter(IB).slice(0,3),sp=all.filter(IS).slice(0,3),op=all.filter(function(x){return !IS(x)&&tp.indexOf(x)<0}).slice(0,3);
+all.forEach(function(b){if(tp.indexOf(b)>=0||sp.indexOf(b)>=0||op.indexOf(b)>=0)pick.push(b)});
+}
+return {vis:pick,locked:all.filter(function(b){return pick.indexOf(b)<0})};
 }
 function smslLocked(locked,btnHtml){
 if(!locked||!locked.length)return '';
@@ -988,7 +997,7 @@ return h;
 
     if(data.breaches && data.breaches.length){
       var smsl = smslSplit(data.breaches);
-      var shown = smsl.vis.slice(0,8);
+      var shown = smsl.vis.slice(0,9);
 
       shown.forEach(function(b, idx){
         var card = document.createElement('div');
@@ -1019,10 +1028,10 @@ return h;
         setTimeout(function(){ card.classList.add('in'); }, 120 + idx*90);
       });
 
-      if(smsl.vis.length > 8){
+      if(smsl.vis.length > 9){
         var more = document.createElement('div');
         more.className = 'breach-more';
-        more.textContent = '+ ' + (smsl.vis.length - 8) + ' more breaches found';
+        more.textContent = '+ ' + (smsl.vis.length - 9) + ' more breaches found';
         breachList.appendChild(more);
       }
       if(smsl.locked.length){

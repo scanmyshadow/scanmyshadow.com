@@ -1167,12 +1167,13 @@ h1 .accent{color:var(--purple);}
     }
     return h + '</div>';
   }
-  function dxGroup(label, items, i){
-    var h = '<div class="dx-in" style="--i:'+i+'"><button type="button" class="dx-grp" aria-expanded="false"><span>'+dxEsc(label)+'</span><b>'+items.length+'</b><svg class="dx-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="dx-grp-list" style="display:none;">';
+  function dxGroup(label, items, i, total){
+    var h = '<div class="dx-in" style="--i:'+i+'"><button type="button" class="dx-grp" aria-expanded="false"><span>'+dxEsc(label)+'</span><b>'+(total||items.length)+'</b><svg class="dx-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="dx-grp-list" style="display:none;">';
     items.slice(0,50).forEach(function(b){
       var y = dxYear(b.date);
       h += '<div class="dx-grp-row"><span>'+dxEsc(b.name || 'Unnamed breach')+'</span>'+(y?'<em>'+dxEsc(y)+'</em>':'')+'</div>';
     });
+    if(total && total > items.length) h += '<div class="dx-grp-row"><span style="color:var(--purple-deep,#5B3FE0)">+ '+(total-items.length)+' more in your full report</span></div>';
     return h + '</div></div>';
   }
   function dxCountUp(){
@@ -1188,10 +1189,19 @@ h1 .accent{color:var(--purple);}
 var SMSL_LOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
 function smslEsc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML}
 function smslSplit(list){
-var s=(list||[]).slice();
-s.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
-var n=Math.floor(s.length/2);
-return {vis:s.slice(0,n),locked:s.slice(n)};
+var all=(list||[]).slice();
+all.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
+var pick=[];
+var IB=function(b){return !!(b&&b.domain&&!b.stealerLog&&!b.malware&&!b.spamList)},IS=function(b){return !!(b&&(b.stealerLog||b.malware))};
+if(all.length<=6){
+var cap=Math.floor(all.length/2);
+all.filter(IB).slice(0,Math.min(3,cap)).forEach(function(b){pick.push(b)});
+all.forEach(function(b){if(pick.length<cap&&pick.indexOf(b)<0)pick.push(b)});
+}else{
+var tp=all.filter(IB).slice(0,3),sp=all.filter(IS).slice(0,3),op=all.filter(function(x){return !IS(x)&&tp.indexOf(x)<0}).slice(0,3);
+all.forEach(function(b){if(tp.indexOf(b)>=0||sp.indexOf(b)>=0||op.indexOf(b)>=0)pick.push(b)});
+}
+return {vis:pick,locked:all.filter(function(b){return pick.indexOf(b)<0})};
 }
 function smslLocked(locked,btnHtml){
 if(!locked||!locked.length)return '';
@@ -1230,16 +1240,17 @@ return h;
     }
     var smsl = smslSplit(breaches);
     if(count > 0){
-      var top = smsl.vis.filter(dxIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,5);
+      var top = smsl.vis.filter(dxIsBrand).sort(function(p,q){ return (q.critical?1:0)-(p.critical?1:0) || (q.accounts||0)-(p.accounts||0); }).slice(0,3);
       top.sort(function(p,q){ return String(q.date||'').localeCompare(String(p.date||'')); });
       var steal = smsl.vis.filter(dxIsStealer);
       var rest = smsl.vis.filter(function(x){ return top.indexOf(x) < 0 && !dxIsStealer(x); });
       if(top.length){ h += '<div class="dx-tl">'; top.forEach(function(b,i){ h += dxItem(b,i); }); h += '</div>'; }
       var gi = top.length + 3;
-      if(steal.length || rest.length) h += '<div class="dx-grps">';
-      if(steal.length) h += dxGroup('Infostealer malware logs', steal, gi++);
-      if(rest.length) h += dxGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++);
-      if(steal.length || rest.length) h += '</div>';
+      var stealTotal = breaches.filter(dxIsStealer).length, restTotal = breaches.filter(function(x){ return top.indexOf(x) < 0 && !dxIsStealer(x); }).length;
+      if(stealTotal || restTotal) h += '<div class="dx-grps">';
+      if(stealTotal) h += dxGroup('Infostealer malware logs', steal, gi++, stealTotal);
+      if(restTotal) h += dxGroup(top.length ? 'Other breaches' : 'Breaches found', rest, gi++, restTotal);
+      if(stealTotal || restTotal) h += '</div>';
       h += smslLocked(smsl.locked, '<a class="smsl-btn" href="https://www.scanmyshadow.com/#pricing" onclick="if(window.gtag){try{gtag(\'event\',\'breach_result_cta_click\',{placement:\'locked\'})}catch(e){}}">Unlock full phone + email report</a>');
     }
     return h + '</div>';

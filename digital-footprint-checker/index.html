@@ -3419,13 +3419,14 @@ h+='</div>';
 return h;
 }
 
-function grp(label,items,i){
-var h='<div class="lc-in" style="--i:'+i+'"><button type="button" class="lc-grp" aria-expanded="false"><span>'+esc(label)+'</span><b>'+items.length+'</b><svg class="lc-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="lc-grp-list" hidden>';
+function grp(label,items,i,total){
+var h='<div class="lc-in" style="--i:'+i+'"><button type="button" class="lc-grp" aria-expanded="false"><span>'+esc(label)+'</span><b>'+(total||items.length)+'</b><svg class="lc-grp-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="lc-grp-list" hidden>';
 var s=items.slice(0,50);
 for(var k=0;k<s.length;k++){
 var y=yr(s[k].date);
 h+='<div class="lc-grp-row"><span>'+esc(s[k].name||'Unnamed breach')+'</span>'+(y?'<em>'+esc(y)+'</em>':'')+'</div>';
 }
+if(total&&total>items.length)h+='<div class="lc-grp-row"><span style="color:var(--purple-deep)">+ '+(total-items.length)+' more in your full report</span></div>';
 h+='</div></div>';
 return h;
 }
@@ -3509,10 +3510,19 @@ return '<div class="lcx-sample lc-in" style="--i:'+i+'">'
 var SMSL_LOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
 function smslEsc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML}
 function smslSplit(list){
-var s=(list||[]).slice();
-s.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
-var n=Math.floor(s.length/2);
-return {vis:s.slice(0,n),locked:s.slice(n)};
+var all=(list||[]).slice();
+all.sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
+var pick=[];
+var IB=function(b){return !!(b&&b.domain&&!b.stealerLog&&!b.malware&&!b.spamList)},IS=function(b){return !!(b&&(b.stealerLog||b.malware))};
+if(all.length<=6){
+var cap=Math.floor(all.length/2);
+all.filter(IB).slice(0,Math.min(3,cap)).forEach(function(b){pick.push(b)});
+all.forEach(function(b){if(pick.length<cap&&pick.indexOf(b)<0)pick.push(b)});
+}else{
+var tp=all.filter(IB).slice(0,3),sp=all.filter(IS).slice(0,3),op=all.filter(function(x){return !IS(x)&&tp.indexOf(x)<0}).slice(0,3);
+all.forEach(function(b){if(tp.indexOf(b)>=0||sp.indexOf(b)>=0||op.indexOf(b)>=0)pick.push(b)});
+}
+return {vis:pick,locked:all.filter(function(b){return pick.indexOf(b)<0})};
 }
 function smslLocked(locked,btnHtml){
 if(!locked||!locked.length)return '';
@@ -3580,10 +3590,11 @@ h+='</div>';
 }
 
 var gi=top.length+5;
-if(steal.length||rest.length)h+='<div class="lc-grps">';
-if(steal.length)h+=grp('Infostealer malware logs',steal,gi++);
-if(rest.length)h+=grp(top.length?'Other breaches':'Breaches found',rest,gi++);
-if(steal.length||rest.length)h+='</div>';
+var stealTotal=list.filter(isStealer).length,restTotal=list.filter(function(x){return top.indexOf(x)<0&&!isStealer(x)}).length;
+if(stealTotal||restTotal)h+='<div class="lc-grps">';
+if(stealTotal)h+=grp('Infostealer malware logs',steal,gi++,stealTotal);
+if(restTotal)h+=grp(top.length?'Other breaches':'Breaches found',rest,gi++,restTotal);
+if(stealTotal||restTotal)h+='</div>';
 h+=smslLocked(smsl.locked,'<a class="lc-cta" href="/#pricing" data-pay="locked"><span style="text-align:center">Unlock full phone + email report <span style="white-space:nowrap">&middot; <span class="price-tag">'+livePrice()+'</span></span></span></a>');
 }
 
