@@ -36,7 +36,7 @@ No bank, government department, utility, employer or genuine partner will ask th
 ## If you or someone you know is mid-scam
 
 - Stop. Don't make another deposit, even if they say one more payment releases everything.
-- Call your bank and report it to [ReportCyber](https://www.cyber.gov.au/report-and-recover/report) and [Scamwatch](https://www.scamwatch.gov.au/).
+- Call your bank and report it to [ReportCyber](https://www.cyber.gov.au/report-and-recover) and [Scamwatch](https://www.scamwatch.gov.au/).
 - Beware of “recovery” offers that follow: see [[crypto-scam-recovery-realistic-expectations|realistic crypto recovery]].
 
 ## Check where scammers get your details
@@ -56,7 +56,7 @@ A: Rarely. Report immediately to your bank, ReportCyber and Scamwatch, and don't
 === SOURCES
 https://cryptonews.com.au/news/crypto-atm-scam-losses-hit-1-5m-in-tasmania-despite-nationwide-crackdown-135151/ | Crypto News Australia: Crypto ATM scam losses hit $1.5M in Tasmania (Oct 9, 2026)
 https://www.scamwatch.gov.au/ | Scamwatch
-https://www.cyber.gov.au/report-and-recover/report | ReportCyber
+https://www.cyber.gov.au/report-and-recover | ReportCyber
 
 === RELATED
 scam-payment-methods-crypto-kiosk-2025-data | Scam Payment Methods and Crypto Kiosks

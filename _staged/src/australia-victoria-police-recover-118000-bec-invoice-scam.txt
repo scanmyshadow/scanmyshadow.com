@@ -41,7 +41,7 @@ Detective Sergeant Dean Waters: “Don't let a scammer rush you into making a co
 
 ## If it happens to you
 
-Call your bank immediately, report through [ReportCyber](https://www.cyber.gov.au/report-and-recover/report), keep the emails and screenshots, and stop replying to the scammer. Our [[small-business-fraud-statistics-2026|small business fraud guide]] covers wider protections.
+Call your bank immediately, report through [ReportCyber](https://www.cyber.gov.au/report-and-recover), keep the emails and screenshots, and stop replying to the scammer. Our [[small-business-fraud-statistics-2026|small business fraud guide]] covers wider protections.
 
 Thread hijacks often start with a breached email password. A free [[/digital-footprint-checker/|email exposure check]] shows whether your business email appears in known breaches.
 
@@ -57,7 +57,7 @@ A: Call the supplier on a phone number you already trust, never one from the ema
 
 === SOURCES
 https://www.police.vic.gov.au/police-help-recover-118000-victim-swindled-scam | Victoria Police: Police help recover $118,000 for victim swindled in scam (Oct 23, 2026)
-https://www.cyber.gov.au/report-and-recover/report | ReportCyber
+https://www.cyber.gov.au/report-and-recover | ReportCyber
 
 === RELATED
 what-is-business-email-compromise | What Is Business Email Compromise?

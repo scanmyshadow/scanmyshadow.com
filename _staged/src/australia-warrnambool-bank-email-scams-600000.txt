@@ -38,7 +38,7 @@ No genuine bank fraud team asks you to transfer your own money to protect it. We
 
 ## If you've sent money
 
-Call your bank immediately using the number on your card and ask them to try to stop or recall the payments. Then report it at [ReportCyber](https://www.cyber.gov.au/report-and-recover/report), to [Scamwatch](https://www.scamwatch.gov.au/), and contact [[australia-scamwatch-idcare-recovery-process|IDCARE]] for free support. Speed matters: once money leaves Australia it is much harder to trace.
+Call your bank immediately using the number on your card and ask them to try to stop or recall the payments. Then report it at [ReportCyber](https://www.cyber.gov.au/report-and-recover), to [Scamwatch](https://www.scamwatch.gov.au/), and contact [[australia-scamwatch-idcare-recovery-process|IDCARE]] for free support. Speed matters: once money leaves Australia it is much harder to trace.
 
 ## Why they targeted these people
 
@@ -57,7 +57,7 @@ A: Police say banks don't contact customers this way. Call the number on your ca
 === SOURCES
 https://www.standard.net.au/story/9379442/warrnambool-police-issue-scam-alert-after-600000-lost/ | The Standard: Warrnambool police issue scam alert after $600,000 lost (Oct 26, 2026)
 https://www.scamwatch.gov.au/ | Scamwatch
-https://www.cyber.gov.au/report-and-recover/report | ReportCyber
+https://www.cyber.gov.au/report-and-recover | ReportCyber
 
 === RELATED
 australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Australia

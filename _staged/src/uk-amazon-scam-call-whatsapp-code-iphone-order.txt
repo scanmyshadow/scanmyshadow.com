@@ -53,7 +53,7 @@ A: Text "call" followed by the number to 7726, and report losses to Report Fraud
 
 === SOURCES
 https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Amazon scam calls, Sept 28, 2026)
-https://faq.whatsapp.com/1920866721452534 | WhatsApp Help Center: About two-step verification
+https://whatsapp.com/faq/general/26000021?l=en | WhatsApp Help Center: About two-step verification
 
 === RELATED
 whatsapp-scams-how-to-spot-and-report | WhatsApp Scams: How to Spot and Report Them

@@ -1,0 +1,103 @@
+{
+ "incogni-vs-deleteme-vs-aura-vs-scan-my-shadow": [
+  "## 2026 update: California's free DROP tool\n\nIf you live in California, there's now a free government option to use alongside (or before) any paid service. The state's **Delete Request and Opt-out Platform (DROP)** opened on January 1, 2026. One request goes to **more than 600 registered data brokers**, asking them to delete your information and stop selling it. Since August 1, 2026, brokers must check DROP at least every 45 days.\n\n- **Who it's for:** California residents only.\n- **What it covers:** brokers registered with the state.\n- **What it doesn't cover:** companies you deal with directly, Google results, and anything already leaked in breaches.\n\nOur [[california-drop-data-broker-delete-request-guide|step-by-step DROP guide]] explains how to file. Outside California, start with the biggest people-search sites: [[whitepages-opt-out-guide|Whitepages]] and [[spokeo-opt-out-guide|Spokeo]].",
+  [
+   "https://privacy.ca.gov/drop/ | California Privacy Protection Agency: Delete Request and Opt-out Platform (DROP)"
+  ]
+ ],
+ "usps-package-text-scam-smishing-what-to-do": [
+  "## Two more USPS scams worth knowing\n\nThe package text isn't the only way scammers use the Postal Service's name.\n\n- **Change-of-address copycat sites.** Changing your address online with USPS costs **$1.10**. Look-alike sites that show up in search charge up to **$40**, and the Postal Inspection Service says in some cases the change is never made. Use the official Moversguide form from usps.com. Details in our [[usps-change-of-address-scam-sites-fees|change-of-address scam guide]].\n- **Informed Delivery hijacking.** Criminals can sign up for Informed Delivery in your name, then watch for new cards or checks arriving. Registering yourself first blocks that. See [[usps-informed-delivery-identity-theft-protect-yourself|how to protect your Informed Delivery account]].\n\nBoth scams rely on the same thing as the package text: people trusting anything with a USPS logo.",
+  [
+   "https://bestlifeonline.com/change-of-address-scam-news/ | Best Life: USPS says if you're paying more than $1.10, you're being scammed",
+   "https://www.cbsnews.com/amp/news/usps-informed-delivery-service-could-be-used-to-steal-your-mail | CBS News: USPS Informed Delivery could be used to steal your mail"
+  ]
+ ],
+ "how-to-place-a-fraud-alert": [
+  "## Fraud alert, freeze, or both? Plus one step most people skip\n\nA fraud alert asks lenders to verify your identity. A **credit freeze** blocks access to your file entirely, and it's also free. Many people use both. If you freeze, you'll need to lift it when you apply for credit: online or by phone, the bureaus must lift it **within one hour**, and a temporary lift ends on its own. Our [[how-to-temporarily-lift-credit-freeze-thaw|guide to thawing a freeze]] covers each bureau.\n\nThe step most people skip: **create your own account at each bureau.** In 2022, KrebsOnSecurity showed crooks could open a new Experian account over a victim's existing one and lift a freeze. Having your own account, with an email you check, makes that much harder. See [[plant-your-flag-credit-bureau-accounts-experian-takeover|\"plant your flag\" at the credit bureaus]].\n\nAnd don't forget the smaller bureaus banks use, like ChexSystems: [[freeze-chexsystems-innovis-lexisnexis-other-credit-bureaus|how to freeze those too]].",
+  [
+   "https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts | FTC: What to know about credit freezes and fraud alerts",
+   "https://securityboulevard.com/2022/07/experian-you-have-some-explaining-to-do/ | KrebsOnSecurity (via Security Boulevard): Experian, you have some explaining to do"
+  ]
+ ],
+ "how-to-make-facebook-private": [
+  "## The scam that spreads through private accounts anyway\n\nMaking your profile private keeps strangers out. It doesn't stop a **friend's hacked account** from messaging you. The most common version: \"**Is this you in this video?**\" or \"**Look who died**\", with a link. The link leads to a fake Facebook login page; enter your password and your account starts sending the same message to all your friends.\n\n- **Don't click** links like this, even from friends.\n- If you did and entered your password: **change it**, turn on **two-factor authentication**, and **log out other sessions** in Settings.\n- Warn your friends so they don't fall for it next.\n\nFull walkthrough: [[facebook-messenger-is-this-you-in-this-video-scam|the \"Is this you in this video?\" scam]].",
+  [
+   "https://www.gedlingeye.co.uk/facebook-messenger-video-scam-gedling-borough/ | Gedling Eye: \"Are you in this video?\" Facebook Messenger scam"
+  ]
+ ],
+ "how-to-make-instagram-private": [
+  "## Check the Instagram Map setting too\n\nIn August 2025, Instagram launched a **map** that shows where friends are. Location sharing is **off by default**, and Meta says it uses a double-consent design. But the map can still show places from **stories, posts and Reels where you added a location sticker**, for 24 hours, even if you never turned sharing on.\n\nTo make sure it's off:\n\n1. On your profile, tap the **three lines** (top right).\n2. Under **Who can see your account**, tap **Story, live and location**.\n3. Tap **Location sharing (Instagram map)** and choose **No one**.\n\nIf you supervise a teen's account, Meta says you'll be notified if they turn location sharing on. And a private account plus location stickers is still a location: skip the sticker on anything posted from home.",
+  [
+   "https://www.inquirer.com/news/nation-world/turn-off-instagram-location-map-20250811.html | The Philadelphia Inquirer: How to turn off Instagram's location map (Aug 2025)"
+  ]
+ ],
+ "is-rover-safe-from-scams": [
+  "## A real case: \"Pay me or you don't get your dog back\"\n\nIn 2023, an Atlanta owner told WSB-TV a Rover sitter claimed his rescue dog had bitten a family member and demanded money for medical bills, including a $104 ambulance ride, and asked for payment by **CashApp**. When he asked for invoices, the sitter got defensive and said the rate would double. He paid more than **$1,100** through Rover to get his dog back. After the TV station got involved, Rover **refunded him in full** and removed the sitter, calling the case \"truly unusual.\"\n\nWhat it teaches:\n\n- **Keep every payment on the platform.** A request to pay by CashApp or another app is a red flag.\n- **Ask for documentation** before paying any \"expenses.\"\n- **Escalate in writing** to the platform, and keep screenshots.",
+  [
+   "https://www.wsbtv.com/news/local/atlanta/local-man-says-he-was-forced-pay-11k-get-dog-back-after-using-popular-pet-sitter-app/KNQBVRRWFJAZLHPXMZMNOBU73M/ | WSB-TV: Man says he was forced to pay to get dog back after using pet-sitter app"
+  ]
+ ],
+ "is-mobikwik-safe-from-scams": [
+  "## What happened in the 2025 MobiKwik glitch fraud\n\nIn September 2025, MobiKwik reported a fraud linked to a software update. Investigators believe the update **disabled key security checks**, so the system allowed transactions even with **insufficient wallet balances or wrong UPI PINs**. Nearly **5 lakh transactions** went through over **September 11–12**.\n\n- MobiKwik filed an FIR for about **₹40 crore**; it said **₹14 crore was recovered**, for a net impact of about **₹26 crore**.\n- Police arrested **six men** from Nuh and Palwal; **2,500** beneficiaries were identified and about **₹8 crore** frozen.\n- MobiKwik told the exchanges that some **merchants and users in Haryana colluded**, and that no employees or insiders were involved.\n\nFor ordinary users, the lesson is less about the app being \"unsafe\" and more about watching your own account: check transactions regularly, and report anything odd to the company and [[how-to-report-fraud-cybercrime-gov-in|cybercrime.gov.in]] quickly.",
+  [
+   "https://www.businesstoday.in/amp/india/story/rs40-crore-gone-in-48-hours-mobikwik-hit-by-fraud-6-arrested-2500-bank-accounts-frozen-494288-2025-09-17 | Business Today: ₹40 crore gone in 48 hours, MobiKwik hit by fraud (Sep 2025)"
+  ]
+ ],
+ "google-account-third-party-apps-access": [
+  "## Why this matters: the 2025 Salesloft Drift token theft\n\nConnected apps don't use your password. They use **OAuth tokens**, and tokens can be stolen. In August 2025, attackers tracked by Google as **UNC6395** stole tokens linked to the **Salesloft Drift** integration. Google said they used tokens from the \"Drift Email\" integration to **read email from a small number of Google Workspace accounts** that were set up to connect with Salesloft. Google revoked the tokens and disabled the integration.\n\nGoogle's advice to affected organisations is useful for everyone:\n\n- **Treat tokens** stored in or connected to a compromised app as compromised.\n- **Review** third-party integrations.\n- **Revoke and rotate** access for those apps.\n\nFor a personal account, that translates to: remove apps you don't use, and revisit the list every few months.",
+  [
+   "https://thehackernews.com/2025/08/google-warns-salesloft-oauth-breach.html | The Hacker News: Google warns of Salesloft OAuth breach (Aug 2025)"
+  ]
+ ],
+ "how-to-make-pinterest-private": [
+  "## Pinterest and AI training: the setting to check\n\nPinterest updated its privacy policy, effective **April 30, 2025**, to say it may use information \"to train, develop and improve our technology such as our machine learning models, regardless of when Pins were posted.\" That includes older Pins. Pinterest said this codified existing practice.\n\nYou can **opt out** in your **profile settings** (look for the privacy and data section). Making boards secret limits who sees them; the AI-training setting is separate, so check both.",
+  [
+   "https://petapixel.com/2025/03/10/pinterest-to-train-ai-models-on-user-content/ | PetaPixel: Pinterest to train AI models on user content"
+  ]
+ ],
+ "how-to-make-tiktok-private-privacy-settings": [
+  "## US users: what changed in TikTok's 2026 privacy policy\n\nOn **January 22, 2026**, a new US privacy policy took effect as American users moved to **TikTok USDS Joint Venture LLC**. According to the Mobile Ecosystem Forum:\n\n- The policy allows **precise location** collection **if you opt in** through your device settings. TikTok previously said it didn't collect precise GPS location from US users on current app versions.\n- It lists **sensitive categories** it may process when you disclose them, such as sexual orientation, gender identity and immigration status.\n- It allows **customized ads on and off TikTok** using first- and third-party information.\n\nWhat you can do: keep **location permission off** for TikTok in your phone's settings, review ad personalisation options in the app, and avoid sharing sensitive details in videos, bios or DMs.",
+  [
+   "https://mobileecosystemforum.com/2026/02/03/tiktoks-new-u-s-privacy-policy-industry-aligned-tougher-governance-but-less-protective-than-its-previous-u-s-version/ | Mobile Ecosystem Forum: TikTok's new US privacy policy (Feb 2026)"
+  ]
+ ],
+ "can-someone-find-my-address-using-my": [
+  "## Where to remove your address, country by country\n\nThe biggest single source of addresses is usually people-search sites and public rolls. Removal options differ by country:\n\n- **US:** opt out of the big people-search sites one by one: [[whitepages-opt-out-guide|Whitepages]], [[spokeo-opt-out-guide|Spokeo]], [[truepeoplesearch-opt-out-guide|TruePeopleSearch]]. Californians can use the free [[california-drop-data-broker-delete-request-guide|DROP tool]] to reach 600+ brokers at once.\n- **Australia:** if your safety is at risk, apply to become a [[australia-silent-elector-how-to-hide-address|silent elector]] so your address doesn't appear on future public rolls; also [[australia-white-pages-remove-number-unlisted|unlist your number]].\n- **New Zealand:** apply for the confidential [[nz-unpublished-electoral-roll-how-to|unpublished electoral roll]].\n- **Canada:** see [[canada-411-and-people-search-removal|Canada 411 and people-search removal]].\n- **UK:** opt out of the [[uk-open-electoral-register-opt-out|open register]].",
+  [
+   "https://www.aec.gov.au/Enrolling_to_vote/Special_Category/silent-electors.htm | Australian Electoral Commission: Silent electors",
+   "https://privacy.ca.gov/drop/ | California Privacy Protection Agency: DROP"
+  ]
+ ],
+ "how-many-sim-cards-in-my-name-check": [
+  "## The latest numbers: what Sanchar Saathi has caught\n\nA Rajya Sabha reply on **February 5, 2026** gave a sense of scale for the government's telecom fraud tools:\n\n- **39.43 lakh** mobile connections **disconnected** after analysing about 7.7 lakh citizen inputs.\n- **2.27 lakh** handsets **blacklisted** and **1.31 lakh** SMS templates **blocked**.\n- **Chakshu** (the \"report suspected fraud\" feature) received **5,19,662** reports in 2025, up from **2,08,224** in 2024.\n- **28 lakh** WhatsApp accounts linked to flagged numbers were **disengaged**.\n- Stakeholders reported preventing fraud worth **more than ₹1,000 crore**.\n\nEvery \"Not my number\" report you file feeds this. If you also get a suspicious call or message, report it through Chakshu on Sanchar Saathi.",
+  [
+   "https://www.angelone.in/news/economy/chakshu-under-sanchar-saathi-reports-fraud-39-43-lakh-mobiles-disconnected-over-1-000-crore-loss-prevented | Angel One: Chakshu under Sanchar Saathi, 39.43 lakh mobiles disconnected (Feb 2026)"
+  ]
+ ],
+ "national-grid-uk-scam-what-to-know": [
+  "## 2026 update: fake energy rebate texts and emails\n\nAround price cap announcements, scammers push fake **energy rebates**. In May 2026, thinkmoney described texts claiming you qualify for a government energy rebate, emails using **Ofgem** branding offering **£200 to £500** with a deadline, and calls from people posing as councils or suppliers asking for card details. Fake sites collect your name, date of birth, address and bank details, and may try to set up a direct debit.\n\nThe rules that beat them:\n\n- **Ofgem doesn't contact customers directly**; it works through suppliers.\n- **Genuine support payments are applied automatically**, with no application or bank details needed.\n- Forward scam texts to **7726** and emails to **report@phishing.gov.uk**.\n- Check anything about your account by contacting your supplier using details from your bill.\n\nIf you shared bank details, call your bank on the number on your card and report to Action Fraud (0300 123 2040).",
+  [
+   "https://thinkmoney.co.uk/blog/energy-scams-are-surging-ahead-of-tomorrows-price-cap-announcement-how-to-spot-on/ | thinkmoney: Energy scams surging ahead of price cap announcement (May 2026)"
+  ]
+ ],
+ "how-to-report-identity-theft-australia": [
+  "## Two steps to add after you report\n\n**1. Put a credit ban on your file.** A ban stops credit reporting agencies sharing your file with lenders without your written consent. It lasts **21 days** and can be extended to **12 months** if you're at risk; you can apply through one agency and ask it to notify the others. Full steps: [[australia-credit-ban-how-to-request|how to request a credit ban]].\n\n**2. If an organisation leaked your data, complain.** Complain to the organisation in writing first and give it **30 days**. If you're not satisfied, lodge a written complaint with the **OAIC** (or AFCA for banks). See [[australia-oaic-complaint-how-to|how to complain to the OAIC]].\n\nIf your TFN is involved, call the ATO on **1800 467 033** ([[australia-tax-file-number-stolen-what-to-do|TFN guide]]).",
+  [
+   "https://www.idcare.org/fact-sheets/credit-bans-australia | IDCARE: Credit bans in Australia",
+   "https://www.oaic.gov.au/privacy/privacy-complaints/before-you-lodge-a-privacy-complaint-with-us | OAIC: Before you lodge a privacy complaint"
+  ]
+ ],
+ "canada-anti-fraud-centre-reporting-guide": [
+  "## Spam texts and emails: 7726 and the Spam Reporting Centre\n\nFor scam **texts** that didn't cost you anything, the quickest report is to **forward the text to 7726** (it spells SPAM). Consumer Protection BC says it's **free** and lets your mobile provider investigate. For spam **emails** and other messages that may break Canada's Anti-Spam Legislation, the federal government says to report to the **Spam Reporting Centre**.\n\nUse the CAFC when you've lost money, shared personal information, or want the fraud recorded nationally. Step-by-step for iPhone and Android: [[canada-7726-spam-text-reporting-guide|how to report spam texts in Canada]].",
+  [
+   "https://www.consumerprotectionbc.ca/2018/03/receive-spam-text/ | Consumer Protection BC: Receive a spam text?",
+   "https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/node/4 | Government of Canada: Protect yourself from spam"
+  ]
+ ],
+ "how-to-report-a-scam-to-scamwatch": [
+  "## Also forward scam texts to 0429 999 888\n\nScamwatch reports help the National Anti-Scam Centre warn people and take down sites. For scam **texts**, Scamwatch also points to ACMA's Spam SMS line: **forward the message to 0429 999 888** (standard SMS rates apply). If the text pretends to be your bank, forward it to the bank's own hoax address or number too.\n\nFull list of numbers and addresses: [[australia-report-spam-sms-acma-0429-999-888|how to report scam texts in Australia]]. Lost money? Call your bank first, then report.",
+  [
+   "https://www.scamwatch.gov.au/node/160 | Scamwatch: Reporting spam SMS to ACMA"
+  ]
+ ]
+}
