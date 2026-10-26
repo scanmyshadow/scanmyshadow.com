@@ -1,0 +1,63 @@
+slug: nz-parking-meter-qr-code-scam
+country: NZ
+title: Fake QR Codes on Parking Meters in Christchurch, Auckland and Wellington
+h1: Scam QR Code Stickers on NZ Parking Meters: Don't Scan to Pay
+desc: Fake QR stickers on parking meters in Christchurch, Auckland and Wellington led to card-stealing sites. Councils and AT say they don't use QR codes to take parking payments.
+keywords: parking meter qr code scam nz, christchurch parking qr scam, auckland transport qr scam, fake qr code sticker parking, quishing new zealand, at park qr code
+tags: QR Code Scams|New Zealand|Card Fraud|News
+=== TLDR
+In **July 2026**, fake **QR code stickers** appeared on parking meters across **Christchurch**, with meter screens **scribbled over** so drivers couldn't pay normally. By **September**, they'd spread to **Auckland** and **Wellington**. The codes led to **fake payment sites** run by offshore scammers to steal card details. **Christchurch City Council** says it "would never prompt payment through QR codes," and **Auckland Transport** doesn't use QR codes on any meters. Pay at the machine or in the official app.
+
+=== BODY
+## What happened
+
+**Christchurch, July 2026.** [1News](https://www.1news.co.nz/2026/07/14/fake-qr-code-payment-stickers-found-on-christchurch-parking-meters/) reported stickers on council and private meters. Screens were **vandalised with permanent marker** to stop people paying at the machine and push them to scan. Head of transport Stephen Wright said the council "would never prompt payment through QR codes."
+
+**Auckland, September 2026.** [Auckland Transport](https://at.govt.nz/about-us/news-events/media-centre/2026-media-releases/aucklanders-warned-about-scam-parking-meter-qr-codes) found stickers on city-centre meters, with similar finds in Wellington and Christchurch. AT "does not use QR codes on any of our parking meters or machines." Police said the sites are run by **offshore scam operations**.
+
+The **NCSC** flagged it in its [quarterly report](https://www.ncsc.govt.nz/insights-and-research/insights-reports/quarter-two-cyber-security-insights-2026/qr-codes-think-before-you-scan).
+
+The marker-pen detail is the clever bit. Break the honest option, then offer the dishonest one as the "fix."
+
+## How to pay for parking safely
+
+- **Auckland:** the **AT Park app**, or card at the machine.
+- **Christchurch:** the payment method **shown on the meter**.
+- Anywhere: the council's official app or the machine itself.
+
+## NCSC's QR tips
+
+- **Check the web address** after scanning. Unusual? Don't enter anything.
+- Be wary of codes that look **stuck on** or **over** an existing code.
+- Be careful with codes tied to **urgent** requests.
+- Tell friends and family.
+
+## If you scanned and paid
+
+1. **Call your bank** and cancel the card.
+2. Report to **Police** (105.police.govt.nz) and your **council** or AT.
+3. Report to the **NCSC**.
+
+Not just NZ: Australians have seen [[australia-government-impersonation-toll-scams-top-detections-2026|similar government-themed scams]], and the UK had the same [[uk-fake-qr-codes-parking-machines|parking QR stickers]]. A free [[/digital-footprint-checker/|exposure check]] shows if your details are already in breach data.
+
+=== FAQ
+Q: Do NZ councils use QR codes on parking meters?
+A: Christchurch City Council says it would never prompt payment through QR codes, and Auckland Transport doesn't use QR codes on any meters.
+Q: Where have fake parking QR codes been found in NZ?
+A: Christchurch, Auckland and Wellington.
+Q: What should I do if I paid through a parking QR code?
+A: Call your bank, then report to Police, the council or AT, and the NCSC.
+Q: How do I pay for parking in Auckland?
+A: With the AT Park app or by card at the parking machine.
+
+=== SOURCES
+https://www.1news.co.nz/2026/07/14/fake-qr-code-payment-stickers-found-on-christchurch-parking-meters/ | 1News: Fake QR code payment stickers found on Christchurch parking meters
+https://at.govt.nz/about-us/news-events/media-centre/2026-media-releases/aucklanders-warned-about-scam-parking-meter-qr-codes | Auckland Transport: Aucklanders warned about scam parking meter QR codes (8 Sep 2026)
+https://www.ncsc.govt.nz/insights-and-research/insights-reports/quarter-two-cyber-security-insights-2026/qr-codes-think-before-you-scan | NCSC: QR codes, think before you scan
+
+=== RELATED
+uk-fake-qr-codes-parking-machines | Parking QR Code Scams (UK)
+nz-ncsc-cyber-security-insights-q2-2026 | NCSC Q2 2026 Report
+nz-how-to-report-a-scam | How to Report a Scam in NZ
+nz-report-scam-text-7726 | Report Scam Texts to 7726
+what-is-smishing | What Is Smishing?

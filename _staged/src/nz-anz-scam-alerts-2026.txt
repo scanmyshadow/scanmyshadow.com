@@ -1,0 +1,74 @@
+slug: nz-anz-scam-alerts-2026
+country: NZ
+title: ANZ NZ Scam Alerts 2026: Fake Staff, Fake Caller Checks and More
+h1: ANZ New Zealand Scam Alerts 2026: Staff Impersonation, Fake Caller Check, WhatsApp and Reward Scams
+desc: ANZ NZ's 2026 alerts include staff impersonation, malware, fake Caller Check requests, WhatsApp impersonation and fake rewards. ANZ never sends a login link. Call 0800 269 296.
+keywords: anz nz scam, anz scam text nz, anz caller check scam, anz whatsapp scam, anz fake reward scam, anz nz fraud number
+tags: Bank Scams|New Zealand|What To Do|Fraud
+=== TLDR
+ANZ NZ's 2026 scam list: **staff impersonation** and **malware** (September), **social media** and **fake ANZ phone numbers** (August), **fake Caller Check** requests (July), **look-alike ANZ websites** (May), and **WhatsApp impersonation** plus **fake rewards** (March). ANZ will **never** ask for PINs, passwords or security codes, **never send a link** to log in, and never ask for **remote access**. Real **Caller Check** only appears in **goMoney**. Call **0800 269 296**.
+
+=== BODY
+## ANZ NZ's 2026 alerts
+
+From [ANZ NZ's latest scams](https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/):
+
+| Month | Scam |
+|---|---|
+| Sep 2026 | ANZ staff impersonation |
+| Sep 2026 | Malware scams |
+| Aug 2026 | Social media scams |
+| Aug 2026 | ANZ phone number impersonation |
+| Jul 2026 | **ANZ Caller Check impersonation** |
+| May 2026 | Bank impersonation websites |
+| Mar 2026 | ANZ impersonation on **WhatsApp** |
+| Mar 2026 | Fake **ANZ rewards** |
+
+## The Caller Check fake (July 2026)
+
+From [ANZ](https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/july-2026-anz-impersonation-scams/): scammers cold call pretending to be ANZ and send fake **"security verification"** messages by **email, SMS or WhatsApp**, claiming that's how Caller Check works.
+
+**Real Caller Check** is a secure notification **only in the ANZ goMoney app**. ANZ never sends it by email, SMS, WhatsApp or other messaging. "If you receive one anywhere other than goMoney, it's a scam."
+
+The security feature became the costume. Clever, but beatable once you know where the real one lives.
+
+## What ANZ will never do
+
+- Ask for your **banking PINs, passwords or security codes**
+- Send you a **link to log in** to Internet Banking (type anz.co.nz)
+- Ask you to **download software**
+- Ask for **remote access**
+
+## Also from ANZ NZ
+
+- Fake investment ads offering **stock market education**, leading to chat groups ([[nz-anz-fake-stock-education-ads-investment-chat-groups|details]]).
+- Fake **"Kiwi bonds"** emails claiming Depositor Compensation Scheme cover ([[nz-anz-fake-kiwi-bonds-depositor-compensation-scam|details]]).
+
+## How to report
+
+- **Phone (24/7):** **0800 269 296**; overseas **+64 4 470 3142**
+- **Texts:** forward to **7726**
+- Use ANZ's online reporting page for suspicious emails, texts or calls.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data.
+
+=== FAQ
+Q: Does ANZ NZ send Caller Check requests by text or WhatsApp?
+A: No. Caller Check is only sent to the ANZ goMoney app. Anywhere else, it's a scam.
+Q: Will ANZ send me a link to log in?
+A: No. ANZ says it never sends a link to log on to Internet Banking.
+Q: What is ANZ NZ's fraud number?
+A: 0800 269 296, or +64 4 470 3142 from overseas.
+Q: Does ANZ contact customers on WhatsApp?
+A: ANZ warned in March 2026 about scammers impersonating ANZ on WhatsApp.
+
+=== SOURCES
+https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/ | ANZ NZ: Latest scams
+https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/july-2026-anz-impersonation-scams/ | ANZ NZ: Caller Check impersonation scams (July 2026)
+
+=== RELATED
+nz-bank-caller-check-impersonation-scams | Caller Check Scams
+nz-anz-fake-stock-education-ads-investment-chat-groups | ANZ Fake Investment Ads
+nz-anz-fake-kiwi-bonds-depositor-compensation-scam | Fake ANZ Kiwi Bonds Scam
+nz-banks-whatsapp-impersonation-scams | NZ Banks Don't Use WhatsApp
+australia-anz-scam-alerts-2026 | ANZ Australia Scam Alerts

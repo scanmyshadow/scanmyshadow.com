@@ -1,0 +1,65 @@
+slug: nz-anti-scam-alliance-2026-work-programme
+country: NZ
+title: NZ Anti-Scam Alliance 2026 Plan: What's Changing for Kiwis
+h1: The NZ Anti-Scam Alliance's 2026 Plan: Wider Confirmation of Payee, Telco Code Review and Better Reporting
+desc: Scams cost Kiwis $265M in the year to October 2025. The NZ Anti-Scam Alliance's 2026 programme expands Confirmation of Payee, reviews the telco Scam Prevention Code and improves reporting.
+keywords: nz anti-scam alliance, nz scam losses 265 million, anti-scam alliance 2026 work programme, confirmation of payee nz, scam prevention code review, mbie scams 2026
+tags: Scam Laws|New Zealand|Policy|News
+=== TLDR
+On **10 June 2026**, MBIE published the **New Zealand Anti-Scam Alliance**'s 2026 work programme. Scams cost Kiwis **$265 million (gross)** in the year to **October 2025**. The 2026 plan: **expand bank Confirmation of Payee**, **review the telco Scam Prevention Code**, and **build better scam reporting tools**, plus smarter data sharing and clearer public guidance. The Alliance started in **July 2025** and brings together banks, telcos, digital platforms, consumer groups and government.
+
+=== BODY
+## The numbers
+
+From [MBIE](https://www.mbie.govt.nz/about/news/new-actions-to-protect-kiwis-from-scams):
+
+- **$265 million** gross scam losses in the year to October 2025.
+- Alliance formed **July 2025**.
+
+(Netsafe and GASA put the broader estimate at around **$3 billion** for 2025 once unreported losses are included; see [[nz-scam-statistics-2026-netsafe-data|NZ scam statistics 2026]].)
+
+## What's in the 2026 programme
+
+| Action | What it means for you |
+|---|---|
+| **Expand Confirmation of Payee** | More payments checked for name–account mismatches before money leaves |
+| **Review the telco Scam Prevention Code** | Potentially more blocking of scam calls and texts |
+| **Better scam reporting tools** | Easier, joined-up reporting |
+| **Disruption tools and data sharing** | Faster takedowns and freezes |
+| **Clearer public guidance** | One set of advice instead of ten |
+
+## Who's in the Alliance
+
+Banks, telecommunications providers, digital platforms, consumer groups and government agencies. That matters, because a scam usually touches all of them: a social media ad, a phone call, a text, and a bank transfer.
+
+## What already exists
+
+- **Bank reimbursement rules** since November 2025 ([[nz-bank-scam-reimbursement-rules-explained|explained]]).
+- The **telco Scam Prevention Code**, with blocking and in-store ID checks for SIM swaps ([[nz-telco-scam-prevention-code-explained|explained]]).
+- **7726** for scam texts ([[nz-report-scam-text-7726|how to use it]]).
+
+## What you can do now
+
+1. **Use Confirmation of Payee** prompts; don't skip a mismatch warning.
+2. **Report every scam** you see; reports drive blocking.
+3. **Verify before you pay**, using contact details you already trust.
+
+A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in, which is often how scammers find you in the first place.
+
+=== FAQ
+Q: How much do New Zealanders lose to scams?
+A: MBIE says scams cost New Zealanders $265 million (gross) in the year to October 2025.
+Q: What is the NZ Anti-Scam Alliance?
+A: A group set up in July 2025 bringing together banks, telcos, digital platforms, consumer groups and government agencies to fight scams.
+Q: What's in the 2026 anti-scam programme?
+A: Expanding Confirmation of Payee, reviewing the telco Scam Prevention Code, improving scam reporting tools, and better data sharing and guidance.
+
+=== SOURCES
+https://www.mbie.govt.nz/about/news/new-actions-to-protect-kiwis-from-scams | MBIE: New actions to protect Kiwis from scams (10 June 2026)
+
+=== RELATED
+nz-bank-scam-reimbursement-rules-explained | NZ Bank Scam Reimbursement Rules
+nz-telco-scam-prevention-code-explained | NZ Telco Scam Prevention Code
+nz-scam-statistics-2026-netsafe-data | NZ Scam Statistics 2026
+nz-how-to-report-a-scam | How to Report a Scam in NZ
+australia-scams-prevention-framework-explained | Australia's Scams Prevention Framework

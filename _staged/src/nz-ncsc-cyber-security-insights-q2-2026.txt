@@ -1,0 +1,75 @@
+slug: nz-ncsc-cyber-security-insights-q2-2026
+country: NZ
+title: NZ Cyber Report Q2 2026: 1,129 Incidents, $2.7M Lost, QR Scams Rising
+h1: NCSC Cyber Security Insights Q2 2026: 1,129 Incidents, $2.7 Million in Losses
+desc: New Zealand's NCSC logged 1,129 incidents from April to June 2026, with $2.7M in direct losses. Scams and fraud led; unauthorised access caused half the money lost.
+keywords: ncsc quarterly report q2 2026, nz cyber security insights 2026, ncsc nz incidents, new zealand cyber losses 2026, ncsc scams fraud report, qr code phishing nz
+tags: Statistics|New Zealand|Cybercrime|News
+=== TLDR
+From **1 April to 30 June 2026**, New Zealand's **NCSC** recorded **1,129** incidents (vs 1,164 in Q1). Reported **direct financial loss** was **$2.7 million**, **down 52%** from $5.6M. **Scams and fraud** was the biggest category (**348 incidents**, ~$860K), but **unauthorised access** caused about **$1.3M**, half the total. **49 big incidents** ($10K+) made up **91%** of losses. Trends: **info-stealing malware scams** and **QR code phishing** on parking meters.
+
+=== BODY
+## The headline numbers
+
+From the [NCSC's Q2 2026 insights](https://www.ncsc.govt.nz/insights-and-research/insights-reports/quarter-two-cyber-security-insights-2026):
+
+| Metric | Q2 2026 |
+|---|---|
+| Total incidents | **1,129** (Q1: 1,164) |
+| Triaged for specialist support | **92** (up ~19–20% from 77) |
+| Direct financial loss | **$2.7M** (down 52% from $5.6M) |
+| Incidents with a loss | 303 |
+| Incidents ≥ $10,000 | **49**, accounting for **$2.4M (91%)** |
+
+## What kind of incidents
+
+| Category | Incidents | Loss |
+|---|---|---|
+| **Scams and fraud** | **348** | ~$860K |
+| Phishing and credential harvesting | Second most common | — |
+| **Unauthorised access** | — | ~**$1.3M** (about half) |
+
+So scams are the most **common**; account break-ins are the most **costly**.
+
+## Who's behind the serious ones
+
+Of the 92 specialist-support incidents: **23%** likely state-sponsored, **37%** likely cybercrime, **40%** couldn't be attributed.
+
+## Two trends to know
+
+**1. Malware scams.** More Kiwis reported scams that trick them into downloading **information-stealing malware**. Example: fake job ads that make you install an app ([[nz-fake-job-ads-app-malware-scam|how it works]]).
+
+**2. QR code phishing.** Fake QR codes on **Christchurch parking meters** sent people to payment-stealing sites ([[nz-parking-meter-qr-code-scam|full story]]).
+
+## A note on "losses down 52%"
+
+Reported losses swing a lot quarter to quarter because a handful of big cases dominate (91% from 49 incidents). One bad week for one business can double the number. It's not a sign scammers took a holiday.
+
+## What to do
+
+- Turn on **MFA** everywhere. Unauthorised access caused the most loss.
+- Only install apps from **official app stores**.
+- Check the web address after **scanning any QR code**.
+- Report incidents to the NCSC and scams to **Netsafe** ([[nz-how-to-report-a-scam|reporting guide]]).
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your email is in breach data that fuels credential attacks.
+
+=== FAQ
+Q: How many cyber incidents did NZ's NCSC record in Q2 2026?
+A: 1,129 incidents from April to June 2026.
+Q: How much money did New Zealanders lose in Q2 2026?
+A: $2.7 million in reported direct financial loss, down 52% from Q1.
+Q: What was the most common incident type?
+A: Scams and fraud, with 348 incidents and about $860,000 in losses.
+Q: What caused the biggest losses?
+A: Unauthorised access, about $1.3 million, roughly half the total.
+
+=== SOURCES
+https://www.ncsc.govt.nz/insights-and-research/insights-reports/quarter-two-cyber-security-insights-2026 | NCSC: Quarter two cyber security insights 2026
+
+=== RELATED
+nz-scam-statistics-2026-netsafe-data | NZ Scam Statistics 2026
+nz-parking-meter-qr-code-scam | NZ Parking Meter QR Scams
+nz-fake-job-ads-app-malware-scam | Fake Job Ads With Malware Apps
+nz-netsafe-bank-impersonation-spike-august-2026 | Bank Impersonation Spike (Aug 2026)
+nz-how-to-report-a-scam | How to Report a Scam in NZ

@@ -1,0 +1,68 @@
+slug: nz-kiwibank-latest-scams-2026
+country: NZ
+title: Kiwibank Scam Alerts 2026: WhatsApp Fakes, myIR Refunds and Wallet Fraud
+h1: Kiwibank's Latest Scam Warnings: Impersonation Calls, WhatsApp Messages and Mobile Wallet Fraud
+desc: Kiwibank's October 2026 scam list: fake Kiwibank calls and WhatsApp messages, IRD refund emails, NZ Post texts, fake apps, CEO-impersonating investments and card fraud via mobile wallets.
+keywords: kiwibank scam, kiwibank scam call, kiwibank whatsapp scam, kiwibank fraud number, suspicious.email@kiwibank.co.nz, kiwibank mobile wallet fraud
+tags: Bank Scams|New Zealand|What To Do|Fraud
+=== TLDR
+Kiwibank's scam page (updated **13 October 2026**) warns about **fake Kiwibank calls** from 0800, local, private or overseas numbers, **WhatsApp** messages using its logo, **IRD refund** emails (September 2026), **NZ Post texts** (August 2026), **fake apps** that install malware, **investment scams** impersonating CEO **Steve Jurkovich**, and **stolen cards added to mobile wallets**. Kiwibank will never ask you to **read back a code**, move money to a **"safe account"** or buy **gift cards**. Fraud line: **0800 113 355**.
+
+=== BODY
+## Kiwibank's scam list
+
+From [Kiwibank's latest scams](https://www.kiwibank.co.nz/help/fraud-scams/latest-scams):
+
+1. **Impersonation calls and messages**: from 0800, local, private or overseas numbers, or WhatsApp; asking for logins, passwords or codes.
+2. **WhatsApp and messaging app scams**: Kiwibank logo, "suspicious activity", urgent pressure. Increasing.
+3. **Phishing and smishing**: posing as **NZ Post, NZTA, IRD** or Kiwibank. Kiwibank notes **AI** is making these harder to spot.
+4. **IRD refund scam (Sep 2026)**: emails linking to **fake myIR** logins ([[nz-ird-tax-refund-scam-surge|IRD scams]]).
+5. **NZ Post text scam (Aug 2026)** ([[nz-post-scam-texts-whatsapp|NZ Post guide]]).
+6. **Fake apps and software**: via ads, social media, texts; gives scammers device and banking access ([[nz-fake-job-ads-app-malware-scam|example]]).
+7. **Investment scams**: fake news, celebrity and political endorsements, deepfakes, fake advisers, including impersonating the CEO ([[nz-kiwibank-ceo-fake-investment-ads|details]]).
+8. **Card fraud in mobile wallets**: stolen card details added to **Apple Pay or Google Pay**.
+
+## The mobile wallet one
+
+Scammers who get your card details (from a fake site or a breach) add the card to a mobile wallet on **their** phone and spend with it. If you get a mobile wallet notification you didn't expect, Kiwibank says to **contact it immediately**.
+
+## What Kiwibank never asks
+
+- Your **PIN, passwords, verification codes, KeepSafe answers** or **card details** on a call or email
+- To **read out or repeat** a one-time code, **including "to block a payment"**
+- To **download** software or an app
+- To **move money** to a "safe account"
+- To **buy gift cards** to protect your money
+
+"Read me the code to block the payment" is the most convincing line in the scammer handbook. It's also always a lie.
+
+## How to report
+
+| What | Where |
+|---|---|
+| Scam texts | Forward to **7726** |
+| Scam emails | Forward to **suspicious.email@kiwibank.co.nz**, then delete |
+| Any scam | **0800 113 355** (overseas +64 4 473 1133), 24/7 |
+| Suspicious calls | Hang up, call Kiwibank on the number above |
+
+A free [[/digital-footprint-checker/|exposure check]] shows whether your email or number is in breach data.
+
+=== FAQ
+Q: Will Kiwibank ask me to read out a code to block a payment?
+A: No. Kiwibank says it will never ask you to read out or repeat a one-time code, including to block a payment.
+Q: How do I report a Kiwibank scam email?
+A: Forward it to suspicious.email@kiwibank.co.nz, then delete it.
+Q: What is Kiwibank's fraud phone number?
+A: 0800 113 355, or +64 4 473 1133 from overseas, 24/7.
+Q: What is mobile wallet card fraud?
+A: Scammers add stolen card details to a mobile wallet like Apple Pay or Google Pay. Contact Kiwibank about any unexpected wallet notification.
+
+=== SOURCES
+https://www.kiwibank.co.nz/help/fraud-scams/latest-scams | Kiwibank: Latest scams (updated 13 Oct 2026)
+
+=== RELATED
+nz-kiwibank-ceo-fake-investment-ads | Kiwibank CEO Fake Investment Ads
+nz-banks-whatsapp-impersonation-scams | NZ Banks Don't Use WhatsApp
+nz-asb-scam-alerts-2026 | ASB Scam Alerts
+nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scams

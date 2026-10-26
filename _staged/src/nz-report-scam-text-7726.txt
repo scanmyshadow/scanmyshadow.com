@@ -1,0 +1,71 @@
+slug: nz-report-scam-text-7726
+country: NZ
+title: Forward Scam Texts to 7726 in New Zealand (It's Free)
+h1: How to Report a Scam Text in New Zealand: Forward It Free to 7726
+desc: In NZ, forward scam texts free to 7726 so the Department of Internal Affairs can investigate and alert mobile networks. Steps for iPhone and Android, and what else to do.
+keywords: 7726 nz, report scam text nz, forward spam text new zealand, dia scam text report, how to report phishing text nz, 7726 free
+tags: Text Scams|New Zealand|How To|Reporting
+=== TLDR
+In New Zealand, **forward scam texts to 7726** (it spells SPAM). It's **free**. The **Department of Internal Affairs** investigates and sends **daily reports to mobile networks** so they can block scams. Don't tap links or reply. Already clicked or shared details? **Call your bank now** and report losses to **Police**.
+
+=== BODY
+## Why 7726
+
+- It's **free** to forward, per [MFAT's guidance](https://www.mfat.govt.nz/en/media-and-resources/text-message-scam).
+- **DIA (Te Tari Taiwhenua)** can investigate.
+- DIA sends **daily reports** to mobile operators via the 7726 service, and investigates harmful texts from identifiable NZ senders ([TCF](https://www.tcf.org.nz/digital-living/online-safety/scam-prevention-measures)).
+
+## How to forward
+
+**iPhone:** press and hold the message → **More** → tap the forward arrow → **7726** → Send.
+**Android:** press and hold → **Forward** → **7726** → Send.
+
+Save 7726 as a contact called "SPAM." Reporting becomes a two-second job, and oddly satisfying.
+
+## Who tells you to use 7726
+
+Practically everyone: [Kiwibank](https://www.kiwibank.co.nz/help/fraud-scams/latest-scams), [ASB](https://www.asb.co.nz/banking-with-asb/security-alerts.html), [NZ Post](https://www.nzpost.co.nz/contact-support/scams-and-fraud), [NZ Customs](https://www.customs.govt.nz/about-us/news/important-notices/customs-duty-scam-returns) and NZ Police. Even MFAT, after scammers impersonated the ministry and asked people for a code.
+
+## What 7726 doesn't do
+
+It doesn't get your money back. If you've clicked or paid:
+
+1. **Call your bank** using the number on your card.
+2. **Report to Police** at 105.police.govt.nz or call 105.
+3. Report to **Netsafe** (0508 638 723).
+4. Change any passwords you entered.
+
+## Scam texts to expect in NZ
+
+- **Toll and NZTA** texts ([[nz-nzta-toll-scam-text-3651|real ones come from 3651]])
+- **Fines** from "the Ministry of Justice" ([[nz-ministry-of-justice-fines-text-scam-how-to-check|how to check]])
+- **NZ Post** delivery texts ([[nz-post-scam-texts-whatsapp|what NZ Post never does]])
+- **Customs fees** ([[nz-customs-duty-scam-text|Customs never asks]])
+- **Bank alerts**, sometimes even from a fake cell tower ([[nz-sms-blaster-fake-cell-tower-auckland|SMS blaster case]])
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in breach data scammers use.
+
+=== FAQ
+Q: Is it free to forward a scam text to 7726 in NZ?
+A: Yes. Forwarding to 7726 is free.
+Q: What happens when I forward a text to 7726?
+A: The Department of Internal Affairs can investigate and shares daily reports with mobile operators so they can block scams.
+Q: What should I do if I clicked a link in a scam text?
+A: Call your bank immediately, change passwords you entered, and report to Police and Netsafe.
+Q: Should I reply STOP to a scam text?
+A: No. Don't reply or follow the message's instructions; forward it to 7726 and delete it.
+
+=== SOURCES
+https://www.mfat.govt.nz/en/media-and-resources/text-message-scam | MFAT: Text message scam, what to do
+https://www.tcf.org.nz/digital-living/online-safety/scam-prevention-measures | TCF: Scam prevention measures
+https://www.kiwibank.co.nz/help/fraud-scams/latest-scams | Kiwibank: Latest scams
+https://www.asb.co.nz/banking-with-asb/security-alerts.html | ASB: Security alerts
+https://www.nzpost.co.nz/contact-support/scams-and-fraud | NZ Post: Scams and fraud
+https://www.customs.govt.nz/about-us/news/important-notices/customs-duty-scam-returns | NZ Customs: Customs duty scam returns
+
+=== RELATED
+nz-how-to-report-a-scam | How to Report a Scam in NZ
+nz-ministry-of-justice-fines-text-scam-how-to-check | Fake Fines Texts (NZ)
+nz-nzta-toll-scam-text-3651 | Fake NZTA Toll Texts
+nz-sms-blaster-fake-cell-tower-auckland | SMS Blaster Fake Cell Tower
+canada-7726-spam-text-reporting-guide | Reporting Spam Texts in Canada

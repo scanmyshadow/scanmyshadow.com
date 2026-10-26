@@ -1,0 +1,65 @@
+slug: nz-ird-number-myir-compromised-what-to-do
+country: NZ
+title: IRD Number Stolen or myIR Hacked? What to Do Now
+h1: IRD Number or myIR Account Compromised: The Steps Inland Revenue Recommends
+desc: If scammers have your IRD number or got into myIR, call IRD to verify you, set up voice ID and fix false returns. Contact IDCARE on 0800 121 068 and report the scam.
+keywords: ird number stolen, myir hacked, ird identity theft, someone using my ird number, myir compromised what to do, ird voice id
+tags: Identity Theft|New Zealand|Tax|What To Do
+=== TLDR
+If your **IRD number** or **myIR** account may be compromised, **call Inland Revenue** (number on its contact page). IRD will **verify your identity**, set up **voice ID** to protect your account, check **what your IRD number was used for**, and help fix **false returns or debt**. Then talk to **IDCARE** (free) on **0800 121 068** and report the scam. Didn't click or share anything? Just report the message to IRD.
+
+=== BODY
+## If you think you've been compromised
+
+From [Inland Revenue](https://www.ird.govt.nz/managing-my-tax/scams/take-action-if-youve-been-scammed):
+
+1. **Call IRD.** They will:
+   - verify your identity;
+   - set up **voice ID** to access and protect your account;
+   - check what your **IRD number** may have been used for;
+   - help fix **incorrect returns or debt**.
+2. **Speak with IDCARE.** IRD may transfer you, or call **0800 121 068** (10am–7pm, Mon–Fri). Free help to respond and protect your information.
+3. **Report the scam to the Commerce Commission** (instructions on IRD's page).
+
+## If you got a suspicious message but didn't click
+
+Report it via IRD's **"Let us know about a scam"** page. Done.
+
+## How IRD numbers leak
+
+The usual suspects: **fake refund emails** linking to a copy of myIR (Kiwibank flagged one in September 2026), **fake job onboarding forms**, **phishing texts**, and **data breaches**. Our [[nz-ird-tax-refund-scam-surge|IRD refund scam guide]] has examples.
+
+Tax refunds are the scammer's favourite bait because nobody ever thinks "free money from IRD" sounds suspicious. It should.
+
+## Extra protection steps
+
+- **Change your myIR password** and any reused passwords.
+- **Check bank details** on your IRD account haven't been changed.
+- **Suppress your credit file** if ID documents also leaked ([[nz-credit-suppression-how-to|how]]).
+- **Check your credit report** for new accounts ([[nz-free-credit-report-how-to|how]]).
+- Report losses to **Police** (105) and **Netsafe**.
+
+## Where else is your data?
+
+An IRD number rarely leaks alone. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in.
+
+=== FAQ
+Q: What should I do if my IRD number is stolen?
+A: Call Inland Revenue so it can verify your identity, set up voice ID, check how your number was used and fix any false returns. Then contact IDCARE.
+Q: What is IDCARE's NZ phone number?
+A: 0800 121 068, 10am to 7pm, Monday to Friday.
+Q: What if I received an IRD scam message but didn't click?
+A: Report it through IRD's "Let us know about a scam" page.
+Q: Can IRD protect my account after a scam?
+A: IRD can set up voice ID to access and protect your account.
+
+=== SOURCES
+https://www.ird.govt.nz/managing-my-tax/scams/take-action-if-youve-been-scammed | Inland Revenue: Take action if you've been scammed
+https://www.kiwibank.co.nz/help/fraud-scams/latest-scams | Kiwibank: Latest scams (IRD refund scam, Sep 2026)
+
+=== RELATED
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scams
+nz-credit-suppression-how-to | Credit File Suppression (NZ)
+nz-free-credit-report-how-to | Free Credit Reports in NZ
+nz-how-to-report-a-scam | How to Report a Scam in NZ
+australia-tax-file-number-stolen-what-to-do | TFN Stolen (Australia)

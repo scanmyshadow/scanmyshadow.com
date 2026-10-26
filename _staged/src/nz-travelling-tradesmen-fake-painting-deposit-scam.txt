@@ -1,0 +1,75 @@
+slug: nz-travelling-tradesmen-fake-painting-deposit-scam
+country: NZ
+title: Fake Painters Took a $27,000 Deposit in Auckland: The Travelling Tradesmen Scam
+h1: "Think Again": Auckland Police Charge Visitors Over a $27,000 Fake Painting Job
+desc: A flyer for "Everlast Home Improvements" led to a $27,000 deposit, two days of poor sanding and no return. Auckland Police have prosecuted 14 foreign nationals for scams in three years.
+keywords: travelling tradesmen scam nz, fake painter scam auckland, home improvement deposit scam, everlast home improvements scam, roofing scam nz, auckland police scam visitors
+tags: Home Repair Scams|New Zealand|Fraud|News
+=== TLDR
+In **Auckland**, two **UK nationals** allegedly dropped flyers for a fake painting company, "**Everlast Home Improvements**." A **Mt Albert** homeowner paid a **$27,000 deposit**; someone did **two days of poor sanding** and never came back. One man pleaded guilty; the other **left NZ** and faces arrest if he returns. Auckland City Financial Crime Unit says it's prosecuted **14 foreign nationals** in **three years** for scams including **roof and paint work**. If you paid a deposit for work never finished, **report it**.
+
+=== BODY
+## What happened
+
+From [NZ Police](https://www.police.govt.nz/news/release/%E2%80%98think-again%E2%80%99-police-send-strong-message-visitors-scamming-kiwis) (21 May 2026):
+
+- A flyer in a **Mt Albert** mailbox advertised "**Everlast Home Improvements**."
+- The homeowner paid a **$27,000 deposit**.
+- A man did a **poor sanding job** on the exterior over **two days**, then vanished.
+- **Andrew Yeshua Glauberman** (21, UK) pleaded guilty to two fraud offences and several shoplifting offences; he was held in custody until sentencing.
+- **Thomas Jay Taylor** (29, UK) has **left New Zealand**; a warrant is out.
+
+Police say most offenders face **jail** and, ultimately, **removal from the country**, working with Immigration NZ.
+
+## A bigger pattern
+
+Auckland's Financial Crime Unit has prosecuted **14 foreign nationals in three years** for scams including:
+
+- fake **Police** calls and **text** scams
+- **foreign exchange** and **"blessing"** scams
+- **term deposit** scams
+- stolen credit card "**ghost taping**"
+- **travelling trade** scams: **roofing and painting**
+
+## Red flags of a travelling tradesman scam
+
+- **Flyers** or door-knocks offering a deal "because we're in the area"
+- **Big deposits** up front
+- No **verifiable business address**, website or reviews
+- **Cash or bank transfer only**, no proper invoice
+- Pressure to **book today**
+
+$27,000 up front for a paint job is a lot of trust to hand to a flyer. Legit tradies are usually happy to show you previous work and a real address.
+
+## Protect yourself
+
+1. **Get multiple quotes** from local, established businesses.
+2. **Check** company details on the Companies Register and online reviews.
+3. **Pay small deposits** and stage payments to completed work.
+4. **Get a written contract** with names, addresses and timelines.
+
+## Report it
+
+Paid a deposit for work that wasn't done? Police want to hear, **even if you're not sure it was a scam**: **105.police.govt.nz** or **105**. More: [[nz-how-to-report-a-scam|how to report a scam in NZ]].
+
+Similar Canadian case: [[canada-waterloo-home-renovation-scam-seniors-500000|Waterloo renovation scam]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data.
+
+=== FAQ
+Q: What is the travelling tradesmen scam?
+A: Visitors offer cheap home repairs like painting or roofing, take a large deposit, do little or poor work, then disappear.
+Q: How much was lost in the Auckland painting scam?
+A: A Mt Albert homeowner paid a $27,000 deposit.
+Q: How many foreign nationals have Auckland Police prosecuted for scams?
+A: The Auckland City Financial Crime Unit has prosecuted 14 in three years.
+Q: How do I report a tradesman who took a deposit and disappeared?
+A: Report it to Police at 105.police.govt.nz or call 105, even if you're unsure it was a scam.
+
+=== SOURCES
+https://www.police.govt.nz/news/release/%E2%80%98think-again%E2%80%99-police-send-strong-message-visitors-scamming-kiwis | NZ Police: 'Think again', police send strong message to visitors scamming Kiwis (21 May 2026)
+
+=== RELATED
+canada-waterloo-home-renovation-scam-seniors-500000 | Waterloo Renovation Scam (Canada)
+uk-nottingham-knockers-doorstep-sellers | Doorstep Sellers (UK)
+nz-how-to-report-a-scam | How to Report a Scam in NZ
+nz-rental-scams-fake-landlords-wechat | NZ Rental Scams
+nz-domain-renewal-fake-invoice-billing-scams | Fake Invoice Scams (NZ)

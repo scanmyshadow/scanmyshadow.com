@@ -1,0 +1,74 @@
+slug: nz-free-credit-report-how-to
+country: NZ
+title: How to Get Your Free Credit Report in New Zealand
+h1: Free Credit Report NZ: How to Get One From Centrix, Equifax and Experian (and What to Check)
+desc: You can get a free credit report from Centrix, Equifax and Experian in New Zealand. What to look for, how to fix errors, and the signs someone is using your identity.
+keywords: free credit report nz, check my credit report new zealand, centrix credit report, equifax nz free report, experian nz credit report, credit report errors nz
+tags: Identity Theft|New Zealand|Credit|How To
+=== TLDR
+You can get a **free credit report** from each of NZ's three agencies: **Centrix, Equifax and Experian**. Each has its own process; Equifax's free option takes about **10 business days** (paid is faster). Check for **accounts you didn't open** (loans, cards, power accounts, BNPL), **missed payments**, **defaults** and **enquiries you didn't approve**. Errors must be corrected by the provider or agency. If your info was stolen, **suppress** your file.
+
+=== BODY
+## Where to get it
+
+From [govt.nz](https://www.govt.nz/browse/consumer-rights-and-complaints/debt-and-credit-records/check-your-own-credit-report/):
+
+| Agency | Where to request |
+|---|---|
+| **Centrix** | Request section on its "my credit score" page |
+| **Equifax** | Products section; free option "Get my report in 10 business days" |
+| **Experian** | Ordered through CreditConnect |
+
+Each holds slightly different data, so checking all three gives the full picture. Ignore the upsells unless you actually need a report tomorrow.
+
+## What to check
+
+- **Credit accounts you didn't apply for**: loans, credit cards, **power bill** accounts, **buy now pay later**.
+- **Missed payments** you didn't know about.
+- **Defaults**: accounts sent to debt collection after missed payments.
+- **Credit enquiries** you didn't give permission for.
+
+A power account you never opened might sound minor. It's often the first step in building a fake identity history.
+
+## Fixing errors
+
+- **Missed payments or defaults**: contact the **credit provider** or company named. If it's wrong, they **must correct it**.
+- **Errors in the report itself** (like your address): contact **each agency**. Centrix takes direct contact; Equifax has a disputes process; Experian requires you to log in.
+- Your rights are explained on the **Privacy Commissioner's** website.
+
+## Signs of identity theft
+
+If you see things you don't recognise:
+
+1. Contact the lender and the agency.
+2. Place a **credit suppression** ([[nz-credit-suppression-how-to|how]]).
+3. Report to Police (105) and get help from **IDCARE** (0800 121 068).
+
+## When to check
+
+- once or twice a year as routine;
+- after any breach you're caught in;
+- before a home loan application;
+- after losing your wallet, licence or passport.
+
+A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in, which is a good prompt to pull your reports.
+
+=== FAQ
+Q: Can I get a free credit report in New Zealand?
+A: Yes, from Centrix, Equifax and Experian. Each has its own process and timeframe.
+Q: How long does a free Equifax report take in NZ?
+A: Equifax's free option is labelled "Get my report in 10 business days."
+Q: What should I look for on my NZ credit report?
+A: Accounts you didn't open, missed payments, defaults and credit enquiries you didn't approve.
+Q: How do I fix a mistake on my credit report?
+A: Contact the credit provider for payment errors, or each agency for errors in the report itself.
+
+=== SOURCES
+https://www.govt.nz/browse/consumer-rights-and-complaints/debt-and-credit-records/check-your-own-credit-report/ | govt.nz: Check your own credit report
+
+=== RELATED
+nz-credit-suppression-how-to | Credit File Suppression (NZ)
+nz-ird-number-myir-compromised-what-to-do | IRD Number Compromised?
+nz-privacy-act-access-request-how-to | Privacy Access Requests (NZ)
+how-to-check-your-credit-report-for-fraud | Check Your Credit Report for Fraud
+australia-free-credit-report-equifax-experian-illion | Free Credit Reports in Australia

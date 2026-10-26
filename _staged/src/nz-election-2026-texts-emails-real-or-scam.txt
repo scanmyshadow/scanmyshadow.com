@@ -1,0 +1,76 @@
+slug: nz-election-2026-texts-emails-real-or-scam
+country: NZ
+title: NZ Election 2026 Texts and Emails: How to Tell Real From Scam
+h1: Electoral Commission Texts and Emails in 2026: Real Ones Come From 5101 and easy.vote.nz
+desc: Genuine Electoral Commission reminders in 2026 come by text from 5101 or email from no-reply@easy.vote.nz, with no links. They never ask for passwords, money or bank details.
+keywords: electoral commission text 2026, is the election text real nz, 5101 text, easy.vote.nz email, election scam nz, enrol to vote scam text
+tags: Government Impersonation|New Zealand|Elections|What To Do
+=== TLDR
+New Zealand's **2026 general election** is in **November**, and same-day enrolment has been **scrapped**, so the Electoral Commission is sending reminders. Genuine ones in 2026: texts from **5101**, emails from **no-reply@easy.vote.nz**, sent **31 August–20 September**, and the email **doesn't include links**. The Commission **never** asks for a **password, PIN, login, money or bank details**, and you don't need any of those to enrol. Unsure? Call **0800 36 76 56**.
+
+=== BODY
+## What's genuine
+
+From the [Electoral Commission](https://elections.nz/media-and-news/2026/31-aug-20-sep-emails-and-texts):
+
+| Channel | Genuine sender |
+|---|---|
+| Text | **5101** |
+| Email | **no-reply@easy.vote.nz** |
+| Links in the email | **None** |
+| When | **31 August–20 September 2026** |
+
+You'll only get one if you gave an email or mobile number when enrolling or updating.
+
+## What they never ask for
+
+- A **password, PIN or login**
+- **Money**
+- **Bank account details**
+
+You don't need any of those to enrol to vote. So any "pay $1 to confirm your enrolment" message is a scam, full stop.
+
+## Why scammers love elections
+
+- There's a **real deadline** in the news.
+- Same-day enrolment is gone, so people are anxious to get it right. Lawmakers ended election-day enrolment in a December law change, and the Commission says voters "must be enrolled in advance" ([report](https://www.jonesborosun.com/news/world/new-zealanders-abroad-urged-to-enroll-for-the-election-as-new-law-locks-out-last/article_d86936cc-5f2b-5a6a-a548-3fce544a1efa.html)).
+- Official-looking messages arrive anyway, so fakes blend in.
+
+Real deadline, real anxiety, fake link. It's the scammer's holy trinity.
+
+## How to check your enrolment safely
+
+- Type **vote.nz** yourself.
+- Or call **0800 36 76 56**.
+
+## Privacy tip
+
+If having your address on the public roll could put you at risk, apply for the [[nz-unpublished-electoral-roll-how-to|unpublished roll]].
+
+## Got a fake?
+
+- Forward texts to **7726** ([[nz-report-scam-text-7726|how]]).
+- Clicked and paid? Call your bank, then Police (105).
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in breach data.
+
+=== FAQ
+Q: What number do real Electoral Commission texts come from?
+A: In 2026, genuine texts come from 5101.
+Q: What email address does the Electoral Commission use?
+A: no-reply@easy.vote.nz, and the reminder email doesn't include links.
+Q: Does the Electoral Commission ask for money or bank details?
+A: No. It never asks for a password, PIN, login, money or bank details.
+Q: Can I enrol on election day in NZ in 2026?
+A: No. Same-day enrolment has ended; you must be enrolled in advance.
+
+=== SOURCES
+https://elections.nz/media-and-news/2026/31-aug-20-sep-emails-and-texts | Electoral Commission: Emails and texts, 31 Aug–20 Sep 2026
+https://www.jonesborosun.com/news/world/new-zealanders-abroad-urged-to-enroll-for-the-election-as-new-law-locks-out-last/article_d86936cc-5f2b-5a6a-a548-3fce544a1efa.html | AP via Jonesboro Sun: New Zealanders urged to enrol as new law ends late enrolment
+
+=== RELATED
+nz-unpublished-electoral-roll-how-to | Unpublished Electoral Roll (NZ)
+nz-report-scam-text-7726 | Report Scam Texts to 7726
+nz-ministry-of-justice-fines-text-scam-how-to-check | Fake Fines Texts (NZ)
+nz-nzta-toll-scam-text-3651 | Fake NZTA Toll Texts
+what-is-smishing | What Is Smishing?

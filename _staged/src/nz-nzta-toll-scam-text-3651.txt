@@ -1,0 +1,71 @@
+slug: nz-nzta-toll-scam-text-3651
+country: NZ
+title: Fake NZTA Toll Texts: Real Ones Only Come From 3651
+h1: Fake NZTA Toll and Rego Texts: Real Messages Come From 3651 and Never Include a Payment Link
+desc: Scam texts claim you owe road toll late fees and link to a fake payment page. NZTA says official texts come only from 3651 and never contain payment links. How to check.
+keywords: nzta scam text, toll scam text nz, nzta 3651, fake toll fee text new zealand, waka kotahi scam text, road toll scam nz
+tags: Government Impersonation|New Zealand|Text Scams|What To Do
+=== TLDR
+Scam texts say you owe **road toll late fees** and link to a fake payment page. NZTA says genuine texts **only come from 3651** and **never include a payment link**. In January 2025, a Tauranga driver got one days after actually using a toll road, which is exactly why it felt real. Don't click. Check tolls by typing the NZTA site yourself, and report the text.
+
+=== BODY
+## What the scam looks like
+
+From [SunLive](https://www.sunlive.co.nz/news/358441-fake-nzta-toll-fee-text-circulates-tauranga.html) (10 January 2025):
+
+- A text asks you to pay **unknown late fees** on an **outstanding road toll**.
+- It includes a **link** to a bogus payment page.
+- The Tauranga recipient had used a toll road just days earlier.
+
+Scammers don't know you drove the toll road. They text thousands of people and wait for the ones who did.
+
+## The two-second test
+
+NZTA says:
+
+- Official texts **only come from 3651**.
+- They **never include a payment link**.
+
+Any other number, or any link, means scam.
+
+## Other red flags
+
+- **Bad grammar**
+- **Overseas phone numbers**
+- **Urgency**: "pay today or face a penalty"
+
+## How to check your tolls
+
+Go to the NZTA website by **typing it yourself**, or use NZTA's app for licence and vehicle info. Don't use the text's link.
+
+## How to report
+
+- Report it to **NZTA** using its online phishing form. NZTA: "The sooner we know about it, the faster we can act."
+- Forward it to **7726** ([[nz-report-scam-text-7726|how]]).
+- If you paid: call your bank, then report to Police (105).
+
+## The same trick, elsewhere
+
+Australians get [[australia-government-impersonation-toll-scams-top-detections-2026|toll scam texts]] too; Canadians get [[canada-407-etr-scam-text-unpaid-toll|407 ETR texts]]. NZ fines texts are covered in our [[nz-ministry-of-justice-fines-text-scam-how-to-check|Ministry of Justice guide]].
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your phone number is in leaked data.
+
+=== FAQ
+Q: What number do real NZTA texts come from?
+A: NZTA says official texts only come from 3651.
+Q: Do NZTA toll texts include payment links?
+A: No. NZTA says official texts never include a payment link.
+Q: How do I report a fake NZTA text?
+A: Use NZTA's online phishing form and forward the text to 7726.
+Q: What should I do if I paid a fake toll text?
+A: Call your bank immediately and report it to Police.
+
+=== SOURCES
+https://www.sunlive.co.nz/news/358441-fake-nzta-toll-fee-text-circulates-tauranga.html | SunLive: Fake NZTA toll fee text circulates in Tauranga (Jan 2025)
+
+=== RELATED
+nz-ministry-of-justice-fines-text-scam-how-to-check | Fake Fines Texts (NZ)
+nz-report-scam-text-7726 | Report Scam Texts to 7726
+canada-407-etr-scam-text-unpaid-toll | 407 ETR Scam Texts (Canada)
+australia-government-impersonation-toll-scams-top-detections-2026 | Toll Scams in Australia
+what-is-smishing | What Is Smishing?

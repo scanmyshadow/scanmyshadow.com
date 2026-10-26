@@ -1,0 +1,78 @@
+slug: nz-deepfake-luxon-investment-scam-ads
+country: NZ
+title: Deepfake Luxon Ad Cost a Taranaki Pensioner $224,000
+h1: Deepfake Politician Investment Scams: How a Fake Luxon Video Cost a Pensioner $224,000
+desc: A Taranaki grandmother lost $224,000 after a deepfake video of PM Christopher Luxon pushed crypto. The FMA warns of fake news stories with political endorsements. How to spot them.
+keywords: deepfake luxon scam, christopher luxon deepfake investment, fma deepfake warning, fake news investment ad nz, winston peters deepfake scam, celebrity investment scam nz
+tags: Investment Scams|New Zealand|Deepfakes|News
+=== TLDR
+Taranaki grandmother **Jill Creasy, 72**, lost **$224,000** of retirement savings after seeing a **deepfake video of PM Christopher Luxon** on **Facebook** recommending crypto. The FMA has warned about **fake news stories** using **Luxon, Winston Peters, Jacinda Ardern and Clarke Gayford**. The pattern: fake article → sign-up form → "broker" calls → small deposit (about **$420**) → bigger deposits → fees to withdraw → **recovery scam**.
+
+=== BODY
+## Jill's story
+
+From [Newstalk ZB / NZ Herald](https://newstalkzb.co.nz/news/national/scammers-who-used-christopher-luxon-deepfake-video-to-steal-224-000-from-pensioner-caught-on-secret-recording) (November 2024):
+
+- Jill saw an **AI-generated video** of Luxon apparently recommending Kiwis invest in **crypto**.
+- She was persuaded to buy **Bitcoin** and lost **$224,000**.
+- Months later, the "advisers" called back to **win her trust again**, asking for **remote access** to "return" nearly half a million dollars, and **coaching her** on what to tell **TSB** about a $10,000 payment.
+- She **secretly recorded** them and gave the audio to the Herald, which passed it to authorities.
+
+Meta said it's using facial recognition against "celeb-bait scams." Jill called scams a "crime of shame." She spoke up anyway. Respect.
+
+## The FMA's warning
+
+From the [FMA](https://fma.govt.nz/library/articles/deepfake-video-scam-warning-fake-news-stories-political-endorsements/) (August 2024):
+
+| Step | What happens |
+|---|---|
+| 1 | Paid **ads** link to **fake news articles** styled like NZ media |
+| 2 | False quotes and endorsements from **Luxon, Peters, Ardern, Gayford** |
+| 3 | Scary hooks like "**pension payments will be cancelled**" |
+| 4 | Registration form → a "**broker**" calls |
+| 5 | Small first deposit (about **NZ$420**), then bigger ones |
+| 6 | Withdrawals blocked by "**fees**" or "**taxes**" |
+| 7 | Later, **recovery scams** target the same victims |
+
+## How to spot it
+
+- News-style content with **politicians** or **deepfake videos** promoting investments
+- Headlines that **scare** you about super or pensions
+- Links to **unfamiliar trading platforms**
+- **Pressure** to deposit quickly; **fees** before withdrawals
+- Anyone coaching you on **what to tell your bank**
+
+That last one is the loudest alarm there is.
+
+## What to do if you've been scammed
+
+From the FMA:
+
+1. **Call your bank** immediately; ask about reversing transactions.
+2. If you installed **remote access** software, get a professional to check your device.
+3. Report repeated scam calls to your **telco**, and scam texts to **DIA** (7726).
+4. **Tell someone you trust.**
+5. **Victim Support**: **0800 842 846**.
+
+Related: [[nz-kiwibank-ceo-fake-investment-ads|fake Kiwibank CEO ads]], [[nz-anz-fake-stock-education-ads-investment-chat-groups|fake ANZ ads]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data used for follow-up calls.
+
+=== FAQ
+Q: Is Christopher Luxon promoting a crypto investment?
+A: No. Videos showing him recommending investments are deepfakes used by scammers.
+Q: How much did the Taranaki pensioner lose to the deepfake scam?
+A: $224,000, according to the NZ Herald.
+Q: Which NZ public figures have been used in fake investment ads?
+A: The FMA named Christopher Luxon, Winston Peters, Jacinda Ardern and Clarke Gayford.
+Q: Where can scam victims get support in NZ?
+A: Victim Support on 0800 842 846, plus your bank, Police and Netsafe.
+
+=== SOURCES
+https://newstalkzb.co.nz/news/national/scammers-who-used-christopher-luxon-deepfake-video-to-steal-224-000-from-pensioner-caught-on-secret-recording | Newstalk ZB: Deepfake Luxon scammers caught on secret recording
+https://fma.govt.nz/library/articles/deepfake-video-scam-warning-fake-news-stories-political-endorsements/ | FMA: Deepfake video scam warning
+
+=== RELATED
+nz-kiwibank-ceo-fake-investment-ads | Kiwibank CEO Fake Ads
+nz-anz-fake-stock-education-ads-investment-chat-groups | ANZ Fake Investment Ads
+nz-fma-fake-nz-registered-investment-firms | Fake NZ-Registered Firms
+nz-kiwisaver-scams-retirement-savings | KiwiSaver Scams
+australia-queensland-retiree-deepfake-nurse-romance-scam-180000-six-fingers | Deepfake Romance Scam (AU)

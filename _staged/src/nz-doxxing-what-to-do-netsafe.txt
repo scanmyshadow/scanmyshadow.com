@@ -1,0 +1,66 @@
+slug: nz-doxxing-what-to-do-netsafe
+country: NZ
+title: Doxxed in New Zealand? What to Do and Where to Get Help
+h1: Doxxing in New Zealand: What to Do if Someone Posts Your Address or Personal Details Online
+desc: Doxxing means sharing someone's personal or identifying info without consent. In NZ, the Harmful Digital Communications Act can apply. Steps to take, and how Netsafe helps.
+keywords: doxxing nz, doxxed what to do new zealand, harmful digital communications act doxxing, netsafe doxxing, personal information posted online nz, someone posted my address online
+tags: Online Harassment|New Zealand|Privacy|What To Do
+=== TLDR
+**Doxxing** is sharing someone's **personal or identifying information without consent**: full name, **home address**, workplace, phone number or family members' details. In New Zealand, posting content that **intentionally causes severe emotional distress** can be illegal under the **Harmful Digital Communications Act (HDCA)**. If it happens: **report** to the platform, **lock down** your profiles, **warn family**, and contact **Netsafe** (free, confidential). If you're threatened or in danger, call **111**.
+
+=== BODY
+## What doxxing is
+
+From [Netsafe](https://www.netsafe.org.nz/doxxing/), doxxing is "sharing another person's personal or identifying information without their consent." Doxxers often piece it together from **public online content**, but some **hack accounts** or **guess passwords**.
+
+## The law
+
+Under the **Harmful Digital Communications Act**, sending messages or posting content that **"intentionally causes severe emotional distress"** can be illegal. Netsafe can explain your options under the HDCA.
+
+## What to do right now
+
+1. **Report** the post and the account to the platform.
+2. **Screenshot** everything (posts, URLs, dates).
+3. **Lock down** privacy settings; set profiles to private; limit who can contact you; consider changing profile names if you're being tracked.
+4. **Tell trusted friends and family.** They may be targeted too. Ask them to go private.
+5. If it's **safe**, ask the person (or a mutual friend) to remove it.
+6. **Contact Netsafe**: free helpline, online reporting, email and live chat.
+7. If you're **threatened** or worried about anyone's safety, call **111**.
+
+## Prevent the next one
+
+From Netsafe:
+
+- **Think before sharing** personal details online.
+- **Turn off geotagging** on your phone and camera.
+- **Search your own name** and details; remove what you can.
+- Use **strong, unique passwords** and **two-factor authentication**.
+- **Report and block** instead of arguing online.
+
+Searching yourself feels a bit vain. It's actually the most useful ten minutes of privacy work you'll do this year.
+
+## Other places your address leaks
+
+- The **electoral roll**: apply for the [[nz-unpublished-electoral-roll-how-to|unpublished roll]] if you're at risk.
+- **Data breaches**: a free [[/digital-footprint-checker/|exposure check]] shows which ones hold your email.
+- Organisations holding your data: ask them with an [[nz-privacy-act-access-request-how-to|access request]].
+
+If an organisation leaked your information, you can also [[nz-privacy-commissioner-complaint-how-to|complain to the Privacy Commissioner]].
+
+=== FAQ
+Q: Is doxxing illegal in New Zealand?
+A: Posting content that intentionally causes severe emotional distress can be illegal under the Harmful Digital Communications Act.
+Q: What should I do if I've been doxxed?
+A: Report it to the platform, screenshot evidence, lock down your profiles, warn family and contact Netsafe. Call 111 if you're in danger.
+Q: Can Netsafe help with doxxing?
+A: Yes. Netsafe offers a free, confidential helpline and can explain your options under the HDCA.
+
+=== SOURCES
+https://www.netsafe.org.nz/doxxing/ | Netsafe: Doxxing
+
+=== RELATED
+nz-unpublished-electoral-roll-how-to | Unpublished Electoral Roll (NZ)
+nz-privacy-commissioner-complaint-how-to | Complain to the NZ Privacy Commissioner
+can-someone-find-my-address-using-my | Can Someone Find My Address?
+how-scammers-build-a-convincing-profile-of-you | How Scammers Build a Profile of You
+cleaning-up-your-online-presence-before | Cleaning Up Your Online Presence

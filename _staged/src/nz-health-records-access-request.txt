@@ -1,0 +1,68 @@
+slug: nz-health-records-access-request
+country: NZ
+title: How to Get a Copy of Your Health Records in New Zealand
+h1: Your Right to Your Health Records in NZ: 20 Working Days, Usually Free
+desc: Under the Health Information Privacy Code, you can request your health records. Agencies must respond within 20 working days; public hospitals can't charge. How to ask and when GPs can charge.
+keywords: access health records nz, request medical records new zealand, health information privacy code rule 6, gp charge for medical records nz, hospital records request nz, hipc access request
+tags: Privacy Rights|New Zealand|Health|How To
+=== TLDR
+Under **rule 6** of the **Health Information Privacy Code**, you can ask any health agency for the information it holds about you. They must respond within **20 working days** (or transfer your request within **10 working days** if another agency is more relevant). **Public hospitals can't charge.** Private providers like **GPs** can charge only if they gave you the same info in the **last 12 months**, or for **X-rays, videos and MRI/CT/PET images**. After recent health breaches, it's worth checking.
+
+=== BODY
+## Your rights
+
+From the [Privacy Commissioner's HIPC fact sheet](https://www.privacy.org.nz/assets/New-order/Privacy-Act-2020/Codes-of-practice/Health-information-privacy-code-2020/HIPC-Factsheet-4_-Dealing-with-Access-Requests.pdf):
+
+| Rule | Detail |
+|---|---|
+| **Right** | Request health information about yourself (rule 6) |
+| **Deadline** | **20 working days** to provide it or explain a refusal |
+| **Transfer** | Within **10 working days** if another agency is more closely connected |
+| **Public agencies** (e.g. hospitals) | **Cannot charge** |
+| **Private providers** (e.g. GPs) | Can charge only if they supplied the same info in the **last 12 months**, or for **X-rays, video, MRI/CT/PET images** |
+
+## When they can refuse
+
+- If disclosure would **harm your physical or mental health**
+- If it would **unwarrantedly reveal someone else's** affairs
+- Other grounds under sections 49–53 of the Privacy Act
+
+## How to ask
+
+1. Contact the provider's **privacy officer** (health agencies should have one).
+2. Write a short request: "Under rule 6 of the Health Information Privacy Code, please provide a copy of my health records from [date] to [date]."
+3. Include **ID details** they can check.
+4. Diary **20 working days**.
+
+## Why check now
+
+New Zealand health data has had a rough couple of years: the [[nz-manage-my-health-data-breach-privacy-commissioner-findings|Manage My Health breach]] and the [[nz-medimap-attack-patients-marked-deceased|MediMap attack]], where records were **altered**. Checking your records for errors is reasonable, especially medications and personal details.
+
+Finding a mistake in your own medical file is the one time "being nosy" is officially encouraged.
+
+## If something's wrong or they don't respond
+
+- Ask for a **correction**.
+- Contact the **Office of the Privacy Commissioner** on **0800 803 909**, or complain ([[nz-privacy-commissioner-complaint-how-to|how]]).
+
+For non-health organisations, see [[nz-privacy-act-access-request-how-to|general access requests]]. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in.
+
+=== FAQ
+Q: Can I get a copy of my medical records in NZ?
+A: Yes. Rule 6 of the Health Information Privacy Code gives you the right to request your health information.
+Q: How long does a health provider have to respond?
+A: 20 working days.
+Q: Do I have to pay for my health records?
+A: Public agencies like hospitals can't charge. Private providers may charge only in limited cases, like repeat requests within 12 months or imaging.
+Q: Can a provider refuse my request?
+A: Only on specific grounds, such as serious harm to your health or unwarranted disclosure of someone else's affairs.
+
+=== SOURCES
+https://www.privacy.org.nz/assets/New-order/Privacy-Act-2020/Codes-of-practice/Health-information-privacy-code-2020/HIPC-Factsheet-4_-Dealing-with-Access-Requests.pdf | Privacy Commissioner: HIPC Factsheet 4, dealing with access requests
+
+=== RELATED
+nz-manage-my-health-data-breach-privacy-commissioner-findings | Manage My Health Data Breach
+nz-medimap-attack-patients-marked-deceased | MediMap Attack
+nz-privacy-act-access-request-how-to | Privacy Access Requests (NZ)
+nz-privacy-commissioner-complaint-how-to | Complain to the NZ Privacy Commissioner
+medical-identity-theft-signs-what-to-do | Medical Identity Theft

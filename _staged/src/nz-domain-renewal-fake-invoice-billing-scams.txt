@@ -1,0 +1,75 @@
+slug: nz-domain-renewal-fake-invoice-billing-scams
+country: NZ
+title: Fake Domain Renewal and Invoice Scams Are Rising in NZ: Netsafe
+h1: "Your Domain Is Expiring": Netsafe Warns of Unauthorised Billing and Fake Website Scams
+desc: Netsafe says Kiwis lost $58,744 to unauthorised billing scams posing as domain and hosting providers in early 2026, and fake website scam reports jumped 35%. How to spot them.
+keywords: domain renewal scam nz, fake invoice scam new zealand, unauthorised billing scam, netsafe warning 2026, fake hosting renewal email, small business scam nz
+tags: Business Scams|New Zealand|Phishing|News
+=== TLDR
+In **April 2026**, Netsafe warned that scammers are now copying the **systems** that make businesses trustworthy: **domain renewals, hosting invoices, account renewals and login pages**. **Unauthorised billing scams** took **$58,744** so far in 2026 (over **$26,500** in January alone); **fake website** scam reports jumped **35%** from February to March. If you get an urgent "renew your domain" email, **log in to your provider directly**.
+
+=== BODY
+## The numbers
+
+From [Newstalk ZB](https://www.newstalkzb.co.nz/news/national/netsafe-urges-extra-checks-as-wave-of-sophisticated-online-scams-emerges-on-the-internet) (1 April 2026):
+
+| Scam | 2026 so far |
+|---|---|
+| **Unauthorised billing** (posing as domain, hosting or trusted providers) | **$58,744** lost |
+| Of which in **January** | **$26,500+** |
+| **Fake website** scams | $5,862 lost; reports **up 35%+** Feb→Mar |
+| Total | Almost **$65,000** |
+
+## What Netsafe said
+
+Alex Yi, digital harms services manager: "Scammers are no longer just pretending to be organisations." They're copying **domain names, websites, invoices and account renewals**: the things that normally make an organisation look legit.
+
+Three types:
+
+1. **Unauthorised billing**: fake domain or hosting renewals, invoices from "providers."
+2. **Fake websites and login pages** that steal logins and payments.
+3. **Multi-step** scams: a social ad leads to a realistic site, then a phone or email follow-up closes the deal.
+
+Domain renewal emails are perfect bait. Most people renew once a year and can't remember who their registrar is. Scammers are counting on that fog.
+
+## How to spot it
+
+- **Urgent** "renew now or lose your domain/website/email" messages
+- An **invoice** from a provider you **don't recognise**, or for a service you don't use
+- **Links** to log in or pay
+- Slightly **wrong web addresses**
+
+## Netsafe's advice
+
+- Be wary of **urgent** requests to renew domains, pay invoices or update details.
+- **Don't click links** in unsolicited emails; go to the official site.
+- **Check web addresses** carefully.
+- Turn on **MFA** on important accounts.
+- **Verify** payment requests independently.
+- When something seems legit but **unexpected**, check through a trusted channel.
+
+## For small businesses
+
+- Keep a simple list: **registrar, host, renewal dates, how they bill you**.
+- Route all invoices to **one person** who checks them against that list.
+- Never pay from an email link.
+
+Australia has the same problem: see [[australia-business-scam-alerts-fake-audit-invoice-emails|fake audit and invoice emails]]. A free [[/digital-footprint-checker/|exposure check]] shows if business emails are in breach data.
+
+=== FAQ
+Q: What are unauthorised billing scams?
+A: Scams where fraudsters pose as domain name providers, hosting services or trusted organisations to collect payments.
+Q: How much have Kiwis lost to unauthorised billing scams in 2026?
+A: Netsafe said $58,744 so far in 2026 at the start of April, including over $26,500 in January.
+Q: How do I check if a domain renewal email is real?
+A: Don't click the link. Log in to your domain provider directly and check your renewal date there.
+
+=== SOURCES
+https://www.newstalkzb.co.nz/news/national/netsafe-urges-extra-checks-as-wave-of-sophisticated-online-scams-emerges-on-the-internet | Newstalk ZB: Netsafe urges extra checks as wave of sophisticated scams emerges (1 Apr 2026)
+
+=== RELATED
+australia-business-scam-alerts-fake-audit-invoice-emails | Fake Audit and Invoice Emails (AU)
+how-to-recover-a-hijacked-domain | Recover a Hijacked Domain
+nz-how-to-report-a-scam | How to Report a Scam in NZ
+nz-ncsc-cyber-security-insights-q2-2026 | NCSC Q2 2026 Report
+how-to-spot-and-report-phishing-emails-texts-calls | Spot and Report Phishing

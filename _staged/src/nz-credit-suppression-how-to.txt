@@ -1,0 +1,77 @@
+slug: nz-credit-suppression-how-to
+country: NZ
+title: How to Freeze Your Credit in NZ (Credit File Suppression)
+h1: Credit File Suppression in New Zealand: How to Freeze Your Credit With Centrix, Equifax and Experian
+desc: A credit suppression stops lenders accessing your credit file without consent, blocking fraudsters from borrowing in your name. How long it lasts, how to apply and extend.
+keywords: credit freeze nz, credit file suppression new zealand, centrix suppression, equifax nz suppression, experian nz suppression, freeze credit after data breach nz
+tags: Identity Theft|New Zealand|Credit|How To
+=== TLDR
+New Zealand's version of a credit freeze is a **credit file suppression**. While it's active, credit reporting agencies **can't release your file to lenders without your written consent**, so a fraudster can't easily get credit in your name. Initial periods: **Experian 21 days**, **Centrix 20 days**, **Equifax 10 days**. You can apply to **one agency and ask it to pass the request to the others**, and extend it (even indefinitely) if you're at risk of fraud.
+
+=== BODY
+## What a suppression does
+
+From [IDCARE](https://idcare.org/fact-sheets/suppressions-new-zealand), a suppression **"freezes access to your credit file."** Agencies can't disclose your information to credit providers without your written consent, unless the law requires it.
+
+Your **existing** cards and loans aren't affected, unless something is up for renewal (like an expiring card).
+
+## How long it lasts
+
+| Agency | Initial period |
+|---|---|
+| **Experian** | 21 days |
+| **Centrix** | 20 days |
+| **Equifax** | 10 days |
+
+Different lengths at each agency. Yes, it's a bit like three clocks in one kitchen all set to different times.
+
+## How to apply
+
+1. Pick one agency and apply online through its **suppression page**: Centrix (emails confirmation), Equifax (online form), or Experian.
+2. **Ask that agency to pass the request** to the other two. [govt.nz](https://www.govt.nz/browse/consumer-rights-and-complaints/debt-and-credit-records/check-your-own-credit-report/) confirms you can apply to one and have it notify the others.
+3. Keep the confirmation and note each end date.
+
+## How to extend
+
+- Apply **before** it expires.
+- Give a reason, like **identity information stolen** or **compromised in a breach**.
+- You'll usually need a **police report number**, a **statutory declaration**, or confirmation from a lender that you're at risk.
+- Extensions can be granted **indefinitely** if the agency approves.
+- **Centrix:** email or call **0800 236 874**. **Equifax:** same online form. **Experian:** its suppression extension page.
+
+## Releasing it
+
+To let a lender see your file, submit a **written request** naming the organisation.
+
+## When to suppress
+
+- Your **driver licence or passport** was in a breach (the [[was-i-affected-by-the-latitude-financial-data-breach|Latitude breach]] exposed over a million NZ licence numbers).
+- Your **wallet or ID** was stolen.
+- You **gave ID to a scammer**.
+- Your [[nz-free-credit-report-how-to|credit report]] shows enquiries you don't recognise.
+
+## Get help
+
+**IDCARE** (free) on **0800 121 068**. A free [[/digital-footprint-checker/|exposure check]] shows whether your email appears in breach data.
+
+=== FAQ
+Q: Can I freeze my credit in New Zealand?
+A: Yes. It's called a credit file suppression. Agencies can't release your file to lenders without your consent while it's active.
+Q: How long does a credit suppression last in NZ?
+A: Initially 21 days with Experian, 20 days with Centrix and 10 days with Equifax. You can apply to extend it.
+Q: Do I need to contact all three credit agencies?
+A: You can apply to one and ask it to pass the request to the others.
+Q: Does a suppression affect my existing credit cards?
+A: No, unless credit is due for renewal.
+
+=== SOURCES
+https://idcare.org/fact-sheets/suppressions-new-zealand | IDCARE: Credit suppressions in New Zealand
+https://www.govt.nz/browse/consumer-rights-and-complaints/debt-and-credit-records/check-your-own-credit-report/ | govt.nz: Check your own credit report
+https://www.1news.co.nz/2023/03/28/over-1-million-nz-driver-licence-numbers-caught-up-in-latitude-hack | 1News: Over 1 million NZ driver licence numbers caught up in Latitude hack
+
+=== RELATED
+nz-free-credit-report-how-to | Free Credit Reports in NZ
+nz-ird-number-myir-compromised-what-to-do | IRD Number Compromised?
+nz-passport-data-breach-alert-pas201 | NZ Passport in a Data Breach
+australia-credit-ban-how-to-request | Credit Bans in Australia
+credit-lock-vs-credit-freeze | Credit Lock vs Credit Freeze

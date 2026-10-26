@@ -1,0 +1,66 @@
+slug: nz-westpac-fake-facebook-complaints-pages
+country: NZ
+title: Fake Facebook "Complaints" Pages Are Scamming Westpac NZ Customers
+h1: Complain About Your Bank on Facebook? A Fake "Westpac" Page May Reply First
+desc: Scammers run fake Facebook complaints pages that reply to people venting about service issues, offer "compensation," and collect banking details. Westpac NZ expects more.
+keywords: westpac nz scam facebook, fake complaints page scam, facebook customer service scam nz, westpac compensation scam, fake bank facebook page, social media complaint scam
+tags: Social Media Scams|New Zealand|Bank Scams|News
+=== TLDR
+In **August 2026**, Westpac NZ warned that scammers built **fake Facebook complaints pages** that reply to people **posting publicly about service problems**. Posing as Westpac, they offer a **quick resolution**, collect your **name, email and contact details**, then contact you about **"compensation"** and ask for **banking or card info**. Westpac had the page removed, but expects **more to pop up**, including for other businesses.
+
+=== BODY
+## How it works
+
+From [MPA](https://www.mpamag.com/nz/specialty/residential/fake-facebook-complaints-pages-used-to-scam-westpac-nz-customers/586447) (18 August 2026):
+
+1. You post publicly that your bank (or any business) let you down.
+2. A page that looks like **Westpac NZ** replies: "Sorry to hear that, let's sort it fast."
+3. They ask for your **full name, email and contact details**.
+4. Later, someone contacts you to **"process compensation"** and asks for **banking or card information**, sometimes asking you to call an **overseas number**.
+
+Venting online is human. Scammers are counting on it. The angrier the post, the faster people accept a helping hand.
+
+## What Westpac said
+
+- Peter Barnes, head of customer care operations: some customers "may have been tricked by the fake page."
+- "As known sites are shut down, others are likely to pop up."
+- Westpac's financial crime team knows of **similar fake pages targeting other businesses**.
+
+## How to spot a fake complaints page
+
+- **Not verified**, recently created, or few followers
+- Replies **within minutes** to public posts, asking you to DM details
+- Offers **compensation** before anyone's looked at your account
+- Moves you to **email, phone or WhatsApp**
+- Asks for **card details, PINs or passwords**
+
+## What to do instead
+
+- Complain through the bank's **app, website or published phone number**.
+- Never share account or card details in reply to an **unsolicited offer**.
+- Westpac never asks for your **online banking password or PIN**.
+- Be suspicious of any request to call an **overseas number**.
+
+## If you shared details
+
+Contact Westpac **immediately**; early reporting improves recovery chances. Report the page to Facebook and the scam to Netsafe. See [[nz-how-to-report-a-scam|how to report a scam in NZ]].
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your email is in breach data that can help scammers find you.
+
+=== FAQ
+Q: Does Westpac NZ respond to complaints on Facebook pages?
+A: Westpac warned that fake Facebook complaints pages impersonated it. Complain through official channels instead.
+Q: How does the fake complaints page scam work?
+A: It replies to public complaints, collects your contact details, then contacts you about "compensation" and asks for banking or card information.
+Q: Will Westpac ask for my PIN or online banking password?
+A: No. Westpac says it will never ask for your online banking password or PIN.
+
+=== SOURCES
+https://www.mpamag.com/nz/specialty/residential/fake-facebook-complaints-pages-used-to-scam-westpac-nz-customers/586447 | MPA: Fake Facebook complaints pages used to scam Westpac NZ customers (Aug 2026)
+
+=== RELATED
+nz-banks-whatsapp-impersonation-scams | NZ Banks Don't Use WhatsApp
+how-to-report-fake-impersonation-account-facebook-instagram | Report Fake Facebook Accounts
+nz-netsafe-bank-impersonation-spike-august-2026 | Bank Impersonation Spike
+nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts
+nz-how-to-report-a-scam | How to Report a Scam in NZ

@@ -1,0 +1,68 @@
+slug: nz-bank-caller-check-impersonation-scams
+country: NZ
+title: Caller Check Scams: When Fraudsters Fake Your Bank's Security Check
+h1: Caller Check in NZ Banks: How It Works, and How Scammers Are Faking It
+desc: ASB and ANZ let you verify a caller with an in-app Caller Check. Scammers now send fake "verification" by text, email or WhatsApp. Real Caller Check only appears in the bank's app.
+keywords: caller check scam nz, anz caller check, asb caller check, fake bank verification message, bank calls verify nz, gomoney caller check
+tags: Bank Scams|New Zealand|Phone Scams|Explainer
+=== TLDR
+**Caller Check** lets a real bank caller prove who they are by sending a notification **inside your banking app** (ASB Mobile Banking; ANZ goMoney). In **July 2026**, ANZ warned scammers are faking it, sending "**security verification**" by **email, SMS or WhatsApp**. Rule: **if the check doesn't appear in your bank's app, it's a scam.** Hang up and call the bank's published number.
+
+=== BODY
+## How real Caller Check works
+
+- **ASB:** ask the caller for a **Caller Check** notification; legit ones show **in the ASB Mobile Banking app** ([ASB](https://www.asb.co.nz/banking-with-asb/security-alerts.html)).
+- **ANZ:** Caller Check is a secure notification sent **only to the ANZ goMoney app**. It isn't available if you don't use goMoney ([ANZ](https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/july-2026-anz-impersonation-scams/)).
+
+## How the scam copies it
+
+ANZ's July 2026 warning:
+
+1. A scammer **cold calls**, claiming to be ANZ.
+2. They send a fake **"security verification"** by **email, SMS or WhatsApp**.
+3. They insist verification has to happen through that channel.
+
+ANZ: "If you receive one anywhere other than goMoney, it's a scam."
+
+It's a bit like a burglar showing you a laminated card that says "Genuine Police Officer." The real badge is in your app, not in your inbox.
+
+## What to do when a "bank" calls
+
+1. **Ask for a Caller Check** in your app.
+2. **If nothing appears in the app,** hang up.
+3. **Call back** on the number on your card or the bank's website.
+4. **Never share** login details, full card details or two-factor codes.
+5. **Don't click links or call numbers** from unexpected messages.
+
+## Banks' "never" lists
+
+| Bank | Never asks for |
+|---|---|
+| ANZ | Internet Banking logins, full card details, 2FA codes |
+| ASB | Passwords, PINs, text codes, token codes, Netcodes; reading out codes |
+
+## If you've been caught
+
+- **ANZ:** 0800 269 296 (overseas +64 4 470 3142), 24/7
+- **ASB:** 0800 272 372 (overseas +64 9 303 0332), 24/7
+
+Report within 3 months for possible [[nz-bank-scam-reimbursement-rules-explained|reimbursement]]. A free [[/digital-footprint-checker/|exposure check]] shows if your details are in breach data that make these calls convincing.
+
+=== FAQ
+Q: What is Caller Check?
+A: A feature that lets a real bank caller send a verification notification to your banking app, so you know the call is genuine.
+Q: Can Caller Check come by text or WhatsApp?
+A: No. ANZ says Caller Check only appears in goMoney; ASB's appears in its mobile banking app. Any other channel is a scam.
+Q: What should I do if a caller can't send a Caller Check?
+A: Hang up and call your bank on the number on your card or its website.
+
+=== SOURCES
+https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/july-2026-anz-impersonation-scams/ | ANZ NZ: Caller Check impersonation scams (July 2026)
+https://www.asb.co.nz/banking-with-asb/security-alerts.html | ASB: Security alerts
+
+=== RELATED
+nz-asb-scam-alerts-2026 | ASB Scam Alerts
+nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts
+nz-banks-whatsapp-impersonation-scams | NZ Banks Don't Use WhatsApp
+australia-commbank-scam-texts-netcode | CommBank CallerCheck (AU)
+nz-netsafe-bank-impersonation-spike-august-2026 | Bank Impersonation Spike

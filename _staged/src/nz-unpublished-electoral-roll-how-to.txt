@@ -1,0 +1,69 @@
+slug: nz-unpublished-electoral-roll-how-to
+country: NZ
+title: How to Go on the Unpublished Electoral Roll in New Zealand
+h1: The Unpublished Electoral Roll: Keep Your Name and Address Off NZ's Public Roll
+desc: If having your details on the public electoral roll could put you or your family at risk, you can apply for the confidential unpublished roll. Evidence needed and how to apply.
+keywords: unpublished electoral roll nz, unpublished roll application, hide address electoral roll new zealand, electoral roll privacy nz, family violence electoral roll, vote.nz unpublished
+tags: Privacy|New Zealand|How To|Personal Safety
+=== TLDR
+If you're **concerned about your safety or your family's**, you can apply to go on New Zealand's confidential **unpublished roll**. Your name and address **won't appear on the public roll** or the printed roll at voting places. You'll need **supporting information**, such as a **protection order**, a **restraining order**, or a **letter** from police, an employer, lawyer or advocate. Apply via **vote.nz/unpublished** or call **0800 36 76 56**. You can still vote.
+
+=== BODY
+## Who can apply
+
+According to the [Electoral Commission](https://vote.nz/assets/Accessible-formats/2026/ROE47b-Concerned-for-your-personal-safety-Large-Print-GE26.pdf), **anyone concerned about their own or their family's personal safety** can apply. You "don't lose the right to vote" by not wanting your details public.
+
+## Evidence that helps
+
+You don't need all of these, but include something:
+
+- A **letter** explaining why your work or circumstances put you at risk, from an **employer, lawyer, social worker, advocate** or someone of standing in your community.
+- A copy of a **protection order** under the **Family Violence Act 2018**.
+- A copy of a **restraining order** under the **Harassment Act 1997**.
+- Information from a **police or corrections officer** about the risk.
+
+## How to apply
+
+1. Get the form at **vote.nz/unpublished**, or call **0800 36 76 56** to have one posted.
+2. Fill it in and return it:
+   - **Email:** unpublished.roll@elections.govt.nz (a scan or photo is fine)
+   - **Post:** Electoral Commission, PO Box 190, Wellington 6140
+3. Not enrolled or need to update? Also complete an **enrolment form**.
+
+## What's hidden
+
+Your details are kept secure, aren't given to anyone, and **don't appear on the public roll** or the **printed roll used at voting places**.
+
+## Voting on the unpublished roll
+
+You can vote anywhere in a general election or by-election, but you'll cast a **special vote** with an extra form confirming your electorate. For local elections, ask your council's electoral officer to send voting papers.
+
+## Keep it current
+
+Tell the Electoral Commission about name or address changes by submitting a new enrolment form. You can ask to return to the public roll if things change.
+
+## Other ways your address leaks
+
+The roll is just one source. Check breach exposure with our free [[/digital-footprint-checker/|exposure checker]], and if someone has posted your details online, see [[nz-doxxing-what-to-do-netsafe|what to do about doxxing]].
+
+If you're in danger, call **111**.
+
+=== FAQ
+Q: Who can go on the unpublished electoral roll in NZ?
+A: Anyone concerned about their own or their family's personal safety.
+Q: What evidence do I need?
+A: Supporting information such as a protection order, restraining order, or a letter from police, an employer, lawyer, social worker or advocate.
+Q: How do I apply for the unpublished roll?
+A: Get the form at vote.nz/unpublished or call 0800 36 76 56, then email it to unpublished.roll@elections.govt.nz or post it.
+Q: Can I still vote if I'm on the unpublished roll?
+A: Yes. You'll cast a special vote and complete an extra form.
+
+=== SOURCES
+https://vote.nz/assets/Accessible-formats/2026/ROE47b-Concerned-for-your-personal-safety-Large-Print-GE26.pdf | Electoral Commission: Concerned for your personal safety (2026)
+
+=== RELATED
+nz-doxxing-what-to-do-netsafe | Doxxing in NZ: What to Do
+australia-silent-elector-how-to-hide-address | Silent Electors (Australia)
+nz-election-2026-texts-emails-real-or-scam | NZ Election 2026 Texts: Real or Scam?
+can-someone-find-my-address-using-my | Can Someone Find My Address?
+voter-id-electoral-roll-exposes-your-address | Electoral Rolls and Your Address

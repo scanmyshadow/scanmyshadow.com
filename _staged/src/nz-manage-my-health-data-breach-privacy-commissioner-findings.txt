@@ -49,6 +49,17 @@ You can cancel a credit card. You can't cancel a diagnosis. Stolen medical docum
 
 A breach like this adds to whatever is already circulating about you. A free [[/digital-footprint-checker/|email exposure check]] shows which known breaches include your email address, and our guide to [[medical-identity-theft-signs-what-to-do|medical identity theft]] explains the warning signs.
 
+## Update: compliance notices issued (September 2026)
+
+The Privacy Commissioner has now issued the promised compliance notices, as [reported by NZ Lawyer](https://www.thelawyermag.com/nz/practice-areas/tmt-telecoms-media-technology/manage-my-health-health-nz-get-compliance-notices-for-cyber-attack/591553) on 29 September 2026:
+
+| Agency | Rule | Deadline |
+|---|---|---|
+| **Manage My Health** | Rule 5(1)(a): reasonable security safeguards | **31 August 2027** |
+| **Health NZ** | Rule 5(1)(b): steps before health information is given to a service provider | **29 January 2027** |
+
+The Commissioner had identified **seven areas** of ineffective security. Manage My Health has already improved three: **multi-factor authentication**, **restricting user access** and **controlling unauthorised external access**.
+
 === FAQ
 Q: How many people were affected by the Manage My Health breach?
 A: Roughly 120,000 to 127,000 people, about 6–7% of the portal's 1.8 million users, with more than 400,000 documents taken.
@@ -64,6 +75,7 @@ https://www.privacy.org.nz/tuhono-connect/statements-media-releases/privacy-comm
 https://www.privacy.org.nz/assets/DOCUMENTS/Manage-My-Health/20260525-Executive-summary-of-Manage-My-Health-phase-one-report-A1191447.pdf | Privacy Commissioner: Executive summary of Manage My Health phase one report
 https://en.wikipedia.org/wiki/ManageMyHealth_data_breach | Wikipedia: ManageMyHealth data breach
 https://www.1news.co.nz/2026/05/27/managemyhealth-warned-before-massive-data-breach-inquiry/ | 1News: ManageMyHealth warned before massive data breach, inquiry
+https://www.thelawyermag.com/nz/practice-areas/tmt-telecoms-media-technology/manage-my-health-health-nz-get-compliance-notices-for-cyber-attack/591553 | NZ Lawyer: Manage My Health, Health NZ get compliance notices (Sep 29, 2026)
 
 === RELATED
 medical-identity-theft-signs-what-to-do | Medical Identity Theft: Signs and What to Do

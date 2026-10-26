@@ -1,0 +1,66 @@
+slug: nz-anz-fake-kiwi-bonds-depositor-compensation-scam
+country: NZ
+title: Fake ANZ "Kiwi Bonds" Emails Misuse the Depositor Compensation Scheme
+h1: Fake ANZ Premier Wealth Emails Offer "Kiwi Bonds" Protected by the Depositor Compensation Scheme
+desc: Scammers posing as ANZ Premier Wealth emailed offers of treasury and Kiwi bonds "protected" by the new Depositor Compensation Scheme. The DCS doesn't cover bonds. How to spot it.
+keywords: anz kiwi bonds scam, depositor compensation scheme scam, fake anz premier wealth email, bond investment scam nz, dcs scam new zealand, fake bank bond offer
+tags: Investment Scams|New Zealand|Bank Scams|Explainer
+=== TLDR
+In **June 2025**, ANZ warned of emails impersonating **ANZ Premier Wealth**, offering **"treasury and corporate Kiwi bonds"** and claiming they're protected by the new **Depositor Compensation Scheme (DCS)**. That's false: the DCS (from **1 July 2025**) covers up to **$100,000** per eligible customer if a bank or deposit-taker fails, but **not bonds**, **KiwiSaver** or **foreign currency accounts**. The emails use ANZ, Reserve Bank and Treasury logos. Delete them.
+
+=== BODY
+## The scam
+
+From [ANZ's warning](https://www.anz.com.au/newsroom/new-zealand/2025/06/anz-warns-of-investment-scam-emails-that-impersonate-staff/) (13–14 June 2025):
+
+- Emails impersonate **ANZ Premier Wealth** staff.
+- They offer **"treasury and corporate Kiwi bonds."**
+- They claim **DCS protection**, which is false.
+- They use **ANZ's name, address, logo and registration details**, plus **Reserve Bank** and **Treasury** logos.
+- You're invited to **reply** to a fake ANZ email or **call a fake ANZ number** to start a bond application.
+
+## The real Depositor Compensation Scheme
+
+| Fact | Detail |
+|---|---|
+| Start date | **1 July 2025** |
+| Coverage | Up to **$100,000** per eligible customer if a bank or deposit-taker fails |
+| **Not covered** | **KiwiSaver**, **foreign currency accounts**, **bonds and other tradeable products** |
+
+Scammers love a new government scheme. People have heard the name but not the fine print, so "government-protected" sounds plausible. Here, the fine print specifically excludes what they're selling.
+
+## Red flags
+
+- **Unexpected** investment offers
+- **High, fast or low-risk** returns
+- **Pressure** to act quickly
+- **Unregistered** promoters
+- Claims of **DCS protection** for bonds, KiwiSaver or foreign currency
+- Offers to **recover** lost funds
+
+## What to do
+
+1. **Don't reply** or call the number. Delete it.
+2. **Verify** any investment and promoter independently, using a number from the provider's **official website**.
+3. Get advice from a **licensed financial adviser**.
+4. Think you've been scammed? Call ANZ on **0800 269 296** (overseas +64 4 470 3142).
+
+Check promoters on the FSPR ([[nz-fma-fake-nz-registered-investment-firms|how]]). Other ANZ NZ scams: [[nz-anz-scam-alerts-2026|2026 alerts]]. A free [[/digital-footprint-checker/|exposure check]] shows if your email is in breach data.
+
+=== FAQ
+Q: Does the Depositor Compensation Scheme cover bonds?
+A: No. The DCS doesn't cover bonds and other tradeable products, KiwiSaver, or foreign currency accounts.
+Q: Is ANZ Premier Wealth emailing bond offers?
+A: ANZ warned that emails from "ANZ Premier Wealth" offering Kiwi bonds were a scam.
+Q: How much does the Depositor Compensation Scheme cover?
+A: Up to $100,000 per eligible customer if a bank or deposit-taker fails, from 1 July 2025.
+
+=== SOURCES
+https://www.anz.com.au/newsroom/new-zealand/2025/06/anz-warns-of-investment-scam-emails-that-impersonate-staff/ | ANZ: ANZ warns of investment scam emails that impersonate staff (June 2025)
+
+=== RELATED
+nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts
+nz-fma-fake-nz-registered-investment-firms | Fake NZ-Registered Firms
+nz-kiwisaver-scams-retirement-savings | KiwiSaver Scams
+nz-anz-fake-stock-education-ads-investment-chat-groups | ANZ Fake Investment Ads
+australia-asic-cancels-capital-guard-licence-fake-macquarie-bond | Fake Macquarie Bond (AU)

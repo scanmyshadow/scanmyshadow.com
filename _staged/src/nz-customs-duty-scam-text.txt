@@ -1,0 +1,60 @@
+slug: nz-customs-duty-scam-text
+country: NZ
+title: NZ Customs Duty Scam: "Pay a Fee to Release Your Parcel"
+h1: The NZ Customs Duty Scam: Your Parcel Isn't Stuck, and Customs Isn't Texting You
+desc: Scam texts and emails claim your parcel is held by NZ Customs and you must pay a small fee to release it. Customs doesn't contact people about paying duty. Here's how to check.
+keywords: nz customs scam text, customs fee scam new zealand, parcel held customs scam, customs duty scam nz, fake customs text, customs.govt.nz scam
+tags: Delivery Scams|New Zealand|Government Impersonation|What To Do
+=== TLDR
+Scam texts and emails say your **package has been in storage** and will be **returned to sender** unless you pay a small **"customs fee"** through a link. NZ Customs says it **does not contact individuals or businesses about paying customs duty**, and it **doesn't physically hold** imported goods: freight forwarders do. Don't click. Forward the text to **7726**, then delete it.
+
+=== BODY
+## The scam
+
+From [NZ Customs](https://www.customs.govt.nz/about-us/news/important-notices/customs-duty-scam-returns):
+
+- A text or email impersonating NZ Customs says your package has been **in storage since last week**.
+- Act now or it'll be **returned to the sender**.
+- A link leads to a **multi-step** process to pay a small **"customs fee."**
+
+The "multi-step" part is deliberate. By step three, you've invested enough effort that typing your card number feels like the natural finish line.
+
+## What Customs actually does
+
+- "New Zealand Customs do not contact individuals or businesses about paying customs duty."
+- Customs **doesn't physically receive** imported goods. They're held at warehouses run by **licensed freight forwarders** (Customs-controlled Areas).
+
+So a message from "Customs" asking you to pay to release a parcel fails on both counts.
+
+## If you're genuinely expecting an import
+
+Check tracking with the **courier or retailer** directly, through their official app or website. If a real fee is due, it comes from the courier or freight forwarder, not a random text.
+
+## What to do
+
+1. **Don't respond** or click any links.
+2. **Forward texts to 7726** (free) ([[nz-report-scam-text-7726|how]]), then delete.
+3. **Entered card details?** Call your bank now.
+4. Report losses to **Police** (105) and **Netsafe**.
+
+## Related delivery scams
+
+[[nz-post-scam-texts-whatsapp|NZ Post scams]] use the same trick. In other countries it's the [[canada-post-delivery-text-scam-what-to-do|Canada Post]] and [[australia-post-delivery-text-scam-what-to-do|Australia Post]] versions. A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in breach data.
+
+=== FAQ
+Q: Does NZ Customs text people about fees?
+A: NZ Customs says it does not contact individuals or businesses about paying customs duty.
+Q: Does NZ Customs hold my parcel?
+A: No. Imported goods are held at warehouses run by licensed freight forwarders, not by Customs itself.
+Q: What should I do with a fake Customs text?
+A: Don't click, forward it to 7726 and delete it. If you paid, call your bank.
+
+=== SOURCES
+https://www.customs.govt.nz/about-us/news/important-notices/customs-duty-scam-returns | NZ Customs: Customs duty scam returns
+
+=== RELATED
+nz-post-scam-texts-whatsapp | NZ Post Scams
+nz-report-scam-text-7726 | Report Scam Texts to 7726
+canada-post-delivery-text-scam-what-to-do | Canada Post Scams
+australia-post-delivery-text-scam-what-to-do | Australia Post Scams
+what-is-smishing | What Is Smishing?

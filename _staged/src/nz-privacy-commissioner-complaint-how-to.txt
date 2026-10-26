@@ -1,0 +1,81 @@
+slug: nz-privacy-commissioner-complaint-how-to
+country: NZ
+title: How to Complain to the NZ Privacy Commissioner (Step by Step)
+h1: How to Make a Privacy Complaint in New Zealand: Agency First, Then the Privacy Commissioner
+desc: Complain to the organisation in writing first, gather evidence, then use the Privacy Commissioner's online form. What the Office can and can't do, wait times and class complaints.
+keywords: privacy commissioner complaint nz, how to make a privacy complaint new zealand, opc complaint form, privacy breach complaint nz, class complaint privacy nz, privacy act complaint process
+tags: Privacy Rights|New Zealand|How To|Privacy Act
+=== TLDR
+To complain to New Zealand's **Office of the Privacy Commissioner (OPC)**: **(1)** complain **in writing to the organisation first** (the OPC won't accept your complaint otherwise); **(2)** check the OPC is the right body; **(3)** gather evidence; **(4)** fill in the **online self-assessment and complaint form**. Investigations can take **up to 12 months** to start. The OPC **can't fine** organisations or order them to pay you, but it can investigate, conciliate and issue directions. **Class complaints** are possible.
+
+=== BODY
+## Step 1: Complain to the organisation
+
+The [OPC](https://privacy.org.nz/your-rights/how-to-complain/) says it "won't accept a complaint to the Privacy Commissioner if you haven't done step one." Write to the organisation, explain the issue, keep a copy.
+
+## Step 2: Make sure the OPC is the right place
+
+| Issue | Who handles it |
+|---|---|
+| Employment | Employment Relations Authority or Labour Inspectorate |
+| Health care | Health and Disability Commissioner |
+| Government agencies (some issues) | Ombudsman |
+| Tenancy | Tenancy Disputes Tribunal |
+| Harmful online content | Netsafe |
+| Mishandling of your personal information | **Privacy Commissioner** |
+
+## Step 3: Gather evidence
+
+- Proof you tried to resolve it (your complaint and their response)
+- All correspondence, with dates and sender/recipient (PDFs of emails recommended)
+- **How you were affected**
+- What you want them to do
+- A signed **representative authority** form if someone else (not a lawyer) acts for you
+
+The online form **can't be saved halfway**, so have everything ready. It's not a form you want to do twice.
+
+## Step 4: Lodge online
+
+Complete the **self-assessment and complaint form** and agree to the OPC's Service Charter and Unreasonable Conduct Policy.
+
+## What happens next
+
+The OPC may: make a **preliminary enquiry**, send a **Compliance Advice Letter**, ask for more information, **investigate**, **conciliate**, or explain why it won't act. Investigations can involve a wait of **up to 12 months** due to demand.
+
+**Good to know:** most complaints need evidence of **harm**, but **access and correction** complaints **don't**.
+
+## What the OPC can't do
+
+- Issue **fines**
+- **Order** the organisation to pay you money
+- Force anyone to accept a settlement or its findings
+
+That's why the Commissioner is asking Parliament for stronger powers ([[nz-privacy-breach-notifications-rise-43-percent|more]]).
+
+## Class complaints
+
+One person can complain **on behalf of a group** affected by the same breach. Useful after big incidents like [[nz-manage-my-health-data-breach-privacy-commissioner-findings|Manage My Health]].
+
+## Before you complain
+
+Make an [[nz-privacy-act-access-request-how-to|access request]] to see exactly what they hold. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in.
+
+=== FAQ
+Q: Do I have to complain to the organisation before the Privacy Commissioner?
+A: Yes. The OPC won't accept a complaint unless you've first complained to the agency.
+Q: How long does a privacy complaint take in NZ?
+A: If an investigation is needed, the wait for an investigator can be up to 12 months.
+Q: Can the Privacy Commissioner fine a company?
+A: No. It can't issue fines or order payment, but it can investigate, conciliate and issue directions after an investigation.
+Q: Can I make a complaint for a group of people?
+A: Yes. One person can make a class complaint for a group affected by the same breach.
+
+=== SOURCES
+https://privacy.org.nz/your-rights/how-to-complain/ | Office of the Privacy Commissioner: How to complain
+
+=== RELATED
+nz-privacy-act-access-request-how-to | Privacy Access Requests (NZ)
+nz-privacy-breach-notifications-rise-43-percent | NZ Breach Notifications Up 43%
+nz-manage-my-health-data-breach-privacy-commissioner-findings | Manage My Health Data Breach
+nz-biometric-processing-privacy-code-explained | NZ Biometric Privacy Code
+australia-oaic-complaint-how-to | Privacy Complaints in Australia

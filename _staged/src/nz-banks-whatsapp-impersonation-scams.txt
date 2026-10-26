@@ -1,0 +1,66 @@
+slug: nz-banks-whatsapp-impersonation-scams
+country: NZ
+title: Your NZ Bank Won't Message You on WhatsApp: The Impersonation Scam
+h1: "Your Bank" on WhatsApp? ASB, ANZ, Kiwibank and NZ Post All Say It's a Scam
+desc: Scammers impersonate NZ banks on WhatsApp, Google Meet and iCloud, using logos and urgent "suspicious activity" messages. ASB and NZ Post say they don't use WhatsApp. What to do.
+keywords: bank whatsapp scam nz, asb whatsapp scam, anz whatsapp scam nz, kiwibank whatsapp scam, nz post whatsapp scam, whatsapp impersonation new zealand
+tags: Bank Scams|New Zealand|WhatsApp|What To Do
+=== TLDR
+A WhatsApp message with your bank's logo says there's **suspicious activity** and you need to act **now**. It's a scam. **ASB** says it **never** contacts you via **WhatsApp, Google Meet or iCloud**. **ANZ** warned of **WhatsApp impersonation** in March 2026. **Kiwibank** says WhatsApp scams are **increasing**. **NZ Post** says it **doesn't use WhatsApp** at all. Don't reply. Call your bank on the number on your card.
+
+=== BODY
+## What the banks say
+
+| Organisation | What it says |
+|---|---|
+| **ASB** | Will never contact you through **WhatsApp, Google Meet or iCloud** ([ASB](https://www.asb.co.nz/banking-with-asb/security-alerts.html)) |
+| **ANZ NZ** | Warned of **ANZ impersonation WhatsApp scams** (March 2026) ([ANZ](https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/)) |
+| **Kiwibank** | WhatsApp and messaging app scams are **increasing**, using the logo and urgent "compromised account" claims ([Kiwibank](https://www.kiwibank.co.nz/help/fraud-scams/latest-scams)) |
+| **NZ Post** | "NZ Post does not use WhatsApp as a communication channel" ([NZ Post](https://www.nzpost.co.nz/contact-support/scams-and-fraud)) |
+
+## What the scam looks like
+
+- A **bank logo** as the profile picture
+- "**Suspicious activity**" or "**your account is compromised**"
+- **Urgency**: act in the next few minutes
+- A request for **login details, codes**, a **call** or a **video meeting** (Google Meet) so they can "help"
+- Sometimes a request to change **phone settings** or install **remote access** (ASB warns about this)
+
+A logo on WhatsApp is just a picture. Anyone can set one. It proves about as much as a fake moustache.
+
+## Why WhatsApp?
+
+It's encrypted, free, international, and feels personal. Scammers can message from overseas while looking official, and the chat feels more private than a text.
+
+## What to do
+
+1. **Don't reply** or click anything.
+2. **Block and report** the account in WhatsApp.
+3. **Call your bank** on the number on your card or its official site:
+   - ANZ **0800 269 296**
+   - ASB **0800 272 372**
+   - Kiwibank **0800 113 355**
+4. If you shared anything, tell the bank immediately and report to Police (105) and Netsafe.
+
+Also watch for fake **Caller Check** messages on WhatsApp ([[nz-bank-caller-check-impersonation-scams|explained]]). A free [[/digital-footprint-checker/|exposure check]] shows if your number is in breach data.
+
+=== FAQ
+Q: Do NZ banks contact customers on WhatsApp?
+A: ASB says it never contacts you via WhatsApp. ANZ and Kiwibank have warned about WhatsApp impersonation scams.
+Q: Does NZ Post use WhatsApp?
+A: No. NZ Post says it doesn't use WhatsApp as a communication channel.
+Q: What should I do with a bank WhatsApp message?
+A: Don't reply, block and report it, and call your bank on the number on your card.
+
+=== SOURCES
+https://www.asb.co.nz/banking-with-asb/security-alerts.html | ASB: Security alerts
+https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/ | ANZ NZ: Latest scams
+https://www.kiwibank.co.nz/help/fraud-scams/latest-scams | Kiwibank: Latest scams
+https://www.nzpost.co.nz/contact-support/scams-and-fraud | NZ Post: Scams and fraud
+
+=== RELATED
+nz-bank-caller-check-impersonation-scams | Caller Check Scams
+nz-asb-scam-alerts-2026 | ASB Scam Alerts
+nz-kiwibank-latest-scams-2026 | Kiwibank Latest Scams
+whatsapp-scams-how-to-spot-and-report | WhatsApp Scams
+nz-post-scam-texts-whatsapp | NZ Post Scams

@@ -1,0 +1,76 @@
+slug: nz-bnz-scam-savvy-survey-87-percent-targeted
+country: NZ
+title: 87% of Kiwis Targeted by Scams in a Year: BNZ Survey Findings
+h1: BNZ Scam Savvy Survey: 87% of New Zealanders Targeted, 1 in 8 Fell for It
+desc: BNZ's survey found 87% of Kiwis were targeted by scams in 12 months, 1 in 8 became victims and 7% lost money. Government impersonation is up; website scams more than doubled.
+keywords: bnz scam survey, how many kiwis targeted by scams, nz scam statistics bnz, government impersonation scams nz, bnz scam savvy, bnz never ask
+tags: Statistics|New Zealand|Banking|Survey
+=== TLDR
+BNZ's **Scam Savvy Survey** (1,263 Kiwis, mid-2024) found **87%** were **targeted** by scams in the past year, **1 in 8** fell victim and **7% lost money**. **70%** now report scams, up from **46%** in 2022. **Government impersonation** hit **52%** of respondents. **Website scams** more than doubled to **22%** of victims. BNZ says it will **never** ask for your PIN, password, account number or authentication codes.
+
+=== BODY
+## The numbers
+
+From [BNZ's release](https://www.bnz.co.nz/about-us/news/scammers-undeterred-9-in-10-nzers-targeted-but-reporting-surges) (October 2024):
+
+| Finding | Result |
+|---|---|
+| Targeted in past 12 months | **87%** (88% in 2023) |
+| Fell victim | **1 in 8** |
+| Lost money | **7%** |
+| Reported scams | **70%** (62% in 2023; 46% in 2022) |
+| Government impersonation experienced | **52%** (45% in 2023) |
+| Email as the channel used on victims | 34% |
+| Website scams (share of victims) | **22%** (9% in 2023) |
+| Social media scams | 22% of respondents |
+
+Survey of **1,263** New Zealanders, 30 July to 16 August 2024, weighted to be nationally representative.
+
+## What it tells us
+
+- **Nearly everyone is targeted.** If you haven't had a scam text this month, check your phone's working.
+- **Reporting is way up**, from under half to 70% in two years. That's a real win: reports power blocking and takedowns.
+- **Government impersonation** is the top disguise, think IRD, NZTA, Ministry of Justice.
+- **Fake websites** are surging, often reached through ads.
+
+BNZ's Ashley Kai Fong: "every report makes it harder for scammers to operate."
+
+## What BNZ will never ask for
+
+- Your **PIN** or **password**
+- Your **account number**
+- To **share authentication codes**
+
+## BNZ's advice
+
+- If you suspect a scam, **call your bank immediately**. Speed limits losses.
+- Don't click links or attachments from **unknown senders**, or from known ones if the message seems off.
+- Keep **security software updated**.
+
+## Where to go next
+
+- The most common disguises: [[nz-ird-tax-refund-scam-surge|IRD]], [[nz-nzta-toll-scam-text-3651|NZTA]], [[nz-ministry-of-justice-fines-text-scam-how-to-check|Ministry of Justice]].
+- Latest numbers: [[nz-scam-statistics-2026-netsafe-data|NZ scam statistics 2026]].
+- Report: [[nz-how-to-report-a-scam|how to report a scam in NZ]].
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your email is in breach data.
+
+=== FAQ
+Q: How many New Zealanders are targeted by scams?
+A: BNZ's survey found 87% were targeted in the past 12 months.
+Q: How many Kiwis lost money to scams?
+A: 7% of respondents lost money, and 1 in 8 fell victim.
+Q: Are more people reporting scams in NZ?
+A: Yes. Reporting rose to 70%, from 62% in 2023 and 46% in 2022.
+Q: What will BNZ never ask for?
+A: Your PIN, password, account number, or to share authentication codes.
+
+=== SOURCES
+https://www.bnz.co.nz/about-us/news/scammers-undeterred-9-in-10-nzers-targeted-but-reporting-surges | BNZ: Scammers undeterred, 9 in 10 NZers targeted but reporting surges
+
+=== RELATED
+nz-scam-statistics-2026-netsafe-data | NZ Scam Statistics 2026
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scams
+nz-how-to-report-a-scam | How to Report a Scam in NZ
+nz-netsafe-bank-impersonation-spike-august-2026 | Bank Impersonation Spike
+nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts

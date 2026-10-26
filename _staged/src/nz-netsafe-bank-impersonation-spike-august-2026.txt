@@ -1,0 +1,65 @@
+slug: nz-netsafe-bank-impersonation-spike-august-2026
+country: NZ
+title: Bank Impersonation Scams More Than Doubled in August 2026: Netsafe
+h1: Netsafe: Bank Impersonation Scam Reports More Than Doubled in August 2026
+desc: Netsafe reports of bank impersonation jumped from 21 in July to 46 in August 2026, while government impersonation fell. Scammers are swapping disguises. What to watch for.
+keywords: netsafe scams update august 2026, bank impersonation scam nz, netsafe bank scam spike, fake bank call nz 2026, nz scam trends 2026, netsafe report
+tags: Bank Scams|New Zealand|Statistics|News
+=== TLDR
+Netsafe's **August 2026** update: **bank impersonation** reports jumped from **21 in July to 46 in August**, making up **34%** of impersonation reports (up from 20% in April–July), the highest share all year. **Government impersonation** fell from about **37 a month to 11**. Netsafe's read: scammers are **changing the costume, not the trick**. Hang up on unexpected bank calls and call back on the number on your card.
+
+=== BODY
+## The numbers
+
+From [Netsafe's August 2026 update](https://resource.netsafe.org.nz/Netsafe-scams-update-August-2026.pdf):
+
+| Measure | Before | August 2026 |
+|---|---|---|
+| Bank/financial impersonation reports | 21 (July) | **46** |
+| Bank share of impersonation reports | 20% (Apr–Jul) | **34%** |
+| Government impersonation reports | ~37/month (Apr–Jul) | **11** |
+
+Netsafe called bank impersonation "the standout trend for August," and noted no other significant increases.
+
+## Same scam, new outfit
+
+Netsafe suggests scammers may be switching **who they pretend to be**, not **how** they operate. Last quarter it was IRD and NZTA; this month it's your bank. The script barely changes: urgency, a "problem", a request for a code or a transfer.
+
+Netsafe also cautions that monthly numbers shift with publicity and only count what's reported, so treat them as indicative.
+
+## What bank impersonation looks like right now
+
+- **Fraud calls** asking for Netcodes or token codes ([[nz-asb-scam-alerts-2026|ASB]])
+- **Fake Caller Check** messages by text or WhatsApp ([[nz-bank-caller-check-impersonation-scams|explained]])
+- **WhatsApp** messages with bank logos ([[nz-banks-whatsapp-impersonation-scams|banks don't use WhatsApp]])
+- "**Read me the code to block the payment**" ([[nz-kiwibank-latest-scams-2026|Kiwibank warns]])
+
+## Netsafe's advice
+
+- **Don't share** passwords, PINs or verification codes.
+- **Hang up** on unexpected calls.
+- **Don't click** links in unexpected texts or emails.
+- **Call your bank** using the number on your card or its official website.
+- **Report** to the organisation and to Netsafe: **netsafe.org.nz/report** or **0508 638 723**.
+
+If you lost money, also check whether the new [[nz-bank-scam-reimbursement-rules-explained|bank reimbursement rules]] apply. Report to the bank and Police within three months.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in breach data.
+
+=== FAQ
+Q: Are bank impersonation scams increasing in NZ?
+A: Netsafe reports rose from 21 in July to 46 in August 2026, the highest monthly share this year.
+Q: Why did government impersonation scams fall?
+A: Netsafe suggests scammers may be changing who they pretend to be rather than their tactics.
+Q: How do I report a scam to Netsafe?
+A: Online at netsafe.org.nz/report or by free phone on 0508 638 723.
+
+=== SOURCES
+https://resource.netsafe.org.nz/Netsafe-scams-update-August-2026.pdf | Netsafe: Scams update, August 2026
+
+=== RELATED
+nz-scam-statistics-2026-netsafe-data | NZ Scam Statistics 2026
+nz-asb-scam-alerts-2026 | ASB Scam Alerts
+nz-bank-caller-check-impersonation-scams | Caller Check Scams
+nz-bank-scam-reimbursement-rules-explained | NZ Scam Reimbursement Rules
+nz-how-to-report-a-scam | How to Report a Scam in NZ

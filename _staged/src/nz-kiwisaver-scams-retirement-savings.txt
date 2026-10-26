@@ -1,0 +1,71 @@
+slug: nz-kiwisaver-scams-retirement-savings
+country: NZ
+title: KiwiSaver Scams: Why Turning 65 Makes You a Target
+h1: KiwiSaver Scams: How Fraudsters Target Kiwis Approaching 65 (and How to Protect Your Savings)
+desc: Scammers pose as brokers, banks and comparison sites to target people about to access KiwiSaver. One Auckland retiree lost $209,000. Red flags and how to check a provider.
+keywords: kiwisaver scam, retirement savings scam nz, kiwisaver withdrawal scam, fake broker kiwisaver, check kiwisaver provider fspr, investment scam over 65 nz
+tags: Investment Scams|New Zealand|Retirement|What To Do
+=== TLDR
+At **65**, Kiwis can access their **KiwiSaver**, and scammers know it. They pose as **investment firms, banks or brokers**, use **fake comparison tools** to harvest contact details, and push **quick, high, low-risk returns** with a request to **keep it secret**. One **72-year-old** Auckland man lost **$209,000** to fake "British brokers." Before moving any money, check the provider on the **FSPR** and **FMA warnings**, and call your existing provider.
+
+=== BODY
+## How KiwiSaver scams work
+
+From [BNZ](https://verify.bnz.co.nz/personal-banking/life-moments/protecting-your-retirement-nest-egg-from-scammers):
+
+- Scammers pose as **reputable investment firms or banks**, targeting people **approaching 65**.
+- **Fake online comparison tools** collect your contact details; then a "**broker**" calls.
+- Offers promise **quick, high returns with minimal risk**, and ask you to **keep it private**.
+
+The [Retirement Commission](https://retirement.govt.nz/news/latest-news/kiwisaver-retirement-accounts-prime-target-for-scammers) noted fraudsters target people who suddenly have **access to large sums**, and pressure them to move KiwiSaver to **unverified** new providers.
+
+## A real case
+
+The Retirement Commission described a **72-year-old Auckland man** who lost **$209,000** to two men posing as **British brokers** for a Hong Kong asset manager. He only realised after seeing an **FMA warning**.
+
+Lifetime of saving, one phone call. That's why this one deserves ten minutes of your attention.
+
+## Red flags
+
+- Pressure to **commit fast** ("limited spots")
+- Returns **too good to be true**
+- Requests to **keep it secret** (even from family)
+- Payment by **gift card, money transfer or crypto**
+- Email addresses with **look-alike characters** ("1" for "l")
+
+## How to check before you move a cent
+
+1. **Don't use** contact details from emails, links or messages. Find the firm's official **NZ website** yourself.
+2. Check the firm on the **FMA** website and the **Financial Service Providers Register** ([[nz-fma-fake-nz-registered-investment-firms|how]]).
+3. Check the FMA's **warnings and alerts**.
+4. Make sure **email domains match** the official website.
+5. **Talk to your current KiwiSaver provider** or a registered financial adviser first.
+
+## Before a big withdrawal
+
+BNZ suggests considering **regular withdrawals or smaller lump sums**, and reviewing your fund with your provider. A big balance sitting in a bank account makes you more visible to scammers.
+
+## If you've paid
+
+Call your bank immediately, then report to Police (105) and the FMA. Beware **recovery scams**.
+
+Related: [[nz-deepfake-luxon-investment-scam-ads|deepfake politician ads]] and [[nz-anz-fake-kiwi-bonds-depositor-compensation-scam|fake "Kiwi bonds"]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data.
+
+=== FAQ
+Q: Why do scammers target people turning 65 in NZ?
+A: At 65 people can access KiwiSaver savings, so scammers target those with sudden access to large sums.
+Q: How do I check a KiwiSaver or investment provider is real?
+A: Find its official NZ website yourself, check the FMA and Financial Service Providers Register, and review FMA warnings.
+Q: What are the red flags of a KiwiSaver scam?
+A: Pressure to act fast, too-good returns, requests for secrecy, and payment by gift card, money transfer or crypto.
+
+=== SOURCES
+https://verify.bnz.co.nz/personal-banking/life-moments/protecting-your-retirement-nest-egg-from-scammers | BNZ: Protecting your retirement nest egg from scammers
+https://retirement.govt.nz/news/latest-news/kiwisaver-retirement-accounts-prime-target-for-scammers | Retirement Commission: KiwiSaver retirement accounts prime target for scammers
+
+=== RELATED
+nz-fma-fake-nz-registered-investment-firms | Fake NZ-Registered Firms
+nz-deepfake-luxon-investment-scam-ads | Deepfake Luxon Investment Scams
+nz-anz-fake-kiwi-bonds-depositor-compensation-scam | Fake ANZ Kiwi Bonds Scam
+rrsp-and-superannuation-scams-canada-australia | RRSP and Super Scams
+australia-super-fund-credential-stuffing-attacks | Super Fund Account Attacks (AU)

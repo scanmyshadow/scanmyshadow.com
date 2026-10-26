@@ -1,0 +1,62 @@
+slug: nz-cyber-security-action-plan-stolen-data-offence
+country: NZ
+title: NZ May Make It a Crime to Share Stolen Data, and Add Privacy Fines
+h1: New Zealand's Cyber Security Action Plan: A Possible Offence for Sharing Stolen Data and Civil Privacy Penalties
+desc: NZ's Cyber Security Action Plan 2026–2027 asks the Ministry of Justice to look at an offence for possessing or sharing illegally obtained personal data, and civil penalties under the Privacy Act.
+keywords: nz cyber security strategy 2026, cyber security action plan nz, offence sharing stolen data nz, privacy act penalties nz, critical infrastructure reporting nz, ministry of justice privacy penalties
+tags: Policy|New Zealand|Privacy|News
+=== TLDR
+New Zealand's **Cyber Security Strategy 2026–2030** and **Action Plan 2026–2027** (released early 2026) ask the **Ministry of Justice** to advise on two things that matter to ordinary Kiwis: a **civil pecuniary penalty regime** under the **Privacy Act** (which currently has no civil fines for poor security), and a new **offence** for people who **view, possess or share personal information they know was illegally obtained**. A separate consultation proposed **24-hour early warning** and **72-hour full** incident reports for critical infrastructure.
+
+=== BODY
+## What's in the plan
+
+From [MinterEllison](https://minterellison.co.nz/insights/government-releases-new-zealand-cyber-security-action-plan) (16 March 2026):
+
+| Action | What it would do |
+|---|---|
+| **Action 8: privacy penalties** | MoJ to advise on options like a **civil pecuniary penalty regime** under the Privacy Act 2020 |
+| **Action 11: stolen data offence** | MoJ to advise on an offence for people who **view, possess or share** personal information they know was **illegally obtained** |
+| **Critical infrastructure** | Proposed **24-hour early warning** and **72-hour full report** for incidents in sectors like energy, health, finance, telco, transport and water (consultation 27 Feb–19 Apr 2026) |
+
+## Why the stolen data offence matters
+
+After big breaches, stolen data gets posted on leak sites and shared around. Right now, someone downloading and passing on your stolen medical records faces limited consequences. The aim, per the plan, is to **deter hackers** from posting stolen data online, and to stop it spreading once it's out.
+
+It's the digital version of "receiving stolen goods." Overdue, frankly.
+
+## Why privacy penalties matter
+
+The Privacy Act **has no civil fines** for failing to protect personal information. The Privacy Commissioner has been asking for a much stronger penalty regime ([[nz-privacy-breach-notifications-rise-43-percent|details]]). The article notes the detail "will take the Ministry of Justice time to prepare."
+
+## What prompted it
+
+A rough run for NZ health data: the [[nz-manage-my-health-data-breach-privacy-commissioner-findings|Manage My Health breach]] and the [[nz-medimap-attack-patients-marked-deceased|MediMap tampering]], where patients were marked as deceased.
+
+## What it means for you today
+
+Nothing changes overnight; these are advice-stage actions. Meanwhile:
+
+- Use your [[nz-privacy-act-access-request-how-to|right of access]] to see what organisations hold.
+- **Complain** if they mishandle it ([[nz-privacy-commissioner-complaint-how-to|how]]).
+- **Suppress** your credit file if ID leaked ([[nz-credit-suppression-how-to|how]]).
+
+A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email appears in.
+
+=== FAQ
+Q: Is New Zealand making it a crime to share stolen data?
+A: The Cyber Security Action Plan asks the Ministry of Justice to advise on an offence for viewing, possessing or sharing personal information known to be illegally obtained.
+Q: Will the NZ Privacy Act get fines?
+A: The Action Plan asks the Ministry of Justice to advise on options such as a civil pecuniary penalty regime.
+Q: What reporting is proposed for critical infrastructure?
+A: A 24-hour early warning and a 72-hour full incident report, under a discussion document consulted on in early 2026.
+
+=== SOURCES
+https://minterellison.co.nz/insights/government-releases-new-zealand-cyber-security-action-plan | MinterEllison: Government releases New Zealand Cyber Security Action Plan (16 Mar 2026)
+
+=== RELATED
+nz-privacy-breach-notifications-rise-43-percent | NZ Breach Notifications Up 43%
+nz-medimap-attack-patients-marked-deceased | MediMap Attack
+nz-manage-my-health-data-breach-privacy-commissioner-findings | Manage My Health Data Breach
+nz-ncsc-cyber-security-insights-q2-2026 | NCSC Q2 2026 Report
+australia-privacy-statutory-tort-explained | Australia's Privacy Tort

@@ -1,0 +1,70 @@
+slug: nz-anz-fake-stock-education-ads-investment-chat-groups
+country: NZ
+title: Fake ANZ "Stock Market Education" Ads Lure Kiwis Into Scam Chat Groups
+h1: Fake ANZ Ads Offering Stock Market Education Lead to Investment Scam Chat Groups
+desc: In November 2025, a fake social media ad used ANZ's name to offer stock trading education and pulled people into chat groups. ANZ doesn't offer this. How the group-chat scam works.
+keywords: anz fake ad stock education, investment chat group scam nz, whatsapp investment group scam new zealand, fake bank investment ad, anz investment scam warning, stock tips group scam
+tags: Investment Scams|New Zealand|Social Media Scams|News
+=== TLDR
+In **November 2025**, a fake social media ad used **ANZ's name and logo** to offer a **stock market education programme**, then funnelled people into **"investment advice" chat groups** on another platform. **ANZ doesn't offer stock trading education**; its real ads come from **ANZ Aotearoa** with a **verified blue tick**. ANZ says investment scams were about **20%** of cases for scammed customers aged **66–74**. Once in the group, people are pressured to invest.
+
+=== BODY
+## What happened
+
+From [ANZ's 20 November 2025 warning](https://www.anz.com.au/newsroom/new-zealand/2025/11/New-Zealanders-warned-to-be-wary-of-new-wave-of-investment-scams/):
+
+- A fake ad used ANZ's **name and logo**.
+- It offered a **stock market education programme**.
+- It directed people to **investment advice chat groups** on another platform.
+- ANZ **doesn't** offer stock trading education. Real ANZ ads come from **ANZ Aotearoa** with a **verified blue tick**.
+- The ads were reported for removal; ANZ and the **FMA** are monitoring.
+
+## The numbers
+
+| Stat | Figure |
+|---|---|
+| Scam websites ANZ blocked in a year | **1,800+** |
+| Investment scams among scammed customers aged 66–74 | ~**20%** (second only to cold calls) |
+| Investment scams among scammed customers 75+ | ~10% |
+| Reported cases with no customer loss | **9 in 10** |
+
+## How group-chat scams work
+
+ANZ's Alan Thomsen: "Once people join these group chats, they are typically pressured to invest in what is a scam."
+
+The playbook: a friendly "professor" or "mentor", a chat full of members posting big wins (all fake), a "trading platform" showing paper profits, then fees when you try to withdraw. It's a stage play where you're the only audience member who paid.
+
+## Red flags
+
+- Investment ads featuring **well-known business leaders** or commentators
+- **High** or **low-risk** returns that sound too good to be true
+- **Pressure** to invest fast
+- **Unregistered** promoters
+- Offers to **recover** money you've already lost
+
+## What to do
+
+1. Check the promoter is registered with the **Companies Office** or **FMA** ([[nz-fma-fake-nz-registered-investment-firms|how]]).
+2. Contact providers using a number from their **official website**.
+3. Get advice from a **licensed financial adviser**.
+4. Already invested? Stop paying, call your bank (ANZ: 0800 269 296), report to Police (105).
+
+Related: [[nz-kiwibank-ceo-fake-investment-ads|fake Kiwibank CEO ads]], [[nz-deepfake-luxon-investment-scam-ads|deepfake Luxon ads]], [[nz-anz-fake-kiwi-bonds-depositor-compensation-scam|fake ANZ Kiwi bonds]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data.
+
+=== FAQ
+Q: Does ANZ offer stock market education programmes?
+A: No. ANZ says it does not offer stock trading education.
+Q: How can I tell a real ANZ ad?
+A: ANZ says its legitimate ads come from ANZ Aotearoa and carry a verified blue tick.
+Q: How common are investment scams for older ANZ customers?
+A: About 20% of cases for scammed customers aged 66–74, second only to cold call scams.
+
+=== SOURCES
+https://www.anz.com.au/newsroom/new-zealand/2025/11/New-Zealanders-warned-to-be-wary-of-new-wave-of-investment-scams/ | ANZ: New Zealanders warned to be wary of new wave of investment scams (20 Nov 2025)
+
+=== RELATED
+nz-kiwibank-ceo-fake-investment-ads | Kiwibank CEO Fake Ads
+nz-deepfake-luxon-investment-scam-ads | Deepfake Luxon Investment Scams
+nz-fma-fake-nz-registered-investment-firms | Fake NZ-Registered Firms
+australia-scamwatch-investment-scams-whatsapp-groups-fake-news | WhatsApp Investment Groups (AU)
+nz-kiwisaver-scams-retirement-savings | KiwiSaver Scams

@@ -1,0 +1,74 @@
+slug: nz-telco-scam-prevention-code-explained
+country: NZ
+title: What NZ Telcos Do to Block Scam Calls and Texts (Scam Prevention Code)
+h1: New Zealand's Telco Scam Prevention Code: Blocking, SIM Swap Checks and Port Confirmations
+desc: NZ telcos filter scam calls and texts, require in-store ID for SIM swaps, and need a "yes" text reply for number ports. How the TCF Scam Prevention Code works and what's under review.
+keywords: telco scam prevention code nz, tcf scam code, nz telcos block scam calls, sim swap id check nz, number port confirmation nz, scam calls new zealand telcos
+tags: Telco|New Zealand|SIM Swap|Explainer
+=== TLDR
+Under the **TCF Scam Prevention Code**, NZ telcos must **detect, verify, block and report** scam activity. In practice: **call and SMS filtering**, daily scam alerts between providers, **in-store ID checks for SIM swaps**, and a **"yes" text reply** before your number can be **ported** to another provider. Most major banks and key agencies can flag scam numbers to telcos. The Code went under **review in June 2025**, and the 2026 anti-scam programme includes it.
+
+=== BODY
+## What the Code requires
+
+From the [TCF's June 2025 release](https://www.tcf.org.nz/news/telecommunications-industry-to-review-scam-prevention-code-with-consumer-focus):
+
+- Stop scam calls and texts **as close to the source** as possible.
+- **Share** scam call and SMS information across the sector and with third parties.
+- Set out how providers and SMS partners **flag and communicate** suspicious traffic.
+- **Educate** consumers.
+- Providers must be able to **detect, verify, block and report** suspected scams.
+
+**Nine** non-telco organisations, including most major banks and key government agencies, can send scam notifications to telcos to investigate and block.
+
+## What it means for your phone
+
+From the [TCF's scam measures page](https://www.tcf.org.nz/digital-living/online-safety/scam-prevention-measures):
+
+| Protection | How it works |
+|---|---|
+| **Call and SMS filtering** | Telcos detect scam patterns and block them |
+| **Daily scam alerts** | TCF working group shares alerts; providers block numbers |
+| **7726** | DIA sends daily reports to operators ([[nz-report-scam-text-7726|how to use]]) |
+| **SIM swaps** | Customers must **verify ID in store** |
+| **Number porting** | You must **reply "yes" by text** to approve a port, which also lets you flag fraud |
+| **IMEI check** | Free lookup to see if a second-hand phone is block-listed |
+
+That port confirmation text is your tripwire. If you get one you didn't ask for, **don't reply yes**. Call your provider straight away.
+
+## The review
+
+The TCF is reviewing the Code to include new anti-scam initiatives, ministerial roundtable feedback, consumer education and reporting, and closer work with **digital platforms**. The [[nz-anti-scam-alliance-2026-work-programme|2026 Anti-Scam Alliance plan]] lists the review as a priority.
+
+TCF CEO Paul Brislen: "scams are becoming more sophisticated, and the impacts on everyday New Zealanders are increasing."
+
+## Limits
+
+Filters can't catch everything. A fake cell tower can send texts that never touch your carrier's network ([[nz-sms-blaster-fake-cell-tower-auckland|SMS blaster case]]).
+
+## What you can do
+
+- Report scam numbers to your telco and texts to 7726.
+- Protect your number from SIM swaps; see [[sim-swap-fraud-how-it-works-and-how-to|SIM swap fraud]].
+- Run a free [[/digital-footprint-checker/|exposure check]] to see if your number is in breach data.
+
+=== FAQ
+Q: Do NZ telcos block scam calls?
+A: Yes. Under the Scam Prevention Code, telcos filter and block suspected scam calls and texts.
+Q: How do NZ telcos prevent SIM swap fraud?
+A: Customers must verify their ID in store for SIM swaps.
+Q: How does number porting protection work in NZ?
+A: You must reply "yes" by text to approve a port, which also lets you flag a fraudulent request.
+Q: Is the Scam Prevention Code being updated?
+A: The TCF announced a review in June 2025, and it's part of the 2026 anti-scam programme.
+
+=== SOURCES
+https://www.tcf.org.nz/news/telecommunications-industry-to-review-scam-prevention-code-with-consumer-focus | TCF: Telecommunications industry to review Scam Prevention Code (16 Jun 2025)
+https://www.tcf.org.nz/digital-living/online-safety/scam-prevention-measures | TCF: Scam prevention measures
+
+=== RELATED
+nz-report-scam-text-7726 | Report Scam Texts to 7726
+nz-sms-blaster-fake-cell-tower-auckland | SMS Blaster Fake Cell Tower
+nz-anti-scam-alliance-2026-work-programme | NZ Anti-Scam Alliance 2026
+canada-sim-swap-port-out-fraud-crtc | SIM Swap Fraud in Canada
+australia-scamwatch-acma-mobile-number-fraud-alert-port-out | Port-Out Fraud (AU)

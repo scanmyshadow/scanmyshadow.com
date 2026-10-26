@@ -1,0 +1,76 @@
+slug: nz-post-scam-texts-whatsapp
+country: NZ
+title: NZ Post Scam Texts: What NZ Post Never Does
+h1: NZ Post Scam Texts and WhatsApp Messages: How to Tell Real From Fake
+desc: NZ Post never asks for payment or card details by text, never texts from overseas numbers and doesn't use WhatsApp. Real links go to nzpost.co.nz or nzp.st. The latest scams listed.
+keywords: nz post scam text, nz post scam 2026, nz post whatsapp scam, fake nz post delivery text, nzp.st real, nz post parcel redelivery scam
+tags: Delivery Scams|New Zealand|Text Scams|What To Do
+=== TLDR
+NZ Post says it **never** asks for personal or financial details by **text or email**, never emails from anything but **nzpost.co.nz**, never texts from **overseas numbers** (watch for **+61**), and **doesn't use WhatsApp**. Genuine links go to **nzpost.co.nz** or **nzp.st**. Recent scams: high-volume SMS phishing (**July 2026**), "**select a new delivery date**" texts (**December 2025**), and **WhatsApp** "verify your address" messages (**September 2025**). Forward fakes to **7726**.
+
+=== BODY
+## What NZ Post never does
+
+From [NZ Post's scams page](https://www.nzpost.co.nz/contact-support/scams-and-fraud):
+
+- Ask for **personal or financial details** by email or text (passwords, card details, account info)
+- Send email from a domain **other than nzpost.co.nz**
+- Send texts from a phone number **outside New Zealand**
+- Contact you on **WhatsApp**: "NZ Post does not use WhatsApp as a communication channel."
+
+## Real vs fake at a glance
+
+| Real | Fake |
+|---|---|
+| Emails end in **@nzpost.co.nz** | Odd domains, often ".icu" |
+| Links go to **nzpost.co.nz** or **nzp.st** | Look-alike links |
+| NZ numbers | **+61** or other overseas numbers |
+| No WhatsApp | WhatsApp "verify your address" |
+
+## Recent NZ Post scams
+
+| Date | Scam |
+|---|---|
+| 30 Jul 2026 | High-volume SMS phishing |
+| 2 Dec 2025 | Parcel "couldn't be delivered", link to **select a new date** |
+| 19 Sep 2025 | **WhatsApp**: verify your address and **transfer money** for a parcel |
+| 21 Jul 2025 | High-volume phishing emails |
+| 29 May 2025 | Facebook scam |
+| Mar–Apr 2025 | Emails linked to **".icu"** domains |
+
+Kiwibank also flagged an NZ Post text scam in August 2026 ([[nz-kiwibank-latest-scams-2026|Kiwibank's list]]).
+
+A small redelivery fee doesn't sound like much. That's the trick: the real prize is your card number.
+
+## How to report
+
+- **Texts:** forward to **7726** ([[nz-report-scam-text-7726|how]]), don't click.
+- **Emails:** forward to NZ Post's reporting address (on its scams page), then delete.
+- **QR code scams:** Police at **105**.
+- **Facebook posts:** report to Facebook.
+
+## If you paid or entered details
+
+Call your bank immediately and report to Police (105) and Netsafe.
+
+Customs-fee versions are covered in our [[nz-customs-duty-scam-text|NZ Customs guide]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in breach data.
+
+=== FAQ
+Q: Does NZ Post use WhatsApp?
+A: No. NZ Post says it does not use WhatsApp as a communication channel.
+Q: What do real NZ Post links look like?
+A: Genuine links go to nzpost.co.nz or nzp.st.
+Q: Does NZ Post send texts from +61 numbers?
+A: No. NZ Post doesn't send texts from numbers outside New Zealand.
+Q: Where do I report an NZ Post scam text?
+A: Forward it to 7726.
+
+=== SOURCES
+https://www.nzpost.co.nz/contact-support/scams-and-fraud | NZ Post: Scams and fraud
+
+=== RELATED
+nz-customs-duty-scam-text | NZ Customs Duty Scam
+nz-report-scam-text-7726 | Report Scam Texts to 7726
+australia-post-delivery-text-scam-what-to-do | Australia Post Scams
+canada-post-delivery-text-scam-what-to-do | Canada Post Scams
+nz-banks-whatsapp-impersonation-scams | NZ Banks Don't Use WhatsApp

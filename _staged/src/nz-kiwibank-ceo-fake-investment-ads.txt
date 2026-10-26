@@ -1,0 +1,64 @@
+slug: nz-kiwibank-ceo-fake-investment-ads
+country: NZ
+title: "If You See My Name Promoting an Investment, It's a Scam": Kiwibank CEO
+h1: Fake Ads Using Kiwibank CEO Steve Jurkovich to Push an Investment Platform
+desc: In April 2026, Kiwibank warned that fake social media ads and news stories used CEO Steve Jurkovich's name and image to promote a scam investment platform. How to spot them.
+keywords: kiwibank ceo scam, steve jurkovich scam ad, fake investment ad nz, celebrity investment scam new zealand, bank ceo impersonation scam, kiwibank investment scam
+tags: Investment Scams|New Zealand|Impersonation|News
+=== TLDR
+On **8 April 2026**, Kiwibank warned that scammers were using **CEO Steve Jurkovich**'s name and image in **fake social media ads and news stories** to promote a **fraudulent investment platform**. His message: **"If you see my name promoting an investment, it's a scam."** It's part of a wider wave using bank bosses, celebrities and politicians, sometimes with **deepfakes**, to sell fake investments.
+
+=== BODY
+## What Kiwibank said
+
+From [Kiwibank's media release](https://www.kiwibank.co.nz/about-us/news-and-updates/media-releases/if-you-see-my-name-promoting-an-investment-its-a-scam-kiwibank-chief-executive/):
+
+- Fake ads and news stories impersonated **Steve Jurkovich**.
+- They promoted a **fraudulent investment platform**.
+- Jurkovich: "I am not associated with any investment platform using my name or image."
+- On why it works: "the appearance of legitimacy can be enough to push people into decisions they might otherwise question."
+
+## Why bank bosses make good bait
+
+A bank CEO sounds like the safest possible endorsement. That's the whole trick: borrow trust, then sell a platform that shows fake profits until you try to withdraw. Kiwibank lists these among its current scams, noting **deepfakes**, **fake advisers**, and victims being asked for **extra fees** to withdraw ([[nz-kiwibank-latest-scams-2026|Kiwibank's list]]).
+
+Real CEOs are busy running banks. They don't moonlight as crypto influencers.
+
+## How to spot it
+
+- A **well-known person** "recommending" an investment in an **ad** or **news-style story**
+- **Urgency** and pressure
+- **Unexpected calls, texts or emails** after you register interest
+- Requests to share **personal or banking details** via links
+- **Fees** or "taxes" demanded before you can withdraw
+
+## What to do
+
+1. **Don't click** the ad or enter details.
+2. **Check** any platform on the FMA's warnings list and the FSPR ([[nz-fma-fake-nz-registered-investment-firms|how]]).
+3. **If you shared info or paid,** call your bank immediately (Kiwibank: 0800 113 355).
+4. **Report** to Police (105) and Netsafe.
+
+## Same scam, other faces
+
+Deepfakes of **PM Christopher Luxon** cost one Taranaki pensioner **$224,000** ([[nz-deepfake-luxon-investment-scam-ads|story]]). ANZ has seen fake **stock education** ads ([[nz-anz-fake-stock-education-ads-investment-chat-groups|details]]).
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data scammers use for follow-up calls.
+
+=== FAQ
+Q: Is Kiwibank's CEO promoting an investment platform?
+A: No. Steve Jurkovich says he is not associated with any investment platform using his name or image.
+Q: When did Kiwibank warn about the fake ads?
+A: 8 April 2026.
+Q: What should I do if I invested after seeing a fake ad?
+A: Stop paying, call your bank immediately, and report to Police and Netsafe.
+
+=== SOURCES
+https://www.kiwibank.co.nz/about-us/news-and-updates/media-releases/if-you-see-my-name-promoting-an-investment-its-a-scam-kiwibank-chief-executive/ | Kiwibank: "If you see my name promoting an investment, it's a scam" (8 Apr 2026)
+
+=== RELATED
+nz-deepfake-luxon-investment-scam-ads | Deepfake Luxon Investment Scams
+nz-kiwibank-latest-scams-2026 | Kiwibank Latest Scams
+nz-anz-fake-stock-education-ads-investment-chat-groups | ANZ Fake Investment Ads
+nz-fma-fake-nz-registered-investment-firms | Fake NZ-Registered Firms
+australia-asic-pump-and-dump-fake-celebrity-endorsements-whatsapp | Fake Celebrity Endorsements (AU)

@@ -1,0 +1,66 @@
+slug: nz-rental-scams-fake-landlords-wechat
+country: NZ
+title: NZ Rental Scams: Fake Landlords, Fake Tenancy Agreements, Real Losses
+h1: Rental Scams in New Zealand: Fake Landlords, Fake Agreements and "Reserve the Property" Payments
+desc: Auckland Police warned of fake landlords on WeChat taking thousands for properties already rented, with fake IDs and tenancy agreements. How the scam works and how to check a rental.
+keywords: rental scam nz, fake landlord scam auckland, wechat rental scam new zealand, rental deposit scam nz, fake tenancy agreement scam, international student rental scam nz
+tags: Rental Scams|New Zealand|Fraud|What To Do
+=== TLDR
+In **March 2024**, Police warned that fraudsters posing as **landlords or agents** were targeting people, especially **new arrivals** to Auckland, through rental ads on a **Chinese-language forum** and chats on **WeChat**. Victims got **fake ID documents**, signed **fake tenancy agreements**, paid to **"reserve"** the property, then paid again to **"furnish"** it, and arrived to find it **already rented**. Each payment was typically **thousands of dollars**. Never pay for a place you can't verify.
+
+=== BODY
+## How it worked
+
+From [1News](https://www.1news.co.nz/2024/03/04/scam-alert-rent-fraudsters-target-chinese-community-police):
+
+1. Listings appear on a popular NZ-based **Chinese web forum**.
+2. Contact moves to **WeChat**.
+3. The "landlord" sends **fake identity documents**.
+4. You sign a **false tenancy agreement** and pay into a **NZ bank account**.
+5. More payments to **"reserve"** it because "another tenant is interested."
+6. A final payment to **"furnish"** the property.
+7. You arrive in New Zealand. The property is **already rented** to someone else.
+
+The scam targets people who can't inspect a property in person. Distance is the scammer's best friend.
+
+## Police advice
+
+- **Don't transfer money** to anyone you can't verify.
+- Real landlords or agents have a **website** and **physical address**, and you can speak to **more than one person** there.
+- Have a **NZ-based friend or relative view** the property for you.
+- Suspect a scam? **Stop contact** and contact **Police**.
+- Trust your instincts.
+- Report and learn more at **Netsafe**.
+
+## More checks before you pay
+
+- Search the **address** online; if the same photos show up in another listing, walk away.
+- Ask to **video call** inside the property, live, and ask them to show something specific.
+- **Never pay** extra to "beat another tenant."
+- Pay bonds properly: in NZ, landlords lodge bonds with **Tenancy Services**, so ask how the bond will be lodged.
+
+## If you've paid
+
+1. **Call your bank** immediately.
+2. Report to **Police** (105) and **Netsafe**.
+3. Keep every message, document and receipt.
+
+More on rental fraud: [[rental-listing-scams-fake-apartment-ads|fake rental listings]] and [[rental-scam-statistics-2026|rental scam statistics]]. A free [[/digital-footprint-checker/|exposure check]] shows whether your contact details are in breach data.
+
+=== FAQ
+Q: How do rental scams work in NZ?
+A: Fraudsters pose as landlords or agents, send fake IDs and tenancy agreements, and take payments for properties that are already rented.
+Q: Who do rental scammers target in NZ?
+A: Police warned in 2024 that scammers targeted people arranging Auckland rentals from overseas via a Chinese-language forum and WeChat.
+Q: How can I check a rental is real?
+A: Verify the agent's website and address, speak to more than one person, and have someone in NZ view the property.
+
+=== SOURCES
+https://www.1news.co.nz/2024/03/04/scam-alert-rent-fraudsters-target-chinese-community-police | 1News: Rent fraudsters target Chinese community, police warn (Mar 2024)
+
+=== RELATED
+rental-listing-scams-fake-apartment-ads | Fake Rental Listings
+rental-scam-statistics-2026 | Rental Scam Statistics 2026
+nz-how-to-report-a-scam | How to Report a Scam in NZ
+end-of-lease-moving-scams | End-of-Lease Moving Scams
+canada-immigration-scams-ircc-fake-calls-websites | Immigration Scams (Canada)

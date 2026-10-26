@@ -1,0 +1,66 @@
+slug: nz-passport-data-breach-alert-pas201
+country: NZ
+title: NZ Passport in a Data Breach or Scam? Add an Alert or Cancel It
+h1: Your NZ Passport Was in a Data Breach or Scam: How to Add an Alert (Form PAS201)
+desc: If your NZ passport details were exposed in a breach or scam, you can add an alert, cancel it, or both, using form PAS201. What each option does and how to apply.
+keywords: nz passport data breach, passport alert nz, pas201 form, nz passport compromised, passport scam new zealand, cancel nz passport breach
+tags: Identity Theft|New Zealand|Passports|How To
+=== TLDR
+If your **New Zealand passport** details were exposed in a **data breach or scam**, use form **PAS201** to choose: **(1)** add an **alert** and keep travelling on it until it expires, **(2)** add an alert **and cancel** it, or **(3)** cancel **without** an alert. The alert triggers **extra checks** if your passport details show up in a **passport, citizenship or RealMe Verified Identity** application. Want a new passport straight away? Use the normal application form.
+
+=== BODY
+## Your three options
+
+From the [Passport Office's PAS201 form](https://www.passports.govt.nz/__data/assets/pdf_file/0027/54756/PAS201-Declare-your-New-Zealand-passport-or-travel-document-lost,-stolen,-damaged-or-involved-in-a-data-breach-or-scam-251128.pdf):
+
+| Option | Can you still travel? | What it does |
+|---|---|---|
+| **Alert, keep passport** | Yes, until expiry | Extra security checks if your details appear in a passport, citizenship or **RealMe Verified Identity** application |
+| **Alert and cancel** | No | Alert + passport cancelled |
+| **Cancel, no alert** | No | Passport cancelled |
+
+For most breach victims, **alert and keep** is the sweet spot: protection without wrecking your holiday plans.
+
+## How to apply
+
+- Fill in PAS201 online or by hand, then **print and sign** it.
+- **Describe what happened** (where, what was exposed).
+- **Adding an alert only?** Email it to **passportsnz@dia.govt.nz**.
+- **Cancelling?** **Post** the passport with the form (addresses for NZ, Australia and the UK are on the form).
+- A parent or guardian signs for anyone **15 or under**.
+
+## Want a new passport now?
+
+PAS201 doesn't issue one. Use the regular **adult (PAS310)** or **child (PAS305)** application.
+
+## Breaches that exposed NZ passports
+
+The **Latitude** breach (2023) exposed NZ licence and passport details ([[was-i-affected-by-the-latitude-financial-data-breach|our guide]]). Breaches abroad can hit Kiwis too, like [[was-i-affected-by-the-westjet-data-breach|WestJet]].
+
+## Other steps
+
+- **Suppress** your credit file ([[nz-credit-suppression-how-to|how]]).
+- **Check** your credit report ([[nz-free-credit-report-how-to|how]]).
+- Get help from **IDCARE** on **0800 121 068**.
+
+A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in.
+
+=== FAQ
+Q: What should I do if my NZ passport was in a data breach?
+A: Use form PAS201 to add an alert, cancel the passport, or both.
+Q: Can I still travel if I add an alert to my NZ passport?
+A: Yes. You can add an alert and keep using the passport until it expires.
+Q: What does a passport alert do?
+A: It triggers extra security checks if your passport details appear in a passport, citizenship or RealMe Verified Identity application.
+Q: Does PAS201 give me a new passport?
+A: No. Use a separate adult or child passport application for a new one.
+
+=== SOURCES
+https://www.passports.govt.nz/__data/assets/pdf_file/0027/54756/PAS201-Declare-your-New-Zealand-passport-or-travel-document-lost,-stolen,-damaged-or-involved-in-a-data-breach-or-scam-251128.pdf | NZ Passports: PAS201 form
+
+=== RELATED
+nz-credit-suppression-how-to | Credit File Suppression (NZ)
+was-i-affected-by-the-latitude-financial-data-breach | Latitude Data Breach
+australia-passport-number-data-breach-replace | Australian Passports in Breaches
+nz-ird-number-myir-compromised-what-to-do | IRD Number Compromised?
+was-i-affected-by-the-westjet-data-breach | WestJet Data Breach

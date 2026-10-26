@@ -1,0 +1,71 @@
+slug: nz-biometric-processing-privacy-code-explained
+country: NZ
+title: NZ's Biometric Privacy Code: New Rules on Facial Recognition
+h1: New Zealand's Biometric Processing Privacy Code: What It Means for Facial Recognition and You
+desc: Since 3 November 2025, NZ organisations using face, voice or other biometrics must show it's proportionate, tell you, and avoid intrusive uses like emotion detection.
+keywords: biometric processing privacy code nz, facial recognition rules new zealand, biometric code 2025, privacy commissioner biometrics, emotion recognition ban nz, biometric privacy rights nz
+tags: Privacy Rights|New Zealand|Biometrics|Explainer
+=== TLDR
+The **Biometric Processing Privacy Code** took effect on **3 November 2025**; organisations already using biometrics had until **3 August 2026** to comply. It covers using your **face, voice, gait** or other traits to **verify, identify or categorise** you. Organisations must check it's **proportionate**, add **safeguards**, **tell you** before or when collecting, and are **restricted** from intrusive uses like **emotion prediction**, **attention tracking**, or inferring **ethnicity or sex**. You can complain to the Privacy Commissioner.
+
+=== BODY
+## The key dates
+
+From the [Privacy Commissioner's summary](https://www.privacy.org.nz/assets/DOCUMENTS/Biometrics-Guidance/20250805-What-is-the-Biometric-Code-short-summary-A1086012.pdf):
+
+| Date | What |
+|---|---|
+| **3 November 2025** | Code takes effect for new uses |
+| **3 August 2026** | Deadline for existing biometric users to comply |
+
+## What counts as biometrics
+
+Sensitive personal information about **physical and behavioural traits**: your **face**, **voice**, **gait**, and similar. **Facial recognition** is the obvious example: cameras in shops, apps that verify your face, systems that sort people into groups.
+
+## The core rules
+
+The Code swaps the Privacy Act's 13 principles for **13 biometric-specific rules**. The big ones:
+
+- **Proportionality:** is biometrics effective and proportionate here?
+- **Safeguards:** steps to reduce privacy risk.
+- **Transparency:** tell people **when and why**, before or at collection.
+- **Safe limits:** **emotion prediction**, **attention tracking**, and inferring **ethnicity or sex** are **restricted**, allowed only in limited cases like helping people with disabilities, safety, or research.
+
+So a shop can't just scan faces to guess who looks grumpy and needs a discount. (That was never a good business plan anyway.)
+
+## What it means for you
+
+- You should be **told** when biometrics are used on you.
+- Organisations should be able to **justify** it.
+- If you think a business broke the rules and you've been harmed, you can **complain** to the Office of the Privacy Commissioner ([[nz-privacy-commissioner-complaint-how-to|how]]).
+- You can ask what biometric data they hold on you through an **access request** ([[nz-privacy-act-access-request-how-to|how]]).
+
+## How it's enforced
+
+The OPC monitors compliance, investigates complaints and can act proactively, weighing public interest, seriousness, risk of harm and the organisation's conduct.
+
+## The bigger picture
+
+The Commissioner is pushing for a stronger Privacy Act overall, including **protections for automated decisions** and real **penalties** ([[nz-privacy-breach-notifications-rise-43-percent|more]]). Biometric data is uniquely risky: you can change a password, but not your face.
+
+A free [[/digital-footprint-checker/|exposure check]] shows which breaches already hold your email.
+
+=== FAQ
+Q: When did New Zealand's Biometric Processing Privacy Code start?
+A: 3 November 2025. Existing users had until 3 August 2026 to comply.
+Q: Does the Biometric Code ban facial recognition?
+A: No. It sets rules: uses must be proportionate, transparent and safeguarded, and some intrusive uses are restricted.
+Q: Is emotion recognition allowed in NZ?
+A: It's restricted under the Code, allowed only in limited situations like aiding people with disabilities, safety or research.
+Q: How do I complain about biometric use?
+A: Complain to the Office of the Privacy Commissioner if you've experienced privacy harm.
+
+=== SOURCES
+https://www.privacy.org.nz/assets/DOCUMENTS/Biometrics-Guidance/20250805-What-is-the-Biometric-Code-short-summary-A1086012.pdf | Privacy Commissioner: What is the Biometric Code (summary)
+
+=== RELATED
+nz-privacy-commissioner-complaint-how-to | Complain to the NZ Privacy Commissioner
+nz-privacy-act-access-request-how-to | Privacy Access Requests (NZ)
+nz-privacy-breach-notifications-rise-43-percent | NZ Breach Notifications Up 43%
+quebec-law-25-privacy-rights-explained | Quebec Law 25 Rights
+browser-fingerprinting-explained | Browser Fingerprinting Explained

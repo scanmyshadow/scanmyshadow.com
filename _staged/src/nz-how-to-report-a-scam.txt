@@ -1,0 +1,73 @@
+slug: nz-how-to-report-a-scam
+country: NZ
+title: How to Report a Scam in New Zealand: Who to Call First
+h1: How to Report a Scam in New Zealand: Bank, Police 105, Netsafe, 7726 and More
+desc: Lost money? Call your bank first, then Police on 105. Scam text? 7726. Not sure? Netsafe on 0508 638 723. Every NZ scam reporting option in one place, in the right order.
+keywords: how to report a scam nz, report scam new zealand, police 105 scam, netsafe report scam, report scam text nz 7726, ncsc report nz
+tags: Reporting|New Zealand|How To|What To Do
+=== TLDR
+**Lost money?** Call your **bank** immediately (number on your card), then **Police** at **105.police.govt.nz** or **105**. **Scam text?** Forward free to **7726**. **Not sure or need support?** **Netsafe** at netsafe.org.nz/report or **0508 638 723**. **Cyber incident or hacked account?** The **NCSC**. **ID stolen?** **IDCARE** on **0800 121 068**. **Danger?** **111**.
+
+=== BODY
+## The order matters
+
+If money has left your account, **every minute counts**. Banks can sometimes freeze funds before they're moved on.
+
+| Priority | Who | How |
+|---|---|---|
+| **1. Money lost** | **Your bank** | Number on your card (24/7 lines: ANZ 0800 269 296, ASB 0800 272 372, Kiwibank 0800 113 355) |
+| **2. Crime report** | **NZ Police** | **105.police.govt.nz** or call **105** |
+| **3. Advice and reporting** | **Netsafe** | netsafe.org.nz/report or **0508 638 723** |
+| **Scam texts** | **DIA** | Forward to **7726** (free) |
+| **Cyber incidents** | **NCSC** | Online reporting form |
+| **Identity misuse** | **IDCARE** | **0800 121 068** |
+| **Immediate danger** | Police | **111** |
+
+Sources: [Police](https://www.police.govt.nz/news/release/two-charged-following-alleged%C2%A0scam%C2%A0targeting-vulnerable-victim), [Netsafe](https://resource.netsafe.org.nz/Netsafe-scams-update-August-2026.pdf), [MFAT/DIA](https://www.mfat.govt.nz/en/media-and-resources/text-message-scam), [IRD](https://www.ird.govt.nz/managing-my-tax/scams/take-action-if-youve-been-scammed).
+
+## Report to both bank and Police
+
+Under the new bank Code, to be considered for **reimbursement** you must report to **your bank and Police within 3 months** of discovering the scam ([[nz-bank-scam-reimbursement-rules-explained|details]]). So don't skip the Police report, even if it feels pointless.
+
+## Specific organisations
+
+- **IRD scams:** IRD's "Let us know about a scam" page ([[nz-ird-number-myir-compromised-what-to-do|IRD guide]]).
+- **NZTA texts:** NZTA's phishing form ([[nz-nzta-toll-scam-text-3651|NZTA guide]]).
+- **Trade Me:** Community Watch ([[nz-trade-me-phishing-emails-after-sale|Trade Me guide]]).
+- **Investment scams:** the **FMA** ([[nz-fma-fake-nz-registered-investment-firms|FMA guide]]).
+- **Parking QR stickers:** Police 105 and your council ([[nz-parking-meter-qr-code-scam|QR guide]]).
+
+## Don't be embarrassed
+
+Police note scams aren't always obvious and work by building **urgency or trust**. One recent Bay of Plenty case: a vulnerable person was manipulated into withdrawing cash and handing it over; **two men were charged**. Reports are how cases like that get solved.
+
+## After reporting
+
+- Change passwords you may have exposed.
+- Watch for **recovery scams** promising your money back for a fee.
+- Consider a [[nz-credit-suppression-how-to|credit suppression]] if ID was shared.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your details are in breach data.
+
+=== FAQ
+Q: Who do I contact first if I've been scammed in NZ?
+A: Your bank, immediately, using the number on your card. Then report to Police on 105.
+Q: How do I report a scam to NZ Police?
+A: Online at 105.police.govt.nz or by calling 105.
+Q: What is Netsafe's phone number?
+A: 0508 638 723, or report online at netsafe.org.nz/report.
+Q: Where do I report scam texts in NZ?
+A: Forward them free to 7726.
+
+=== SOURCES
+https://www.police.govt.nz/news/release/two-charged-following-alleged%C2%A0scam%C2%A0targeting-vulnerable-victim | NZ Police: Two charged following alleged scam targeting vulnerable victim (16 Jul 2026)
+https://resource.netsafe.org.nz/Netsafe-scams-update-August-2026.pdf | Netsafe: Scams update, August 2026
+https://www.mfat.govt.nz/en/media-and-resources/text-message-scam | MFAT: Text message scam, what to do
+https://www.ird.govt.nz/managing-my-tax/scams/take-action-if-youve-been-scammed | Inland Revenue: Take action if you've been scammed
+
+=== RELATED
+nz-bank-scam-reimbursement-rules-explained | NZ Scam Reimbursement Rules
+nz-report-scam-text-7726 | Report Scam Texts to 7726
+nz-scam-statistics-2026-netsafe-data | NZ Scam Statistics 2026
+how-to-report-a-scam-to-scamwatch | How to Report to Scamwatch (AU)
+canada-anti-fraud-centre-reporting-guide | How to Report Scams in Canada

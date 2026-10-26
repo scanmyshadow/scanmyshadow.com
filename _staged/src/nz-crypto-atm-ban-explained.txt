@@ -1,0 +1,65 @@
+slug: nz-crypto-atm-ban-explained
+country: NZ
+title: New Zealand Is Banning Crypto ATMs: Here's Why
+h1: New Zealand Moves to Ban Crypto ATMs: The Money Laundering and Scam Case
+desc: In July 2025 the government announced a ban on crypto ATMs as part of AML reforms, citing $107M laundered. What it means and how scammers use these machines.
+keywords: nz crypto atm ban, new zealand bans crypto atms, bitcoin atm ban nz, crypto atm scam new zealand, nicole mckee crypto atm, coinflip nz ban
+tags: Crypto Scams|New Zealand|Regulation|News
+=== TLDR
+On **10 July 2025**, Associate Justice Minister **Nicole McKee** announced New Zealand would **ban crypto ATMs** through anti-money laundering reforms. She called them a "**sound form of money laundering**" and cited **$107 million** laundered through criminal organisations. Provider **CoinFlip**, which runs about **120 machines**, called it "a step backward." For scam victims, the lesson is the same either way: **no legitimate person ever asks you to pay at a crypto ATM.**
+
+=== BODY
+## The announcement
+
+According to [1News](https://www.1news.co.nz/2025/07/10/crypto-atms-to-be-banned-in-money-laundering-crackdown):
+
+- Crypto ATMs will be banned under proposed changes to NZ's **AML/CFT** regime.
+- Minister McKee said the machines are a "sound form of money laundering."
+- She cited a case where crypto bought meth sent to New Zealand, and said she was "alarmed" by crypto financing crime and weapons.
+- She pointed to **$107 million** laundered through criminal groups.
+
+At the time of the report, the ban was proposed, and no start date was given.
+
+## The industry's view
+
+**CoinFlip**, one of the largest operators with around **120** NZ machines, called the ban a "step backward" that doesn't fix the underlying problem. It suggested alternatives like **wallet pinning**, **pre-transaction monitoring** and **real-time scam warnings**.
+
+## Why scammers love crypto ATMs
+
+Crypto ATMs let a victim turn cash into crypto in minutes and send it to a wallet controlled by a scammer, often by scanning a QR code the scammer sends. There's no bank in the middle to ask "are you sure?" and no way to reverse it.
+
+We've seen the playbook across the Tasman: Australia went from 67 crypto ATMs to over 1,800 in three years, and AUSTRAC found most heavy users were over 50, many of them scam victims ([[australia-crypto-atm-rules-austrac-5000-limit|Australia's crackdown]]).
+
+## Other ways crypto scams reach Kiwis
+
+Banning machines doesn't stop crypto scams. Watch for:
+
+- **Fake police** asking about your crypto, then leading you to enter your seed phrase on a fake site ([[nz-fake-police-crypto-seed-phrase-scam|NZ police crypto scam]]);
+- **Deepfake politician ads** pushing crypto platforms ([[nz-deepfake-luxon-investment-scam-ads|deepfake Luxon scam]]);
+- **Investment chat groups** promising guaranteed returns.
+
+## The simple rule
+
+If anyone, whether a "bank investigator", a "police officer" or an online romance, tells you to buy crypto to protect or grow your money: it's a scam. Hang up, call your bank, report to Police on 105.
+
+A free [[/digital-footprint-checker/|exposure check]] shows whether your contact details are circulating in breach data.
+
+=== FAQ
+Q: Is New Zealand banning crypto ATMs?
+A: Yes. The government announced in July 2025 that crypto ATMs would be banned as part of anti-money laundering reforms.
+Q: Why is NZ banning crypto ATMs?
+A: The Associate Justice Minister called them a sound form of money laundering and cited $107 million laundered through criminal organisations.
+Q: How many crypto ATMs are in New Zealand?
+A: The report didn't give a total; CoinFlip alone ran about 120 machines.
+Q: Will anyone legitimate ask me to pay with a crypto ATM?
+A: No. Treat any such request as a scam.
+
+=== SOURCES
+https://www.1news.co.nz/2025/07/10/crypto-atms-to-be-banned-in-money-laundering-crackdown | 1News: Crypto ATMs to be banned in money laundering crackdown
+
+=== RELATED
+australia-crypto-atm-rules-austrac-5000-limit | Australia's Crypto ATM Rules
+nz-fake-police-crypto-seed-phrase-scam | NZ Fake Police Crypto Scam
+nz-deepfake-luxon-investment-scam-ads | Deepfake Luxon Investment Scams
+us-wisconsin-crypto-atm-law-1000-cap-refunds | Wisconsin Crypto ATM Law
+nz-how-to-report-a-scam | How to Report a Scam in NZ

@@ -1,0 +1,69 @@
+slug: nz-asb-scam-alerts-2026
+country: NZ
+title: ASB Scam Alerts 2026: Netcode Calls, WhatsApp Fakes and School Scams
+h1: ASB Scam Alerts: Fake Fraud Calls Asking for Netcodes, WhatsApp and Google Meet Impersonation
+desc: ASB warns of callers claiming fraud on your account who then ask for Netcodes or FastNet token codes, plus fakes on WhatsApp, Google Meet and iCloud. What ASB never does.
+keywords: asb scam call, asb netcode scam, asb scam text 2026, asb fraud number, asb caller check, asb whatsapp scam
+tags: Bank Scams|New Zealand|Phone Scams|What To Do
+=== TLDR
+In **March 2026**, ASB warned of scammers **cold calling** about "fraud" on personal or business accounts, sending people to a **fake ASB web address**, and asking for **Netcodes** or **FastNet Business token codes**. ASB also flags fakes on **WhatsApp, Google Meet and iCloud**, and calls to **schools**. ASB will **never** ask for codes, remote access, call forwarding or "safe account" transfers. Not sure? Ask for **Caller Check** in the ASB app. Fraud line: **0800 272 372**.
+
+=== BODY
+## ASB's current alerts
+
+From [ASB's security alerts](https://www.asb.co.nz/banking-with-asb/security-alerts.html):
+
+| Alert | What happens |
+|---|---|
+| **Bank impersonation (Mar 2026)** | Cold call about fraud; you're sent to a fake ASB web address and asked for Netcodes or FastNet Business token codes |
+| **WhatsApp, Google Meet, iCloud** | Scammers pose as ASB Fraud, other banks or NZ brands; ask for info, remote access or phone setting changes |
+| **Schools** | Callers claim problems with the school's account; ask for usernames, passwords or codes |
+| **Business customers** | Told accounts are at risk; some told to install remote access software |
+
+The Netcode request is the punchline every time. Everything else is costume.
+
+## What ASB will never do
+
+- Contact you via **WhatsApp, Google Meet or iCloud**
+- Ask for **remote access**, **call forwarding** or **phone setting changes**
+- Ask for your **password, PIN, text codes, token codes or Netcodes**
+- Ask you to **read out codes** from your phone or FastNet token
+- Ask you to type any web address **other than asb.co.nz**
+- Need your **full card number or CVV**
+- Ask you to **download software**
+- Ask you to **buy gift cards**, set up **crypto**, or **move money to keep it safe**
+
+## Caller Check
+
+If someone says they're ASB, ask for a **Caller Check** notification. Real ones appear **in the ASB Mobile Banking app**. If they can't send one, **hang up** and call ASB on its published number. Scammers have started faking caller checks by text or WhatsApp; see [[nz-bank-caller-check-impersonation-scams|Caller Check scams]].
+
+## How to report
+
+- **Phone (24/7):** **0800 ASB FRAUD (0800 272 372)**; overseas **+64 9 303 0332**
+- **Texts:** forward to **7726** ([[nz-report-scam-text-7726|how]])
+
+## If you gave a code
+
+Call ASB immediately. Ask them to check for new payees, devices or transfers. The new [[nz-bank-scam-reimbursement-rules-explained|reimbursement rules]] may apply, but only if you report within three months.
+
+A free [[/digital-footprint-checker/|exposure check]] shows whether your details are in breach data.
+
+=== FAQ
+Q: Will ASB ever ask for my Netcode?
+A: No. ASB says it will never ask for Netcodes, text codes or token codes, or ask you to read them out.
+Q: Does ASB contact customers on WhatsApp?
+A: No. ASB says it never contacts you through WhatsApp, Google Meet or iCloud.
+Q: What is ASB's fraud number?
+A: 0800 ASB FRAUD (0800 272 372), or +64 9 303 0332 from overseas, 24/7.
+Q: How do I check a caller is really from ASB?
+A: Ask for a Caller Check notification in the ASB Mobile Banking app. If they can't, hang up.
+
+=== SOURCES
+https://www.asb.co.nz/banking-with-asb/security-alerts.html | ASB: Security alerts
+
+=== RELATED
+nz-bank-caller-check-impersonation-scams | Caller Check Scams
+nz-banks-whatsapp-impersonation-scams | NZ Banks Don't Use WhatsApp
+nz-kiwibank-latest-scams-2026 | Kiwibank Latest Scams
+nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts
+nz-bank-scam-reimbursement-rules-explained | NZ Scam Reimbursement Rules

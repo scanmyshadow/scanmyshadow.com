@@ -1,0 +1,62 @@
+slug: nz-sms-blaster-fake-cell-tower-auckland
+country: NZ
+title: The Auckland "SMS Blaster": A Fake Cell Tower That Sent Bank Scam Texts
+h1: Operation Orca: How a Fake Cell Tower in Auckland Pushed Bank Scam Texts to Nearby Phones
+desc: NZ Police seized an "SMS blaster" that forced nearby phones onto a fake network and sent bank phishing texts, about 700 in one night. How it works and why your phone believed it.
+keywords: sms blaster nz, fake cell tower scam, operation orca police, imsi catcher scam text, auckland smishing arrest, bank scam text fake network
+tags: Text Scams|New Zealand|Bank Scams|News
+=== TLDR
+In **Operation Orca**, NZ Police arrested a **19-year-old** in central Auckland and seized an **"SMS Blaster"**: a device acting as a **fake cell tower** that forced nearby phones onto a bogus network and sent **bank phishing texts**, about **700 in a single night**. DIA flagged it in late July 2024; the warrant was executed **23 August**. Around **120 people** were affected; no losses were reported. Texts that arrive this way can bypass your carrier's spam filters.
+
+=== BODY
+## What happened
+
+From [NZ Police](https://www.police.govt.nz/news/release/op-orca-%E2%80%94-smishing-scam-smashed) (3 October 2024):
+
+- DIA first flagged an unusual smishing campaign in **late July 2024**.
+- Police executed a search warrant in **central Auckland** on **23 August**.
+- A **19-year-old** man was arrested and charged with **interfering with a computer system**.
+- The device sent **thousands** of texts, about **700 in one night**, posing as **banks**, linking to sites imitating **bank domains**.
+- About **120 people** were affected; **no financial losses** reported.
+
+## How an SMS blaster works
+
+Your phone connects to whichever nearby tower looks strongest. An SMS blaster pretends to be one, pulls nearby phones onto its fake network, and **sends texts directly**. Because the message never goes through your real mobile network, your carrier's **scam filters don't see it**.
+
+Imagine a fake postie standing on your street handing out letters that look like they're from your bank. The real post office never saw them.
+
+## Why it matters
+
+- It shows scammers going **physical**, not just online.
+- It means "my carrier blocks scam texts" isn't a full defence.
+- The texts can show any sender name, including your bank's.
+
+## How to protect yourself
+
+- **Don't click links in bank texts.** Open your banking app instead. Many NZ banks say they never send login links ([[nz-anz-scam-alerts-2026|ANZ]], [[nz-kiwibank-latest-scams-2026|Kiwibank]]).
+- If you suspect your account's compromised, **call your bank on its published number**.
+- **Forward** scam texts to **7726** ([[nz-report-scam-text-7726|how]]).
+
+Police advice: don't click links in unexpected texts, don't share personal or login details, and don't transfer money after a suspicious text or call.
+
+A free [[/digital-footprint-checker/|exposure check]] shows whether your details are in breach data.
+
+=== FAQ
+Q: What is an SMS blaster?
+A: A device that acts like a fake cell tower, forcing nearby phones onto its network so it can send them texts directly.
+Q: What was Operation Orca?
+A: A NZ Police operation in 2024 that arrested a 19-year-old in Auckland and seized an SMS blaster used to send bank phishing texts.
+Q: Can my carrier block texts from an SMS blaster?
+A: Texts sent this way don't pass through your real mobile network, so carrier filters may not catch them.
+Q: How many people were affected?
+A: About 120 people were known to be affected, with no financial losses reported.
+
+=== SOURCES
+https://www.police.govt.nz/news/release/op-orca-%E2%80%94-smishing-scam-smashed | NZ Police: Op Orca, smishing scam smashed (3 Oct 2024)
+
+=== RELATED
+nz-report-scam-text-7726 | Report Scam Texts to 7726
+nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts 2026
+nz-telco-scam-prevention-code-explained | NZ Telco Scam Prevention Code
+what-is-smishing | What Is Smishing?
+nz-netsafe-bank-impersonation-spike-august-2026 | Bank Impersonation Spike (Aug 2026)

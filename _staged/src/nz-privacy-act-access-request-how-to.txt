@@ -1,0 +1,70 @@
+slug: nz-privacy-act-access-request-how-to
+country: NZ
+title: How to Ask a Company What Data It Holds on You (NZ Privacy Act)
+h1: How to Make a Privacy Act Access Request in New Zealand (20 Working Days)
+desc: Under NZ's Privacy Act 2020 you can ask any organisation for the personal information it holds on you. It must respond within 20 working days. Template wording and tips.
+keywords: privacy act access request nz, request my personal information new zealand, ipp6 request, 20 working days privacy request, what data does a company hold on me nz, privacy act 2020 rights
+tags: Privacy Rights|New Zealand|How To|Privacy Act
+=== TLDR
+Under the **Privacy Act 2020**, you can ask any organisation for the **personal information it holds about you**. It must respond **as soon as reasonably practicable** and **no later than 20 working days** after receiving your request. It can extend only with reasons, told within the original timeframe. Refusals are allowed only on specific grounds, and you can **complain to the Privacy Commissioner** if you're unhappy. Here's how to do it.
+
+=== BODY
+## Your right
+
+From [Sprintlaw's guide](https://sprintlaw.co.nz/articles/privacy-act-2020-responding-to-personal-information-access-requests-in-nz/) to access requests:
+
+| Rule | Detail |
+|---|---|
+| **Deadline** | No later than **20 working days** (excluding weekends and public holidays) |
+| **Extensions** | Must be reasonable, given within the original 20 days, with reasons and your right to complain |
+| **Identity checks** | Must be proportionate; stronger for sensitive info |
+| **Refusals** | Only on set grounds, e.g. revealing someone else's info, prejudicing the law, trade secrets, legal privilege, serious threat to safety. Redaction is an option |
+| **Complaints** | You must be told you can complain to the Privacy Commissioner |
+
+## How to make the request
+
+1. **Find the privacy officer** (usually in the privacy policy).
+2. **Send it in writing** so you have a timestamp.
+3. **Keep it simple.** Something like:
+
+> "Under the Privacy Act 2020, I request access to all personal information you hold about me, including where you got it from and who you've shared it with. My details: [name, email, phone, account number]. Please respond within 20 working days."
+
+4. **Provide ID** if they ask (proportionate checks only).
+5. **Diary the 20-working-day deadline.**
+
+## What to do with the results
+
+- **Wrong information?** Ask for it to be corrected.
+- **Surprised by who they shared it with?** Ask why.
+- **Got nothing back?** Complain to the Privacy Commissioner ([[nz-privacy-commissioner-complaint-how-to|how]]). Access complaints don't need proof of harm.
+
+## Good places to start
+
+- **Credit agencies** (Centrix, Equifax, Experian): see also [[nz-free-credit-report-how-to|free credit reports]].
+- **Your bank and telco.**
+- **Health providers** have specific rules: see [[nz-health-records-access-request|accessing health records]].
+- **Companies that told you about a breach**: ask exactly what of yours was taken.
+
+## Not sure who holds your data?
+
+A free [[/digital-footprint-checker/|exposure check]] lists the breaches your email appears in, which is a handy list of who to ask. The Privacy Commissioner also wants a **right to erasure** added to the Act ([[nz-privacy-breach-notifications-rise-43-percent|more]]).
+
+=== FAQ
+Q: How long does a NZ organisation have to answer a privacy access request?
+A: As soon as reasonably practicable and no later than 20 working days.
+Q: Can an organisation extend the deadline?
+A: Yes, if the extension is reasonable and communicated within the original timeframe with reasons and information about your right to complain.
+Q: Can they refuse my request?
+A: Only on specific grounds, such as revealing someone else's information or a serious safety threat. They may redact instead.
+Q: Where do I complain if they don't respond?
+A: To the Office of the Privacy Commissioner.
+
+=== SOURCES
+https://sprintlaw.co.nz/articles/privacy-act-2020-responding-to-personal-information-access-requests-in-nz/ | Sprintlaw: Responding to personal information access requests in NZ
+
+=== RELATED
+nz-privacy-commissioner-complaint-how-to | Complain to the NZ Privacy Commissioner
+nz-health-records-access-request | Access Your Health Records (NZ)
+nz-privacy-breach-notifications-rise-43-percent | NZ Breach Notifications Up 43%
+nz-free-credit-report-how-to | Free Credit Reports in NZ
+quebec-law-25-privacy-rights-explained | Quebec Law 25 Rights

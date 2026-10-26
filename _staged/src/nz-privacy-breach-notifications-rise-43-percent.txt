@@ -1,0 +1,75 @@
+slug: nz-privacy-breach-notifications-rise-43-percent
+country: NZ
+title: NZ Serious Privacy Breach Notifications Up 43%: What the Commissioner Wants
+h1: Serious Privacy Breaches Up 43% in NZ: The Privacy Commissioner's Case for a Tougher Privacy Act
+desc: Serious breach notifications rose 43% and privacy complaints 21% in 2024/25. The Commissioner wants a right to erasure, real penalties and stronger powers. What it means for you.
+keywords: nz privacy breach statistics 2025, privacy commissioner annual report 2025, privacy act reform nz, right to erasure nz, privacy penalties new zealand, serious privacy breaches nz
+tags: Privacy Rights|New Zealand|Statistics|News
+=== TLDR
+In its **2024/25** annual report, New Zealand's Privacy Commissioner reported **serious privacy breach notifications up 43%** and **privacy complaints up 21%** (on a previous record year). Commissioner **Michael Webster** wants a **right to erasure**, a **much stronger penalty regime**, proof of privacy compliance, protections around **automated decisions**, and **more powers**. Survey: **82%** of Kiwis want more control over their personal information.
+
+=== BODY
+## The numbers
+
+From the [Privacy Commissioner's November 2025 release](https://www.privacy.org.nz/tuhono-connect/statements-media-releases/new-zealand-needs-privacy-act-modernisation-and-nbsp/):
+
+| Measure | 2024/25 |
+|---|---|
+| Serious privacy breach notifications | **+43%** |
+| Privacy complaints | **+21%** (on a record 2023/24) |
+
+**2025 Privacy Survey:**
+
+| Concern | Share |
+|---|---|
+| Protecting personal privacy is a major concern | 66% |
+| Concerned about children's privacy | 67% |
+| Concerned about AI decisions using their data | 62% |
+| Want more control and choice | **82%** |
+
+## What the Commissioner is asking for
+
+1. A **right to erasure**: ask organisations to delete your personal information.
+2. A **significantly stronger penalty regime**.
+3. Organisations must **demonstrate** how they meet privacy obligations.
+4. Stronger protections for people affected by **automated decision-making**.
+5. **Stronger powers** for the Commissioner.
+
+Webster: "The Privacy Act currently provides insufficient incentives for many organisations."
+
+## Why it matters right now
+
+Today, the Privacy Act has **no civil fines** for failing to protect data; the only fines are for not notifying a breach. After the [[nz-manage-my-health-data-breach-privacy-commissioner-findings|Manage My Health]] and [[nz-medimap-attack-patients-marked-deceased|MediMap]] incidents, the government's cyber action plan asked the Ministry of Justice to look at **civil penalties** ([[nz-cyber-security-action-plan-stolen-data-offence|details]]).
+
+In other words: the watchdog has a loud bark. It's asking for some teeth.
+
+## What you can do today
+
+Even without erasure rights, you already have strong rights under the current Act:
+
+- **See what an organisation holds** on you ([[nz-privacy-act-access-request-how-to|access requests]]).
+- **Ask for corrections.**
+- **Complain** to the Privacy Commissioner ([[nz-privacy-commissioner-complaint-how-to|how]]).
+- **Freeze your credit** if your ID leaked ([[nz-credit-suppression-how-to|credit suppression]]).
+
+A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in, a good starting list for access requests.
+
+=== FAQ
+Q: How much did privacy breaches increase in NZ?
+A: Serious privacy breach notifications rose 43% in 2024/25, according to the Privacy Commissioner.
+Q: Does New Zealand have a right to be forgotten?
+A: Not yet. The Privacy Commissioner has recommended adding a right to erasure to the Privacy Act.
+Q: Can the NZ Privacy Commissioner fine companies?
+A: Not for poor security. The Commissioner is asking for a much stronger penalty regime.
+Q: What do New Zealanders want on privacy?
+A: 82% want more control and choice over how their personal information is collected and used.
+
+=== SOURCES
+https://www.privacy.org.nz/tuhono-connect/statements-media-releases/new-zealand-needs-privacy-act-modernisation-and-nbsp/ | Privacy Commissioner: New Zealand needs Privacy Act modernisation (13 Nov 2025)
+
+=== RELATED
+nz-privacy-act-access-request-how-to | How to Make a Privacy Access Request (NZ)
+nz-privacy-commissioner-complaint-how-to | Complain to the NZ Privacy Commissioner
+nz-cyber-security-action-plan-stolen-data-offence | NZ Cyber Security Action Plan
+nz-manage-my-health-data-breach-privacy-commissioner-findings | Manage My Health Data Breach
+australia-oaic-data-breach-notifications-record-2025 | Australia's Record Breach Year
