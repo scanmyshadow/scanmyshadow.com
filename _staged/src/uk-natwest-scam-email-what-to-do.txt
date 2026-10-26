@@ -1,0 +1,64 @@
+slug: uk-natwest-scam-email-what-to-do
+country: UK
+title: NatWest Scam Emails: How to Spot Them and Report Them
+h1: Fake NatWest Emails Asking You to “Check Your Details”: How to Spot and Report Them
+desc: Fake NatWest emails use real branding and ask you to update your account information. Forward them to phishing@natwest.com. What NatWest never asks for.
+keywords: natwest scam email, natwest phishing email, fake natwest email, report natwest phishing, natwest update details email scam
+tags: Bank Scams|Phishing|United Kingdom|What To Do
+=== TLDR
+Which? warned on October 7, 2026 about a NatWest scam email with accurate branding that asks you to check your account information is up to date via a link. The link leads to a fake login page. NatWest says it won't ask for personal information by email and will only ever ask for random characters from your PIN or password. Forward suspicious emails to phishing@natwest.com and call 03457 888444 if you responded.
+
+=== BODY
+## What the email looks like
+
+According to [Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC), the October 2026 version uses accurate NatWest branding and asks you to check your account information is up to date through a link. It looks routine, which is the point. “Please confirm your details” is the most boring sentence in banking, and boring is believable.
+
+The link goes to a lookalike page that collects your customer number, PIN and password characters, and sometimes a one-time code.
+
+## What NatWest says
+
+From [NatWest's reporting page](https://www.natwest.com/support-centre/help-with-your-card/fraud/how-do-i-report-a-phishing-email-or-scam-email.html):
+
+- NatWest **won't ask for personal information by email**.
+- It would only ever ask for **random characters** from your PIN or password, never the full thing.
+- If you received a suspicious email and haven't responded, forward it to **phishing@natwest.com**.
+
+## Spot the fake
+
+- a link to log in or “verify” (log in via the app or by typing natwest.com instead);
+- a sender address that isn't a NatWest domain;
+- requests for your full PIN or password;
+- urgency: “your account will be restricted within 24 hours.”
+
+## If you clicked and entered details
+
+Call NatWest immediately: personal customers **03457 888444** (overseas +44 3457 888444), business **03457 114477**. Or dial **159** ([[uk-159-scam-hotline-how-it-works|how 159 works]]). Change your credentials and check recent payments. Report losses to [Report Fraud](https://www.reportfraud.police.uk/).
+
+## Report other phishing too
+
+Forward scam emails to **report@phishing.gov.uk** (the NCSC's service) and scam texts to **7726**.
+
+## Why you got it
+
+NatWest phishing is sent to people who bank everywhere. Lists come from breached emails. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches include your address. See also [[uk-bank-impersonation-scams-what-to-know|UK bank impersonation scams]].
+
+=== FAQ
+Q: How do I report a NatWest phishing email?
+A: Forward it to phishing@natwest.com if you haven't responded, then delete it.
+Q: Does NatWest ask for my PIN or password by email?
+A: No. NatWest says it won't ask for personal information by email and only ever asks for random characters from your PIN or password.
+Q: I entered my details on a fake NatWest page. What now?
+A: Call NatWest on 03457 888444 (personal) or 159 immediately and change your security details.
+Q: Where else can I report phishing in the UK?
+A: Forward emails to report@phishing.gov.uk and texts to 7726.
+
+=== SOURCES
+https://www.natwest.com/support-centre/help-with-your-card/fraud/how-do-i-report-a-phishing-email-or-scam-email.html | NatWest: How to report a phishing or scam email
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (NatWest email, Oct 7, 2026)
+
+=== RELATED
+uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing
+how-to-recover-a-hacked-bank-account | How to Recover a Hacked Bank Account
+what-is-clone-phishing | What Is Clone Phishing?
+uk-scam-news-october-2026 | UK Scam News: October 2026

@@ -1,0 +1,74 @@
+slug: uk-right-to-erasure-how-to-get-data-deleted
+country: UK
+title: Right to Erasure UK: How to Make a Company Delete Your Data
+h1: How to Use Your Right to Erasure in the UK (the “Right to Be Forgotten”)
+desc: You can ask UK organisations to delete your personal data. When the right applies, when they can refuse, the one-month deadline and how to complain.
+keywords: right to erasure uk, right to be forgotten uk, ask company to delete my data uk, gdpr deletion request uk, ico right to erasure
+tags: Your Rights|GDPR|United Kingdom|How To
+=== TLDR
+Under UK data protection law you can ask an organisation to delete your personal data, verbally or in writing, for free. It must respond within one calendar month (extendable by two more in some cases). The right applies when the data is no longer needed, you withdraw consent, you object to marketing, or it was used unlawfully, among other cases. Organisations can refuse in some situations, like legal obligations, but must explain why.
+
+=== BODY
+## When you can ask
+
+The [ICO](https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/) lists the main situations:
+
+- the organisation no longer needs the data for the reason it collected it;
+- you withdraw consent you gave earlier;
+- you object to the processing and your interests outweigh theirs;
+- you object to direct marketing;
+- the data was collected or used unlawfully;
+- the organisation has a legal obligation to erase it;
+- the data was collected from you as a child for an online service.
+
+That last one is useful for anyone with an embarrassing teenage account somewhere.
+
+## How to ask
+
+- Contact **any part** of the organisation, verbally or in writing. No special wording is required.
+- Put verbal requests in writing afterwards so you have proof.
+- The ICO provides a template letter.
+- They can ask you to verify your identity; the clock starts once they have what they need.
+
+## Deadlines and costs
+
+- **One calendar month** to respond, extendable by up to two more months in certain circumstances (they must tell you within the first month).
+- **Free**, unless the request is “manifestly unfounded or excessive.”
+
+They should also tell anyone they shared the data with, and inform website or platform operators if it was published online.
+
+## When they can say no
+
+Exemptions include freedom of expression and journalism, legal obligations to keep data (financial records, for example), public interest tasks, legal claims, research and archiving, and certain health uses. If they refuse, they must explain why and tell you how to complain.
+
+## If you're not happy
+
+Complain to the organisation first, then to the ICO ([[how-to-complain-to-the-ico|how]]). You can also go to court, though the ICO advises legal advice first.
+
+## Useful targets for erasure requests
+
+- old shopping and loyalty accounts you no longer use ([[how-to-find-old-accounts-linked-to-your|find them]]);
+- people-finder sites such as [[uk-192-com-remove-your-details|192.com]];
+- marketing companies that keep emailing you.
+
+Pair it with a [[subject-access-request-dsar-guide|subject access request]] if you want to see what they hold first. And check where your email has leaked with a free [[/digital-footprint-checker/|exposure check]], which often reveals forgotten accounts.
+
+=== FAQ
+Q: How do I ask a UK company to delete my data?
+A: Contact any part of the organisation verbally or in writing; no special wording is needed. Follow up in writing.
+Q: How long does a company have to delete my data?
+A: One calendar month, extendable by up to two months in certain circumstances.
+Q: Can a company refuse to delete my data?
+A: Yes, in some cases such as legal obligations to keep it, but it must explain why and tell you how to complain.
+Q: Does it cost anything?
+A: No, unless the request is manifestly unfounded or excessive.
+
+=== SOURCES
+https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/ | ICO: Your right to get your data deleted
+
+=== RELATED
+subject-access-request-dsar-guide | Subject Access Request Guide
+gdpr-explained-what-you-can-request | GDPR: What You Can Request
+how-to-complain-to-the-ico | How to Complain to the ICO
+delete-your-personal-information-from-the-internet | Delete Your Personal Information From the Internet
+how-to-delete-your-accounts-just-delete-me-guide | Delete Old Accounts: JustDeleteMe Guide

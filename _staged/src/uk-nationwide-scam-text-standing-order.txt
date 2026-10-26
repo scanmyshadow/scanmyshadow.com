@@ -1,0 +1,69 @@
+slug: uk-nationwide-scam-text-standing-order
+country: UK
+title: Nationwide Scam Texts: The Fake “Standing Order Set Up” Message
+h1: Fake Nationwide Texts About a New Standing Order or Direct Debit: What to Do
+desc: Spoofed texts claim a Nationwide standing order or direct debit was set up and give a number to call. How to spot them and what Nationwide says it never does.
+keywords: nationwide scam text, nationwide standing order scam, nationwide direct debit text scam, fake nationwide text, nationwide phishing report
+tags: Bank Scams|Text Scams|United Kingdom|What To Do
+=== TLDR
+Scam texts from spoofed numbers claim a standing order or direct debit was set up on your Nationwide account (Which? flagged versions in August 2026) and give a number to call if you didn't set it up. Nationwide says genuine texts about suspicious transactions include the last four digits of your card, and it will never ask you to move money to a safe account or give your PIN or card reader codes by phone. Hang up and call 159.
+
+=== BODY
+## The texts
+
+Which? logged two in its [August 2026 scam alerts](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC):
+
+- a **spoofed text** saying a standing order has been set up, with a number to call if it wasn't you;
+- an email saying a monthly **direct debit to a dental practice** was set up, with a link to click if you don't recognise it.
+
+The dental detail is a nice touch from a scammer's point of view: specific, mundane and slightly alarming.
+
+## What Nationwide will never do
+
+From [Nationwide's fraud page](https://nationwide.co.uk/help/fraud-and-security/reporting-fraud-or-a-scam), Nationwide will never ask you to:
+
+- give your PIN or a one-off card reader code over the phone;
+- log in to Internet Banking through a link in an email, text or social media message;
+- transfer money into a safe account;
+- use, re-enable or re-sync your card reader over the phone.
+
+And a useful tell: if Nationwide texts you about a suspicious transaction, **the message includes the last four digits of your card**.
+
+## How to check a call
+
+Hang up and dial **159** (24/7), or stay on the line and use **Call Checker** in the Nationwide app. Fraud helpline: **0800 055 66 22**.
+
+## Report it
+
+- Forward scam emails claiming to be Nationwide to **phishing@nationwide.co.uk**.
+- Forward scam texts to **7726**.
+- Report losses to [Report Fraud](https://www.reportfraud.police.uk/) (England, Wales, NI) or Police Scotland on 101.
+
+## If you called and shared details
+
+Call 0800 055 66 22 or 159 straight away. Change your passcode and check payments and payees. See [[uk-159-scam-hotline-how-it-works|how 159 works]] and [[uk-action-fraud-crm-reimbursement-code|reimbursement for scam victims]].
+
+## Why they target building society members
+
+Older, loyal customers with savings are attractive targets, and Nationwide is the UK's biggest building society. Scammers don't need to know you bank there; they text everyone. Check your breach exposure with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: Is the Nationwide "standing order set up" text real?
+A: Treat it as a scam. Check your account in the app and call 159 or 0800 055 66 22.
+Q: How can I tell a real Nationwide fraud text?
+A: Nationwide says genuine suspicious-transaction texts include the last four digits of your card.
+Q: Where do I report Nationwide phishing?
+A: Forward emails to phishing@nationwide.co.uk and texts to 7726.
+Q: Will Nationwide ask me to move money to a safe account?
+A: No. Nationwide says it will never ask you to transfer money to a safe account.
+
+=== SOURCES
+https://nationwide.co.uk/help/fraud-and-security/reporting-fraud-or-a-scam | Nationwide: How to report a fraud or a scam
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Nationwide texts and emails, Aug 2026)
+
+=== RELATED
+uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams
+uk-159-scam-hotline-how-it-works | How 159 Works
+uk-barclays-scam-text-direct-debit-credit-card | Barclays Direct Debit Scam Texts
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors
+what-is-smishing | What Is Smishing?

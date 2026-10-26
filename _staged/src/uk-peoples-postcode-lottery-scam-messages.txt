@@ -1,0 +1,69 @@
+slug: uk-peoples-postcode-lottery-scam-messages
+country: UK
+title: People's Postcode Lottery Scams: How Real Winners Are Told
+h1: Fake People's Postcode Lottery Wins: How the Real Lottery Contacts Winners
+desc: Fake People's Postcode Lottery emails, calls and social accounts ask for ID or fees. How PPL really notifies winners, and the red flags in fake messages.
+keywords: peoples postcode lottery scam, postcode lottery scam email, fake postcode lottery win, postcode lottery scam call, ppl winner notification
+tags: Lottery Scams|Impersonation|United Kingdom|What To Do
+=== TLDR
+Scammers use the People's Postcode Lottery name in emails, calls and fake social media accounts, claiming your postcode won and asking for ID documents or fees. Which? flagged calls and fake social accounts again in June 2026. PPL says it always notifies you if your postcode is drawn: smaller wins by text or email, wins of £1,000 or more by phone call or letter. The official site is postcodelottery.co.uk. If you didn't play, you didn't win.
+
+=== BODY
+## The scams
+
+- **Emails** saying your postcode won through a “computer ballot” using the electoral roll, asking for photos of your passport or driving licence, utility bills and National Insurance card, sometimes a selfie holding them ([Which?](https://www.which.co.uk/news/article/peoples-postcode-lottery-scam-watch-out-for-dodgy-emails-asking-for-your-personal-details-a9z4Q1i3OIur)).
+- **Phone calls and fake social media accounts** promoting fake lottery wins or giveaways, flagged by [Which? in June 2026](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC).
+- **Fees** to release a prize: “admin,” “tax” or “courier.”
+
+The ID documents request is the dangerous one. A passport photo, utility bill and NI number are a ready-made identity fraud kit.
+
+## How real winners are told
+
+According to PPL (as reported by Which?):
+
+- PPL **always notifies you** if your postcode is drawn.
+- **£10 wins** are notified by **text or email**.
+- **Wins of £1,000 or more** are notified by **phone call or letter**.
+- The official website is **postcodelottery.co.uk**; the official email domain is postcodelottery.co.uk.
+
+And the obvious one: you can only win if you play. If you've never bought a ticket, no draw can pick you.
+
+## Red flags
+
+- a free email address (like a mail.co.uk or Gmail address) instead of postcodelottery.co.uk;
+- requests for ID scans or selfies with documents;
+- any fee before payout;
+- Facebook or Instagram pages with giveaways and “click to claim.”
+
+## What to do
+
+- Forward emails to **report@phishing.gov.uk** and texts to **7726**.
+- Report fake social media pages to the platform.
+- If you sent ID documents, see [[how-to-report-identity-theft-uk|UK identity theft steps]] and consider [[uk-cifas-protective-registration-explained|Cifas Protective Registration]].
+- If you paid, call your bank or **159** and report to [Report Fraud](https://www.reportfraud.police.uk/).
+
+## Why your postcode was “chosen”
+
+The emails mention the electoral roll because addresses really are available from the open register. Opting out reduces your exposure: see [[uk-open-electoral-register-opt-out|how to opt out of the open register]]. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches have your email.
+
+=== FAQ
+Q: How does the People's Postcode Lottery notify winners?
+A: PPL says £10 wins come by text or email, and wins of £1,000 or more by phone call or letter.
+Q: Will PPL ask for my passport or NI number by email?
+A: Treat any such request as a scam. Don't send ID documents to unexpected prize emails.
+Q: Do I have to pay to receive a postcode lottery prize?
+A: No. Fees to release a prize are a scam sign.
+Q: Where do I report a fake postcode lottery email?
+A: Forward it to report@phishing.gov.uk.
+
+=== SOURCES
+https://www.which.co.uk/news/article/peoples-postcode-lottery-scam-watch-out-for-dodgy-emails-asking-for-your-personal-details-a9z4Q1i3OIur | Which?: People's Postcode Lottery scam emails
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (PPL, June 2026)
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+what-is-lottery-sweepstakes-scams | Lottery and Sweepstakes Scams
+uk-premium-bonds-ns-i-scam-texts-calls | Premium Bonds and NS&I Scams
+what-is-advance-fee-fraud | What Is Advance Fee Fraud?
+how-to-report-identity-theft-uk | Report Identity Theft in the UK
+uk-open-electoral-register-opt-out | Opt Out of the Open Register

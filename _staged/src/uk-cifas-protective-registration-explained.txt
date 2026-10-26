@@ -1,0 +1,74 @@
+slug: uk-cifas-protective-registration-explained
+country: UK
+title: Cifas Protective Registration: Is £30 Worth It?
+h1: Cifas Protective Registration: What It Does, What It Costs and Who Needs It
+desc: Cifas Protective Registration flags your details so lenders run extra ID checks. £30 for two years. How it works, its limits and when it's worth it.
+keywords: cifas protective registration, protective registration uk, cifas identity fraud, stop someone taking credit in my name uk, protect identity after data breach uk
+tags: Identity Fraud|Credit Protection|United Kingdom|How To
+=== TLDR
+Cifas Protective Registration puts a warning flag on your name in the National Fraud Database so member organisations run extra identity checks before opening accounts in your name. It costs £30 for two years, can be removed any time, doesn't affect your credit score and doesn't slow down using cards you already have. It's most useful in the months after your details are stolen or leaked.
+
+=== BODY
+## The UK's nearest thing to a credit freeze
+
+Americans can freeze their credit files. The UK doesn't have an equivalent, so the closest tool is Cifas, the UK fraud prevention service. Its [Protective Registration](https://www.cifas.org.uk/pr) adds a warning flag to your details. When someone applies for credit, a bank account or a phone contract using those details, member organisations see the flag and run extra checks.
+
+## Key facts
+
+| | |
+|---|---|
+| Cost | £30 for two years |
+| Duration | 24 months, unless you remove it earlier |
+| Effect on credit score | None |
+| Effect on existing cards and accounts | None |
+| Effect on new applications | May take a little longer |
+| How to apply | Online only, individually per person |
+
+Cifas won't email you before it expires, so set a reminder.
+
+## When it's worth it
+
+Cifas suggests it for people at **heightened risk**, such as when:
+
+- your personal details have been stolen (lost purse, burglary, phished);
+- you've spotted unusual activity on your accounts;
+- an organisation you deal with has lost or leaked your data.
+
+It's most useful in the first few months after the incident. Cifas notes that using it after the threat has passed makes extra checks more common for everyone.
+
+## Its limits
+
+- Not every application is checked, and some companies may skip the extra check if risk looks low.
+- It's not insurance; it won't refund losses.
+- Each adult at an address must apply separately.
+
+So keep monitoring your credit report: free statutory reports and apps are available from the UK credit reference agencies. See [[how-to-check-your-credit-report-for-fraud|checking your credit report for fraud]].
+
+## How to apply
+
+Online only. The payment card must be in your name, with a billing address matching the address on your application.
+
+## If you're already a victim
+
+Report it to [Report Fraud](https://www.reportfraud.police.uk/) and see our [[how-to-report-identity-theft-uk|UK identity theft guide]]. Cifas can also record you as a victim of impersonation through some lenders. And check what's leaked with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: How much does Cifas Protective Registration cost?
+A: £30 for two years.
+Q: Does Protective Registration affect my credit score?
+A: No. It adds a fraud flag but doesn't change your score.
+Q: Will it slow down my applications?
+A: Genuine applications may take slightly longer due to extra identity checks.
+Q: Is it the same as a credit freeze?
+A: No. The UK doesn't have credit freezes; Protective Registration prompts extra checks but doesn't block applications.
+
+=== SOURCES
+https://www.cifas.org.uk/pr | Cifas: Protective Registration
+https://en.wikipedia.org/wiki/Cifas | Wikipedia: Cifas
+
+=== RELATED
+how-to-report-identity-theft-uk | How to Report Identity Theft in the UK
+identity-theft-statistics-uk-2026 | UK Identity Theft Statistics 2026
+uk-report-fraud-service-launch-january-2026-replaces-action-fraud | Report Fraud Replaces Action Fraud
+was-i-affected-by-the-m-and-s-co-op-cyber-attack | M&S and Co-op Cyber Attacks
+how-to-check-your-credit-report-for-fraud | Check Your Credit Report for Fraud

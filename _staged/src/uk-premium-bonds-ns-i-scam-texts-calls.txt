@@ -1,0 +1,71 @@
+slug: uk-premium-bonds-ns-i-scam-texts-calls
+country: UK
+title: Premium Bonds and NS&I Scams: How to Spot a Fake Prize Message
+h1: Fake Premium Bonds Prize Texts and NS&I Calls: How to Tell What's Real
+desc: Scammers use NS&I and Premium Bonds to fake prizes and security alerts. NS&I's own rules for texts, what it never sends, and how to report a fake.
+keywords: premium bonds scam, ns&i scam text, fake premium bonds prize, nsandi text scam, ns&i phone scam
+tags: Savings Scams|Text Scams|United Kingdom|What To Do
+=== TLDR
+Fake messages claim you've won a Premium Bonds prize or that your NS&I account needs urgent attention. NS&I says genuine texts always use the sender ID “NSandI” and sign off “NS&I,” and it never sends a link in a text that goes directly to its log-in page. Check prizes yourself on nsandi.com or the app, forward fakes to 7726 and report to Report Fraud.
+
+=== BODY
+## Why Premium Bonds are perfect bait
+
+Millions of Britons hold Premium Bonds, prizes are drawn monthly, and “you've won” is the most pleasant sentence in English. A fake prize message only needs to reach a holder at the right moment. Older savers are particularly targeted.
+
+## What NS&I says about its texts
+
+From [NS&I's text scam page](https://www.nsandi.com/get-to-know-us/security/text-message-scams):
+
+- Genuine texts use the sender ID **“NSandI”** and sign off **“NS&I.”**
+- NS&I **never sends a link in a text that goes directly to its log-in page**.
+- It won't ask you to enter your online banking details through a text.
+
+NS&I also has guidance on [phone call scams](https://www.nsandi.com/get-to-know-us/security/phone-call-scams).
+
+## Common fakes
+
+- “Congratulations, your Premium Bond has won £25,000. Claim here.”
+- “Your NS&I account has been suspended. Verify your details.”
+- Calls offering “guaranteed” NS&I-style bonds with better rates (often clone investment firms).
+- Messages from a supposed family member asking you to cash in bonds and send money.
+
+## How to check a prize
+
+Use the prize checker on nsandi.com or in the NS&I app, typed or opened yourself. Real winnings are paid to your nominated account or reinvested; you don't pay a fee to receive them. Any request for a release fee or tax upfront is a scam ([[what-is-advance-fee-fraud|advance fee fraud]]).
+
+## Report it
+
+NS&I's steps:
+
+1. **Stop**: don't reply, click or pay.
+2. **Verify** the sender using a number you already know is correct.
+3. **Forward** the text to **7726**.
+4. **Report** to [Report Fraud](https://www.reportfraud.police.uk/).
+5. If you think you've been scammed, **call NS&I immediately**.
+
+## Bond-style investment scams
+
+Some scammers offer “government-backed” or “NS&I partner” bonds at high rates. Check any firm on the FCA Firm Checker first ([[uk-fca-firm-checker-clone-firms-fca-impersonation|how]]). A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in breach lists sold to these callers.
+
+=== FAQ
+Q: How do I know a text from NS&I is real?
+A: NS&I says genuine texts use the sender ID "NSandI," sign off "NS&I," and never link directly to its log-in page.
+Q: Will NS&I text me about a Premium Bonds prize with a link?
+A: Check prizes yourself on nsandi.com or the app. NS&I won't send a text link straight to its log-in page.
+Q: Do I need to pay a fee to receive a Premium Bonds prize?
+A: No. Any fee request is a scam.
+Q: How do I report a fake NS&I text?
+A: Forward it to 7726 and report it to Report Fraud.
+
+=== SOURCES
+https://www.nsandi.com/get-to-know-us/security/text-message-scams | NS&I: Text message scams
+https://www.nsandi.com/get-to-know-us/security/phone-call-scams | NS&I: Phone call scams
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+what-is-lottery-sweepstakes-scams | Lottery and Sweepstakes Scams
+uk-peoples-postcode-lottery-scam-messages | People's Postcode Lottery Scams
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors
+pension-transfer-uk-scam-what-to-know | Pension Transfer Scams
+what-is-smishing | What Is Smishing?

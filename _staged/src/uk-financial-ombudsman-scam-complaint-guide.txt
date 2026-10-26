@@ -1,0 +1,77 @@
+slug: uk-financial-ombudsman-scam-complaint-guide
+country: UK
+title: Bank Won't Refund a Scam? Taking It to the Financial Ombudsman
+h1: Your Bank Refused to Refund a Scam. How the Financial Ombudsman Can Help
+desc: If your bank won't reimburse a scam, the free Financial Ombudsman Service can review it. When to go, what they look at and how often they side with customers.
+keywords: financial ombudsman scam complaint, bank refused scam refund uk, app scam ombudsman, complain bank scam reimbursement, fos fraud complaint
+tags: Scam Recovery|Banking|United Kingdom|How To
+=== TLDR
+If your bank won't refund money lost to a scam, complain to the bank first in writing. If you're unhappy with its final response, or it hasn't replied in eight weeks, you can take it to the Financial Ombudsman Service for free. In one record quarter the Ombudsman received 8,734 fraud and scam complaints and upheld 44% of them, well above its average across products. Since October 2024, UK rules also require most banks to reimburse APP scam victims up to £85,000, with exceptions.
+
+=== BODY
+## Step 1: complain to your bank
+
+Write to your bank (Which? has a [template letter](https://www.which.co.uk/consumer-rights/letter/letter-to-complain-to-your-bank-about-app-fraud-aopzR8V1RXO5)). Include:
+
+- what happened, with dates, amounts and the account you paid;
+- when you reported it;
+- why you think you should be reimbursed;
+- what you want (a refund plus interest).
+
+Keep everything: screenshots, messages, call logs.
+
+## Step 2: go to the Ombudsman
+
+If the bank's final response doesn't satisfy you, or it doesn't respond within eight weeks, you can refer it to the Financial Ombudsman Service. It's free and independent. You don't need a claims firm or lawyer, and using one will cost you a share of any payout.
+
+## How often customers win
+
+The Ombudsman's figures for April to June 2024, reported by [IFA Magazine](https://ifamagazine.com/fos-reports-fraud-and-scam-complaints-reach-highest-level-ever/):
+
+| Measure | Figure |
+|---|---|
+| Fraud and scam complaints in the quarter | 8,734 (record) |
+| Of which APP scams | 4,752 |
+| Uphold rate, fraud and scam complaints | 44% |
+| Average uphold rate across all products | 37% |
+| APP cases under the old CRM code upheld | 49% |
+| APP cases outside the code upheld | 36% |
+
+The Ombudsman said it handles around 500 fraud and scam complaints a week.
+
+## What's changed since
+
+From October 2024, the Payment Systems Regulator's rules require most UK payment firms to reimburse authorised push payment (APP) scam victims, now capped at £85,000 per claim, with exceptions (such as gross negligence or international payments). See [[uk-banks-reimbursed-249-million-app-scam-losses|how much banks have repaid]]. If your bank rejects you under these rules, the Ombudsman route still applies.
+
+## What the Ombudsman looks at
+
+- whether the bank should have spotted unusual payments and intervened;
+- the warnings it gave you, and whether they were effective;
+- whether you were vulnerable at the time;
+- whether you acted with gross negligence (a high bar).
+
+## Avoid a second scam
+
+Victims are often targeted by fake “recovery” services and fake Ombudsman or Report Fraud staff. The Ombudsman is free and doesn't cold-call asking for fees. See [[fake-action-fraud-recovery-scam-uk|fake recovery scams]]. And check your email's breach exposure with a free [[/digital-footprint-checker/|exposure check]], because victims' details get recycled.
+
+=== FAQ
+Q: When can I go to the Financial Ombudsman about a scam?
+A: After your bank gives a final response you're unhappy with, or if it hasn't responded within eight weeks.
+Q: Does the Financial Ombudsman cost anything?
+A: No. It's free for consumers.
+Q: How often does the Ombudsman side with scam victims?
+A: In April to June 2024 it upheld 44% of fraud and scam complaints, compared with a 37% average across products.
+Q: Do UK banks have to refund APP scams?
+A: Since October 2024 most must reimburse APP scam victims up to £85,000, with exceptions.
+
+=== SOURCES
+https://ifamagazine.com/fos-reports-fraud-and-scam-complaints-reach-highest-level-ever/ | IFA Magazine: FOS fraud and scam complaints reach highest level ever
+https://www.which.co.uk/consumer-rights/letter/letter-to-complain-to-your-bank-about-app-fraud-aopzR8V1RXO5 | Which?: Letter to complain to your bank about APP fraud
+https://www.financial-ombudsman.org.uk/ | Financial Ombudsman Service
+
+=== RELATED
+uk-action-fraud-crm-reimbursement-code | APP Fraud Reimbursement Rules
+uk-banks-reimbursed-249-million-app-scam-losses | UK Banks Reimbursed £249 Million
+uk-fraud-2025-uk-finance-app-scam-numbers | UK Fraud 2025 in Numbers
+how-to-report-a-scam-to-action-fraud-uk | How to Report a Scam in the UK
+already-got-scammed-international-recovery-guide | What to Do After a Scam

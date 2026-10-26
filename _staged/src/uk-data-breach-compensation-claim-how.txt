@@ -1,0 +1,66 @@
+slug: uk-data-breach-compensation-claim-how
+country: UK
+title: Can I Claim Compensation for a Data Breach in the UK?
+h1: Can You Claim Compensation After a Data Breach in the UK? What the ICO Says
+desc: UK data protection law lets you claim compensation for financial loss and distress. The ICO can't award it, so here's how claims actually work and the risks.
+keywords: data breach compensation uk, claim compensation data breach, ico compensation, gdpr compensation claim uk, distress data breach claim
+tags: Data Breach|Your Rights|United Kingdom|How To
+=== TLDR
+Yes, under UK data protection law you can claim compensation if an organisation broke the law and caused you harm, including non-financial harm like distress. But the ICO can't award compensation. You ask the organisation directly, and if it refuses, a court decides. If you can't show damage or distress you may get nothing and could pay the other side's costs, so the ICO strongly recommends independent legal advice first.
+
+=== BODY
+## The right exists
+
+According to the [ICO](https://ico.org.uk/for-the-public/data-protection-and-journalism/taking-your-case-to-court-and-claiming-compensation), you can claim compensation if an organisation broke data protection law and that caused you harm. That covers:
+
+- **material damage**, such as money you lost;
+- **non-material damage**, such as distress.
+
+## What the ICO does and doesn't do
+
+The ICO investigates complaints and can fine organisations, but it **cannot award you compensation**, even when it finds the organisation broke the law. Its findings can be useful evidence, but a court makes its own decision. If you want the ICO to look at how your data was handled, see [[how-to-complain-to-the-ico|how to complain to the ICO]].
+
+## How a claim works
+
+1. **Ask the organisation first.** Write explaining what happened, the harm it caused and what you want. Some organisations simply pay.
+2. **If it refuses**, write saying you intend to go to court. Courts expect you to have tried to settle.
+3. **Go to court** to enforce your rights, claim compensation, or both. There's court guidance for England and Wales, Scotland and Northern Ireland.
+4. **The judge decides the amount**, based on how serious the breach was and its impact on you.
+
+## The risks nobody mentions in the adverts
+
+“You could be owed £££ for the [big brand] breach” adverts are everywhere after a headline. The ICO's warning is sobering: if you can't show damage or distress, you may get nothing and **could be ordered to pay the other side's costs**. Take independent legal advice before claiming. If you use a claims firm, read the fees carefully and check them on the [FCA Firm Checker](https://www.fca.org.uk/consumers/protect-yourself-scams) or with the Solicitors Regulation Authority.
+
+And beware fake compensation calls: scammers love “you're owed money for a breach,” the same way they piggyback on [[uk-car-finance-compensation-scam-calls-texts|car finance redress]].
+
+## Build your evidence
+
+- keep the breach notification;
+- note what happened next (phishing attempts, fraud, time spent, stress);
+- keep bank statements showing losses;
+- ask for your data with a [[subject-access-request-dsar-guide|subject access request]].
+
+## Know what leaked
+
+Before claiming, it helps to know which breaches you're actually in. A free [[/digital-footprint-checker/|email exposure check]] shows the known breaches that include your email.
+
+=== FAQ
+Q: Can I get compensation for a data breach in the UK?
+A: Yes, if an organisation broke data protection law and caused you financial loss or distress.
+Q: Can the ICO award compensation?
+A: No. The ICO can't award compensation; you claim from the organisation or through the courts.
+Q: Can I claim for distress alone?
+A: Non-material damage like distress is covered, but you need to show it. Get legal advice first.
+Q: Is there a risk in claiming?
+A: Yes. If you can't show damage or distress you may get nothing and could be ordered to pay costs.
+
+=== SOURCES
+https://ico.org.uk/for-the-public/data-protection-and-journalism/taking-your-case-to-court-and-claiming-compensation | ICO: Taking your case to court and claiming compensation
+https://www.fca.org.uk/consumers/protect-yourself-scams | FCA: Protect yourself from scams
+
+=== RELATED
+how-to-complain-to-the-ico | How to Complain to the ICO
+subject-access-request-dsar-guide | Subject Access Request Guide
+gdpr-explained-what-you-can-request | GDPR: What You Can Request
+uk-asos-data-breach-what-customers-should-do | ASOS Data Breach
+was-i-affected-by-the-m-and-s-co-op-cyber-attack | M&S and Co-op Cyber Attacks

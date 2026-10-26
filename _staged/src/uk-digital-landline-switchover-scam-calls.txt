@@ -1,0 +1,67 @@
+slug: uk-digital-landline-switchover-scam-calls
+country: UK
+title: Digital Landline Switchover Scams: “Pay or Lose Your Phone Line”
+h1: The Digital Landline Switchover Scam: Fake Engineers, Fake Fees, Real Losses
+desc: Scammers pose as BT, Openreach or other providers, claiming you must pay to keep your landline as copper lines are switched off. How the real switchover works.
+keywords: digital switchover scam, landline switch off scam, bt digital voice scam call, openreach scam call, copper switch off scam uk
+tags: Phone Scams|Older People|United Kingdom|What To Do
+=== TLDR
+The UK is moving landlines from old copper networks to digital, with the switch-off deadline pushed to the end of 2027. Scammers pose as BT, Openreach or other providers, claiming you must pay or give bank details to keep your phone or telecare alarm working. Providers write to you well in advance and contact customers about four weeks before the move; there's no charge for the basic network change. Hang up and call the number on your bill.
+
+=== BODY
+## The real switchover, briefly
+
+UK phone networks are retiring old copper landlines and moving calls over broadband (“digital voice”). According to [Airband's explainer](https://www.airband.co.uk/copper-switch-off-scam/), the switch-off deadline moved from the end of 2025 to the **end of 2027**. Providers send written notice well ahead and contact customers about **four weeks** before to check they're ready. There's **no charge for the basic network transition**.
+
+## How the scam works
+
+Fraudsters use the confusion:
+
+- a cold call from “BT” or “Openreach” saying your line will be cut off unless you pay now;
+- a request for bank or card details to “keep your number”;
+- warnings that your **telecare or personal alarm** will stop working unless you act immediately;
+- a visit from an “engineer” who “upgrades” your equipment, then says you owe money;
+- phishing emails or texts with links about the switchover.
+
+Older people who rely on landlines and alarm pendants are the main target, which makes this particularly nasty. [ISPreview has reported](https://www.ispreview.co.uk/index.php/2025/01/scam-callers-target-broadband-isp-bts-uk-digital-voice-switchover.html) scam callers targeting broadband customers around BT's Digital Voice changes.
+
+## Red flags
+
+- payment demands on a cold call;
+- “act now or lose your service”;
+- threats about telecare or alarm devices;
+- unexpected doorstep visits;
+- hostility when you ask questions.
+
+## What to do
+
+1. Never give bank details to a cold caller.
+2. Say you'll call back, then use the number on your bill or the provider's website.
+3. For telecare, check with your alarm provider or council directly.
+4. Report scams to [Report Fraud](https://www.reportfraud.police.uk/) (0300 123 2040), and forward texts to 7726.
+
+## Help a relative
+
+Have a quick chat with older family and neighbours: real providers write first, and never need card details on a cold call. Our guides on [[protect-elderly-parents-from-phone-scams|protecting elderly parents]] and [[uk-telephone-preference-service-mailing-preference-service|registering with the TPS]] help cut the calls. A free [[/digital-footprint-checker/|email exposure check]] can show if their email has leaked.
+
+=== FAQ
+Q: When are UK copper landlines being switched off?
+A: The switch-off deadline has moved to the end of 2027, according to Airband.
+Q: Do I have to pay to switch to a digital landline?
+A: There's no charge for the basic network transition. Be wary of anyone demanding payment on a cold call.
+Q: Will my telecare alarm stop working?
+A: Check with your alarm provider directly. Scammers use alarm fears to pressure people.
+Q: How will my provider contact me?
+A: Providers send written notice in advance and contact customers about four weeks before the change.
+
+=== SOURCES
+https://www.airband.co.uk/copper-switch-off-scam/ | Airband: Copper switch-off scams
+https://www.ispreview.co.uk/index.php/2025/01/scam-callers-target-broadband-isp-bts-uk-digital-voice-switchover.html | ISPreview: Scam callers target BT Digital Voice switchover
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+protect-elderly-parents-from-phone-scams | Protect Elderly Parents From Phone Scams
+uk-telephone-preference-service-mailing-preference-service | TPS and MPS Guide
+what-is-tech-support-scams | Tech Support Scams
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors
+uk-roofing-gang-jailed-63-years-1m-fraud-older-homeowners | Roofing Gang Jailed for Targeting Older Homeowners

@@ -1,0 +1,67 @@
+slug: uk-barclays-scam-text-direct-debit-credit-card
+country: UK
+title: Barclays Scam Texts: “Direct Debit Set Up” and “Card Approved”
+h1: The Barclays “Direct Debit Set Up” and “Credit Card Approved” Texts Are Scams. Here's the Trick
+desc: Fake Barclays texts say a direct debit was set up or a £1,500 card approved, and give a number to call. That number reaches a scammer. How to spot and report it.
+keywords: barclays scam text, barclays direct debit scam text, barclays credit card approved text scam, fake barclays text message, report barclays phishing
+tags: Bank Scams|Text Scams|United Kingdom|What To Do
+=== TLDR
+Scam texts pretending to be Barclays say a direct debit has been set up, or a £1,500 credit card application approved, and give a phone number to call “if this wasn't you.” Which? has flagged both repeatedly in 2026. The number connects to a fraudster posing as Barclays' fraud team. Don't call it. Hang up and dial 159 or use the number on your card. Forward the text to 7726 and scam emails to internetsecurity@barclays.co.uk.
+
+=== BODY
+## The two versions
+
+Which? has logged them several times this year in its [scam alerts](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC):
+
+- **“A direct debit has been set up”** (May and September 2026): a direct debit you don't recognise, with a number to call to cancel it.
+- **“Your £1,500 credit card application has been approved”** (June 2026): an application you never made, and a number to call if it wasn't you. Which? noted that number had been spoofed in other scam texts.
+
+## Why it works
+
+Most scam texts ask you to click. These ask you to call, which feels like the careful thing to do. And the message is designed to make you ring *immediately*: someone is taking money or opening credit in your name. On the call, a calm “fraud adviser” takes your details, then talks you into moving money to a “safe account” or reading out a one-time passcode.
+
+## What Barclays says
+
+Barclays says it will never ask you to disclose your personal or security details by email or over the phone ([Barclays](https://www.barclayscorporate.com/digitalchannels/digital-channels-help-centre/security/report-a-suspicious-message.html)).
+
+## How to check
+
+- Open the Barclays app and look at your direct debits and recent activity.
+- If you're worried, call **159** or the number on the back of your card. Never the number in the text.
+- Real credit card approvals arrive after an application you made, not out of nowhere.
+
+## Report it
+
+- Forward the text to **7726**.
+- Forward scam emails to **internetsecurity@barclays.co.uk**.
+- If you lost money, report to [Report Fraud](https://www.reportfraud.police.uk/).
+
+## If you called the number
+
+If you shared card details, passcodes or moved money, call Barclays via 159 straight away. Change your online banking passcode. UK banks reimburse many authorised push payment victims; see [[uk-action-fraud-crm-reimbursement-code|reimbursement rules]]. Read [[uk-159-scam-hotline-how-it-works|how 159 works]] for next time.
+
+## Not a Barclays customer?
+
+You'll still get these. They're sent to huge lists hoping to hit customers. A free [[/digital-footprint-checker/|email exposure check]] shows if your details are in breach data. See also [[uk-bank-impersonation-scams-what-to-know|UK bank impersonation scams]].
+
+=== FAQ
+Q: Is the Barclays "direct debit set up" text real?
+A: Treat it as a scam. Check your direct debits in the app and call 159 or the number on your card if worried.
+Q: I got a text saying my Barclays credit card was approved. What should I do?
+A: Don't call the number in the text. Call 159 or the number on your card to check.
+Q: How do I report a Barclays scam?
+A: Forward texts to 7726 and emails to internetsecurity@barclays.co.uk.
+Q: Will Barclays ask for my security details on the phone?
+A: No. Barclays says it will never ask you to disclose personal or security details by email or phone.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Barclays texts, 2026)
+https://www.barclayscorporate.com/digitalchannels/digital-channels-help-centre/security/report-a-suspicious-message.html | Barclays: Report a suspicious message
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams
+uk-159-scam-hotline-how-it-works | How 159 Works
+uk-courier-fraud-fake-bank-investigators-explained | Courier Fraud Explained
+why-you-should-never-share-otp | Why You Should Never Share an OTP
+what-is-smishing | What Is Smishing?

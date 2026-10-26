@@ -1,0 +1,71 @@
+slug: uk-notice-of-correction-credit-report
+country: UK
+title: Notice of Correction: Explain Your Credit Report in 200 Words
+h1: How to Add a Notice of Correction to Your UK Credit Report (and When It Helps)
+desc: A notice of correction lets you add up to 200 words to your credit file to explain accurate but unfair-looking entries. How to add one at all three agencies.
+keywords: notice of correction credit report, how to add notice of correction, notice of correction uk, explain missed payment credit report, notice of dispute credit report
+tags: Credit Reports|Identity Fraud|United Kingdom|How To
+=== TLDR
+A notice of correction is a free statement of up to 200 words you can add to your UK credit report to explain something accurate, like missed payments during illness or a fraud-related entry. Lenders read it when you apply. It doesn't change your score, may slow applications slightly, and has to be added separately at TransUnion, Experian and Equifax. If information is wrong, use a notice of dispute instead.
+
+=== BODY
+## What it is
+
+From [TransUnion's guide](https://www.transunion.co.uk/consumer/credit-report-help/what-is-a-notice-of-correction-and-how-can-i-add-one-to-my-credit-report-if-needed): a short statement you add to your credit report for anyone who searches your file. It explains **accurate** information. For **inaccurate** information, you use a separate Notice of Dispute.
+
+## The rules
+
+- **No more than 200 words.**
+- Relevant and accurate.
+- Not trivial, rude or libellous.
+- Must not blame or name another person or company.
+
+So “My ex-partner ran up debts on our joint account” won't fly, but “Payments were missed in March to June 2025 while I was in hospital; the account has been up to date since” will.
+
+## When it helps
+
+- explaining missed payments during illness, bereavement or redundancy;
+- explaining why there's no electoral register record (e.g., you've just moved to the UK);
+- after identity fraud, explaining that accounts or searches weren't yours while they're being removed (check with the agency on wording).
+
+## How to add one
+
+At TransUnion: use its online form or write to its Consumer Services Team. **It doesn't carry over**: add it separately at Experian and Equifax too.
+
+Lenders see it during applications. It's free, won't affect your score, but may make applications take a little longer while someone reads it.
+
+## If you're a fraud victim
+
+Notice of correction is only one tool. Also:
+
+1. report to [Report Fraud](https://www.reportfraud.police.uk/);
+2. ask the lender to remove the fraudulent account;
+3. dispute the entry with each agency;
+4. consider [[uk-cifas-protective-registration-explained|Cifas Protective Registration]].
+
+See our [[how-to-report-identity-theft-uk|UK identity theft guide]] and [[how-to-check-your-credit-report-for-fraud|how to check your report for fraud]].
+
+## Spot problems early
+
+Many UK identity fraud cases start with breached personal data. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email has been in a breach, a hint that more of your details may be circulating.
+
+=== FAQ
+Q: What is a notice of correction?
+A: A statement of up to 200 words added to your credit report to explain accurate information to lenders.
+Q: Does a notice of correction affect my credit score?
+A: No, but it may make applications take slightly longer to process.
+Q: Do I need to add it at all three agencies?
+A: Yes. A notice added at TransUnion doesn't carry over to Experian or Equifax.
+Q: What if the information on my report is wrong?
+A: Use a Notice of Dispute and ask the agency to investigate.
+
+=== SOURCES
+https://www.transunion.co.uk/consumer/credit-report-help/what-is-a-notice-of-correction-and-how-can-i-add-one-to-my-credit-report-if-needed | TransUnion UK: What is a notice of correction?
+https://www.checkmyfile.com/help-centre/articles/what-is-a-statutory-credit-report-what-to-know-and-how-to-find-yours | Checkmyfile: What is a statutory credit report?
+
+=== RELATED
+how-to-check-your-credit-report-for-fraud | Check Your Credit Report for Fraud
+how-to-report-identity-theft-uk | Report Identity Theft in the UK
+uk-cifas-protective-registration-explained | Cifas Protective Registration
+identity-theft-statistics-uk-2026 | UK Identity Theft Statistics 2026
+how-long-to-recover-from-identity-theft | How Long to Recover From Identity Theft

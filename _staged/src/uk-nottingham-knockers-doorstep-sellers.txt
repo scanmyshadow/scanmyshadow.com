@@ -1,0 +1,59 @@
+slug: uk-nottingham-knockers-doorstep-sellers
+country: UK
+title: Nottingham Knockers: The Doorstep Sellers Police Warn About
+h1: “Nottingham Knockers”: Doorstep Sellers Claiming to Be on a Rehab Scheme
+desc: Young men selling cheap goods door to door, claiming to be on probation or rehab schemes, sometimes scoping homes. What police say and how to handle the door.
+keywords: nottingham knockers, doorstep sellers scam uk, rehabilitation scheme doorstep scam, door to door sellers police warning, doorstep crime advice
+tags: Doorstep Scams|Older People|United Kingdom|Personal Safety
+=== TLDR
+“Nottingham Knockers” are doorstep sellers, usually young men, who claim to be on a probation or rehabilitation scheme and sell cheap, poor-quality goods. Police forces across the UK warn they often target older or vulnerable people and may be scoping homes for burglary; some have become aggressive. Which? flagged them again in August 2026. Don't open the door, don't engage, note details and call 101 (or 999 if threatened).
+
+=== BODY
+## Who they are
+
+[North Wales Police](https://wrexham.com/news/police-warn-of-door-to-door-nottingham-knockers-scam-targeting-residents-280182.html) describes young men going door to door claiming to be part of a probation or rehabilitation scheme, often showing fake ID, and selling cheap, poor-quality goods.
+
+[Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) also warned in August 2026 that callers raising money, running rehabilitation schemes or selling cheap goods may be rogue traders or gathering information on older or vulnerable residents.
+
+## The real risk
+
+It isn't the overpriced household goods. Police say the visits may be used to work out who lives alone, who has cash or valuables, and which homes are easy targets. In some areas sellers have become violent or forced their way in.
+
+## How to handle the doorstep
+
+- **Don't open the door.** Speak through a closed door or window if needed.
+- **Don't engage** or buy anything.
+- **Note details**: description, direction they went, vehicle registration.
+- **Report** to police on **101** or online. If you feel threatened, call **999**.
+- **Tell neighbours**, especially older ones.
+
+A door chain or video doorbell helps, though secure the doorbell's privacy settings ([[how-to-secure-a-smart-doorbell-camera|how]]).
+
+## Related doorstep scams
+
+Rogue roofers and “your tiles are loose” builders are a bigger money risk; see the [[uk-roofing-gang-jailed-63-years-1m-fraud-older-homeowners|roofing gang jailed for £1m fraud]]. Many councils run “no cold calling” zones and Trading Standards schemes you can join.
+
+## The online equivalent
+
+Scammers also scope people online: public profiles, addresses on people-finder sites and leaked emails. Remove your address from [[uk-192-com-remove-your-details|192.com]] and check your breach exposure with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: Who are Nottingham Knockers?
+A: Doorstep sellers, usually young men, who claim to be on a probation or rehabilitation scheme and sell cheap, poor-quality goods.
+Q: Are Nottingham Knockers dangerous?
+A: Police warn some visits may be scoping homes for burglary, and some sellers have become aggressive.
+Q: What should I do if they knock?
+A: Don't open the door or engage. Note details and report to police on 101, or 999 if threatened.
+Q: Are rehabilitation schemes real?
+A: Police describe the claims and IDs used by these sellers as fake.
+
+=== SOURCES
+https://wrexham.com/news/police-warn-of-door-to-door-nottingham-knockers-scam-targeting-residents-280182.html | Wrexham.com: Police warn of Nottingham Knockers scam
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Aug 17, 2026)
+
+=== RELATED
+uk-roofing-gang-jailed-63-years-1m-fraud-older-homeowners | Roofing Gang Jailed
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors
+how-to-secure-a-smart-doorbell-camera | Secure a Smart Doorbell Camera
+protect-elderly-parents-from-phone-scams | Protect Elderly Parents
+uk-telephone-preference-service-mailing-preference-service | TPS and MPS Guide

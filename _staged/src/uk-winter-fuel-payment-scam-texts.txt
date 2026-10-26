@@ -1,0 +1,73 @@
+slug: uk-winter-fuel-payment-scam-texts
+country: UK
+title: Winter Fuel Payment Scam Texts: You Don't Need to Apply
+h1: Winter Fuel Payment Scam Texts: Why “Apply Now” Is the Giveaway
+desc: Fake DWP texts tell pensioners to "apply" for the Winter Fuel Payment via a link. Most eligible people are paid automatically. Real 2026-27 facts and what to do.
+keywords: winter fuel payment scam, winter fuel payment text scam, dwp scam text winter fuel, fake winter fuel payment apply, winter fuel payment 2026
+tags: Government Impersonation|Pensioners|United Kingdom|Scam Alert
+=== TLDR
+Every autumn, fake DWP texts tell older people to “apply” for their Winter Fuel Payment through a link, sometimes asking for a small transfer to “check” their card. Most eligible people are paid automatically and don't need to do anything. For winter 2026 to 2027, payments are £100 to £300 for people born on or before 27 June 1960, with letters in October or November and most payments in November or December. Delete the text and forward it to 7726.
+
+=== BODY
+## The fake text
+
+[Take Five](https://www.takefive-stopfraud.org.uk/news/winter-fuel-payment-scam-texts/) has warned about criminals posing as the Department for Work and Pensions and texting people to “apply” for their Winter Fuel Payment. Some ask for a small payment to “check” your card. The link leads to a site that collects bank details.
+
+## The real payment, 2026 to 2027
+
+According to [GOV.UK](https://www.gov.uk/winter-fuel-payment):
+
+| | |
+|---|---|
+| Who | People born on or before 27 June 1960 (subject to eligibility rules) |
+| Amount | £100 to £300 |
+| Claim? | Most eligible people are paid automatically |
+| Letter | In October or November, stating the amount |
+| Payment | Most in November or December 2026 |
+| Higher incomes | If your total income is over £35,000, HMRC takes it back |
+| Scotland | Not available; check Pension Age Winter Heating Payment instead |
+
+So the real system mostly runs itself. A text asking you to apply, click or pay is not how it works.
+
+## The giveaways
+
+- “Apply now” or “claim before the deadline.”
+- A link, especially one not ending in gov.uk.
+- A request for bank details or a small “verification” payment.
+- Pressure: “payments close tonight.”
+
+Take Five's line is the one to remember: “You do not need to do anything to receive the Winter Fuel Payment if you are eligible.”
+
+## What to do
+
+- Don't click. Mark the message as junk and delete it.
+- Forward it to **7726**.
+- Check facts only on gov.uk, typed in yourself.
+- If you shared bank details, call your bank on the number on your card or dial **159**, and report it to [Report Fraud](https://www.reportfraud.police.uk/).
+
+## Help an older relative
+
+These texts target exactly the people who receive the payment. Our guides on [[protect-elderly-parents-from-phone-scams|protecting elderly parents]] and [[talk-to-parents-about-scam-prevention|talking to parents about scams]] have easy scripts. A simple house rule: the government doesn't text links for money you're owed. We also cover [[dwp-scam-what-to-know|other DWP scams]].
+
+A free [[/digital-footprint-checker/|email exposure check]] can show whether a parent's email is in breach data that scammers use to target them.
+
+=== FAQ
+Q: Do I need to apply for the Winter Fuel Payment?
+A: Most eligible people get it automatically and don't need to do anything, according to GOV.UK.
+Q: How much is the Winter Fuel Payment for 2026 to 2027?
+A: Between £100 and £300, for people born on or before 27 June 1960.
+Q: When is it paid?
+A: Most eligible people are paid in November or December 2026, after a letter in October or November.
+Q: What should I do with a Winter Fuel Payment text?
+A: Don't click. Delete it and forward it to 7726. If you shared bank details, call your bank or 159.
+
+=== SOURCES
+https://www.gov.uk/winter-fuel-payment | GOV.UK: Winter Fuel Payment
+https://www.takefive-stopfraud.org.uk/news/winter-fuel-payment-scam-texts/ | Take Five: Winter Fuel Payment scam texts
+
+=== RELATED
+dwp-scam-what-to-know | DWP Scams: What to Know
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors
+uk-abuse-of-position-fraud-51-million-over-70s | Abuse of Position Fraud Against Over-70s
+uk-159-scam-hotline-how-it-works | How 159 Works
+what-is-smishing | What Is Smishing?

@@ -1,0 +1,76 @@
+slug: uk-7726-how-to-report-scam-texts-calls
+country: UK
+title: How to Report Scam Texts and Calls to 7726 (iPhone and Android)
+h1: 7726: How to Report Scam Texts and Calls in the UK, Step by Step
+desc: Forwarding scam texts and calls to 7726 is free and helps networks block them. Exact steps for iPhone and Android, plus what to do with WhatsApp and emails.
+keywords: 7726 report scam text, how to report scam text uk, forward text to 7726 iphone, report scam call 7726, spam text reporting uk
+tags: Text Scams|Reporting|United Kingdom|How To
+=== TLDR
+7726 (it spells SPAM on a keypad) is a free UK service for reporting scam texts and calls. Forward the text to 7726, or text the scam caller's number to 7726, and your network can investigate and block it. On iPhone: press and hold the message, tap More, tap the forward arrow, send to 7726. On Android: press and hold, Forward, send to 7726. WhatsApp scams go through WhatsApp's own report button; emails go to report@phishing.gov.uk.
+
+=== BODY
+## Why bother?
+
+Because it works. Networks use 7726 reports to find and block the numbers scammers use. O2 says it has blocked more than a billion scam messages, and its fraud director put it simply: “Every report to 7726 helps us act faster to shut down scams at source” ([[uk-o2-inactive-sim-scam-text|O2's warning]]). Thirty seconds of your time can spare a neighbour.
+
+## Report a text
+
+From [Ofcom's 7726 guide](https://ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/7726-reporting-scam-texts-and-calls):
+
+**iPhone**
+1. Press and hold the message.
+2. Tap **More**.
+3. Tap the **forward arrow**.
+4. Send it to **7726**.
+
+**Android**
+1. Press and hold the message.
+2. Choose **Forward**.
+3. Send it to **7726**.
+
+You may get a reply asking for the sender's number; just send it.
+
+## Report a call
+
+Open your recent calls, copy the number and text it to **7726**. On iPhone you can text “call” followed by the number; on Android, text “call” and follow the prompts ([Which?'s version of the steps](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC)).
+
+## It's free
+
+Ofcom says the service is free for both texts and calls.
+
+## Other message types
+
+- **iMessage and RCS chats**: use your phone's built-in “Report Junk” or report option; you can also forward to 7726 to cover both bases.
+- **WhatsApp, Telegram, Signal**: use the app's own block and report features. These usually can't be forwarded to 7726.
+- **Emails**: forward to **report@phishing.gov.uk** (the NCSC's Suspicious Email Reporting Service).
+- **Scam websites**: report to the NCSC.
+
+## And if you lost money
+
+Reporting to 7726 helps others, but it doesn't get your money back. Call your bank on the number on your card or dial **159**, then report to [Report Fraud](https://www.reportfraud.police.uk/). See [[how-to-report-a-scam-to-action-fraud-uk|how to report fraud in the UK]].
+
+## Why you get so many
+
+Scam texts go out to lists built from breached data. A free [[/digital-footprint-checker/|email exposure check]] shows if your details are already circulating.
+
+=== FAQ
+Q: Is 7726 free?
+A: Yes. Ofcom says reporting texts and calls to 7726 is free.
+Q: How do I forward a text to 7726 on iPhone?
+A: Press and hold the message, tap More, tap the forward arrow and send it to 7726.
+Q: Can I report WhatsApp messages to 7726?
+A: Usually not. Use WhatsApp's own report and block feature.
+Q: Where do I report scam emails in the UK?
+A: Forward them to report@phishing.gov.uk.
+
+=== SOURCES
+https://ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/7726-reporting-scam-texts-and-calls | Ofcom: 7726, reporting scam texts and calls
+https://www.ncsc.gov.uk/collection/phishing-scams/report-scam-text-message | NCSC: Report a scam text message
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+how-to-report-a-scam-to-action-fraud-uk | How to Report a Scam in the UK
+uk-report-fraud-service-launch-january-2026-replaces-action-fraud | Report Fraud Replaces Action Fraud
+uk-ofcom-rules-block-scam-texts-mobile-operators-2027 | Ofcom Rules to Block Scam Texts
+what-is-smishing | What Is Smishing?
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing

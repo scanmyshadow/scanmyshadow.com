@@ -1,0 +1,61 @@
+slug: uk-council-tax-refund-band-reduction-scam
+country: UK
+title: Council Tax Refund or Band Reduction Texts: It's a Scam
+h1: “You're Owed a Council Tax Refund”: How the Council Tax Scam Works
+desc: Fake texts and calls say you're owed a council tax refund or band reduction, or offer to clear arrears for a fee. What councils say and how to check.
+keywords: council tax scam, council tax refund scam text, council tax band reduction scam, council tax rebate scam, fake council tax message
+tags: Government Impersonation|Text Scams|United Kingdom|What To Do
+=== TLDR
+Scam texts and calls claim you're owed a council tax refund or band reduction, or offer to clear arrears for a fee, then send you to a fake website for your card or bank details. Wandsworth Council warned about these in April 2026. Real council tax issues are handled through your council's own website or contact details; never pay or share bank details through a link in a text.
+
+=== BODY
+## What the messages say
+
+[Wandsworth Council's warning](https://wandsworth.gov.uk/news/news-april-2026/warning-issued-over-scam-council-tax-messages/) describes texts sending residents to a fake site asking for payment. It says a message is a scam if it:
+
+- asks for card or bank details;
+- says you're entitled to a **refund or band reduction**;
+- offers to **clear council tax arrears for a fee**.
+
+Phone versions often promise to “reband” your home for a fee, with a refund to follow. There's no refund to follow.
+
+## Why it works
+
+Council tax is a big bill, bands do occasionally change, and refunds after overpayment are real. A message saying you overpaid sounds plausible, especially in spring when new bills arrive.
+
+## How real changes happen
+
+You can challenge your council tax band yourself, free, through the Valuation Office Agency (or the Scottish Assessors in Scotland). Refunds for overpayment come from your own council's revenues team. Nobody needs your card details to give you money back.
+
+## What to do
+
+- Don't click links, pay or share bank details.
+- Delete the message and forward texts to **7726**.
+- If you're struggling to pay, contact your council through its own website.
+- If you've lost money, call your bank (or **159**) and report it to [Report Fraud](https://www.reportfraud.police.uk/) on 0300 123 2040.
+
+## Similar “money back” scams
+
+Fake HMRC tax refunds ([[hmrc-ato-mygov-tax-scam-texts-emails|HMRC scam texts]]), [[uk-winter-fuel-payment-scam-texts|Winter Fuel Payment texts]] and energy “rebate” messages all use the same hook: you're owed money, just enter your card. A free [[/digital-footprint-checker/|email exposure check]] shows if your details are in breach data scammers buy.
+
+=== FAQ
+Q: Do councils text about council tax refunds?
+A: Treat refund or band reduction texts with links as scams. Contact your council through its own website to check.
+Q: Can someone reband my house for a fee?
+A: You can challenge your band yourself for free. Paid "rebanding" offers by cold call are a common scam.
+Q: What should I do with a council tax scam text?
+A: Don't click. Forward it to 7726 and delete it.
+Q: I paid a council tax scammer. What now?
+A: Call your bank or 159 immediately and report it to Report Fraud.
+
+=== SOURCES
+https://wandsworth.gov.uk/news/news-april-2026/warning-issued-over-scam-council-tax-messages/ | Wandsworth Council: Warning issued over scam Council Tax messages (Apr 17, 2026)
+https://www.wirral.gov.uk/council-tax/council-tax-scams | Wirral Council: Council Tax scams
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+hmrc-ato-mygov-tax-scam-texts-emails | HMRC Tax Scam Texts
+dvla-scam-what-to-know | DVLA Scams
+uk-winter-fuel-payment-scam-texts | Winter Fuel Payment Scam Texts
+what-is-smishing | What Is Smishing?
+uk-7726-how-to-report-scam-texts-calls | How to Report to 7726

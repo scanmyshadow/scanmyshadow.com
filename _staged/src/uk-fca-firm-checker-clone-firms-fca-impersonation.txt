@@ -1,0 +1,65 @@
+slug: uk-fca-firm-checker-clone-firms-fca-impersonation
+country: UK
+title: How to Check a Firm on the FCA Register (and Spot Clone Firms)
+h1: Before You Invest or Claim: How to Check a Firm With the FCA, and Spot Fake “FCA” Texts
+desc: Use the FCA Firm Checker and Warning List to check investment and claims firms, avoid clone firms that copy real ones, and spot scammers posing as the FCA.
+keywords: fca register check, fca firm checker, clone firm scam uk, fca warning list, fca impersonation scam text, check if company is fca authorised
+tags: Investment Scams|FCA|United Kingdom|How To
+=== TLDR
+Before investing or using a claims firm, check it on the FCA Firm Checker, typed in yourself. Match the firm reference number and contact details exactly, because clone firms copy real firms' names and numbers. If details are missing, call the FCA on 0800 111 6768. Also check the FCA Warning List. And remember: the FCA will never ask you to transfer money or for your PINs or passwords, so “FCA” texts saying your data is at risk are scams.
+
+=== BODY
+## Step 1: use the Firm Checker properly
+
+The [FCA's guidance](https://www.fca.org.uk/consumers/protect-yourself-scams) is precise:
+
+- Use the FCA Firm Checker at its official address. **Never click links in emails or on company websites** to reach it: that could be part of the scam.
+- Check the **firm reference number (FRN)** and **contact details** match what's on the Firm Checker.
+- If there are no contact details, or the firm says they're out of date, **call the FCA on 0800 111 6768**.
+
+## Step 2: understand clone firms
+
+Clone firms pretend to be real authorised firms. They copy the name, FRN, even the address, and change only the phone number, email or website. A clone passes a lazy check (“yes, that name is on the register!”) and fails a careful one. So always contact the firm using the details on the Firm Checker, never the ones the firm gave you.
+
+## Step 3: check the Warning List
+
+The FCA keeps a Warning List of unauthorised firms. If a firm is on it, walk away. If it isn't, that doesn't mean it's safe; new scam firms appear daily.
+
+## Fake “FCA” messages
+
+Which? flagged a May 2026 text claiming to be from the FCA, saying your details appeared in a fraud report and your data was at risk; callers then asked for name, bank and balance ([Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC)). The FCA says: “We'd never ask you to transfer money to us,” and it never asks for bank PINs or passwords.
+
+Variations include “FCA recovery services” offering to get back money you lost to a previous scam. That's a second scam; see [[fake-action-fraud-recovery-scam-uk|fake recovery scams]].
+
+## Where this matters most
+
+- investment platforms advertised on social media ([[deepfake-investment-scams-digital|deepfake ads]] are common);
+- pension transfers ([[pension-transfer-uk-scam-what-to-know|pension scams]]);
+- claims firms for [[uk-car-finance-compensation-scam-calls-texts|car finance compensation]];
+- anyone cold-calling you about shares, bonds or crypto.
+
+## Report it
+
+Report suspicious firms to the FCA (0800 111 6768 or its contact form). If you've lost money, report to [Report Fraud](https://www.reportfraud.police.uk/) on 0300 123 2040. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in the breach lists that investment scammers buy.
+
+=== FAQ
+Q: How do I check if a firm is FCA authorised?
+A: Use the FCA Firm Checker, typed in yourself, and match the firm reference number and contact details exactly.
+Q: What is a clone firm?
+A: A scam that copies a real authorised firm's name and details but uses different contact details.
+Q: Does the FCA contact people about data at risk?
+A: Treat such messages as scams. The FCA says it would never ask you to transfer money or for PINs or passwords.
+Q: What is the FCA's phone number?
+A: 0800 111 6768.
+
+=== SOURCES
+https://www.fca.org.uk/consumers/protect-yourself-scams | FCA: Protect yourself from scams
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (FCA text, May 2026)
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+investment-fraud-losses-us-uk-canada-australia-2025 | Investment Fraud Losses 2025
+uk-fca-global-week-of-action-finfluencers-2026 | FCA Global Week of Action on Finfluencers
+uk-boiler-room-binary-options-boss-jailed-singapore | Boiler Room Boss Jailed
+pension-transfer-uk-scam-what-to-know | Pension Transfer Scams
+fake-action-fraud-recovery-scam-uk | Fake Action Fraud Recovery Scam

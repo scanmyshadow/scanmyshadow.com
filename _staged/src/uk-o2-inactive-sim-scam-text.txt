@@ -1,0 +1,65 @@
+slug: uk-o2-inactive-sim-scam-text
+country: UK
+title: O2 “Inactive SIM” Scam Text: Your SIM Isn't Being Switched Off
+h1: The O2 “Your SIM Will Become Inactive” Text, and the O2 Bill Discount Calls
+desc: Fake O2 texts say your SIM will be deactivated unless you accept new terms, and callers offer bill discounts then ask for a passcode. How both scams work.
+keywords: o2 inactive sim scam, o2 scam text, o2 sim deactivated text, o2 scam call discount, o2 7726 report
+tags: Mobile Networks|Text Scams|United Kingdom|What To Do
+=== TLDR
+O2 warned on June 30, 2026 about texts claiming your SIM will become inactive unless you sign updated terms, linking to a fake O2 site that steals your My O2 login. Separately, Which? flagged calls from spoofed UK numbers offering O2 bill discounts, then asking for a one-time passcode. O2 doesn't text asking you to sign new terms or lose your SIM. Check in the My O2 app or by calling 202, and forward scam texts to 7726.
+
+=== BODY
+## Scam 1: the inactive SIM text
+
+According to [Virgin Media O2](https://news.virginmediao2.co.uk/o2-warns-of-new-inactive-sim-scam-calling-on-customers-to-report-to-7726/):
+
+- fraudsters text O2 customers saying their SIM will soon become inactive;
+- the SIM will be deactivated unless they sign updated terms and conditions;
+- a link leads to a fake O2 website asking you to log in;
+- the aim is to capture My O2 usernames and passwords and take over accounts.
+
+O2 says it has blocked **over 1 billion scam messages** to date, thousands of them linked to this scam.
+
+## Why your phone account matters
+
+A hijacked mobile account can be used to order new phones on your contract or move your number to a new SIM (a [[sim-swap-fraud-how-it-works-and-how-to|SIM swap]]), which then receives your bank's security codes. It's not about your phone bill; it's about everything your number unlocks.
+
+## Scam 2: the bill discount call
+
+Which? flagged [calls from spoofed UK mobile numbers](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) offering fake O2 bill discounts. The caller triggers a one-time passcode to your phone, then asks you to read it out. That code lets them into your account. A discount that requires your security code isn't a discount.
+
+## How to tell what's real
+
+- O2 **doesn't text** asking you to sign new terms or risk losing your SIM.
+- Genuine O2 texts on many smartphones show under a verified **“O2”** sender, not a mobile number.
+- Check anything in the **My O2 app** or by calling **202** from an O2 phone.
+- Never read out a code sent to you.
+
+## What to do
+
+1. Forward scam texts to **7726** (works on all networks).
+2. If you entered your login, **change your My O2 password** immediately and add a PIN to your account.
+3. If you shared a code, call O2 and ask them to check for SIM or upgrade orders.
+
+Our guide on [[how-to-block-a-swapped-sim-card|blocking a swapped SIM]] helps if your phone suddenly loses signal. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email and number are in breach data.
+
+=== FAQ
+Q: Will O2 deactivate my SIM if I don't sign new terms?
+A: No. O2 says it doesn't text customers asking them to sign new terms or risk losing their SIM.
+Q: How do I check if an O2 message is real?
+A: Use the My O2 app or call 202 from an O2 device. Genuine texts often show a verified "O2" sender.
+Q: Someone from O2 asked for a code to apply a discount. Is it real?
+A: No. Never share a one-time passcode with a caller.
+Q: How do I report an O2 scam text?
+A: Forward it to 7726, which works on all UK networks.
+
+=== SOURCES
+https://news.virginmediao2.co.uk/o2-warns-of-new-inactive-sim-scam-calling-on-customers-to-report-to-7726/ | Virgin Media O2: O2 warns of new inactive SIM scam (Jun 30, 2026)
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (O2 calls, Aug 2026)
+
+=== RELATED
+ee-mobile-scam-what-to-know | EE Mobile Scams
+vodafone-uk-scam-what-to-know | Vodafone UK Scams
+sim-swap-fraud-how-it-works-and-how-to | SIM Swap Fraud Explained
+why-you-should-never-share-otp | Why You Should Never Share an OTP
+how-to-tell-if-your-sim-was-cloned | Signs Your SIM Was Cloned

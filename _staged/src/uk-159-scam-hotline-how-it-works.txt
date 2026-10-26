@@ -1,0 +1,68 @@
+slug: uk-159-scam-hotline-how-it-works
+country: UK
+title: Call 159: The UK Number That Gets You to Your Real Bank
+h1: 159: The Three-Digit Number to Call When “Your Bank” Rings You
+desc: 159 connects you to your real bank's fraud team and can't be spoofed. Which banks take part, when to use it and why it beats calling back.
+keywords: 159 scam hotline, call 159 bank, stop scams uk 159, 159 number bank fraud, how does 159 work
+tags: Bank Scams|Phone Scams|United Kingdom|How To
+=== TLDR
+If you get an unexpected call about your money, hang up and dial 159. Run by Stop Scams UK, it connects customers of more than 99% of UK current accounts straight to their own bank, and it can't be spoofed. Over a million calls have been made to it. Banks involved include Barclays, HSBC, Lloyds, Monzo, Nationwide, NatWest, Revolut, Santander, Starling and many more.
+
+=== BODY
+## Why 159 exists
+
+Bank impersonation scams rely on one moment: you're on the phone with someone who sounds exactly like your bank, and you can't check. Calling back the number they give you just reconnects you with them. Even calling the number on your card can be risky if the scammer keeps the line open. [Stop Scams UK](https://www.stopscamsuk.org.uk/159) built 159 as a short, memorable number that only goes to real banks.
+
+## How to use it
+
+1. Get an unexpected call, text or message about your bank account or money.
+2. **Hang up.**
+3. Ideally, call from a different phone, or wait a few minutes.
+4. **Dial 159** and choose your bank.
+
+That's it. If the call was genuine, your bank's fraud team can tell you. If not, you've just saved your savings.
+
+## Which banks take part?
+
+Stop Scams UK lists: Bank of Scotland, Barclays, Cater Allen, Chase, Co-operative Bank, Danske Bank, First Direct, HSBC, Lloyds Bank, Metro Bank, Modulr, Monzo, Nationwide, NatWest, Revolut, Spring Savings, RBS, Santander, Starling Bank, Tide, True Potential, TSB, Ulster Bank, Virgin Money and Zempler. Together they cover more than 99% of UK retail current accounts.
+
+## Why it can't be faked
+
+159 is a special short code routed by phone networks. Scammers can fake the number that shows up on *your* phone, but they can't intercept a call you make to 159. That's the whole trick: you control the direction of the call.
+
+## When to use it
+
+- “Your account has been compromised, move your money to a safe account.”
+- “We've stopped a payment, confirm your details.”
+- A courier will come to collect your card ([[uk-courier-fraud-fake-bank-investigators-explained|courier fraud]]).
+- “This is the police; we need your help with an investigation into your bank.”
+
+In every one of these, a real bank would be fine with you hanging up and calling 159.
+
+## If you already sent money
+
+Call 159 straight away, then report to [Report Fraud](https://www.reportfraud.police.uk/). UK banks reimburse many authorised push payment victims under the reimbursement rules; see [[uk-action-fraud-crm-reimbursement-code|APP fraud reimbursement]] and [[uk-banks-reimbursed-249-million-app-scam-losses|how much banks repaid]].
+
+Scam callers often know your name and bank already, usually from leaked data. A free [[/digital-footprint-checker/|email exposure check]] shows what's out there.
+
+=== FAQ
+Q: What is 159?
+A: A UK phone number run by Stop Scams UK that connects you directly to your own bank's fraud team.
+Q: Can scammers spoof 159?
+A: Stop Scams UK says it cannot be spoofed or impersonated, because you are the one dialling it.
+Q: Which banks are on 159?
+A: Most major UK banks, including Barclays, HSBC, Lloyds, Monzo, Nationwide, NatWest, Revolut, Santander and Starling, covering over 99% of current accounts.
+Q: When should I call 159?
+A: Whenever you get an unexpected call or message about your money. Hang up first, then dial 159.
+
+=== SOURCES
+https://www.stopscamsuk.org.uk/159 | Stop Scams UK: 159
+https://www.which.co.uk/news/article/can-the-new-159-anti-fraud-hotline-stop-impersonation-scams-a3sp35C1gDCC | Which?: Can the 159 hotline stop impersonation scams?
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams
+uk-courier-fraud-fake-bank-investigators-explained | Courier Fraud Explained
+uk-politeness-scam-calls-take-five-53-percent | Politeness and Scam Calls
+uk-derbyshire-fake-police-phone-call-scam-warning-banking-protocol | Fake Police Calls and the Banking Protocol
+uk-fraud-2025-uk-finance-app-scam-numbers | UK Fraud 2025 in Numbers

@@ -1,0 +1,65 @@
+slug: uk-student-finance-scam-messages-slc
+country: UK
+title: Student Finance Scams: Fake SLC Messages Around Payment Dates
+h1: Fake Student Finance Messages: How Scammers Time Them to Payment Dates
+desc: Scammers target students with fake Student Loans Company texts and emails in September, January and April. SLC's own warning signs and how to report.
+keywords: student finance scam, slc scam email, student loan scam text uk, fake student finance england message, maintenance loan scam
+tags: Students|Phishing|United Kingdom|What To Do
+=== TLDR
+The Student Loans Company says scammers are most active around the September, January and April payment dates, sending texts, emails and calls saying your payment is blocked, your bank details need updating or your account will close. SLC never asks for personal or financial information by email, text or social media, doesn't use WhatsApp and doesn't set 24-hour deadlines. Sign in through GOV.UK instead, forward emails to report@phishing.gov.uk and texts to 7726.
+
+=== BODY
+## Why students are targeted
+
+Timing. In September 2026 SLC planned to pay about **£2.6 billion** in maintenance support to **1.1 million students**, according to its [GOV.UK press release](https://www.gov.uk/government/news/students-urged-to-stop-and-think-before-you-click-as-student-finance-payments-begin). Scammers know exactly when that money lands, and many students are managing money alone for the first time. SLC says its prevention measures saved **£56.2 million** last year.
+
+## What the fake messages say
+
+- your payment is **at risk** or **blocked**;
+- your **bank details need updating**;
+- your account will be **closed** unless you act immediately.
+
+They arrive by text, email or phone, peaking in **September, January and April**.
+
+## SLC's warning signs
+
+- SLC will **never ask for personal or financial information** by email, text or social media.
+- It doesn't send urgent deadlines like “your account closes in 24 hours.”
+- If you didn't ask to change bank details, SLC won't text you to confirm a change.
+- SLC and Student Finance England **don't use WhatsApp** and don't contact students on social media about applications or entitlements.
+
+Don't share your customer reference number, date of birth, course details or address with anyone who contacted you.
+
+## What to do
+
+1. Don't click. Sign in to your student finance account through GOV.UK yourself.
+2. Forward suspicious emails to **report@phishing.gov.uk**.
+3. Forward scam texts to **7726**.
+4. If your account may be compromised, contact SLC using the official details on GOV.UK and call your bank.
+
+## Other scams aimed at students
+
+Fake rental listings, job offers that pay you to move money (money muling), and too-good-to-be-true ticket resales are all common. See [[scams-targeting-students-and-young-adults|scams targeting students]], [[what-is-money-mule-scams|money mule scams]] and [[protect-college-students-identity|protecting a student's identity]].
+
+A student email address gets signed up to a lot of things. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches it's already in.
+
+=== FAQ
+Q: Does Student Finance England contact students on WhatsApp?
+A: No. SLC says it doesn't use WhatsApp or contact students on social media about applications or entitlements.
+Q: When do student finance scams peak?
+A: Around the September, January and April payment periods.
+Q: Will SLC ask me to update bank details by text?
+A: SLC won't text you to confirm a bank detail change you didn't request. Check your account via GOV.UK.
+Q: How do I report a student finance scam?
+A: Forward emails to report@phishing.gov.uk and texts to 7726.
+
+=== SOURCES
+https://www.gov.uk/government/news/students-urged-to-stop-and-think-before-you-click-as-student-finance-payments-begin | GOV.UK: Students urged to stop and think before you click (Sept 1, 2026)
+https://www.which.co.uk/news/article/student-loan-warning-as-scammers-hijack-payments-augHw1A3e5zo | Which?: Student loan warning as scammers hijack payments
+
+=== RELATED
+scams-targeting-students-and-young-adults | Scams Targeting Students
+what-is-money-mule-scams | Money Mule Scams
+protect-college-students-identity | Protect a Student's Identity
+college-move-in-scams | College Move-In Scams
+digital-footprint-for-international-students | Digital Footprint for International Students

@@ -1,0 +1,69 @@
+slug: uk-192-com-remove-your-details
+country: UK
+title: How to Remove Yourself From 192.com (UK, 2026)
+h1: How to Remove Your Name and Address From 192.com
+desc: 192.com shows UK addresses from the open electoral register, Companies House and more. How to request removal, how long it takes and how to stop it coming back.
+keywords: 192.com remove my details, remove from 192.com, 192.com opt out, 192 com delete listing, how to remove address from 192.com
+tags: Data Brokers|Opt-Out Guides|United Kingdom|How To
+=== TLDR
+192.com publishes UK names and addresses from the open electoral register, Companies House, Land Registry and directory listings. Use its online removal form (192.com/c01/new-request/), enter your name, postcode and email, solve the check, then click the confirmation link. Online removals are normally done within 48 hours. To stop new data flowing in, opt out of the open electoral register with your council.
+
+=== BODY
+## Where 192.com gets your details
+
+According to [Offlist's 192.com guide](https://www.offlist.me/blog/remove-yourself-from-192-com), 192.com publishes information from:
+
+- the **open (edited) electoral register**;
+- **Companies House** director filings, including historical home addresses;
+- **HM Land Registry** ownership data;
+- **directory enquiries** listings;
+- some births, deaths and marriages records.
+
+So if you've ever registered to vote without ticking the opt-out box, or been a company director, there's a good chance you're on it.
+
+## How to remove yourself
+
+1. Go to the removal form at **192.com/c01/new-request/**. You don't need to find your listing first.
+2. Enter your first name, surname, postcode and an email you control. Phone is optional.
+3. Answer the maths question. You can add up to five other names at the same address.
+4. **Click the confirmation link** in your email. Nothing happens until you do.
+5. Keep the confirmation email.
+
+Online requests are normally removed **within 48 hours**; postal forms can take up to 28 days.
+
+## Stop the tap, not just the puddle
+
+Removing your 192.com entry deals with one copy. To reduce new copies:
+
+- **Opt out of the open register** through your council's electoral services ([[uk-open-electoral-register-opt-out|how]]). You stay on the full register, so your vote isn't affected.
+- **Company directors** can use Companies House form SR01 to request removal of some personal details and use a service address. Since October 2015, only the month and year of birth are public for new directors.
+- **Go ex-directory** for your landline.
+
+## If it comes back or isn't removed
+
+Follow up with 192.com, keep your correspondence, and if it's still unresolved, you can complain to the ICO ([[how-to-complain-to-the-ico|how]]). You can also send a [[subject-access-request-dsar-guide|subject access request]] to see what it holds.
+
+## The rest of your UK footprint
+
+192.com is the best-known UK people finder, but not the only one. Our [[data-broker-opt-out-uk-canada-australia|UK, Canada and Australia broker guide]] lists others. A free [[/digital-footprint-checker/|email exposure check]] covers breach data.
+
+=== FAQ
+Q: How do I remove my details from 192.com?
+A: Use the online form at 192.com/c01/new-request/, enter your name, postcode and email, then click the confirmation link.
+Q: How long does 192.com removal take?
+A: Online requests are normally removed within 48 hours; postal requests can take up to 28 days.
+Q: Where does 192.com get my address?
+A: Mainly the open electoral register, plus Companies House, Land Registry, directory listings and some public records.
+Q: Will opting out of the open register affect my vote?
+A: No. You stay on the full electoral register.
+
+=== SOURCES
+https://www.offlist.me/blog/remove-yourself-from-192-com | Offlist: How to remove yourself from 192.com (2026)
+https://en.wikipedia.org/wiki/192.com | Wikipedia: 192.com
+
+=== RELATED
+data-broker-opt-out-uk-canada-australia | Data Broker Opt-Outs: UK, Canada, Australia
+how-to-complain-to-the-ico | How to Complain to the ICO
+subject-access-request-dsar-guide | Subject Access Request Guide
+uk-telephone-preference-service-mailing-preference-service | TPS and MPS Guide
+can-someone-find-my-address-using-my | Can Someone Find My Address?

@@ -1,0 +1,73 @@
+slug: uk-spareroom-flatshare-rental-scams
+country: UK
+title: SpareRoom and Flatshare Scams: 9 Tricks and How to Spot Them
+h1: Flatshare Scams on SpareRoom and Beyond: Nine Tricks Renters Fall For
+desc: Fake landlords, viewing deposits, Airbnb-style booking links and overpayment cons. SpareRoom's own list of rental scams, red flags and checks before you pay.
+keywords: spareroom scam, flatshare scam uk, rental deposit scam uk, fake landlord scam, room rental scam london
+tags: Rental Scams|Renters|United Kingdom|What To Do
+=== TLDR
+SpareRoom warns about nine common flatshare scams, from fake “overseas” landlords and deposits taken at viewings of holiday lets, to fake Airbnb booking links, fake agencies and overpayment cons that target landlords. Red flags: no viewing, payment before viewing, cheap rent, brand-new accounts and pressure to move off the platform. Check ID, Land Registry and Companies House, reverse-search photos, and pay deposits by credit card where possible.
+
+=== BODY
+## The nine scams SpareRoom lists
+
+From [SpareRoom's scams page](https://www.spareroom.co.uk/content/info-flatsharing/scams-to-look-out-for/):
+
+1. **Short-term let**: a scammer uses an empty holiday let, takes deposits during viewings, then disappears.
+2. **Fake Airbnb ad**: chat moves off-site, a video replaces a viewing, then a lookalike booking link asks for an international transfer.
+3. **No live advert**: a brand-new user with no listing offers a room using photos and fake or stolen ID.
+4. **Fake lettings agency**: scammers pose as a real agency, even with a website, then go silent after a “securing” payment.
+5. **Pre-paid card**: the “landlord” wants the deposit on a pre-paid card with no protection.
+6. **“For sale” property**: you're asked to pose as a buyer to view a home that's actually on the market.
+7. **Overpayment** (targets landlords): a “tenant” overpays, asks for a refund, then the original payment fails.
+8. **Bank transfer before viewing**: hard to recover.
+9. **Phishing**: fake “security” emails or texts asking you to log in.
+
+Number six deserves an award for creativity: you end up doing the scammer's viewing for them.
+
+## Red flags
+
+- pressure to talk off the platform;
+- no viewing, or the landlord is abroad;
+- payment before you've seen the room;
+- rent well below the area's going rate;
+- a new account with no listing;
+- requests for pre-paid cards, Western Union or international transfers.
+
+## Checks before you pay
+
+- **Check ID** of the landlord or agent (and that it isn't forged).
+- **Check ownership** on HM Land Registry and businesses on Companies House.
+- **Check the agency** belongs to a Property Redress Scheme.
+- **Reverse image search** the photos ([[reverse-image-search-how-to-check-if|how]]).
+- **Use a credit card** for deposits for extra protection.
+- **Send someone you trust** to view if you can't go.
+
+SpareRoom also says it **will never contact you by text**.
+
+## If you've paid a scammer
+
+Call your bank immediately (or **159**), report to [Report Fraud](https://www.reportfraud.police.uk/) and report the listing to SpareRoom. See [[rental-listing-scams-fake-apartment-ads|fake rental ads]] and [[rental-scam-statistics-2026|rental scam statistics]].
+
+Renters share a lot of personal data. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is already in breach data.
+
+=== FAQ
+Q: What are the most common SpareRoom scams?
+A: Fake landlords and agencies, deposits taken for holiday lets, fake booking links, pre-paid card deposits and overpayment scams.
+Q: Should I pay a deposit before viewing?
+A: No. SpareRoom lists payment before viewing as a major red flag.
+Q: Does SpareRoom text users?
+A: SpareRoom says it will never contact you by text.
+Q: How can I check a landlord is real?
+A: Check ID, verify ownership on the Land Registry, check businesses on Companies House and reverse-search photos.
+
+=== SOURCES
+https://www.spareroom.co.uk/content/info-flatsharing/scams-to-look-out-for/ | SpareRoom: Scams to look out for
+https://www.which.co.uk/news/article/renters-targeted-by-scammers-on-spareroom-and-facebook-acdHR0k5kVGt | Which?: Renters targeted by scammers on SpareRoom and Facebook
+
+=== RELATED
+rental-listing-scams-fake-apartment-ads | Fake Rental Listing Scams
+rental-scam-statistics-2026 | Rental Scam Statistics 2026
+what-is-rental-scams-explained | Rental Scams Explained
+rightmove-uk-scam-what-to-know | Rightmove Scams
+scams-targeting-students-and-young-adults | Scams Targeting Students

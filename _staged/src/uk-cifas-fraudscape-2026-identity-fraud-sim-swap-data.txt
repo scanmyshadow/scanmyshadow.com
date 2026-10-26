@@ -1,0 +1,71 @@
+slug: uk-cifas-fraudscape-2026-identity-fraud-sim-swap-data
+country: UK
+title: UK Identity Fraud 2026: Cifas Data, SIM Swaps Up 402%
+h1: UK Fraud in 2026 So Far: Identity Fraud Is 59% of Cases and SIM Swaps Are Up 402%
+desc: Cifas recorded 220,000+ fraud-risk cases in the first half of 2026. Identity fraud, account takeover, money mules and a 402% jump in SIM swaps, explained.
+keywords: cifas fraudscape 2026, uk identity fraud statistics 2026, sim swap fraud uk 2026, account takeover uk statistics, money mule statistics uk
+tags: Statistics|Identity Fraud|United Kingdom|Research
+=== TLDR
+Cifas recorded over 220,000 fraud-risk cases in January to June 2026, its highest first-half total. Identity fraud made up 59% (nearly 130,000 cases, up 9%), mostly bank accounts and cards. Account takeover rose 5% to nearly 40,000, with online retail takeovers up 84%. Unauthorised SIM swaps rose 402%. Most identity fraud victims are 61 or older, but the fastest growth was among 21 to 30-year-olds.
+
+=== BODY
+## The headline numbers
+
+From [Cifas' Fraudscape 2026 six-month update](https://www.cifas.org.uk/newsroom/fraudscape-2026-6-month-update), released in August 2026:
+
+| Measure (Jan–Jun 2026) | Figure | Change |
+|---|---|---|
+| Fraud-risk cases recorded | 220,000+ | Highest H1 on record |
+| Identity fraud cases | ~130,000 | +9% |
+| Identity fraud share of all cases | 59% | |
+| Identity fraud on bank accounts and cards | 68% of identity fraud | |
+| Account (facility) takeover | ~40,000 | +5% |
+| Online retail account takeover | | +84% |
+| Plastic card takeover | | +59% |
+| Money mule recordings | ~13,000 | +70% |
+| Unauthorised SIM swaps | | +402% |
+
+Cifas chief executive Mike Haley: “Identity fraud now accounts for nearly three in five fraud-risk cases recorded to the UK National Fraud Database.”
+
+## What the SIM swap jump means
+
+A 402% rise in unauthorised SIM swaps is the number that should make everyone sit up. A SIM swap moves your phone number to a criminal's SIM, so your bank's one-time passcodes go to them. Cifas links the trend to intercepting security codes and bypassing account protection. If your phone suddenly says “No service” or “SOS only” at home, act fast: see [[sim-swap-fraud-how-it-works-and-how-to|how SIM swap fraud works]] and [[how-to-block-a-swapped-sim-card|how to block a swapped SIM]].
+
+## Who's being hit
+
+- **Most identity fraud victims are 61 and over.**
+- **The biggest increase is among 21 to 30-year-olds**, up about 32%.
+- **Under-30s make up 57% of money mule cases**, and 17% involve people under 21. Many are recruited with “easy money” job ads ([[what-is-money-mule-scams|money mules explained]]).
+
+## Why online retail takeovers jumped
+
+An 84% rise in online retail account takeover fits what we see in breach data: reused passwords from old breaches unlock shopping accounts with saved cards. Which? reported Argos account hacks earlier in 2026 where criminals used breached details to order and collect goods ([[argos-uk-scam-what-to-know|Argos scams]]).
+
+## What to do with this
+
+1. **Use unique passwords** for shopping accounts and turn on two-factor authentication.
+2. **Add a PIN or password to your mobile account** to make SIM swaps harder.
+3. **Check your credit report** regularly, and add [[uk-cifas-protective-registration-explained|Cifas Protective Registration]] if your details have leaked.
+4. **Talk to younger relatives** about mule recruitment.
+5. **See what's leaked**: a free [[/digital-footprint-checker/|email exposure check]] shows which breaches your email is in.
+
+=== FAQ
+Q: How many fraud cases did Cifas record in the first half of 2026?
+A: Over 220,000 fraud-risk cases, the highest January to June total on record.
+Q: What share is identity fraud?
+A: 59%, nearly 130,000 cases, up 9%.
+Q: How much did SIM swap fraud rise?
+A: Unauthorised SIM swap cases rose 402% compared with the same period in 2025.
+Q: Who are the main identity fraud victims?
+A: Most are aged 61 and over, but the fastest increase was among 21 to 30-year-olds.
+
+=== SOURCES
+https://www.cifas.org.uk/newsroom/fraudscape-2026-6-month-update | Cifas: Fraudscape 2026 six-month update (Aug 2026)
+https://www.getsafeonline.org/personal/news-item/nearly-three-in-five-59-fraud-risk-cases-linked-to-identity-fraud-cifas-data-shows/ | Get Safe Online: 59% of fraud-risk cases linked to identity fraud
+
+=== RELATED
+identity-theft-statistics-uk-2026 | UK Identity Theft Statistics 2026
+how-common-is-sim-swapping-2026 | How Common Is SIM Swapping in 2026?
+uk-account-hacking-losses-up-417-percent-passkeys | Account Hacking Losses Up 417%
+uk-fraud-2025-uk-finance-app-scam-numbers | UK Fraud 2025 in Numbers
+uk-sim-swap-fraudster-jailed-stolen-crypto-gold-grills | SIM Swap Fraudster Jailed

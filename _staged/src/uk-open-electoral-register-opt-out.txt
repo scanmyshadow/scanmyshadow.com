@@ -1,0 +1,69 @@
+slug: uk-open-electoral-register-opt-out
+country: UK
+title: How to Opt Out of the Open Electoral Register (UK)
+h1: How to Opt Out of the UK Open Register (and Why It Matters for Your Privacy)
+desc: The open register can be bought by companies and feeds people-finder sites. How to opt out with your council, what it changes and what it doesn't.
+keywords: opt out open register, open electoral register opt out, edited register remove, how to remove from open register uk, electoral roll privacy
+tags: Electoral Register|Privacy|United Kingdom|How To
+=== TLDR
+The UK has two electoral registers: the full register (used for elections and some checks) and the open register, which anyone can buy. People-finder sites like 192.com use the open register. Opting out is free: tick the box when you register to vote, or contact your council's electoral services by phone or email. You stay on the full register and keep your vote.
+
+=== BODY
+## Two registers, very different audiences
+
+When you register to vote you go on the **full register**, which is used for elections, jury service and by credit reference agencies. Unless you opt out, you also go on the **open register** (sometimes called the edited register), which can be sold to any person, company or organisation. That's how your name and address end up in marketing lists and people-finder sites such as [[uk-192-com-remove-your-details|192.com]].
+
+## How to opt out
+
+Three ways, using [Waltham Forest Council's process](https://www.walthamforest.gov.uk/council-and-elections/elections-and-voting/registering-vote/how-opt-out-open-register) as a typical example:
+
+1. **When you register to vote**, choose to opt out of the open register.
+2. **By phone** to your council's electoral services team.
+3. **By email** to electoral services with “Opt Out” in the subject, your full name and address, and a clear statement that you want to opt out of the open register.
+
+Waltham Forest confirms by email within five working days. Your council's process will be similar; search “[your council] open register opt out”. In Northern Ireland, contact the Electoral Office for Northern Ireland.
+
+## What changes, and what doesn't
+
+**Changes:** future editions of the open register won't include you, so new buyers won't get your details.
+
+**Doesn't change:**
+
+- copies already sold or already published on people-finder sites;
+- your right to vote;
+- credit checks, which use the full register.
+
+So pair the opt-out with removal requests on sites that already list you.
+
+## Who should definitely do this
+
+- anyone who has moved to get away from someone;
+- people in public-facing jobs (teachers, nurses, police, landlords);
+- anyone tired of junk mail.
+
+For stronger protection, some people can register anonymously. Ask your council about anonymous registration if your safety is at risk.
+
+## Then tackle the rest
+
+Register with the [[uk-telephone-preference-service-mailing-preference-service|Telephone and Mailing Preference Services]], and check the breach side of your footprint with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: What is the open register?
+A: An edited version of the electoral register that can be bought by any person, company or organisation.
+Q: How do I opt out of the open register?
+A: Tick the opt-out when you register to vote, or contact your council's electoral services by phone or email.
+Q: Will opting out affect my credit score or vote?
+A: No. You stay on the full register, which is used for elections and credit checks.
+Q: Will it remove me from 192.com?
+A: Not on its own. It stops future open register copies; request removal from 192.com separately.
+
+=== SOURCES
+https://www.walthamforest.gov.uk/council-and-elections/elections-and-voting/registering-vote/how-opt-out-open-register | Waltham Forest Council: How to opt out of the open register
+https://www.offlist.me/blog/remove-yourself-from-192-com | Offlist: How 192.com uses the open register
+
+=== RELATED
+uk-telephone-preference-service-mailing-preference-service | TPS and MPS Guide
+data-broker-opt-out-uk-canada-australia | Data Broker Opt-Outs: UK, Canada, Australia
+how-to-remove-my-personal-information | How to Remove My Personal Information
+gdpr-explained-what-you-can-request | GDPR: What You Can Request
+digital-footprint-after-a-breakup | Your Digital Footprint After a Breakup

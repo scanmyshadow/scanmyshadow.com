@@ -1,0 +1,66 @@
+slug: uk-dpd-scam-text-what-to-do
+country: UK
+title: DPD Scam Texts: How to Spot a Fake Delivery Message
+h1: Fake DPD Texts and Emails: How the Scam Works and What DPD Actually Sends
+desc: Fake DPD messages ask for a small redelivery fee, then a "bank" calls days later. How to tell a real DPD message, what to do if you paid and how to report.
+keywords: dpd scam text, fake dpd text, dpd scam email, dpd redelivery fee scam, dpd text message scam uk
+tags: Delivery Scams|Text Scams|United Kingdom|What To Do
+=== TLDR
+Fake DPD texts and emails say a parcel couldn't be delivered and ask for a small fee to rearrange it. The fee is the hook; days later a “bank fraud team” calls about suspicious activity and talks you into moving money to a “safe account.” DPD says it never asks for money or bank details, and genuine emails come only from dpd.co.uk, dpdlocal.co.uk or dpdgroup.co.uk. Forward texts to 7726 and emails to report@phishing.gov.uk.
+
+=== BODY
+## The two-step scam
+
+A [police fraud alert](https://www.actionfraud.police.uk/alert/fake-dpd-messages-lead-to-over-200000-in-losses-since-june) laid out how it works:
+
+1. A text or email says your parcel couldn't be delivered because you weren't in or there was no safe place.
+2. A link leads to a lookalike site asking for a small payment to rearrange delivery.
+3. **A few days later**, you get a call or text that appears to be from your bank, warning of suspicious transactions. The number is spoofed.
+4. The “bank” persuades you to move your money to a “secure account” they control. Sometimes they collect enough details to take out loans in your name.
+
+In one wave the alert reported **£242,000** lost, with suspicious DPD emails jumping **655%** in a single month. The £1.45 fee was never the point; it was a key to your bank card and your trust.
+
+## How to tell if it's really DPD
+
+- DPD **never asks for money or bank details** by text or email.
+- Genuine DPD emails come only from **dpd.co.uk, dpdlocal.co.uk or dpdgroup.co.uk**.
+- Real tracking happens in the DPD app or on dpd.co.uk with your parcel number.
+- Lookalike addresses (dpd-redelivery.com, dpdparcels-uk.net) are fake.
+
+Christmas is peak season for these. If you're expecting several parcels, it's easy to believe one went astray.
+
+## What to do
+
+- Don't click. Check deliveries in the DPD app or by typing dpd.co.uk.
+- Forward texts to **7726** and emails to **report@phishing.gov.uk**.
+
+## If you paid the fee
+
+1. **Call your bank** on the number on your card, or dial **159**, and cancel the card.
+2. **Be ready for the follow-up call.** Any call about “suspicious activity” in the next week: hang up and call 159 yourself ([[uk-159-scam-hotline-how-it-works|how 159 works]]).
+3. **Report it** to [Report Fraud](https://www.reportfraud.police.uk/) (it replaced Action Fraud in 2026).
+
+## Other couriers, same trick
+
+We've covered [[royal-mail-delivery-text-scam-what-to-do|Royal Mail]], [[evri-delivery-text-scam-what-to-do|Evri]] and [[dhl-delivery-text-scam-what-to-do|DHL]] versions too. A free [[/digital-footprint-checker/|email exposure check]] shows if your contact details are in breach data, which is how these lists are built.
+
+=== FAQ
+Q: Does DPD ask for a redelivery fee by text?
+A: No. DPD says it never asks for money or bank details by text or email.
+Q: What email addresses does DPD use?
+A: Genuine DPD emails come only from dpd.co.uk, dpdlocal.co.uk or dpdgroup.co.uk.
+Q: I paid a small fee on a fake DPD site. What now?
+A: Call your bank or 159 to cancel the card, and treat any follow-up "bank" call as suspicious.
+Q: Where do I report a fake DPD text?
+A: Forward it to 7726. Forward scam emails to report@phishing.gov.uk.
+
+=== SOURCES
+https://www.actionfraud.police.uk/alert/fake-dpd-messages-lead-to-over-200000-in-losses-since-june | Police alert: Fake DPD messages lead to over £200,000 in losses
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+royal-mail-delivery-text-scam-what-to-do | Royal Mail Text Scams
+evri-delivery-text-scam-what-to-do | Evri Text Scams
+delivery-scam-statistics-2026 | Delivery Scam Statistics 2026
+uk-first-sms-blaster-seizure-fake-royal-mail-texts | First UK SMS Blaster Seizure
+uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams

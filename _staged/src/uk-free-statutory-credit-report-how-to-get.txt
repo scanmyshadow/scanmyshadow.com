@@ -1,0 +1,70 @@
+slug: uk-free-statutory-credit-report-how-to-get
+country: UK
+title: Free Statutory Credit Report UK: Get Yours From All 3 Agencies
+h1: How to Get Your Free Statutory Credit Report From Experian, Equifax and TransUnion
+desc: You have a legal right to a free basic credit report from each UK agency. How to request it online or by post, what's in it, and what to look for after fraud.
+keywords: free statutory credit report, statutory credit report uk, free credit report experian equifax transunion, check credit report uk free, credit report fraud check uk
+tags: Credit Reports|Identity Fraud|United Kingdom|How To
+=== TLDR
+Every UK credit reference agency (Experian, Equifax and TransUnion) must give you a free basic “statutory” credit report. It shows six years of accounts, payment history, credit searches, financial links and public records, but not a score. Request it online or by post; have six years of addresses ready. After a breach or scam, check all three for accounts and searches you don't recognise.
+
+=== BODY
+## What a statutory report is
+
+From [Checkmyfile's guide](https://www.checkmyfile.com/help-centre/articles/what-is-a-statutory-credit-report-what-to-know-and-how-to-find-yours): your statutory credit report is the basic credit record each agency holds about you. It's your legal right to see what lenders see, and the basic version is free. Agencies can charge for extras like scores and explanations, but you don't need those to spot fraud.
+
+## What's in it
+
+- credit accounts, balances, limits and payment history;
+- financial associations (people you share credit with);
+- hard searches from credit applications;
+- notices of correction;
+- public records: electoral roll addresses, insolvencies, County Court Judgments.
+
+## How to request it
+
+| Agency | Online | By post |
+|---|---|---|
+| Experian | Request a passkey online, which is posted to you, then log in | Paper form to its Nottingham support centre |
+| Equifax | Register online with your address history (it asks for card details but shouldn't charge) | Form to its Leicester customer service centre |
+| TransUnion | Online form with your details and address history | Request to its Hull team |
+
+Have your **middle names** and **six years of addresses**, including old postcodes, ready. Missing details cause delays.
+
+## What to look for after fraud or a breach
+
+- accounts you didn't open (cards, loans, phone contracts, catalogue accounts);
+- hard searches from lenders you never applied to;
+- addresses you've never lived at;
+- financial links to people you don't know.
+
+Found something? Contact the lender, dispute it with the agency, and report it to [Report Fraud](https://www.reportfraud.police.uk/). Add context with a [[uk-notice-of-correction-credit-report|notice of correction]], and consider [[uk-cifas-protective-registration-explained|Cifas Protective Registration]].
+
+## How often to check
+
+At least once a year, and straight away after a breach notice, a lost wallet or a scam call where you shared details. Free credit-score apps can supplement this, but the statutory report is the official baseline.
+
+## The early warning
+
+Many identity fraud cases start with leaked personal data. A free [[/digital-footprint-checker/|email exposure check]] tells you whether your email is in breach data, a good prompt to check your credit file.
+
+=== FAQ
+Q: Is a statutory credit report free in the UK?
+A: Yes. Each credit reference agency must provide a free basic statutory report.
+Q: Does a statutory report include my credit score?
+A: No. It shows your credit history, searches and public records, but not a score.
+Q: What do I need to request one?
+A: Your full name including middle names and six years of address history with postcodes.
+Q: Should I check all three agencies?
+A: Yes. Lenders use different agencies, so fraud may show on one and not another.
+
+=== SOURCES
+https://www.checkmyfile.com/help-centre/articles/what-is-a-statutory-credit-report-what-to-know-and-how-to-find-yours | Checkmyfile: What is a statutory credit report?
+https://www.transunion.co.uk/consumer/credit-report-help/what-is-a-notice-of-correction-and-how-can-i-add-one-to-my-credit-report-if-needed | TransUnion UK: Notice of correction
+
+=== RELATED
+how-to-check-your-credit-report-for-fraud | Check Your Credit Report for Fraud
+how-to-report-identity-theft-uk | Report Identity Theft in the UK
+identity-theft-statistics-uk-2026 | UK Identity Theft Statistics 2026
+uk-cifas-fraudscape-2026-identity-fraud-sim-swap-data | Cifas Fraudscape 2026
+someone-using-my-address-what-to-do | Someone Using My Address?
