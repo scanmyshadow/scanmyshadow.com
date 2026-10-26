@@ -1,0 +1,56 @@
+slug: usa-people-search-opt-out-guide
+country: US
+title: USA People Search Opt Out: Remove Your Record in 3 Days
+h1: How to Opt Out of USA People Search
+desc: Remove your USA People Search listing through usa-people-search.com/manage: confirm your email, enter the details to remove, done within about three days.
+keywords: usa people search opt out, remove from usa people search, usa-people-search.com manage, usa people search removal, delete usa people search record
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Go to usa-people-search.com/manage, enter your email, click the confirmation link it sends, then enter the personal information you want removed and submit. Cloaked's guide says removal happens within three days. Search again afterwards and repeat for any other listings.
+
+=== BODY
+## What it is
+
+USA People Search is one of the many free-to-search, pay-for-more people finders. Results typically show name, age, current and past addresses, phone numbers and relatives. It's part of the long tail of sites you'll find when you [[how-to-google-yourself-digital-footprint-audit|google yourself]] properly.
+
+## Step by step
+
+From [Cloaked's manual opt-out guide](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually):
+
+1. Go to **usa-people-search.com/manage**.
+2. Enter your email address to start.
+3. Open the confirmation email and click the link.
+4. Enter the personal information you want removed and submit.
+
+Timeline: **within 3 days** of submission.
+
+## Tips
+
+- Use an email you can access; an [[email-alias-temporary-phone-number-privacy|alias]] keeps your main inbox out of broker databases.
+- Enter details that match the listing (name variants, old addresses) so the right record is removed.
+- Search again in a private window after three days.
+- Recheck every few months; data brokers refresh.
+
+## The rest of the list
+
+USA People Search is a smaller site, so do the big ones first: [[whitepages-opt-out-guide|Whitepages]], [[spokeo-opt-out-guide|Spokeo]], [[truepeoplesearch-opt-out-guide|TruePeopleSearch]], [[fastpeoplesearch-opt-out-guide|FastPeopleSearch]] and [[beenverified-opt-out-guide|BeenVerified]]. California residents can use the state's [[california-drop-data-broker-delete-request-guide|DROP tool]] to reach registered brokers in one go. And a free [[/digital-footprint-checker/|email exposure check]] covers breach data.
+
+=== FAQ
+Q: How do I opt out of USA People Search?
+A: Start at usa-people-search.com/manage, confirm your email, then enter the details to remove and submit.
+Q: How long does USA People Search take?
+A: Within three days, according to Cloaked's guide.
+Q: Is it free to opt out?
+A: Yes.
+Q: Will my listing come back?
+A: It can as data refreshes, so search yourself every few months.
+
+=== SOURCES
+https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for PeopleConnect, Radaris, BeenVerified, Spokeo and others
+
+=== RELATED
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+opting-out-us-people-search-sites | Opting Out of US People-Search Sites
+how-to-remove-my-personal-information | How to Remove My Personal Information
+veripages-opt-out-guide | VeriPages Opt-Out Guide
+how-do-data-brokers-actually-get-your | How Data Brokers Get Your Data

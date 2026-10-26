@@ -1,0 +1,73 @@
+slug: dmv-text-scam-unpaid-ticket-suspension
+country: US
+title: DMV Text Scam: “Final Notice” Unpaid Ticket Messages Explained
+h1: The Fake DMV “Final Notice” Text: Unpaid Tickets, License Suspension and Other Lies
+desc: Texts claiming to be from your state DMV threaten license suspension or prosecution over unpaid tickets. DMVs say they don't do this. How to check and report.
+keywords: dmv text scam, dmv final notice text, fake dmv text unpaid ticket, license suspension text scam, dmv scam text 2026
+tags: Government Impersonation|Text Scams|United States|What To Do
+=== TLDR
+Scam texts claiming to be from a state DMV say you have an unpaid traffic ticket and threaten prosecution, registration suspension or loss of your license unless you pay through a link. State DMVs, including Colorado's, say they don't send unsolicited texts demanding payment or threatening suspension. Don't click; check your record on your state's official DMV site and report the text to the FBI's IC3 and the FTC.
+
+=== BODY
+## What the text looks like
+
+Versions have spread across many states since 2025. Typically:
+
+- “[State] DMV Final Notice: You have an outstanding traffic ticket. Pay by [date] to avoid suspension of your driving privileges and prosecution.”
+- a link to a site that looks like a state DMV page;
+- sometimes a list of “penalties” and a countdown.
+
+The [Colorado DMV](https://dmv.colorado.gov/press-release/colorado-dmv-issues-urgent-warning-on-new-text-scam-threatening-prosecution-and) described messages from a “Colorado DMV” or similar official-sounding sender threatening prosecution, registration suspension and revocation of driving privileges. Nevada and others have issued similar warnings.
+
+## What DMVs actually do
+
+The Colorado DMV says plainly that these messages are not from it, and that it doesn't contact people by unsolicited text or email to demand ticket payments or threaten prosecution or suspension. Most states handle tickets through the court or agency that issued them, by mail.
+
+If you haven't done anything that could result in a ticket, Colorado says, it's almost certainly a scam. And if you have, the text is still almost certainly a scam: real tickets don't arrive as a link from a random number.
+
+## Don't give them
+
+- your driver's license number;
+- your Social Security number;
+- card or bank details.
+
+Those three together are an identity thief's starter pack.
+
+## How to check
+
+Go to your state DMV's website by typing the address yourself (it will end in .gov), or call the number listed there. Check your license, registration and any tickets. Don't use any contact details from the text.
+
+## Report it
+
+- [FBI IC3](https://www.ic3.gov/), including the number that texted you and the website linked;
+- [FTC ReportFraud](https://reportfraud.ftc.gov/);
+- forward the text to 7726.
+
+## Related: toll texts
+
+The unpaid-toll text is this scam's older sibling: see [[ez-pass-unpaid-toll-text-scam|E-ZPass toll text scams]]. The UK has its own version with fake speeding fines ([[uk-fake-speeding-fine-parking-pcn-text-scams|UK fine texts]]). If you entered card details on a fake site, call your bank now and check [[how-to-cancel-a-compromised-debit-card|how to cancel a compromised card]].
+
+A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data, which is where these text lists often come from.
+
+=== FAQ
+Q: Does the DMV text about unpaid tickets?
+A: State DMVs such as Colorado's say they don't send unsolicited texts demanding ticket payment or threatening suspension.
+Q: What happens if I clicked the DMV text link?
+A: If you entered card details, call your bank immediately. If you entered your license or SSN, consider a credit freeze.
+Q: How do I check if I really have a ticket?
+A: Use your state DMV's official .gov website or phone number, not the text.
+Q: Where do I report a fake DMV text?
+A: Report it to the FBI's IC3 and the FTC, and forward it to 7726.
+
+=== SOURCES
+https://dmv.colorado.gov/press-release/colorado-dmv-issues-urgent-warning-on-new-text-scam-threatening-prosecution-and | Colorado DMV: Urgent warning on text scam threatening prosecution
+https://dmv.nv.gov/news/26004_Nevada_DMV_issues_scam_warning.htm | Nevada DMV: Scam warning
+https://www.ic3.gov/ | FBI IC3
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+ez-pass-unpaid-toll-text-scam | E-ZPass Unpaid Toll Text Scam
+what-is-smishing | What Is Smishing?
+florida-dmv-driver-database-breach | Florida DMV Driver Database Breach
+what-can-someone-do-with-your-license-plate-number | What Can Someone Do With Your Plate Number?
+text-scam-statistics-2026 | Text Scam Statistics 2026

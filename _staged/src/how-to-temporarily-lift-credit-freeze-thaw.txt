@@ -1,0 +1,74 @@
+slug: how-to-temporarily-lift-credit-freeze-thaw
+country: US
+title: How to Unfreeze Your Credit (Temporarily) at All 3 Bureaus
+h1: How to Temporarily Lift a Credit Freeze at Equifax, Experian and TransUnion
+desc: Applying for a loan or card? How to thaw your credit freeze online or by phone in under an hour, which bureau the lender uses, and what to do if you lost your PIN.
+keywords: unfreeze credit, lift credit freeze, temporarily lift credit freeze, thaw credit freeze, equifax unfreeze, experian thaw, transunion lift freeze
+tags: Credit Freeze|Identity Protection|United States|How To
+=== TLDR
+A credit freeze is free to lift and must be lifted within one hour when you ask online or by phone (mail takes up to three business days). Log in to each bureau, choose a temporary lift for set dates, and the freeze returns on its own afterwards. Ask the lender which bureau it uses so you only thaw what's needed. Lost an old PIN? Experian and the others now use online accounts instead.
+
+=== BODY
+## Why “temporary lift” is the right choice
+
+Freezing your credit is one of the best free protections against identity theft (here's [[how-to-freeze-your-credit-us|how to set one up]]). But you'll need to open it for a mortgage, car loan, new card, apartment application or some phone contracts. A **temporary lift** (Experian calls it a thaw) opens your file for a date range, then refreezes it automatically. Removing the freeze entirely means you have to remember to put it back, and most of us won't.
+
+## The rules, briefly
+
+According to [Credit Karma's guide](https://www.creditkarma.com/credit-cards/i/lift-credit-freeze):
+
+- freezing and unfreezing is **free** under federal law;
+- requests online or by phone must be honoured **within one hour** (often minutes);
+- mail requests have **three business days** from receipt;
+- each bureau is separate, so a lift at one doesn't touch the others;
+- when a temporary lift ends, the freeze comes back automatically.
+
+## Bureau by bureau
+
+| Bureau | How to lift | Phone |
+|---|---|---|
+| Equifax | myEquifax account online, by phone or by mail | 1-888-298-0045 |
+| Experian | Freeze Center online: schedule a thaw for set dates | 1-888-397-3742 |
+| TransUnion | Online if you froze online, otherwise phone or mail; can schedule up to 15 days ahead | 1-888-909-8872 (automated) or 1-800-916-8800 |
+
+Mail addresses, if you prefer paper: Equifax, P.O. Box 105788, Atlanta, GA 30348-5788; Experian Security Freeze, P.O. Box 9554, Allen, TX 75013; TransUnion, P.O. Box 160, Woodlyn, PA 19094.
+
+## Only thaw what the lender checks
+
+Ask the lender, landlord or carrier which bureau they pull. Many use just one or two. If they don't know, lifting all three for a week is fine, but a one-bureau lift keeps the other two locked. It's like opening one door for a guest instead of taking the house off its hinges.
+
+## Pick sensible dates
+
+- **Credit card or phone contract:** a few days.
+- **Car loan:** a week, as dealers sometimes shop several lenders.
+- **Mortgage:** talk to your loan officer; underwriting can pull again near closing.
+
+## “I lost my freeze PIN”
+
+If you froze your credit years ago, you may have been given a PIN. The bureaus have mostly moved to online accounts. [Experian says](https://www.experian.com/blogs/ask-experian/replacing-a-lost-security-freeze-pin-number/) you no longer need a PIN: create or log in to an account in its Security Freeze Center and toggle the freeze there. For Equifax and TransUnion, set up an online account with the same personal details, or call the numbers above and verify your identity. Expect questions about past addresses and loans.
+
+## Don't confuse freezes with locks
+
+Credit **locks** are bureau products, sometimes paid, with app toggles. Freezes are the legal right with guaranteed timelines. Our guide to [[credit-lock-vs-credit-freeze|lock vs freeze]] explains why we prefer the freeze. And if you're freezing because of a breach, see what else leaked with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: How long does it take to unfreeze my credit?
+A: Within one hour for online or phone requests, often a few minutes. Mail requests can take up to three business days.
+Q: Does it cost money to lift a credit freeze?
+A: No. Federal law makes freezing and unfreezing free.
+Q: Do I need to unfreeze all three bureaus?
+A: Only the ones your lender checks. Ask which bureau they use.
+Q: What if I lost my credit freeze PIN?
+A: Experian no longer requires a PIN; manage the freeze through an online account. For Equifax and TransUnion, create an online account or call to verify your identity.
+
+=== SOURCES
+https://www.creditkarma.com/credit-cards/i/lift-credit-freeze | Credit Karma: How to unfreeze your credit at the three bureaus
+https://www.experian.com/blogs/ask-experian/replacing-a-lost-security-freeze-pin-number/ | Experian: Replacing a lost security freeze PIN
+https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts | FTC: What to know about credit freezes and fraud alerts
+
+=== RELATED
+how-to-freeze-your-credit-us | How to Freeze Your Credit in the US
+credit-lock-vs-credit-freeze | Credit Lock vs Credit Freeze
+how-to-place-a-fraud-alert | How to Place a Fraud Alert
+how-to-freeze-a-childs-credit-file | How to Freeze a Child's Credit File
+re-securing-identity-after-a-scam-credit-freeze | Re-Securing Your Identity After a Scam

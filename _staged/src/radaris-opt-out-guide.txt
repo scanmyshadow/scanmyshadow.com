@@ -1,0 +1,59 @@
+slug: radaris-opt-out-guide
+country: US
+title: Radaris Opt Out 2026: How to Remove Your Profile
+h1: How to Opt Out of Radaris and Remove Your Profile
+desc: Remove yourself from Radaris: find your profile URL, submit it at radaris.com/control-privacy with your email, confirm the link. Expect 7 to 14 business days.
+keywords: radaris opt out, remove from radaris, radaris removal, radaris control privacy, delete radaris profile
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Search Radaris for your profile and copy its URL, then submit it with your name and email at radaris.com/control-privacy (also linked as “Start removing” in the profile footer). Solve the CAPTCHA, click the confirmation email link and complete a second CAPTCHA if asked. Radaris takes about 7 to 14 business days.
+
+=== BODY
+## What Radaris pulls together
+
+Radaris builds profiles that can include addresses, phone numbers, relatives, property records, employment and court-related details. It's known for detailed, sometimes oddly specific pages, and for having more than one profile per person.
+
+## Step by step
+
+From [Cloaked's manual opt-out guide](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually):
+
+1. **Find your profile.** Search radaris.com for your name and location. Open your profile and copy its URL.
+2. **Open the privacy control page.** Go to radaris.com/control-privacy, or click “Start removing” in your profile's footer.
+3. **Submit.** Paste the profile URL, add your name and email, and complete the CAPTCHA.
+4. **Confirm.** Click the link in the confirmation email, and complete a second CAPTCHA if prompted.
+
+## Timeline
+
+Radaris takes **7 to 14 business days**, per Cloaked. That's slower than most free people-search sites, so set a reminder to check after two weeks.
+
+## Tips
+
+- **Check for duplicates.** Search for maiden names, middle initials and past cities. Each profile needs its own request.
+- **Use an email you can access but don't mind sharing.** An [[email-alias-temporary-phone-number-privacy|email alias]] is ideal.
+- **Don't buy anything** to “manage” your profile. Removal is free.
+- **Recheck every few months.** Listings can reappear.
+
+## More to remove
+
+Radaris is one of dozens. Do [[spokeo-opt-out-guide|Spokeo]], [[beenverified-opt-out-guide|BeenVerified]] and [[mylife-opt-out-guide|MyLife]] next, and see our [[us-data-broker-sites-opt-out-guide|full US broker list]]. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email has also been in a breach.
+
+=== FAQ
+Q: How do I remove my Radaris profile?
+A: Copy your profile URL and submit it at radaris.com/control-privacy with your name and email, then confirm the email link.
+Q: How long does Radaris take to remove a profile?
+A: About 7 to 14 business days, according to Cloaked's guide.
+Q: Do I need to pay Radaris to remove my information?
+A: No. Opting out is free.
+Q: Why do I have more than one Radaris profile?
+A: Different addresses or name versions can create separate profiles. Submit a request for each.
+
+=== SOURCES
+https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for PeopleConnect, Radaris, BeenVerified, Spokeo
+https://comparitech.com/blog/vpn-privacy/opt-out-of-radaris | Comparitech: How to opt out of Radaris
+
+=== RELATED
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+veripages-opt-out-guide | VeriPages Opt-Out Guide
+how-do-data-brokers-actually-get-your | How Data Brokers Get Your Data
+how-do-data-brokers-actually-get-your | How Data Brokers Get Your Data
+opting-out-us-people-search-sites | Opting Out of US People-Search Sites

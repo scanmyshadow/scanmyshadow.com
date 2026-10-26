@@ -1,0 +1,67 @@
+slug: google-voice-verification-code-scam
+country: US
+title: Google Voice Verification Code Scam: Don't Share That Code
+h1: “Can You Send Me the Code to Prove You're Real?” The Google Voice Scam on Marketplace Sites
+desc: A buyer asks for a code to "verify" you're a real seller. It's a Google Voice code that lets them create a number tied to yours. How it works and how to fix it.
+keywords: google voice verification code scam, google voice scam craigslist, facebook marketplace code scam, send me the code scam, reclaim google voice number
+tags: Marketplace Scams|Google Voice|United States|What To Do
+=== TLDR
+You list something on Facebook Marketplace or Craigslist. A “buyer” says they've been scammed before and need to verify you're real, so they'll send a code to your phone. That code is a Google Voice verification code. If you share it, they get a Google Voice number linked to your phone number, which they use to scam others under your identity. Never share a code you didn't ask for; if you did, reclaim your number through Google.
+
+=== BODY
+## How it works
+
+The [FTC has warned](https://www.ktvu.com/news/ftc-warns-of-google-voice-verification-scam) about this for years, and it's still everywhere:
+
+1. You post an item for sale.
+2. A “buyer” messages and asks for your phone number.
+3. They say they want to make sure you're a real person, so they'll send a code.
+4. A text arrives: “Your Google Voice verification code is 123456.”
+5. They ask you to send it back.
+
+If you do, they've set up a Google Voice number linked to your real number. They can now scam other people from a number that traces back to you, and may try to use your name and number to get into your accounts.
+
+## Why it works
+
+It flips the script. You're the cautious one, worried about scam buyers, and they appeal to that: “I've been scammed before, I just need to check you're legit.” It feels mutual and reasonable. It isn't.
+
+## The rule
+
+**Never share a verification code you didn't request yourself.** Not with buyers, not with “support,” not with anyone. Codes exist to prove that *you* are doing something. Handing one over lets someone else do it as you. See [[why-you-should-never-share-otp|why you should never share an OTP]].
+
+## If you shared the code
+
+Follow Google's steps to reclaim your number: sign up for Google Voice yourself, choose to link your number, and if it's already linked to another account, Google offers a way to reclaim it after verifying you own it. Then:
+
+- watch for messages from people saying “you scammed me”;
+- change passwords on accounts that use SMS codes and switch them to an authenticator app;
+- report it at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/).
+
+## Safer selling
+
+Keep chats inside the marketplace app, meet in public (many police stations have safe exchange zones), take cash or an in-app payment, and ignore buyers who want codes, overpayments or courier pickups. Our guides on [[is-facebook-marketplace-safe-from-scams|Facebook Marketplace]] and [[is-craigslist-safe-from-scams|Craigslist]] cover the rest, and [[online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted|marketplace rules]] compares platforms.
+
+## Check your number's exposure
+
+Sellers publish their number and name constantly. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data too, and [[where-do-phone-numbers-get-exposed|where phone numbers get exposed]] explains the phone side.
+
+=== FAQ
+Q: Why would a buyer ask me for a verification code?
+A: To use it to create a Google Voice number linked to your phone number. It's a scam.
+Q: What can a scammer do with my Google Voice code?
+A: Set up a Google Voice number tied to your number and use it to scam others, and possibly target your accounts.
+Q: How do I get my number back from Google Voice?
+A: Follow Google's reclaim steps: try to link your number in Google Voice and choose to reclaim it if it's already in use.
+Q: Where do I report this scam?
+A: Report it at ReportFraud.ftc.gov and to the marketplace where it happened.
+
+=== SOURCES
+https://www.ktvu.com/news/ftc-warns-of-google-voice-verification-scam | KTVU: FTC warns of Google Voice verification scam
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe From Scams?
+is-craigslist-safe-from-scams | Is Craigslist Safe From Scams?
+why-you-should-never-share-otp | Why You Should Never Share an OTP
+online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted | Marketplace Scam Rules
+what-is-caller-id-spoofing | What Is Caller ID Spoofing?

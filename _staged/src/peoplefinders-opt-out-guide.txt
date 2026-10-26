@@ -1,0 +1,55 @@
+slug: peoplefinders-opt-out-guide
+country: US
+title: PeopleFinders Opt Out 2026: Steps and the State Rule
+h1: How to Opt Out of PeopleFinders (and Why It Depends on Your State)
+desc: PeopleFinders only honours opt-outs from residents of states with privacy laws. The steps, the eligible states, and what to do if you're rejected.
+keywords: peoplefinders opt out, remove from peoplefinders, peoplefinders removal, peoplefinders do not sell, peoplefinders state privacy law opt out
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Start at peoplefinders.com/opt-out, use the “Right to Opt-out” section, confirm the email from support@peoplefinders.com within 24 hours, and complete the Record Suppression Form. PeopleFinders only accepts opt-outs from residents of states with comprehensive privacy laws (including California, Texas, Virginia, New Jersey and others). Everyone else gets a rejection, but there's a workaround worth trying: FastPeopleSearch's removal reportedly clears PeopleFinders too.
+
+=== BODY
+## The catch
+
+Most people-search sites remove anyone who asks. PeopleFinders, according to [Redact's guide](https://redact.dev/data-brokers/peoplefinders-com/remove), only honours opt-outs from residents of states with comprehensive privacy laws. The list it gives: California, Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah and Virginia.
+
+Live in Florida, New York or Illinois? You may get a polite no. Privacy in the US still depends on your postcode, sorry, ZIP code. See our [[us-state-privacy-laws-guide|state privacy law guide]].
+
+## Step by step
+
+1. Go to [peoplefinders.com/opt-out](https://www.peoplefinders.com/opt-out) (the “Do Not Sell My Personal Information” page). In the **Right to Opt-out** section click **Next** and fill in the basic fields.
+2. Open the email from support@peoplefinders.com, “Complete your peoplefinders.com Privacy Request”, and click the link **within 24 hours**.
+3. Fill in the **Record Suppression Form**: first name, last name and street address are required; email, phone, date of birth and middle name help matching. Avoid special characters.
+4. Wait for an acceptance or rejection email.
+
+Removal is claimed within three days if accepted. Check in a private window after 72 hours; if you're still listed at day seven despite an acceptance, start again.
+
+## If you're rejected
+
+- **Appeal** through the “Your Privacy Rights” section of PeopleFinders' privacy notice, naming the law you think applies, or call (800) 718-8997.
+- **Try the FastPeopleSearch route.** DuckDuckGo's guide says removing a listing from FastPeopleSearch also removes it from related sites including PeopleFinders. Our [[fastpeoplesearch-opt-out-guide|FastPeopleSearch guide]] takes five minutes, then check PeopleFinders again.
+
+## Keep the list moving
+
+PeopleFinders is one stop. See the [[us-data-broker-sites-opt-out-guide|full US broker list]], and run a free [[/digital-footprint-checker/|email exposure check]] to see what's leaked in breaches too.
+
+=== FAQ
+Q: How do I opt out of PeopleFinders?
+A: Use the Right to Opt-out section at peoplefinders.com/opt-out, confirm the email within 24 hours and complete the Record Suppression Form.
+Q: Why was my PeopleFinders opt-out rejected?
+A: PeopleFinders only honours opt-outs from residents of states with comprehensive privacy laws.
+Q: Which states qualify?
+A: Redact lists California, Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah and Virginia.
+Q: Is there another way to get removed?
+A: Appeal, or remove your FastPeopleSearch listing, which DuckDuckGo says also removes related PeopleFinders listings.
+
+=== SOURCES
+https://redact.dev/data-brokers/peoplefinders-com/remove | Redact: PeopleFinders removal guide
+https://duckduckgo.com/duckduckgo-help-pages/fastpeoplesearch-removal | DuckDuckGo Help: FastPeopleSearch removal guide
+
+=== RELATED
+us-state-privacy-laws-guide | US State Privacy Laws Guide
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+daniels-law-new-jersey-explained | Daniel's Law (New Jersey) Explained
+opting-out-us-people-search-sites | Opting Out of US People-Search Sites
+how-to-remove-info-from-data-brokers-us | How to Remove Info From Data Brokers

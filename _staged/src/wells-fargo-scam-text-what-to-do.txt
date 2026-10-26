@@ -1,0 +1,70 @@
+slug: wells-fargo-scam-text-what-to-do
+country: US
+title: Wells Fargo Scam Texts: Spot Them and Report Them
+h1: Wells Fargo Scam Texts: What They Say, How to Report Them and What to Do
+desc: Fake Wells Fargo texts say your account is suspended or a payment needs approval. Report to reportphish@wellsfargo.com, call 1-866-867-5568 if you responded.
+keywords: wells fargo scam text, wells fargo fraud text, fake wells fargo text message, reportphish wellsfargo, wells fargo account suspended text
+tags: Bank Scams|Text Scams|United States|What To Do
+=== TLDR
+Scam texts pretending to be Wells Fargo claim your account is suspended, a card is locked or a transfer needs confirming. If you didn't respond, forward the message to reportphish@wellsfargo.com (and to 7726). If you clicked or shared anything, call Wells Fargo on 1-866-867-5568. Wells Fargo says its staff won't ask for your password, won't ask you to move money or send your card, and won't pressure you into urgent action.
+
+=== BODY
+## The usual versions
+
+- “Wells Fargo: Your account has been suspended due to unusual sign-in activity. Restore access: [link].”
+- “Wells Fargo Fraud Dept: Did you authorize a $799.99 purchase? Reply Y/N.”
+- “Your card ending 0000 is locked. Call 1-8xx-…”
+
+The tell is the same in every version: a problem you didn't know about, a deadline, and a link or number supplied by the message.
+
+## What Wells Fargo says it won't do
+
+From [Wells Fargo's phishing report page](https://www.wellsfargo.com/privacy-security/fraud/report/phish/):
+
+- bank representatives won't ask for your password or other sensitive information;
+- a legitimate bank won't ask you to transfer money or send your card;
+- your bank won't contact you out of the blue and pressure you into urgent action.
+
+Pin that list on the fridge for anyone who answers the phone in your house.
+
+## How to report
+
+- **You didn't respond:** forward the text or email to **reportphish@wellsfargo.com**, and forward texts to **7726** for your carrier. If the forward bounces, just delete it.
+- **You clicked or shared information:** call **1-866-867-5568** right away.
+
+## If you think a real alert came in
+
+Real banks do send fraud alerts. Don't use the message to check. Open the Wells Fargo app or call the number on your card. If it was real, the alert will be there.
+
+## After a slip-up
+
+1. Call Wells Fargo on 1-866-867-5568.
+2. Change your online banking password and enable two-step verification.
+3. Check transfers and Zelle activity.
+4. Report to the FTC at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/).
+5. If personal details were taken, see [[how-to-lock-down-accounts-after-a-breach|locking down accounts]].
+
+## Why you got it (even if you don't bank there)
+
+Scam texts go to millions of numbers, many bought from breach data. Most recipients aren't even customers. A free [[/digital-footprint-checker/|email exposure check]] shows whether your details are in known breaches. See also [[us-bank-impersonation-scams-what-to-know|how US bank impersonation works]].
+
+=== FAQ
+Q: Where do I report a fake Wells Fargo text?
+A: Forward it to reportphish@wellsfargo.com and to 7726. If you responded, call 1-866-867-5568.
+Q: Will Wells Fargo ask for my password by text or phone?
+A: No. Wells Fargo says representatives won't ask for your password or other sensitive information.
+Q: Will Wells Fargo ask me to move money to protect it?
+A: No. A legitimate bank won't ask you to transfer money or send your card.
+Q: How do I check if a Wells Fargo alert is real?
+A: Open the Wells Fargo app or call the number on your card. Don't use links or numbers in the text.
+
+=== SOURCES
+https://www.wellsfargo.com/privacy-security/fraud/report/phish/ | Wells Fargo: Report phishing
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+us-bank-impersonation-scams-what-to-know | US Bank Impersonation Scams
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing
+how-to-recover-a-hacked-bank-account | How to Recover a Hacked Bank Account
+text-scam-statistics-2026 | Text Scam Statistics 2026
+what-is-smishing | What Is Smishing?

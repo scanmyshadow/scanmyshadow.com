@@ -1,0 +1,73 @@
+slug: wrong-number-text-scam-what-happens-if-you-reply
+country: US
+title: Wrong Number Text Scam: What Happens If You Reply
+h1: “Hi, Is This Mike?” What Really Happens When You Reply to a Wrong Number Text
+desc: That polite wrong-number text is often the start of a crypto or romance scam. What happens if you reply, how the conversation is scripted, and what to do instead.
+keywords: wrong number text scam, what happens if you reply to a scam text, hi how are you text scam, wrong number text crypto scam, mistaken identity text scam
+tags: Text Scams|Pig Butchering|United States|How To
+=== TLDR
+A friendly “wrong number” text (“Hi Mike, are we still on for golf?”) is often the opening move of a crypto investment or romance scam. Replying, even just “wrong number,” tells the sender your number is live and invites a chat that's carefully scripted to become a friendship, then an “investment opportunity.” Don't reply, block, forward to 7726 and report to the FTC.
+
+=== BODY
+## The texts
+
+They're designed to look like an innocent mistake:
+
+- “Hi Linda, is the dinner still on for Friday?”
+- “Are you still interested in touring the apartment on Oak Street?”
+- “Hey, it's Amy from the conference. Great to meet you!”
+
+[Massachusetts' consumer office](https://www.mass.gov/news/scam-alert-wrong-number-texts) warns that these seemingly harmless messages often lead to scams, with cryptocurrency as a common thread.
+
+## What happens if you reply
+
+Being polite is the hook. You reply “Sorry, wrong number.” They apologise warmly, compliment you, and keep chatting. Over days or weeks:
+
+1. **Friendship.** Photos of a nice life, lunches, travel, a puppy.
+2. **Trust.** Lots of attention, good-morning messages, maybe flirting.
+3. **The tip.** They mention an uncle or mentor who makes a fortune trading crypto or gold, and offer to show you.
+4. **The platform.** A slick app or website shows your “investment” growing. Early small withdrawals may even work.
+5. **The trap.** When you try to take out real money, there are “taxes” or “fees,” then silence.
+
+That's [[what-is-pig-butchering-scams|pig butchering]], and it often starts with exactly this text. Other versions turn into romance blackmail: Massachusetts notes some scammers ask for personal info or photos, then extort.
+
+## Even “wrong number” confirms you exist
+
+Any reply flags your number as active and answered by a human. That's worth more to scammers than a random number, so expect more messages.
+
+## What to do instead
+
+- Don't reply. If it's a real mistake, they'll realise.
+- Block the number and delete the message.
+- Forward it to **7726** (SPAM) so your carrier can block the sender.
+- Report it to the FTC at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/).
+- Keep your phone software updated.
+
+## If you're already chatting with someone like this
+
+A useful test: suggest a live video call. Scam workers often refuse, or the call drops, or the face doesn't match. If money has already gone into an app they recommended, stop paying “fees” and read [[crypto-scam-recovery-realistic-expectations|realistic crypto recovery]] before anyone offers to get it back for you.
+
+## Why your number?
+
+They text numbers in bulk, often from breach lists. Having your name doesn't mean they know you. Check your exposure with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: What happens if I reply to a wrong number text?
+A: It confirms your number is active and can start a scripted conversation that leads to a crypto or romance scam.
+Q: Is it safe to reply "wrong number"?
+A: It's safer not to reply at all. Block, delete and forward the text to 7726.
+Q: Why do scammers send wrong number texts?
+A: To start friendly chats that build trust before pitching fake investments or asking for money.
+Q: Where do I report a wrong number scam text?
+A: Forward it to 7726 and report it at ReportFraud.ftc.gov.
+
+=== SOURCES
+https://www.mass.gov/news/scam-alert-wrong-number-texts | Mass.gov: Scam alert, wrong number texts
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+what-is-pig-butchering-scams | What Is Pig Butchering?
+us-pig-butchering-retiree-500000-scammed-twice | Retiree Loses $500,000 to Pig Butchering
+dating-and-romance-scams-red-flags | Dating and Romance Scam Red Flags
+text-scam-statistics-2026 | Text Scam Statistics 2026
+crypto-scam-statistics-2026 | Crypto Scam Statistics 2026

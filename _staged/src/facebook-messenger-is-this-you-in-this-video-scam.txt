@@ -1,0 +1,70 @@
+slug: facebook-messenger-is-this-you-in-this-video-scam
+country: US
+title: “Is This You in This Video?” Facebook Messenger Scam Explained
+h1: “Is This You in This Video?” Why That Messenger Link From a Friend Is a Trap
+desc: A friend messages "Is this you in this video?" with a link. Their account was hacked, and the link steals your Facebook login. What to do if you clicked.
+keywords: is this you in this video scam, facebook messenger video scam, messenger link scam friend, facebook video virus message, clicked facebook messenger link
+tags: Facebook|Account Takeover|Social Media|What To Do
+=== TLDR
+A message from a friend says “Is this you in this video?” or “Look who died,” with a link. Your friend's account was taken over. The link leads to a fake login page that steals your Facebook password, and then the same message goes to all your friends. Don't click. If you did and entered your password, change it now, turn on two-factor authentication and warn your friends.
+
+=== BODY
+## How it works
+
+As described in a [Gedling Eye report](https://www.gedlingeye.co.uk/facebook-messenger-video-scam-gedling-borough/) on one of many waves:
+
+1. The message comes from a real friend's account that criminals already control: “Really! Is this you in this video?” often with your name.
+2. The link looks like a YouTube or Facebook video.
+3. It leads to a fake login page saying you must sign in to watch.
+4. Enter your details and the criminals take your account.
+5. They send the same message to your friends. Repeat.
+
+There is no video. There never was. It's a chain letter with a lock pick.
+
+## Why it works
+
+Curiosity plus a trusted sender. Nobody can resist a video of themselves, especially one a friend found worth sending with “Really!” It's the digital version of someone pointing behind you.
+
+## If you clicked but didn't log in
+
+Close the page, clear your browser history and run a security scan if anything downloaded. Tell your friend their account is hacked (by phone or text, not Messenger).
+
+## If you entered your password
+
+1. **Change your Facebook password** immediately, from the real app or facebook.com.
+2. **Turn on two-factor authentication** with an authenticator app.
+3. **Check Where You're Logged In** in Settings and log out unknown sessions.
+4. **Check your email and phone number** on the account haven't been changed.
+5. **Warn your friends** that any message from you with a link is fake.
+6. If you can't get in, follow our [[facebook-account-hacked-what-to-do|Facebook hacked recovery guide]].
+
+Change any other account that used the same password. Scammers try it everywhere ([[credential-stuffing-explained|credential stuffing]]).
+
+## Spot the next one
+
+Variants include “Look who died,” “OMG is this you?”, “I can't believe you're in this” and urgent shock headlines. Any short, emotional message with a link and no context from someone who doesn't usually write like that should get a phone call first.
+
+## How exposed is your login?
+
+If your Facebook password was also used elsewhere, it may already be in breach data. A free [[/digital-footprint-checker/|email exposure check]] shows where your email has turned up.
+
+=== FAQ
+Q: Is "Is this you in this video?" a scam?
+A: Yes. The sender's account is usually hacked, and the link leads to a fake login page.
+Q: I clicked the link. Am I hacked?
+A: Not if you didn't enter your login. If you did, change your password, turn on 2FA and check active sessions.
+Q: Why did my friend send it?
+A: They didn't. Criminals took over their account and sent it to their contacts.
+Q: How do I stop the message spreading from my account?
+A: Secure your account, log out unknown sessions and warn friends not to click links from you.
+
+=== SOURCES
+https://www.gedlingeye.co.uk/facebook-messenger-video-scam-gedling-borough/ | Gedling Eye: "Are you in this video?" Facebook Messenger scam
+https://www.facebook.com/help/ | Facebook Help Centre
+
+=== RELATED
+facebook-account-hacked-what-to-do | Facebook Account Hacked?
+facebook-final-warning-text-scam | Facebook "Final Warning" Scam
+social-media-account-hacked-what-to-do | Social Media Account Hacked?
+social-media-account-takeover-statistics | Social Media Account Takeover Statistics
+how-to-make-facebook-private | How to Make Facebook Private

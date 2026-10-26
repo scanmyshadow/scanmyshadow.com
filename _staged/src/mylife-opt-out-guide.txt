@@ -1,0 +1,64 @@
+slug: mylife-opt-out-guide
+country: US
+title: MyLife Opt Out 2026: How to Remove Your “Reputation Profile”
+h1: How to Opt Out of MyLife and Remove Your Profile
+desc: MyLife removal takes about 15 minutes: find your profile URL, submit it at mylife.com/privacyrequest, verify your email with a code. Plus the FTC case worth knowing.
+keywords: mylife opt out, remove from mylife, mylife privacy request, delete mylife profile, mylife reputation score removal
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Search mylife.com for yourself, open your “Reputation Profile” and copy its URL. Then go to mylife.com/privacyrequest, fill in your state, name and city or ZIP, verify your email with the numeric code MyLife sends, paste the profile URL and submit. Save the confirmation. If removal stalls, email privacy@mylife.com and mention the FTC's 2021 case against MyLife.
+
+=== BODY
+## What MyLife is
+
+MyLife builds “reputation profiles” with names, ages, addresses, relatives and a so-called reputation score. People find them by googling their own name and getting an unpleasant surprise. In December 2021 the FTC and Department of Justice settled a case with MyLife and its CEO, *US v. MyLife.com, Inc. and Jeffrey Tinsley*, over its marketing practices.
+
+## Step by step
+
+From [Redact's MyLife guide](https://redact.dev/data-brokers/mylife-com/remove):
+
+1. On mylife.com, type your name, switch on the **“This is Me”** toggle and search.
+2. Click **“View Reputation Profile”** on your listing.
+3. Tick some data boxes and the **“This is me – Needed to Edit Public Profile”** box, then click **Continue to Details**.
+4. Let the “gathering info” animation finish. Don't close the tab.
+5. Copy the profile URL from the address bar.
+6. Go to **mylife.com/privacyrequest** and enter your state, name and city or ZIP.
+7. Enter your email and click **Verify Email**. MyLife sends a **numeric code**, not a link. Enter it.
+8. Paste the profile URL, complete the reCAPTCHA and submit.
+9. Save the confirmation page and email.
+
+Active work: about 10 to 15 minutes, mostly that animation.
+
+## If nothing happens
+
+Wait several days for a “deletion complete” email. No luck? Email membersupport@mylife.com or privacy@mylife.com with your name, the listing URL and the date you submitted. Redact suggests mentioning the 2021 FTC consent decree. California residents can complain to the [California Privacy Protection Agency](https://cppa.ca.gov/), and anyone can report to the FTC at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/).
+
+## Don't pay to “fix” your score
+
+You don't need to buy anything to remove or correct a profile. If a site suggests otherwise, that's a sales pitch, not a privacy process.
+
+## Then do the rest
+
+MyLife is one of many. See our [[us-data-broker-sites-opt-out-guide|US broker list]] and start with [[whitepages-opt-out-guide|Whitepages]] and [[spokeo-opt-out-guide|Spokeo]]. Check your email against breach data with a free [[/digital-footprint-checker/|exposure check]].
+
+=== FAQ
+Q: How do I remove my MyLife profile?
+A: Copy your profile URL, then submit a request at mylife.com/privacyrequest and verify your email with the numeric code.
+Q: How long does MyLife take?
+A: About 10 to 15 minutes to submit; processing can take days. Watch for a deletion confirmation email.
+Q: Do I have to pay MyLife to remove my information?
+A: No. Opting out is free.
+Q: What if MyLife doesn't remove my profile?
+A: Email privacy@mylife.com with your details and submission date. California residents can complain to the CPPA; others can report to the FTC.
+
+=== SOURCES
+https://redact.dev/data-brokers/mylife-com/remove | Redact: MyLife removal guide
+https://cppa.ca.gov/ | California Privacy Protection Agency
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+remove-yourself-from-google-results-about-you | Remove Yourself From Google Results
+how-to-google-yourself-digital-footprint-audit | How to Google Yourself
+us-state-privacy-laws-guide | US State Privacy Laws Guide
+opting-out-us-people-search-sites | Opting Out of US People-Search Sites

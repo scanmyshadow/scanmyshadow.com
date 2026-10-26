@@ -1,0 +1,70 @@
+slug: unclaimed-money-text-scam-release-fee
+country: US
+title: Unclaimed Money Texts: Real Search Is Free, Fees Mean Scam
+h1: “$8,742 in Unclaimed Property Matched to Your Name”: How the Fee Scam Works
+desc: Texts and letters say unclaimed money is waiting if you pay a small release fee. Real state searches are free. How the scam works and where to search safely.
+keywords: unclaimed money scam text, unclaimed property scam, unclaimed funds release fee scam, missing money scam, unclaimed property letter scam
+tags: Unclaimed Property|Text Scams|United States|What To Do
+=== TLDR
+A text or letter says thousands in “forgotten property” has been matched to your name, and you can claim it today for a small fee, often around $29.95 or $49.95. Real unclaimed property searches and claims through your state are free. Search yourself at unclaimed.org (which links to official state pages) or MissingMoney.com, and never pay an upfront fee to a stranger who found “your money.”
+
+=== BODY
+## Real money, fake messengers
+
+Unclaimed property is real: old paychecks, deposits, refunds and insurance payouts that states hold until the owner claims them. Scammers love it because it sounds believable and almost everyone has a little out there.
+
+## How the text works
+
+[MalwareTips](https://malwaretips.com/blogs/?p=409031) broke down a September 2026 wave:
+
+1. A precise amount, such as **$8,742**, “matched to your name.”
+2. A generic agency name that sounds official.
+3. A deadline: the claim period ends today, or has been extended “just for you.”
+4. A link that asks for identity details, including your Social Security number.
+5. A small release fee, such as **$29.95** or **$49.95**.
+6. Then more fees: “state certification,” tax withholding, insurance, shipping, a bond.
+
+The small fee isn't the real prize. Your SSN and card details are.
+
+## The letter version
+
+Fake “attorneys” and “finders” send letters too. The BBB described one where a fake Canadian attorney offered to recover about $10.6 million in unclaimed life insurance, with a relative's name close enough to be convincing ([Boston 25 News](https://www.boston25news.com/news/trending-now/scam-alert-fake-unclaimed-property-letter-may-look-real-but-don-t-fall-for-it-bbb-warns/990129453/)). The BBB's rule: legitimate finders don't charge upfront fees. They take a cut only after you're paid, and you don't need them anyway.
+
+## Search for free, safely
+
+- **[unclaimed.org](https://unclaimed.org/)** from the National Association of Unclaimed Property Administrators links to each state's official search.
+- **MissingMoney.com** searches participating states at once.
+- Your **state treasurer's or comptroller's website**, typed in yourself.
+
+Searching and claiming through your state is free. If you find money, the claim process is on the state site, not in a text.
+
+## If you paid or shared your SSN
+
+Call your card issuer to dispute the charge, then freeze your credit ([[how-to-freeze-your-credit-us|how]]) and consider an [[irs-identity-protection-pin-how-to-get|IRS IP PIN]]. Report it at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/) and forward the text to 7726.
+
+## Why you were picked
+
+Every text goes to thousands of numbers; the “match” is fiction. Lists come from breaches and brokers. Check yours with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: Do I have to pay to claim unclaimed property?
+A: No. Searching and claiming through your state is free.
+Q: Is a text saying unclaimed money is matched to my name real?
+A: Treat it as a scam. Search yourself through unclaimed.org or your state's official site.
+Q: What fees do these scams ask for?
+A: Often a small "release fee" like $29.95 or $49.95, followed by more fees and requests for your SSN.
+Q: Where can I safely search for unclaimed money?
+A: unclaimed.org (official state links), MissingMoney.com, or your state treasurer's website.
+
+=== SOURCES
+https://malwaretips.com/blogs/?p=409031 | MalwareTips: Fake unclaimed money texts demand a release fee (Sept 2026)
+https://www.boston25news.com/news/trending-now/scam-alert-fake-unclaimed-property-letter-may-look-real-but-don-t-fall-for-it-bbb-warns/990129453/ | Boston 25 News: Fake unclaimed property letter, BBB warns
+https://unclaimed.org/ | National Association of Unclaimed Property Administrators
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+what-is-advance-fee-fraud | What Is Advance Fee Fraud?
+what-is-lottery-sweepstakes-scams | Lottery and Sweepstakes Scams
+how-to-check-a-breach-class-action-settlement | How to Check a Breach Settlement
+what-is-smishing | What Is Smishing?
+text-scam-statistics-2026 | Text Scam Statistics 2026

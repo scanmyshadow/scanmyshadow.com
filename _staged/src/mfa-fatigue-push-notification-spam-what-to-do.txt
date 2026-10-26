@@ -1,0 +1,63 @@
+slug: mfa-fatigue-push-notification-spam-what-to-do
+country: US
+title: Getting Endless Login Approval Requests? It's MFA Fatigue
+h1: Your Phone Keeps Asking “Approve Sign-In?” and You Didn't Try to Log In. Here's What's Happening
+desc: A flood of login approval prompts means someone has your password and is hoping you tap Approve. What MFA fatigue is, what to do now, and the settings that stop it.
+keywords: mfa fatigue, push notification spam login, approve sign in request not me, microsoft authenticator spam requests, push bombing attack
+tags: Two-Factor Authentication|Account Security|Privacy Settings|What To Do
+=== TLDR
+If your authenticator app or phone keeps asking you to approve a sign-in you didn't start, someone almost certainly has your password and is “push bombing” you, hoping you tap Approve to make it stop. Deny every prompt, change that account's password right away, and switch to number matching or a passkey or security key. CISA calls phishing-resistant MFA the best defence.
+
+=== BODY
+## What MFA fatigue is
+
+Two-factor authentication works because a password alone isn't enough. MFA fatigue (also called push bombing) is how attackers get around it. According to [CISA](https://www.cisa.gov/sites/default/files/publications/fact-sheet-implement-number-matching-in-mfa-applications-508c.pdf), an attacker who already has your password repeatedly triggers push notifications, hoping you approve one by accident or just to make them stop.
+
+It's a war of attrition: 2 a.m., twentieth notification, half asleep, thumb hovers over Approve. That's the moment they're waiting for.
+
+## The important part: a prompt means your password is out
+
+CISA notes that because MFA is checked after the password, a denied request may mean the password is compromised. So those prompts aren't just annoying. They're an alarm.
+
+## What to do right now
+
+1. **Deny every prompt you didn't start.** Never approve “just to see.”
+2. **Change the password** for that account immediately, and anywhere you reused it.
+3. **Check sign-in activity** and sign out of other sessions ([[how-to-log-out-of-all-devices|how to log out of all devices]]).
+4. **If it's a work account**, tell your IT or security team right away.
+5. **Check if the password leaked** in a breach ([[check-if-your-password-has-been-leaked|how]]).
+
+## Settings that stop it
+
+- **Number matching:** you must type a number shown on the login screen into your app. An attacker who can't see your screen can't approve, so spamming prompts becomes pointless. Microsoft Authenticator and others support it.
+- **Passkeys or security keys:** phishing-resistant sign-ins that can't be approved remotely by mistake. CISA strongly recommends phishing-resistant MFA. See [[setting-up-passkeys-and-authenticator|setting up passkeys]] and [[password-manager-mfa-security-key-guide|security keys]].
+- **Unique passwords** from a password manager, so one breach doesn't unlock everything.
+
+## Was it a mistake?
+
+Occasionally an old device or app retries a login with a saved password. If prompts come in a steady trickle at the same time daily, check your other devices. A sudden burst at odd hours is almost certainly an attack.
+
+## Where did they get your password?
+
+Usually from an older breach or a phishing page. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches your email appears in, which often explains which password was stolen.
+
+=== FAQ
+Q: Why am I getting login approval requests I didn't make?
+A: Someone likely has your password and is trying to log in, hoping you'll approve a prompt.
+Q: What should I do about MFA spam?
+A: Deny the prompts, change the password immediately and switch to number matching, passkeys or a security key.
+Q: What is number matching?
+A: A feature where you type a number shown on the login screen into your authenticator app, so remote attackers can't get approval.
+Q: Is MFA fatigue a sign of a breach?
+A: CISA notes a denied request may mean the password is compromised, so treat it as one.
+
+=== SOURCES
+https://www.cisa.gov/sites/default/files/publications/fact-sheet-implement-number-matching-in-mfa-applications-508c.pdf | CISA: Implementing number matching in MFA applications
+https://cisa.gov/news-events/alerts/2022/10/31/cisa-releases-guidance-phishing-resistant-and-numbers-matching | CISA: Guidance on phishing-resistant and numbers-matching MFA
+
+=== RELATED
+how-to-set-up-two-factor-authentication | How to Set Up Two-Factor Authentication
+setting-up-passkeys-and-authenticator | Setting Up Passkeys and Authenticator Apps
+microsoft-account-hacked-what-to-do | Microsoft Account Hacked?
+what-is-account-takeover-fraud | What Is Account Takeover Fraud?
+credential-stuffing-explained | Credential Stuffing Explained

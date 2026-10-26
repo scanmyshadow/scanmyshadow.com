@@ -1,0 +1,69 @@
+slug: apple-pay-suspended-text-scam
+country: US
+title: “Apple Pay Has Been Suspended” Text: It's a Scam
+h1: The “Apple Pay Has Been Suspended on Your Device” Text, and What Apple Actually Does
+desc: Texts claim your Apple Pay is suspended and link to a "reactivation" page. Apple doesn't fix Apple Pay through text links. How to check and report it.
+keywords: apple pay suspended text, apple pay scam text, apple pay has been suspended on your device, fake apple text message, reportphishing@apple.com
+tags: Apple|Text Scams|Phishing|What To Do
+=== TLDR
+A text says “Apple Pay has been suspended on your device” and links to a site to reactivate it. It's phishing for your Apple Account login and card details. Apple Pay problems show up in your Wallet app, not via links from random numbers. Forward the text to 7726, email it to reportphishing@apple.com, and if you entered details, call your bank and change your Apple Account password.
+
+=== BODY
+## The text
+
+[Which? documented the wording](https://www.which.co.uk/news/article/iphone-users-targeted-with-new-apple-pay-text-message-scam-aRiJ77u99MJQ): “Apple Pay has been suspended on your device. Please visit [secure-mysuspension-info.com].” It arrives from an ordinary mobile number and urges you to act quickly. When Which? tested the link, the browser blocked the site as dangerous, which is the browser saying out loud what you're thinking.
+
+Variants say a payment was declined, a card needs re-verification, or an unknown Apple Pay request needs confirming.
+
+## What the fake site wants
+
+- your Apple Account email and password;
+- your card number, expiry and security code;
+- sometimes your phone carrier PIN or a one-time code.
+
+With those, criminals can add your card to their own Wallet or take over your Apple Account.
+
+## How to check Apple Pay yourself
+
+Open the **Wallet** app and tap your card. If there's genuinely a problem, it will tell you there, or your bank will. You can also check your Apple Account at appleid.apple.com, typed yourself. Apple's real messages won't send you to an odd domain from a mobile number.
+
+## Report it
+
+- Forward the text to **7726**.
+- Email it to **reportphishing@apple.com**.
+- Use “Report Junk” under the message in iMessage.
+- Report to the [FTC](https://reportfraud.ftc.gov/).
+
+## If you entered your details
+
+1. Call your bank using the number on your card and ask to block it.
+2. Change your Apple Account password and check trusted devices ([[remove-unknown-device-apple-id|remove unknown devices]]).
+3. Make sure two-factor authentication is on.
+4. Watch for a follow-up call from your “bank”; it's often the same scammer.
+
+See our [[apple-id-account-hacked-what-to-do|Apple ID hacked guide]] and [[is-apple-pay-safe-from-scams|is Apple Pay safe?]] for more.
+
+## Why they had your number
+
+Mass texts go to numbers from breaches and brokers. A free [[/digital-footprint-checker/|email exposure check]] shows what's circulating about your email.
+
+=== FAQ
+Q: Does Apple text you when Apple Pay is suspended?
+A: Check the Wallet app or your Apple Account yourself. Scam texts from mobile numbers with links are not how Apple handles Apple Pay issues.
+Q: How do I report a fake Apple text?
+A: Forward it to 7726, email it to reportphishing@apple.com and use Report Junk in Messages.
+Q: I entered my card on the fake site. What now?
+A: Call your bank to block the card, change your Apple Account password and check trusted devices.
+Q: Can scammers add my card to their Apple Pay?
+A: If they get your card details and a verification code, they may try. Never share codes with anyone.
+
+=== SOURCES
+https://www.which.co.uk/news/article/iphone-users-targeted-with-new-apple-pay-text-message-scam-aRiJ77u99MJQ | Which?: iPhone users targeted with Apple Pay text scam
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+is-apple-pay-safe-from-scams | Is Apple Pay Safe From Scams?
+apple-id-account-hacked-what-to-do | Apple ID Hacked?
+remove-unknown-device-apple-id | Remove an Unknown Device From Apple ID
+what-is-smishing | What Is Smishing?
+iphone-18-pro-fake-shop-scam-sites | iPhone 18 Pro Fake Shop Sites

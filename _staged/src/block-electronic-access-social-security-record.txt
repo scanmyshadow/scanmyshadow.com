@@ -1,0 +1,68 @@
+slug: block-electronic-access-social-security-record
+country: US
+title: Block Online Access to Your Social Security Record: How
+h1: How to Block Electronic Access to Your Social Security Record (and When You Should)
+desc: If your SSN is compromised, SSA can block online and automated phone access to your record. How to request it, what it stops, and the simpler first step.
+keywords: block electronic access social security, my social security account hacked, ssa block online access, social security direct deposit changed fraud, protect social security record
+tags: Social Security|Identity Theft|United States|How To
+=== TLDR
+If you know your Social Security number has been compromised, you can ask the Social Security Administration to block electronic access to your record by calling 1-800-772-1213 (TTY 1-800-325-0778). The block stops online and automated phone access and changes, including by you, until you prove your identity to lift it. The simpler first step for most people: create your own my Social Security account so nobody else can.
+
+=== BODY
+## The threat
+
+Benefits fraud via online accounts is real. A ConsumerAffairs writer described getting an SSA letter confirming a direct deposit change he never made; a scammer had changed it to another bank account. At his local office, staff confirmed the online account had been altered, deleted it and restored his details ([ConsumerAffairs](https://www.consumeraffairs.com/news/a-scammer-hacked-my-social-security-account-heres-what-i-did-050225.html)).
+
+## Step 1 for most people: create your own account
+
+SSA's own [identity theft publication](https://www.Ssa.gov/pubs/EN-05-10220.pdf) recommends creating a personal my Social Security account at ssa.gov. That can keep someone else from creating one in your name, even if they have your number. It's the same “plant your flag” idea as with [[plant-your-flag-credit-bureau-accounts-experian-takeover|credit bureau accounts]].
+
+## Step 2 if your SSN is compromised: block electronic access
+
+From SSA Publication 05-10220:
+
+- **Call 1-800-772-1213** (TTY **1-800-325-0778**), weekdays 8 a.m. to 7 p.m.
+- The block **stops automated telephone and electronic access** to your record.
+- It also stops **you** viewing or changing your information online or by automated phone.
+- To lift it later, contact SSA and prove your identity.
+
+It's a heavy lock. Good if you've already been targeted or your SSN is out in a big breach and you don't need online access.
+
+## Signs something's wrong
+
+- a letter confirming changes you didn't make (address, direct deposit);
+- a missing benefit payment;
+- you can't log in and password resets fail.
+
+If any happen, call SSA immediately, then report at [IdentityTheft.gov](https://www.identitytheft.gov/).
+
+## Protect the number itself
+
+- Don't carry your card.
+- Ask why your SSN is needed before giving it out, says SSA.
+- Freeze your credit ([[how-to-freeze-your-credit-us|how]]) and get an [[irs-identity-protection-pin-how-to-get|IRS IP PIN]].
+- Hang up on callers claiming your SSN is suspended; it's a scam ([[social-security-impersonation-scam-calls|details]]).
+
+A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data that might include more.
+
+=== FAQ
+Q: How do I block electronic access to my Social Security record?
+A: Call SSA at 1-800-772-1213 (TTY 1-800-325-0778) and request the block.
+Q: What does the block stop?
+A: Automated telephone and electronic access to your record, including your own ability to view or change it online.
+Q: How do I remove the block?
+A: Contact SSA and prove your identity.
+Q: Should I create a my Social Security account?
+A: SSA recommends it, because it can stop someone else creating one in your name.
+
+=== SOURCES
+https://www.Ssa.gov/pubs/EN-05-10220.pdf | SSA Publication 05-10220: Identity theft and your Social Security number (Mar 2024)
+https://www.consumeraffairs.com/news/a-scammer-hacked-my-social-security-account-heres-what-i-did-050225.html | ConsumerAffairs: A scammer hacked my Social Security account
+https://www.identitytheft.gov/ | FTC IdentityTheft.gov
+
+=== RELATED
+how-to-recover-a-stolen-ssn | How to Recover a Stolen SSN
+how-to-check-if-your-ssn-was-used | How to Check if Your SSN Was Used
+social-security-impersonation-scam-calls | Social Security Impersonation Calls
+how-to-get-a-new-ssn-after-theft | Get a New SSN After Theft
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors

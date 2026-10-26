@@ -1,0 +1,72 @@
+slug: paypal-scam-text-what-to-do
+country: US
+title: PayPal Scam Texts: How to Spot Them and Report Them
+h1: Fake PayPal Texts: Account Limited, Payment Pending and Other Lies
+desc: Fake PayPal texts claim your account is limited or a payment is pending. How to spot them, forward them to phishing@paypal.com and protect your account.
+keywords: paypal scam text, fake paypal text message, paypal account limited text, paypal phishing report, paypal text scam 2026
+tags: PayPal|Text Scams|United States|What To Do
+=== TLDR
+Fake PayPal texts claim your account is limited, a large payment is pending or a refund is waiting, then send you to a lookalike login page or a fake support number. Don't click. PayPal says to forward suspicious texts and emails to phishing@paypal.com, block the sender and delete them. Check your account by opening the PayPal app yourself.
+
+=== BODY
+## What the fake texts look like
+
+- “PayPal: Your account has been limited. Restore access within 24 hours: [link]”
+- “You sent $499.99 to Coinbase. If you didn't authorize this, call 1-8xx-…”
+- “You have a pending refund of $87.50. Claim it here.”
+
+There's also the slower version: a fake invoice that arrives through PayPal itself with a “call us to cancel” number in the notes. We cover that in [[paypal-invoice-scam-what-to-know|the PayPal invoice scam]].
+
+## How to report
+
+From [PayPal's report page](https://history.paypal.com/us/security/report-suspicious-messages):
+
+- **Texts:** don't click, forward a copy to **phishing@paypal.com**, block the sender and delete it.
+- **Emails:** don't click, call or download anything; forward the whole email to **phishing@paypal.com**, then delete it.
+
+You can also forward texts to **7726** for your mobile carrier.
+
+## How to check if there's really a problem
+
+Close the message. Open the PayPal app or type paypal.com yourself and log in. Any genuine account limitation or payment will be visible in your account. If it's not there, it didn't happen.
+
+## Red flags
+
+- a deadline (“within 24 hours”);
+- a phone number to call about a payment you didn't make;
+- a link that isn't paypal.com, or a lookalike like paypal-secure-help.com;
+- any request for your password, a one-time code or card number by text or phone.
+
+## If you entered your login
+
+1. Change your PayPal password and your email password, in that order if you reuse them (and then stop reusing them: [[strong-password-examples-and-ideas|password ideas]]).
+2. Turn on two-step verification in PayPal's security settings.
+3. Check for unknown payments, linked cards and email addresses.
+4. Report unauthorised transactions in PayPal's Resolution Center.
+
+Fake apps are another route in: McAfee found a fake PayPal app on Google Play with 10,000+ downloads in 2026 ([[uk-fake-android-apps-google-play-rewafake-subscriptions|details]]). Install PayPal only from a link on paypal.com.
+
+## Where scammers get your number
+
+From breach data and data brokers, mostly. Check whether your email is in known breaches with a free [[/digital-footprint-checker/|email exposure check]]. Also see [[is-paypal-safe-from-scams|is PayPal safe from scams?]]
+
+=== FAQ
+Q: How do I report a fake PayPal text?
+A: Forward it to phishing@paypal.com, block the sender and delete it. You can also forward it to 7726.
+Q: Does PayPal text about limited accounts?
+A: Check by logging in to the app yourself. Any genuine limitation will show in your account.
+Q: I entered my password on a fake PayPal page. What now?
+A: Change your PayPal and email passwords, turn on two-step verification and check for unknown activity.
+Q: Is there a PayPal phone number in scam texts?
+A: Scam texts often include fake support numbers. Only use contact details from paypal.com.
+
+=== SOURCES
+https://history.paypal.com/us/security/report-suspicious-messages | PayPal: Report suspicious messages
+https://mcafee.com/blogs/other-blogs/mcafee-labs/malicious-apps-google-play-store-adware-campaign | McAfee Labs: Fake apps campaign on Google Play (Oct 2026)
+
+=== RELATED
+paypal-invoice-scam-what-to-know | PayPal Invoice Scam
+is-paypal-safe-from-scams | Is PayPal Safe From Scams?
+payment-app-account-hacked-what-to-do | Payment App Account Hacked?
+what-is-smishing | What Is Smishing?
+text-scam-statistics-2026 | Text Scam Statistics 2026

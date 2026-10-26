@@ -1,0 +1,67 @@
+slug: breach-letter-free-credit-monitoring-kroll-is-it-legit
+country: US
+title: Breach Letter Offers Free Kroll Monitoring: Is It Legit?
+h1: A Breach Letter Offered Free Credit Monitoring From Kroll. Is It Real, and Should You Sign Up?
+desc: Got a data breach letter with a Kroll, Experian or TransUnion activation code? How to tell it's genuine, what the monitoring includes and what it doesn't do.
+keywords: kroll identity monitoring legit, kroll breach letter, free credit monitoring breach letter, enroll krollmonitoring, is kroll monitoring a scam
+tags: Data Breach|Credit Monitoring|United States|What To Do
+=== TLDR
+Kroll is a real company that many US organisations hire to provide free monitoring after a breach. Genuine letters point to enroll.krollmonitoring.com, include an activation code and deadline, and usually offer credit monitoring, fraud consultation and identity theft restoration. Before enrolling, verify the breach on your state attorney general's breach list or the company's website, and type the enrollment address yourself. Monitoring is worth activating, but a credit freeze does more.
+
+=== BODY
+## Why you got a letter from a company you've never heard of
+
+When a company has a breach, it often hires a breach-response firm to send notices and offer monitoring. Kroll is one of the biggest; Experian (IdentityWorks), Equifax and TransUnion do it too. So a letter on Kroll's behalf about a dentist, payroll provider or software vendor you barely remember can be completely genuine.
+
+## What a real Kroll letter contains
+
+Breach notices filed with state regulators, such as this [sample filed with California's attorney general](https://oag.ca.gov/system/files/ELN-25515%20WEL%20Companies%20Adult%20CM%201BM%20r1prf.pdf), show the usual pattern:
+
+- enrollment at **enroll.krollmonitoring.com** (info at info.krollmonitoring.com);
+- a **membership number or activation code** and an **enrollment deadline**;
+- services such as **credit monitoring, fraud consultation and identity theft restoration**;
+- a call centre number for questions.
+
+## How to check it's not a fake
+
+Fake breach letters exist, especially after big headlines. Before entering anything:
+
+1. **Look up the breach** on your state attorney general's data breach list (California, Massachusetts, Maine and others publish notices) or on the affected company's website.
+2. **Type the enrollment address yourself**; don't scan a QR code or click a link in an email.
+3. **Be suspicious of any request for payment.** Breach monitoring offered in a notice is free.
+4. **Expect to give your SSN during enrollment** on the official site, since credit monitoring needs it; never give it over an unexpected phone call.
+
+Our guide to [[data-breach-notification-email-what-to-do|real vs fake breach notices]] has more checks.
+
+## Is it worth activating?
+
+Yes, it's free and it can alert you to new accounts or inquiries. But monitoring tells you *after* something happens. A **credit freeze** stops most new-account fraud from happening at all, also for free. Do both: activate the monitoring and [[how-to-freeze-your-credit-us|freeze your credit]]. If your SSN was exposed, add an [[irs-identity-protection-pin-how-to-get|IRS IP PIN]].
+
+## Set a reminder for when it ends
+
+Free monitoring usually lasts 12 to 24 months. When it lapses, you'll get upsell offers. You don't need to pay if your credit is frozen and you check your free reports at AnnualCreditReport.com. See [[identity-theft-protection-is-it-worth-it|is identity theft protection worth it?]]
+
+## One breach rarely travels alone
+
+If one company lost your details, others probably have too. A free [[/digital-footprint-checker/|email exposure check]] shows which known breaches include your email.
+
+=== FAQ
+Q: Is Kroll identity monitoring legitimate?
+A: Yes, Kroll is a real breach-response company. Verify the specific breach and type enroll.krollmonitoring.com yourself before enrolling.
+Q: Is the monitoring in a breach letter free?
+A: Yes. Monitoring offered in a genuine breach notice is free. Any request for payment is a red flag.
+Q: What does Kroll monitoring usually include?
+A: Credit monitoring, fraud consultation and identity theft restoration, for a set period stated in the letter.
+Q: Is monitoring enough after a breach?
+A: It helps you spot problems, but a credit freeze prevents most new-account fraud. Do both.
+
+=== SOURCES
+https://oag.ca.gov/system/files/ELN-25515%20WEL%20Companies%20Adult%20CM%201BM%20r1prf.pdf | California AG: Sample breach notice with Kroll enrollment details
+https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts | FTC: Credit freezes and fraud alerts
+
+=== RELATED
+data-breach-notification-email-what-to-do | Got a Data Breach Notification?
+identity-theft-protection-is-it-worth-it | Is Identity Theft Protection Worth It?
+how-to-claim-a-data-breach-settlement | How to Claim a Data Breach Settlement
+dark-web-monitoring-what-it-can-and-cannot-do | Dark Web Monitoring: What It Can and Can't Do
+how-to-freeze-your-credit-us | How to Freeze Your Credit

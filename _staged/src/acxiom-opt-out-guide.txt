@@ -1,0 +1,63 @@
+slug: acxiom-opt-out-guide
+country: US
+title: Acxiom Opt Out 2026: Marketing Opt-Out vs Deleting Your Data
+h1: How to Opt Out of Acxiom: Stop the Marketing Sales, Then Ask for Deletion
+desc: Acxiom is a data broker you never see but marketers buy from. How to use its marketing opt-out, file a delete request, and what to expect after.
+keywords: acxiom opt out, acxiom delete my data, acxiom data broker, acxiom optout form, remove data from acxiom
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Acxiom doesn't run a people-search website; it sells consumer data to advertisers and risk firms. Use its marketing opt-out at acxiom.com/optout (name, phone, email, address, then click the confirmation email; processed within two weeks). Then file a separate “Right to Delete” request through Acxiom's privacy portal. Submit once per email address and per past address.
+
+=== BODY
+## The broker you never see
+
+Most people-search sites are visible: you can google yourself and find them. Acxiom isn't. It's a business-to-business data company that, according to [Redact's guide](https://redact.dev/data-brokers/acxiom-com/remove), buys from public-records aggregators, marketing list providers and loyalty-program data brokers, and sells to advertisers and risk-management firms. If you've ever wondered how a catalogue company you never contacted knows you just moved, Acxiom-style brokers are part of the answer.
+
+## Option 1: the marketing opt-out
+
+This stops Acxiom selling your data for marketing. It doesn't delete it.
+
+1. Go to [acxiom.com/optout](https://www.acxiom.com/optout/).
+2. Enter your name, phone, email and full street address. Leave the pre-loaded options (mailing addresses, phone numbers, email addresses) and the “Me” dropdown as they are. Submit.
+3. Re-confirm your email and solve the CAPTCHA.
+4. Open the “Consumer Opt-Out Verification” email from noreply-optout@acxiom.com and **click the link**. Nothing happens until you do.
+5. Save the reference number.
+
+The email says the request will be processed within two weeks. Submit again for each email you've used and each address you've lived at, because the form takes one address at a time.
+
+## Option 2: ask Acxiom to delete your data
+
+Through Acxiom's OneTrust privacy portal, choose **Right to Delete**, verify with your name, address, date of birth and email, and respond quickly to the follow-up emails, which have time limits. Expect weeks. Under California's CCPA a response is due in 45 days, often extended once to 90. You can also request a **Right to Know** report (twice per 12 months) to see what Acxiom holds.
+
+## By phone or mail
+
+US phone: (877) 774-2094. Mail: Acxiom LLC, Consumer Care Advocate, Attention: Consumer Rights Requests, P.O. Box 2000, Conway, AR 72033.
+
+## How to tell it worked
+
+You can't search Acxiom for yourself. Signs are indirect: fewer catalogues, cold emails and marketing calls over the following months. Redact suggests repeating the marketing opt-out once a year with any new details.
+
+## Pair it with these
+
+For mail, see [[how-to-stop-junk-mail-dmachoice-catalogs|DMAchoice and catalogue opt-outs]] and [[how-to-opt-out-of-prescreened-credit-offers|stopping prescreened credit offers]]. For the people-search side, our [[us-data-broker-sites-opt-out-guide|broker list]]. And for breach data, a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: What is Acxiom?
+A: A data broker that collects consumer data from public records, marketing lists and loyalty programs, and sells it to advertisers and risk-management firms.
+Q: How do I opt out of Acxiom?
+A: Submit the form at acxiom.com/optout and click the link in the verification email. It's processed within two weeks.
+Q: Does the Acxiom opt-out delete my data?
+A: No. It stops marketing sales. File a separate Right to Delete request through Acxiom's privacy portal.
+Q: Can I see what Acxiom has on me?
+A: Yes, through a Right to Know request, which provides a Consumer Access Report.
+
+=== SOURCES
+https://redact.dev/data-brokers/acxiom-com/remove | Redact: Acxiom removal guide
+https://www.acxiom.com/optout/ | Acxiom marketing opt-out
+
+=== RELATED
+who-sells-your-data-and-how-to-stop-it | Who Sells Your Data and How to Stop It
+how-do-data-brokers-actually-get-your | How Data Brokers Get Your Data
+lexisnexis-opt-out-guide | LexisNexis Opt-Out Guide
+zoominfo-rocketreach-lusha-opt-out | ZoomInfo, RocketReach and Lusha Opt-Out
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide

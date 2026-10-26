@@ -1,0 +1,64 @@
+slug: usps-informed-delivery-identity-theft-protect-yourself
+country: US
+title: USPS Informed Delivery: Sign Up Before a Thief Does
+h1: Why You Should Sign Up for USPS Informed Delivery Before an Identity Thief Does
+desc: Criminals have used USPS Informed Delivery in other people's names to watch for credit cards in the mail. How the trick works and the five-minute fix.
+keywords: informed delivery identity theft, usps informed delivery scam, sign up informed delivery protect identity, mail theft credit card, informed delivery someone else signed up
+tags: Mail Theft|Identity Theft|United States|How To
+=== TLDR
+USPS Informed Delivery emails you photos of the mail arriving each day. The US Secret Service has warned that criminals can sign up in your name, using details from breaches, to see when a new credit card or check is coming and steal it. The fix is simple: register for Informed Delivery yourself with your own email, so nobody else can, and you'll also see mail you never received.
+
+=== BODY
+## The trick
+
+Informed Delivery is free and genuinely useful. Each morning you get scans of the letter-size mail heading to your address. According to [CBS News](https://www.cbsnews.com/amp/news/usps-informed-delivery-service-could-be-used-to-steal-your-mail), a Secret Service memo warned that criminals could use it to “intercept mail and to further their identity theft fraud schemes.”
+
+Here's the play: a thief who already has your name and address (from a breach or a [[can-someone-find-my-address-using-my|people-search site]]) signs up as you with their own email. Now they know exactly when a new credit card, checkbook or tax document lands in your mailbox, and can be there first.
+
+CBS described a real victim whose data was stolen in a 2015 breach; a scammer enrolled him in Informed Delivery and took a credit card from his mail.
+
+## The five-minute fix
+
+**Sign up yourself.** If your address already has your account, a thief can't create another one in your name as easily. Use your own email, a strong password and two-factor authentication.
+
+Bonus: you'll now see if something was supposed to arrive and didn't. If a bank letter appears in the morning scan but never in your box, you'll know to call.
+
+## If you can't or don't want to use it
+
+You can opt your household out online, according to CBS. Either way, the point is to decide yourself rather than leave the slot open.
+
+## Pair it with these
+
+- **Credit freeze:** stops new cards being opened in the first place ([[how-to-freeze-your-credit-us|how to freeze]]).
+- **Opt out of prescreened offers:** fewer card offers in your mailbox means less to steal ([[how-to-opt-out-of-prescreened-credit-offers|how]]).
+- **Locking mailbox:** if mail theft is common where you live.
+
+## Got an Informed Delivery email you didn't sign up for?
+
+Someone may have enrolled with your address, or you may have forgotten. Log in to USPS and check the account, and report suspected mail theft to the US Postal Inspection Service. If you suspect identity theft, start at [IdentityTheft.gov](https://www.identitytheft.gov/).
+
+## How did they get your details?
+
+Name and address usually come from people-search sites and breaches. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches your email has been in, and our [[us-data-broker-sites-opt-out-guide|broker opt-out list]] helps remove your address.
+
+=== FAQ
+Q: Can someone sign up for Informed Delivery in my name?
+A: The Secret Service warned that criminals can, using personal details from breaches, to watch for valuable mail.
+Q: How do I stop that happening?
+A: Sign up for Informed Delivery yourself with your own email, or opt your household out.
+Q: Does Informed Delivery show packages too?
+A: It shows scans of letter-size mail and tracking for packages linked to your address.
+Q: What should I do if mail is missing?
+A: Contact USPS and the Postal Inspection Service, and if a new card was involved, call your bank and consider a credit freeze.
+
+=== SOURCES
+https://www.cbsnews.com/amp/news/usps-informed-delivery-service-could-be-used-to-steal-your-mail | CBS News: USPS Informed Delivery could be used to steal your mail
+https://www.ksl.com/article/46448482/crooks-using-usps-informed-delivery-to-help-steal-mail-identities | KSL: Crooks using USPS Informed Delivery to help steal mail and identities
+https://www.identitytheft.gov/ | FTC IdentityTheft.gov
+
+=== RELATED
+someone-using-my-address-what-to-do | Someone Using My Address: What to Do
+how-to-freeze-your-credit-us | How to Freeze Your Credit
+how-to-opt-out-of-prescreened-credit-offers | Opt Out of Prescreened Credit Offers
+porch-piracy-package-theft | Porch Piracy and Package Theft
+how-to-check-your-credit-report-for-fraud | Check Your Credit Report for Fraud

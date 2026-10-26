@@ -1,0 +1,72 @@
+slug: california-drop-data-broker-delete-request-guide
+country: US
+title: California DROP: Delete Your Data From 600+ Brokers at Once
+h1: California's DROP Tool: One Request to Delete Your Data From 600+ Data Brokers
+desc: California residents can now ask every registered data broker to delete their data in one free request. How DROP works, the 2026 deadlines and what to expect.
+keywords: california drop data brokers, delete request and opt-out platform, california delete act drop, privacy.ca.gov drop, how to use drop california
+tags: Data Brokers|Privacy Laws|United States|How To
+=== TLDR
+California's Delete Request and Opt-out Platform (DROP) launched on January 1, 2026. It lets California residents send one free request asking more than 600 registered data brokers to delete their personal information and stop selling it. Since August 1, 2026, brokers must check DROP at least every 45 days and process requests; initial processing cycles were due to finish around November 2026. Status updates can take up to 90 days to appear.
+
+=== BODY
+## What DROP is
+
+For years, removing yourself from data brokers meant visiting site after site, one opt-out form at a time (see our [[us-data-broker-sites-opt-out-guide|broker-by-broker list]] to feel the pain). California's Delete Act changed that. According to the [state's DROP page](https://privacy.ca.gov/drop/), DROP is a single request that goes to every data broker registered with the state, over 600 of them, asking them to delete your personal information and stop selling it.
+
+It's free. It's run by the state. And it's the closest thing America has to a “delete me everywhere” button, at least if you live in California.
+
+## Key dates
+
+| Date | What happens |
+|---|---|
+| January 1, 2026 | DROP opens to consumers |
+| August 1, 2026 | Brokers must check DROP at least every 45 days and start processing deletions |
+| November 2026 | Brokers expected to finish their initial download and processing cycle |
+
+Status updates inside DROP can take up to 90 days to appear, and timing varies by broker. [Malwarebytes](https://www.malwarebytes.com/blog/news/2026/08/californians-can-tell-data-brokers-to-drop-their-information) notes brokers have 90 days to delete a person's records after a request.
+
+## How to use it
+
+1. **Verify you're a California resident** through the California Identity Gateway (no account needed there). You can also confirm residency by logging in with Login.gov.
+2. **Create a profile** with basic details: name, address and at least one email address and/or mobile number. More detail helps brokers match your records.
+3. **Submit your request.** You'll get a DROP ID to check status later.
+
+You can also submit for another California resident, such as a parent filing for a child.
+
+Tip: add old email addresses and phone numbers too. Brokers match on what they have, and what they have is often from 2014.
+
+## What DROP doesn't do
+
+- It only covers **registered** data brokers. Companies you deal with directly (your bank, your shop) aren't “data brokers” under the law; use their own privacy requests.
+- It doesn't scrub Google search results instantly; use [[remove-yourself-from-google-results-about-you|Google's Results About You]] for that.
+- It doesn't help people outside California. Oregon, Texas and Vermont require broker registration but have no central platform, per Malwarebytes. Other states rely on [[us-state-privacy-laws-guide|individual opt-out rights]].
+
+## Not in California?
+
+You'll still need to opt out site by site. Start with the biggest people-search sites: [[whitepages-opt-out-guide|Whitepages]], [[spokeo-opt-out-guide|Spokeo]], [[truepeoplesearch-opt-out-guide|TruePeopleSearch]] and the [[peopleconnect-suppression-intelius-truthfinder-instant-checkmate|PeopleConnect sites]].
+
+## Brokers aren't the only leak
+
+DROP handles data that's sold. Breaches handle data that's stolen. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches include your email.
+
+=== FAQ
+Q: What is California DROP?
+A: The Delete Request and Opt-out Platform, a free state tool that sends one deletion and opt-out request to every registered data broker.
+Q: Who can use DROP?
+A: California residents, verified through the California Identity Gateway or Login.gov. You can also file for another California resident such as a child.
+Q: When do brokers have to act?
+A: From August 1, 2026, brokers must check DROP at least every 45 days and process deletion requests.
+Q: How many brokers does DROP cover?
+A: Over 600 data brokers registered with California.
+
+=== SOURCES
+https://privacy.ca.gov/drop/ | California Privacy Protection Agency: Delete Request and Opt-out Platform (DROP)
+https://www.malwarebytes.com/blog/news/2026/08/californians-can-tell-data-brokers-to-drop-their-information | Malwarebytes: Californians can tell data brokers to DROP their information (Aug 2026)
+https://www.optery.com/california-drop-privacy-overview/ | Optery: California DROP overview
+
+=== RELATED
+us-state-privacy-laws-guide | US State Privacy Laws Guide
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+who-sells-your-data-and-how-to-stop-it | Who Sells Your Data and How to Stop It
+how-to-remove-info-from-data-brokers-us | How to Remove Info From Data Brokers
+daniels-law-new-jersey-explained | Daniel's Law (New Jersey) Explained

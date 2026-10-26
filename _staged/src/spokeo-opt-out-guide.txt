@@ -1,0 +1,58 @@
+slug: spokeo-opt-out-guide
+country: US
+title: Spokeo Opt Out 2026: Remove Your Profile Step by Step
+h1: How to Opt Out of Spokeo: The Quick Way to Find and Remove Your Profile
+desc: Remove your Spokeo listing in a few minutes: build your profile URL, submit it at spokeo.com/optout and click the confirmation email. Timing and tips.
+keywords: spokeo opt out, remove from spokeo, spokeo removal, delete spokeo profile, spokeo optout 2026
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Find your Spokeo profile URL, paste it with your email at spokeo.com/optout, complete the CAPTCHA, then click the link in the “Spokeo Directory Removal Confirmation” email. Spokeo says removal takes 2 to 3 days, but listings are often gone within an hour. Do one request per listing.
+
+=== BODY
+## What Spokeo collects
+
+Spokeo pulls together names, addresses, phone numbers, emails, relatives and social profiles into one page. It's popular with people checking a date, a seller or an old classmate, and also with people you'd rather not hear from.
+
+## Step by step
+
+These steps follow [DuckDuckGo's Spokeo opt-out guide](https://duckduckgo.com/duckduckgo-help-pages/spokeo-opt-out).
+
+1. **Find your profile URL quickly.** Spokeo's normal search can be slow. Instead, type a URL in this format: spokeo.com/firstname-lastname/full-state-name/full-city-name. On the results, don't click your listing; right-click your name and copy the link. It should end in a long ID string.
+2. **Submit the request.** Go to [spokeo.com/optout](https://www.spokeo.com/optout), paste the profile URL, enter your email, complete the reCAPTCHA and click “Opt Out.”
+3. **Confirm by email.** Open the email titled “Spokeo Directory Removal Confirmation” and click the verification link. A green notice confirms Spokeo received the request.
+
+## How long it takes
+
+Spokeo says 2 to 3 days. In practice, DuckDuckGo found listings are typically removed within about an hour. Search engines can keep showing the cached page for a few days to several weeks.
+
+## Common snags
+
+- **Multiple listings.** If you've moved or used a different name, you may have several profiles. Each needs its own request.
+- **No email arrives.** Check spam and promotions folders. Use an email you can access but don't mind sharing; an [[email-alias-temporary-phone-number-privacy|email alias]] works well.
+- **Spokeo doesn't cover other sites.** As ThatsThem's guidance notes, Spokeo's removal doesn't extend to other brokers. You still need to do the others.
+
+## Next sites to clear
+
+Do [[whitepages-opt-out-guide|Whitepages]], [[beenverified-opt-out-guide|BeenVerified]] and [[radaris-opt-out-guide|Radaris]] next, then check our [[us-data-broker-sites-opt-out-guide|full broker list]]. If you'd like to know whether your email has been in a data breach, too, a free [[/digital-footprint-checker/|email exposure check]] takes 30 seconds.
+
+=== FAQ
+Q: How do I opt out of Spokeo?
+A: Copy your profile URL, submit it with your email at spokeo.com/optout, complete the CAPTCHA and click the link in the confirmation email.
+Q: How long does Spokeo take to remove a listing?
+A: Spokeo says 2 to 3 days, but listings are often removed within an hour.
+Q: Does a Spokeo opt-out remove me from other sites?
+A: No. Each people-search site needs its own opt-out request.
+Q: Do I need to create a Spokeo account?
+A: No. You only need the profile URL and an email address to confirm.
+
+=== SOURCES
+https://duckduckgo.com/duckduckgo-help-pages/spokeo-opt-out | DuckDuckGo Help: Spokeo opt-out guide
+https://www.spokeo.com/optout | Spokeo opt-out page
+https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for PeopleConnect, Radaris, BeenVerified, Spokeo
+
+=== RELATED
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+opting-out-us-people-search-sites | Opting Out of US People-Search Sites
+how-scammers-build-a-convincing-profile-of-you | How Scammers Build a Profile of You
+who-sells-your-data-and-how-to-stop-it | Who Sells Your Data and How to Stop It
+how-do-data-brokers-actually-get-your | How Data Brokers Get Your Data

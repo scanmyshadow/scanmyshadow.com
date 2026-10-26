@@ -1,0 +1,68 @@
+slug: plant-your-flag-credit-bureau-accounts-experian-takeover
+country: US
+title: “Plant Your Flag”: Create Your Credit Bureau Accounts First
+h1: Why You Should Create Your Own Experian, Equifax and TransUnion Accounts Before a Thief Does
+desc: Thieves have created credit bureau accounts in victims' names, changed the email and lifted freezes. Why "planting your flag" matters and how to do it.
+keywords: someone created experian account in my name, experian account takeover, plant your flag credit bureau, credit freeze lifted without permission, experian email changed
+tags: Credit Freeze|Identity Theft|United States|How To
+=== TLDR
+In 2022 KrebsOnSecurity showed that crooks could create a new Experian account over a victim's existing one using personal details and a different email, then reset the PIN and offer to lift the freeze. Experian called the cases isolated; TransUnion and Equifax blocked Krebs's test. The defence is simple: create your own account at all three bureaus (“plant your flag”), freeze your credit, and keep the account email active so you see warnings.
+
+=== BODY
+## What happened
+
+[KrebsOnSecurity's investigation](https://securityboulevard.com/2022/07/experian-you-have-some-explaining-to-do/) described two readers whose Experian accounts were hijacked even though they used strong, unique passwords. The thieves didn't guess passwords. They appear to have **opened new Experian accounts in the victims' names**, using personal information and a different email address.
+
+- One victim learned of it from an Experian notice; password resets then went to the impostor's email, and his PIN and security questions had changed.
+- The other only found out when credit monitoring flagged an attempted Chase account in his name. His freeze had been lifted once the new account was created.
+
+Krebs then tested it on himself: using his SSN, date of birth and multiple-choice questions mostly answerable from public records, he re-created his Experian account with a new email. Experian changed the email without confirming the old one, let him reset his PIN and offered to lift his freeze. TransUnion and Equifax refused the same trick and sent him to their password reset flows.
+
+Experian called these “isolated incidents of fraud using stolen consumer information.”
+
+## The lesson: plant your flag
+
+If an account already exists in your name with your email, it's much harder for someone else to create one. So:
+
+1. **Create an online account at Equifax, Experian and TransUnion** yourself, with a strong unique password.
+2. **Freeze your credit** at all three ([[how-to-freeze-your-credit-us|how]]).
+3. **Use an email you check.** Notices to the original email may be your only early warning.
+4. **Add a fraud alert** if you've been targeted ([[how-to-place-a-fraud-alert|how]]).
+
+The same logic applies to [[usps-informed-delivery-identity-theft-protect-yourself|USPS Informed Delivery]], the IRS (get an [[irs-identity-protection-pin-how-to-get|IP PIN]]) and Social Security (create your my Social Security account).
+
+## Signs someone has taken over your bureau account
+
+- an email from a bureau saying your account details or email changed;
+- you can't log in, and password resets don't arrive;
+- a monitoring alert about a credit application you didn't make;
+- your freeze shows as lifted.
+
+## If it happens
+
+Call the bureau, explain the account was taken over, and ask them to restore your email, re-freeze and add a fraud alert. Report it at [IdentityTheft.gov](https://www.identitytheft.gov/). Check your credit reports for new accounts at AnnualCreditReport.com.
+
+## Why your details were enough
+
+Thieves pass identity checks with data from breaches and brokers. A free [[/digital-footprint-checker/|email exposure check]] shows what's circulating about your email.
+
+=== FAQ
+Q: Can someone create an Experian account in my name?
+A: KrebsOnSecurity showed it was possible in 2022 using a victim's personal details and a different email. Experian called it isolated.
+Q: What does "plant your flag" mean?
+A: Creating your own accounts at agencies like the credit bureaus, IRS and Social Security so impostors can't create them first.
+Q: Can a thief lift my credit freeze?
+A: In the Krebs cases, a new Experian account led to the freeze being lifted or offered to be lifted. Keep your own account active and monitored.
+Q: What should I do if my bureau account email changed?
+A: Call the bureau immediately, ask them to restore your account and re-freeze, and report it at IdentityTheft.gov.
+
+=== SOURCES
+https://securityboulevard.com/2022/07/experian-you-have-some-explaining-to-do/ | KrebsOnSecurity (via Security Boulevard): Experian, you have some explaining to do
+https://www.identitytheft.gov/ | FTC IdentityTheft.gov
+
+=== RELATED
+how-to-freeze-your-credit-us | How to Freeze Your Credit
+how-to-temporarily-lift-credit-freeze-thaw | How to Temporarily Lift a Credit Freeze
+credit-lock-vs-credit-freeze | Credit Lock vs Credit Freeze
+what-is-account-takeover-fraud | What Is Account Takeover Fraud?
+how-to-check-your-credit-report-for-fraud | Check Your Credit Report for Fraud

@@ -1,0 +1,61 @@
+slug: peopleconnect-suppression-intelius-truthfinder-instant-checkmate
+country: US
+title: Opt Out of Intelius, TruthFinder and Instant Checkmate at Once
+h1: One Opt-Out, Four Sites: Removing Yourself From Intelius, TruthFinder, Instant Checkmate and US Search
+desc: PeopleConnect owns Intelius, TruthFinder, Instant Checkmate and US Search. Use its suppression centre to hide your record across them. Steps and pitfalls.
+keywords: peopleconnect suppression, intelius opt out, truthfinder opt out, instant checkmate opt out, us search opt out, suppression.peopleconnect.us
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Intelius, TruthFinder, Instant Checkmate and US Search are all owned by PeopleConnect. Its suppression centre at suppression.peopleconnect.us lets you verify your email, enter your date of birth and legal name, pick your record, confirm a code and switch it from “Displayed” to “Suppressed.” Double-check your date of birth before submitting: it locks.
+
+=== BODY
+## Why one company matters
+
+Four brands, one owner. According to [DuckDuckGo's TruthFinder guide](https://duckduckgo.com/duckduckgo-help-pages/truthfinder-opt-out), PeopleConnect owns TruthFinder, Intelius, US Search and Instant Checkmate, and a suppression request through its tool can reduce republishing across those sites. It's the closest thing the people-search world has to a bulk discount.
+
+## Step by step
+
+1. **Optional: find your listing first.** TruthFinder's search is slow; DuckDuckGo suggests a direct URL like truthfinder.com/results?firstName=jane&lastName=doe&state=CA.
+2. **Go to [suppression.peopleconnect.us/login](https://suppression.peopleconnect.us/login).** Enter your email, accept the terms and continue. Click the verification link in the email.
+3. **Enter your date of birth and legal name.** First, middle and last. Check the date carefully: [Cloaked notes](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually) it locks after submission.
+4. **Select your record.**
+5. **Verify identity** with a code sent to a phone number or email you can access.
+6. **Switch the record to “Suppressed”** under Desired Behavior and save. “Toggling to Suppressed will hide that personal information from public view.”
+
+## Time and results
+
+About 15 to 30 minutes of work, and processing usually finishes within an hour. Because these sites refresh often, check back every few months.
+
+## What it doesn't cover
+
+PeopleConnect's tool covers its own brands only. You'll still need separate requests for Spokeo, Whitepages, BeenVerified, Radaris and the free sites. Our [[us-data-broker-sites-opt-out-guide|US broker list]] runs through them in order of impact.
+
+## A note on handing over your birth date
+
+Yes, you give a data broker your date of birth to stop it showing your data. That's the system we have. It's used to match records, and suppression hides rather than deletes. If you live in a state with a privacy law, you may also be able to request deletion; see our [[us-state-privacy-laws-guide|state privacy laws guide]].
+
+## Then check the other side
+
+People-search sites show what's public. Breaches show what's leaked. A free [[/digital-footprint-checker/|email exposure check]] covers the second part in about 30 seconds.
+
+=== FAQ
+Q: Which sites does the PeopleConnect suppression centre cover?
+A: PeopleConnect owns TruthFinder, Intelius, US Search and Instant Checkmate, and its tool can reduce republishing across them.
+Q: What is the PeopleConnect suppression URL?
+A: suppression.peopleconnect.us/login
+Q: Does suppression delete my data?
+A: It hides your record from public view. Deletion may be available under some state privacy laws.
+Q: How long does it take?
+A: About 15 to 30 minutes to complete, with processing typically within an hour.
+
+=== SOURCES
+https://duckduckgo.com/duckduckgo-help-pages/truthfinder-opt-out | DuckDuckGo Help: TruthFinder opt-out guide
+https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for PeopleConnect, Radaris, BeenVerified, Spokeo
+https://suppression.peopleconnect.us/login | PeopleConnect suppression centre
+
+=== RELATED
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+how-employers-actually-run-background | How Employers Run Background Checks
+how-scammers-build-a-convincing-profile-of-you | How Scammers Build a Profile of You
+us-state-privacy-laws-guide | US State Privacy Laws Guide
+classmates-com-delete-account-remove-profile | Delete Your Classmates.com Profile

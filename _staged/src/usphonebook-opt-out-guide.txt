@@ -1,0 +1,56 @@
+slug: usphonebook-opt-out-guide
+country: US
+title: USPhonebook Opt Out 2026: The Current Removal Steps
+h1: How to Remove Yourself From USPhonebook (the /opt-out Page Is Outdated)
+desc: USPhonebook removal now starts at usphonebook.com/removal, with an email link that expires in 24 hours and a second form. Full steps, timing and checks.
+keywords: usphonebook opt out, usphonebook removal, remove from usphonebook, us phone book delete listing, usphonebook.com removal
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Start at usphonebook.com/removal (older guides point to /opt-out, which is outdated). Enter your name and email, click the link in the “Complete your usphonebook.com Privacy Request” email within 24 hours, fill in the second form with your details and confirm. USPhonebook says removal takes three days or less. Each phone number or address listing needs its own request.
+
+=== BODY
+## What USPhonebook is
+
+A free reverse phone lookup site. Type a number, get a name, and often an address and relatives. That's handy if you're checking a missed call, and less handy if it's your number someone is looking up. It's run by the same company as FastPeopleSearch and PeopleSearchNow, per Redact.
+
+## Step by step
+
+From [Redact's USPhonebook guide](https://redact.dev/data-brokers/usphonebook-com/remove):
+
+1. Go to **usphonebook.com/removal**. Leave “I am” set to “The subject of the request”, enter your name and email, tick the authorisation box, solve the reCAPTCHA and click “Begin Removal Process.”
+2. A “You're not done” page appears. That's normal.
+3. Find the email from support@usphonebook.com titled “Complete your usphonebook.com Privacy Request” (check spam). Click “Click here to fill out the form.” **The link expires after 24 hours.**
+4. Fill in your date of birth, phone, street address, city, state and ZIP. Confirm your email, tick the review box, solve the second reCAPTCHA and click “Confirm Removal Process.” You can't edit after submitting.
+5. Screenshot the confirmation, which says removal happens in “3 days or less.”
+
+## Check it worked
+
+After three days, use a private window and search by name and by phone number. If you're still listed, run the process again; if it persists after another week, Redact suggests calling (888) 747-4095.
+
+## Don't assume the siblings are covered
+
+The source doesn't confirm one removal covers FastPeopleSearch or PeopleSearchNow, so do them separately. Our [[fastpeoplesearch-opt-out-guide|FastPeopleSearch guide]] takes five minutes.
+
+## Why phone numbers are the soft spot
+
+Your mobile number follows you for years and links your accounts, your address and your name. We explain [[where-do-phone-numbers-get-exposed|where phone numbers get exposed]] and [[how-to-remove-your-phone-number-from|how to remove your number from the internet]]. A free [[/digital-footprint-checker/|email exposure check]] covers your email side.
+
+=== FAQ
+Q: What is the correct USPhonebook opt-out page?
+A: usphonebook.com/removal. Redact says the older /opt-out path is outdated.
+Q: How long does USPhonebook take to remove a listing?
+A: USPhonebook says three days or less after you submit the second form.
+Q: Does the email link expire?
+A: Yes, after 24 hours. If it expires, start again.
+Q: Do I need separate requests for each phone number?
+A: Yes, each listing (number, address or name variant) needs its own request.
+
+=== SOURCES
+https://redact.dev/data-brokers/usphonebook-com/remove | Redact: USPhonebook removal guide
+
+=== RELATED
+reverse-phone-lookup-tools-india | Reverse Phone Lookup Tools (India)
+how-to-remove-your-phone-number-from | How to Remove Your Phone Number From the Internet
+can-phone-number-reveal-your-name | Can a Phone Number Reveal Your Name?
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+where-do-phone-numbers-get-exposed | Where Phone Numbers Get Exposed

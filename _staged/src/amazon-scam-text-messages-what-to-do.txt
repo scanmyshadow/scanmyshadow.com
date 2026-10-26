@@ -1,0 +1,70 @@
+slug: amazon-scam-text-messages-what-to-do
+country: US
+title: Amazon Scam Texts 2026: Examples and What Amazon Never Asks
+h1: Amazon Scam Texts: The Common Versions, and the Three Things Amazon Never Does
+desc: Fake Amazon texts about suspended accounts, refunds and unauthorized orders. Amazon's own rules, its 2025 takedown numbers, and how to report a scam text.
+keywords: amazon scam text, amazon text scam, fake amazon text message, amazon account suspended text, report amazon scam text
+tags: Amazon Scams|Text Scams|United States|What To Do
+=== TLDR
+Fake Amazon texts claim your account is suspended, an order needs confirming or a refund is waiting. Amazon says it will never ask for payment by phone or email, never ask you to buy gift cards and never ask you to install software or give remote access. Check orders in the Amazon app yourself, report scams through Amazon (non-customers can email reportascam@amazon.com) and forward texts to 7726. In 2025 Amazon took down more than 70,000 phishing sites and 14,000 scam phone numbers.
+
+=== BODY
+## The usual Amazon scam texts
+
+- “Amazon: Your account is suspended due to a billing problem. Update payment: [link]”
+- “Did you order an iPhone 17 Pro for $1,199? Reply 1 to cancel.”
+- “You are owed a $89.99 refund. Confirm your card to receive it.”
+- “Your package couldn't be delivered. Reschedule here.”
+
+The order version is the most effective, because a big purchase you didn't make creates instant panic, and the “helpful” agent on the other end of the phone then asks for remote access or a code. Our [[uk-amazon-scam-call-whatsapp-code-iphone-order|UK version of this scam]] even asks for your WhatsApp code.
+
+## The three things Amazon never does
+
+According to [Amazon's own guidance](https://www.aboutamazon.com/news/retail/how-to-avoid-amazon-scams):
+
+1. **It won't ask for payment by phone or email.** Payment happens only in the app, on the website or in its physical stores.
+2. **It won't ask you to buy gift cards.** No legitimate Amazon transaction needs gift card payment.
+3. **It won't ask you to install software or give remote access** to talk to customer service.
+
+If a message breaks any of those, you can stop reading it.
+
+## How big the problem is
+
+Amazon says that in 2025, **28%** of reported impersonation scams were attempts to get into customer accounts, and it initiated takedowns of **more than 70,000 phishing websites and 14,000 phone numbers**. It says reported phishing sites can now be taken down in a few hours. That's a lot of whack-a-mole.
+
+## How to check and report
+
+- **Check:** open the Amazon app or type amazon.com yourself and look at Your Orders and your account. If it isn't there, it isn't real.
+- **Don't call numbers** from texts, emails or search results; contact Amazon through the app or site.
+- **Report:** use Amazon's self-service scam report tool (customers), or email **reportascam@amazon.com** (non-customers).
+- **Forward texts** to 7726 for your carrier, and report to the [FTC](https://reportfraud.ftc.gov/).
+- **Search before you trust:** Amazon partners with the BBB's Scam Tracker, where you can search a phone number, URL or email.
+
+## If you gave card details or remote access
+
+Call your card issuer, uninstall any remote-access app, run a security scan, and change your Amazon and email passwords. See [[tech-support-scam-remote-access-recovery|remote-access scam recovery]] and [[how-to-cancel-a-compromised-debit-card|cancelling a compromised card]].
+
+## Why Amazon is the favourite disguise
+
+Almost everyone in the US has an Amazon account, so a fake Amazon text has a near-100% chance of matching someone's real life. Scammers get numbers from breaches and brokers; check your exposure with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: Does Amazon text about suspended accounts?
+A: Check your account in the Amazon app yourself. Amazon says it never asks for payment by phone or email.
+Q: How do I report an Amazon scam text?
+A: Use Amazon's scam report tool, or email reportascam@amazon.com if you're not a customer. Forward the text to 7726.
+Q: Will Amazon ever ask me to pay with gift cards?
+A: No. Amazon says no legitimate transaction requires gift card payment.
+Q: How many scam sites did Amazon take down?
+A: Amazon says it initiated takedowns of more than 70,000 phishing websites and 14,000 phone numbers in 2025.
+
+=== SOURCES
+https://www.aboutamazon.com/news/retail/how-to-avoid-amazon-scams | Amazon: How to avoid Amazon scams
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+amazon-prime-refund-payments-scam-warning | Amazon Prime Refund Scam Warning
+is-amazon-marketplace-safe-from-scams | Is Amazon Marketplace Safe From Scams?
+holiday-ecommerce-shopping-scams-guide | Holiday Shopping Scams Guide
+what-is-tech-support-scams | What Are Tech Support Scams?
+what-is-smishing | What Is Smishing?

@@ -1,0 +1,65 @@
+slug: irs-identity-protection-pin-how-to-get
+country: US
+title: IRS IP PIN: How to Get One and Stop Tax Identity Theft
+h1: How to Get an IRS Identity Protection PIN (and Why Everyone Should)
+desc: A six-digit IP PIN stops anyone filing a tax return with your SSN. Who can get one, the three ways to apply, yearly rules and the scam to watch for.
+keywords: irs ip pin, identity protection pin, how to get ip pin, ip pin 2026, tax identity theft prevention, form 15227
+tags: Tax Identity Theft|IRS|United States|How To
+=== TLDR
+An IRS Identity Protection PIN is a six-digit number that blocks anyone else from filing a federal tax return with your Social Security number or ITIN. Anyone who can verify their identity can get one, fastest through an IRS online account. You get a new one every year (viewable online mid-January to mid-November). The IRS never asks for your IP PIN by phone, email or text.
+
+=== BODY
+## Why bother
+
+Tax identity theft is simple: a criminal with your name, date of birth and SSN files a return before you and pockets the refund. You find out when your real return is rejected. If your SSN has been in a breach (and after the last few years, that's a lot of people), an IP PIN is the free fix. Nobody can e-file with your SSN without it.
+
+## Who can get one
+
+According to the [IRS](https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin), anyone with an SSN or ITIN who can verify their identity. Parents and guardians can request one for dependents.
+
+## Three ways to apply
+
+| Route | Who it's for | How long |
+|---|---|---|
+| IRS online account (IP PIN section of your profile) | Anyone 18+ who can verify identity online | Immediate |
+| Form 15227 | If you can't verify online and your AGI is under $84,000 (single) or $168,000 (married filing jointly) | By mail, usually 4–6 weeks |
+| In person at a Taxpayer Assistance Center | Anyone; bring a photo ID plus one other ID (two IDs for a dependent) | By mail, usually about 3 weeks |
+
+Under-18s must use one of the alternative options.
+
+## The yearly routine
+
+- You get a **new IP PIN every calendar year**.
+- If you enrolled online, the IRS **doesn't mail** it; log in each year to get it (generally available mid-January to mid-November).
+- Give it to your tax software or preparer when prompted. It's needed on Forms 1040, 1040-NR, 1040-PR, 1040-SR and 1040-SS, including prior-year returns filed during the year.
+- A wrong or missing IP PIN means an e-filed return is rejected or a paper return is delayed.
+
+Lost it? View it online or request a reissue by mail; don't file a new Form 15227.
+
+## The scam to watch for
+
+The IRS says it will **never ask for your IP PIN**. Calls, emails or texts asking for it are scams. Our guide to [[irs-scam-what-to-know|IRS scams]] covers the usual tricks, and [[tax-season-scams-2026|tax season scams]] the seasonal ones.
+
+## If someone already filed in your name
+
+See [[how-to-report-tax-identity-theft-irs|how to report tax identity theft]], file Form 14039, and freeze your credit ([[how-to-freeze-your-credit-us|how]]). Then check how exposed your details are with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: What is an IRS IP PIN?
+A: A six-digit number that prevents anyone else filing a federal tax return with your SSN or ITIN.
+Q: Who can get an IP PIN?
+A: Anyone with an SSN or ITIN who can verify their identity, including dependents through a parent or guardian.
+Q: Do I get a new IP PIN every year?
+A: Yes. It's valid for one calendar year, and online enrollees must retrieve the new one each year.
+Q: Will the IRS ever ask for my IP PIN?
+A: No. Any call, email or text asking for it is a scam.
+
+=== SOURCES
+https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin | IRS: Get an Identity Protection PIN
+
+=== RELATED
+how-to-report-tax-identity-theft-irs | How to Report Tax Identity Theft
+tax-fraud-statistics-2026 | Tax Fraud Statistics 2026
+how-to-check-if-your-ssn-was-used | How to Check if Your SSN Was Used
+irs-scam-what-to-know | IRS Scams: What to Know
+how-to-get-a-new-ssn-after-theft | How to Get a New SSN After Theft

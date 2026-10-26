@@ -1,0 +1,60 @@
+slug: someone-is-spoofing-my-phone-number-what-to-do
+country: US
+title: Someone Is Spoofing My Phone Number: What Can I Do?
+h1: Strangers Are Calling Back Saying “You Called Me.” Your Number Is Being Spoofed
+desc: If people say you called them and you didn't, scammers are spoofing your number. Why it happens, what the FCC advises, and what you can and can't do.
+keywords: someone is spoofing my number, my number is being spoofed, people calling saying i called them, phone number spoofed what to do, stop my number being spoofed
+tags: Caller ID Spoofing|Phone Scams|United States|What To Do
+=== TLDR
+If strangers are calling or texting to ask why you called them, scammers are probably faking your number as their caller ID. It doesn't mean your phone is hacked. The FCC says to tell callers your number is being spoofed and that you didn't call; scammers usually switch numbers within hours. Set a voicemail password, don't answer unknown numbers, and file a complaint with the FCC if it continues.
+
+=== BODY
+## What's happening
+
+Spoofing is when a caller deliberately falsifies caller ID to hide who they are. The [FCC](https://fcc.gov/spoofing) describes “neighbor spoofing”: making calls look local, often using real numbers that belong to ordinary people. Yours happened to be picked.
+
+Your phone isn't hacked, your carrier account isn't compromised, and nobody is using your SIM. They simply typed your number into a calling system. It's identity theft for caller ID only, which is annoying but usually short-lived.
+
+## What the FCC says to do
+
+- **Tell people who call you** that your number is being spoofed and you didn't call them.
+- Expect it to fade: scammers often switch numbers quickly, so the problem may end **within hours**.
+- **Set a password on your voicemail**, so nobody can access it by spoofing your own number back to you.
+- **File a complaint** at [consumercomplaints.fcc.gov](https://consumercomplaints.fcc.gov/) if it continues.
+
+## Is it illegal?
+
+Under the Truth in Caller ID Act and FCC rules, spoofing with intent to defraud, cause harm or wrongly obtain something of value is illegal, with penalties of up to $10,000 per violation. Some spoofing is legal, such as a doctor's personal phone showing the office number.
+
+## What you might change
+
+- **Your voicemail greeting**: “If you got a call from this number you didn't expect, it wasn't me; my number is being spoofed.” Slightly awkward, very effective.
+- **Your carrier**: ask about call-blocking and spam labelling. Some carriers can confirm whether calls actually originated from your line.
+- **Your number**: only if it goes on for weeks. It's a drastic step, and your new number can be spoofed too.
+
+## Spoofing vs being hacked
+
+If you see calls or texts in **your own** history that you didn't make, that's different: someone may have access to your account or SIM. See [[how-to-tell-if-your-sim-was-cloned|SIM cloning signs]] and [[sim-clone-aftermath-number-used-to-scam-others|when your number is used to scam others]], and add a [[port-out-pin-number-lock-att-verizon-t-mobile|port-out PIN]].
+
+A free [[/digital-footprint-checker/|email exposure check]] shows whether your details are in breach data.
+
+=== FAQ
+Q: Why are people saying I called them when I didn't?
+A: Scammers are likely spoofing your number as their caller ID.
+Q: Does spoofing mean my phone is hacked?
+A: No. Spoofing doesn't require access to your phone. Check your own call log for calls you didn't make to rule out a hack.
+Q: How long does number spoofing last?
+A: The FCC says scammers often switch numbers quickly, so it may end within hours.
+Q: Where do I report spoofing?
+A: File a complaint with the FCC at consumercomplaints.fcc.gov.
+
+=== SOURCES
+https://fcc.gov/spoofing | FCC: Caller ID spoofing
+https://consumercomplaints.fcc.gov/ | FCC Consumer Complaint Center
+
+=== RELATED
+what-is-caller-id-spoofing | What Is Caller ID Spoofing?
+sim-clone-aftermath-number-used-to-scam-others | Your Number Used to Scam Others
+how-to-tell-if-your-sim-was-cloned | How to Tell if Your SIM Was Cloned
+robocall-statistics-2026 | Robocall Statistics 2026
+uk-city-of-london-police-spoofed-number-alert-260-calls | 260+ Calls From One Spoofed Number

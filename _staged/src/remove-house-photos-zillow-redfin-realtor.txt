@@ -1,0 +1,72 @@
+slug: remove-house-photos-zillow-redfin-realtor
+country: US
+title: How to Remove Your House Photos From Zillow, Redfin and Realtor.com
+h1: How to Remove Photos of Your Home From Zillow, Redfin and Realtor.com
+desc: Old listing photos show the inside of your home to anyone. How to claim your home and hide photos on Zillow, Redfin and Realtor.com, step by step.
+keywords: remove house photos from zillow, hide listing photos redfin, remove home photos realtor.com, claim my home zillow, delete house pictures real estate sites
+tags: Home Privacy|Real Estate|United States|How To
+=== TLDR
+When you buy a home, the old listing photos usually stay online, showing your layout, doors and windows to anyone. To remove them, claim your home as the owner on each site, verify ownership, then delete or hide the photos: on Zillow via Your home > Edit > photos, on Redfin via Owner Dashboard > Edit Photos, and on Realtor.com via My Home > Edit home (usually only after six months from sale).
+
+=== BODY
+## Why bother
+
+Listing photos are designed to show off your home. That's great when you're selling and less great once you live there. They show floor plans, where the expensive TV hangs, which windows face the back garden and where the side door is. They're also free intel for anyone who's [[can-someone-find-my-address-using-my|already found your address]].
+
+## Zillow
+
+From [Security.org's guide](https://www.security.org/data-removal/house-photos/):
+
+1. Search your address and open the listing.
+2. Click **More** and choose **Claim ownership**.
+3. Complete Zillow's verification (property details or documents).
+4. Click your profile icon > **Your home**.
+5. Open your property, click **Edit**, go to photos.
+6. Delete all or some photos, then **Save Changes**.
+
+## Redfin
+
+1. Find your property and claim it as the owner.
+2. Under your profile name, choose **Owner Dashboard**.
+3. Select the property, click **Edit Photos**, and tick the box to hide listing photos.
+4. Confirm and **Save**.
+
+## Realtor.com
+
+1. Click **My Home** and look up your address (this claims it).
+2. Verify ownership.
+3. From the profile icon, choose your home under **My home**.
+4. Click **Edit home** and remove photos.
+
+Note: you typically can't edit a listing on Realtor.com for **six months after a sale**. Put a reminder in your calendar.
+
+## While you're at it
+
+- **Blur your house on Google Street View**: [[how-to-blur-your-house-on-google-street-view|here's how]].
+- **Remove your address from people-search sites**, starting with [[whitepages-opt-out-guide|Whitepages]] and [[truepeoplesearch-opt-out-guide|TruePeopleSearch]].
+- **Check property records exposure**: see [[address-confidentiality-program-safe-at-home|address confidentiality programs]] if you need stronger protection.
+
+## Your home, your data
+
+A house is the most permanent thing in your digital footprint. Photos, address, purchase price and owner names all end up online. A free [[/digital-footprint-checker/|email exposure check]] covers another piece: whether your email has been in a breach.
+
+=== FAQ
+Q: Can I remove my house photos from Zillow?
+A: Yes. Claim ownership of your home, verify it, then edit the listing and delete the photos.
+Q: How do I hide photos on Redfin?
+A: Claim your home, open Owner Dashboard, click Edit Photos and tick the box to hide listing photos.
+Q: Why can't I edit my Realtor.com listing?
+A: Realtor.com typically blocks edits for six months after a sale.
+Q: Do I need to prove I own the home?
+A: Yes. All three sites require you to claim and verify ownership before editing photos.
+
+=== SOURCES
+https://www.security.org/data-removal/house-photos/ | Security.org: How to remove house photos from real estate sites
+https://cyberguy.com/tech-tips-tricks/how-to-delete-photos-of-your-house-from-real-estate-websites/ | CyberGuy: How to delete photos of your house from real estate websites
+
+=== RELATED
+how-to-blur-your-house-on-google-street-view | Blur Your House on Google Street View
+is-zillow-safe-from-scams | Is Zillow Safe From Scams?
+geotagged-photos-reveal-home-address-instagram-facebook | Geotagged Photos Reveal Your Address
+can-someone-find-my-address-using-my | Can Someone Find My Address?
+home-buying-season-scams | Home Buying Season Scams

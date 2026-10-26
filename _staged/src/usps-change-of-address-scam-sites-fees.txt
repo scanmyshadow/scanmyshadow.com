@@ -1,0 +1,60 @@
+slug: usps-change-of-address-scam-sites-fees
+country: US
+title: USPS Change of Address Costs $1.10. Paying More? It's a Copycat
+h1: Paying More Than $1.10 to Change Your Address With USPS? You're on a Copycat Site
+desc: The official USPS online change of address costs $1.10. Copycat sites charge up to $40 and sometimes don't file anything. How to find the real form and get a refund.
+keywords: usps change of address scam, change of address $1.10, usps change of address fee, fake change of address website, moversguide usps
+tags: Moving Scams|Copycat Sites|United States|How To
+=== TLDR
+Changing your address online with USPS costs $1.10, an identity-verification fee. Copycat sites that rank in search results charge up to $40, and the Postal Inspection Service says that in some cases the change never gets made. Use the official USPS Moversguide form, reached from usps.com, and if you paid more than $1.10, ask that site for a refund and dispute the charge with your card.
+
+=== BODY
+## The real price
+
+According to [Best Life's report on the USPS warning](https://bestlifeonline.com/change-of-address-scam-news/), the Postal Service charges **$1.10** for an online change-of-address (COA) request. The fee exists to verify your identity because you're not doing it in person. You can also file a COA at a post office.
+
+## The copycats
+
+The US Postal Inspection Service says some customers paid more on other websites, which “can charge up to $40 to change the address and, in some cases, the changes never get made.”
+
+They look official, use words like “postal” and “official,” and often appear above the real site in search ads. Moving is stressful, you're tired, and $39.99 doesn't feel like a scam when you're already spending thousands on boxes and a van.
+
+## How to find the real form
+
+- Type **usps.com** yourself and go to the change-of-address section, which leads to the Moversguide form.
+- Check the address bar: it should be a usps.com address.
+- Skip “sponsored” search results.
+- The price should be $1.10. If it's more, back out.
+
+## Already paid more?
+
+USPS advises going back to the website where you entered your change of address. Ask for a refund, then dispute the charge with your credit card company if they refuse. Check with USPS that your change was actually filed, because some copycats take the money and do nothing, which means your mail (and new credit cards, and tax forms) goes to your old address.
+
+## The identity angle
+
+A change of address is a powerful tool for identity thieves: redirect someone's mail and you get their bank letters and new cards. If you get a USPS confirmation letter for a move you didn't make, contact USPS and see [[someone-using-my-address-what-to-do|someone using my address]]. Signing up for [[usps-informed-delivery-identity-theft-protect-yourself|Informed Delivery]] helps you spot redirected mail.
+
+## Moving? Watch for these too
+
+Fake movers, rental deposit scams and utility setup scams spike in moving season. Our guides to [[moving-season-scams|moving season scams]] and [[end-of-lease-moving-scams|end-of-lease scams]] cover them. And check your email's breach history with a free [[/digital-footprint-checker/|exposure check]] before you update every account with your new address.
+
+=== FAQ
+Q: How much does it cost to change your address with USPS online?
+A: $1.10, an identity verification fee. It's free in person at a post office.
+Q: Why did I pay $40 to change my address?
+A: You likely used a third-party copycat site. USPIS says these can charge up to $40 and sometimes don't file the change.
+Q: How do I get a refund?
+A: Contact the site where you paid, then dispute the charge with your card issuer if needed.
+Q: How do I find the official USPS change of address form?
+A: Type usps.com yourself and follow the change-of-address link to the Moversguide form.
+
+=== SOURCES
+https://bestlifeonline.com/change-of-address-scam-news/ | Best Life: USPS says if you're paying more than $1.10, you're being scammed
+https://www.fox47news.com/news/local-news/usps-warning-about-change-of-address-scams | Fox 47: USPS warning about change of address scams
+
+=== RELATED
+moving-season-scams | Moving Season Scams
+someone-using-my-address-what-to-do | Someone Using My Address: What to Do
+is-this-website-a-scam-how-to-check | Is This Website a Scam? How to Check
+fake-customer-care-number-google-search-scam | Fake Numbers in Google Results
+end-of-lease-moving-scams | End-of-Lease Moving Scams

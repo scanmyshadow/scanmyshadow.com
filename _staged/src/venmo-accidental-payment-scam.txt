@@ -1,0 +1,62 @@
+slug: venmo-accidental-payment-scam
+country: US
+title: “Oops, I Sent You Money by Mistake”: The Venmo Refund Scam
+h1: A Stranger Sent You Money on Venmo by “Mistake”? Don't Send It Back
+desc: A stranger "accidentally" pays you on Venmo and asks for it back. The payment came from a stolen card. When it's reversed, you're out the money you returned.
+keywords: venmo accidental payment scam, venmo sent money by mistake scam, cash app accidental payment scam, someone sent me money by accident venmo, venmo refund scam
+tags: Venmo|Payment App Scams|United States|What To Do
+=== TLDR
+A stranger sends you money on Venmo (or Cash App), then messages: “So sorry, wrong person, can you send it back?” The money often came from a stolen card. If you send it back from your balance, the original charge gets reversed later and you lose the amount you returned. Don't send it back yourself. Ask the sender to cancel it, or contact the app's support.
+
+=== BODY
+## How it works
+
+[Snopes](https://www.snopes.com/fact-check/venmo-scam/), citing the Dayton Daily News, describes the play:
+
+1. A scammer links a **stolen credit card** to Venmo.
+2. They send you, say, $300 “by accident.”
+3. They message, very politely, asking you to send it back.
+4. You send $300 to them from your balance or bank.
+5. The stolen-card owner disputes the charge, the original $300 is pulled back from you, and the scammer keeps the $300 you sent, now cleanly theirs.
+
+Some versions skip the money entirely and send a fake screenshot of a payment.
+
+## Why it works
+
+Because you're honest. Returning money that isn't yours feels like the decent thing to do, and the scammer is counting on it. Fraud that exploits kindness is particularly irritating.
+
+## What to do instead
+
+- **Don't send money back yourself.** Ask the sender to cancel or reverse the payment through the app. A real person who made a mistake can contact support. A scammer will push you to “just send it back quickly.”
+- **Contact Venmo or Cash App support** through the app and explain.
+- **Don't accept payments from strangers** at all if you can avoid it. Venmo says it's designed for payments between people who trust each other.
+- **Link a credit card rather than a debit card or bank account** where possible; the BBB notes charges are easier to dispute.
+
+## Related payment-app scams
+
+The [[zelle-business-account-upgrade-scam-marketplace|fake Zelle business account email]] and fake payment screenshots work on the same principle: making you send money to “fix” a payment that never really happened. Read [[is-venmo-safe-from-scams|is Venmo safe?]] and [[zelle-cash-app-venmo-scams-can-you-get-money-back|can you get money back on Zelle, Cash App or Venmo]].
+
+## Why they chose you
+
+Payment-app usernames and phone numbers are easy to find, and Venmo profiles can be public. Set yours to private and check whether your email shows up in breach data with a free [[/digital-footprint-checker/|email exposure check]]. Our guide to [[check-apps-with-contacts-access|apps with access to your contacts]] helps tighten the rest.
+
+=== FAQ
+Q: Should I send back money someone sent me by mistake on Venmo?
+A: Don't send it back yourself. Ask the sender to cancel it through the app, or contact Venmo support.
+Q: How does the accidental payment scam work?
+A: The scammer pays you with a stolen card, you send the money back, the original charge is reversed and you lose what you sent.
+Q: Does this happen on Cash App too?
+A: Yes, the same scam works on Cash App and other payment apps.
+Q: How can I protect my Venmo account?
+A: Set it to private, don't accept money from strangers and contact support about unexpected payments.
+
+=== SOURCES
+https://www.snopes.com/fact-check/venmo-scam/ | Snopes: Accidental Venmo payment from a stranger may be a scam
+https://www.fool.com/money/banks/articles/3-ways-to-spot-this-common-venmo-scam | The Motley Fool: 3 ways to spot this common Venmo scam
+
+=== RELATED
+is-venmo-safe-from-scams | Is Venmo Safe From Scams?
+is-cash-app-safe-from-scams | Is Cash App Safe From Scams?
+payment-app-account-hacked-what-to-do | Payment App Account Hacked?
+zelle-cash-app-venmo-scams-can-you-get-money-back | Can You Get Money Back?
+how-scammers-build-a-convincing-profile-of-you | How Scammers Build a Profile of You

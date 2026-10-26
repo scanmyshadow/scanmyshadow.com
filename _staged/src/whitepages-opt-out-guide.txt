@@ -1,0 +1,60 @@
+slug: whitepages-opt-out-guide
+country: US
+title: Whitepages Opt Out 2026: Remove Your Listing in 15 Minutes
+h1: How to Opt Out of Whitepages (and Why It Needs Your Phone Number)
+desc: Step-by-step Whitepages removal: find your listing, use the suppression page, verify by phone call. Typical timing, the Premium trap and how to keep it off.
+keywords: whitepages opt out, remove from whitepages, whitepages suppression request, whitepages removal 2026, delete whitepages listing
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Go to whitepages.com/suppression-requests, paste the URL of your free (not Premium) listing, click “Remove Me”, pick a reason and verify with an automated phone call and a four-digit code. It takes about 15 minutes and usually works within hours. Whitepages refreshes its data, so check again every few months.
+
+=== BODY
+## What Whitepages shows about you
+
+Whitepages is one of the oldest US people-search sites. A free listing can show your name, age range, current and past addresses, relatives and phone numbers, and the paid “Premium” reports add more. For a stranger, that's often enough to find your front door. That's why it's usually first on any [[us-data-broker-sites-opt-out-guide|data broker opt-out list]].
+
+## Step by step
+
+These steps follow [DuckDuckGo's Whitepages opt-out guide](https://duckduckgo.com/duckduckgo-help-pages/whitepages-opt-out).
+
+1. **Find your listing.** Search whitepages.com for your name plus city, state or ZIP. Skip the “Whitepages Premium” results and open your free listing. Copy its URL: it should include your name, city, state abbreviation and a unique ID.
+2. **Open the suppression page.** Go to [whitepages.com/suppression-requests](https://www.whitepages.com/suppression-requests), paste the URL and click “Next.”
+3. **Confirm it's you.** Click “Remove Me”, check the details, choose a reason from the dropdown and click “Next.”
+4. **Verify by phone.** Enter a phone number, tick the box and click “Call now to verify.” Answer the automated call and type the four-digit code shown on screen. Wait for the “thank you” message.
+
+## The phone verification question
+
+Yes, you have to give Whitepages a phone number to be removed from Whitepages. It's the privacy equivalent of being asked for ID to prove you don't want to be identified. If that bothers you, a virtual or secondary number works for receiving the call; see our guide to [[email-alias-temporary-phone-number-privacy|aliases and temporary numbers]].
+
+## How long it takes
+
+About 15 minutes of your time. Processing is typically within an hour, and the listing should vanish within a few hours of verifying. Google and Bing may show a cached copy for days or weeks; use [[remove-yourself-from-google-results-about-you|Google's Results About You tool]] to speed that up.
+
+## Keep it off
+
+Whitepages refreshes its database, so listings can return. Set a reminder to search yourself every three months. If you have several listings (old addresses, maiden name, middle initial), each one needs its own request.
+
+## Do the rest of the set
+
+Removing yourself from one site helps, but the same data is copied across dozens. Next stops: [[spokeo-opt-out-guide|Spokeo]], [[truepeoplesearch-opt-out-guide|TruePeopleSearch]], [[fastpeoplesearch-opt-out-guide|FastPeopleSearch]] and [[peopleconnect-suppression-intelius-truthfinder-instant-checkmate|the PeopleConnect sites]]. And if you'd like to see how exposed your email is in breach data too, run a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: How do I remove myself from Whitepages?
+A: Copy your free listing URL, submit it at whitepages.com/suppression-requests, click Remove Me, choose a reason and verify with the automated phone call.
+Q: Does Whitepages opt-out require a phone number?
+A: Yes. Verification is by an automated call where you enter a four-digit code.
+Q: How long does Whitepages removal take?
+A: About 15 minutes to complete, and the listing is usually removed within a few hours.
+Q: Can my Whitepages listing come back?
+A: Yes. Whitepages refreshes its data, so check every few months and resubmit if needed.
+
+=== SOURCES
+https://duckduckgo.com/duckduckgo-help-pages/whitepages-opt-out | DuckDuckGo Help: Whitepages opt-out guide
+https://www.whitepages.com/suppression-requests | Whitepages suppression requests page
+
+=== RELATED
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+opting-out-us-people-search-sites | Opting Out of US People-Search Sites
+how-to-remove-info-from-data-brokers-us | How to Remove Info From Data Brokers
+who-sells-your-data-and-how-to-stop-it | Who Sells Your Data and How to Stop It
+can-someone-find-my-address-using-my | Can Someone Find My Address?

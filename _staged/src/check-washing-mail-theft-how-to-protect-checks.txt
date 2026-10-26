@@ -1,0 +1,68 @@
+slug: check-washing-mail-theft-how-to-protect-checks
+country: US
+title: Check Washing: How Stolen Checks Get Rewritten and How to Stop It
+h1: Check Washing Explained: How Thieves Rewrite Your Checks, and Six Ways to Stop Them
+desc: Thieves steal checks from mailboxes, erase the ink with chemicals and rewrite them. How check washing works, FinCEN's numbers and simple ways to protect yourself.
+keywords: check washing, how to prevent check washing, stolen check from mailbox, check fraud mail theft, gel pen check washing, report check washing uspis
+tags: Check Fraud|Mail Theft|United States|How To
+=== TLDR
+Check washing is when thieves steal checks, often in bulk from blue USPS collection boxes, dissolve the ink with common chemicals like nail polish remover, and rewrite the payee and amount while keeping your signature. FinCEN received over 680,000 check fraud suspicious activity reports in 2022, nearly double 2021. Mail checks inside the post office, use a black gel pen, use Informed Delivery and watch when checks clear. If it happens, call your bank, file a police report and report to the Postal Inspection Service.
+
+=== BODY
+## How it works
+
+It's low-tech, which is the point. According to the [New York Department of State](https://dos.ny.gov/news/consumer-alert-new-york-department-states-division-consumer-protection-provides-tips-avoid-0):
+
+1. Thieves steal checks from mail, often in bulk from blue USPS collection boxes.
+2. They use common chemicals, such as nail polish remover, to erase the payee and amount.
+3. Your signature stays.
+4. They write the check to themselves, for more, or sell the signed blank check.
+
+Your $45 check to the water company becomes $4,500 to someone you've never met.
+
+## How big is it?
+
+FinCEN, the Treasury's financial crimes unit, said check fraud surged from 2020 and kept worsening. In 2022 it received **over 680,000** check-fraud suspicious activity reports, almost double 2021. Checks are old-fashioned, but criminals clearly haven't moved on.
+
+## Six ways to protect your checks
+
+1. **Mail checks inside the post office**, not in a blue box. If you must use a box, drop it before the last pickup.
+2. **Don't leave outgoing mail in your home mailbox overnight** (the little red flag is basically a sign saying “checks here”).
+3. **Use a black gel pen.** Gel ink is harder to wash off than ballpoint.
+4. **Hold your mail** when you travel, or ask a neighbour to collect it.
+5. **Sign up for [[usps-informed-delivery-identity-theft-protect-yourself|USPS Informed Delivery]]** to see what's arriving and spot missing mail.
+6. **Watch your account** and confirm each check cleared for the right amount to the right payee.
+
+Better still: pay bills electronically through your bank's bill pay, which doesn't put a paper check in anyone's hands.
+
+## If your check was washed
+
+1. **Call your bank immediately.** Ask about stopping payment and reimbursement; banks have time limits for reporting.
+2. **File a police report.**
+3. **Report it to the US Postal Inspection Service** at 1-877-876-2455 or [uspis.gov/report](https://www.uspis.gov/report).
+4. Consider new account numbers if your checks keep getting hit.
+
+## Your details are the other half
+
+Washed checks expose your name, address, bank and account number. See [[what-can-someone-do-with-your-bank-account-number|what someone can do with your account number]] and consider a [[freeze-chexsystems-innovis-lexisnexis-other-credit-bureaus|ChexSystems freeze]]. A free [[/digital-footprint-checker/|email exposure check]] shows what's already circulating online.
+
+=== FAQ
+Q: What is check washing?
+A: Erasing the payee and amount on a stolen check with chemicals and rewriting it, while keeping the original signature.
+Q: How do thieves get the checks?
+A: Often by stealing mail, including in bulk from USPS blue collection boxes and home mailboxes.
+Q: Does a gel pen really help?
+A: Black gel ink is harder to erase than ballpoint ink, so it makes washing harder.
+Q: Where do I report check washing?
+A: Your bank, local police and the US Postal Inspection Service at 1-877-876-2455 or uspis.gov/report.
+
+=== SOURCES
+https://dos.ny.gov/news/consumer-alert-new-york-department-states-division-consumer-protection-provides-tips-avoid-0 | New York Department of State: Tips to avoid check washing
+https://www.uspis.gov/report | US Postal Inspection Service: Report a crime
+
+=== RELATED
+what-can-someone-do-with-your-bank-account-number | What Can Someone Do With Your Bank Account Number?
+how-to-spot-a-fake-check | How to Spot a Fake Check
+what-is-fake-check-scams | Fake Check Scams Explained
+porch-piracy-package-theft | Porch Piracy and Package Theft
+bank-fraud-statistics-2026 | Bank Fraud Statistics 2026

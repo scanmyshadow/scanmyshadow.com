@@ -1,0 +1,75 @@
+slug: bank-of-america-scam-text-what-to-do
+country: US
+title: Bank of America Scam Texts: How to Spot and Report Them
+h1: Got a “Bank of America” Text About Suspicious Activity? How to Tell If It's Real
+desc: Fake Bank of America texts warn of a locked account or a Zelle payment and push you to call or click. How the scam works, how to report it and what to do.
+keywords: bank of america scam text, bank of america fraud text, fake bank of america text message, bofa text scam, report bank of america phishing
+tags: Bank Scams|Text Scams|United States|What To Do
+=== TLDR
+Fake Bank of America texts claim your account is locked, a Zelle payment is pending or a large purchase needs approval, then push you to tap a link or call a number. Don't. Forward the text to 7726, forward any BofA-branded scam email to abuse@bofa.com, and if you responded, call the number on the back of your card. Bank of America's real alerts never need your password, PIN or a one-time code.
+
+=== BODY
+## What the fake texts say
+
+The messages change weekly, but they rhyme. Common versions:
+
+- “BofA Alert: Unusual activity detected. Did you attempt a $1,249.00 Zelle payment? Reply YES or NO.”
+- “Your account has been temporarily locked. Verify your identity at [link].”
+- “A new device signed in. If this wasn't you, call 844-…”
+
+The goal is either a fake login page or a phone call with a fake “fraud specialist.” The second is more dangerous, because the person on the phone can talk you into moving money to a “safe account” or reading out a code.
+
+## How to report them
+
+According to [Bank of America's report suspicious activity page](https://web.bankofamerica.com/en/security/report-suspicious-activity):
+
+- **Texts:** forward to your mobile carrier at **7726** (SPAM);
+- **Emails or texts using Bank of America's name:** forward to **abuse@bofa.com**;
+- **If you responded** to a suspicious call, text or email: call the number on your card or statement, not any number in the message;
+- **Suspected fraud on ATM, debit, check or Zelle:** log in to Online Banking or call 800-432-1000.
+
+## The “reply YES or NO” trick
+
+Some real bank alerts do ask you to reply YES or NO. Scammers copy the format. If you reply NO (“that wasn't me!”), the scammer calls back pretending to be the fraud team, already knowing you're worried. The safest move with any alert: open the Bank of America app yourself or call the number on your card. If the alert was real, you'll see it there.
+
+## Never give these to anyone who contacted you
+
+- your Online Banking password or PIN;
+- a one-time passcode sent by text;
+- permission to “reverse” a Zelle payment by sending one;
+- access to your phone or computer.
+
+Zelle payments are hard to claw back once sent; see [[zelle-cash-app-venmo-scams-can-you-get-money-back|whether you can get Zelle money back]].
+
+## If you clicked or shared details
+
+1. Call Bank of America on the number on your card.
+2. Change your Online Banking password and turn on two-factor authentication.
+3. Check recent transactions and Zelle recipients.
+4. Report to the [FTC](https://reportfraud.ftc.gov/).
+5. If you shared your SSN or ID, consider a [[how-to-freeze-your-credit-us|credit freeze]].
+
+## Why did they text you?
+
+Scammers send bank texts to huge lists. Many recipients don't even bank with BofA; it's a numbers game. Your number likely came from a breach or data broker. A free [[/digital-footprint-checker/|email exposure check]] shows whether your details are circulating, and our guide to [[us-bank-impersonation-scams-what-to-know|US bank impersonation scams]] covers the wider pattern.
+
+=== FAQ
+Q: How do I report a fake Bank of America text?
+A: Forward it to 7726 and forward BofA-branded scam messages to abuse@bofa.com. Then delete it.
+Q: Does Bank of America send fraud alert texts?
+A: Banks do send alerts, so scammers copy them. Check in the app or call the number on your card instead of using the message.
+Q: I replied to the text. What now?
+A: Don't engage with any follow-up call. Call Bank of America on the number on your card and review your account.
+Q: Will Bank of America ask for a one-time code?
+A: Never share a one-time code with someone who contacted you. Banks use codes to confirm actions you started yourself.
+
+=== SOURCES
+https://web.bankofamerica.com/en/security/report-suspicious-activity | Bank of America: Report suspicious activity
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+us-bank-impersonation-scams-what-to-know | US Bank Impersonation Scams
+zelle-cash-app-venmo-scams-can-you-get-money-back | Zelle, Cash App and Venmo: Can You Get Money Back?
+is-zelle-safe-from-scams | Is Zelle Safe From Scams?
+why-you-should-never-share-otp | Why You Should Never Share an OTP
+what-is-smishing | What Is Smishing?

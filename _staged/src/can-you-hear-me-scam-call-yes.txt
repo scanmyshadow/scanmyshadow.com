@@ -1,0 +1,63 @@
+slug: can-you-hear-me-scam-call-yes
+country: US
+title: “Can You Hear Me?” Calls: Should You Say Yes?
+h1: The “Can You Hear Me?” Call: What It's Really For and How to Answer
+desc: Robocalls opening with "Can you hear me?" try to get a "yes." What's known about voice recording fears, what these calls actually want, and what the FCC advises.
+keywords: can you hear me scam, can you hear me call, say yes scam call, robocall yes or no question, should i say yes on phone scam
+tags: Robocalls|Phone Scams|United States|How To
+=== TLDR
+Calls that open with “Can you hear me?” or “Is this the homeowner?” are trying to get you to say “yes.” The widely shared fear that your recorded “yes” will be used to sign you up for charges is mostly overstated, but the call still serves scammers: a reply confirms a live person answers that number, and keeps you talking. The FCC's advice is simple: don't answer unknown numbers, hang up, and avoid yes/no questions.
+
+=== BODY
+## The call
+
+You pick up. A pause. Then a friendly voice: “Hi! Can you hear me?” or “Sorry, my headset is acting up, can you hear me OK?” Most of us instinctively say “Yes.”
+
+## The internet's version
+
+The popular warning says scammers record your “yes” and use it to authorise purchases. In practice, a voice clip saying “yes” isn't much use for signing up for most services, and consumer agencies have struggled to find confirmed cases of exactly that. So the internet panic is overstated.
+
+## What these calls really do
+
+- **Confirm a live number.** Answering and talking marks your number as worth calling again. Expect more robocalls.
+- **Hook you into a script.** The pleasant opener leads to a pitch: fake warranties, utility discounts, “free” medical alerts, or worse.
+- **Qualify you.** Robocallers filter for people who engage.
+
+The [FCC's robocall guidance](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts) is to avoid answering yes/no questions and not to press buttons to “stop calls.”
+
+## How to handle it
+
+1. Don't answer unknown numbers. Let voicemail screen them.
+2. If you answer and hear a pause or a “can you hear me?”, hang up.
+3. Don't press 1 to speak to someone or 9 to opt out.
+4. Never confirm your name, address, account numbers or SSN.
+5. Register on the [[national-do-not-call-registry-guide|National Do Not Call Registry]] and use your carrier's call blocking.
+
+## The more modern worry: voice cloning
+
+Short audio of your voice can now feed AI voice cloning, which scammers use to fake a family emergency. A few words of “yes” won't clone you, but long chats with strangers and public videos give more material. See [[ai-voice-cloning-scam-calls-explained|AI voice cloning scams]] and agree a family safe word.
+
+## Why they called you
+
+Robocall lists come from breaches, data brokers and random dialling. A free [[/digital-footprint-checker/|email exposure check]] shows if your details are in breach data, and [[why-do-spam-calls-increase-after-data|why spam calls spike after a breach]] explains the link.
+
+=== FAQ
+Q: Is the "Can you hear me?" call a scam?
+A: It's a common robocall opener. Even if your "yes" isn't misused, answering confirms your number and leads into a sales or scam pitch.
+Q: Can scammers use a recording of me saying "yes"?
+A: The fear is widely shared but overstated. Still, avoid yes/no questions on unknown calls, as the FCC advises.
+Q: Should I press a button to stop the calls?
+A: No. The FCC advises not pressing buttons, which can lead to more calls.
+Q: How do I stop these calls?
+A: Don't answer unknown numbers, use carrier call blocking and register with the Do Not Call Registry.
+
+=== SOURCES
+https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts | FCC: Stop unwanted robocalls and texts
+https://fcc.gov/spoofing | FCC: Caller ID spoofing
+
+=== RELATED
+robocall-statistics-2026 | Robocall Statistics 2026
+national-do-not-call-registry-guide | National Do Not Call Registry Guide
+ai-voice-cloning-scam-calls-explained | AI Voice Cloning Scam Calls
+what-is-wardialing-robocalls | What Is Wardialing?
+why-do-spam-calls-increase-after-data | Why Spam Calls Increase After a Breach

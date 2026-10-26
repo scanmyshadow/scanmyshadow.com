@@ -1,0 +1,76 @@
+slug: iphone-safety-check-how-to-use
+country: US
+title: iPhone Safety Check: Cut Off Who Can See Your Location Fast
+h1: iPhone Safety Check: How to See (and Instantly Stop) Who Has Access to Your Location and Data
+desc: Safety Check on iPhone shows who you share location and data with, and can reset it all in one go. Where to find it, Emergency Reset vs Manage, and its limits.
+keywords: iphone safety check, safety check emergency reset, stop sharing location iphone, who can see my location iphone, iphone privacy settings check
+tags: iPhone|Personal Safety|Privacy Settings|How To
+=== TLDR
+Safety Check (Settings > Privacy & Security > Safety Check, iOS 16 or later) lets you review and stop location sharing, app access and connected devices. Emergency Reset cuts off sharing with all people and apps at once and lets you change your Apple Account password and trusted numbers. Manage Sharing & Access lets you review person by person. A Quick Exit button closes it instantly. It can't check non-Apple apps or other people's devices.
+
+=== BODY
+## Why it exists
+
+Apple built Safety Check for people leaving controlling relationships, but it's useful for anyone. Over the years, most of us have shared our location with a partner, a parent, an ex, a friend from a festival in 2019, and granted apps access to photos and contacts. Safety Check puts all of that in one place.
+
+## Where to find it
+
+According to [Apple's Personal Safety guide](https://support.apple.com/guide/personal-safety/how-safety-check-works-ips2aad835e1/web):
+
+- **Settings > Privacy & Security > Safety Check** (scroll down if you don't see it).
+- You need **iOS 16 or later**, an Apple Account with **two-factor authentication**, and to be signed in.
+
+## Option 1: Emergency Reset
+
+“Immediate and universal reset of sharing for all people and apps.” It also lets you:
+
+- review emergency contacts;
+- review and remove devices signed in to your Apple Account;
+- review the phone numbers used to verify your identity;
+- change your Apple Account password.
+
+Use it if you feel unsafe and need everything off now.
+
+## Option 2: Manage Sharing & Access
+
+The calmer version: review sharing person by person and app by app, remove devices, update verification numbers, change your password, edit emergency contacts and update your passcode or Face ID.
+
+## Quick Exit
+
+Every Safety Check screen has a **Quick Exit** button in the top right. It closes Settings and goes to the Home Screen. Changes made before you tap it are saved. Useful if someone walks in.
+
+## What it can't do
+
+Safety Check doesn't cover:
+
+- non-Apple apps and accounts (Google Maps, Life360, WhatsApp, Snapchat);
+- social media sharing;
+- devices signed in to a different Apple Account;
+- sharing on your iPad or Mac.
+
+So also check [[life360-privacy-location-sharing-settings|Life360]], [[snap-map-privacy-settings-ghost-mode|Snap Map]] and [[check-apps-with-location-access|apps with location access]]. Screen Time restrictions or a work management profile can limit some options.
+
+## If you're worried someone is tracking you
+
+Hardware trackers aren't covered by Safety Check; see our [[airtag-stalking-check|AirTag check]] and [[signs-of-stalkerware-on-your-phone|signs of stalkerware]]. If you're in danger, contact local police or the National Domestic Violence Hotline (1-800-799-7233). And check your email's breach exposure with a free [[/digital-footprint-checker/|exposure check]], because a leaked password can undo all of this.
+
+=== FAQ
+Q: Where is Safety Check on iPhone?
+A: Settings > Privacy & Security > Safety Check, on iOS 16 or later.
+Q: What does Emergency Reset do?
+A: It immediately stops sharing with all people and apps and lets you review devices, emergency contacts and verification numbers, and change your Apple Account password.
+Q: Will the other person be notified?
+A: Apple's guide doesn't say they are notified, but they may notice that sharing has stopped. Plan for your safety first.
+Q: Does Safety Check cover Google Maps or WhatsApp location sharing?
+A: No. It only covers Apple sharing and apps' access on that iPhone. Check other apps separately.
+
+=== SOURCES
+https://support.apple.com/guide/personal-safety/how-safety-check-works-ips2aad835e1/web | Apple Personal Safety User Guide: How Safety Check works
+https://www.thehotline.org/ | National Domestic Violence Hotline
+
+=== RELATED
+airtag-stalking-check | AirTag Stalking Check
+signs-of-stalkerware-on-your-phone | Signs of Stalkerware on Your Phone
+remove-unknown-device-apple-id | Remove an Unknown Device From Your Apple ID
+digital-footprint-after-a-breakup | Your Digital Footprint After a Breakup
+check-apps-with-location-access | Check Apps With Location Access

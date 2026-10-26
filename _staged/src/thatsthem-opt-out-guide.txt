@@ -1,0 +1,62 @@
+slug: thatsthem-opt-out-guide
+country: US
+title: ThatsThem Opt Out 2026: Remove Your Record (No Account)
+h1: How to Opt Out of ThatsThem: Remove Your Name, Address, Phone and Email Listings
+desc: ThatsThem opt-out takes a couple of minutes: fill the form at thatsthem.com/optout, pass the check, keep the confirmation. Check all four search tabs after.
+keywords: thatsthem opt out, remove from thatsthem, thatsthem removal, thatsthem.com optout, delete thatsthem listing
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Go to thatsthem.com/optout, enter your full name, street address, city, state, ZIP, phone and email, pass the Cloudflare check and click “Submit opt-out request.” There's no email link to click. ThatsThem says it processes requests within 72 hours. Afterwards, search yourself by name, address, phone and email, because each can be a separate listing.
+
+=== BODY
+## What ThatsThem shows
+
+ThatsThem is a free lookup site that lets anyone search by name, address, phone number or email address. That last one is notable: type an email, get a name and address. If you've ever wondered how a stranger turned your email into your street, sites like this are part of the answer.
+
+## Step by step
+
+From [Redact's ThatsThem removal guide](https://redact.dev/data-brokers/thatsthem-com/remove):
+
+1. Open [thatsthem.com/optout](https://thatsthem.com/optout).
+2. Enter your full name, street address, city, state, ZIP, phone and email.
+3. Complete the Cloudflare Turnstile check.
+4. Click “Submit opt-out request.” A green tick and “Request Submitted!” confirm it. Screenshot that panel.
+
+No account and no email link are needed. It takes a minute or two per record.
+
+## After 72 hours
+
+ThatsThem says it processes requests within 72 hours and sends a confirmation email in that window (check spam). Then:
+
+- search yourself in a private window on all four tabs: **Name, Address, Phone and Email**;
+- submit another request for any listing still showing;
+- if that fails, email optout@thatsthem.com with what you submitted and your screenshot.
+
+## Spokeo won't do it for you
+
+Redact notes that Spokeo's removal tool doesn't cover ThatsThem. Every site needs its own request, which is why our [[us-data-broker-sites-opt-out-guide|broker list]] exists.
+
+## The email-to-address problem
+
+Because ThatsThem searches by email, the email you use everywhere is effectively a key to your home address. Consider separate emails for shopping and sign-ups ([[email-alias-temporary-phone-number-privacy|aliases help]]), and see [[what-does-your-email-address-reveal|what your email address reveals]]. To see which breaches your email has been in, run a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: How do I opt out of ThatsThem?
+A: Fill in the form at thatsthem.com/optout with your details, pass the Cloudflare check and submit.
+Q: Do I need to confirm by email?
+A: No. The on-screen confirmation is your receipt, though ThatsThem says it sends a confirmation email within 72 hours.
+Q: How long does ThatsThem take?
+A: ThatsThem says requests are processed within 72 hours.
+Q: Why do I still appear after opting out?
+A: Name, address, phone and email can each be separate listings. Search all four tabs and submit for each.
+
+=== SOURCES
+https://redact.dev/data-brokers/thatsthem-com/remove | Redact: ThatsThem removal guide
+https://thatsthem.com/optout | ThatsThem opt-out page
+
+=== RELATED
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+what-does-your-email-address-reveal | What Your Email Address Reveals
+how-to-find-an-email-address-yours-or-someones | How to Find an Email Address
+can-someone-find-my-address-using-my | Can Someone Find My Address?
+opting-out-us-people-search-sites | Opting Out of US People-Search Sites

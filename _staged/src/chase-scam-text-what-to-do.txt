@@ -1,0 +1,73 @@
+slug: chase-scam-text-what-to-do
+country: US
+title: Chase Scam Texts and Calls: How to Spot and Report Them
+h1: Fake Chase Texts and Calls: What They Look Like and What Chase Says to Do
+desc: Scammers posing as Chase send fake fraud alerts and call as "branch managers." How to spot them, where to report (phishing@chase.com) and Chase's fraud numbers.
+keywords: chase scam text, chase fraud text, fake chase text message, chase phishing report, chase bank scam call
+tags: Bank Scams|Text Scams|United States|What To Do
+=== TLDR
+Fake Chase texts mimic fraud alerts (“Did you make this purchase?”) and lead to fake sites or to calls with fake fraud staff. Chase has warned that scammers also pose as branch managers or detectives and send “couriers” for cash. Chase says neither banks nor police will ask you to help with a sting, move money or share banking details. Forward scam emails to phishing@chase.com, texts to 7726, and call the number on your card.
+
+=== BODY
+## The usual fake Chase texts
+
+- “Chase: Suspicious charge of $984.20 at BESTBUY. Reply 1 if this was you, 2 if not.”
+- “Your Chase account has been restricted. Verify now: [link].”
+- “Your Zelle account needs an upgrade to receive this payment.”
+
+They exist to get you onto a lookalike login page or into a phone call where someone “from fraud” walks you through the theft.
+
+## What Chase itself warned about
+
+In a warning covered by [FOX 5 DC](https://fox5dc.com/news/chase-bank-warns-fake-phone-social-media-scams-can-drain-your-account-minutes), Chase said scammers are posing as bank staff, police and tech support, and that caller ID and texts can be faked. One scheme: a fake branch manager or detective investigating “counterfeit cash” persuades you to withdraw money and hand it to a courier. Chase also said nearly half of the scams reported to it start on social media, including fake Zelle “upgrade” messages and listings that only accept Zelle or wire.
+
+Chase's line: neither banks nor police will ask you to help with a sting operation, move money to other accounts, or share banking details.
+
+## Where to report
+
+From [Chase's security centre](https://www.chase.com/digital/resources/privacy-security/security/report-fraud):
+
+- **Suspicious emails:** forward to **phishing@chase.com**.
+- **Texts:** forward to **7726**.
+- **Personal checking, savings or debit cards:** 1-800-935-9935.
+- **Personal and Sapphire credit cards:** 1-800-955-9060.
+
+Chase also recommends reporting to the FTC at [IdentityTheft.gov](https://www.identitytheft.gov/) if your identity was misused, and to the FBI's [IC3](https://www.ic3.gov/).
+
+## Rules that protect you
+
+- Never share online banking passwords, PINs or one-time codes.
+- Hang up and call the number on your card if anyone claims to be Chase.
+- Slow down. Every version relies on urgency.
+- Don't buy gift cards or hand cash to anyone on a bank's instructions.
+
+## If you already acted
+
+Call Chase on the number on your card, change your password, review Zelle recipients and recent transfers, and check our [[how-to-recover-a-hacked-bank-account|hacked bank account guide]]. Cash handed to couriers is rarely recovered, so report it to local police immediately.
+
+## How they found you
+
+Bank scam texts go out to massive lists built from breaches and data brokers. A free [[/digital-footprint-checker/|email exposure check]] shows if your details are already circulating.
+
+=== FAQ
+Q: How do I report a Chase phishing email or text?
+A: Forward emails to phishing@chase.com and texts to 7726, then delete them.
+Q: Will Chase ask me to move money to a safe account?
+A: No. Chase says banks and police won't ask you to move money, help with a sting or share banking details.
+Q: What is the Chase fraud number for debit cards?
+A: For personal checking, savings and debit cards, Chase lists 1-800-935-9935.
+Q: Can scammers fake Chase's phone number?
+A: Yes. Caller ID and texts can be spoofed, so call the number on your card yourself.
+
+=== SOURCES
+https://www.chase.com/digital/resources/privacy-security/security/report-fraud | Chase Security Center: Report fraud
+https://fox5dc.com/news/chase-bank-warns-fake-phone-social-media-scams-can-drain-your-account-minutes | FOX 5 DC: Chase Bank warns of fake phone and social media scams
+https://www.identitytheft.gov/ | FTC IdentityTheft.gov
+https://www.ic3.gov/ | FBI IC3
+
+=== RELATED
+us-bank-impersonation-scams-what-to-know | US Bank Impersonation Scams
+uk-courier-fraud-fake-bank-investigators-explained | Courier Fraud Explained
+is-zelle-safe-from-scams | Is Zelle Safe From Scams?
+how-to-recover-a-hacked-bank-account | How to Recover a Hacked Bank Account
+what-is-smishing | What Is Smishing?

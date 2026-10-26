@@ -1,0 +1,65 @@
+slug: freeze-chexsystems-innovis-lexisnexis-other-credit-bureaus
+country: US
+title: Freeze ChexSystems, Innovis and LexisNexis Too: Here's How
+h1: The Credit Files You Haven't Frozen Yet: ChexSystems, Innovis, LexisNexis and Clarity
+desc: Freezing Equifax, Experian and TransUnion leaves gaps. How to freeze Innovis, LexisNexis (incl. SageStream), ChexSystems and Clarity, with links and phone numbers.
+keywords: freeze chexsystems, innovis credit freeze, lexisnexis security freeze, clarity services freeze, sagestream freeze, other credit bureaus to freeze
+tags: Credit Freeze|Identity Protection|United States|How To
+=== TLDR
+The big three bureaus get all the attention, but criminals can also abuse smaller files: ChexSystems (bank accounts), Innovis (credit), LexisNexis (which now includes SageStream) and Clarity Services (personal and title loans). Each offers a security freeze online, by phone or by mail. Freeze the big three first, then add these for a sturdier fence, especially if your SSN has leaked.
+
+=== BODY
+## Why bother with the small ones?
+
+A freeze at Equifax, Experian and TransUnion blocks most new credit. But some banks check **ChexSystems** before opening a checking account, and some lenders use **Innovis**, **LexisNexis** or **Clarity** reports. A fraudster who can open a bank account in your name can use it to launder money or cash fake checks. If your full Social Security number has been in a breach, these files are worth locking.
+
+## How to freeze each one
+
+Contact details from [Clark Howard's guide to smaller bureaus](https://clark.com/credit/smaller-credit-bureaus-credit-freeze/):
+
+| Bureau | Used for | Freeze online | Phone |
+|---|---|---|---|
+| ChexSystems | Checking and savings account history | chexsystems.com (security freeze page) | 800-428-9623 |
+| Innovis | Consumer credit | innovis.com (security freeze page) | 1-866-712-4546 |
+| LexisNexis Risk Solutions (incl. SageStream) | Consumer disclosure and SageStream reports | LexisNexis consumer security freeze form | 1-800-456-1244 |
+| Clarity Services (Experian) | Personal loans and auto title loans | Clarity consumer security freeze form | 866-390-3118 |
+
+Mail options exist for all four. For LexisNexis: LexisNexis Risk Solutions Consumer Center, Attn: Security Freeze, P.O. Box 105108, Atlanta, GA 30348-5108. For ChexSystems: Chex Systems, Inc., Attn: Security Freeze Department, PO Box 583399, Minneapolis, MN 55458.
+
+A LexisNexis freeze blocks release of your LexisNexis Consumer Disclosure Report, your SageStream Consumer Report and your score without your authorisation.
+
+## The trade-off
+
+Freezing ChexSystems means banks may not be able to open a new account for you until you lift it. That's a small hassle when you switch banks, and a big obstacle for someone pretending to be you. Write down which bureaus you froze and how to lift each one; [[how-to-temporarily-lift-credit-freeze-thaw|here's how lifting works]] at the big three.
+
+## Who should do this
+
+- anyone whose SSN appeared in a breach (sadly, a lot of people after [[was-i-affected-by-the-national-public-data-breach|National Public Data]]);
+- people who've already been victims of [[what-is-synthetic-identity-fraud|synthetic or new-account fraud]];
+- anyone who wants belt-and-braces protection for free.
+
+## Start with the big three
+
+If you haven't frozen Equifax, Experian and TransUnion yet, do that first: [[how-to-freeze-your-credit-us|how to freeze your credit]]. Then check how exposed your email is with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: Can I freeze ChexSystems?
+A: Yes, online, by phone at 800-428-9623 or by mail. It may block new bank accounts until you lift it.
+Q: Is SageStream still a separate bureau?
+A: SageStream is now part of LexisNexis Risk Solutions. A LexisNexis freeze covers the SageStream report.
+Q: Should I freeze Innovis?
+A: It's an optional extra layer after the big three, worth doing if your SSN has been exposed.
+Q: What is Clarity Services?
+A: A specialty bureau owned by Experian, used for personal loans and auto title loans. It offers its own freeze.
+
+=== SOURCES
+https://clark.com/credit/smaller-credit-bureaus-credit-freeze/ | Clark.com: How to freeze your credit at smaller bureaus
+https://experian.com/blogs/ask-experian/how-to-freeze-chexsystems-report | Experian: How to freeze your ChexSystems report
+https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts | FTC: What to know about credit freezes and fraud alerts
+
+=== RELATED
+how-to-freeze-your-credit-us | How to Freeze Your Credit in the US
+lexisnexis-opt-out-guide | LexisNexis Opt-Out Guide
+how-to-check-if-your-ssn-was-used | How to Check if Your SSN Was Used
+credit-lock-vs-credit-freeze | Credit Lock vs Credit Freeze
+how-to-check-your-credit-report-for-fraud | How to Check Your Credit Report for Fraud

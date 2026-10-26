@@ -1,0 +1,59 @@
+slug: truepeoplesearch-opt-out-guide
+country: US
+title: TruePeopleSearch Removal 2026: Opt Out in 4 Steps
+h1: How to Remove Yourself From TruePeopleSearch
+desc: TruePeopleSearch removal in four steps: start at truepeoplesearch.com/removal, find your listing, click Remove This Record and confirm by email. Limits and timing.
+keywords: truepeoplesearch removal, truepeoplesearch opt out, remove from true people search, true people search delete record, truepeoplesearch 2026
+tags: Data Brokers|Opt-Out Guides|United States|How To
+=== TLDR
+Go to truepeoplesearch.com/removal, enter your email, tick the box and click “Begin Removal.” Find your listing, click “Remove This Record” at the bottom, then click the link in the “Please complete your removal request” email. Removal usually happens within an hour and should be complete within 72 hours. You can submit up to five requests from one email.
+
+=== BODY
+## Why TruePeopleSearch matters
+
+TruePeopleSearch is free, fast and shows a lot without a paywall: current and past addresses, phone numbers, email addresses, relatives and associates. Because it's free, it's often the first site anyone uses to find someone, which makes it one of the most important to clear.
+
+## Step by step
+
+These steps follow [DuckDuckGo's TruePeopleSearch removal guide](https://duckduckgo.com/duckduckgo-help-pages/truepeoplesearch-removal).
+
+1. **Start the removal.** Go to [truepeoplesearch.com/removal](https://www.truepeoplesearch.com/removal), enter your email, confirm you're the subject of the record, complete the hCaptcha and click “Begin Removal.”
+2. **Find your listing.** Search by name (recommended) plus city, state or ZIP, then click “View Details” on your listing. Copy that URL so you can check later.
+3. **Remove it.** Scroll to the bottom of the listing and click “Remove This Record.”
+4. **Confirm by email.** Open the email titled “Please complete your removal request.” and click the link. You should see: “Record removal request accepted. Your record should be removed everywhere from this site within 72 hours.”
+
+## Timing and limits
+
+- Typically within about an hour, and within 72 hours everywhere on the site.
+- There's no follow-up email when it's done; revisit your saved URL to check.
+- Up to **five requests** per email address. If you have more listings, use a second email.
+- Google and Bing may keep a cached copy for days or weeks.
+
+## It can come back
+
+TruePeopleSearch refreshes its data regularly, so a new listing can appear later. A three-monthly self-search is a good habit. Our [[how-to-google-yourself-digital-footprint-audit|Google yourself audit]] shows how to do it in ten minutes.
+
+## Next: the sibling sites
+
+Many free people-search sites share data. Do [[fastpeoplesearch-opt-out-guide|FastPeopleSearch]] and [[usphonebook-opt-out-guide|USPhonebook]] next, then the [[us-data-broker-sites-opt-out-guide|rest of the list]]. To check your email against known breaches, use our free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: How do I remove myself from TruePeopleSearch?
+A: Start at truepeoplesearch.com/removal, find your listing, click Remove This Record, then click the link in the confirmation email.
+Q: How long does TruePeopleSearch removal take?
+A: Usually about an hour, and it should be removed everywhere on the site within 72 hours.
+Q: How many records can I remove?
+A: Up to five requests from the same email address, according to DuckDuckGo's guide.
+Q: Why is my record back?
+A: TruePeopleSearch refreshes its data, so listings can reappear. Submit a new request.
+
+=== SOURCES
+https://duckduckgo.com/duckduckgo-help-pages/truepeoplesearch-removal | DuckDuckGo Help: TruePeopleSearch removal guide
+https://www.truepeoplesearch.com/removal | TruePeopleSearch removal page
+
+=== RELATED
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
+fastbackgroundcheck-opt-out-guide | FastBackgroundCheck Opt-Out Guide
+can-someone-find-my-address-using-my | Can Someone Find My Address?
+can-someone-find-my-phone-number-just | Can Someone Find My Phone Number?
+opting-out-us-people-search-sites | Opting Out of US People-Search Sites

@@ -1,0 +1,71 @@
+slug: zelle-business-account-upgrade-scam-marketplace
+country: US
+title: Zelle “Business Account Upgrade” Scam: Sellers, Read This
+h1: The Fake Zelle “Upgrade to a Business Account” Email That Targets Marketplace Sellers
+desc: A buyer says they paid by Zelle, then a fake email says you must upgrade to a business account and have the buyer send more. You end up paying them. How it works.
+keywords: zelle business account scam, zelle upgrade scam, facebook marketplace zelle scam, zelle payment on hold email, zelle seller scam
+tags: Zelle|Marketplace Scams|United States|What To Do
+=== TLDR
+You sell something on Facebook Marketplace. The buyer pays by Zelle, then you get an email saying the payment is on hold until you “upgrade to a business account” and the buyer sends extra money that you must refund. The emails are fake, no payment was ever sent, and the only real transfer is the “refund” you send. Rule: you never have to send money to receive money. Check your bank app, not your email.
+
+=== BODY
+## How it unfolds
+
+[Techlicious](https://www.techlicious.com/blog/sellers-beware-of-this-facebook-marketplace-scam/) walks through a typical case:
+
+1. A buyer agrees to your price, say **$750**, sometimes offering more than you asked.
+2. They insist on Zelle.
+3. You get an email from a lookalike address (one example: “onlinezelleserverllc@gmail.com”) saying the payment is on hold because your personal account is limited and must be **upgraded to a business account**.
+4. To upgrade, the email says the buyer must send **$250 more** to reach a $1,000 balance, and you must refund that $250.
+5. A second fake email confirms the buyer “sent” the extra $250.
+6. You send $250 from your real account. The $750 never existed. The buyer vanishes.
+
+It's a neat trick: you end up paying the person you thought was paying you.
+
+## Why it's convincing
+
+The emails use Zelle's logo and polite corporate language. The buyer acts helpful and even “agrees” to pay extra. And most sellers don't know how Zelle works behind the scenes, so “business account” sounds plausible.
+
+## The facts that kill it
+
+- Zelle payments arrive through **your own bank's app** or the Zelle app. Zelle doesn't email you to release funds.
+- Real payment services don't hold money until you get a buyer to send more.
+- **You should never have to send money to receive payment.** Ever.
+
+## Red flags
+
+- a buyer who offers more than your asking price;
+- payment emails from Gmail or odd domains;
+- a payment “on hold” or “declined” by email;
+- any instruction to send money first.
+
+## What to do
+
+Log in to your bank app directly. If the money isn't there, you haven't been paid. Stop talking to the buyer, report them in Marketplace and report it to the [FTC](https://reportfraud.ftc.gov/). If you already sent money, call your bank straight away, though Zelle transfers are hard to reverse ([[zelle-cash-app-venmo-scams-can-you-get-money-back|can you get Zelle money back?]]).
+
+For safer selling, see [[is-facebook-marketplace-safe-from-scams|is Facebook Marketplace safe?]] and [[google-voice-verification-code-scam|the Google Voice code scam]], another seller favourite.
+
+## Why scammers love sellers
+
+Sellers publish their name, phone and sometimes location. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is also in breach data.
+
+=== FAQ
+Q: Does Zelle have business account upgrades that need extra payment?
+A: You should never have to send money to receive a payment. Emails saying otherwise are scams.
+Q: How do I know if a Zelle payment is real?
+A: Check your bank app or the Zelle app directly. Don't trust emails saying money is on hold.
+Q: Can I get money back after sending it to a scammer on Zelle?
+A: Contact your bank immediately, but Zelle transfers are difficult to reverse.
+Q: What email address do these scams use?
+A: Lookalike or free email addresses, such as a Gmail address with "zelle" in it, not a Zelle or bank domain.
+
+=== SOURCES
+https://www.techlicious.com/blog/sellers-beware-of-this-facebook-marketplace-scam/ | Techlicious: Sellers beware of this Facebook Marketplace scam
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+
+=== RELATED
+is-zelle-safe-from-scams | Is Zelle Safe From Scams?
+is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe?
+zelle-cash-app-venmo-scams-can-you-get-money-back | Can You Get Zelle Money Back?
+online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted | Marketplace Scam Rules
+how-to-reverse-a-zelle-payment | How to Reverse a Zelle Payment
