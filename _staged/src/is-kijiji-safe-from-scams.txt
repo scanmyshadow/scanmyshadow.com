@@ -1,0 +1,64 @@
+slug: is-kijiji-safe-from-scams
+country: CA
+title: Is Kijiji Safe? Common Kijiji Scams and How to Avoid Them
+h1: Is Kijiji Safe From Scams? The Tricks Buyers and Sellers Face
+desc: Fake shipping fees, e-Transfer "deposits," overpayments and untraceable payments. Kijiji's own warnings and a simple checklist for buying and selling safely.
+keywords: is kijiji safe, kijiji scams, kijiji e-transfer scam, kijiji shipping scam, kijiji seller scam
+tags: Marketplace Scams|Kijiji|Canada|How To
+=== TLDR
+Kijiji is safe enough if you deal locally, meet in public, inspect before paying and keep messages on the platform. Scams to watch: “free shipping” that turns into fees (Kijiji's example: a $200 fee before a puppy ships), untraceable payments like Western Union and MoneyGram, fake e-Transfer “deposit” notifications and overpayment refund tricks. Kijiji calls cash the most secure payment method for in-person deals.
+
+=== BODY
+## The scams Kijiji warns about
+
+From [Kijiji's payment scam page](https://help.kijiji.ca/safety/avoiding-payment-scams) and its [e-Transfer deposit warning](https://help.kijiji.ca/safety/e-transfer-deposit-scammers):
+
+- **Fake shipping**: “free shipping” that suddenly needs “shipping, insurance or processing fees.” Kijiji gives the example of a **$200 fee** before a puppy ships. (There is usually no puppy.)
+- **Untraceable payments**: Western Union, MoneyGram and similar, especially before you've seen the item.
+- **Fake e-Transfer deposits**: a notification that a “deposit” has been sent, sometimes for more than the price, followed by a request to refund the difference ([[canada-fake-interac-e-transfer-notification-scam|how to spot fake e-Transfers]]).
+- **Moving off-platform**: scammers push to text or email so Kijiji can't detect suspicious activity.
+
+## Safe buying
+
+- Meet in a public place; many police stations have safe exchange zones.
+- Inspect the item before paying.
+- Pay cash, or e-Transfer only after you've seen the item.
+- Be wary of prices far below market.
+- Never pay shipping or “holding” fees to a stranger.
+
+## Safe selling
+
+- Confirm payment has actually landed in your bank account (in your banking app, not an email) before handing anything over.
+- Don't accept overpayments or refund the difference.
+- Don't share verification codes; the [[google-voice-verification-code-scam|code scam]] hits sellers everywhere.
+- Don't send items before payment clears.
+
+## Rentals on Kijiji
+
+Rental listings attract fake landlords asking for deposits before viewings. See [[rental-listing-scams-fake-apartment-ads|fake rental ads]].
+
+## If you're scammed
+
+Report the user to Kijiji, contact your bank, and report to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/). Our [[online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted|marketplace rules guide]] compares platforms. A free [[/digital-footprint-checker/|email exposure check]] shows if your email has leaked.
+
+=== FAQ
+Q: Is Kijiji safe to use?
+A: Yes, if you deal locally, meet in public, inspect items before paying and keep messages on Kijiji.
+Q: What is the Kijiji shipping scam?
+A: A seller offers free shipping, then demands shipping, insurance or processing fees, such as $200 before a puppy ships.
+Q: Is e-Transfer safe on Kijiji?
+A: Only after you've seen the item, and beware of fake e-Transfer deposit notifications.
+Q: What payment does Kijiji recommend?
+A: Kijiji calls cash the most secure payment method for in-person deals.
+
+=== SOURCES
+https://help.kijiji.ca/safety/avoiding-payment-scams | Kijiji Help: Avoiding payment scams
+https://help.kijiji.ca/safety/e-transfer-deposit-scammers | Kijiji Help: Beware of deposit via e-Transfer scams
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted | Marketplace Scam Rules
+canada-fake-interac-e-transfer-notification-scam | Fake Interac e-Transfer Notifications
+what-is-puppy-scams | Puppy Scams
+is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe?
+rental-listing-scams-fake-apartment-ads | Fake Rental Listing Scams

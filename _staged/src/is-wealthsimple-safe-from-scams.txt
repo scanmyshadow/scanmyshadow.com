@@ -1,0 +1,65 @@
+slug: is-wealthsimple-safe-from-scams
+country: CA
+title: Is Wealthsimple Safe From Scams? What It Never Asks
+h1: Is Wealthsimple Safe From Scams? The Six Things Wealthsimple Says It Will Never Do
+desc: Wealthsimple is a regulated platform, but scammers impersonate it and target its users. What Wealthsimple never asks, common scams and how to secure your account.
+keywords: is wealthsimple safe, wealthsimple scam, wealthsimple phishing, wealthsimple phone scam, wealthsimple account security
+tags: Investing Apps|Phishing|Canada|How To
+=== TLDR
+Wealthsimple is a legitimate, regulated platform; the risks come from scammers impersonating it and from social engineering. Wealthsimple says it will never ask for your password or 2FA code, never contact you about money on social media or messaging apps, never recommend specific investments, never ask you to move funds via crypto, never ask you to install other apps and never ask for remote access. Log in only through the app or my.wealthsimple.com.
+
+=== BODY
+## What Wealthsimple will never do
+
+From [Wealthsimple's help centre](https://help.wealthsimple.com/hc/en-ca/articles/5984295977243):
+
+1. ask for your **password or 2FA code**;
+2. request personal information or money through **social media or messaging apps**;
+3. **recommend specific** stocks, securities or crypto;
+4. ask you to transfer funds **using crypto or digital assets**;
+5. ask you to install apps other than the official Wealthsimple app and an authenticator;
+6. ask for **remote access** or screen sharing.
+
+## Common scams aimed at users
+
+- **Phishing**: fake login pages and fake staff, including “your contact email was updated” emails.
+- **Phone scams**: spoofed caller ID pretending to be Wealthsimple support.
+- **Romance and “mentor” scams**: someone met online pushes you to open an account or send money.
+- **Job scams** requiring you to pay or send crypto.
+- **Investment scams** promising guaranteed returns, including Wealthsimple impersonators.
+- **Recovery scams** offering to recover losses for an upfront fee.
+- **Emergency scams**: fake family emergencies, fake CRA or police.
+
+## Secure your account
+
+- Log in only at **my.wealthsimple.com/app** or the official app; check the URL.
+- Use an authenticator app for 2FA, and keep recovery codes private.
+- Don't trust caller ID. Ask for a ticket number, hang up and contact support through official channels.
+- Learn Wealthsimple's official email domains; Interac e-Transfer notifications come from Interac ([[canada-fake-interac-e-transfer-notification-scam|spot fakes]]).
+
+## If you've been scammed
+
+Contact Wealthsimple support immediately, reset your password, watch for alerts about account changes or withdrawals, and report to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) and police. Don't work with “recovery” services ([[canada-fake-cafc-recovery-scam-54-million|why]]).
+
+A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in breach data, a common source of phishing lists.
+
+=== FAQ
+Q: Is Wealthsimple safe?
+A: Wealthsimple is a legitimate platform. The main risks are impersonation and phishing scams aimed at its users.
+Q: Will Wealthsimple ever ask for my 2FA code?
+A: No. Wealthsimple says it will never ask for your password or 2FA code.
+Q: Does Wealthsimple contact users on WhatsApp or social media?
+A: Wealthsimple says it won't request information or money through social media or messaging apps.
+Q: What should I do if I gave a scammer access?
+A: Contact Wealthsimple support immediately, reset your password and report it to the CAFC and police.
+
+=== SOURCES
+https://help.wealthsimple.com/hc/en-ca/articles/5984295977243 | Wealthsimple Help Centre: Protecting yourself from scams
+https://www.advisor.ca/industry-news/regulation/ciro-wealthsimple-warn-about-social-media-scams/ | Advisor.ca: CIRO and Wealthsimple warn about social media scams
+
+=== RELATED
+canada-check-investment-registration-aretheyregistered | Check Investment Registration in Canada
+is-robinhood-safe-from-scams | Is Robinhood Safe From Scams?
+is-coinbase-safe-from-scams | Is Coinbase Safe From Scams?
+crypto-scam-statistics-2026 | Crypto Scam Statistics 2026
+canada-fake-cafc-recovery-scam-54-million | Fake CAFC Recovery Scams

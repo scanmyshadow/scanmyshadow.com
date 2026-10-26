@@ -1,0 +1,62 @@
+slug: canada-scotiabank-phishing-text-email-report
+country: CA
+title: Scotiabank Scam Texts and Emails: How to Report Them
+h1: Fake Scotiabank Texts and Emails: What Scotiabank Never Asks and How to Report
+desc: Fake Scotiabank messages ask you to restore access or verify your account. Scotiabank never asks for this by email or text. Report to phishing@scotiabank.com.
+keywords: scotiabank scam text, scotiabank phishing email, fake scotiabank text, report scotiabank phishing, scotiabank account locked text
+tags: Bank Scams|Phishing|Canada|What To Do
+=== TLDR
+Fake Scotiabank emails and texts say your account is locked or needs verifying and send you to a lookalike login page. Scotiabank says it won't send unsolicited emails asking for passwords, PINs, access codes or card numbers, and won't ask you to restore account access by email or text. Forward emails (unchanged subject line) or text screenshots to phishing@scotiabank.com, and call 1-866-625-0561 if you think you've been defrauded.
+
+=== BODY
+## What the fakes say
+
+- “Your Scotiabank account has been temporarily locked. Restore access: [link]”
+- “Unusual sign-in detected. Verify your identity.”
+- “Your Scene+ points expire today.”
+
+They're built to get your login onto a fake page, or to start a phone call with a fake fraud agent.
+
+## What Scotiabank says it won't do
+
+From [Scotiabank's reporting page](https://www.scotiabank.com/ca/en/about/contact-us/security/report-an-incident-or-suspicious-activity.html):
+
+- send unsolicited emails asking for your **password, PIN, access code, or card or account numbers**;
+- ask you to **validate or restore account access** through email or text.
+
+## How to report
+
+**Emails**: forward to **phishing@scotiabank.com**. Scotiabank asks you not to change or retype the subject line, because that makes investigation harder. Then delete it. Don't forward it to friends.
+
+**Texts**: take a **screenshot** and send it to **phishing@scotiabank.com**, then delete the text. You can also forward the text to 7726.
+
+**Calls**: hang up and dial the number on the back of your card.
+
+## If you think you've been defrauded
+
+Call Scotiabank immediately on **1-866-625-0561**. Change your password, check recent transactions and e-Transfer recipients, and report to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Related
+
+The same playbook is used with every big Canadian bank: see [[canada-rbc-scam-alerts-2026-what-to-do|RBC's 2026 alerts]] and [[canada-bank-impersonation-scams-what-to-know|bank impersonation in Canada]]. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in breach data.
+
+=== FAQ
+Q: How do I report a Scotiabank phishing email?
+A: Forward it to phishing@scotiabank.com without changing the subject line, then delete it.
+Q: How do I report a fake Scotiabank text?
+A: Screenshot it and send the screenshot to phishing@scotiabank.com, then delete the text.
+Q: Will Scotiabank ask me to restore my account access by text?
+A: No. Scotiabank says it won't ask you to validate or restore account access by email or text.
+Q: What number do I call if I've been defrauded?
+A: Scotiabank lists 1-866-625-0561.
+
+=== SOURCES
+https://www.scotiabank.com/ca/en/about/contact-us/security/report-an-incident-or-suspicious-activity.html | Scotiabank: Report an incident or suspicious activity
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
+canada-barrie-fake-scotiabank-investigator-link-56000-lost | Fake Scotiabank Investigator Costs $56,000
+canada-rbc-scam-alerts-2026-what-to-do | RBC Scam Alerts 2026
+what-is-smishing | What Is Smishing?
+how-to-recover-a-hacked-bank-account | Recover a Hacked Bank Account

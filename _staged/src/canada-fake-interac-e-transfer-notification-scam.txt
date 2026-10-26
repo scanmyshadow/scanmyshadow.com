@@ -1,0 +1,63 @@
+slug: canada-fake-interac-e-transfer-notification-scam
+country: CA
+title: Fake Interac e-Transfer Emails and Texts: How to Spot Them
+h1: Fake Interac e-Transfer Notifications: Five Signs the “Money” Isn't Real
+desc: Fake e-Transfer emails and texts steal banking logins or install malware. Interac doesn't send attachments or offer escrow. Signs, examples and how to report.
+keywords: fake interac e-transfer, interac e-transfer scam email, fake e-transfer notification, interac phishing, e-transfer deposit scam
+tags: Interac|Phishing|Canada|What To Do
+=== TLDR
+Fake Interac e-Transfer notifications say you've received money and ask you to click, pick your bank and log in, or open an attachment. Interac doesn't send attachments with notifications and doesn't offer escrow, and the CRA doesn't send or receive payments by e-Transfer. If you weren't expecting money, check with the sender another way and log in to your bank app directly. Forward fakes to phishing@interac.ca.
+
+=== BODY
+## How the scam works
+
+A message arrives: “You've received an INTERAC e-Transfer of $485.00. Click to deposit.” You choose your bank from a list, log in on what looks like your bank's page, and hand your credentials to criminals. Some versions carry attachments that install malware.
+
+## Five signs it's fake
+
+From the [Financial and Consumer Services Commission of New Brunswick](https://fcnb.ca/en/news-alerts/fraud-alert-fake-interac-e-transfer-notifications):
+
+1. **It has an attachment.** Interac doesn't send attachments with e-Transfer notifications.
+2. **It mentions escrow.** Interac doesn't offer escrow, so “money held in escrow” is fake.
+3. **It says it's from the CRA.** The CRA doesn't send or receive payments by e-Transfer.
+4. **You weren't expecting money** from that person.
+5. **It's generic**: “Hi,” or “Dear Customer” instead of your name.
+
+## The Kijiji “deposit” twist
+
+Sellers on marketplaces get fake e-Transfer notices for “deposits,” sometimes for more than the price, followed by a request to refund the difference. [Kijiji warns](https://help.kijiji.ca/safety/e-transfer-deposit-scammers) about exactly this. Rule: money isn't yours until it's in your bank account, checked in your bank app.
+
+## What to do
+
+- Don't click or open attachments.
+- If you were expecting money, log in to your bank app yourself and look for it there.
+- Confirm with the sender through a different channel.
+- Forward the fake to **phishing@interac.ca** and delete it.
+- If you entered your banking login, call your bank on the number on your card right away.
+- Report losses to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Is e-Transfer itself safe?
+
+Yes, when you're sending money to people you know. See [[is-interac-e-transfer-canada-safe-from-scams|is Interac e-Transfer safe?]] for the full picture. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in breach data, which is how fake notices find you.
+
+=== FAQ
+Q: Does Interac send attachments with e-Transfer notifications?
+A: No. Any e-Transfer email with an attachment is fraudulent.
+Q: Does the CRA send money by e-Transfer?
+A: No. The CRA doesn't use e-Transfers to send or receive payments.
+Q: How do I report a fake Interac e-Transfer?
+A: Forward it to phishing@interac.ca and delete it.
+Q: How do I check a real e-Transfer?
+A: Log in to your bank app directly and look for the deposit there.
+
+=== SOURCES
+https://fcnb.ca/en/news-alerts/fraud-alert-fake-interac-e-transfer-notifications | FCNB: Fraud alert, fake Interac e-Transfer notifications
+https://help.kijiji.ca/safety/e-transfer-deposit-scammers | Kijiji Help: Beware of deposit via e-Transfer scams
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+is-interac-e-transfer-canada-safe-from-scams | Is Interac e-Transfer Safe?
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
+online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted | Marketplace Scam Rules
+canada-revenue-agency-scam-what-to-know | CRA Scams
+what-is-clone-phishing | What Is Clone Phishing?

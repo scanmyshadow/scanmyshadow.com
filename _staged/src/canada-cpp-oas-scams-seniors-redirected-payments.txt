@@ -1,0 +1,69 @@
+slug: canada-cpp-oas-scams-seniors-redirected-payments
+country: CA
+title: CPP and OAS Scams: How Seniors' Payments Get Redirected
+h1: CPP and OAS Scams: Fake Service Canada Calls and Redirected Pension Payments
+desc: Canadians 60+ lost nearly $180M to fraud in 2024. How CPP and OAS payments get redirected, the warning signs, and the Service Canada number to call.
+keywords: cpp oas scam, service canada scam call seniors, cpp payment redirected fraud, oas direct deposit changed, seniors fraud canada statistics
+tags: Seniors|Government Impersonation|Canada|What To Do
+=== TLDR
+Canadians aged 60 and over lost nearly $180 million to fraud in 2024, more than any other age group, and filed 12,801 reports. Scams include fake Service Canada callers and redirected pension payments: one Edmonton case took $179,689 from seniors over four years through 176 redirected CPP and OAS payments. If a payment is missing, call Service Canada at 1-800-277-9914, then your bank, police and the CAFC.
+
+=== BODY
+## The scale
+
+From [Money.ca's report](https://money.ca/news/canada-seniors-cpp-oas-fraud-warning-signs), citing CAFC data:
+
+| 2024 | Figure |
+|---|---|
+| Losses, Canadians aged 60+ | nearly $180 million (highest of any age group) |
+| Fraud reports filed by seniors | 12,801 (most of any specified age group) |
+
+The same report describes an Edmonton case where **176 CPP and OAS payments** were redirected to a personal account over four years, taking **$179,689** from seniors.
+
+## How the scams work
+
+- **Fake Service Canada calls**: someone says your benefits are suspended, your SIN is compromised, or you're owed an increase, and needs your details “to fix it.”
+- **Redirected payments**: criminals change your direct deposit details, or have payments reissued to an account they control.
+- **Relative-in-trouble calls** timed around payment days.
+
+Toronto Police describe seniors as targeted because of “perceived accessibility, vulnerability and reluctance to report this crime.” The last part matters: reporting is how payments get traced.
+
+## Warning signs
+
+- pressure to act right away;
+- requests to keep it secret from family, caregivers or the bank;
+- callers you can't verify;
+- payment by wire, gift card or crypto;
+- unfamiliar withdrawals, e-Transfers or **changes to your direct deposit**.
+
+## What to do
+
+- **Missing CPP or OAS payment?** Call **Service Canada: 1-800-277-9914**.
+- Report to your bank, local police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+- Create your My Service Canada Account yourself, so nobody can set one up in your name, and check it regularly.
+- If your SIN was exposed, follow [[canada-sin-stolen-what-to-do|Service Canada's steps]].
+
+## For families
+
+A monthly two-minute check-in (“did your pension arrive?”) catches redirection fast. See [[protect-elderly-parents-from-phone-scams|protecting elderly parents]] and [[service-canada-scam-what-to-know|Service Canada scams]]. A free [[/digital-footprint-checker/|email exposure check]] shows if a parent's email is in breach data.
+
+=== FAQ
+Q: How much did Canadian seniors lose to fraud in 2024?
+A: Canadians aged 60 and over lost nearly $180 million, the most of any age group.
+Q: How do CPP and OAS payments get stolen?
+A: Criminals change direct deposit details or have payments reissued to accounts they control.
+Q: What number do I call about a missing CPP or OAS payment?
+A: Service Canada at 1-800-277-9914.
+Q: Does Service Canada call to say my benefits are suspended?
+A: Treat such calls as scams. Hang up and call Service Canada on its official number.
+
+=== SOURCES
+https://money.ca/news/canada-seniors-cpp-oas-fraud-warning-signs | Money.ca: CPP and OAS fraud warning signs for Canadian seniors
+https://www.canada.ca/en/employment-social-development/corporate/transparency/service-canada/access-information/prevention-signalement-fraude/unauthorized-communications.html | Service Canada: Unauthorized and misleading communications
+
+=== RELATED
+service-canada-scam-what-to-know | Service Canada Scams
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors
+scam-losses-by-age-group-us-australia-2025-data | Scam Losses by Age Group
+canada-hope-rcmp-grandparent-scam-car-accident-courier-pickup | Grandparent Scam in Hope, BC
+canada-fraud-2025-cafc-losses-and-top-scams | Canada Fraud 2025

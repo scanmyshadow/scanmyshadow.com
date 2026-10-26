@@ -1,0 +1,72 @@
+slug: canada-equifax-transunion-fraud-alert-guide
+country: CA
+title: Fraud Alerts in Canada: Equifax Identity Alert vs Fraud Warning
+h1: How to Put a Fraud Alert on Your Credit File in Canada (Equifax and TransUnion)
+desc: Equifax Canada offers an Identity Alert for anyone and a free Fraud Warning for victims, both lasting six years. How to add them, and why Ontario and Manitoba matter.
+keywords: fraud alert canada, equifax identity alert, equifax fraud warning canada, transunion fraud alert canada, credit file alert canada
+tags: Credit Protection|Identity Theft|Canada|How To
+=== TLDR
+Equifax Canada has two options: an Identity Alert anyone can add (a statement plus phone number, lasting six years) and a free Fraud Warning for confirmed fraud victims (also six years). In Ontario and Manitoba lenders must call you before extending credit when an alert is on file; elsewhere they're encouraged to. Alerts apply to one bureau only, so contact TransUnion Canada separately. Place Equifax alerts by phone (1-800-465-7166), online or by mail.
+
+=== BODY
+## Why alerts matter in Canada
+
+Canadians can now freeze credit at the bureaus in some provinces (see [[how-to-freeze-your-credit-canada|credit freezes in Canada]]), but fraud alerts remain the most widely used protection. An alert tells lenders to check it's really you before opening credit.
+
+## Equifax's two alerts
+
+From [Equifax Canada](https://equifax.ca/personal/education/identity/how-can-i-place-a-fraud-alert-on-my-equifax-credit-report):
+
+| | Identity Alert | Fraud Warning |
+|---|---|---|
+| Who can add it | Anyone | Confirmed fraud or ID theft victims |
+| What it contains | Your statement plus a required phone number | A phone number for lenders |
+| Duration | 6 years unless removed in writing | 6 years |
+| Cost | Not stated on the page | Free |
+| Lender contact | Required in Ontario and Manitoba; encouraged elsewhere | Encouraged |
+
+## How to place an Equifax alert
+
+- **Phone**: 1-800-465-7166 (automated).
+- **Online**: Equifax's online form.
+- **Mail**: Equifax Canada Co., Consumer Relations Department, Box 190, Montreal, Quebec H1S 2Z2, with photocopies of two IDs.
+
+For a Fraud Warning, call Equifax or submit a dispute; Equifax may open a fraud investigation.
+
+## Don't forget TransUnion
+
+Each alert applies only to that bureau. Contact **TransUnion Canada** separately to add an alert there. Lenders may check either.
+
+## When to add one
+
+- after a breach that exposed your SIN, date of birth or ID ([[canada-sin-stolen-what-to-do|SIN stolen steps]]);
+- after a lost wallet or stolen ID;
+- after scam calls where you gave out personal details;
+- if you see unknown inquiries on your report.
+
+Keep the phone number on your alert current; a lender calling an old number is no protection at all. Updating it is free.
+
+## Pair it with these
+
+Report fraud to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/), and check your exposure with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: How long does an Equifax fraud alert last in Canada?
+A: Both the Identity Alert and the Fraud Warning last six years.
+Q: Is the Equifax Fraud Warning free?
+A: Yes, for confirmed fraud or identity theft victims.
+Q: Do lenders have to call me if I have an alert?
+A: In Ontario and Manitoba they must call before extending credit. Elsewhere they're encouraged to.
+Q: Does an Equifax alert cover TransUnion?
+A: No. Contact TransUnion Canada separately.
+
+=== SOURCES
+https://equifax.ca/personal/education/identity/how-can-i-place-a-fraud-alert-on-my-equifax-credit-report | Equifax Canada: How to place a fraud alert
+https://stepstojustice.ca/steps/debt-and-consumer-rights/3-ask-consumer-reporting-agency-issue-fraud-alert/ | Steps to Justice: Ask a consumer reporting agency to issue a fraud alert
+
+=== RELATED
+how-to-freeze-your-credit-canada | Freeze Your Credit in Canada
+how-to-report-identity-theft-canada | Report Identity Theft in Canada
+canada-equifax-credit-card-application-fraud-up-8-percent-ages-56-65 | Credit Card Application Fraud in Canada
+canada-identity-theft-report-by-province | Identity Theft by Province
+canada-sin-stolen-what-to-do | SIN Stolen? What to Do

@@ -1,0 +1,64 @@
+slug: canada-privacy-commissioner-complaint-how-to
+country: CA
+title: How to File a Privacy Complaint Against a Business in Canada
+h1: How to Complain to the Privacy Commissioner of Canada About a Business
+desc: If a company mishandled your personal information, the OPC complaint process is free and needs no lawyer. Who it covers, the steps, and when provincial laws apply.
+keywords: privacy commissioner complaint canada, file opc complaint, pipeda complaint business, how to complain about data breach canada, privacy complaint canada
+tags: Your Rights|PIPEDA|Canada|How To
+=== TLDR
+If a business mishandled your personal information, you can file a free complaint with the Office of the Privacy Commissioner of Canada (OPC) under PIPEDA, without a lawyer. First try to resolve it with the company's privacy officer. PIPEDA covers personal information handled in commercial activity; Alberta, British Columbia and Quebec have their own laws that may apply instead. File online or by mail; the OPC's line is 1-800-282-1376.
+
+=== BODY
+## Does PIPEDA cover your issue?
+
+According to the [OPC](https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/file-a-complaint-about-a-business):
+
+- PIPEDA covers many private-sector organisations when they handle personal information **during commercial activity**.
+- Not-for-profits and charities are generally excluded unless doing commercial work (fundraising doesn't count).
+- **Alberta, British Columbia and Quebec** have their own similar laws, which may apply if the information is handled entirely within that province. Quebec's rules have been strengthened in recent years ([[canada-pipeda-explained|our PIPEDA explainer]] covers the basics).
+
+## Step 1: talk to the company
+
+The OPC encourages you to try to resolve it directly first, starting with the organisation's **Privacy Officer**. Put your concern in writing: what happened, when, and what you want (access, correction, deletion, an explanation). Keep copies.
+
+## Step 2: file with the OPC
+
+- **It's free**, and you don't need a lawyer.
+- File **online** (preferred) or by downloading the form and mailing it.
+- Filing for someone else? You need their written approval.
+- Your name and complaint details will generally be shared with the business.
+- Complaint files are kept for 10 years after completion.
+- Questions: **1-800-282-1376**.
+
+An incomplete form can stop your complaint being processed, so include dates, names and copies of correspondence.
+
+## Common reasons to complain
+
+- a company won't give you access to your personal information;
+- a breach exposed your data and the company didn't notify you properly;
+- your information was used or shared without consent;
+- a company keeps marketing to you after you withdrew consent.
+
+## After a breach
+
+If you were caught in a breach like [[canada-loblaw-data-breach-two-million-customers|Loblaw]] or [[canada-crime-stoppers-tips-leak-1-5-million|Crime Stoppers]], you can ask the organisation what was exposed and how it's protecting you, then complain to the OPC if you're not satisfied. Meanwhile, protect yourself: [[canada-equifax-transunion-fraud-alert-guide|add a fraud alert]] and check your email's exposure with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: How do I file a privacy complaint in Canada?
+A: Try to resolve it with the company's privacy officer first, then file online or by mail with the Office of the Privacy Commissioner.
+Q: Does it cost anything to complain to the OPC?
+A: No. Filing is free and you don't need a lawyer.
+Q: Does PIPEDA apply in Quebec, BC and Alberta?
+A: Those provinces have their own similar laws, which may apply when information is handled entirely within the province.
+Q: What is the OPC's phone number?
+A: 1-800-282-1376 (toll-free).
+
+=== SOURCES
+https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/file-a-complaint-about-a-business | Office of the Privacy Commissioner: File a privacy complaint about a business
+
+=== RELATED
+canada-pipeda-explained | PIPEDA Explained
+canada-loblaw-data-breach-two-million-customers | Loblaw Data Breach
+data-minimisation-explained | Data Minimisation Explained
+gdpr-explained-what-you-can-request | GDPR: What You Can Request
+canada-411-and-people-search-removal | Remove Your Listing From Canada411

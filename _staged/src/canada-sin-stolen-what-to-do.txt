@@ -1,0 +1,73 @@
+slug: canada-sin-stolen-what-to-do
+country: CA
+title: SIN Stolen or in a Data Breach? What to Do in Canada
+h1: Your Social Insurance Number Was Stolen or Leaked: The Official Steps, in Order
+desc: Service Canada's steps if your SIN is stolen or exposed: warning signs, credit bureau alerts, reporting, and why a new SIN is a last resort.
+keywords: sin stolen what to do, social insurance number stolen canada, sin data breach canada, new sin after fraud, someone using my sin
+tags: Identity Theft|SIN|Canada|What To Do
+=== TLDR
+If your SIN is stolen or exposed, Service Canada says to watch for warning signs (a CRA reassessment for income you didn't earn, unknown credit inquiries, unfamiliar employers in My Service Canada Account), get your Equifax and TransUnion reports, consider a fraud alert, and report confirmed fraud to police, the CAFC (1-888-495-8501), the credit bureaus and your creditors. A new SIN is a last resort, needs proof of fraud and doesn't cancel the old one.
+
+=== BODY
+## Warning signs
+
+From [Service Canada's SIN fraud page](https://www.canada.ca/en/employment-social-development/services/sin/fraud-data-breaches.html):
+
+- a **Notice of Reassessment** from the CRA for income you didn't earn;
+- **unfamiliar credit inquiries** on your credit report;
+- **unfamiliar employment records** in your My Service Canada Account.
+
+## Monitor
+
+1. Get your credit reports from **Equifax Canada** and **TransUnion Canada**; look for accounts and inquiries you don't recognise. See [[how-to-freeze-your-credit-canada|credit protection in Canada]].
+2. Consider a **fraud alert** on your files (fees may apply for some alerts). Our [[canada-equifax-transunion-fraud-alert-guide|fraud alert guide]] explains the options.
+3. Review bank and card statements.
+4. Watch your mail for missing statements or opened envelopes.
+
+## Report confirmed fraud
+
+- **Police**: file a report and keep the case number and officer's details.
+- **Canadian Anti-Fraud Centre**: online or 1-888-495-8501 ([[canada-anti-fraud-centre-reporting-guide|how]]).
+- **Equifax and TransUnion**: add a fraud alert if you haven't.
+- **Creditors**: close accounts you didn't open.
+- **Canada Post**: report suspicious mail activity.
+- **Government programs**: if someone used your SIN to claim benefits like EI, report it to that program.
+
+You don't have to report to the SIN Program itself.
+
+## Should you get a new SIN?
+
+Usually not. Service Canada says:
+
+- a new SIN is issued **only with proof** your SIN was used fraudulently, and isn't guaranteed;
+- multiple SINs can **increase** fraud risk;
+- a new SIN **doesn't erase or protect** your old one; you remain responsible for proving you weren't involved in misuse.
+
+For credit fraud you'd need ID, a police report and a creditor's letter confirming the fraud. For employment fraud, ID, a police report, your T4 employers for three years, a photo and ten years of addresses.
+
+## Keep it safe going forward
+
+Don't carry your SIN card, give it only when legally required (employers, banks for interest-bearing accounts, government), and be wary of “Service Canada” callers saying your SIN is suspended; that's a classic scam ([[service-canada-scam-what-to-know|Service Canada scams]]).
+
+A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data.
+
+=== FAQ
+Q: What should I do if my SIN was in a data breach?
+A: Check your Equifax and TransUnion reports, consider a fraud alert, watch your CRA and Service Canada accounts, and report confirmed fraud.
+Q: Can I get a new SIN?
+A: Only with proof of fraudulent use, and Service Canada calls it a last resort because it doesn't cancel the old SIN.
+Q: Do I need to report a stolen SIN to Service Canada?
+A: Service Canada says you don't have to report it to the SIN Program. Report confirmed fraud to police, the CAFC and the credit bureaus.
+Q: What are signs someone is using my SIN?
+A: A CRA reassessment for income you didn't earn, unknown credit inquiries or unfamiliar employers in My Service Canada Account.
+
+=== SOURCES
+https://www.canada.ca/en/employment-social-development/services/sin/fraud-data-breaches.html | Government of Canada: SIN fraud and data breaches
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+how-to-report-identity-theft-canada | Report Identity Theft in Canada
+identity-theft-statistics-canada-2026 | Identity Theft Statistics Canada 2026
+how-to-freeze-your-credit-canada | Freeze Your Credit in Canada
+service-canada-scam-what-to-know | Service Canada Scams
+canada-loblaw-data-breach-two-million-customers | Loblaw Data Breach

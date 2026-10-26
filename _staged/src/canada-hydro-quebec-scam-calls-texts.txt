@@ -1,0 +1,63 @@
+slug: canada-hydro-quebec-scam-calls-texts
+country: CA
+title: Hydro-Québec Scams: What Hydro-Québec Never Does
+h1: Fake Hydro-Québec Calls, Texts and Door-to-Door Offers: How to Spot Them
+desc: Hydro-Québec never asks for card or bank details by email or text, never pays outage compensation by text and doesn't sell door to door. Scams and how to report.
+keywords: hydro-quebec scam, hydro quebec scam text, hydro quebec phishing, fake hydro-quebec call, hydro quebec refund scam
+tags: Utility Scams|Phishing|Canada|What To Do
+=== TLDR
+Scammers impersonate Hydro-Québec with phishing emails and texts, shutoff threat calls demanding card numbers, door-to-door “assistance” offers and fake job offers that charge a fee. Hydro-Québec says it never asks for card or banking details by email or text, never issues refunds or outage compensation by text or email, doesn't accept credit cards for electricity bills and doesn't sell door to door. Forward texts to 7726 and send copies to Surveillance.Fraudes@hydro.qc.ca.
+
+=== BODY
+## What Hydro-Québec never does
+
+From [Hydro-Québec's fraud prevention page](https://hydroquebec.com/fraud-prevention.html):
+
+- ask for your **credit card number**, personal or banking information **by email or text**;
+- ask for money to open a **job application** file;
+- issue **refunds or compensation** by text or email (and there's no compensation for outages);
+- accept **credit card payment for electricity bills** (cards work for certain programs only);
+- make **sales calls or door-to-door visits**, or partner with heat pump retailers;
+- ask about your electricity bill **at your door**.
+
+That credit card rule is a great tell: a caller threatening a shutoff unless you read out your card number is, by Hydro-Québec's own rules, a scam.
+
+## The scams going around
+
+- **Phishing emails and texts** with spelling errors, invented problems like late payments, urgent demands and links to data-grabbing pages.
+- **Phone threats**: “pay by card now or we cut your power.”
+- **Doorstep or phone “assistance”**: fake employees offering financial help or lower bills in exchange for information.
+- **Fake job offers** asking for a fee.
+
+## How Hydro-Québec does contact you
+
+By text, email or phone for information, such as late payment notices or reminders to act in your account. If unsure, don't click; go to hydroquebec.com directly.
+
+## How to report
+
+- Forward suspicious texts to **7726**.
+- Send a copy of suspicious emails or texts to **Surveillance.Fraudes@hydro.qc.ca** with your name and phone number.
+- Report suspected fraud to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+Utility scams are everywhere: see [[hydro-one-scam-what-to-know|Hydro One]] and [[bc-hydro-scam-what-to-know|BC Hydro]]. A free [[/digital-footprint-checker/|email exposure check]] shows if your email has leaked.
+
+=== FAQ
+Q: Does Hydro-Québec accept credit cards for electricity bills?
+A: No. Hydro-Québec says it doesn't accept credit card payment for electricity bills, so card demands to avoid a shutoff are scams.
+Q: Does Hydro-Québec text refunds or compensation?
+A: No. It doesn't issue refunds or compensation by text or email.
+Q: Does Hydro-Québec sell door to door?
+A: No. It doesn't make sales calls or door-to-door visits.
+Q: How do I report a fake Hydro-Québec message?
+A: Forward texts to 7726 and send a copy to Surveillance.Fraudes@hydro.qc.ca.
+
+=== SOURCES
+https://hydroquebec.com/fraud-prevention.html | Hydro-Québec: Fraud prevention
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+hydro-one-scam-what-to-know | Hydro One Scams
+bc-hydro-scam-what-to-know | BC Hydro Scams
+canada-revenue-agency-scam-what-to-know | CRA Scams
+what-is-smishing | What Is Smishing?
+canada-fake-interac-e-transfer-notification-scam | Fake Interac e-Transfer Notifications

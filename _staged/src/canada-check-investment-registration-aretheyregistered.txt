@@ -1,0 +1,65 @@
+slug: canada-check-investment-registration-aretheyregistered
+country: CA
+title: Check an Investment Adviser in Canada: AreTheyRegistered.ca
+h1: Before You Invest: How to Check a Person or Firm on Canada's National Registration Search
+desc: Canada's securities regulators run a free registration search at aretheyregistered.ca. How to use it, what to do if someone isn't registered, and clone-firm traps.
+keywords: aretheyregistered.ca, check investment adviser canada, national registration search, csa registration check, investment scam canada check firm
+tags: Investment Scams|Securities Regulators|Canada|How To
+=== TLDR
+Before investing with anyone in Canada, look them up on the Canadian Securities Administrators' free National Registration Search at aretheyregistered.ca, or call your provincial securities regulator. Registration means they meet required qualifications and standards. If someone unregistered offers you an investment, report them to your provincial regulator. Watch for clone firms that copy real firms' names but give you different contact details.
+
+=== BODY
+## Why registration matters
+
+The [Canadian Securities Administrators](https://www.securities-administrators.ca/?p=734) say registration lets regulators confirm that individuals and firms meet required qualifications and standards before they sell investments or give advice. As then-CSA chair Louis Morisset put it: “Investors should have confidence in whomever they choose to handle their money.”
+
+Investment fraud is Canada's costliest scam category. The CAFC reported about **C$139.6 million** in investment fraud losses in the first half of 2026 alone ([[canada-cafc-351-million-fraud-losses-first-half-2026|CAFC data]]).
+
+## How to check
+
+1. Go to **aretheyregistered.ca** (type it yourself).
+2. Search the person's and the firm's names.
+3. Check the registration category and which provinces they're registered in.
+4. If you're unsure, **call your provincial securities regulator**.
+
+## Clone firm trap
+
+Scammers sometimes pose as a real registered firm, using its name and even its registration details, but with their own phone number, email or website. So:
+
+- contact the firm using details from the regulator's records or the firm's own verified site, not the details you were given;
+- be suspicious if the “adviser” only uses WhatsApp, Telegram or a personal email.
+
+The UK has the same problem; see [[uk-fca-firm-checker-clone-firms-fca-impersonation|clone firms in the UK]].
+
+## Red flags
+
+- guaranteed high returns;
+- pressure to invest quickly;
+- crypto “trading platforms” found through ads or chat groups ([[canada-csa-warning-fake-ubp-swiss-bank-crypto-recovery-scam|CSA warning on fake crypto recovery]]);
+- celebrity endorsements in “news articles” ([[uk-fake-news-article-investment-ads|how those ads work]]).
+
+## If someone isn't registered
+
+Don't invest. Report them to your provincial securities regulator and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/). Investment scam call lists often come from breached contact details; a free [[/digital-footprint-checker/|email exposure check]] shows if yours is out there.
+
+=== FAQ
+Q: How do I check if an investment adviser is registered in Canada?
+A: Use the free National Registration Search at aretheyregistered.ca or call your provincial securities regulator.
+Q: What if the person isn't registered?
+A: Don't invest, and report them to your provincial securities regulator.
+Q: What is a clone firm?
+A: A scam that copies a real registered firm's name and details but uses different contact details.
+Q: Is aretheyregistered.ca free?
+A: Yes. It's a free tool from Canada's securities regulators.
+
+=== SOURCES
+https://www.securities-administrators.ca/?p=734 | Canadian Securities Administrators: Regulators encourage checking registration before investing
+https://www.investright.org/news-and-insights/investing-articles/canadian-securities-regulators-encourage-checking-registration-before-investing/ | InvestRight: Check registration before investing
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-cafc-351-million-fraud-losses-first-half-2026 | CAFC: $351 Million Lost in Six Months
+canada-csa-warning-fake-ubp-swiss-bank-crypto-recovery-scam | Fake Swiss Bank Crypto Recovery Scam
+canada-toronto-police-charge-two-3-49-million-real-estate-investment-fraud | $3.49M Investment Fraud Charges
+investment-fraud-losses-us-uk-canada-australia-2025 | Investment Fraud Losses 2025
+rrsp-and-superannuation-scams-canada-australia | RRSP Scams in Canada

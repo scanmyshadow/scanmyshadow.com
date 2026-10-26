@@ -1,0 +1,68 @@
+slug: canada-td-scam-text-phishing
+country: CA
+title: TD Canada Trust Scam Texts: Locked Account Alerts Explained
+h1: Fake TD Canada Trust Texts About a Locked Account: What to Do
+desc: Fake TD texts say your account is locked or a payment is pending. How to check through the TD app, which numbers to call and where to report fraud.
+keywords: td scam text, td canada trust scam text, fake td text locked account, td phishing report, td bank scam canada
+tags: Bank Scams|Text Scams|Canada|What To Do
+=== TLDR
+Fake TD Canada Trust texts claim your account is locked, a payment needs approval or your card was suspended, with a link to a fake login. Don't click. Open the TD app or EasyWeb yourself, or call TD Canada Trust on 1-866-222-3456 (or the number on your card). In the TD app, go to More > Contact Us > Call Us and choose “Suspected Fraud.” Report scams to the Canadian Anti-Fraud Centre and forward texts to 7726.
+
+=== BODY
+## What the texts say
+
+- “TD: Your account has been locked due to suspicious activity. Restore access: [link]”
+- “TD Alert: A payment of $1,280.00 is pending. Reply NO if not you.”
+- “Your TD Access Card has been suspended.”
+
+The link goes to a page that looks like EasyWeb. Enter your login and the criminals have it, often within seconds.
+
+## How to check safely
+
+Close the text. Then:
+
+- open the **TD app** or type **EasyWeb**'s address yourself;
+- or call **TD Canada Trust: 1-866-222-3456** (personal accounts and credit cards), or the number on the back of your card.
+
+In the TD app: **More > Contact Us > Call Us**, then choose Accounts or Small Business and **“Suspected Fraud”** ([TD's report fraud page](https://www.td.com/ca/en/about-td/privacy-and-security/how-you-can-protect-yourself/protect-yourself/report-online-fraud)).
+
+Other TD lines: Direct Investing 1-800-465-5463, Insurance 1-877-397-4187, Business Banking 1-800-668-7328.
+
+## Disputing a transaction
+
+Use “Dispute a Transaction” in EasyWeb or the TD app, or call the number on your card.
+
+## Report it
+
+- Report fraud or scams to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) and local police, as TD suggests.
+- Forward scam texts to **7726**.
+
+## Why “reply NO” is risky
+
+Replying confirms your number is live, and a “fraud agent” often calls minutes later, already sounding helpful. That agent will ask for a code or tell you to move money. Hang up and call TD yourself. Our guide on [[canada-bank-impersonation-scams-what-to-know|bank impersonation scams]] walks through the script.
+
+## Why they texted you
+
+Bank texts go out in bulk to numbers from breaches and brokers. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data.
+
+=== FAQ
+Q: Is a TD text saying my account is locked real?
+A: Treat it as a scam. Check in the TD app or EasyWeb, or call 1-866-222-3456.
+Q: How do I report fraud to TD?
+A: In the TD app go to More > Contact Us > Call Us and choose Suspected Fraud, or call the number on your card.
+Q: How do I dispute a TD transaction?
+A: Use Dispute a Transaction in EasyWeb or the TD app, or call the number on your card.
+Q: Where else should I report a TD scam text?
+A: Forward it to 7726 and report it to the Canadian Anti-Fraud Centre.
+
+=== SOURCES
+https://www.td.com/ca/en/about-td/privacy-and-security/how-you-can-protect-yourself/protect-yourself/report-online-fraud | TD: Report online fraud
+https://stories.td.com/ca/en/article/spot-phishing-scams | TD Stories: How to spot phishing scams
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
+canada-rbc-scam-alerts-2026-what-to-do | RBC Scam Alerts 2026
+canada-calgary-woman-75-loses-800000-romance-scam-td-obsi | Calgary Woman Loses $800,000
+what-is-smishing | What Is Smishing?
+how-to-recover-a-hacked-bank-account | Recover a Hacked Bank Account

@@ -1,0 +1,67 @@
+slug: canada-immigration-scams-ircc-fake-calls-websites
+country: CA
+title: Immigration Scams in Canada: What IRCC Will Never Do
+h1: Fake IRCC Calls, Paid “Guaranteed” Visas and Deepfake Officials: Immigration Scams in Canada
+desc: IRCC never takes payment by phone, never emails from Gmail and never starts chats on social media. Common immigration scams, including AI fakes, and how to report.
+keywords: ircc scam call, immigration scam canada, fake ircc email, immigration fraud canada report, eta scam website
+tags: Immigration Scams|Newcomers|Canada|What To Do
+=== TLDR
+IRCC says it will never ask for payment by phone, never email from free services like Gmail, never ask you to pay into a personal bank account, never threaten you or offer special deals, never start conversations on social media and never send visas by email. Scams include paid “guaranteed approval” representatives, fake eTA websites, fake IRCC calls to students and AI-generated videos of officials. Official emails come from gc.ca or canada.ca addresses.
+
+=== BODY
+## What IRCC will never do
+
+From [IRCC's guidance on online and phone scams](https://www.canada.ca/en/immigration-refugees-citizenship/services/protect-fraud/internet-email-telephone.html):
+
+- ask for **any payment by telephone**;
+- ask for private information like passwords, date of birth or card details by email;
+- email you from **Hotmail, Gmail or Yahoo**;
+- ask you to deposit money into a **personal bank account** or use a private transfer service;
+- **threaten you** or offer special deals;
+- **start a conversation on social media**;
+- **send visas by email**.
+
+## Common scams
+
+- **Representative fraud**: services advertised as free that later charge, promise guaranteed approval, offer to speed up biometrics for a fee, or tell you to lie on your application.
+- **AI-generated content**: fake videos or voices of officials promoting fast or guaranteed immigration. A new, very 2026 problem.
+- **Fake websites**: copycat pages, often charging for eTA “help.” The official eTA application is on the Government of Canada website.
+- **Fake emails and calls**: including a known phone scam targeting international students.
+- **Job offers**: salaries that look too good to be true.
+
+## How to check
+
+- Official email comes from **gc.ca** or **canada.ca** addresses.
+- Type the website address yourself and check it matches.
+- Use only IRCC's verified social media accounts.
+- Check that any paid representative is authorised (licensed immigration consultants and lawyers can be verified with their regulator).
+
+## Report it
+
+Report suspicious websites, emails, calls or representatives through the **report fraud** page on Canada.ca, and report losses to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Newcomers are targeted more
+
+New arrivals are juggling unfamiliar systems, which scammers exploit with fake CRA, police and IRCC calls. See [[scams-targeting-communities-nris-immigrants-veterans|scams targeting immigrant communities]] and [[digital-footprint-for-international-students|digital footprint for international students]]. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data.
+
+=== FAQ
+Q: Does IRCC ever call asking for payment?
+A: No. IRCC says it will never ask for any payment by telephone.
+Q: What email address does IRCC use?
+A: Official IRCC email comes from gc.ca or canada.ca addresses, never Gmail, Hotmail or Yahoo.
+Q: Can someone guarantee my visa approval for a fee?
+A: Promises of guaranteed approval are a scam sign, according to IRCC.
+Q: Where do I report immigration fraud in Canada?
+A: Through the report fraud page on Canada.ca, and to the Canadian Anti-Fraud Centre if you lost money.
+
+=== SOURCES
+https://www.canada.ca/en/immigration-refugees-citizenship/services/protect-fraud/internet-email-telephone.html | IRCC: Online and telephone immigration scams
+https://www.canada.ca/en/immigration-refugees-citizenship/services/protect-fraud/newcomers.html | IRCC: Fraud targeting newcomers
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+scams-targeting-communities-nris-immigrants-veterans | Scams Targeting Immigrant Communities
+canada-calgary-police-charge-two-1-million-fraud-admissions-immigration | $1 Million Admissions and Immigration Fraud
+fake-job-offer-linkedin-recruiter-scams | Fake Job Offers on LinkedIn
+deepfake-fraud-statistics-2026 | Deepfake Fraud Statistics 2026
+digital-footprint-for-international-students | Digital Footprint for International Students

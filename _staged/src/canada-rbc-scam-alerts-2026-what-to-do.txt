@@ -1,0 +1,72 @@
+slug: canada-rbc-scam-alerts-2026-what-to-do
+country: CA
+title: RBC Scam Alerts 2026: The Scams Using RBC's Name This Year
+h1: RBC's 2026 Scam Alerts, Month by Month, and the Eight Things RBC Never Asks
+desc: From short-code smishing in January to fake account verification emails in October, the scams RBC flagged in 2026, how to report them and RBC's "never" list.
+keywords: rbc scam text, rbc phishing, rbc scam alert 2026, report rbc phishing phishing@rbc.com, fake rbc email
+tags: Bank Scams|Phishing|Canada|What To Do
+=== TLDR
+RBC has posted a scam alert nearly every month of 2026: short-code smishing, fake RBC payment and e-Transfer portals, fake investment advisors, call forwarding tricks, fake Avion Rewards notices and, in October, fake account verification emails aimed at Direct Investing clients. RBC says it will never ask you to share one-time codes, e-Transfer money for any reason, download remote access apps or pay fees to release funds. Forward emails to phishing@rbc.com and texts to 7726.
+
+=== BODY
+## RBC's 2026 alerts
+
+From [RBC's cyber security alerts page](https://www.rbc.com/cyber-security/alerts/index.html):
+
+| Month (2026) | Alert |
+|---|---|
+| January | Bank impersonation via short-code smishing; fake job offers by SMS; fake website “human verification” |
+| February | Fake RBC investment advisors |
+| March | Fake RBC payment and e-Transfer portals |
+| April | Direct Investing phishing using fake W-8BEN renewal emails |
+| May | Fraudulent trading platforms promoted via “news articles” |
+| June | Fake Avion Rewards notifications; FIFA World Cup scams |
+| July | Call forwarding scam (dialing codes that forward your calls and texts) |
+| August | Fake trade confirmation emails from non-RBC domains |
+| September | Emergency scam targeting students (fake police or government callers) |
+| October | Account verification scam targeting Direct Investing clients |
+
+Two worth highlighting: the **call forwarding scam** tricks you into dialling a code that sends your calls and texts, including bank verification codes, to a criminal ([[call-forwarding-scam-401-ussd-how-to-check-and-cancel|how to check and cancel forwarding]]). And **short-code smishing** makes fake texts look like they come from the bank's real short code.
+
+## What RBC will never ask you to do
+
+- click links in unsolicited emails or texts to enter banking credentials;
+- enter your online banking password anywhere other than rbc.com or the official app;
+- share your PIN, security answers or password;
+- give one-time codes sent by SMS, email or voicemail to “verify” you;
+- create a new password with an advisor;
+- **e-Transfer money for any reason**, or start a transaction on RBC's behalf;
+- download a remote access app;
+- **pay fees to release funds**.
+
+## How to report
+
+- **Emails**: forward to **phishing@rbc.com**, then delete.
+- **Texts**: forward to **7726**, and you can send a screenshot to phishing@rbc.com.
+- **Calls**: hang up and call the number on your card.
+- **Fake trading platforms**: report to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) and the Canadian Securities Administrators.
+
+## If you acted on one
+
+Call RBC on the number on your card immediately, change your password, check e-Transfer contacts and recent payments, and see [[canada-bank-impersonation-scams-what-to-know|bank impersonation scams in Canada]]. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data.
+
+=== FAQ
+Q: How do I report an RBC phishing email?
+A: Forward it to phishing@rbc.com and delete it.
+Q: How do I report a fake RBC text?
+A: Forward it to 7726 and send a screenshot to phishing@rbc.com.
+Q: Will RBC ask me for a one-time code?
+A: No. RBC says it will never ask you to provide one-time codes to verify your identity.
+Q: Will RBC ask me to e-Transfer money to protect my account?
+A: No. RBC says it will never ask you to e-Transfer money for any reason.
+
+=== SOURCES
+https://www.rbc.com/cyber-security/alerts/index.html | RBC: Cyber security alerts
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
+call-forwarding-scam-401-ussd-how-to-check-and-cancel | Call Forwarding Scam
+canada-gold-bar-safekeeping-scam-fake-rcmp | Gold Bar Safekeeping Scam
+canada-fake-interac-e-transfer-notification-scam | Fake Interac e-Transfer Notifications
+why-you-should-never-share-otp | Why You Should Never Share an OTP

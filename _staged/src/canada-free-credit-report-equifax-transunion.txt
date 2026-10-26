@@ -1,0 +1,65 @@
+slug: canada-free-credit-report-equifax-transunion
+country: CA
+title: How to Get Your Free Credit Report in Canada (Both Bureaus)
+h1: How to Get a Free Credit Report From Equifax and TransUnion Canada, and What to Look For
+desc: Canada has two credit bureaus. How to request your free reports, what ID you need, how often to check, and the signs of identity fraud to look for.
+keywords: free credit report canada, equifax canada free credit report, transunion canada free credit report, check credit report canada, credit report identity theft canada
+tags: Credit Reports|Identity Theft|Canada|How To
+=== TLDR
+Canada has two credit bureaus, Equifax and TransUnion, and their reports can differ, so check both. Free copies are available by mail (with two pieces of ID), and both bureaus also offer online access through accounts on their own sites. Check at least once a year and immediately after a breach, lost wallet or scam call. Look for unknown accounts, inquiries and addresses. You can add a short explanation to your file.
+
+=== BODY
+## Two bureaus, two reports
+
+According to [Consumer Protection BC](https://www.consumerprotectionbc.ca/2015/06/how-to-get-a-free-copy-of-your-credit-report/), Canada has two credit reporting agencies, **Equifax** and **TransUnion**, and their reports can contain different information. A lender might check either, so fraud could appear on one and not the other.
+
+## How to get yours
+
+- **By mail**: both bureaus provide a free copy by mail; you'll need copies of **two pieces of ID**.
+- **TransUnion**: request through its consumer disclosure page by mail, in person or by phone.
+- **Equifax**: fill in its free credit report form; leave payment fields blank if you don't want to buy a score.
+- **Online**: both bureaus also offer account-based online access on their own sites. Start from equifax.ca or transunion.ca, typed yourself, and skip paid upsells you don't need.
+
+The [Financial Consumer Agency of Canada](https://www.canada.ca/en/financial-consumer-agency/news/2017/11/fcac_reminds_consumerscreditreportscanhelpprotectthemfromfinanci.html) has long reminded Canadians that checking credit reports helps protect against fraud.
+
+## What to look for
+
+- accounts or credit cards you didn't open;
+- credit inquiries from lenders you never applied to;
+- addresses you've never lived at;
+- debts sent to collections you don't recognise.
+
+## If you find fraud
+
+1. Contact the lender to close the fraudulent account.
+2. Dispute the entry with the bureau.
+3. Add a fraud alert at both bureaus ([[canada-equifax-transunion-fraud-alert-guide|how]]).
+4. Report to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+5. If your SIN was involved, follow [[canada-sin-stolen-what-to-do|Service Canada's steps]].
+
+You can also add a short explanation to your report, which Consumer Protection BC puts at up to 100 words.
+
+## How often
+
+At least once a year, and right away after a breach like [[canada-loblaw-data-breach-two-million-customers|Loblaw's]]. A free [[/digital-footprint-checker/|email exposure check]] tells you whether your email has been in breaches, a good trigger for a credit check.
+
+=== FAQ
+Q: Is my credit report free in Canada?
+A: Yes. Both Equifax and TransUnion provide free reports, by mail with ID, and both offer online access.
+Q: Why check both bureaus?
+A: Their reports can contain different information, and lenders may use either.
+Q: What should I look for on my credit report?
+A: Unknown accounts, unfamiliar credit inquiries, addresses you never lived at and collections you don't recognise.
+Q: How often should I check my credit report?
+A: At least once a year, and immediately after a breach or suspected identity theft.
+
+=== SOURCES
+https://www.consumerprotectionbc.ca/2015/06/how-to-get-a-free-copy-of-your-credit-report/ | Consumer Protection BC: How to get a free copy of your credit report
+https://www.canada.ca/en/financial-consumer-agency/news/2017/11/fcac_reminds_consumerscreditreportscanhelpprotectthemfromfinanci.html | FCAC: Credit reports can help protect you from fraud
+
+=== RELATED
+how-to-freeze-your-credit-canada | Freeze Your Credit in Canada
+canada-equifax-transunion-fraud-alert-guide | Fraud Alerts in Canada
+how-to-report-identity-theft-canada | Report Identity Theft in Canada
+canada-sin-stolen-what-to-do | SIN Stolen? What to Do
+identity-theft-statistics-canada-2026 | Identity Theft Statistics Canada 2026

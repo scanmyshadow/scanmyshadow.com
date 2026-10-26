@@ -1,0 +1,70 @@
+slug: was-i-affected-by-the-canada-goose-data-breach
+country: CA
+title: Canada Goose Data Breach: Was I Affected? What Leaked
+h1: Was I Affected by the Canada Goose Data Breach? What Was Exposed and What to Do
+desc: About 581,900 email addresses and order histories from Canada Goose customers were leaked by ShinyHunters in 2026, with partial card data. How to check and protect yourself.
+keywords: canada goose data breach, was i affected canada goose breach, canada goose shinyhunters, canada goose customer data leak, canada goose breach 2026
+tags: Data Breach|Retail|Canada|What To Do
+=== TLDR
+In February 2026 the extortion group ShinyHunters published Canada Goose customer data. Have I Been Pwned lists about 581,900 unique email addresses across roughly 920,000 records, with names, phone numbers, billing and shipping addresses, order histories and partial card data (brand, last four digits, sometimes the first six). Full card numbers don't appear to be included. Canada Goose says the data relates to past transactions and a third-party breach in August 2025.
+
+=== BODY
+## What happened
+
+According to [CyberInsider](https://cyberinsider.com/canada-goose-data-breach-exposes-582000-customer-emails-and-data/), ShinyHunters posted a 1.67GB archive it said held more than 600,000 Canada Goose customer records. Have I Been Pwned added the breach on February 17, 2026.
+
+Canada Goose said the information appeared to relate to past customer transactions and attributed it to a “third-party breach that occurred in August 2025.” The most recent transaction date in the data is July 2025.
+
+## What was exposed
+
+- names, email addresses and phone numbers;
+- billing and shipping addresses;
+- IP addresses and device/browser information;
+- order histories and purchase values;
+- **partial card data**: card brand, last four digits and sometimes the first six digits, plus payment authorisation metadata.
+
+Full card numbers don't appear to be included.
+
+Interesting detail: about **79%** of the exposed emails were already in Have I Been Pwned from earlier breaches. Most people in one breach are in several.
+
+## Was I affected?
+
+If you bought from Canada Goose online before July 2025, assume you might be. You can check whether your email appears in known breaches with a free [[/digital-footprint-checker/|email exposure check]].
+
+## The real risk: convincing phishing
+
+A scammer who knows what jacket you bought, how much you paid, your address and your card's last four digits can write a very believable message: “There's a problem with your refund for the Expedition Parka, order #…” Watch for:
+
+- emails or calls about past Canada Goose orders, refunds or recalls;
+- fake “bank” calls quoting your card's last four digits;
+- delivery texts referencing your address.
+
+## What to do
+
+1. Don't click links in unsolicited messages; check through Canada Goose's official site.
+2. Turn on multi-factor authentication for your email and shopping accounts.
+3. Monitor card statements; ask your bank for a new card if you're worried.
+4. Consider a fraud alert ([[canada-equifax-transunion-fraud-alert-guide|Canada]]) if your address and phone were exposed.
+
+See also [[canada-loblaw-data-breach-two-million-customers|the Loblaw breach]] and [[what-does-a-have-i-been-pwned-result-mean|what a Have I Been Pwned result means]].
+
+=== FAQ
+Q: How many people were affected by the Canada Goose breach?
+A: Have I Been Pwned lists about 581,900 unique email addresses across roughly 920,000 records.
+Q: Were full credit card numbers exposed?
+A: They don't appear to be. Partial card data such as brand and last four digits was exposed.
+Q: Who leaked the Canada Goose data?
+A: The extortion group ShinyHunters published it in February 2026.
+Q: What should I do if I was affected?
+A: Be wary of messages about past orders, enable multi-factor authentication and monitor your card statements.
+
+=== SOURCES
+https://cyberinsider.com/canada-goose-data-breach-exposes-582000-customer-emails-and-data/ | CyberInsider: Canada Goose data breach exposes 582,000 customer emails and data (Feb 2026)
+https://www.upguard.com/news/canada-goose-data-breach-2026-02-17 | UpGuard: Data breach reported by Canada Goose
+
+=== RELATED
+canada-loblaw-data-breach-two-million-customers | Loblaw Data Breach
+what-does-a-have-i-been-pwned-result-mean | What a Have I Been Pwned Result Means
+data-breach-notification-email-what-to-do | Got a Data Breach Notification?
+recent-data-breaches-this-week | Recent Data Breaches This Week
+canada-scam-news-october-2026 | Canada Scam News: October 2026

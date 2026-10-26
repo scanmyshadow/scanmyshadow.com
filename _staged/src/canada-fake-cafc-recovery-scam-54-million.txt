@@ -1,0 +1,72 @@
+slug: canada-fake-cafc-recovery-scam-54-million
+country: CA
+title: Fake Anti-Fraud Centre Callers Target Scam Victims: $54M Lost
+h1: Scammed Once, Targeted Again: Fake “Anti-Fraud Centre” Investigators Took About $54 Million in 2025
+desc: Scammers pose as the Canadian Anti-Fraud Centre to "recover" money for past victims, for a fee. Canadians lost about $54M to recovery and fake investigator scams in 2025.
+keywords: canadian anti-fraud centre impersonation, fund recovery scam canada, fake cafc call, recovery scam victims canada, fake investigator scam canada
+tags: Recovery Scams|Government Impersonation|Canada|Scam Alert
+=== TLDR
+The Canadian Anti-Fraud Centre warned in August 2026 that scammers are posing as CAFC investigators and other officials to target people who've already lost money, offering to recover it for upfront fees or asking for remote access. In 2025 Canadians lost about $25.9 million to recovery pitches and $28.3 million to fake investigator scams, roughly $54 million combined. The CAFC's rule: if someone asks you to pay to recover money you lost, it's fraud.
+
+=== BODY
+## How the scam works
+
+According to [Money.ca's report on the CAFC alert](https://money.ca/news/canadian-anti-fraud-centre-recovery-fraud-scam) (August 2026), scammers:
+
+- contact people who've already been scammed, by phone, email or social media;
+- pose as official investigators, using **fake CAFC logos, letterhead and government-style documents**;
+- offer to recover the stolen money;
+- ask for **upfront fees** for “legal costs,” “taxes,” “processing” or “security deposits”;
+- sometimes say your bank account is compromised and tell you to move money to a “secure” account, or ask for **remote access** to your computer.
+
+## The numbers
+
+| 2025 losses (Canada) | Amount |
+|---|---|
+| Recovery pitch schemes | ~$25.9 million |
+| Fraudulent investigator impersonation | ~$28.3 million |
+| Combined | ~$54 million |
+
+## Why victims are targeted
+
+Victims are on lists. Scammers sell and share them. And a person who's lost money is desperate to get it back, which makes “we've traced your funds” the cruellest possible sales pitch.
+
+## What real agencies never do
+
+The CAFC says legitimate law enforcement and government agencies will never:
+
+- demand money transfers;
+- ask to control your device remotely;
+- ask for your online banking credentials;
+- have you send funds as part of an undercover operation.
+
+And the core rule: **paying to recover money you already lost is fraud.**
+
+## What to do
+
+- End unexpected calls from “anti-fraud” bodies or your “bank.”
+- Verify independently using the number on the back of your card.
+- Report the contact to local police and the real [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) ([[canada-anti-fraud-centre-reporting-guide|how to report]]).
+
+The same pattern hits the US and UK: see [[us-fbi-warns-scammers-impersonating-ic3-fund-recovery|fake IC3 recovery agents]] and [[fake-action-fraud-recovery-scam-uk|fake Action Fraud recovery]]. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in breach data used to build victim lists.
+
+=== FAQ
+Q: Does the Canadian Anti-Fraud Centre recover money for a fee?
+A: No. The CAFC says anyone asking you to pay to recover money you lost is committing fraud.
+Q: How much did Canadians lose to recovery scams in 2025?
+A: About $25.9 million to recovery pitches and $28.3 million to fake investigator scams, roughly $54 million combined.
+Q: Will police ask me to move money as part of an investigation?
+A: No. Legitimate agencies never ask you to send funds as part of an undercover operation.
+Q: What should I do if a "CAFC investigator" calls?
+A: Hang up, call your bank using the number on your card, and report it to police and the real CAFC.
+
+=== SOURCES
+https://money.ca/news/canadian-anti-fraud-centre-recovery-fraud-scam | Money.ca: Scammers impersonate Canadian Anti-Fraud Centre to target previous fraud victims (Aug 2026)
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-anti-fraud-centre-reporting-guide | How to Report to the CAFC
+crypto-scam-recovery-realistic-expectations | Crypto Scam Recovery: Realistic Expectations
+canada-csa-warning-fake-ubp-swiss-bank-crypto-recovery-scam | Fake Swiss Bank Recovery Scam
+already-got-scammed-international-recovery-guide | What to Do After a Scam
+canada-scam-news-october-2026 | Canada Scam News: October 2026

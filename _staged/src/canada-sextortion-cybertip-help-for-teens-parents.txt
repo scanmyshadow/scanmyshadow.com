@@ -1,0 +1,72 @@
+slug: canada-sextortion-cybertip-help-for-teens-parents
+country: CA
+title: Sextortion in Canada: Where Teens and Parents Can Get Help
+h1: Sextortion in Canada: Cybertip.ca's Numbers and What Teens and Parents Should Do
+desc: Cybertip.ca processed 29,505 reports in 2024, with financial sextortion rising and boys often targeted for money. Warning signs, what to do and where to report.
+keywords: sextortion canada, cybertip.ca sextortion, teen sextortion help canada, needhelpnow, report sextortion canada
+tags: Sextortion|Children's Safety|Canada|For Parents
+=== TLDR
+Cybertip.ca, Canada's tipline for online child sexual exploitation, processed 29,505 reports in 2024, up nearly 8%, and says financial sextortion reports rose significantly, with males more often targeted for money. If your teen is being blackmailed: don't pay, stop replying, keep screenshots, report to Cybertip.ca and police, and reassure them it isn't their fault.
+
+=== BODY
+## What the data shows
+
+From [Cybertip.ca's 2024 report summary](https://cybertip.ca/en/about/reports-from-public-processed-2024/):
+
+| Measure (2024) | Figure |
+|---|---|
+| Reports processed | 29,505 (up nearly 8%) |
+| Online luring reports | 2,717 |
+| Non-consensual distribution of intimate images | 271 |
+| Victims' gender | 36.2% female, 34.3% male, 29.3% unknown |
+
+Cybertip.ca says **financial sextortion reports increased significantly**, and **males are more often targeted for money**.
+
+## How it usually unfolds
+
+- A friendly account, often claiming to be a teen girl, starts chatting.
+- It moves quickly to exchanging images, or the scammer creates fakes.
+- The threat arrives: pay, or images go to friends, family and school.
+
+The UK's National Crime Agency has seen cases go from first contact to blackmail in under an hour ([[uk-sextortion-teenage-boys-nca-advice-parents|the UK picture]]). The scammers run it like a business, which means the script is predictable.
+
+## What to tell your teen
+
+- **It's not your fault.** Shame is the scammer's main tool.
+- **Don't pay.** Paying rarely ends it.
+- **Stop replying, but keep evidence**: screenshots of messages, usernames and payment requests.
+- **Tell an adult now.**
+
+## Where to report in Canada
+
+- **Cybertip.ca**, Canada's national tipline for online sexual exploitation of children.
+- **NeedHelpNow.ca**, from the same organisation, helps teens get images removed and deal with the situation.
+- **Local police**.
+- The platform where it happened.
+
+## Prevention that actually helps
+
+Calm, early conversations beat parental-control apps. Make accounts private, hide friends lists, and agree that a weird request from a stranger is something to share, not hide. See [[protect-your-teen-from-online-scams|protecting teens online]] and [[how-to-make-instagram-private|making Instagram private]]. Avoid paid “sextortion removal” services that promise miracles; the US FTC sued one ([[us-ftc-sextortion-help-service-digital-forensics-lawsuit|the case]]).
+
+A free [[/digital-footprint-checker/|email exposure check]] can show whether a family email has leaked.
+
+=== FAQ
+Q: Is sextortion increasing in Canada?
+A: Cybertip.ca says financial sextortion reports increased significantly in 2024, with males more often targeted for money.
+Q: Where do Canadian teens report sextortion?
+A: Cybertip.ca, NeedHelpNow.ca and local police.
+Q: Should my child pay the blackmailer?
+A: No. Stop replying, keep evidence and report it.
+Q: How many reports did Cybertip.ca process in 2024?
+A: 29,505, up nearly 8% from the previous year.
+
+=== SOURCES
+https://cybertip.ca/en/about/reports-from-public-processed-2024/ | Cybertip.ca: Reports from the public processed in 2024
+https://protectchildren.ca/en/resources-research/statistics | Canadian Centre for Child Protection: Statistics
+
+=== RELATED
+uk-sextortion-teenage-boys-nca-advice-parents | Sextortion and Teenage Boys (UK)
+sextortion-scams-rising-nz | Sextortion Scams Rising in NZ
+protect-your-teen-from-online-scams | Protect Your Teen From Online Scams
+teaching-teenagers-digital-footprint | Teaching Teenagers About Their Footprint
+intimate-image-takedown-48-hours-ftc | Intimate Image Takedown Rules

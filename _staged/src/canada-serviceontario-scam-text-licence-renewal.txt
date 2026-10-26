@@ -1,0 +1,61 @@
+slug: canada-serviceontario-scam-text-licence-renewal
+country: CA
+title: Fake ServiceOntario Texts: “Your Licence Won't Be Renewed”
+h1: Fake ServiceOntario Texts Claim You Owe Fees Before Your Licence Can Be Renewed
+desc: Scam texts say you owe outstanding fees and your driver's licence won't be renewed unless you pay through a link. ServiceOntario doesn't text for payment.
+keywords: serviceontario scam text, ontario licence renewal scam text, fake serviceontario message, ontario driver licence scam, licence plate sticker refund scam
+tags: Government Impersonation|Text Scams|Canada|What To Do
+=== TLDR
+Fake ServiceOntario texts claim you owe outstanding fees and your driver's licence won't be renewed unless you pay now, with a link to a fake site. Police say ServiceOntario “does not send text messages requesting payment or financial details.” An earlier wave offered fake refunds for the scrapped licence plate sticker fees. Don't click; check through ontario.ca and forward the text to 7726.
+
+=== BODY
+## The text
+
+According to [Brockville police](https://www.brockvilledaily.ca/news/the-brockville-top-3/scam-warning-issued-after-fake-serviceontario-texts-target-residents), the messages:
+
+- claim you owe **outstanding fees**;
+- warn your **driver's licence won't be renewed** unless you pay immediately;
+- link to a fake website that collects personal and banking information.
+
+## The earlier refund version
+
+When Ontario ended licence plate sticker fees, scammers sent texts offering “refunds” through a link. Ontario and police warned it was a scam ([CTV News](https://toronto.ctvnews.ca/it-s-a-scam-ontario-warns-residents-not-to-click-on-link-in-licence-plate-refund-text-1.5799250)). Real policy news, fake messenger: the classic recipe.
+
+## What ServiceOntario says
+
+ServiceOntario **does not send text messages requesting payment or financial details**. Renewals and payments happen through ontario.ca or in person.
+
+## What to do
+
+- Don't click, reply or share anything.
+- Delete the text and block the sender.
+- Forward it to **7726**.
+- Check your licence status by typing ontario.ca yourself.
+- If you entered card details, call your bank; watch your accounts.
+- Report losses to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Related Ontario scams
+
+Fake [[canada-407-etr-scam-text-unpaid-toll|407 ETR toll texts]] and [[canada-post-delivery-text-scam-what-to-do|Canada Post delivery texts]] follow the same pattern. A free [[/digital-footprint-checker/|email exposure check]] shows if your contact details are in breach data.
+
+=== FAQ
+Q: Does ServiceOntario text about unpaid fees?
+A: Police say ServiceOntario does not send texts requesting payment or financial details.
+Q: Is the licence plate sticker refund text real?
+A: No. Ontario warned it was a scam.
+Q: How do I check my Ontario licence renewal?
+A: Through ontario.ca, typed yourself, or at a ServiceOntario location.
+Q: Where do I report a fake ServiceOntario text?
+A: Forward it to 7726 and report losses to police and the CAFC.
+
+=== SOURCES
+https://www.brockvilledaily.ca/news/the-brockville-top-3/scam-warning-issued-after-fake-serviceontario-texts-target-residents | Brockville Daily: Scam warning after fake ServiceOntario texts
+https://toronto.ctvnews.ca/it-s-a-scam-ontario-warns-residents-not-to-click-on-link-in-licence-plate-refund-text-1.5799250 | CTV News: Ontario warns of licence plate refund text scam
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-407-etr-scam-text-unpaid-toll | 407 ETR Scam Texts
+canada-post-delivery-text-scam-what-to-do | Canada Post Text Scams
+dmv-text-scam-unpaid-ticket-suspension | DMV Text Scams (US)
+what-is-smishing | What Is Smishing?
+canada-west-shore-rcmp-fake-police-letter-24-hour-fine | Fake Police Letter With 24-Hour Fine

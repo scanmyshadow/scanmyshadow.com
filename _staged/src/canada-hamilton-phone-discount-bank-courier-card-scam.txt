@@ -1,0 +1,59 @@
+slug: canada-hamilton-phone-discount-bank-courier-card-scam
+country: CA
+title: Hamilton Police: Phone Discount Call, Then “Bank” Courier Scam
+h1: A Phone Discount Call, a Fake Bank, Then a Courier for Your Cards: Hamilton Police Warn Seniors
+desc: Hamilton police say scammers posing as phone providers, then banks, send couriers to collect seniors' bank cards and PINs. The three-stage script and how to stop it.
+keywords: hamilton police scam seniors, bank card courier scam, phone provider discount scam call, card pickup scam canada, seniors scam warning ontario
+tags: Courier Fraud|Seniors|Canada|Scam Alert
+=== TLDR
+Hamilton police warned on October 20, 2026 about a three-stage scam targeting seniors: a caller from your “phone or internet provider” offers a discount, then a “bank” caller says your account is compromised, then a courier comes to collect your bank cards while they ask for your PIN. Banks never send couriers for cards or ask for PINs. Hang up and call your bank on a number you've checked yourself.
+
+=== BODY
+## The three stages
+
+From [CHCH News](https://www.chch.com/chch-news/hamilton-police-warns-public-of-new-scam-targeting-seniors/), after several reports to Hamilton police in a week:
+
+1. **The discount call.** Someone claiming to be your phone or internet provider offers a discount. This warms you up and often collects personal details.
+2. **The bank call.** A second caller, claiming to be from your bank, says your account has been compromised.
+3. **The courier.** They arrange for a courier to pick up your bank cards, and ask for your PIN so the card can be “cancelled” or “investigated.”
+
+The first call is the clever bit. It's friendly and pleasant, so by the time the “bank” rings, you're already in a cooperative mood, and the scammer may know your provider, your address and your name.
+
+## What police say
+
+- Keep PINs, passwords and banking details private; never share them by phone.
+- Don't trust a caller just because they know your personal information. It can come from breaches, stolen mail or other sources.
+- **Banks don't send couriers** to collect cards or PINs.
+- If unsure, contact your bank or provider on a number you've verified yourself, or visit a branch.
+- Report suspicious calls to police.
+
+## A pattern across Canada
+
+The same card pick-up scam has been reported in [[canada-maple-ridge-rcmp-card-pick-up-fraud-bank-impersonation|Maple Ridge]] and elsewhere, and the UK calls it [[uk-courier-fraud-fake-bank-investigators-explained|courier fraud]]. Variations swap cards for gold ([[canada-gold-bar-safekeeping-scam-fake-rcmp|the gold scam]]) or cash.
+
+## Help an older relative
+
+Agree one rule: nobody from a bank ever comes to the door for cards, and nobody needs your PIN. If a courier is coming, call family first. See [[protect-elderly-parents-from-phone-scams|protecting elderly parents]].
+
+If cards were handed over, call the bank immediately to cancel them, then report to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/). A free [[/digital-footprint-checker/|email exposure check]] can show what's leaked about a parent's email.
+
+=== FAQ
+Q: Do banks send couriers to collect bank cards?
+A: No. Hamilton police say banks don't send couriers to collect cards or PINs.
+Q: How does the Hamilton scam start?
+A: With a call from someone claiming to be your phone or internet provider offering a discount.
+Q: The caller knew my personal details. Does that mean it's real?
+A: No. Police say scammers get personal information from breaches, stolen mail and other sources.
+Q: What should I do if I handed over my cards?
+A: Call your bank immediately to cancel them, then report to police and the CAFC.
+
+=== SOURCES
+https://www.chch.com/chch-news/hamilton-police-warns-public-of-new-scam-targeting-seniors/ | CHCH News: Hamilton police warn of new scam targeting seniors (Oct 20, 2026)
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-maple-ridge-rcmp-card-pick-up-fraud-bank-impersonation | Card Pick-Up Fraud in Maple Ridge
+uk-courier-fraud-fake-bank-investigators-explained | Courier Fraud Explained
+canada-gold-bar-safekeeping-scam-fake-rcmp | Gold Bar Safekeeping Scam
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors
+canada-scam-news-october-2026 | Canada Scam News: October 2026

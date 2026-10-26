@@ -1,0 +1,68 @@
+slug: canada-cra-my-account-compromised-what-to-do
+country: CA
+title: CRA My Account Compromised? Signs and What to Do
+h1: Think Someone Got Into Your CRA My Account? The Signs and the Steps
+desc: Unexpected CRA emails, changed banking or address details, or a benefit you didn't apply for can mean your CRA My Account was compromised. What to do and who to call.
+keywords: cra my account hacked, cra account compromised, cra direct deposit changed, cra account fraud what to do, cra phone number individuals
+tags: CRA|Identity Theft|Canada|What To Do
+=== TLDR
+Signs your CRA My Account may be compromised include unrequested changes to your banking, address or personal information, a benefit application you didn't make, or unexpected “new mail” notifications. Contact the CRA right away (individuals in the provinces: 1-800-959-8281) to report it and disable online access if needed, then tell your bank, police and the credit bureaus. The CRA never emails or texts a link to your refund.
+
+=== BODY
+## Why CRA accounts are targeted
+
+Your CRA My Account holds your income, benefits, direct deposit details and tax slips. Change the bank account, and refunds and benefit payments go to the criminal. In 2020, credential-stuffing attacks hit CRA accounts ([CRA](https://www.canada.ca/en/revenue-agency/news/2020/09/cyber-incidents.html)), and in 2021 the CRA locked about 800,000 accounts as a precaution ([VOCM](https://vocm.com/2021/03/16/800000-people-locked-out-of-cra-myaccount-following-security-breach/)). It's a good reminder that reused passwords are the usual way in ([[credential-stuffing-explained|credential stuffing explained]]).
+
+## Signs something's wrong
+
+From the [CRA's fraud guidance](https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/fraud-prevention-month-recognize-fraud-scams-tax-schemes.html), contact the CRA if:
+
+- your **user ID or password** may be compromised;
+- you see **changes you didn't request** to your banking, address or personal information in My Account;
+- a **benefit application** was made without your knowledge.
+
+Also watch for unexpected “you have new mail” emails. The CRA notifies you by email when something is waiting in your account, but those emails tell you to sign in; they never contain a link to pay or claim anything.
+
+## What to do
+
+1. **Call the CRA.** Individuals in the provinces: **1-800-959-8281**; in the territories: **1-866-426-1527**. Businesses: 1-800-959-5525 (provinces) or 1-866-841-1876 (territories).
+2. **Ask to disable online access** to CRA sign-in services if needed; you can re-enable it later.
+3. **Call your bank** and watch for unexpected deposits or redirected refunds.
+4. **Tell the credit bureaus** and add a fraud alert ([[canada-equifax-transunion-fraud-alert-guide|how]]).
+5. **Report to police** and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+6. **Change passwords** for your email and any account that used the same password.
+
+## What the real CRA never does
+
+- demand immediate payment by e-Transfer, crypto, prepaid card or gift card;
+- threaten arrest, deportation or police involvement;
+- email or text you a link to your refund;
+- leave voicemails with personal or financial information.
+
+See our full guide to [[canada-revenue-agency-scam-what-to-know|CRA scams]].
+
+## Prevent it
+
+Use a unique password, keep your email secure with two-factor authentication, and read every CRA notification email. If your SIN was exposed elsewhere, follow [[canada-sin-stolen-what-to-do|Service Canada's steps]]. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data, which is often how passwords leak.
+
+=== FAQ
+Q: How do I know if my CRA My Account was hacked?
+A: Look for banking, address or personal details you didn't change, benefit applications you didn't make, or unexpected new mail notifications.
+Q: What is the CRA phone number for individuals?
+A: 1-800-959-8281 in the provinces and 1-866-426-1527 in the territories.
+Q: Can the CRA disable my online access?
+A: Yes. You can contact the CRA to disable and later re-enable online access to its sign-in services.
+Q: Does the CRA email links to refunds?
+A: No. The CRA never emails or texts a link to your refund.
+
+=== SOURCES
+https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/fraud-prevention-month-recognize-fraud-scams-tax-schemes.html | CRA: How to recognize fraud, scams and tax schemes
+https://www.canada.ca/en/revenue-agency/news/2020/09/cyber-incidents.html | CRA: Cyber incidents (2020)
+https://vocm.com/2021/03/16/800000-people-locked-out-of-cra-myaccount-following-security-breach/ | VOCM: 800,000 people locked out of CRA My Account (2021)
+
+=== RELATED
+canada-revenue-agency-scam-what-to-know | CRA Scams: What to Know
+winnipeg-bitcoin-atm-cra-scam | Winnipeg Bitcoin ATM CRA Scam
+canada-sin-stolen-what-to-do | SIN Stolen? What to Do
+canada-rcmp-cews-wage-subsidy-cyber-fraud-5-7-million-charges | CEWS Cyber Fraud Charges
+how-to-report-identity-theft-canada | Report Identity Theft in Canada

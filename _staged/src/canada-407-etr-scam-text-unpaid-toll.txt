@@ -1,0 +1,64 @@
+slug: canada-407-etr-scam-text-unpaid-toll
+country: CA
+title: 407 ETR Scam Texts: Fake Unpaid Toll Messages in Ontario
+h1: Fake 407 ETR “Unpaid Toll” Texts: How to Check Your Real Balance
+desc: Scammers impersonate 407 ETR with urgent texts about unpaid tolls and links to fake sites. 407 ETR never asks for passwords, PINs or card details by text or email.
+keywords: 407 etr scam text, 407 unpaid toll text scam, highway 407 scam, fake 407 etr message, toll text scam ontario
+tags: Toll Scams|Text Scams|Canada|What To Do
+=== TLDR
+407 ETR warned in November 2025 of rising scam texts and websites impersonating it, using urgent language and links to collect personal and card details. 407 ETR says it will never ask for passwords, PINs or credit card details in texts or emails. Check your account only at 407etr.com or in the official 407 ETR app, and report scams to the Canadian Anti-Fraud Centre.
+
+=== BODY
+## The text
+
+It usually goes something like: “407 ETR: You have an outstanding toll balance of $6.99. Pay today to avoid a late fee of $48.” A link leads to a convincing copy of the 407 ETR site asking for your card.
+
+According to [407 ETR's November 2025 release](https://newsroom.407etr.com/2025-11-07-407-ETR-urges-customers-to-beware-of-messages-impersonating-the-Company-amid-increasing-reports-of-scams), the fakes use:
+
+- urgent language;
+- links to malicious sites;
+- convincing branding and wording.
+
+## Why it works
+
+Hundreds of thousands of Ontario drivers use the 407, often without a transponder, and bills arrive later. So an unpaid-toll message is plausible for a lot of people. The small amount lowers your guard; the card details are what they're after.
+
+## What 407 ETR says
+
+- **“407 ETR will never ask for passwords, PINs or credit card details in text messages or emails.”**
+- Official website: **407etr.com**. Official app: the **407 ETR mobile app**.
+- Log in to My Account only through those.
+- Be wary of any link to a domain other than 407etr.com.
+
+## What to do
+
+- Don't click. Open the app or type 407etr.com to check your balance.
+- Forward the text to **7726**.
+- Report it to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+- If you paid, call your card issuer right away.
+
+## Same scam, other places
+
+Toll texts are a global favourite: [[ez-pass-unpaid-toll-text-scam|E-ZPass in the US]], and police in Peel investigated fake plates used to dodge 407 tolls ([[canada-project-octane-peel-police-fake-company-plates-407-tolls|Project Octane]]). A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in breach data.
+
+=== FAQ
+Q: Does 407 ETR text about unpaid tolls with a link?
+A: Check your balance only at 407etr.com or the official app. 407 ETR says it never asks for passwords, PINs or card details by text or email.
+Q: What is the official 407 ETR website?
+A: 407etr.com.
+Q: I paid on a fake 407 ETR site. What now?
+A: Call your card issuer immediately and report it to the Canadian Anti-Fraud Centre.
+Q: Where do I report a fake 407 ETR text?
+A: Forward it to 7726 and report to the CAFC.
+
+=== SOURCES
+https://newsroom.407etr.com/2025-11-07-407-ETR-urges-customers-to-beware-of-messages-impersonating-the-Company-amid-increasing-reports-of-scams | 407 ETR: Beware of messages impersonating the company (Nov 7, 2025)
+https://www.ctvnews.ca/toronto/article/beware-407-etr-seeing-increasing-reports-of-phishing-scams/ | CTV News: 407 ETR seeing increasing reports of phishing scams
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+ez-pass-unpaid-toll-text-scam | E-ZPass Unpaid Toll Text Scam
+canada-project-octane-peel-police-fake-company-plates-407-tolls | Project Octane: Fake Plates and 407 Tolls
+dmv-text-scam-unpaid-ticket-suspension | DMV Text Scams
+what-is-smishing | What Is Smishing?
+canada-post-delivery-text-scam-what-to-do | Canada Post Text Scams

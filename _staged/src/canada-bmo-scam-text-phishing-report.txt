@@ -1,0 +1,59 @@
+slug: canada-bmo-scam-text-phishing-report
+country: CA
+title: BMO Scam Texts and Emails: How to Spot and Report Them
+h1: Fake BMO Messages: What BMO Won't Ask For and Where to Report Them
+desc: Fake BMO texts and emails ask for passwords or verification codes. BMO says it won't ask by phone, email, text or social media. Report to Phishing@bmo.com.
+keywords: bmo scam text, bmo phishing email, fake bmo message, report bmo phishing, bmo verification code scam
+tags: Bank Scams|Phishing|Canada|What To Do
+=== TLDR
+Fake BMO messages claim a problem with your account or card and ask you to log in through a link or share a verification code. BMO says it won't contact you by unsolicited call, email, text or social media to ask for sensitive information, passwords, PINs or verification codes, and warns not to share them with anyone claiming to be BMO, including AI agents. Send emails or text screenshots as attachments to Phishing@bmo.com and call 1-877-225-5266 to report fraud.
+
+=== BODY
+## What BMO says
+
+From [BMO's report fraud page](https://bmo.com/en-ca/main/personal/security-centre/report-fraud):
+
+BMO won't contact you through an unsolicited phone call, email, text or social media message asking for **sensitive information, passwords, PINs or verification codes**. It specifically warns not to share these with anyone claiming to be BMO through unofficial channels, **including AI agents**.
+
+That last bit is very 2026. As AI assistants start making calls and filling forms, “an agent from BMO” could be a script, a person or a bot. The rule doesn't change: no codes, no passwords, to anyone who contacted you.
+
+## How to report
+
+- **Suspicious email**: send it to **Phishing@bmo.com as an attachment**, then delete it. Don't reply or click.
+- **Suspicious text**: screenshot it and email the screenshot as an attachment to **Phishing@bmo.com**, then delete it.
+- **Suspected fraud or unauthorised activity**: call **1-877-225-5266**.
+
+You can also forward texts to 7726 for your carrier.
+
+## Common BMO-themed fakes
+
+- “Your BMO card has been locked. Verify now.”
+- “Interac e-Transfer pending. Accept here.” ([[canada-fake-interac-e-transfer-notification-scam|fake e-Transfer notices]])
+- Calls from a “BMO fraud department” asking you to read out a code.
+
+## If you shared something
+
+Call BMO immediately, change your online banking password, and review e-Transfer recipients and transactions. Report losses to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/). See [[canada-bank-impersonation-scams-what-to-know|bank impersonation in Canada]] and [[why-you-should-never-share-otp|why one-time codes are never shared]].
+
+A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data.
+
+=== FAQ
+Q: How do I report a BMO phishing email?
+A: Send it as an attachment to Phishing@bmo.com, then delete it.
+Q: How do I report a fake BMO text?
+A: Screenshot it, email the screenshot as an attachment to Phishing@bmo.com, then delete the text.
+Q: Will BMO ask for a verification code?
+A: No. BMO says it won't contact you unsolicited to ask for passwords, PINs or verification codes.
+Q: What is BMO's fraud number?
+A: BMO lists 1-877-225-5266 for suspected fraud or unauthorised activity.
+
+=== SOURCES
+https://bmo.com/en-ca/main/personal/security-centre/report-fraud | BMO: Report fraud
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
+canada-rbc-scam-alerts-2026-what-to-do | RBC Scam Alerts 2026
+canada-scotiabank-phishing-text-email-report | Scotiabank Phishing
+what-is-smishing | What Is Smishing?
+why-you-should-never-share-otp | Why You Should Never Share an OTP

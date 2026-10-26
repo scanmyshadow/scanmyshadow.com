@@ -1,0 +1,58 @@
+slug: canada-411-and-people-search-removal
+country: CA
+title: Remove Your Number From Canada411 and People-Search Sites
+h1: How to Get Your Name and Number Off Canada411 and Other Canadian Directories
+desc: Canada411 listings come from your phone company. How to go unlisted, why some directories need separate requests, and how to tackle people-search sites.
+keywords: remove from canada411, canada411 remove listing, unlisted number canada, remove name from phone directory canada, people search sites canada remove
+tags: Phone Privacy|Data Brokers|Canada|How To
+=== TLDR
+Canada411 and printed White Pages listings come from your phone company. To remove yours, ask your provider for an unlisted name and number; Cogeco, for example, says its Unlisted feature removes you from directory assistance, the printed White Pages and canada411.ca. Some online directories don't get their data from your provider, so you'll need to contact those sites directly. Then handle people-search sites one by one.
+
+=== BODY
+## Where Canada411 gets your listing
+
+Directory listings in Canada flow from the phone company that provides your landline. So the fix starts there, not with the directory. According to [Cogeco's support page](https://support.cogeco.ca/hc/en-ca/articles/360059892993-How-do-I-remove-my-name-and-Home-Phone-number-from-the-directory), subscribing to its **Unlisted Name and Phone Number** feature removes your listing from:
+
+- directory assistance;
+- the printed White Pages;
+- **canada411.ca**.
+
+Other providers (Bell, Telus, Rogers, Vidéotron and others) offer the same kind of unlisted option. Ask yours; there may be a monthly fee.
+
+## What going unlisted doesn't do
+
+- **Call Display**: people you call still see your name and number. Dial **\*67** before a call, or ask for permanent Call Display blocking.
+- **Other directories**: some online directories don't get their data from your phone company, so you'll have to contact them directly.
+- **People-search sites**: listings already copied elsewhere stay until you remove them.
+
+## People-search sites that show Canadians
+
+Many US-based people-search sites also list Canadian addresses and numbers. The most common ones have their own opt-outs: see our guides to [[whitepages-opt-out-guide|Whitepages]], [[spokeo-opt-out-guide|Spokeo]] and [[radaris-opt-out-guide|Radaris]], plus our [[data-broker-opt-out-uk-canada-australia|Canada data broker guide]].
+
+## Your rights under PIPEDA
+
+Canadian organisations covered by PIPEDA must let you access your personal information and challenge its accuracy, and you can withdraw consent in many cases. If a Canadian company won't remove your data, you can complain to the Office of the Privacy Commissioner. See [[canada-pipeda-explained|PIPEDA explained]].
+
+## Why bother
+
+Name, number and address together let anyone find your door, and give scammers a script. Crime Stoppers tipsters learned that the hard way in 2026 ([[canada-crime-stoppers-tips-leak-1-5-million|the leak]]). Check the breach side of your footprint with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: How do I remove my number from Canada411?
+A: Ask your phone company for an unlisted name and number. Cogeco says this removes you from canada411.ca, directory assistance and the White Pages.
+Q: Is an unlisted number free in Canada?
+A: It depends on the provider; some charge a monthly fee. Ask your phone company.
+Q: Will going unlisted hide my number when I call people?
+A: No. Use *67 per call or ask for permanent Call Display blocking.
+Q: Does it remove me from people-search websites?
+A: No. Contact those sites directly to remove your listing.
+
+=== SOURCES
+https://support.cogeco.ca/hc/en-ca/articles/360059892993-How-do-I-remove-my-name-and-Home-Phone-number-from-the-directory | Cogeco: How do I remove my name and home phone number from the directory?
+
+=== RELATED
+data-broker-opt-out-uk-canada-australia | Data Broker Opt-Outs: UK, Canada, Australia
+canada-pipeda-explained | PIPEDA Explained
+canada-national-do-not-call-list-guide | Canada National Do Not Call List
+how-to-remove-your-phone-number-from | Remove Your Phone Number From the Internet
+can-someone-find-my-address-using-my | Can Someone Find My Address?
