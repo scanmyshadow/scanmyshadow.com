@@ -1,0 +1,81 @@
+slug: canada-sim-swap-port-out-fraud-crtc
+country: CA
+title: SIM Swap and Port-Out Fraud in Canada: 24,627 Cases in 10 Months
+h1: SIM Swap and Port-Out Fraud in Canada: What the CRTC Numbers Show and How to Protect Your Number
+desc: CRTC data logged 24,627 likely number-hijack cases in 10 months, 88% of them unauthorized ports. How Canadian phone number fraud works and how to lock yours down.
+keywords: sim swap canada, port out fraud canada, crtc sim swap, phone number hijacked canada, unauthorized port canada, protect phone number from sim swap canada
+tags: SIM Swap|Account Takeover|Canada|How To
+=== TLDR
+Between **August 2019 and May 2020**, Canadian carriers logged **24,627** likely cases of phone number fraud: **21,589 unauthorized ports** (number moved to another carrier) and **3,038 SIM swaps**. Some victims said thieves only needed their **name, carrier and account number**. Once your number is hijacked, text codes go to the thief. The first sign is your phone suddenly losing service. Protect your carrier account details and move important accounts off SMS codes.
+
+=== BODY
+## The numbers
+
+The CRTC asked carriers for data in May 2020, requesting monthly figures by brand on unauthorized ports and SIM swaps, plus details of how they verify customers ([CRTC letter](https://crtc.gc.ca/eng/archive/2020/lt200528a.htm)). As [MobileSyrup reported](https://mobilesyrup.com/2021/09/30/crtc-logged-24627-likely-cases-of-port-and-sim-swap-fraud-in-10-months/):
+
+| Type | Cases (Aug 2019 to May 2020) |
+|---|---|
+| Unauthorized port-outs | 21,589 (about 88%) |
+| SIM swaps | 3,038 |
+| **Total** | **24,627** |
+
+Around 80 a day, in other words. And in March 2021, Public Mobile temporarily switched off its online SIM swap self-service.
+
+## Port-out vs SIM swap
+
+- **Port-out fraud:** the thief opens an account at another carrier and asks to "transfer" your number there.
+- **SIM swap:** the thief convinces your own carrier to move your number to a new SIM they hold.
+
+Either way, your calls and texts, including bank and email codes, go to them.
+
+## How it plays out
+
+[CTV News](https://bc.ctvnews.ca/crtc-asks-carriers-to-crackdown-on-sim-card-fraud-1.4798586) reported Canadian victims whose numbers were moved using little more than their **name, carrier name and carrier account number**. Thieves then used text codes to reset passwords, took over email and Apple accounts, and moved on to financial accounts. A Saskatchewan farming family reportedly lost **hundreds of thousands of dollars** from farm operating accounts.
+
+## Warning signs
+
+- Your phone suddenly shows **no service** or "SOS only" for no reason. This is the most common sign.
+- You get a text or email about a **port request** or SIM change you didn't make.
+- You're suddenly **logged out** of accounts or get password reset emails.
+
+If this happens, **call your carrier from another phone immediately**, then your bank.
+
+## How to protect your number
+
+1. **Guard your carrier account number.** It's on your bill. Don't post bills or share them.
+2. **Add a PIN or passcode** to your carrier account, and ask your carrier what extra port or SIM-change protection it offers.
+3. **Move important accounts off SMS codes.** Use an authenticator app or security key for email and banking. See our [[password-manager-mfa-security-key-guide|security key guide]].
+4. **Secure your email** with a strong password and non-SMS 2FA.
+5. **Limit what's public.** Your number, birthday and address help social engineers. A free [[/digital-footprint-checker/|exposure check]] shows what's leaked.
+
+## If it happens to you
+
+- Call your carrier to regain the number.
+- Call your bank and change passwords from a safe device.
+- Place a [[canada-equifax-transunion-fraud-alert-guide|fraud alert]].
+- Report to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+For the global picture, see [[how-common-is-sim-swapping-2026|how common SIM swapping is in 2026]].
+
+=== FAQ
+Q: How common is SIM swap fraud in Canada?
+A: CRTC data showed 24,627 likely cases of phone number fraud between August 2019 and May 2020, most of them unauthorized ports.
+Q: What's the difference between port-out fraud and a SIM swap?
+A: Port-out fraud moves your number to another carrier. A SIM swap moves it to a new SIM at your own carrier.
+Q: What is the first sign of a SIM swap?
+A: Your phone suddenly loses service for no obvious reason.
+Q: How do I protect my phone number in Canada?
+A: Keep your carrier account number private, add a PIN to your account and use app-based 2FA instead of SMS for key accounts.
+
+=== SOURCES
+https://mobilesyrup.com/2021/09/30/crtc-logged-24627-likely-cases-of-port-and-sim-swap-fraud-in-10-months/ | MobileSyrup: CRTC logged 24,627 likely cases of port and SIM swap fraud
+https://crtc.gc.ca/eng/archive/2020/lt200528a.htm | CRTC: Letter to carriers on port-out and SIM swap fraud
+https://bc.ctvnews.ca/crtc-asks-carriers-to-crackdown-on-sim-card-fraud-1.4798586 | CTV News: CRTC asks carriers to crack down on SIM card fraud
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+how-common-is-sim-swapping-2026 | How Common Is SIM Swapping?
+sim-swap-fraud-how-it-works-and-how-to | SIM Swap Fraud: How It Works
+what-is-sim-swapping | What Is SIM Swapping?
+port-out-pin-number-lock-att-verizon-t-mobile | Port-Out PINs (US)
+canada-equifax-transunion-fraud-alert-guide | Fraud Alerts in Canada

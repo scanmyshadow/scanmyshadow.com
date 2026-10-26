@@ -1,0 +1,66 @@
+slug: was-i-affected-by-the-westjet-data-breach
+country: CA
+title: WestJet Data Breach: 1.2 Million Passengers, Passports Exposed
+h1: Was I Affected by the WestJet Data Breach? Passports, IDs and What To Do
+desc: WestJet's 2025 breach exposed names, birth dates, addresses and passport or ID details for 1.2 million people. No cards or passwords. Steps to take now.
+keywords: westjet data breach, westjet breach passport, westjet cyberattack 2025, westjet rewards breach, westjet identity monitoring, westjet breach what to do
+tags: Data Breaches|Canada|Travel|What To Do
+=== TLDR
+WestJet disclosed a cyberattack on **June 13, 2025**. Its investigation, concluded **September 15, 2025**, found **1.2 million** people affected. Exposed data: **names, dates of birth, addresses and travel documents such as passports and government IDs**, plus some travel details and WestJet Rewards IDs and balances. Passwords and credit card details were **not** affected. WestJet offers **24 months** of TransUnion identity monitoring. Watch for WestJet-themed phishing.
+
+=== BODY
+## What happened
+
+According to [SC World](https://www.scworld.com/news/westjet-breach-hits-1-2-million-people-affects-passports-ids), WestJet first disclosed the incident on June 13, 2025, blaming a "sophisticated, criminal third party." The investigation wrapped up September 15, 2025 with **1.2 million** people affected.
+
+## What was exposed
+
+| Data | Status |
+|---|---|
+| Names, dates of birth, addresses | Exposed |
+| **Passports and other government IDs** | Exposed |
+| Travel details (accommodation requests, complaints) | Some records |
+| WestJet Rewards ID and points balance | Some members and some WestJet RBC Mastercard holders |
+| Passwords | Not affected |
+| Credit card details | Not affected |
+| Rewards points | Not at risk of theft, per WestJet |
+
+## Why passport data is a big deal
+
+You can change a password in a minute. A passport number, name and birthday together are much harder to undo. They can help someone open accounts, pass ID checks or impersonate you convincingly. It's the travel equivalent of losing your house keys with your address taped to them.
+
+## What to do
+
+1. **Activate the free monitoring.** WestJet offers 24 months of identity monitoring through TransUnion's **myTrueIdentity**, with up to **$1 million** in expense reimbursement insurance. Use the code in your letter on the official site.
+2. **Consider a fraud alert** with Equifax and TransUnion ([[canada-equifax-transunion-fraud-alert-guide|how]]).
+3. **Report it if your passport is misused.** If you see signs of misuse, contact Passport Canada about replacing it.
+4. **Watch for phishing.** WestJet warned scammers may impersonate WestJet or related companies. Expect "flight refund", "rewards expiring" and "verify your identity" messages.
+5. **Check your Rewards balance** now and then anyway.
+
+## Is that WestJet email real?
+
+Don't click links in unexpected WestJet emails. Log in to the app or type westjet.com yourself. WestJet won't need your full passport details again by email.
+
+## Check all your breaches
+
+Travellers are often in several breaches at once. A free [[/digital-footprint-checker/|email exposure check]] shows them all. Also see our [[air-canada-scam-what-to-know|Air Canada scams guide]].
+
+=== FAQ
+Q: How many people were affected by the WestJet data breach?
+A: 1.2 million people, according to WestJet's investigation completed September 15, 2025.
+Q: Were passports exposed in the WestJet breach?
+A: Yes. Travel documents such as passports and other government IDs were exposed.
+Q: Were credit cards or passwords stolen?
+A: No. WestJet says account passwords and credit card details were not affected.
+Q: What is WestJet offering affected customers?
+A: 24 months of free identity monitoring through TransUnion's myTrueIdentity, with up to $1 million in expense reimbursement insurance.
+
+=== SOURCES
+https://www.scworld.com/news/westjet-breach-hits-1-2-million-people-affects-passports-ids | SC World: WestJet breach hits 1.2 million people
+
+=== RELATED
+air-canada-scam-what-to-know | Air Canada Scams
+canada-loyalty-points-theft-pc-optimum-aeroplan | Loyalty Points Theft in Canada
+canada-equifax-transunion-fraud-alert-guide | Fraud Alerts in Canada
+was-i-affected-by-the-british-airways-data-breach | British Airways Data Breach
+canada-biggest-data-breaches-2025-2026 | Biggest Canadian Data Breaches

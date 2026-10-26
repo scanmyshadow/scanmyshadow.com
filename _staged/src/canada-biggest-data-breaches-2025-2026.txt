@@ -1,0 +1,77 @@
+slug: canada-biggest-data-breaches-2025-2026
+country: CA
+title: Biggest Canadian Data Breaches of 2025–2026: Were You Hit?
+h1: The Biggest Canadian Data Breaches of 2025–2026: A Checklist for Every Canadian
+desc: Canadian Tire, Loblaw, WestJet, Nova Scotia Power, Canada Goose, Crime Stoppers and more. What each breach exposed, how many people, and what to do.
+keywords: canadian data breaches 2026, biggest data breaches canada 2025, canada data breach list, was my data leaked canada, recent data breaches canada, canadian company breaches
+tags: Data Breaches|Canada|Statistics|What To Do
+=== TLDR
+If you live in Canada and shop, fly, pay a power bill or have ever left a Crime Stoppers tip, odds are good you're in at least one recent breach. The big ones: **Canadian Tire** (38.3 million emails), **Loblaw** (about 2 million people), **WestJet** (1.2 million, passports included), **Canada Goose** (about 582,000 emails), **Nova Scotia Power** (about 280,000, some SINs and bank accounts) and **Crime Stoppers** (1.5 million tips). Here's what each exposed and the one checklist that covers them all.
+
+=== BODY
+## The list
+
+| Breach | When | People / records | Most sensitive data | Guide |
+|---|---|---|---|---|
+| **Canadian Tire** (incl. SportChek, Mark's, Party City) | Discovered Oct 2025 | ~38.3M emails (42M records) | Hashed passwords; DOB and partial cards for a subset | [[was-i-affected-by-the-canadian-tire-data-breach|Details]] |
+| **Loblaw** | Detected Mar 2026, notices Oct 2026 | ~2M people | DOB, loyalty card numbers, partial payment cards | [[canada-loblaw-data-breach-two-million-customers|Details]] |
+| **Crime Stoppers** (via P3 Global Intel) | Stolen Mar 2026, reported Oct 2026 | 1.5M+ tips | Addresses, phones, plates; some full names | [[canada-crime-stoppers-tips-leak-1-5-million|Details]] |
+| **WestJet** | Disclosed Jun 2025 | 1.2M people | Passports and government IDs | [[was-i-affected-by-the-westjet-data-breach|Details]] |
+| **Canada Goose** | Data published Feb 2026 | ~582,000 emails | Order history, partial cards | [[was-i-affected-by-the-canada-goose-data-breach|Details]] |
+| **Nova Scotia Power** | Mar–Apr 2025 | ~280,000 people | SINs, bank account numbers, licences | [[canada-nova-scotia-power-data-breach-sin-bank|Details]] |
+| **Toys "R" Us Canada** | Learned Jul 2025 | Not disclosed | Names, addresses, phones, emails | [[canada-toys-r-us-data-breach-customers-notified|Details]] |
+| **Canada Computers** | Dec–Jan guest checkouts | "Limited" | Credit card details | [[canada-computers-data-breach-guest-checkout-cards|Details]] |
+
+Sources for each are in the linked guides and listed below.
+
+## What jumps out
+
+**Retail is the biggest target by volume.** Canadian Tire alone produced roughly one record for every person in the country. Most of it is contact data, which fuels phishing rather than instant fraud.
+
+**Identity documents are the scariest.** WestJet's passports and Nova Scotia Power's SINs and bank numbers can't be "reset" like a password. Those breaches deserve long-term attention.
+
+**Notifications lag.** Loblaw detected its breach in March 2026 and started notifying people in October. Months can pass between theft and your inbox hearing about it.
+
+**Your data adds up.** One breach gives a scammer your email. Another gives your birthday. A third, your address. Combined, they're enough to impersonate you convincingly.
+
+## One checklist for all of them
+
+1. **Check your email** against all known breaches with our free [[/digital-footprint-checker/|exposure checker]] or [Have I Been Pwned](https://haveibeenpwned.com/).
+2. **Change reused passwords**, starting with email and banking.
+3. **Turn on 2FA**, preferably app-based ([[how-to-set-up-two-factor-authentication|guide]]).
+4. **Claim any free monitoring** offered in notification letters, through official links only.
+5. **Place a fraud alert** if ID documents, SIN or DOB leaked ([[canada-equifax-transunion-fraud-alert-guide|how]]).
+6. **Pull your credit reports** for free ([[canada-free-credit-report-equifax-transunion|how]]).
+7. **Treat breach-themed messages as suspicious.** Fake "compensation" and "verify your account" emails always follow big breaches.
+
+## Know your rights
+
+Companies must notify you when a breach creates a real risk of significant harm. See [[canada-breach-notification-letter-what-to-do|what a notice must include]] and [[canada-privacy-commissioner-complaint-how-to|how to complain]]. Quebec residents have extra rights under [[quebec-law-25-privacy-rights-explained|Law 25]].
+
+=== FAQ
+Q: What is the biggest Canadian data breach of 2025–2026?
+A: By volume, Canadian Tire: Have I Been Pwned lists about 38.3 million email addresses across 42 million records.
+Q: Which Canadian breaches exposed SINs or passports?
+A: Nova Scotia Power exposed some SINs and bank account numbers. WestJet exposed passports and other government IDs.
+Q: How do I know if I was in a Canadian data breach?
+A: Check your email with a breach checker like Have I Been Pwned or our free exposure checker, and look for notification letters.
+Q: What should I do if I'm in several breaches?
+A: Change reused passwords, turn on 2FA, claim free monitoring, consider a fraud alert and check your credit reports.
+
+=== SOURCES
+https://www.securityweek.com/canadian-tire-data-breach-impacts-38-million-accounts/amp/ | SecurityWeek: Canadian Tire data breach impacts 38 million accounts
+https://www.cp24.com/news/money/2026/10/23/loblaw-says-march-data-breach-affected-about-two-million-canadians/ | CP24: Loblaw says March data breach affected about two million Canadians
+https://mobilesyrup.com/2026/10/21/canadian-crime-stoppers-tips-leak-report/ | MobileSyrup: Canadian Crime Stoppers tips leak report
+https://www.scworld.com/news/westjet-breach-hits-1-2-million-people-affects-passports-ids | SC World: WestJet breach hits 1.2 million people
+https://cyberinsider.com/canada-goose-data-breach-exposes-582000-customer-emails-and-data/ | CyberInsider: Canada Goose data breach
+https://therecord.media/thousands-impacted-cyber-nova-scotia | The Record: Nova Scotia Power cyberattack
+https://www.barchart.com/story/news/35637985/toys-r-us-canada-customers-notified-of-breach-of-personal-information | Barchart (Canadian Press): Toys R Us Canada breach
+https://www.teiss.co.uk/cyber-threats/canada-computers-confirms-data-breach-exposing-customer-personal-and-credit-card-information-17028 | TEISS: Canada Computers data breach
+https://haveibeenpwned.com/ | Have I Been Pwned
+
+=== RELATED
+was-i-affected-by-the-canadian-tire-data-breach | Canadian Tire Data Breach
+canada-loblaw-data-breach-two-million-customers | Loblaw Data Breach
+was-i-affected-by-the-westjet-data-breach | WestJet Data Breach
+canada-nova-scotia-power-data-breach-sin-bank | Nova Scotia Power Data Breach
+data-breach-statistics-2026 | Data Breach Statistics 2026

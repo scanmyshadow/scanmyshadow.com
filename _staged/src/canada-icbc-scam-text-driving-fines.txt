@@ -1,0 +1,72 @@
+slug: canada-icbc-scam-text-driving-fines
+country: CA
+title: ICBC Scam Texts About Driving Fines or Debt: Delete Them
+h1: ICBC Scam Texts Demand Payment for Driving Fines or "Outstanding Debt"
+desc: ICBC says it doesn't text customers about driving infractions or debt, or ask for payment through text links. How the BC scam works and what to do.
+keywords: icbc scam text, icbc text message scam 2025, icbc driving fine text scam, icbc outstanding debt text, icbc rebate scam, bc driving ticket text scam
+tags: Government Impersonation|Text Scams|Canada|What To Do
+=== TLDR
+In **September and December 2025**, ICBC warned about texts asking BC drivers to pay **driving fines or outstanding debt** through a link. ICBC says it **does not** text customers about infractions or debt, and **does not** ask you to confirm identity or pay through text links. Delete the text. If you paid, call your bank and the police. Earlier versions offered fake ICBC "rebates."
+
+=== BODY
+## What the texts say
+
+ICBC issued warnings on [September 3, 2025](https://icbc.com/pa/about-icbc/newsroom/2025-09-03-scam) and again on [December 2, 2025](https://icbc.com/pa/about-icbc/newsroom/2025-12-02-icbc-warning-customers-about-text-message-scam). The texts:
+
+- demand payment for **driving fines** or **outstanding debt**;
+- include a link to a fake payment page.
+
+ICBC is working with an outside cybersecurity company to report and take down the fake websites. Whack-a-mole, but with lawyers.
+
+## What ICBC doesn't do
+
+- **Doesn't** contact customers by text about driving infractions or outstanding debt.
+- **Doesn't** ask you to confirm your identity or make payments through links in a text.
+
+That's a clean rule. If ICBC is in your texts asking for money, it isn't ICBC.
+
+## The older rebate version
+
+When ICBC paid **$110 rebates**, scam texts offered the rebate through a link. ICBC said it would **not** issue rebates by text or email; real ones came by direct deposit, card credit or mailed cheque ([Tri-City News](https://tricitynews.com/local-news/dont-fall-for-icbc-rebate-text-scam-circulating-in-port-coquitlam-5465329)).
+
+## ICBC's advice
+
+- **Delete** any text asking for payment.
+- **Don't click** links in unsolicited texts.
+- **Check you're on the real ICBC site** before logging in. Type it yourself.
+- **Don't share** personal or financial information by text or email.
+- **Don't reply** to unknown senders or call numbers in suspicious texts.
+
+## If you paid or entered details
+
+1. Call your bank or card issuer and cancel the card.
+2. Contact **police**, as ICBC advises.
+3. Report to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+4. Forward future texts to **7726** ([[canada-7726-spam-text-reporting-guide|how]]).
+
+## Same scam, other provinces
+
+The same trick shows up as [[canada-serviceontario-scam-text-licence-renewal|ServiceOntario]], [[canada-407-etr-scam-text-unpaid-toll|407 ETR]] and [[canada-saaq-revenu-quebec-refund-text-scam|SAAQ]] texts. In the US it's [[dmv-text-scam-unpaid-ticket-suspension|DMV texts]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in leaked data.
+
+=== FAQ
+Q: Does ICBC send texts about driving fines?
+A: No. ICBC says it does not contact customers by text about driving infractions or outstanding debt.
+Q: Will ICBC ask me to pay through a link in a text?
+A: No. ICBC does not ask customers to confirm identity or make payments through text links.
+Q: What should I do if I paid an ICBC scam text?
+A: Call your bank, contact police and report it to the Canadian Anti-Fraud Centre.
+Q: Did ICBC send rebates by text?
+A: No. ICBC said it would not issue rebates by text or email.
+
+=== SOURCES
+https://icbc.com/pa/about-icbc/newsroom/2025-12-02-icbc-warning-customers-about-text-message-scam | ICBC: Warning customers about text message scam (Dec 2025)
+https://icbc.com/pa/about-icbc/newsroom/2025-09-03-scam | ICBC: Text message scam warning (Sept 2025)
+https://tricitynews.com/local-news/dont-fall-for-icbc-rebate-text-scam-circulating-in-port-coquitlam-5465329 | Tri-City News: ICBC rebate text scam
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-serviceontario-scam-text-licence-renewal | Fake ServiceOntario Texts
+canada-407-etr-scam-text-unpaid-toll | 407 ETR Scam Texts
+dmv-text-scam-unpaid-ticket-suspension | DMV Text Scams (US)
+bc-hydro-scam-what-to-know | BC Hydro Scams
+what-is-smishing | What Is Smishing?

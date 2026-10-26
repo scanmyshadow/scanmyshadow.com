@@ -1,0 +1,93 @@
+slug: canada-7726-spam-text-reporting-guide
+country: CA
+title: How to Report Spam Texts in Canada: 7726 and the Spam Reporting Centre
+h1: How to Report Spam Texts and Emails in Canada: 7726, CASL and the Spam Reporting Centre
+desc: Forward scam texts to 7726 for free, report spam emails to the federal Spam Reporting Centre, and know what CASL covers. Step-by-step for iPhone and Android.
+keywords: report spam text canada, 7726 canada, how to forward spam text 7726, spam reporting centre canada, casl complaint, report spam email canada
+tags: Text Scams|Canada|How To|Reporting
+=== TLDR
+In Canada, forward scam texts to **7726** (it spells SPAM). It's **free** and doesn't count against your plan. For spam emails and messages that break Canada's Anti-Spam Legislation (CASL), report to the federal **Spam Reporting Centre**. Don't reply to the sender, even with STOP, if it looks like a scam: replying confirms your number is live.
+
+=== BODY
+## Texts: forward to 7726
+
+[Consumer Protection BC](https://www.consumerprotectionbc.ca/2018/03/receive-spam-text/) explains that forwarding to 7726 lets your mobile provider start investigating. It's free and doesn't use your data or messaging allowance. The federal [Get Cyber Safe](https://www.getcybersafe.gc.ca/en/resources/video-spam-7726) campaign promotes the same number.
+
+**iPhone**
+
+1. Touch and hold the message.
+2. Tap **More**.
+3. Select the message and tap the forward arrow.
+4. Enter **7726** and send.
+
+**Android**
+
+1. Press and hold the message (don't tap the link).
+2. Choose **Forward**.
+3. Send to **7726**.
+
+Some carriers may ask you for the sender's number in a follow-up text. If 7726 doesn't work for you, ask your provider for its reporting number.
+
+**Tip:** save 7726 in your contacts as "SPAM." Reporting becomes a two-second habit, and there's something satisfying about it.
+
+## Emails: the Spam Reporting Centre
+
+The federal government's [spam guidance](https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/node/4) says to report spam to the **Spam Reporting Centre**, and to go to local police if you've been threatened, are a crime victim or fear for someone's safety.
+
+## What counts as spam under CASL
+
+Spam is broader than junk email. The legal definition can cover:
+
+- commercial messages sent **without your consent**;
+- messages that don't **identify the sender** with contact info;
+- messages with **no unsubscribe** option;
+- installing programs without consent, misleading websites, and harvesting email addresses.
+
+Even a real business can break CASL by emailing you without consent or without an unsubscribe link.
+
+## Red flags the government lists
+
+- You've never dealt with the sender.
+- No unsubscribe option.
+- Sender isn't clearly identified.
+- It asks for sensitive personal or financial info.
+- It pretends to be someone you know.
+- Spelling and grammar errors.
+- Threats or urgency ("your account will be deleted").
+- It asks for money upfront.
+- It's too good to be true.
+
+## Don't reply, don't click
+
+Replying, even "STOP," tells a scammer your number works. Clicking may load malware or a fake login page. Report and delete.
+
+## Lost money? Report it properly
+
+7726 and the Spam Reporting Centre stop spam. They don't recover money. If you lost money or shared details, contact your bank, local police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/). See our [[canada-anti-fraud-centre-reporting-guide|CAFC reporting guide]].
+
+## Fewer calls too
+
+For telemarketing calls, register with the [[canada-national-do-not-call-list-guide|National Do Not Call List]]. For why you're getting so many texts in the first place, a free [[/digital-footprint-checker/|exposure check]] shows where your contact details have leaked.
+
+=== FAQ
+Q: What number do I forward spam texts to in Canada?
+A: 7726, which spells SPAM on a keypad.
+Q: Does it cost anything to forward a text to 7726?
+A: No. It's free and doesn't count toward your messaging or data package.
+Q: Where do I report spam emails in Canada?
+A: To the federal Spam Reporting Centre under Canada's Anti-Spam Legislation.
+Q: Should I reply STOP to a scam text?
+A: No. Replying confirms your number is active. Forward it to 7726 and delete it.
+
+=== SOURCES
+https://www.consumerprotectionbc.ca/2018/03/receive-spam-text/ | Consumer Protection BC: Receive a spam text?
+https://www.getcybersafe.gc.ca/en/resources/video-spam-7726 | Get Cyber Safe: SPAM 7726
+https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/node/4 | Government of Canada: Protect yourself from spam
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-anti-fraud-centre-reporting-guide | How to Report to the CAFC
+canada-national-do-not-call-list-guide | Canada's Do Not Call List
+what-is-smishing | What Is Smishing?
+call-blocking-spam-text-reporting-guide | Call Blocking and Spam Text Reporting
+canada-post-delivery-text-scam-what-to-do | Canada Post Text Scams

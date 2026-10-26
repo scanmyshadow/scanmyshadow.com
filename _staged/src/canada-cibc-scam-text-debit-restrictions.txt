@@ -1,0 +1,86 @@
+slug: canada-cibc-scam-text-debit-restrictions
+country: CA
+title: CIBC "Restrictions on Your Debit Account" Text Is a Scam
+h1: CIBC Scam Text: "We've Implemented Restrictions on Your Debit Account"
+desc: A fake CIBC text claims your debit account is restricted and links to a look-alike site. How it works, how to report it to fraud@cibc.com, and what to do if you clicked.
+keywords: cibc scam text, cibc restrictions on your debit account text, cibc phishing text, report cibc phishing, fraud@cibc.com, cibc fraud phone number
+tags: Bank Scams|Text Scams|Canada|What To Do
+=== TLDR
+A fake CIBC text says: **"CIBC Alert: We've implemented restrictions on your debit account"** and links to a look-alike site. It can land in the same thread as real CIBC messages. The site asks for your login, card number, security code and SIN, and may push fake "security software." Don't click. Forward phishing texts and emails to **fraud@cibc.com**, and if you entered anything, call **1-800-465-2422**.
+
+=== BODY
+## The text
+
+[MalwareTips](https://malwaretips.com/blogs/cibc-restrictions-on-your-debit-account-text-scam/) documented the message:
+
+> "CIBC Alert: We've implemented restrictions on your debit account (450644*****)."
+
+It then gives a CIBC-sounding web address "to release these restrictions."
+
+## Why it fools people
+
+- **Same thread as real CIBC texts.** Spoofed sender IDs can drop fakes into your genuine bank conversation. Your phone groups by sender name, not by honesty.
+- **Partial card number.** Seeing digits that look like yours feels official. Many cards share the same first six digits, so it proves nothing.
+- **Urgency.** A restricted debit card feels like an emergency at the grocery checkout.
+
+## What the fake site asks for
+
+- Online banking **username and password**
+- **Card number and security code**
+- **Social Insurance Number**
+- Sometimes a **"security software" download**, which is malware
+
+With that, criminals can log in, make transfers and open credit in your name.
+
+## How to check a real alert
+
+Open the **CIBC app** or type cibc.com yourself, or call the number on the back of your card. Never use the link or number in the text.
+
+## How to report it
+
+CIBC's [fraud reporting page](https://cibc.com/en/privacy-security/banking-fraud/report-fraud.html) says to email **fraud@cibc.com** with a description and the fraudulent message. That address is only for reporting fraudulent texts and emails. Also forward the text to **7726** ([[canada-7726-spam-text-reporting-guide|how]]).
+
+| Situation | CIBC number |
+|---|---|
+| Identity fraud, phishing links, spyware | 1-800-465-2422 |
+| Debit card fraud | 1-800-465-2422 |
+| Credit card fraud | 1-800-465-4653 |
+| Email and website fraud (non-email inquiries) | 1-888-872-2422 |
+
+## If you entered details
+
+CIBC recommends you:
+
+1. **Call CIBC** using the right number above.
+2. **Lock your card.**
+3. **Place a fraud alert** with Equifax or TransUnion ([[canada-equifax-transunion-fraud-alert-guide|guide]]).
+4. **Check email and phone forwarding** for rules you didn't create.
+5. **Call your phone provider** if your phone suddenly can't call or text, a possible [[canada-sim-swap-port-out-fraud-crtc|SIM swap]].
+6. Review account activity monthly.
+
+CIBC says it will help you recover money lost to fraud if you met your responsibilities to keep your accounts safe, under its Digital Banking Guarantee.
+
+## Other bank scams
+
+Same trick, different logo: [[canada-rbc-scam-alerts-2026-what-to-do|RBC]], [[canada-td-scam-text-phishing|TD]], [[canada-bmo-scam-text-phishing-report|BMO]], [[canada-scotiabank-phishing-text-email-report|Scotiabank]], [[canada-desjardins-scam-text-call-phishing|Desjardins]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in leaked data.
+
+=== FAQ
+Q: Is the CIBC "restrictions on your debit account" text real?
+A: No. It's a phishing text that links to a fake CIBC website.
+Q: How do I report a CIBC phishing text?
+A: Email fraud@cibc.com with a description and the message, and forward the text to 7726.
+Q: What is CIBC's fraud phone number?
+A: For identity fraud, phishing and debit card fraud, call 1-800-465-2422. For credit card fraud, call 1-800-465-4653.
+Q: Can a scam text appear in my real CIBC message thread?
+A: Yes. Spoofed sender names can make fake texts appear alongside genuine ones.
+
+=== SOURCES
+https://malwaretips.com/blogs/cibc-restrictions-on-your-debit-account-text-scam/ | MalwareTips: CIBC "Restrictions on your debit account" text scam
+https://cibc.com/en/privacy-security/banking-fraud/report-fraud.html | CIBC: Report fraud
+
+=== RELATED
+canada-rbc-scam-alerts-2026-what-to-do | RBC Scam Alerts 2026
+canada-td-scam-text-phishing | TD Scam Texts
+canada-bmo-scam-text-phishing-report | BMO Scam Texts
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
+canada-fake-interac-e-transfer-notification-scam | Fake Interac e-Transfer Notifications

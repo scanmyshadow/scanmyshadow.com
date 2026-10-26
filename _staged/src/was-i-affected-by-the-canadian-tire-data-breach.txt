@@ -1,0 +1,92 @@
+slug: was-i-affected-by-the-canadian-tire-data-breach
+country: CA
+title: Canadian Tire Data Breach: 38 Million Emails, What Leaked and What To Do
+h1: Was I Affected by the Canadian Tire Data Breach? 38 Million Accounts, Explained
+desc: The 2025 Canadian Tire e-commerce breach hit SportChek, Mark's and Party City accounts too. Here's what leaked, what didn't, and the steps that matter now.
+keywords: canadian tire data breach, canadian tire breach 2025, sportchek data breach, marks data breach, party city canada breach, canadian tire have i been pwned
+tags: Data Breaches|Canada|Retail|What To Do
+=== TLDR
+Canadian Tire discovered unauthorized access to an e-commerce database on **October 2, 2025**. Have I Been Pwned later loaded about **42 million records, including 38.3 million email addresses**. Accounts with Canadian Tire, SportChek, Mark's/L'Équipeur and Party City were involved. Exposed data includes names, emails, phone numbers, addresses, hashed passwords and, for a small subset, dates of birth and partial card details. If you shopped online with any of these brands, assume you're in it: change the password, watch for targeted phishing and ignore "Triangle points" texts.
+
+=== BODY
+## What happened
+
+According to [SecurityWeek](https://www.securityweek.com/canadian-tire-data-breach-impacts-38-million-accounts/amp/), Canadian Tire found that someone had accessed an **e-commerce database** on October 2, 2025. The company notified affected customers by email. It hasn't publicly confirmed a total number of victims, but when the data reached Have I Been Pwned in late February 2026, it contained about **42 million records and 38.3 million unique email addresses**.
+
+That's roughly one record for every person in Canada. Not every one is a separate human, of course. Some of us have a SportChek account from 2014 we've completely forgotten about, which is precisely the problem.
+
+## Which brands were included
+
+The breach covered online accounts with:
+
+- **Canadian Tire**
+- **SportChek**
+- **Mark's / L'Équipeur**
+- **Party City** (Canadian stores)
+
+## What data was exposed
+
+| Data | Status |
+|---|---|
+| Names | Exposed |
+| Email addresses | Exposed |
+| Phone numbers and physical addresses | Exposed (per HIBP) |
+| Gender | Exposed (per HIBP) |
+| Passwords | Exposed as PBKDF2 hashes |
+| Date of birth | Fewer than 150,000 accounts |
+| Partial card data (type, expiry, masked number) | A subset of records |
+| Canadian Tire Bank data | Not involved, per the company |
+| Triangle Rewards loyalty data | Not involved, per the company |
+
+Canadian Tire says the password and card information can't be used to get into accounts or make purchases. PBKDF2 is a slow, deliberate hashing method, which is good news. "Hard to crack" still isn't "impossible to crack" for a weak password, though.
+
+## How to check if you're in it
+
+1. Search your inbox for an email from Canadian Tire about the incident.
+2. Enter your email on [Have I Been Pwned](https://haveibeenpwned.com/).
+3. Run our free [[/digital-footprint-checker/|email exposure check]] to see this breach alongside any others your address appears in.
+
+## What to do now
+
+- **Change your password** on any of the four brands' sites, and anywhere else you reused it.
+- **Turn on two-factor authentication** wherever you can. Our [[how-to-set-up-two-factor-authentication|2FA setup guide]] walks through it.
+- **Expect tailored phishing.** Scammers now know your name, address and that you shop at Canadian Tire. Fake "order problem", "Triangle points expiring" or "refund" messages will look very plausible.
+- **Check card statements** if you saved a card. The data was partial, but it's still worth a look.
+- **If your date of birth was included**, consider a [[canada-equifax-transunion-fraud-alert-guide|fraud alert with Equifax and TransUnion]].
+
+## The phishing to expect
+
+With name, email, phone and address in one file, the likely follow-ups are:
+
+- texts about a "failed delivery" of a Canadian Tire order;
+- emails offering "compensation" for the breach via a link;
+- calls from someone "in Canadian Tire security" who needs to "verify" your card.
+
+Real breach notices don't ask you to log in through a link or read out card numbers. When in doubt, go to the company's site yourself.
+
+## Part of a bigger pattern
+
+This was one of several large Canadian retail breaches in 2025. See also the [[canada-loblaw-data-breach-two-million-customers|Loblaw breach]] and the [[was-i-affected-by-the-canada-goose-data-breach|Canada Goose breach]].
+
+=== FAQ
+Q: When did the Canadian Tire data breach happen?
+A: Canadian Tire discovered unauthorized access to an e-commerce database on October 2, 2025.
+Q: How many people were affected by the Canadian Tire breach?
+A: The company hasn't confirmed a total. Have I Been Pwned lists about 42 million records with 38.3 million unique email addresses.
+Q: Were SportChek and Mark's customers affected?
+A: Yes. E-commerce accounts with Canadian Tire, SportChek, Mark's/L'Équipeur and Party City were involved.
+Q: Were Triangle Rewards points stolen?
+A: Canadian Tire says Triangle Rewards loyalty data and Canadian Tire Bank information were not compromised.
+Q: Were passwords leaked?
+A: Passwords were exposed as PBKDF2 hashes. Change yours anyway, especially if you reused it elsewhere.
+
+=== SOURCES
+https://www.securityweek.com/canadian-tire-data-breach-impacts-38-million-accounts/amp/ | SecurityWeek: Canadian Tire data breach impacts 38 million accounts
+https://haveibeenpwned.com/ | Have I Been Pwned
+
+=== RELATED
+canada-loblaw-data-breach-two-million-customers | Loblaw Data Breach
+was-i-affected-by-the-canada-goose-data-breach | Canada Goose Data Breach
+canada-equifax-transunion-fraud-alert-guide | Fraud Alerts in Canada
+data-breach-notification-email-what-to-do | Got a Breach Email? What To Do
+was-i-affected-by-the-home-depot-data-breach | Home Depot Data Breach

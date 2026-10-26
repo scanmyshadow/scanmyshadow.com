@@ -1,0 +1,72 @@
+slug: canada-loyalty-points-theft-pc-optimum-aeroplan
+country: CA
+title: PC Optimum and Aeroplan Points Stolen? How Thieves Do It
+h1: Loyalty Points Theft in Canada: PC Optimum, Aeroplan and How to Protect Your Points
+desc: Two Ontarians lost $13,000 in Aeroplan points and got nothing back because they noticed too late. How points theft works, and the monthly habit that protects you.
+keywords: aeroplan points stolen, pc optimum points stolen, loyalty points theft canada, aeroplan account hacked, pc optimum hacked, protect loyalty points
+tags: Account Takeover|Canada|Loyalty Programs|How To
+=== TLDR
+Loyalty accounts are easy money for thieves: often weak passwords, no 2FA, and owners who don't check for months. Two Ontario Aeroplan members lost about **$13,000** in points and neither got them back, partly because they reported too late. An Ottawa man lost **200,000** points overnight. PC Optimum members were hit after the 2018 program merger. Fix: unique password, 2FA, a secure email account, and **check your balance monthly**.
+
+=== BODY
+## Real Canadian cases
+
+**Aeroplan, Ontario.** [CP24/CTV reported](https://www.cp24.com/news/canada/2025/06/12/two-aeroplan-members-lose-13000-in-points-after-getting-hacked) that a Toronto member lost **417,500 points (about $8,000)** and a Markham member lost **245,000 points (about $5,000)**. Thieves used the points to buy **gift cards**. Air Canada said the delay made investigation impossible, and Aeroplan's terms say members must report concerns immediately and monitor their own activity. Neither member got the points back.
+
+**Aeroplan, Ottawa.** An Ottawa man told [CTV](https://www.ctvnews.ca/ottawa/article/ottawa-mans-200000-aeroplan-points-stolen-as-he-slept/) hackers drained about **200,000 points** in minutes while he slept.
+
+**PC Optimum.** After Loblaw merged PC Plus and Shoppers Optimum in 2018, members reported their points stolen. [Maclean's](https://macleans.ca/economy/business/how-to-protect-your-pc-optimum-points-from-theft) reported Loblaw locked some accounts, asked members to reset passwords and committed to reinstating points.
+
+## Why points are a target
+
+- **Points are cash** that's easy to turn into gift cards.
+- **Passwords are reused.** Loyalty accounts often share a password with something that's already been breached.
+- **Nobody checks.** The Toronto member hadn't looked in over a year. Thieves love a customer who's busy living their life.
+- **Fewer protections** than a bank: weaker fraud monitoring and, as shown above, tough refund rules.
+
+## How to protect your points
+
+From Rewards Canada (via CP24) and Maclean's:
+
+1. **Use a strong, unique password** for every loyalty account. A [[password-manager-mfa-security-key-guide|password manager]] makes this painless.
+2. **Turn on two-factor authentication** wherever offered.
+3. **Secure your email.** Whoever controls your email can reset everything else.
+4. **Ignore "bonus points" ads and emails** that ask you to log in through a link.
+5. **Check your balance at least monthly.** Rewards Canada's founder recommends this. Set a calendar reminder.
+6. **Keep the card** with you and shield your PIN at checkout.
+
+## If your points disappear
+
+- **Report it immediately** to the program. Speed is everything under these terms.
+- **Change your password** and email password.
+- **Keep screenshots** of your balance history.
+- **Report to the** [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) if gift cards or money were involved.
+
+Bonus Aeroplan tip from the same report: points can **expire** if you have no activity for **18 months**. Thieves aren't the only way to lose them.
+
+## Where your password leaked
+
+A free [[/digital-footprint-checker/|email exposure check]] shows which breaches your email is in. If a password from one of them matches your loyalty login, change it today.
+
+=== FAQ
+Q: Can stolen Aeroplan points be recovered?
+A: Sometimes, but in the reported Ontario cases, Air Canada declined to reinstate points because the theft was reported too late.
+Q: How do thieves use stolen loyalty points?
+A: In the Aeroplan cases, thieves used the points to buy gift cards.
+Q: How often should I check my loyalty points balance?
+A: Rewards Canada recommends at least once a month.
+Q: How do I protect my PC Optimum account?
+A: Use a unique password, keep your email secure, avoid links in "bonus points" messages and check your balance regularly.
+
+=== SOURCES
+https://www.cp24.com/news/canada/2025/06/12/two-aeroplan-members-lose-13000-in-points-after-getting-hacked | CP24: Two Aeroplan members lose $13,000 in points
+https://www.ctvnews.ca/ottawa/article/ottawa-mans-200000-aeroplan-points-stolen-as-he-slept/ | CTV Ottawa: 200,000 Aeroplan points stolen
+https://macleans.ca/economy/business/how-to-protect-your-pc-optimum-points-from-theft | Maclean's: Protect your PC Optimum points
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-loblaw-data-breach-two-million-customers | Loblaw Data Breach
+air-canada-scam-what-to-know | Air Canada Scams
+how-to-set-up-two-factor-authentication | How to Set Up 2FA
+password-manager-mfa-security-key-guide | Password Managers and Security Keys
+was-i-affected-by-the-canadian-tire-data-breach | Canadian Tire Data Breach

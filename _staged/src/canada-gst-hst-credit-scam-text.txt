@@ -1,0 +1,78 @@
+slug: canada-gst-hst-credit-scam-text
+country: CA
+title: GST/HST Credit Scam Texts: The CRA Doesn't Send Benefit Links
+h1: GST/HST Credit and Benefit Scam Texts: Why the CRA Link Is Always Fake
+desc: Texts about the GST/HST credit, Disability Tax Credit or OAS with an "apply now" link are scams. The CRA only texts for multi-factor codes. How to check safely.
+keywords: gst hst credit scam text, cra benefit scam text, cra text message scam 2026, disability tax credit scam, cra refund text scam, does cra send text messages
+tags: Government Impersonation|Text Scams|Canada|What To Do
+=== TLDR
+The CRA says it does **not** send texts or emails about benefits or tax credits with links to click. It only texts for **multi-factor authentication** codes, and only if you chose that option. It doesn't use WhatsApp or Facebook Messenger. So any text about your **GST/HST credit**, Disability Tax Credit, Home Accessibility Tax Credit or **OAS** with a link, a deadline or a code is a scam. Check benefits by typing canada.ca yourself.
+
+=== BODY
+## The scam messages
+
+The [CRA's scam page](https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html) specifically warns about messages:
+
+- about the **GST/HST credit**, with **urgent deadlines** and links to "application forms";
+- about the **Home Accessibility Tax Credit**, **Disability Tax Credit** and **Multigenerational Home Renovation Tax Credit**;
+- about **Old Age Security**, sometimes with a link **and a code**.
+
+The CRA's rule: it does not send texts or emails about benefits or tax credits with links asking you to click them.
+
+## How the CRA actually contacts you
+
+| Channel | What the CRA does | What it never does |
+|---|---|---|
+| **Text** | MFA codes only, if you chose phone | Refunds, payments, account fixes, links |
+| **Email** | Notice of a new message in your CRA account, or a link you asked for on a call | Links asking for personal or financial info; emails from a named person asking you to reply |
+| **Phone** | May ask you to verify identity | Demand e-Transfer, crypto, prepaid or gift cards; threaten arrest or deportation; charge a fee |
+| **WhatsApp / Messenger** | Never | Never |
+
+So the honest answer to "does the CRA send text messages?" is: only six-digit codes you asked for.
+
+## Why benefit scams work
+
+People expect GST/HST credit payments every quarter, so a text about "your credit" doesn't feel odd. Add a deadline ("apply by Friday or lose your payment") and a link to a perfect copy of the CRA sign-in page, and the scam writes itself. The fake page collects your CRA login, SIN and bank details, and then someone changes your direct deposit.
+
+## How to check safely
+
+- Sign in to **CRA My Account** by typing the address yourself.
+- Real addresses start with **canada.ca** or end with **cra-arc.gc.ca**.
+- For benefits, check official Government of Canada or provincial pages.
+- For calls, hang up and call a CRA number you find yourself.
+
+## If you clicked and entered details
+
+1. Sign in to CRA My Account directly and check your **direct deposit** and **address**.
+2. Call the CRA using an official number.
+3. Read our guide to a [[canada-cra-my-account-compromised-what-to-do|compromised CRA My Account]].
+4. If you gave your SIN, see [[canada-sin-stolen-what-to-do|SIN stolen: what to do]].
+
+## Where to report
+
+- The CRA's reporting page or **reportcyberandfraud.canada.ca**
+- Local police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/)
+- Forward the text to **7726** ([[canada-7726-spam-text-reporting-guide|how]])
+
+Why do they have your number? A free [[/digital-footprint-checker/|exposure check]] shows where your details have leaked.
+
+=== FAQ
+Q: Does the CRA send texts about the GST/HST credit?
+A: No. The CRA does not send texts or emails about benefits or tax credits with links. Any such text is a scam.
+Q: Does the CRA ever send text messages?
+A: Only multi-factor authentication codes, if you chose the phone option.
+Q: Does the CRA use WhatsApp?
+A: No. The CRA does not use WhatsApp or Facebook Messenger.
+Q: How do I check my GST/HST credit safely?
+A: Sign in to CRA My Account by typing the address yourself, or check official canada.ca pages.
+
+=== SOURCES
+https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html | Canada Revenue Agency: Recognize a scam
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-cra-my-account-compromised-what-to-do | CRA My Account Compromised
+canada-revenue-agency-scam-what-to-know | CRA Scams
+canada-cpp-oas-scams-seniors-redirected-payments | CPP and OAS Scams
+canada-saaq-revenu-quebec-refund-text-scam | SAAQ and Revenu Québec Scam Texts
+canada-sin-stolen-what-to-do | SIN Stolen? What To Do

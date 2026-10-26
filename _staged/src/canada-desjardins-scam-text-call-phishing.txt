@@ -1,0 +1,75 @@
+slug: canada-desjardins-scam-text-call-phishing
+country: CA
+title: Desjardins Scam Texts and Calls: What Desjardins Never Asks
+h1: Desjardins Scam Texts, Emails and Calls: How to Spot Them and Report Them
+desc: Fake Desjardins messages push you to AccèsD look-alike sites or ask for your SIN. Desjardins never asks for these by text or email. Report to protection@desjardins.com.
+keywords: desjardins scam text, desjardins phishing email, fake accesd text, desjardins fraud report, desjardins scam call, protection@desjardins.com
+tags: Bank Scams|Text Scams|Canada|What To Do
+=== TLDR
+Desjardins says it **never** asks you, by email or text, to reply with your login, password, SIN or other confidential details, and **never** sends you to AccèsD or another site to log in or enter information. Any message that does is fake. Forward phishing emails to **protection@desjardins.com**, forward scam texts through your carrier (7726), and if you gave away information, call Desjardins security at **1-866-335-0338**.
+
+=== BODY
+## What Desjardins never does
+
+From Desjardins' own [phishing page](https://www.desjardins.com/en/security/phishing.html), Desjardins never asks you to:
+
+- reply with **login credentials or passwords**;
+- reply with your **social insurance number** or other confidential info;
+- **go to AccèsD** or another site through a link to log in or enter information.
+
+That last one is the big one. The whole scam depends on a link to a fake AccèsD page. If the message has a login link, you already have your answer.
+
+## What the fake messages look like
+
+Desjardins lists the hooks scammers use:
+
+- **Urgency:** update your account now, pay a tax agency, donate after a tragedy.
+- **Gain:** you've won a prize, or money was sent to you.
+- **Problem:** something's wrong with your account, your computer or a delivery.
+
+Fake sites often have sloppy design, broken links, typos and web addresses that are *almost* right. "desjardlns" is not a typo you want to discover after typing your password.
+
+## The phone version
+
+Desjardins also warns about callers pretending to be from your financial institution to get you to [give up information or send money](https://www.desjardins.com/en/tips/email-text-phone-fraud-can-tell-fake-message-from-real-one.html). Hang up and call the number you look up yourself, not the one the caller gives you.
+
+## How to report
+
+| What | Where |
+|---|---|
+| Phishing email | Forward to **protection@desjardins.com**, then delete |
+| Scam text | Forward to **7726** (your carrier's process) |
+| Gave information or money | Desjardins security: **1-866-335-0338** (Canada/US), **514-397-8649** (Montreal) |
+| Calling from outside Canada/US | **514-397-4610** (collect) |
+| Any fraud | [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) |
+
+## If you clicked
+
+- **Didn't enter anything?** Report the message, scan your device, change your passwords, watch your accounts.
+- **Entered details?** Report it, then **call Desjardins security right away** and contact the authorities.
+
+## Why Desjardins members get extra attention
+
+Desjardins members have been targets before. The 2019 insider breach exposed data on millions of members (see our [[was-i-affected-by-the-desjardins-data-breach|Desjardins breach guide]]). Old data keeps scam lists warm for years. A free [[/digital-footprint-checker/|exposure check]] shows where your email has leaked.
+
+=== FAQ
+Q: Does Desjardins send texts with links to AccèsD?
+A: Desjardins says it never asks you by email or text to go to AccèsD or another site to log in or enter information.
+Q: How do I report a Desjardins phishing email?
+A: Forward it to protection@desjardins.com, then delete it.
+Q: What if I entered my AccèsD password on a fake site?
+A: Call Desjardins security immediately at 1-866-335-0338 and change your password.
+Q: Will Desjardins ask for my SIN by text?
+A: No. Desjardins never asks you to reply with your SIN or other confidential information.
+
+=== SOURCES
+https://www.desjardins.com/en/security/phishing.html | Desjardins: Phishing
+https://www.desjardins.com/en/tips/email-text-phone-fraud-can-tell-fake-message-from-real-one.html | Desjardins: Telling fake messages from real ones
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+was-i-affected-by-the-desjardins-data-breach | Desjardins Data Breach
+canada-rbc-scam-alerts-2026-what-to-do | RBC Scam Alerts 2026
+canada-td-scam-text-phishing | TD Scam Texts
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
+canada-hydro-quebec-scam-calls-texts | Hydro-Québec Scams

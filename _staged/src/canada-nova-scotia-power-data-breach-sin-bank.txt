@@ -1,0 +1,71 @@
+slug: canada-nova-scotia-power-data-breach-sin-bank
+country: CA
+title: Nova Scotia Power Data Breach: SINs and Bank Details on the Dark Web
+h1: Nova Scotia Power Data Breach: 280,000 Customers, SINs and Bank Accounts Exposed
+desc: Hackers had access to Nova Scotia Power systems from March 19 to April 25, 2025, and published stolen data on the dark web. What leaked and what customers should do.
+keywords: nova scotia power data breach, nova scotia power breach sin, nova scotia power hack, emera data breach, nova scotia power credit monitoring, nova scotia power dark web
+tags: Data Breaches|Canada|Utilities|What To Do
+=== TLDR
+Hackers had access to Nova Scotia Power systems from **March 19 to April 25, 2025**. About **280,000** people were notified. Stolen data includes **names, addresses, birth dates, driver's licence numbers, bank account numbers and, for some, Social Insurance Numbers**. The company confirmed the data was **published on the dark web**. The federal Privacy Commissioner opened an investigation. If you're a customer, treat this as a long-term identity risk, not a two-year one.
+
+=== BODY
+## What happened
+
+According to [The Record](https://therecord.media/thousands-impacted-cyber-nova-scotia), attackers were inside Nova Scotia Power's systems for about five weeks, from **March 19 to April 25, 2025**. The utility isolated servers to stop further intrusion; its customer care line and MyAccount portal were affected, but the power stayed on.
+
+[Global News](https://globalnews.ca/news/11201691/federal-privacy-czar-nova-scotia-power-data-breach) reported the company confirmed the stolen data was **published on the dark web**, and that federal Privacy Commissioner **Philippe Dufresne** opened an investigation on **May 28, 2025** after receiving complaints.
+
+## What data was exposed
+
+Exposure varied by customer, but the list includes:
+
+| Data | Risk |
+|---|---|
+| Names, addresses, birth dates, emails | Targeted phishing, impersonation |
+| Driver's licence numbers | ID fraud |
+| **Bank account numbers** (some customers) | Fraudulent debits, payment scams |
+| **Social Insurance Numbers** (some customers) | Credit fraud, tax and benefit fraud |
+| Billing, payment and credit history | Convincing "account problem" scams |
+| Power use, service requests, correspondence | Social engineering detail |
+
+## The criticism
+
+Experts quoted by Global News said the notification letters lacked detail about what could go wrong, and that **two years** of TransUnion credit monitoring may not be long enough since criminals can use data well beyond 24 months. A SIN doesn't expire, after all.
+
+## What customers should do
+
+1. **Sign up for the free credit monitoring** offered in your letter, through the official link.
+2. **Place a fraud alert** with Equifax and TransUnion. See our [[canada-equifax-transunion-fraud-alert-guide|fraud alert guide]].
+3. **Tell your bank** your account number was exposed and watch for unfamiliar debits.
+4. **If your SIN was exposed**, follow our [[canada-sin-stolen-what-to-do|stolen SIN guide]] and check your CRA My Account for changes.
+5. **Distrust "Nova Scotia Power" calls and texts** about overdue bills or refunds. Scammers now know your billing history. Call the number on your real bill.
+6. **Keep checking for years**, not months. Order your [[canada-free-credit-report-equifax-transunion|free credit report]] regularly.
+
+## Your rights
+
+Under PIPEDA, you can complain to the Privacy Commissioner if you think a company mishandled your data. See [[canada-breach-notification-letter-what-to-do|breach notification rights in Canada]].
+
+A free [[/digital-footprint-checker/|email exposure check]] shows which other breaches your email appears in. Combined leaks are what make identity theft easy.
+
+=== FAQ
+Q: When was the Nova Scotia Power data breach?
+A: Hackers had access from March 19 to April 25, 2025.
+Q: How many people were affected?
+A: About 280,000 people were notified.
+Q: Were SINs exposed in the Nova Scotia Power breach?
+A: Yes, for some customers, along with bank account numbers and driver's licence numbers.
+Q: Was the data published online?
+A: Yes. The company confirmed the stolen data was published on the dark web.
+Q: Is the Privacy Commissioner investigating?
+A: Yes. The federal Privacy Commissioner opened an investigation on May 28, 2025.
+
+=== SOURCES
+https://therecord.media/thousands-impacted-cyber-nova-scotia | The Record: Nearly 300,000 impacted by Nova Scotia Power cyberattack
+https://globalnews.ca/news/11201691/federal-privacy-czar-nova-scotia-power-data-breach | Global News: Federal privacy czar investigates Nova Scotia Power breach
+
+=== RELATED
+canada-breach-notification-letter-what-to-do | Breach Notification Rights in Canada
+canada-sin-stolen-what-to-do | SIN Stolen? What To Do
+canada-equifax-transunion-fraud-alert-guide | Fraud Alerts in Canada
+centerpoint-energy-data-breach-what-to-do | CenterPoint Energy Breach (US)
+canada-biggest-data-breaches-2025-2026 | Biggest Canadian Data Breaches

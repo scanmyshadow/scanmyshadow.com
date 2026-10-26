@@ -1,0 +1,71 @@
+slug: canada-enbridge-gas-scam-bill-discount-calls
+country: CA
+title: Enbridge Gas Scams: Bill Discounts, Free Thermostats and Door Knocks
+h1: Enbridge Gas Scams: Fake Bill Discounts, Free Thermostats and Door-to-Door Visits
+desc: Enbridge Gas doesn't offer bill discounts, take card payments by phone or sell door-to-door. The Ontario impersonation scams to know and how to verify a caller.
+keywords: enbridge gas scam, enbridge scam call discount, enbridge door to door scam, enbridge free thermostat scam, enbridge heat pump scam email, enbridge gas phone number scam
+tags: Utility Scams|Phone Scams|Canada|What To Do
+=== TLDR
+Enbridge Gas says it **does not** offer discounts on gas bills, take **credit card payments over the phone**, need your **banking info** to verify your account, call to **demand immediate payment**, or sell gas, appliances or thermostats **door-to-door**. Scammers use fake Enbridge websites, ads for free thermostats and heat pumps, spoofed caller ID and texts. Verify by calling **1-877-362-7434** yourself.
+
+=== BODY
+## The scams Enbridge warns about
+
+From [Enbridge Gas's fraud page](https://enbridgegas.com/ontario/contact-us/fraud-awareness):
+
+- **Fake websites and phone numbers** where "agents" offer bill discounts and collect card or account details.
+- **Social media ads** for free smart thermostats, energy kits or rebates.
+- **Emails offering a free heat pump.**
+- **Callers "checking your appliances"** in Ontario.
+- **Spoofed caller ID, robocalls and texts** with links.
+
+## What Enbridge never does
+
+| Scam claim | Enbridge reality |
+|---|---|
+| "We can lower your bill with a discount" | Enbridge does not offer discounts on natural gas bills |
+| "Pay by card now over the phone" | Enbridge doesn't take card payments over the phone |
+| "Give your bank info to verify your account" | Not required |
+| "Pay immediately or we disconnect" | Enbridge doesn't call to demand immediate payment |
+| "We're here to sell or service your furnace" | Enbridge doesn't sell, rent or service appliances or thermostats door-to-door |
+| "Show me your bill and sign here" | Representatives don't ask to see your bill or sign contracts |
+
+The "discount" pitch is the sneakiest. Nobody gets suspicious when someone offers to *save* them money. That's the point.
+
+## Who's really at your door
+
+- Real employees and authorized contractors carry **visible photo ID**.
+- Expect visits only for **booked appointments** or in areas getting **new gas service**.
+- Not sure? Close the door and call **1-877-362-7434**.
+
+## If you already paid or shared details
+
+1. Call your **bank or card company** and watch statements.
+2. Call **Enbridge Gas** at 1-877-362-7434.
+3. Report to **local police** and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+4. If you ever feel physically threatened at the door, call **911**.
+
+## Other utility scams
+
+See [[hydro-one-scam-what-to-know|Hydro One]], [[bc-hydro-scam-what-to-know|BC Hydro]], [[canada-manitoba-hydro-scam-text-disconnection|Manitoba Hydro]] and [[canada-hydro-quebec-scam-calls-texts|Hydro-Québec]] scams. Door-to-door crews also run [[canada-waterloo-home-renovation-scam-seniors-500000|home renovation scams]]. A free [[/digital-footprint-checker/|exposure check]] shows if your phone or email is in leaked data.
+
+=== FAQ
+Q: Does Enbridge Gas offer bill discounts by phone?
+A: No. Enbridge Gas says it does not offer discounts on natural gas bills.
+Q: Does Enbridge take credit card payments over the phone?
+A: No. Enbridge says it does not take credit card payments over the phone.
+Q: Does Enbridge sell thermostats door-to-door?
+A: No. Enbridge doesn't sell gas door-to-door or sell, rent or service appliances or smart thermostats.
+Q: What is Enbridge Gas's real phone number?
+A: 1-877-362-7434. Call it directly to verify any contact.
+
+=== SOURCES
+https://enbridgegas.com/ontario/contact-us/fraud-awareness | Enbridge Gas: Fraud awareness
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+hydro-one-scam-what-to-know | Hydro One Scams
+canada-manitoba-hydro-scam-text-disconnection | Manitoba Hydro Scam Texts
+canada-hydro-quebec-scam-calls-texts | Hydro-Québec Scams
+canada-waterloo-home-renovation-scam-seniors-500000 | Waterloo Renovation Scam
+bc-hydro-scam-what-to-know | BC Hydro Scams

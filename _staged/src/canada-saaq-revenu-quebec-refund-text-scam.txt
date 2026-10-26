@@ -1,0 +1,63 @@
+slug: canada-saaq-revenu-quebec-refund-text-scam
+country: CA
+title: SAAQ and Revenu Québec Refund Texts Are Scams
+h1: SAAQ "You Were Overcharged" and Revenu Québec Payment Texts: Both Scams
+desc: Texts say the SAAQ overcharged you or Revenu Québec owes you $400–$600. Neither agency pays refunds by text. How to spot and report the Quebec refund scams.
+keywords: saaq scam text, saaq refund text scam, revenu quebec scam text, revenu quebec refund fraud, quebec government text scam, saaq hameconnage
+tags: Government Impersonation|Text Scams|Canada|What To Do
+=== TLDR
+Two Quebec refund scams keep coming back. Fake **SAAQ** texts say you were **overcharged** and offer a refund through a link; the SAAQ says it will **never** contact you by text about this. Fake **Revenu Québec** texts and emails promise **$400 to $600** payments; Revenu Québec says "at no time" does it offer refunds or payments that way. Don't click. Real money from both arrives by direct deposit, cheque or your official account.
+
+=== BODY
+## The SAAQ text
+
+The [SAAQ warned](https://saaq.gouv.qc.ca/en/newsroom/article/alerte-a-lhameconnage-ne-tombez-pas-dans-le-piege-des-messages-frauduleux) about texts that appear to come from the Société de l'assurance automobile du Québec. They say:
+
+- you were **overcharged**;
+- click the **link** to get your refund.
+
+The SAAQ's position is blunt: it **will never contact you by text message** for this kind of issue. Don't click and don't share personal information.
+
+## The Revenu Québec text
+
+When Quebec sent out cost-of-living cheques, fraudulent texts and emails followed, promising **$400 to $600**. [Revenu Québec told CTV](https://montreal.ctvnews.ca/mobile/inflation-fighting-cheques-are-coming-but-beware-of-fraudsters-revenu-quebec-1.6169877): "At no time does Revenu Québec offer refunds or payments in this manner." Real payments went by **direct deposit or cheque**.
+
+Notice the pattern? Scammers watch the news. Whenever there's a real government payment, a fake version arrives in your texts within days, usually with worse spelling.
+
+## Why refund scams work
+
+A "you owe money" text makes people suspicious. A "we owe *you* money" text makes people curious. The link leads to a page that asks for your card number "to deposit the refund," plus your name, address and date of birth. That's a full identity kit, handed over with a smile.
+
+## What to do
+
+1. **Don't click** the link or reply.
+2. **Forward the text to 7726** so your carrier can block it. See our [[canada-7726-spam-text-reporting-guide|7726 guide]].
+3. **Check directly** by typing saaq.gouv.qc.ca or revenuquebec.ca yourself, or logging into your official online account.
+4. **Entered card details?** Call your bank now and ask for a new card.
+5. **Report losses** to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## More Quebec scams to know
+
+Fake [[canada-hydro-quebec-scam-calls-texts|Hydro-Québec]] and [[canada-desjardins-scam-text-call-phishing|Desjardins]] messages use the same playbook. Quebec residents also have strong privacy rights under [[quebec-law-25-privacy-rights-explained|Law 25]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are circulating in breach data.
+
+=== FAQ
+Q: Does the SAAQ send refund texts?
+A: No. The SAAQ says it will never contact you by text message about this kind of issue.
+Q: Does Revenu Québec send payments by text or email?
+A: No. Revenu Québec says at no time does it offer refunds or payments that way.
+Q: How does Revenu Québec actually pay refunds?
+A: By direct deposit or cheque.
+Q: Where do I report a SAAQ or Revenu Québec scam text?
+A: Forward it to 7726 and report any losses to police and the Canadian Anti-Fraud Centre.
+
+=== SOURCES
+https://saaq.gouv.qc.ca/en/newsroom/article/alerte-a-lhameconnage-ne-tombez-pas-dans-le-piege-des-messages-frauduleux | SAAQ: Phishing alert
+https://montreal.ctvnews.ca/mobile/inflation-fighting-cheques-are-coming-but-beware-of-fraudsters-revenu-quebec-1.6169877 | CTV Montreal: Revenu Québec warns of fraudsters
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-hydro-quebec-scam-calls-texts | Hydro-Québec Scams
+canada-serviceontario-scam-text-licence-renewal | Fake ServiceOntario Texts
+canada-gst-hst-credit-scam-text | GST/HST Credit Scam Texts
+canada-desjardins-scam-text-call-phishing | Desjardins Scam Texts
+what-is-smishing | What Is Smishing?

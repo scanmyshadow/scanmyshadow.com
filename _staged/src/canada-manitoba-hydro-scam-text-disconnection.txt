@@ -1,0 +1,63 @@
+slug: canada-manitoba-hydro-scam-text-disconnection
+country: CA
+title: Manitoba Hydro Scam Texts Threaten Disconnection Over Small Balances
+h1: Manitoba Hydro Scam Texts and Emails: "Pay Now or Your Power Gets Cut Off"
+desc: Fake Manitoba Hydro texts threaten disconnection unless you pay a balance under $10 or create a new account. Manitoba Hydro doesn't contact customers this way.
+keywords: manitoba hydro scam text, manitoba hydro scam email, manitoba hydro disconnection scam, manitoba hydro phishing, manitoba hydro scam call, winnipeg hydro scam
+tags: Utility Scams|Text Scams|Canada|What To Do
+=== TLDR
+Fake Manitoba Hydro emails and texts threaten to **cut off your power** unless you click a link and **pay a small balance (under $10)** or **create a new account**. Manitoba Hydro says it **doesn't** send texts or emails threatening disconnection, and handles real billing issues **person to person**. Delete the message and call Manitoba Hydro yourself if you're worried.
+
+=== BODY
+## What the messages say
+
+[Global News](https://globalnews.ca/news/10290062/manitoba-hydro-scam-emails-texts) reported Manitoba Hydro's warning about emails and texts that:
+
+- threaten to **disconnect your power**;
+- ask you to **pay a balance under $10** or **create a new account** through a link;
+- demand **immediate** payment.
+
+One version misspelled "hydro." Another linked to a site that wasn't Manitoba Hydro's. Getting the company's own name wrong is a strong hint.
+
+## Why the tiny balance?
+
+A $7 bill feels too small to be a scam. That's the trick. Nobody is stealing your $7. They want the card number, expiry and security code you type to pay it, and they'll use them for much more.
+
+## What Manitoba Hydro says
+
+- "We don't contact you like this, threatening to cut you off," spokesperson Bruce Owen said.
+- Real billing problems get **person-to-person** contact.
+- The messages "are not from us."
+- Never share personal or account information by phone, email or text.
+
+## What to do
+
+1. **Delete** the text or email. Don't click.
+2. **Check your account** by typing Manitoba Hydro's website yourself, or call the number on your bill.
+3. **Forward texts to 7726** ([[canada-7726-spam-text-reporting-guide|how]]).
+4. **Entered card details?** Call your bank and cancel the card.
+5. **Report losses** to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Other utility scams
+
+Same playbook: [[canada-enbridge-gas-scam-bill-discount-calls|Enbridge Gas]], [[hydro-one-scam-what-to-know|Hydro One]], [[bc-hydro-scam-what-to-know|BC Hydro]] and [[canada-hydro-quebec-scam-calls-texts|Hydro-Québec]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data.
+
+=== FAQ
+Q: Does Manitoba Hydro send disconnection texts?
+A: No. Manitoba Hydro says it doesn't contact customers by text or email threatening to cut them off.
+Q: Why does the scam ask for such a small payment?
+A: The goal is your card details, not the small amount. Once entered, they can be used for larger fraud.
+Q: How does Manitoba Hydro handle real billing problems?
+A: It says it makes person-to-person contact to resolve billing issues.
+Q: What should I do with a Manitoba Hydro scam text?
+A: Delete it, forward it to 7726 and contact Manitoba Hydro directly if unsure.
+
+=== SOURCES
+https://globalnews.ca/news/10290062/manitoba-hydro-scam-emails-texts | Global News: Manitoba Hydro warns of scam emails and texts
+
+=== RELATED
+canada-enbridge-gas-scam-bill-discount-calls | Enbridge Gas Scams
+hydro-one-scam-what-to-know | Hydro One Scams
+bc-hydro-scam-what-to-know | BC Hydro Scams
+canada-hydro-quebec-scam-calls-texts | Hydro-Québec Scams
+what-is-smishing | What Is Smishing?

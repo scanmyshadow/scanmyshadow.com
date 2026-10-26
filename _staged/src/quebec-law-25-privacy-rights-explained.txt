@@ -1,0 +1,87 @@
+slug: quebec-law-25-privacy-rights-explained
+country: CA
+title: Quebec Law 25: Your 6 Privacy Rights and How to Use Them
+h1: Quebec Law 25 Explained: Your Privacy Rights as an Individual (and How to Use Them)
+desc: Law 25 gives Quebecers rights to access, correct, de-index and port their data, plus a 30-day response deadline. How to make a request and where to complain.
+keywords: quebec law 25 individual rights, law 25 right to be forgotten, law 25 de-indexation, law 25 data portability, law 25 access request, commission d'accès à l'information complaint
+tags: Privacy Rights|Canada|Quebec|How To
+=== TLDR
+Quebec's Law 25 gives you six practical rights over your personal information held by companies: **access, rectification, withdrawal of consent, de-indexing/stopping dissemination, information about automated decisions, and portability**. Companies must respond within **30 days**, access requests are generally free, and if they refuse or ignore you, you can complain to the **Commission d'accès à l'information (CAI)**. Here's how each right works in plain language.
+
+=== BODY
+## The six rights at a glance
+
+Based on the section-by-section breakdown from [Hilotech's Law 25 guide](https://hilotech.ca/en/wiki/law-25/individual-rights):
+
+| Right | What it lets you do | In force |
+|---|---|---|
+| **Access** | Get a copy of your data, where it came from, how it's used, who received it, how long it's kept | Before Law 25 |
+| **Rectification** | Fix inaccurate, incomplete or "equivocal" data | Before Law 25 |
+| **Withdraw consent** | Pull consent at any time, through a simple free mechanism | Sept 2023 |
+| **De-indexing / stop dissemination** | Ask a company to stop spreading your data or de-index it | Sept 2023 |
+| **Automated decisions** | Learn the data, reasons and factors behind a decision made only by a machine | Sept 2023 |
+| **Portability** | Get your data in a structured, common format, or have it sent to another company | Sept 22, 2024 |
+
+## 1. Right of access
+
+Send a request by email, letter, phone or the company's form. After verifying your identity, the company must give you a copy of your information and details on its source, use, recipients and retention. If it refuses, the refusal must be **in writing, with reasons**, and must tell you about your right to go to the CAI.
+
+## 2. Right to rectification
+
+If information is wrong, incomplete or ambiguous, ask for a correction. On request, the company must also tell third parties who received the bad data in the **last six months**. They can only refuse if the request is manifestly unfounded.
+
+## 3. Withdrawing consent
+
+You can withdraw consent at any time through a simple, free mechanism like a link, form or email. It works going forward, not retroactively, and the company must tell you the consequences (for example, "we can't send you rewards without your email").
+
+## 4. De-indexing: Quebec's "right to be forgotten"
+
+You can ask a company to **stop disseminating** your personal information or **de-index** it, for example from a link or search result. The bar is real: the dissemination must cause **serious harm** that clearly outweighs the public interest, and a less drastic fix must not be enough. It's not a delete-anything button, but it's more than most Canadians have.
+
+## 5. Automated decisions
+
+If a decision with legal or significant effect on you was made **entirely by automated processing**, you can ask what personal information was used, the main reasons and the factors behind it, and correct the data used.
+
+## 6. Data portability
+
+Since September 22, 2024, you can request computerized data you provided (or that came from your use of a service) in a **structured, commonly used format**, or ask for it to go straight to another organization. The company's own analyses and scores don't count.
+
+## How to make a request
+
+1. Find the company's **privacy officer** (Law 25 requires one; contact details are usually in the privacy policy).
+2. Send a short written request stating which right you're using.
+3. Keep a copy and note the date.
+4. Expect an answer within **30 days**. The clock starts when the company receives it, not when it reaches the right desk. Extensions are possible for complex requests, but they have to tell you before the 30 days run out.
+5. Access is **generally free**; only moderate fees for copying or transmission are allowed.
+
+## If they refuse or ghost you
+
+File a complaint with the **Commission d'accès à l'information (CAI)**. It can investigate, order corrections and impose administrative sanctions.
+
+Outside Quebec, federal law (PIPEDA) applies instead. See our [[canada-pipeda-explained|PIPEDA explainer]] and [[canada-privacy-commissioner-complaint-how-to|how to complain to the federal Privacy Commissioner]].
+
+## Where to start
+
+Most people don't know which companies hold their data. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email appears in, which is a good list of who to send access requests to first.
+
+=== FAQ
+Q: What rights does Quebec Law 25 give individuals?
+A: Access, rectification, withdrawal of consent, de-indexing or stopping dissemination, information about automated decisions, and data portability.
+Q: How long does a company have to respond to a Law 25 request?
+A: 30 days from receiving the request, with a possible extension if you're notified before the deadline.
+Q: Is there a right to be forgotten in Quebec?
+A: Yes, in limited form. You can ask a company to stop disseminating or de-index your information if it causes serious harm that outweighs the public interest.
+Q: Where do I complain about a Law 25 violation?
+A: To the Commission d'accès à l'information (CAI).
+Q: When did data portability start under Law 25?
+A: September 22, 2024.
+
+=== SOURCES
+https://hilotech.ca/en/wiki/law-25/individual-rights | Hilotech: Law 25 individual rights
+
+=== RELATED
+canada-pipeda-explained | PIPEDA Explained
+canada-privacy-commissioner-complaint-how-to | Complain to the Privacy Commissioner
+canada-411-and-people-search-removal | Remove Yourself From Canada 411
+canada-breach-notification-letter-what-to-do | Breach Notification Rights in Canada
+canada-saaq-revenu-quebec-refund-text-scam | SAAQ and Revenu Québec Scam Texts

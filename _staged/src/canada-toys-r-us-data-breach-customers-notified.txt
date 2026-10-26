@@ -1,0 +1,71 @@
+slug: canada-toys-r-us-data-breach-customers-notified
+country: CA
+title: Toys "R" Us Canada Data Breach: What Was Taken and What To Do
+h1: Toys "R" Us Canada Data Breach: Names, Addresses and Phone Numbers Copied
+desc: Toys "R" Us Canada told customers their names, addresses, emails and phone numbers were copied after data appeared online. No passwords or cards, but phishing risk is real.
+keywords: toys r us canada data breach, toys r us breach email, toys r us canada customer data leak, toys r us canada notification, toys r us canada scam
+tags: Data Breaches|Canada|Retail|What To Do
+=== TLDR
+Toys "R" Us Canada learned on **July 30, 2025** that customer records had been posted online, and later emailed customers. Third-party experts confirmed an unauthorized party copied records that may include **names, addresses, email addresses and phone numbers**. The company says no passwords or credit card details were involved. That's still enough for convincing scam texts and emails, especially around the holidays when parents expect toy deliveries.
+
+=== BODY
+## What happened
+
+According to a [Canadian Press report carried by Barchart](https://www.barchart.com/story/news/35637985/toys-r-us-canada-customers-notified-of-breach-of-personal-information), someone posted information on the deep web claiming it came from Toys "R" Us Canada's databases. The company learned about it on **July 30**, brought in outside cybersecurity experts, and they confirmed an unauthorized party had copied customer records. Customers started getting notification emails in October 2025.
+
+## What data was involved
+
+| Data | Status |
+|---|---|
+| Names | May be included |
+| Mailing addresses | May be included |
+| Email addresses | May be included |
+| Phone numbers | May be included |
+| Passwords | Not involved, per the company |
+| Credit card details | Not involved, per the company |
+
+The company didn't say how many customers were affected.
+
+## Why "just contact details" still matters
+
+A file with your name, home address, email and phone number is a scammer's starter kit. Add the fact that you buy from a toy store, and they can guess you have kids. Expect:
+
+- "Your Toys R Us order is delayed, pay a redelivery fee" texts;
+- fake holiday giveaways and "loyalty rewards" emails;
+- parcel scams that line up suspiciously well with real orders.
+
+None of this needs a password. It just needs you to click once while juggling a toddler.
+
+## What to do
+
+1. **Look for the notification email** from Toys "R" Us Canada and keep it.
+2. **Check your email** on [Have I Been Pwned](https://haveibeenpwned.com/) or our free [[/digital-footprint-checker/|exposure checker]].
+3. **Treat delivery texts with suspicion** through the holiday season. Track orders by logging in yourself, not through links.
+4. **Forward scam texts to 7726** so your carrier can block them. See our [[canada-7726-spam-text-reporting-guide|7726 and Spam Reporting Centre guide]].
+5. **Report losses** to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Your rights
+
+Under PIPEDA, organizations must notify you when a breach creates a real risk of significant harm. If you think a notice was inadequate, you can file a complaint. Our guide to [[canada-privacy-commissioner-complaint-how-to|complaining to the Privacy Commissioner]] explains how.
+
+=== FAQ
+Q: When did Toys R Us Canada find out about the breach?
+A: The company says it learned of the incident on July 30, 2025.
+Q: What data was exposed in the Toys R Us Canada breach?
+A: Records may include names, addresses, email addresses and phone numbers.
+Q: Were passwords or credit cards stolen?
+A: The company says no passwords or credit card details were involved.
+Q: How many people were affected?
+A: The company has not publicly said.
+
+=== SOURCES
+https://www.barchart.com/story/news/35637985/toys-r-us-canada-customers-notified-of-breach-of-personal-information | Barchart (Canadian Press): Toys R Us Canada customers notified of breach
+https://haveibeenpwned.com/ | Have I Been Pwned
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+was-i-affected-by-the-canadian-tire-data-breach | Canadian Tire Data Breach
+canada-post-delivery-text-scam-what-to-do | Canada Post Text Scams
+canada-loblaw-data-breach-two-million-customers | Loblaw Data Breach
+data-breach-notification-email-what-to-do | Got a Breach Email? What To Do
+canada-breach-notification-letter-what-to-do | Breach Notification Rights in Canada

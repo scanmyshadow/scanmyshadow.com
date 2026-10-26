@@ -1,0 +1,63 @@
+slug: canada-vancouver-sheriffs-office-scam-call-missed-court
+country: CA
+title: "Vancouver Sheriff's Office" Scam Calls: You Didn't Miss Court
+h1: North Vancouver RCMP Warn of Fake "Vancouver Sheriff's Office" Missed-Court Calls
+desc: Callers posing as the Vancouver Sheriff's Office claim you missed court and face arrest unless you pay. North Vancouver RCMP say it's a scam. How to spot it.
+keywords: vancouver sheriff's office scam, missed court scam call bc, sheriff scam call canada, fake sheriff arrest warrant call, north vancouver rcmp scam warning
+tags: Police Impersonation|Phone Scams|Canada|News
+=== TLDR
+Between **October 7 and 14, 2026**, North Vancouver RCMP received reports of calls from someone claiming to be with the **"Vancouver Sheriff's Office."** The caller says you **missed a court appearance** and will be arrested or held in contempt unless you act now. In one case, they demanded cash. Police confirmed neither the name nor the number is linked to the justice system. Hang up, look up the court's number yourself, and report it.
+
+=== BODY
+## What the caller says
+
+According to the [North Vancouver RCMP release dated October 16, 2026](https://rcmp.ca/en/bc/north-vancouver/news/2026/10/4357934), the script goes like this:
+
+- You **missed a court appearance**.
+- There will be an **arrest** or a **contempt of court** finding unless you act immediately.
+- The threat of **jail time** is used to get you to pay.
+- In at least one case, the caller **demanded cash**.
+
+Police say no money was lost in the incidents reported to them. That's good, and it's also why they went public now.
+
+## Why it works
+
+Most people have never dealt with a sheriff, so they don't know how a real one behaves. The scam fills that gap with a movie version: urgent, scary, and somehow happy to settle everything for cash today.
+
+Here's the reality check. Courts don't phone you to collect cash to cancel an arrest. A missed court date doesn't come with a payment plan offered over the phone.
+
+## The police advice
+
+- **Don't rush** into acting or paying.
+- **Contact the office directly** using an official number you look up yourself.
+- **Hang up** or say no. It's not rude when it's a crook.
+- **Never give out** your name, address, birthdate, Social Insurance Number, card or banking details to a caller you didn't contact.
+- If you didn't start the call, you can't know who's really on the other end.
+
+## Where to report
+
+- **Lost money?** Contact your local police.
+- **Got the call but didn't lose anything?** Report it to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) online or at **1-888-495-8501**.
+
+## Same scam, different badge
+
+Fake sheriff and fake police calls keep popping up across Canada. We covered [[canada-rcmp-spoofed-calls-kelowna-newfoundland-sheriff|spoofed RCMP and sheriff calls in Kelowna and Newfoundland]] and a [[canada-fake-rcmp-email-cybercrime-investigation|fake RCMP "cybercrime investigation" email]] this same week. If scammers knew your number, a free [[/digital-footprint-checker/|exposure check]] shows where it may have leaked.
+
+=== FAQ
+Q: Is the Vancouver Sheriff's Office calling about missed court real?
+A: No. North Vancouver RCMP say the name and number used are not linked to the justice system.
+Q: Will a sheriff call me to pay to avoid arrest?
+A: No. Treat any call demanding payment to avoid arrest as a scam and verify through an official number.
+Q: Where do I report a fake sheriff call in Canada?
+A: Report losses to local police. If you didn't lose money, report to the Canadian Anti-Fraud Centre at 1-888-495-8501.
+
+=== SOURCES
+https://rcmp.ca/en/bc/north-vancouver/news/2026/10/4357934 | North Vancouver RCMP: Sheriff impersonation scam warning (Oct 16, 2026)
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-rcmp-spoofed-calls-kelowna-newfoundland-sheriff | Spoofed RCMP and Sheriff Calls
+canada-fake-rcmp-email-cybercrime-investigation | Fake RCMP Cybercrime Email
+canada-gold-bar-safekeeping-scam-fake-rcmp | Gold Bar Safekeeping Scam
+phone-in-the-car-jury-duty-scam-columbus | Jury Duty Scam Calls (US)
+canada-anti-fraud-centre-reporting-guide | How to Report to the CAFC

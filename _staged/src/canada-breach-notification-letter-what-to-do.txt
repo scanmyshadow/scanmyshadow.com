@@ -1,0 +1,84 @@
+slug: canada-breach-notification-letter-what-to-do
+country: CA
+title: Got a Data Breach Letter in Canada? Your Rights and Next Steps
+h1: Got a Data Breach Notification in Canada? What It Must Tell You and What To Do
+desc: Under PIPEDA, companies must notify you when a breach creates a real risk of significant harm. What the notice should include, how to check it's real, and 6 steps.
+keywords: data breach notification canada, pipeda breach notification, real risk of significant harm, opc breach notification advice, breach letter canada what to do, privacy breach canada rights
+tags: Data Breaches|Privacy Rights|Canada|What To Do
+=== TLDR
+Under PIPEDA, a company must notify you **as soon as feasible** when a breach of its safeguards creates a **real risk of significant harm (RROSH)** to you. The Office of the Privacy Commissioner says the notice should tell you what was compromised, what the company did about it, how you can reduce your risk and who to contact. Then: keep the notice, change passwords, monitor accounts, consider credit alerts and stay alert for months. Fraudsters are patient.
+
+=== BODY
+## When companies must tell you
+
+PIPEDA requires organizations to notify individuals when a breach creates a **real risk of significant harm**, as [summarized by DWW](https://www.dww.com/articles/opc-publishes-advice-on-what-to-do-if-an-individual-receives-a-breach-notification). Notice must come "as soon as feasible" with "easy-to-understand information." (Quebec has its own rules under [[quebec-law-25-privacy-rights-explained|Law 25]].)
+
+## What a good notice includes
+
+The [Office of the Privacy Commissioner](https://priv.gc.ca/en/privacy-topics/information-and-advice-for-individuals/gd_bn_201909/) says organizations should:
+
+- contact you **as soon as possible**;
+- tell you **what personal information** was compromised;
+- explain **what they've done** to reduce your risk;
+- give advice on **how you can reduce** your risk;
+- include **who to contact** with questions.
+
+If your letter is vague about what leaked, you're allowed to ask. Some recent Canadian notices, like [[canada-nova-scotia-power-data-breach-sin-bank|Nova Scotia Power's]], were criticized for exactly that.
+
+## Is the notice real?
+
+Breach notices are a favourite disguise for phishing. Check before you act:
+
+- **Don't use links or numbers** in the notice to "verify" yourself. Go to the company's website by typing it.
+- Find the **privacy officer** contact in the company's privacy policy (the OPC suggests this) and confirm.
+- A real notice **won't ask** for your password, full card number or SIN.
+- Credit monitoring offers should lead to a known provider (like TransUnion or Equifax), set up through the company's official site.
+
+## The OPC's steps
+
+1. **Read the notice carefully** and keep it somewhere safe. You may need it later.
+2. **Change passwords** tied to the breach, and anywhere you reused them.
+3. **Monitor your accounts**, especially if financial info was involved.
+4. **Consider credit alerts** or order your credit report. See our [[canada-free-credit-report-equifax-transunion|free credit report guide]].
+5. **Contact the organization** with questions.
+6. **Stay vigilant over time.** The OPC warns fraudsters may wait before using stolen data.
+
+## Extra steps by data type
+
+| What leaked | Extra step |
+|---|---|
+| SIN | Read [[canada-sin-stolen-what-to-do|what to do if your SIN is stolen]] |
+| Bank account number | Tell your bank; watch for unusual debits |
+| Driver's licence | Ask your provincial licensing office about replacement |
+| Date of birth + address | Place a [[canada-equifax-transunion-fraud-alert-guide|fraud alert]] |
+| Email + password | 2FA everywhere, starting with email |
+
+## If you're not satisfied
+
+You can raise a concern with the company and then file a complaint with the federal Privacy Commissioner. Our guide to [[canada-privacy-commissioner-complaint-how-to|OPC complaints]] explains the process.
+
+## See all your breaches at once
+
+One letter rarely tells the full story. A free [[/digital-footprint-checker/|email exposure check]] lists every known breach your address appears in.
+
+=== FAQ
+Q: When must a Canadian company notify me of a data breach?
+A: Under PIPEDA, when a breach creates a real risk of significant harm to you, as soon as feasible.
+Q: What should a breach notification include?
+A: What information was compromised, what the company did to reduce harm, how you can reduce your risk and who to contact.
+Q: How do I know a breach notice is real?
+A: Don't use links in the notice. Visit the company's website yourself and contact its privacy officer.
+Q: What should I do after getting a breach letter?
+A: Keep the notice, change passwords, monitor accounts, consider credit alerts and stay alert over time.
+
+=== SOURCES
+https://priv.gc.ca/en/privacy-topics/information-and-advice-for-individuals/gd_bn_201909/ | Office of the Privacy Commissioner: What to do if you receive a breach notification
+https://priv.gc.ca/en/opc-news/news-and-announcements/2019/an_190918 | OPC: Advice for Canadians on breach notifications
+https://www.dww.com/articles/opc-publishes-advice-on-what-to-do-if-an-individual-receives-a-breach-notification | DWW: OPC advice on breach notifications
+
+=== RELATED
+canada-privacy-commissioner-complaint-how-to | Complain to the Privacy Commissioner
+canada-pipeda-explained | PIPEDA Explained
+canada-nova-scotia-power-data-breach-sin-bank | Nova Scotia Power Data Breach
+data-breach-notification-email-what-to-do | Got a Breach Email? What To Do
+canada-sin-stolen-what-to-do | SIN Stolen? What To Do

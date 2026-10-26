@@ -1,0 +1,71 @@
+slug: canada-fake-rcmp-email-cybercrime-investigation
+country: CA
+title: Fake RCMP Email Says You're Under Cybercrime Investigation
+h1: Fake RCMP Email Claims You're "the Subject of a Cybercrime Investigation"
+desc: Saskatchewan RCMP warn of an email threatening arrest and pointing you to a Gmail address. The RCMP doesn't use Gmail. What to do if you got one.
+keywords: fake rcmp email, rcmp cybercrime investigation email scam, rcmp scam email gmail, saskatchewan rcmp scam warning, police impersonation email canada
+tags: Police Impersonation|Email Scams|Canada|News
+=== TLDR
+On **October 14, 2026**, Saskatchewan RCMP warned of an email that claims you are **"the subject of a cybercrime investigation"** and threatens arrest unless you contact "investigators" at a **Gmail address** (carcmpgrca@gmail.com). The RCMP does not run investigations out of Gmail. Don't reply, don't click, don't send money or gift cards. If you're unsure, call your local detachment through 310-RCMP.
+
+=== BODY
+## The email
+
+According to [Saskatchewan RCMP](https://rcmp.ca/en/saskatchewan/news/2026/10/4357840), the message:
+
+- says you're **under a cybercrime investigation**;
+- **threatens arrest** if you don't respond;
+- tells you to contact "investigators" at **carcmpgrca@gmail.com**.
+
+It's one of several police-themed scams the Canadian Anti-Fraud Centre tracks.
+
+## The giveaway
+
+A national police force with a full IT department would not hand out a free Gmail address. That alone settles it. If a "federal investigator" emails from the same kind of account your nephew uses for Fortnite, it's not federal.
+
+Other red flags common to these emails:
+
+- vague accusations with no case details you can check;
+- urgency ("respond within 24 hours or a warrant will be issued");
+- a push toward payment, often gift cards or crypto, to "close the file."
+
+## What the RCMP says to do
+
+- **Don't reply** to the email.
+- **Don't click** any links.
+- **Don't send** personal information.
+- **Don't send money or gift cards.**
+- If you're unsure, call your local RCMP detachment through **310-RCMP**.
+- Report it to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) online or at **1-888-495-8501**.
+
+## If you already replied
+
+- Stop all contact.
+- If you shared ID or banking details, call your bank and consider a [[canada-equifax-transunion-fraud-alert-guide|fraud alert]].
+- If you sent your SIN, read [[canada-sin-stolen-what-to-do|what to do if your SIN is stolen]].
+- Change your email password and turn on two-factor authentication.
+
+## How did they get my email?
+
+Mass scam emails go to addresses pulled from data breaches. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches your address is in, which explains a lot about your inbox.
+
+=== FAQ
+Q: Is the RCMP cybercrime investigation email real?
+A: No. Saskatchewan RCMP warned it is a scam that directs people to a Gmail address.
+Q: Does the RCMP use Gmail?
+A: No. The scam's use of a Gmail address is a clear sign it is fake.
+Q: What should I do if I get a fake RCMP email?
+A: Don't reply or click links, don't send money, and report it to the Canadian Anti-Fraud Centre.
+Q: How do I check if the RCMP really contacted me?
+A: Call your local RCMP detachment through 310-RCMP.
+
+=== SOURCES
+https://rcmp.ca/en/saskatchewan/news/2026/10/4357840 | Saskatchewan RCMP: Fake RCMP email warning (Oct 14, 2026)
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-vancouver-sheriffs-office-scam-call-missed-court | Fake Sheriff Missed-Court Calls
+canada-rcmp-spoofed-calls-kelowna-newfoundland-sheriff | Spoofed RCMP Calls
+canada-fake-fedex-intercepted-package-fee-email-rcmp | Fake FedEx "Intercepted Package" Email
+canada-fake-cafc-recovery-scam-54-million | Fake CAFC Recovery Scams
+canada-anti-fraud-centre-reporting-guide | How to Report to the CAFC

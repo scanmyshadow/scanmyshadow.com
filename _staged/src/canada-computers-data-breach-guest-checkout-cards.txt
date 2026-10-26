@@ -1,0 +1,63 @@
+slug: canada-computers-data-breach-guest-checkout-cards
+country: CA
+title: Canada Computers Data Breach: Guest Checkout Card Details Exposed
+h1: Canada Computers Data Breach: Guest Checkout Customers' Card Details Exposed
+desc: Canada Computers & Electronics says guest checkouts between Dec 29 and Jan 22 exposed personal and credit card details. Who's affected and what to do.
+keywords: canada computers data breach, canada computers breach credit card, canada computers guest checkout breach, canada computers hack, canada computers credit monitoring
+tags: Data Breaches|Canada|Card Fraud|What To Do
+=== TLDR
+Canada Computers & Electronics says **guest checkouts made online between December 29 and January 22** were exposed to unauthorized access, including personal details and **credit card information**. Customers who logged in with a member account and in-store shoppers were not affected. Affected customers are being offered **two years of credit monitoring**. If you checked out as a guest in that window, call your card issuer and ask for a new card.
+
+=== BODY
+## What happened
+
+Canada Computers is a Canadian electronics retailer with about 30 stores, mainly in Ontario, Quebec and BC. According to [TEISS](https://www.teiss.co.uk/cyber-threats/canada-computers-confirms-data-breach-exposing-customer-personal-and-credit-card-information-17028), the company learned of the breach on **January 22** and started notifying customers on **January 25**, after revising dates it had first given.
+
+## Who is affected
+
+| Shopper | Affected? |
+|---|---|
+| Online **guest checkout**, Dec 29 to Jan 22 | Yes |
+| Online, logged into a member account | No, per the company |
+| In-store purchase | No, per the company |
+
+The company describes the number affected as "small" or "limited," without a figure. An independent forensic firm is investigating how it happened.
+
+Yes, this is the rare case where being lazy and not making an account was the wrong call. Usually it's the opposite.
+
+## What was exposed
+
+Personal details entered during guest checkout (think name, address, email, phone) **plus the credit card details** used. That combination is what card fraudsters want.
+
+## What to do
+
+1. **Call your card issuer** using the number on the back of your card. Tell them about the breach and ask for a replacement card.
+2. **Check statements** from late December onward for small "test" charges, which often come before big ones.
+3. **Sign up for the two years of credit monitoring** offered in the notification.
+4. **Watch for phishing.** Fake "refund for the breach" emails are a classic follow-up. Canada Computers won't need your card number again to send you anything.
+5. **Report card fraud** to your issuer first, then to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Card fraud is usually reversible
+
+Unauthorized credit card charges reported promptly are generally reversed by issuers. The bigger risk is the personal data that came with the card. Run a free [[/digital-footprint-checker/|exposure check]] to see where else your email turns up.
+
+=== FAQ
+Q: Who was affected by the Canada Computers data breach?
+A: Customers who used online guest checkout between December 29 and January 22.
+Q: Were in-store customers affected?
+A: No. The company says in-store purchases and logged-in member accounts were not affected.
+Q: Was credit card information stolen?
+A: Yes. Personal details and associated credit card information from guest checkouts were exposed.
+Q: Is Canada Computers offering credit monitoring?
+A: Yes, two years of credit monitoring and identity protection for impacted customers.
+
+=== SOURCES
+https://www.teiss.co.uk/cyber-threats/canada-computers-confirms-data-breach-exposing-customer-personal-and-credit-card-information-17028 | TEISS: Canada Computers confirms data breach
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+was-i-affected-by-the-canadian-tire-data-breach | Canadian Tire Data Breach
+canada-free-credit-report-equifax-transunion | Free Credit Reports in Canada
+canada-equifax-transunion-fraud-alert-guide | Fraud Alerts in Canada
+data-breach-notification-email-what-to-do | Got a Breach Email? What To Do
+was-i-affected-by-the-home-depot-data-breach | Home Depot Data Breach

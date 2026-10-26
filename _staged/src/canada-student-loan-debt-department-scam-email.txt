@@ -1,0 +1,70 @@
+slug: canada-student-loan-debt-department-scam-email
+country: CA
+title: "Student Loan Debt Department" Emails Are Scams: It Doesn't Exist
+h1: Student Loan Scam Emails in Canada: There Is No "Student Loan Debt Department"
+desc: Emails telling Canadians to contact a "Student Loan Debt Department" are scams; no such department exists anywhere in Canada. How to check your real student loan.
+keywords: student loan scam canada, student loan debt department email, canada student loan scam email, nslsc scam, student loan forgiveness scam canada, fake student loan email
+tags: Government Impersonation|Email Scams|Canada|What To Do
+=== TLDR
+In **March 2025**, Newfoundland and Labrador warned that emails asking people to contact a **"Student Loan Debt Department"** are scams. **No such department exists in any Canadian jurisdiction.** Delete them without replying. If you want to check your real loan, log in to your official student aid account or call your provincial student aid office using a number you look up yourself.
+
+=== BODY
+## The email
+
+The [Government of Newfoundland and Labrador's advisory](https://www.gov.nl.ca/releases/2025/education-en/0307n03/) on March 7, 2025 described emails directing recipients to a **"Student Loan Debt Department."** The province was clear: that department doesn't exist anywhere in Canada. The province had issued a [similar warning in 2023](https://www.gov.nl.ca/releases/2023/education-en/0714n04/), so this isn't a one-off.
+
+Inventing a government department is bold. It's also handy for spotting fakes: if you can't find the department on any official government site, it's not real.
+
+## What they want
+
+These emails typically aim to:
+
+- scare you about **debt, collections or penalties**, or tempt you with **forgiveness**;
+- get you to **call or reply**;
+- collect your **SIN, banking info, card numbers or passwords**;
+- take a **fee** for "processing" relief you could get for free, or that doesn't exist.
+
+## The official advice
+
+- **Don't open** questionable links.
+- **Keep personal details**, including card numbers, to yourself.
+- **Don't share passwords.**
+- **Ignore urgent demands** from senders you don't know.
+- **Report** suspected scam emails right away.
+
+NL students can verify with Student Financial Services at **709-729-5849** or **1-888-657-0800**.
+
+## How to check your real student loan
+
+- Log in to your official federal or provincial student aid account by typing the address yourself.
+- Call your provincial student aid office using a number from its official website.
+
+## If you replied or paid
+
+1. Call your bank if you shared card or account details.
+2. If you shared your SIN, see [[canada-sin-stolen-what-to-do|SIN stolen: what to do]].
+3. Report to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) and local police.
+
+Students are prime targets because their emails leak through school systems, as the [[was-i-affected-by-the-powerschool-data-breach|PowerSchool breach]] showed. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches your address is in.
+
+=== FAQ
+Q: Is there a Student Loan Debt Department in Canada?
+A: No. Newfoundland and Labrador says no such department exists in any Canadian jurisdiction.
+Q: What should I do with a student loan debt department email?
+A: Delete it without replying and don't click links.
+Q: How do I check my real Canadian student loan?
+A: Log in to your official student aid account or call your provincial student aid office using an official number.
+Q: Where do I report a student loan scam in Canada?
+A: Report it to the Canadian Anti-Fraud Centre and your provincial student aid office.
+
+=== SOURCES
+https://www.gov.nl.ca/releases/2025/education-en/0307n03/ | Government of NL: Student Financial Services advises of fraudulent email (March 2025)
+https://www.gov.nl.ca/releases/2023/education-en/0714n04/ | Government of NL: Public cautioned about student loan email scam (2023)
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-gst-hst-credit-scam-text | GST/HST Credit Scam Texts
+canada-sin-stolen-what-to-do | SIN Stolen? What To Do
+was-i-affected-by-the-powerschool-data-breach | PowerSchool Data Breach
+how-to-report-a-fake-job-offer | How to Report a Fake Job Offer
+canada-fake-rcmp-email-cybercrime-investigation | Fake RCMP Cybercrime Email
