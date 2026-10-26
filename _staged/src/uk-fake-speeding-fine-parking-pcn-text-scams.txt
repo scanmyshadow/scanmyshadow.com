@@ -1,0 +1,74 @@
+slug: uk-fake-speeding-fine-parking-pcn-text-scams
+country: UK
+title: Fake Speeding Fine and Parking PCN Texts: How to Tell
+h1: Fake Speeding Fine and Parking Charge Texts: How Real UK Fines Actually Arrive
+desc: Texts claiming a speed camera caught you, or that a ParkingEye or RingGo payment failed, are scams. How real UK fines are sent and what to do if you clicked.
+keywords: speeding fine text scam uk, speed camera text scam, parking fine text scam, pcn text message scam, parkingeye text scam, ringgo scam text
+tags: Text Scams|Motoring|United Kingdom|Smishing
+=== TLDR
+UK police don't send speeding fines by text, and councils issue Penalty Charge Notices on your windscreen or by post. Yet scam texts keep claiming a speed camera caught you (Which?, September 30, 2026), or that a ParkingEye or RingGo payment didn't go through. They link to copycat sites that take your card details. Delete, report to 7726, and check any real fine against the paper letter.
+
+=== BODY
+## The three texts doing the rounds
+
+Which? has logged all three versions in its [scam alerts](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) this year:
+
+- **Speed camera text (Sept 30, 2026):** sent from a spoofed number, it says a speed camera caught you and links to a copycat government website, urging you to “respond quickly.”
+- **ParkingEye text (Aug 12, 2026):** says your parking payment wasn't received and links to a payment page.
+- **RingGo text (July 14, 2026):** says a parking payment is outstanding and links to a fake site with “ringgo” in the address.
+
+They work because almost every driver has a nagging doubt. Was I doing 34 in that 30? Did the app actually take the payment? Scammers sell that doubt back to you for the price of your card details.
+
+## How real fines arrive
+
+**Speeding.** Speeding tickets come from the police, by post to the registered keeper of the vehicle, or are given at the roadside with a letter to follow. As [Medway Council](https://www.medway.gov.uk/news/article/1772/speeding_ticket_scam_text_alert_for_residents) put it when warning residents, the police will never contact you about a speeding ticket by text.
+
+**Council parking fines (PCNs).** Penalty Charge Notices are placed on your windscreen or sent by post. Not by text.
+
+**Private car park charges.** Firms like ParkingEye send a Parking Charge Notice by post to the registered keeper. Apps like RingGo show your sessions and any problems inside the app itself.
+
+So the rule is simple: a fine that only exists as a text message doesn't exist.
+
+## Spot the fake
+
+- The link isn't a gov.uk address, or it is a lookalike such as “gov-uk-fines.com”.
+- There's a deadline measured in hours, with a threat of court or a bigger fine.
+- It asks for your full card details, often for a small amount like £3.50 or £35. Small amounts feel safe to pay. They are the hook, not the goal.
+- It doesn't show your registration number, or shows one that isn't yours.
+
+## If you clicked or paid
+
+1. **Call your bank** on the number on your card, or dial **159**, and block the card.
+2. **Expect a follow-up call** from your “bank's fraud team.” It's often the same scammers, now armed with your card details. Hang up and call the bank yourself.
+3. **Report the text** by forwarding it to 7726, and report losses to [Report Fraud](https://www.reportfraud.police.uk/).
+4. If you entered your address and date of birth too, read [[how-to-report-identity-theft-uk|what to do about identity theft in the UK]].
+
+## Related motoring scams
+
+DVLA, “vehicle tax failed” and congestion charge texts use the same playbook. See our guide to [[dvla-scam-what-to-know|DVLA scams]]. The US version of this trick, unpaid toll texts, is covered in [[ez-pass-unpaid-toll-text-scam|E-ZPass toll text scams]].
+
+## Why you got the text
+
+Scammers send these to huge lists of numbers bought from breaches. Your number being on a list doesn't mean you did anything wrong. A free [[/digital-footprint-checker/|email exposure check]] shows if your details are in known breaches, which is often how these lists get built.
+
+=== FAQ
+Q: Do UK police send speeding fines by text?
+A: No. Speeding tickets are sent by post to the registered keeper or given at the roadside with a follow-up letter.
+Q: Can a council send a parking PCN by text?
+A: No. Council PCNs are put on your windscreen or sent by post.
+Q: I paid a small amount on a fake fine site. What now?
+A: Call your bank or 159 immediately to block your card. Small payments are often used to steal full card details.
+Q: Where do I report a fake fine text?
+A: Forward it to 7726 and report any loss to Report Fraud.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (speed camera, ParkingEye and RingGo texts)
+https://www.medway.gov.uk/news/article/1772/speeding_ticket_scam_text_alert_for_residents | Medway Council: Speeding ticket scam text alert
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+what-is-smishing | What Is Smishing?
+dvla-scam-what-to-know | DVLA Scams: What to Know
+us-fake-qr-codes-parking-meters-ftc-warning | Fake QR Codes on Parking Meters
+royal-mail-delivery-text-scam-what-to-do | Royal Mail Text Scams
+uk-scam-news-october-2026 | UK Scam News: October 2026

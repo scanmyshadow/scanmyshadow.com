@@ -1,0 +1,74 @@
+slug: uk-asos-data-breach-what-customers-should-do
+country: UK
+title: ASOS Data Breach 2026: What Was Taken and What to Do
+h1: ASOS Data Breach: Names, Addresses and Even Your Searches. What To Do Now
+desc: Hackers sent ASOS app users an “ASOS HACKED” alert, then leaked samples of names, addresses, dates of birth and shopping searches. What happened and next steps.
+keywords: asos data breach, asos hacked notification, asos breach october 2026, asos customer data leak, asos phishing what to do
+tags: Data Breach|Retail|United Kingdom|What To Do
+=== TLDR
+In early October 2026 ASOS app users got a push notification reading “ASOS HACKED”, sent by attackers. ASOS confirmed that third-party platforms it uses to talk to customers were accessed and that names and contact details may be exposed. Samples given to the BBC reportedly also include addresses, phone numbers, dates of birth, customer numbers and the searches people made on ASOS. Passwords and card details were not accessed, ASOS says. Expect very personal-sounding phishing.
+
+=== BODY
+## What happened
+
+On a Tuesday morning in October 2026 ASOS shoppers received an in-app alert that simply said “ASOS HACKED”, addressed to the company's data protection officer: “we have fully compromised the Snowflake instance. Engage with us, or we will leak it.” [BleepingComputer](https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/) reports that the message pointed to a Telegram channel run by a group calling itself “Xuanye.”
+
+ASOS confirmed that third-party platforms it uses to communicate with customers had been accessed without authorisation, and said basic personal information, including names and contact details, may have been exposed. It told customers to ignore the rogue notification and not to click its link.
+
+## How they got in
+
+According to [Malwarebytes](https://www.malwarebytes.com/blog/data-breaches/2026/10/asos-breach-update-hackers-stole-customer-details-and-shopping-searches), ASOS says attackers tricked an employee into handing over login details, then used them to reach third-party platforms. The attackers first blamed Snowflake, which said its own platform was not compromised. They later claimed access came through a personalisation tool built on Snowflake.
+
+## What may have been taken
+
+Per the BBC sample reported by Malwarebytes:
+
+- names, home addresses, phone numbers and email addresses;
+- customer numbers and dates of birth;
+- **searches made on the ASOS site** (for example “glamorous wide fit”);
+- when each customer started shopping with ASOS.
+
+ASOS says payment card details and passwords were not accessed. The number of customers affected has not been published, and the attackers reportedly demanded a ransom within two weeks.
+
+## Why the search history part matters
+
+Contact details leak all the time. Shopping searches are different. A phishing email that says “Your saved search for petite wide-leg jeans has a 70% discount, confirm your address to claim” feels like it came from ASOS because it knows things only ASOS should know. That is the risk here: not your card, but how convincing the next fake message can be.
+
+## What to do now
+
+1. **Ignore any message about the breach, refunds or compensation** that arrives by email, text or call. ASOS says it will contact affected customers directly and will never ask for passwords, codes or card details.
+2. **Change your ASOS password anyway**, and anywhere you reused it. Here's [[check-if-your-password-has-been-leaked|how to check if a password has leaked]].
+3. **Turn on two-factor authentication** on your email first, because your email resets everything else. See [[how-to-set-up-two-factor-authentication|setting up 2FA]].
+4. **Watch for delivery-themed texts.** Fake “your ASOS parcel is held” messages are an easy follow-up, see [[evri-delivery-text-scam-what-to-do|Evri text scams]] and [[royal-mail-delivery-text-scam-what-to-do|Royal Mail text scams]].
+5. **Report phishing**: forward emails to report@phishing.gov.uk and texts to 7726.
+
+## Where else has your email been?
+
+If you shop online, your email has almost certainly been in more than one breach. A free [[/digital-footprint-checker/|email exposure check]] shows which ones, so you know what a scammer might already know about you. If you think you have lost money, report it to [Report Fraud](https://www.reportfraud.police.uk/) and see our guide to [[how-to-report-a-scam-to-action-fraud-uk|reporting fraud in the UK]].
+
+## Can I complain or claim?
+
+You can ask ASOS what data it holds on you with a [[subject-access-request-dsar-guide|subject access request]], and complain to the ICO if you are unhappy with its response, see [[how-to-complain-to-the-ico|how to complain to the ICO]].
+
+=== FAQ
+Q: Was my card information stolen in the ASOS breach?
+A: ASOS says payment card information and passwords were not accessed.
+Q: What data was exposed?
+A: ASOS confirmed names and contact details may have been exposed. Samples given to the BBC reportedly also include addresses, phone numbers, dates of birth, customer numbers and site searches.
+Q: How did the attackers get in?
+A: ASOS says an employee was tricked into giving up login details, which were used to access third-party platforms.
+Q: How do I know if a message from ASOS is real?
+A: Don't click links in unexpected messages. Open the ASOS app or website directly. ASOS says it will never ask for passwords, codes or card details.
+
+=== SOURCES
+https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/ | BleepingComputer: ASOS confirms data breach after hacked in-app notifications (Oct 6, 2026)
+https://www.malwarebytes.com/blog/data-breaches/2026/10/asos-breach-update-hackers-stole-customer-details-and-shopping-searches | Malwarebytes: ASOS breach update, customer details and shopping searches (Oct 9, 2026)
+https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/ | TechCrunch: ASOS confirms breach of customer data
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+was-i-affected-by-the-m-and-s-co-op-cyber-attack | Was I Affected by the M&S and Co-op Cyber Attacks?
+data-breach-notification-email-what-to-do | Got a Data Breach Notification?
+how-to-complain-to-the-ico | How to Complain to the ICO
+uk-scam-news-october-2026 | UK Scam News: October 2026
+recent-data-breaches-this-week | Recent Data Breaches This Week

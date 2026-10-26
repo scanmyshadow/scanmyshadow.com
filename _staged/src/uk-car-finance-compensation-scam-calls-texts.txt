@@ -1,0 +1,80 @@
+slug: uk-car-finance-compensation-scam-calls-texts
+country: UK
+title: Car Finance Compensation Scams: Spot the Fake Calls and Texts
+h1: “You're Owed Car Finance Compensation”: How to Spot the Fake Calls and Texts
+desc: Lenders are now contacting customers under the FCA's £7.5bn car finance redress scheme, and scammers are copying them. How the real scheme works and the red flags.
+keywords: car finance compensation scam, motor finance redress scam calls, fca car finance scheme text, car finance claim scam uk, pcp commission compensation scam
+tags: Car Finance|Phone Scams|United Kingdom|Compensation Scams
+=== TLDR
+The FCA's motor finance redress scheme covers car finance deals from April 2007 to November 2024 where the lender paid the dealer commission, with an average payout of about £830 per agreement and roughly £7.5bn in total. Lenders must contact eligible customers themselves, and you don't need a claims firm. Scammers are exploiting that with calls and texts that ask for bank details, ID or an upfront “release fee.” A real lender will never charge you to receive compensation.
+
+=== BODY
+## The real scheme in plain English
+
+After years of court cases about hidden dealer commissions, the Financial Conduct Authority set up an industry-wide compensation scheme. According to [Macfarlanes' summary of the FCA's final rules](https://www.macfarlanes.com/insights/102mqom/motor-finance-redress-the-fcas-final-rules-on-the-industry-wide-redress-scheme/):
+
+- it covers motor finance agreements from **6 April 2007 to 1 November 2024** where commission was paid by the lender to the broker;
+- the average payout is about **£830 per agreement**, with total redress estimated at **around £7.5bn**;
+- lenders must **proactively identify and contact** affected customers;
+- if you are contacted, you have **6 months to respond**;
+- if you are not contacted but think you are owed, you can complain to your lender by **31 August 2027**;
+- the FCA expects the vast majority of cases settled by the end of 2027.
+
+Lenders had implementation deadlines of 30 June 2026 and 31 August 2026 depending on the agreement date, which is why letters and emails are landing now. And where real letters go, fake ones follow.
+
+## What the scam looks like
+
+The FCA has repeatedly [warned about scam calls](https://www.fca.org.uk/news/news-stories/beware-car-finance-scam-calls-fca-warns) from people posing as car finance lenders and claiming you are owed compensation. Typical versions:
+
+- a text saying “You may be owed up to £2,487 for mis-sold car finance, reply YES” (Which? flagged one like this in May 2026);
+- a call from “your lender's compensation team” asking you to confirm your bank details, date of birth and driving licence number;
+- an email with a link to “accept your offer” that leads to a page asking for card details;
+- a request for a “processing” or “release” fee before the money is sent.
+
+## Red flags
+
+- **Any upfront fee.** Real redress is paid to you, not by you.
+- **They contacted you about a lender you never used.** Scammers send to everyone.
+- **Pressure to act today.** The real scheme gives you months.
+- **Requests for your online banking password, PIN or a one-time code.** No lender needs these to pay you.
+
+## You don't need a claims firm
+
+The [FCA says](https://www.fca.org.uk/news/press-releases/fca-launches-campaign-awareness-motor-finance-compensation-scheme) you don't need a claims management company or law firm, and using one could cost around 30% of your compensation. Its research found 41% of people aware of the scheme didn't know that. Some claims firms are legitimate but expensive; some are not legitimate at all. Before signing anything, check the firm on the [FCA register](https://register.fca.org.uk/).
+
+## How to check a message is real
+
+1. Don't use the number or link in the message.
+2. Find your lender's contact details from your original agreement, an old statement or the lender's own website.
+3. Call them and ask whether they have written to you about motor finance redress.
+4. Check the FCA's own [car finance complaints page](https://www.fca.org.uk/consumers/car-finance-complaints) for the current position.
+
+## If you've already shared details
+
+Call your bank on the number on your card (or dial 159), change any passwords you gave out, and report it to [Report Fraud](https://www.reportfraud.police.uk/). Forward scam texts to 7726. If you shared ID documents, consider [[how-to-report-identity-theft-uk|registering with Cifas and reporting identity theft]].
+
+Scammers often have your name and number from old breaches before they ever call. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data, which tells you how targeted the next call might be.
+
+=== FAQ
+Q: Do I need a claims company for car finance compensation?
+A: No. The FCA says lenders must contact affected customers themselves, and a claims firm could take around 30% of your payout.
+Q: Which car finance agreements are covered?
+A: Agreements from 6 April 2007 to 1 November 2024 where the lender paid commission to the broker, under the FCA's final rules.
+Q: How much is the average payout?
+A: About £830 per agreement, with total redress estimated at around £7.5bn.
+Q: Will a lender ever ask me to pay a fee to release compensation?
+A: No. Any request for an upfront fee is a scam.
+
+=== SOURCES
+https://www.macfarlanes.com/insights/102mqom/motor-finance-redress-the-fcas-final-rules-on-the-industry-wide-redress-scheme/ | Macfarlanes: Motor finance redress, the FCA's final rules (Apr 2026)
+https://www.fca.org.uk/news/press-releases/fca-launches-campaign-awareness-motor-finance-compensation-scheme | FCA: Campaign to raise awareness of motor finance compensation scheme
+https://www.fca.org.uk/news/news-stories/beware-car-finance-scam-calls-fca-warns | FCA: Beware car finance scam calls
+https://www.fca.org.uk/consumers/car-finance-complaints | FCA: Car finance complaints
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts
+
+=== RELATED
+uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams
+how-to-report-a-scam-to-action-fraud-uk | How to Report a Scam in the UK
+uk-politeness-scam-calls-take-five-53-percent | Why Politeness Helps Scam Callers
+pension-transfer-uk-scam-what-to-know | Pension Transfer Scams in the UK
+uk-scam-news-october-2026 | UK Scam News: October 2026

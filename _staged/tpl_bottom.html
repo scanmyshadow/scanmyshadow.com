@@ -1,0 +1,151 @@
+  <div class="price-wrap">
+    <div class="price-card fx-dark">
+      <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+      <div class="particles" data-particles></div>
+      <div class="sheen"></div>
+      <div class="p-inner">
+        <div class="price-left">
+          <div class="price-step">Step 1 &middot; Free</div>
+          <p class="price-free-h">See if your email has already leaked</p>
+          <a href="https://www.scanmyshadow.com/digital-footprint-checker/" class="btn-price" onclick="if(typeof gtag==='function'){gtag('event','blog_bottom_cta_click',{})}">Check my email free &rarr;</a>
+          <div class="price-next">Want your phone checked too? Full scan <span class="price-tag">$9.99</span> one-time, only if you choose.</div>
+        </div>
+        <div class="price-right">
+          <ul class="price-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Checks your email against known data breaches</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Shows which sites leaked it, and when</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Shows what leaked: passwords, phone, address</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Result on screen in about 30 seconds</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> We don&#x27;t store the email you check</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="https://www.scanmyshadow.com/" class="logo">
+          <img src="https://www.scanmyshadow.com/logo.webp" class="logo-img" alt="Scan My Shadow">
+          <img src="https://www.scanmyshadow.com/logo-dark.webp" class="logo-img logo-dark-img" alt="Scan My Shadow" loading="lazy">
+        </a>
+        <p>A private scan of your phone and email across known breaches and leaks &mdash; with a plain-language report, and we don't store the number or email you submit.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Product</h4>
+          <a href="https://www.scanmyshadow.com/#how">How it works</a>
+          <a href="https://www.scanmyshadow.com/#pricing">Pricing</a>
+          <a href="https://www.scanmyshadow.com/#faq">FAQ</a>
+          <a href="https://app.scanmyshadow.com/maya-chat.html" target="_blank" rel="noopener">Ask Maya</a>
+        </div>
+        <div class="foot-col">
+          <h4>Legal</h4>
+          <a href="https://legal.scanmyshadow.com/terms.html" target="_blank" rel="noopener">Terms &amp; Conditions</a>
+          <a href="https://legal.scanmyshadow.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>
+          <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a>
+        </div>
+        <div class="foot-col">
+          <h4>Company</h4>
+          <a href="https://www.scanmyshadow.com/about.html">About Us</a>
+          <a href="https://www.scanmyshadow.com/contact.html">Contact Us</a>
+          <a href="https://www.scanmyshadow.com/digital-footprint-checker/">Free Exposure Check</a>
+          <a href="https://www.scanmyshadow.com/tools/">Free Privacy Tools</a>
+        </div>
+        <div class="foot-col">
+          <h4>Support</h4>
+          <a href="mailto:support@scanmyshadow.com">support@scanmyshadow.com</a>
+          <a href="https://www.scanmyshadow.com/blog/" rel="noopener">Blog</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span id="footYear"></span> Scan My Shadow &middot; All Rights Reserved</span>
+      <span>Made for people who'd rather know.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-particles]').forEach(function(box){
+    for(var i=0;i<14;i++){
+      var s=document.createElement('i');
+      s.style.left=(Math.random()*100)+'%';
+      s.style.animationDuration=(7+Math.random()*7)+'s';
+      s.style.animationDelay=(-Math.random()*10)+'s';
+      var sc=0.6+Math.random()*1.3;
+      s.style.width=(3*sc)+'px'; s.style.height=(3*sc)+'px';
+      box.appendChild(s);
+    }
+  });
+</script>
+
+<script src="/assets/geo-price.js"></script>
+<script src="https://www.scanmyshadow.com/assets/theme.js"></script>
+
+<script>
+  var nav = document.getElementById('nav');
+  window.addEventListener('scroll', function(){
+    nav.classList.toggle('scrolled', window.scrollY > 8);
+  });
+
+  var navToggle = document.getElementById('navToggle');
+  var mobileMenu = document.getElementById('mobileMenu');
+
+  if(navToggle && mobileMenu){
+    navToggle.addEventListener('click', function(){
+      var open = mobileMenu.classList.toggle('open');
+      navToggle.classList.toggle('open', open);
+      navToggle.setAttribute('aria-expanded', open);
+    });
+    Array.prototype.forEach.call(mobileMenu.querySelectorAll('a'), function(a){
+      a.addEventListener('click', function(){
+        mobileMenu.classList.remove('open');
+        navToggle.classList.remove('open');
+        navToggle.setAttribute('aria-expanded','false');
+      });
+    });
+  }
+
+  var toolsTrigger = document.getElementById('toolsTrigger');
+  var toolsDropdown = document.getElementById('toolsDropdown');
+
+  if(toolsTrigger && toolsDropdown){
+    toolsTrigger.addEventListener('click', function(e){
+      e.stopPropagation();
+      var open = toolsDropdown.classList.toggle('open');
+      toolsTrigger.classList.toggle('open', open);
+      toolsTrigger.setAttribute('aria-expanded', open);
+    });
+    document.addEventListener('click', function(e){
+      if(!toolsDropdown.contains(e.target) && e.target !== toolsTrigger){
+        toolsDropdown.classList.remove('open');
+        toolsTrigger.classList.remove('open');
+        toolsTrigger.setAttribute('aria-expanded','false');
+      }
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape'){
+        toolsDropdown.classList.remove('open');
+        toolsTrigger.classList.remove('open');
+        toolsTrigger.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  var mobileToolsToggle = document.getElementById('mobileToolsToggle');
+  var mobileToolsPanel = document.getElementById('mobileToolsPanel');
+
+  if(mobileToolsToggle && mobileToolsPanel){
+    mobileToolsToggle.addEventListener('click', function(){
+      var open = mobileToolsPanel.classList.toggle('open');
+      mobileToolsToggle.classList.toggle('open', open);
+      mobileToolsToggle.setAttribute('aria-expanded', open);
+    });
+  }
+</script>
+</body>
+</html>

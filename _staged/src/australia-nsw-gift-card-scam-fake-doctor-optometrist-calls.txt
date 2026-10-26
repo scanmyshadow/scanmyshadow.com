@@ -1,0 +1,67 @@
+slug: australia-nsw-gift-card-scam-fake-doctor-optometrist-calls
+country: AU
+title: NSW Gift Card Scam: Fake Doctors and Old Friends Ask for Codes
+h1: Fake Doctor, Fake Optometrist, Fake Old Friend: NSW Police Warn of Gift Card Calls
+desc: NSW Police say callers posing as doctors, optometrists and old friends talked people into buying thousands in gift cards at supermarkets and post offices.
+keywords: gift card scam nsw, fake doctor gift card scam, optometrist scam call, nsw police gift card warning, multicultural community scam sydney
+tags: Gift Card Scams|Impersonation|Australia|Scam Alert
+=== TLDR
+NSW Police warned in October 2026 that callers are posing as doctors, optometrists and old friends, asking people to buy gift cards from supermarkets and post offices and read out the codes. One 54-year-old woman bought about $7,000 in cards for a fake optometrist; two men in their 60s and 70s bought about $9,000 each. Most victims are from Sydney's multicultural communities. No doctor, clinic or real friend needs gift card codes.
+
+=== BODY
+## What NSW Police reported
+
+According to [Yahoo News Australia](https://au.news.yahoo.com/aussies-lose-9000-to-sneaky-supermarket-post-office-scam-as-police-issue-urgent-warning-235602453.html), NSW Police have had multiple reports since September 2026:
+
+- a **54-year-old woman** bought about **$7,000** in gift cards after a call from her “optometrist”;
+- a **63-year-old man** bought about **$9,000** after a call from an “old friend”;
+- a **72-year-old man** bought about **$9,000** and sent around **$7,000** in codes to his “doctor” before family stepped in and called police.
+
+Most victims were from Sydney's multicultural communities, particularly people of Chinese descent, according to police.
+
+## Why these disguises work
+
+Cybercrime Squad Commander Detective Superintendent Matthew Craft said scammers are “using people's trust by impersonating medical professionals, businesses and even friends.” A doctor's request feels like an instruction, not a question. An old friend's request feels like loyalty. And the caller often speaks your language, which lowers your guard further.
+
+The gift card part is the giveaway. They're sold everywhere, they're easy to buy in bulk, and once a code is read out the money is gone in minutes. We cover why scammers love them in [[gift-card-scam-statistics-2026|gift card scam statistics]].
+
+## The rules
+
+- **A real doctor, clinic or business never asks to be paid in gift cards.**
+- **Never read out or text a gift card code** to anyone who called you.
+- **Check with someone in person** before buying gift cards for anyone who phoned you. Police suggest a trusted person face to face.
+- **Hang up and call back** on the number you already have for the clinic or friend.
+
+## Help an older relative
+
+If your parents or grandparents speak another language at home, tell them about this scam in that language. Our guides on [[protect-elderly-parents-from-phone-scams|protecting elderly parents]] and [[scams-targeting-communities-nris-immigrants-veterans|scams targeting migrant communities]] have simple scripts. A rule that works: “If anyone asks for gift cards, call me first.”
+
+## If you've bought cards
+
+Contact the gift card company straight away with the receipt and card numbers; sometimes unused balances can be frozen. Our [[gift-card-scam-recovery-what-to-do|gift card recovery guide]] lists the steps. Report it to [Scamwatch](https://www.scamwatch.gov.au/) and, if you lost money, through [ReportCyber](https://www.cyber.gov.au/report-and-recover/report). Crime Stoppers is on 1800 333 000.
+
+## How did they know your doctor?
+
+Sometimes they don't, they guess, and a busy person fills in the gap. Sometimes they have leaked details. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email has turned up in breach data.
+
+=== FAQ
+Q: Who are the scammers impersonating?
+A: Doctors, optometrists, other medical staff and old friends, according to NSW Police.
+Q: How much have people lost?
+A: Cases include about $7,000 and two cases of about $9,000 in gift cards.
+Q: Will a real doctor ask me to pay with gift cards?
+A: No. Any request to pay in gift cards or share codes over the phone is a scam.
+Q: Where do I report a gift card scam in Australia?
+A: Report it to Scamwatch, and to ReportCyber if you lost money. Contact the gift card provider quickly.
+
+=== SOURCES
+https://au.news.yahoo.com/aussies-lose-9000-to-sneaky-supermarket-post-office-scam-as-police-issue-urgent-warning-235602453.html | Yahoo News Australia: Aussies lose $9,000 to supermarket, post office gift card scam (Oct 14, 2026)
+https://www.sydneytimes.net.au/sydney-life/police-issue-warning-over-gift-card-scams-targeting-multicultural-communities-across-sydney/ | Sydney Times: Police warn over gift card scams targeting multicultural communities
+https://www.scamwatch.gov.au/ | Scamwatch
+
+=== RELATED
+australia-church-minister-impersonation-gift-card-scam | Scammers Pose as Church Ministers for Gift Cards
+gift-card-scams-during-the-holidays | Gift Card Scams During the Holidays
+how-to-recover-gift-card-scam-money | How to Recover Gift Card Scam Money
+scams-targeting-seniors-and-older-adults | Scams Targeting Seniors
+australia-scam-news-october-2026 | Australia Scam News: October 2026

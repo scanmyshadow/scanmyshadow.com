@@ -1,0 +1,67 @@
+slug: australia-victoria-police-recover-118000-bec-invoice-scam
+country: AU
+title: Victoria Police Recover $118,000 Lost to a Fake Supplier Email
+h1: How a Melbourne Family Business Got $118,000 Back After a Fake Invoice Email
+desc: A Bayside furniture business paid $118,000 to a scammer posing as its supplier. Victoria Police's Cybercrime Squad got it back. What happened and what to copy.
+keywords: business email compromise australia, invoice scam recovered, victoria police cybercrime squad, payment redirection scam, fake supplier bank details email
+tags: Business Email Compromise|Small Business|Australia|Money Recovered
+=== TLDR
+Victoria Police announced on October 23, 2026 that they recovered $118,000 for a Melbourne family furniture business. Between September 7 and 25, scammers hijacked a real supplier's email thread and said the bank details had changed. The owner paid. Her bank flagged it, she called the supplier, reported it through ReportCyber, and police froze and returned the money. The Cybercrime Squad has had 107 reports of this scam since July 2026.
+
+=== BODY
+## What happened
+
+The [Victoria Police release](https://www.police.vic.gov.au/police-help-recover-118000-victim-swindled-scam) tells the story of Kate, who runs a family furniture business in Melbourne's Bayside area. Fraudsters got into a genuine email conversation with one of her suppliers, posed as the supplier and said their bank details had changed. She sent **$118,000**.
+
+“I felt completely sick when I realised I'd been scammed,” she said.
+
+## How the money came back
+
+Several things went right, in this order:
+
+1. **Her bank flagged the payment** as possibly fraudulent.
+2. **She called the supplier** on a number she already had and confirmed the emails were fake.
+3. **She reported it through ReportCyber** straight away.
+4. The bank couldn't recall the transfer, but **Victoria Police's Cybercrime Squad**, working with the AFP-led Joint Policing Cybercrime Coordination Centre, blocked the funds and returned them.
+
+“It shows if you make a report, police can help,” Kate said. That's worth underlining. Most victims of payment redirection never see their money again, partly because they wait or feel too embarrassed to report.
+
+## How common is this?
+
+The Cybercrime Squad has received **107 reports** of this scam since July 2026. It's the same crime the FBI calls [[what-is-business-email-compromise|business email compromise]], and it hits sole traders and family firms as hard as big companies. In the UK, [[uk-payment-diversion-fraud-101-million-lost|£101 million was lost to payment diversion]] in a year.
+
+## The habit that prevents it
+
+Detective Sergeant Dean Waters: “Don't let a scammer rush you into making a costly mistake.” In practice:
+
+- **Any change of bank details gets a phone call** to a number you already trust, never one in the email.
+- **Be extra wary of urgency**: “please pay today, our old account is closed.”
+- **Turn on multi-factor authentication** on business email, because thread hijacking usually starts with a stolen login.
+- **Use confirmation of payee** where your bank offers it, to see whether the account name matches.
+
+## If it happens to you
+
+Call your bank immediately, report through [ReportCyber](https://www.cyber.gov.au/report-and-recover/report), keep the emails and screenshots, and stop replying to the scammer. Our [[small-business-fraud-statistics-2026|small business fraud guide]] covers wider protections.
+
+Thread hijacks often start with a breached email password. A free [[/digital-footprint-checker/|email exposure check]] shows whether your business email appears in known breaches.
+
+=== FAQ
+Q: How was the $118,000 recovered?
+A: The bank flagged the payment, the owner reported it quickly through ReportCyber, and Victoria Police's Cybercrime Squad blocked the funds and returned them.
+Q: What kind of scam was it?
+A: Business email compromise: scammers hijacked a real supplier's email thread and said the bank details had changed.
+Q: How common is this in Victoria?
+A: The Cybercrime Squad has received 107 reports since July 2026.
+Q: How do I check a change of bank details?
+A: Call the supplier on a phone number you already trust, never one from the email asking for the change.
+
+=== SOURCES
+https://www.police.vic.gov.au/police-help-recover-118000-victim-swindled-scam | Victoria Police: Police help recover $118,000 for victim swindled in scam (Oct 23, 2026)
+https://www.cyber.gov.au/report-and-recover/report | ReportCyber
+
+=== RELATED
+what-is-business-email-compromise | What Is Business Email Compromise?
+bec-statistics-2026 | BEC Statistics 2026
+us-business-email-compromise-money-recovered-2023-2024 | BEC Money Recovered in the US
+scams-targeting-small-businesses-sellers-and-investors | Scams Targeting Small Businesses
+australia-scam-news-october-2026 | Australia Scam News: October 2026

@@ -1,0 +1,87 @@
+slug: nz-scam-statistics-2026-netsafe-data
+country: NZ
+title: NZ Scam Statistics 2026: $3 Billion Lost and What the Data Shows
+h1: New Zealand Scam Statistics 2026: What Netsafe's Latest Numbers Show
+desc: Kiwis lost an estimated $3 billion to scams in 2025, up 30%. Netsafe's 2026 quarterly data, top scam types, who reports, and how often money comes back.
+keywords: new zealand scam statistics 2026, nz scam losses, netsafe scam data, how much do kiwis lose to scams, state of scams new zealand
+tags: Statistics|Scam Data|New Zealand|Research
+=== TLDR
+New Zealanders lost an estimated NZ$3 billion to scams in 2025, up 30% from $2.3 billion in 2024, according to Netsafe and the Global Anti-Scam Alliance. 72% of Kiwis experienced a scam in a year and 23% lost money. Only 10% of victims got money back before it reached the scammer. Netsafe's April–June 2026 quarter logged 3,463 scam and fraud reports and $1.56 million in reported losses, with fake shops at the top.
+
+=== BODY
+## The big number: $3 billion
+
+Netsafe's [State of Scams in New Zealand report](https://resource.netsafe.org.nz/New-Zealand’s-Scam-Epidemic.-Kiwis-Lose-Record-$3-Billion-as-Fraud-Hits-New-Highs_For-Release.pdf), produced with the Global Anti-Scam Alliance (GASA), estimates:
+
+| Measure | Figure |
+|---|---|
+| Total lost to scams, 2025 | NZ$3 billion |
+| Total lost, 2024 | NZ$2.3 billion |
+| Change | +30% |
+| Average loss per victim | $3,352 |
+| Adults who lost money | 23% |
+| Experienced a scam in 12 months | 72% |
+| Average scam encounters per person per year | 152 |
+
+That last figure means the average Kiwi meets a scam roughly three times a week. Most of us just don't notice, which is the good news, and occasionally do notice too late, which is the bad news.
+
+## Where scams find people
+
+The top channels were **Gmail (48%)** and **Facebook (47%)**. The most common scam types by share of victims were **shopping (50%)**, **unexpected money (47%)** and **investment (40%)**.
+
+## Getting money back is rare
+
+- 78% of victims who lost money reported it to their bank.
+- 36% of those got at least some money back.
+- Only **10%** recovered funds before they reached the scammer.
+
+Speed is everything. The minutes after you realise are worth more than the weeks after. See our [[already-got-scammed-international-recovery-guide|international recovery guide]].
+
+## Netsafe's April–June 2026 quarter
+
+Netsafe's [Q4 FY26 summary](https://resource.netsafe.org.nz/Netsafe-Q4-April---Jun-FY26R.pdf) shows what people reported directly:
+
+| Measure | April–June 2026 |
+|---|---|
+| Total reports | 6,606 |
+| Scam and fraud reports | 3,463 |
+| Personal harm reports | 2,032 |
+| Scam reports with a loss | 324 |
+| Reported losses | about $1,558,504 |
+
+The top report categories overall were **worthless or non-existent products** (fake shops), harassment, **friends or relatives impostor** scams, sextortion and false allegations.
+
+Reporters by age: 22–40 made up 42%, 41–64 made 24%, 13–17 made 17% and 65+ only 4%. Low numbers from older Kiwis likely reflect under-reporting rather than safety. Auckland accounted for 41% of reports.
+
+## How people feel about it
+
+61% of scam victims reported stress and 34% moderate to significant effects on their mental wellbeing. 48% think banks should always reimburse victims. New Zealand banks have since moved towards reimbursement rules and confirmation of payee, which we'll cover separately.
+
+## What the data suggests you do
+
+1. **Shop on known sites** and search for reviews before buying from new ones; fake shops lead the reports.
+2. **Verify “it's me, new number” messages** with a call to the old number; family impostor scams are top three.
+3. **Report fast** to your bank, then to [Netsafe](https://netsafe.org.nz/) or the NCSC.
+4. **Check your exposure**: many scams start with leaked contact details. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches include your email.
+
+=== FAQ
+Q: How much do New Zealanders lose to scams?
+A: An estimated NZ$3 billion in 2025, up 30% from $2.3 billion in 2024, according to Netsafe and GASA.
+Q: What is the most common scam in New Zealand?
+A: Shopping scams affected 50% of victims in the State of Scams survey, and fake product scams topped Netsafe's April–June 2026 reports.
+Q: How many victims get their money back?
+A: 36% of those who reported to their bank recovered some money, but only 10% recovered it before it reached the scammer.
+Q: How many scams did Netsafe receive in April–June 2026?
+A: 3,463 scam and fraud reports out of 6,606 total, with about $1.56 million in reported losses.
+
+=== SOURCES
+https://resource.netsafe.org.nz/New-Zealand’s-Scam-Epidemic.-Kiwis-Lose-Record-$3-Billion-as-Fraud-Hits-New-Highs_For-Release.pdf | Netsafe and GASA: New Zealand's Scam Epidemic, Kiwis lose record $3 billion
+https://resource.netsafe.org.nz/Netsafe-Q4-April---Jun-FY26R.pdf | Netsafe: Quarterly summary, April to June 2026
+https://resource.netsafe.org.nz/FINAL-_-GASA-State-of-Scams-New-Zealand-Report-V5.pdf | GASA: State of Scams New Zealand report
+
+=== RELATED
+scam-losses-us-uk-canada-australia-2025-data | Scam Losses: US, UK, Canada, Australia 2025
+average-loss-per-victim-by-scam-type-2025-data | Average Loss per Victim by Scam Type
+online-shopping-fraud-statistics-2026 | Online Shopping Fraud Statistics 2026
+sextortion-scams-rising-nz | Sextortion Scams Rising in NZ
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scam Surge

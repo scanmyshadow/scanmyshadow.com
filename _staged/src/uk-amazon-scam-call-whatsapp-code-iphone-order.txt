@@ -1,0 +1,63 @@
+slug: uk-amazon-scam-call-whatsapp-code-iphone-order
+country: UK
+title: Amazon Scam Call Asks for a WhatsApp Code: Don't Read It Out
+h1: The “Amazon” Call About an iPhone Order That Wants Your WhatsApp Code
+desc: Callers posing as Amazon say they stopped an iPhone order, then ask you to read out a code. It's your WhatsApp login code. How the scam works and fixes.
+keywords: amazon scam call whatsapp code, amazon iphone order scam call, amazon unauthorised order call uk, whatsapp verification code scam, amazon scam call 2026
+tags: Amazon Scams|WhatsApp|United Kingdom|Phone Scams
+=== TLDR
+Which? warned in late September 2026 about calls from “Amazon” saying an unauthorised iPhone order was stopped on your account. To “verify” you, they ask you to read out a code sent to your phone. That code is actually WhatsApp's login code, and reading it out hands them your WhatsApp account, which they then use to ask your contacts for money. Amazon never needs a code you received by text read back over the phone.
+
+=== BODY
+## How the call goes
+
+The [Which? scam alert](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) describes it simply: callers say an unauthorised order for an iPhone 15 was stopped, and ask you to read out a code to verify your account. The relief of “we stopped it” lowers your guard. Then a text arrives with a six-digit code, and it feels natural to read it out.
+
+What is happening behind the scenes: the scammer is trying to register *your* phone number on WhatsApp on *their* phone. WhatsApp sends the verification code to you. If you read it out, they're in.
+
+## Why they want WhatsApp, not Amazon
+
+Your WhatsApp is worth more than a stolen order. Once they control it, they message your family and friends as you: a classic version of the [[whatsapp-guess-who-relative-scam|“hi mum” or guess-who scam]]. People pay because the message comes from a name they trust. They can also see group chats and set their own two-step PIN to lock you out.
+
+## Signs it's a scam
+
+- Amazon calls you unprompted about an order (it generally won't; it emails and shows alerts in the app).
+- You're asked to read out a code from a text.
+- The text mentions WhatsApp, or says “Don't share this code with anyone” while the caller asks you to share it.
+- There's urgency: “we need to confirm in the next two minutes.”
+
+## What to do
+
+1. **Hang up.** Check your orders in the Amazon app yourself. If there's an order you didn't make, you'll see it.
+2. **Never read out a code.** No genuine company needs a code sent to you to be read back.
+3. **Turn on WhatsApp two-step verification**: Settings, Account, Two-step verification. Add a PIN and an email. This stops a stolen SMS code being enough on its own.
+4. **Report the call** by texting “call” followed by the scammer's number to 7726 (on Android, text “call” and follow the prompts), per Which?.
+
+## If you already read out the code
+
+Act fast. Reinstall WhatsApp, re-verify your number to kick them out, then turn on two-step verification. Warn your contacts by text or another app that your WhatsApp was taken. Our guide on [[recovering-hacked-whatsapp-social-account|recovering a hacked WhatsApp]] walks through it. If anyone paid money to the scammer, they should call their bank or 159 straight away.
+
+## How did they get your number?
+
+Mostly from leaked data. Phone numbers, names and email addresses from old breaches are traded freely. Check whether your email has been in a breach with a free [[/digital-footprint-checker/|email exposure check]], and read [[where-do-phone-numbers-get-exposed|where phone numbers get exposed]].
+
+=== FAQ
+Q: Does Amazon call about unauthorised orders?
+A: Amazon generally notifies you by email and in the app. Treat unexpected calls about orders as suspicious and check your orders in the app yourself.
+Q: What code are the scammers asking for?
+A: Usually a WhatsApp verification code, sent because they are trying to register your number on their phone.
+Q: How do I protect my WhatsApp?
+A: Turn on two-step verification in Settings, Account, and never share any code sent to you.
+Q: How do I report a scam call in the UK?
+A: Text "call" followed by the number to 7726, and report losses to Report Fraud.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Amazon scam calls, Sept 28, 2026)
+https://faq.whatsapp.com/1920866721452534 | WhatsApp Help Center: About two-step verification
+
+=== RELATED
+whatsapp-scams-how-to-spot-and-report | WhatsApp Scams: How to Spot and Report Them
+amazon-prime-refund-payments-scam-warning | Amazon Prime Refund Scam Warning
+why-you-should-never-share-otp | Why You Should Never Share an OTP
+is-amazon-marketplace-safe-from-scams | Is Amazon Marketplace Safe From Scams?
+uk-scam-news-october-2026 | UK Scam News: October 2026

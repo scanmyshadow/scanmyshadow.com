@@ -1,0 +1,67 @@
+slug: us-frontline-education-breach-school-employees-ssn
+country: US
+title: Frontline Education Breach: School Staff SSNs Exposed
+h1: Frontline Education Data Breach: What Teachers and School Staff Should Do
+desc: An edtech vendor used by school districts says attackers exposed employee Social Security numbers and home addresses. What happened and steps for staff.
+keywords: frontline education data breach, school employee data breach ssn, frontline transunion monitoring, k-12 staff data breach 2026, teacher social security number breach
+tags: Data Breach|Education|United States|What To Do
+=== TLDR
+Frontline Education, which runs HR and workforce software for many US school districts, began notifying districts around October 1, 2026 that attackers got into part of its systems through a flaw in a third-party product. School employees' Social Security numbers, email addresses and home addresses were exposed. Frontline found the problem on August 14. Adults are offered two years of free TransUnion credit monitoring. With a full SSN out there, a credit freeze is the move.
+
+=== BODY
+## What happened
+
+Frontline Education sells administration and workforce management software to school districts: think substitute booking, absence tracking and HR records. According to [BleepingComputer](https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/), Frontline's notification letter says its security team identified the issue on **August 14, 2026**, after attackers exploited “a vulnerability in a third-party software product we use.” Frontline has not named that product or said when the access began.
+
+District officials started receiving notices around **October 1**. One district said all of its employees were affected, and one notice seen by BleepingComputer covered 1,210 employees. The total number of districts and people has not been published.
+
+## What was exposed
+
+- full Social Security numbers;
+- email addresses;
+- home addresses.
+
+That is a short list, but it is the dangerous kind of short. Name, SSN and address together are enough to attempt new credit, file a fake tax return or pass a phone verification at some banks.
+
+## What Frontline is offering
+
+Adults get **two years of free credit monitoring and identity theft protection through TransUnion**. Minors get cyber monitoring. Use the enrollment code in your official letter. Monitoring tells you after something happens; a freeze stops most of it happening at all. Our explainer on [[identity-theft-protection-is-it-worth-it|whether ID protection is worth it]] covers the difference.
+
+## Steps for school staff, in order
+
+1. **Freeze your credit** at Equifax, Experian and TransUnion. It is free and takes about 15 minutes total, see [[how-to-freeze-your-credit-us|how to freeze your credit]].
+2. **Get an IRS Identity Protection PIN.** It stops anyone filing a tax return with your SSN. Apply at the [IRS IP PIN page](https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin).
+3. **Enroll in the TransUnion monitoring** from your letter, not from a link in an unexpected email.
+4. **Watch for payroll and benefits phishing.** Expect fake “direct deposit update” or “W-2 correction” emails that mention the breach. Our guide to [[year-end-payroll-phishing-scams|payroll phishing]] shows what they look like.
+5. **Check your credit reports** for free at [AnnualCreditReport.com](https://www.annualcreditreport.com/) and look for accounts you don't recognize.
+
+## The vendor problem
+
+This is the second big school-related breach this autumn to come through a contractor rather than a district, after the [[us-california-ets-student-testing-data-breach|ETS student testing breach]] in California. In 2025 it was [[was-i-affected-by-the-powerschool-data-breach|PowerSchool]]. Districts outsource a lot of sensitive data, and staff rarely know which vendors hold their SSN. A sensible question for your HR office: which outside companies have my Social Security number?
+
+## How many times has your data leaked?
+
+Your work and personal emails have likely appeared in older breaches too, which makes targeted phishing easier. A free [[/digital-footprint-checker/|email exposure check]] takes about 30 seconds and shows where.
+
+=== FAQ
+Q: What data was exposed in the Frontline Education breach?
+A: Employee Social Security numbers, email addresses and physical addresses, according to Frontline's notice reported by BleepingComputer.
+Q: When was the breach discovered?
+A: Frontline says its security team identified the issue on August 14, 2026. Districts began receiving notices around October 1.
+Q: Is free monitoring offered?
+A: Yes. Adults are offered two years of TransUnion credit monitoring and identity theft protection. Minors get cyber monitoring.
+Q: What is the best protection if my SSN was exposed?
+A: Freeze your credit at all three bureaus and get an IRS Identity Protection PIN. Both are free.
+
+=== SOURCES
+https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/ | BleepingComputer: Frontline Education data breach impacts school district employees (Oct 2, 2026)
+https://www.govtech.com/education/k-12/frontline-education-data-breach-impacts-school-employees | GovTech: Frontline Education data breach impacts school employees
+https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin | IRS: Get an Identity Protection PIN
+https://www.annualcreditreport.com/ | AnnualCreditReport.com
+
+=== RELATED
+how-to-freeze-your-credit-us | How to Freeze Your Credit in the US
+how-to-check-if-your-ssn-was-used | How to Check if Your SSN Was Used
+how-to-report-tax-identity-theft-irs | How to Report Tax Identity Theft
+data-breach-notification-email-what-to-do | Got a Data Breach Notification?
+recent-data-breaches-this-week | Recent Data Breaches This Week

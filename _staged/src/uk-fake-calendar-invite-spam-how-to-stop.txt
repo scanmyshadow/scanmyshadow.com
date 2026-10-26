@@ -1,0 +1,75 @@
+slug: uk-fake-calendar-invite-spam-how-to-stop
+country: UK
+title: Fake Calendar Invites: How to Delete Them and Stop More
+h1: Scam Calendar Invites: Why You Shouldn't Click “Decline” and How to Stop Them
+desc: Spam invites are landing in Google, Apple and Outlook calendars with fake payment and support numbers. Why replying is a mistake and the settings that stop them.
+keywords: calendar invite scam, fake calendar invite, google calendar spam invites, stop calendar spam iphone, outlook calendar phishing invite
+tags: Phishing|Email Scams|United Kingdom|How To
+=== TLDR
+Which? warned on October 12, 2026 about scam calendar invites. They appear in your calendar with a fake payment warning, a support number or a meeting link. Responding, even with “decline”, confirms your account is active. Delete them silently, then change one setting: in Google Calendar set “Add invitations to my calendar” to only known senders, and on iPhone remove unknown subscribed calendars.
+
+=== BODY
+## What these invites look like
+
+You open your calendar and there's an event you never made: “Payment of £399 approved, call to cancel”, “Your subscription renews today” or a “billing update meeting.” According to [Malwarebytes](https://www.malwarebytes.com/blog/news/2025/11/fake-calendar-invites-are-spreading-heres-how-to-remove-them-and-prevent-more), most warn of an impending payment, and the goal is usually money: fake tech support, remote-access software or stealing bank details.
+
+It is phishing in a smarter costume. People ignore spam emails, but a calendar alert pops up on your phone like a reminder from your own life.
+
+## Why “decline” is the wrong button
+
+The [Which? alert](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) is clear: responding to the invite confirms to the scammer that your account is real and active. “Decline” is still a response. It sends an email back. Delete instead, and in Outlook pick “Do not send a response” if offered.
+
+## How to stop them
+
+### Google Calendar
+
+1. Open Google Calendar on a computer, click the gear icon, then Settings.
+2. Under Event settings, change “Add invitations to my calendar” to **“Only if the sender is known”** or **“When I respond to the invitation email.”**
+3. Untick “Show events automatically created by Gmail” if you don't use that feature.
+4. Delete the fake events and remove any calendars you don't recognise.
+
+### iPhone and iPad
+
+1. Open Settings, then Calendar (on newer iOS: Settings, Apps, Calendar).
+2. Go to Accounts, then Subscribed Calendars.
+3. Delete anything you didn't add on purpose.
+
+Spam “subscribed calendars” often came from tapping a pop-up on a dodgy website, so also clear your browser history if they keep returning.
+
+### Outlook
+
+1. Delete the invite without opening links or attachments.
+2. Mark the sender as junk.
+3. Turn off automatic adding of events from email in your calendar settings.
+4. Remove any extra calendars you didn't add.
+
+Delete the event on every synced device, or it can reappear.
+
+## If you called the number or joined the “meeting”
+
+If you installed anything they asked you to, disconnect from the internet, uninstall it and run a security scan. If you shared bank or card details, call your bank on the number on your card or dial 159. Our guide on [[tech-support-scam-remote-access-recovery|recovering from a remote-access scam]] covers the steps. Forward the original email to report@phishing.gov.uk.
+
+## Why your address was targeted
+
+Calendar spam goes to email addresses scraped from breaches and old sign-ups. If your inbox gets a lot of this, run a free [[/digital-footprint-checker/|email exposure check]] to see which breaches your address appears in, and consider an [[email-alias-temporary-phone-number-privacy|email alias]] for shopping sign-ups.
+
+=== FAQ
+Q: Should I decline a spam calendar invite?
+A: No. Declining sends a reply and confirms your account is active. Delete it without responding.
+Q: How do I stop spam invites in Google Calendar?
+A: In Settings, Event settings, set "Add invitations to my calendar" to "Only if the sender is known."
+Q: How do I remove spam calendars on iPhone?
+A: Go to Settings, Calendar, Accounts, Subscribed Calendars and delete the ones you don't recognise.
+Q: Where do I report a scam calendar invite in the UK?
+A: Forward the email to report@phishing.gov.uk.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (scam calendar invites, Oct 12, 2026)
+https://www.malwarebytes.com/blog/news/2025/11/fake-calendar-invites-are-spreading-heres-how-to-remove-them-and-prevent-more | Malwarebytes: Fake calendar invites are spreading, how to remove them
+
+=== RELATED
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing
+how-to-block-emails-stop-spam-gmail-outlook | How to Block Emails and Stop Spam
+what-is-tech-support-scams | What Are Tech Support Scams?
+fake-chatgpt-billing-email-scam | Fake ChatGPT Billing Email Scam
+uk-scam-news-october-2026 | UK Scam News: October 2026

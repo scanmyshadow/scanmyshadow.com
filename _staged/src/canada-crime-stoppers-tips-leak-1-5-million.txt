@@ -1,0 +1,68 @@
+slug: canada-crime-stoppers-tips-leak-1-5-million
+country: CA
+title: Crime Stoppers Leak: 1.5 Million Canadian Tips Exposed
+h1: 1.5 Million Crime Stoppers Tips Leaked: What Tipsters in Canada Should Do
+desc: CBC found 1.5M+ Canadian Crime Stoppers tips leaked after a hack at P3 Global Intel, 850,000+ with personal details. What was exposed and how tipsters can protect themselves.
+keywords: crime stoppers data breach, crime stoppers tips leaked, p3 global intel hack, crime stoppers canada leak 2026, anonymous tip data breach
+tags: Data Breach|Doxxing|Canada|Personal Safety
+=== TLDR
+A CBC investigation reported in October 2026 that more than 1.5 million tips sent to Canadian Crime Stoppers programs over 25 years have leaked, after data was stolen in March from P3 Global Intel, the company that ran the tip database. Over 850,000 tips contained personal details such as addresses, phone numbers, emails and licence plates, and in 4,300+ cases tipsters gave their full names. If you ever left a tip, assume some details could be out there and check your exposure.
+
+=== BODY
+## What CBC found
+
+[MobileSyrup's summary of the CBC investigation](https://mobilesyrup.com/2026/10/21/canadian-crime-stoppers-tips-leak-report/) lays out the scale:
+
+- **1.5 million+** tips from the past 25 years leaked;
+- **850,000+** contained personally identifiable information about tipsters, people named in tips, staff or police;
+- street addresses and phone numbers, **tens of thousands** of personal emails and licence plates;
+- **hundreds** of banking details linked to cash rewards;
+- **4,300+** tips where people gave their full names, even though Crime Stoppers tells tipsters not to.
+
+CBC also reported that in hundreds of cases staff had flagged that a tipster's identity was compromised, yet the details stayed in the database unredacted.
+
+## How it leaked
+
+The data was stolen in March 2026 from P3 Global Intel, the Crime Stoppers affiliate that managed the tip database, by a hacktivist group calling itself Internet Yiff Machine. The non-profit Distributed Denial of Secrets later made it available to researchers and journalists. Back in June, [CTV News](https://www.ctvnews.ca/canada/article/crime-stoppers-cyber-breach-may-put-tipsters-lives-at-risk/) reported that the Canadian Crime Stoppers Association did not yet know whether tipsters' details had been exposed. An expert told CTV: “Individuals' lives could be at risk here.”
+
+## Why this is different from a normal breach
+
+Most breaches risk your money. This one risks retaliation. Tips include allegations about named people, sometimes in serious criminal cases. A leaked email or plate number linked to a tip can be enough for someone motivated to identify the person who reported them.
+
+## If you ever left a Crime Stoppers tip
+
+1. **Think about what you included.** Name, phone, email, address, licence plate or bank details for a reward are the key risks.
+2. **If you feel at risk, contact your local police** and tell them you were a tipster affected by the leak.
+3. **Reduce what's findable about you.** Remove yourself from people-search sites and check what Google shows for your name. Our guides on [[what-is-doxxing-what-to-do-if-your-info-is-posted|what to do if you're doxxed]] and [[canada-411-and-people-search-removal|people-search removal]] can help.
+4. **Change the email you used** for sensitive things, or at least lock it down with two-factor authentication.
+5. **Be wary of contact** that references a tip you made. Don't confirm anything to unexpected callers or messages.
+
+## Data held for too long
+
+CBC's core finding was that decades of sensitive records were kept longer than needed and left unredacted. That is a lesson for every organisation, and the reason privacy laws push [[data-minimisation-explained|data minimisation]]. In Canada you can ask an organisation what it holds on you under [[canada-pipeda-explained|PIPEDA]].
+
+## Check your wider exposure
+
+A tipster's email in a leak is a starting point for anyone trying to find them. A free [[/digital-footprint-checker/|email exposure check]] shows where your email appears in known breaches so you know what's already out there.
+
+=== FAQ
+Q: How many Crime Stoppers tips were leaked?
+A: More than 1.5 million tips from the past 25 years, according to CBC's investigation, with over 850,000 containing personal information.
+Q: Where did the leak come from?
+A: Data was stolen in March 2026 from P3 Global Intel, which managed the tip database, by a hacktivist group.
+Q: I left a tip years ago. Am I affected?
+A: Possibly, especially if you gave contact details or your name. If you feel at risk, contact your local police.
+Q: What data was exposed?
+A: Addresses, phone numbers, emails, licence plates, some banking details for rewards, and full names in over 4,300 tips.
+
+=== SOURCES
+https://mobilesyrup.com/2026/10/21/canadian-crime-stoppers-tips-leak-report/ | MobileSyrup: Canadian Crime Stoppers tips leak report (Oct 21, 2026)
+https://www.ctvnews.ca/canada/article/crime-stoppers-cyber-breach-may-put-tipsters-lives-at-risk/ | CTV News: Crime Stoppers cyber breach may put tipsters' lives at risk (Jun 18, 2026)
+https://oodaloop.com/briefs/cyber/exclusive-investigation-reveals-over-1-5-million-canadian-crime-stoppers-tips-compromised-in-massive-data-breach/ | OODA Loop: 1.5 million Canadian Crime Stoppers tips compromised
+
+=== RELATED
+what-is-doxxing | What Is Doxxing?
+how-to-remove-my-personal-information | How to Remove My Personal Information
+canada-pipeda-explained | PIPEDA Explained
+canada-scam-news-october-2026 | Canada Scam News: October 2026
+data-broker-opt-out-uk-canada-australia | Data Broker Opt-Outs: UK, Canada, Australia

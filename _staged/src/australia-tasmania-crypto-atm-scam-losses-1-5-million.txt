@@ -1,0 +1,66 @@
+slug: australia-tasmania-crypto-atm-scam-losses-1-5-million
+country: AU
+title: Tasmania Crypto ATM Scams: $1.5 Million Lost in 3 Months
+h1: Tasmanians Lost $1.5 Million at Crypto ATMs in Three Months, Despite the Crackdown
+desc: Tasmania Police say $1.5M went into crypto ATMs in three months, all pushed by scammers. Why AUSTRAC's limits haven't stopped it and the one red flag to know.
+keywords: crypto atm scam australia, tasmania crypto atm scam, bitcoin atm scam losses, austrac crypto atm limits, crypto kiosk scam warning
+tags: Crypto Scams|Crypto ATMs|Australia|Scam Alert
+=== TLDR
+Tasmania Police reported in late September 2026 that Tasmanians lost $1.5 million through crypto ATMs in just three months, deposited under pressure from scammers. A 2025 police review of the state's 15 biggest crypto ATM users found every one was a scam victim. AUSTRAC brought in cash limits and warnings in September 2025, but losses continue. If someone you met online or by phone asks you to put cash into a crypto ATM, it's a scam.
+
+=== BODY
+## The numbers
+
+According to [Crypto News Australia](https://cryptonews.com.au/news/crypto-atm-scam-losses-hit-1-5m-in-tasmania-despite-nationwide-crackdown-135151/):
+
+- Tasmanians lost **$1.5 million** to crypto ATM scams in three months (per a late-September police report);
+- Tasmania has fewer than **30** crypto ATMs, up from one in 2021; Australia has close to **2,000**;
+- a 2025 review of the state's **15 highest-value** crypto ATM users found **no legitimate activity**. All 15 were linked to scams, with $900,000 put through ATMs and $2.5 million lost in total.
+
+That last point is remarkable. Police looked at the heaviest users of these machines in one state and found only victims.
+
+## Which scams send people to the machines
+
+Fake investments, romance scams, “recovery” scams, fake government or utility bills, tech support scams and job scams. Different stories, same ending: a stranger walks you to a crypto ATM, sometimes staying on the phone the whole time.
+
+## Why the crackdown hasn't worked yet
+
+AUSTRAC introduced cash limits, mandatory scam warnings and tougher customer checks for crypto ATM operators in September 2025. Warnings on a screen don't do much when a “bank investigator” or online partner is in your ear telling you to ignore them. Overseas, some places have gone further: see how [[us-wisconsin-crypto-atm-law-1000-cap-refunds|Wisconsin capped daily transactions]] and the [[us-crypto-kiosk-complaints-by-state-ic3-2025-supplement|FBI's crypto kiosk data]].
+
+## The red flag
+
+Detective Sergeant Paul Turner of Tasmania Police named the biggest one: being “asked to deposit cash into a cryptocurrency ATM by someone you have only met online or spoken to over the phone.”
+
+No bank, government department, utility, employer or genuine partner will ask that. Ever.
+
+## If you or someone you know is mid-scam
+
+- Stop. Don't make another deposit, even if they say one more payment releases everything.
+- Call your bank and report it to [ReportCyber](https://www.cyber.gov.au/report-and-recover/report) and [Scamwatch](https://www.scamwatch.gov.au/).
+- Beware of “recovery” offers that follow: see [[crypto-scam-recovery-realistic-expectations|realistic crypto recovery]].
+
+## Check where scammers get your details
+
+Many crypto ATM victims were first contacted using leaked contact details. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches your email appears in.
+
+=== FAQ
+Q: How much did Tasmanians lose to crypto ATM scams?
+A: $1.5 million in three months, according to a late-September 2026 Tasmania Police report.
+Q: Are crypto ATMs legal in Australia?
+A: Yes, but operators face AUSTRAC cash limits, scam warnings and customer checks introduced in September 2025.
+Q: What's the biggest warning sign?
+A: Being asked to deposit cash into a crypto ATM by someone you met online or who called you.
+Q: Can crypto ATM deposits be reversed?
+A: Rarely. Report immediately to your bank, ReportCyber and Scamwatch, and don't pay any "recovery" service.
+
+=== SOURCES
+https://cryptonews.com.au/news/crypto-atm-scam-losses-hit-1-5m-in-tasmania-despite-nationwide-crackdown-135151/ | Crypto News Australia: Crypto ATM scam losses hit $1.5M in Tasmania (Oct 9, 2026)
+https://www.scamwatch.gov.au/ | Scamwatch
+https://www.cyber.gov.au/report-and-recover/report | ReportCyber
+
+=== RELATED
+scam-payment-methods-crypto-kiosk-2025-data | Scam Payment Methods and Crypto Kiosks
+australia-sydney-widow-crypto-atm-dating-app-430000-afp-austrac | Sydney Widow Loses $430,000 at Crypto ATMs
+crypto-scam-statistics-2026 | Crypto Scam Statistics 2026
+australia-scams-2025-national-anti-scam-centre-data | Australia Scam Data 2025
+australia-scam-news-october-2026 | Australia Scam News: October 2026

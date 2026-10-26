@@ -1,0 +1,71 @@
+slug: canada-rcmp-spoofed-calls-kelowna-newfoundland-sheriff
+country: CA
+title: Fake RCMP Calls Using Real Police Numbers: Oct 2026 Warnings
+h1: Fake RCMP Calls From Real Police Numbers: Three Warnings in One Week
+desc: Scammers spoofed Kelowna RCMP's real number, used 709-772 numbers posing as Newfoundland RCMP and invented a "Vancouver Sheriff's Office." How to spot them.
+keywords: rcmp scam call, kelowna rcmp spoofed number, rcmp newfoundland scam calls, vancouver sheriff office scam, police impersonation scam canada 2026
+tags: Police Impersonation|Phone Scams|Canada|Scam Alert
+=== TLDR
+In mid-October 2026 three RCMP detachments warned about the same trick. Kelowna RCMP said scammers were spoofing its real non-emergency number. RCMP in Newfoundland and Labrador said fake officers calling from (709) 772 numbers were reaching people across Canada and sending emails from fake “@rcmp.gov” addresses. North Vancouver RCMP warned of calls from a made-up “Vancouver Sheriff's Office” threatening arrest over a missed court date. Real police won't ask for passwords, banking details or money by phone.
+
+=== BODY
+## Warning 1: Kelowna's real number, fake officers
+
+Kelowna RCMP warned on October 16, 2026 that its real non-emergency number, 250-762-3300, was being spoofed, according to [Yahoo Finance Canada](https://ca.finance.yahoo.com/news/scammers-spoof-kelowna-rcmps-real-110000021.html). Callers say police arrested someone holding your personal information, then ask for passwords, account details or that you click a link. The detachment had warned about the same number being spoofed in 2023 and 2025.
+
+Cpl. Allison Konsmo put it plainly: caller ID “can be manipulated and should not be relied upon.”
+
+## Warning 2: “Newfoundland RCMP” calling everyone
+
+RCMP in Newfoundland and Labrador said reports were coming in from across the country, per [NTV News](https://ntv.ca/news/fraudsters-making-scam-phone-calls-across-canada-claiming-to-be-from-rcmp-in-newfoundland-and-labrador/). Callers claim you are the victim of a financial scam, and calls often show RCMP-looking numbers starting **(709) 772**. They also send emails from addresses formatted **firstname.lastname@rcmp.gov**, which the RCMP says are not legitimate.
+
+## Warning 3: the “Vancouver Sheriff's Office”
+
+[North Vancouver RCMP](https://rcmp.ca/en/bc/north-vancouver/news/2026/10/4357934) received three reports between October 7 and 14. A caller from the “Vancouver Sheriff's Office” says you missed a court appearance and faces arrest or a contempt charge unless you act now. In one case they demanded cash. Investigators confirmed neither the name nor the number has any link to the justice system. Their line is worth remembering: “if you didn't initiate the call, you don't know who you're talking to.”
+
+## What real police will never do
+
+- ask for your passwords, PINs or online banking details by phone;
+- send you a link to “verify” your identity;
+- ask you to transfer money, buy gift cards or crypto, or hand over cash to settle a case;
+- ask for remote access to your computer.
+
+## The “look up our number” trap
+
+In past rounds of the Kelowna scam, callers told doubters to look up the number online to prove it was real. Of course it matched: they were spoofing it. Matching caller ID proves nothing. Hang up and call the detachment yourself on a number you found independently. We explain spoofing in [[what-is-caller-id-spoofing|what is caller ID spoofing]].
+
+## If you shared information
+
+1. Call your bank using the number on your card.
+2. Ask Equifax and TransUnion Canada to add a fraud alert, or [[how-to-freeze-your-credit-canada|freeze your credit]].
+3. Change any passwords you gave out, starting with email.
+4. Report it to local police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) at 1-888-495-8501, even if you lost nothing.
+
+Canadians lost more than $704 million to fraud in 2025, according to the CAFC figures cited by Yahoo, and only 5 to 10% of fraud is thought to be reported. See [[canada-fraud-2025-cafc-losses-and-top-scams|CAFC's 2025 numbers]].
+
+## Why they had your number
+
+Fake-police callers often know your name and number already, usually from leaked data. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data, a good clue to how exposed your other details are.
+
+=== FAQ
+Q: Is the Kelowna RCMP number being spoofed?
+A: Yes. Kelowna RCMP warned on October 16, 2026 that scammers were spoofing its non-emergency line, 250-762-3300.
+Q: Are emails from firstname.lastname@rcmp.gov real?
+A: No. RCMP in Newfoundland and Labrador says emails in that format are not legitimate.
+Q: Is there a Vancouver Sheriff's Office calling about missed court dates?
+A: North Vancouver RCMP confirmed the caller's name and number have no connection to the justice system.
+Q: Where do I report a fake police call in Canada?
+A: Report it to your local police and the Canadian Anti-Fraud Centre at 1-888-495-8501 or online.
+
+=== SOURCES
+https://ca.finance.yahoo.com/news/scammers-spoof-kelowna-rcmps-real-110000021.html | Yahoo Finance Canada: Scammers spoof Kelowna RCMP's real phone number (Oct 21, 2026)
+https://ntv.ca/news/fraudsters-making-scam-phone-calls-across-canada-claiming-to-be-from-rcmp-in-newfoundland-and-labrador/ | NTV: Fraudsters making scam calls across Canada claiming to be RCMP in N.L. (Oct 21, 2026)
+https://rcmp.ca/en/bc/north-vancouver/news/2026/10/4357934 | North Vancouver RCMP: Police cautioning public about phoney peace officer scam (Oct 16, 2026)
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-sechelt-fake-police-chief-call-108000-rcmp-warning | Fake Police Chief Call Costs Sechelt Resident $108,000
+canada-west-shore-rcmp-fake-police-letter-24-hour-fine | Fake Police Letter With a 24-Hour Fine
+canada-anti-fraud-centre-reporting-guide | How to Report to the CAFC
+bank-government-imposter-scam-calls | Bank and Government Imposter Calls
+canada-scam-news-october-2026 | Canada Scam News: October 2026

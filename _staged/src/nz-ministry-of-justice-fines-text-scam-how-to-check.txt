@@ -1,0 +1,68 @@
+slug: nz-ministry-of-justice-fines-text-scam-how-to-check
+country: NZ
+title: Ministry of Justice Fines Text: Real or Scam? How to Check
+h1: Got a Text About an Unpaid Fine? How to Tell If It's Really the Ministry of Justice
+desc: The Ministry of Justice no longer puts payment links in fine texts or emails. What real 0800 4 FINES messages include, what they never include and how to check.
+keywords: ministry of justice text scam, unpaid fine text nz, 0800 4 fines scam, fines scam text new zealand, ppn number text
+tags: Government Impersonation|Text Scams|New Zealand|How To
+=== TLDR
+New Zealand's Ministry of Justice does send automated texts, emails and calls about overdue fines. Genuine ones always include your first name, the 0800 4 FINES number (0800 434 637) and a 10-digit PPN reference, and since 31 March 2026 they never include payment links. Any “unpaid fine” text with a link to pay is a scam. Call 0800 434 637 to check before doing anything.
+
+=== BODY
+## Real messages exist, which is why fakes work
+
+Unlike a lot of agencies, the Ministry of Justice really does text and email people about fines. Scammers know this, so fake “overdue fine” messages blend in. The trick is knowing exactly what the real ones look like. The Ministry spells it out on its [fines reminders page](https://www.justice.govt.nz/about/news-and-media/news/text-reminders-about-fines-due/), last updated 5 October 2026.
+
+## What a genuine text always has
+
+- your **first name**;
+- the **0800 4 FINES** number (0800 434 637);
+- a **10-digit PPN** reference number.
+
+## What a genuine text or email never has
+
+- a payment link, or a website link to copy and paste;
+- a request for your internet banking password or PIN;
+- a request for iTunes cards or cryptocurrency;
+- a request to install software to “help you” pay.
+
+**Important change:** texts sent before 31 March 2026 may have included payment links. Anything arriving now with a “pay here” link is not from the Ministry.
+
+## Genuine emails and calls
+
+**Emails** include your name or business name, the 0800 4 FINES number, a 10-digit PPN and a PDF attachment. No payment links.
+
+**Automated calls** always show caller ID **0800 434 637**, offer the option to speak to staff, and leave a voicemail asking you to call back if you don't answer. They never mention information about you, never ask for personal or banking details, and never transfer you to a person unless you ask.
+
+## How to check in two minutes
+
+Call **0800 4 FINES (0800 434 637)**, Monday to Friday 8am to 7pm, and ask whether you have an overdue fine. You can also call **0800 COURTS (0800 268 787)**. Do this before clicking or paying anything.
+
+## Report the fake
+
+Forward scam texts free to **7726**, the Department of Internal Affairs' spam service, and report scams to [Netsafe](https://netsafe.org.nz/). If you entered card details, call your bank straight away.
+
+## The same trick, other agencies
+
+NZTA toll and rego texts, IRD refund texts and NZ Post delivery texts all use the same “small amount, urgent link” approach. See our guide to the [[nz-ird-tax-refund-scam-surge|IRD tax refund scam]]. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data, which is often how these lists are built.
+
+=== FAQ
+Q: Does the Ministry of Justice send texts about fines?
+A: Yes, but genuine texts include your first name, 0800 434 637 and a 10-digit PPN, and never include payment links.
+Q: Can I pay a fine through a link in a text?
+A: Not since 31 March 2026. Any text with a payment link claiming to be from the Ministry is a scam.
+Q: How do I check if I have an unpaid fine?
+A: Call 0800 4 FINES (0800 434 637), Monday to Friday 8am to 7pm.
+Q: Where do I report a fake fines text?
+A: Forward it free to 7726 and report it to Netsafe.
+
+=== SOURCES
+https://www.justice.govt.nz/about/news-and-media/news/text-reminders-about-fines-due/ | Ministry of Justice: Automated calls, emails and text messages about fines (updated Oct 5, 2026)
+https://netsafe.org.nz/ | Netsafe
+
+=== RELATED
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scam Surge
+what-is-smishing | What Is Smishing?
+hmrc-ato-mygov-tax-scam-texts-emails | HMRC, ATO and myGov Tax Scam Texts
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing
+sextortion-scams-rising-nz | Sextortion Scams Rising in NZ

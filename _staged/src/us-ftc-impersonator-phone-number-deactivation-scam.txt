@@ -1,0 +1,85 @@
+slug: us-ftc-impersonator-phone-number-deactivation-scam
+country: US
+title: Fake FTC Call Says Your Number Will Be Shut Off: It's a Scam
+h1: “Your Phone Number Is Being Used for Scams”: The Fake FTC Call Explained
+desc: A caller posing as the FTC says your number is linked to crimes abroad and will be deactivated. The FTC's Oct 22, 2026 warning, the script and what to do.
+keywords: ftc phone number deactivation scam, fake ftc call, ftc impersonator scam, phone number used for scams call, government imposter scam 2026
+tags: Government Imposters|Phone Scams|United States|Scam Alert
+=== TLDR
+On October 22, 2026 the FTC warned about callers who claim to be FTC officials, say a phone “registered under your name” is being used for scams in another country, and threaten to deactivate your number. They pass you to a fake police officer, collect your ID, then demand a “security deposit” to avoid arrest. The real FTC never asks for money, never threatens your phone line and never asks you to keep a call secret.
+
+=== BODY
+## What the call sounds like
+
+The opening line is designed to make you feel like the victim and the suspect at the same time. According to the [FTC's consumer alert](https://consumer.ftc.gov/consumer-alerts/2026/10/ftc-not-calling-deactivate-your-phone-number), the caller says “a phone was registered under your name and number and is being used to commit scams in another country.” They read out a badge ID to sound official. Then comes the stick: cooperate, or your phone number gets deactivated.
+
+For most people a phone number is the master key to banking, email and two-factor codes, so the threat lands hard. That is exactly why scammers chose it.
+
+## The script, step by step
+
+The FTC describes a three-act play. It is worth knowing the plot so you can walk out before the interval.
+
+1. **The fake police report.** You are “transferred” to a police officer to file a report. If you hesitate, they suggest you call the police yourself and tell you to search online for the number. The number you find is planted. The person who answers is part of the same crew.
+2. **The data grab.** For the “report” they ask for your ID and personal details, and tell you to keep the matter secret.
+3. **The arrest and the deposit.** Later you are told you are under arrest for the scams linked to your number and must travel to another country, unless you send money as a “security deposit.”
+
+None of it is real. There is no case, no warrant and no deposit that makes a warrant go away.
+
+## Why “search for the number yourself” is a trap
+
+This is the clever bit, and it fools careful people. Being told to look up a number online feels like the opposite of a scam. But scammers buy ads and plant fake listings so their number shows up first. We covered the same trick in our piece on [[fake-customer-care-number-google-search-scam|fake customer care numbers in Google results]].
+
+The safe habit: type the agency's address yourself (ftc.gov, or your local police department's official site) and use the number printed there. Never use a number a caller tells you to find.
+
+## What a real FTC employee will never do
+
+The FTC lists four things its staff will never do:
+
+- ask you to send money, or put you in touch with someone who asks for money;
+- threaten to disconnect your phone;
+- tell you to keep the conversation secret;
+- text you a photo of their employee ID to “prove” who they are.
+
+If you hear any one of these, you can hang up without feeling rude. Politeness is not owed to people trying to rob you.
+
+## How they knew your name and number
+
+These calls often open with your real name, which makes them feel targeted. Usually it is just leaked data. Names, phone numbers and addresses from old breaches and people-search sites are sold in bulk, and scammers work down the list. Our guide to [[how-scammers-build-a-convincing-profile-of-you|how scammers build a profile of you]] explains the pipeline, and you can see how often [[fbi-ic3-2025-report-in-numbers|government impersonation shows up in FBI data]].
+
+If a caller already had your details, it is worth checking what else is out there. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches your email has appeared in.
+
+## If you already shared details or paid
+
+Move fast, in this order:
+
+1. **Money sent:** call your bank or payment app's fraud line now and ask for a recall. Speed matters most with wires, see [[how-to-reverse-a-wire-transfer-scam|how to reverse a wire transfer scam]].
+2. **ID shared:** consider a credit freeze at all three bureaus ([[how-to-freeze-your-credit-us|step-by-step guide]]) and watch for new accounts.
+3. **Phone account:** add a port-out PIN with your carrier so nobody can move your number, see [[port-out-pin-number-lock-att-verizon-t-mobile|how to lock your number]].
+4. **Report it:** file at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/) and with the [FBI's IC3](https://www.ic3.gov/).
+
+## The 10-second test
+
+If a call combines a government agency, a threat, secrecy and a payment, it is a scam. All four together is not a coincidence, it is a business model. The FTC's own [guide to imposter scams](https://consumer.ftc.gov/features/how-avoid-imposter-scams) says the same thing in more formal words.
+
+=== FAQ
+Q: Does the FTC ever call to deactivate a phone number?
+A: No. The FTC says its staff will never threaten to disconnect your phone, ask for money or ask you to keep a call secret.
+Q: Why did the caller tell me to look up the police number online?
+A: Scammers plant fake numbers in search results and ads. The person who answers is part of the scam, so only use numbers from an official website you type in yourself.
+Q: What is the “security deposit” they ask for?
+A: It is the payoff. There is no arrest, so there is nothing to secure. Any request to pay to avoid arrest is a scam.
+Q: Where do I report a fake FTC call?
+A: Report it at ReportFraud.ftc.gov. If you lost money, also contact your bank and file with the FBI's IC3.
+
+=== SOURCES
+https://consumer.ftc.gov/consumer-alerts/2026/10/ftc-not-calling-deactivate-your-phone-number | FTC Consumer Alert: The FTC is not calling to deactivate your phone number (Oct 22, 2026)
+https://consumer.ftc.gov/features/how-avoid-imposter-scams | FTC: How to avoid imposter scams
+https://reportfraud.ftc.gov/ | FTC ReportFraud
+https://www.ic3.gov/ | FBI Internet Crime Complaint Center (IC3)
+
+=== RELATED
+us-fbi-impersonation-complaints-61000-1-6-billion | FBI: 61,000 Law Enforcement Impersonation Complaints
+bank-government-imposter-scam-calls | Bank and Government Imposter Scam Calls
+what-is-caller-id-spoofing | What Is Caller ID Spoofing?
+social-security-impersonation-scam-calls | Social Security Impersonation Scam Calls
+us-scam-news-october-2026 | US Scam News: October 2026

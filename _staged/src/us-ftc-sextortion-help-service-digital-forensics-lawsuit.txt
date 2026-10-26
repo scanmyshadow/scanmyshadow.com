@@ -1,0 +1,82 @@
+slug: us-ftc-sextortion-help-service-digital-forensics-lawsuit
+country: US
+title: FTC Sues “Sextortion Help” Firm Over $60M in Alleged Payments
+h1: FTC Sues a “Sextortion Help” Company: Victims Allegedly Paid $60 Million
+desc: The FTC says Digital Forensics Corp charged sextortion victims $1,499 to $20,000 for help it often didn't give. The case, the red flags and free real help.
+keywords: digital forensics corporation ftc, sextortion help scam, blackmailhelpline.com, sextortion assistance services, ftc sextortion lawsuit 2026
+tags: Sextortion|Recovery Scams|United States|FTC
+=== TLDR
+On October 13, 2026 the FTC sued Digital Forensics Corporation, its CEO Dmitry Belkin and a dozen related companies, alleging they sold “sextortion relief” for $1,499 to $20,000, often didn't deliver it, faked chat transcripts and reports, and took at least $60 million from victims. A federal court in Ohio temporarily halted the business. Real help is free: stop replying, don't pay, report to the FBI, and use the platform takedown tools.
+
+=== BODY
+## What the FTC alleges
+
+Sextortion is cruel enough on its own: someone threatens to share intimate images unless you pay. The [FTC's lawsuit](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-operator-sextortion-relief-scheme-misleading-consumers-believing-it-would-identify) says some victims were then squeezed a second time, by the company they paid to make it stop.
+
+According to the FTC's press release of October 13, 2026:
+
+- Digital Forensics Corporation LLC, its owner and CEO Dmitry Belkin, and 12 affiliated companies were sued in the U.S. District Court for the Northern District of Ohio.
+- “Phase 1” of the service allegedly cost between **$1,499 and $20,000** and promised to track the blackmailer's location, talk to them, write an investigative report and report the crime to police.
+- Victims allegedly paid **at least $60 million**.
+- The company often didn't do the work, sometimes simply blocked the blackmailer on the victim's accounts, and created **fake chat transcripts and made-up investigative findings**.
+- Staff allegedly used scare tactics by phone, including warning servicemembers about a dishonorable discharge.
+- The firm allegedly suppressed bad reviews and posted fake good ones.
+
+The court granted a temporary halt. These are allegations, and the court will decide the case.
+
+## The websites named
+
+The [FTC's consumer alert](https://consumer.ftc.gov/consumer-alerts/2026/10/how-avoid-deceptive-sextortion-assistance-services-and-find-real-help) lists the sites as BlackmailHelpline.com, DigitalForensics.com, CyberBlackmail911.com and SecurityBreach911.com. If you paid one of them, keep your receipts and emails. You may be able to dispute the charge with your card issuer, see [[how-to-dispute-a-fraudulent-charge|how to dispute a charge]].
+
+## Why panic is the product
+
+A person being blackmailed is frightened, ashamed and on a clock. That is the perfect customer for anyone selling certainty. “We will track them down” sounds like rescue. In practice, nobody can promise to find an overseas extortion gang or guarantee images will never surface, and anyone who promises both for a five-figure fee deserves a long, hard look.
+
+This is the same pattern as [[fake-ftc-refund-recovery-scam|fake refund recovery services]] and [[us-fbi-warns-scammers-impersonating-ic3-fund-recovery|fake IC3 “fund recovery” agents]]: the second scam rides in on the first.
+
+## What actually helps, for free
+
+The FTC's own advice is short, and none of it costs money:
+
+1. **Stop replying and don't pay.** Payment rarely ends it. It tells the blackmailer you will pay again.
+2. **Don't give anyone access** to your devices or bank accounts, including “helpers.”
+3. **Talk to someone you trust.** You are the victim of a crime, not the one who did something wrong.
+4. **Report it** to local police and the FBI at [tips.fbi.gov](https://tips.fbi.gov/) or 1-800-225-5324. If a minor is involved, use NCMEC's [CyberTipline](https://www.missingkids.org/gethelpnow/cybertipline).
+5. **Use the takedown law.** Under the Take It Down Act, platforms must remove intimate images within 48 hours of your request, and it is free. If they don't, report it at [TakeItDown.ftc.gov](https://takeitdown.ftc.gov/). Our guide to [[intimate-image-takedown-48-hours-ftc|the 48-hour takedown rule]] walks through it.
+
+Free support lines: NCMEC (for minors) 1-800-843-5678, and the [National Domestic Violence Hotline](https://www.thehotline.org/) (for adults) 1-800-799-7233.
+
+## If you still want to hire someone
+
+Some legitimate firms do digital investigation work. Before paying anyone:
+
+- search the company name with “scam”, “review” and “complaint”, and skip paid search results;
+- be wary of guarantees, countdown pressure and fees in the thousands before any work is done;
+- ask what exactly they will deliver, in writing.
+
+## Lock things down after
+
+Blackmailers often find victims and their contacts through public profiles. Tighten privacy on [[how-to-make-instagram-private|Instagram]] and [[how-to-make-facebook-private|Facebook]], hide your friends list, and run a free [[/digital-footprint-checker/|email exposure check]] to see whether your email is circulating in breach data.
+
+=== FAQ
+Q: Who did the FTC sue?
+A: Digital Forensics Corporation LLC, CEO Dmitry Belkin and 12 affiliated companies, in federal court in the Northern District of Ohio, on October 13, 2026.
+Q: How much did victims pay?
+A: The FTC alleges at least $60 million in total, with Phase 1 services priced between $1,499 and $20,000.
+Q: Should I pay a sextortion blackmailer?
+A: No. The FTC advises not paying and cutting contact. Report it to police and the FBI.
+Q: How do I get intimate images taken down?
+A: Ask the platform directly. Under the Take It Down Act it must remove them within 48 hours, for free. If it doesn't, report it at TakeItDown.ftc.gov.
+
+=== SOURCES
+https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-operator-sextortion-relief-scheme-misleading-consumers-believing-it-would-identify | FTC press release: FTC sues operator of sextortion relief scheme (Oct 13, 2026)
+https://consumer.ftc.gov/consumer-alerts/2026/10/how-avoid-deceptive-sextortion-assistance-services-and-find-real-help | FTC Consumer Alert: How to avoid deceptive sextortion assistance services
+https://takeitdown.ftc.gov/ | FTC Take It Down reporting
+https://www.missingkids.org/gethelpnow/cybertipline | NCMEC CyberTipline
+
+=== RELATED
+intimate-image-takedown-48-hours-ftc | Intimate Image Takedown in 48 Hours
+what-is-sextortion-scams-india-explained | What Is Sextortion? Explained
+fake-ftc-refund-recovery-scam | Fake FTC Refund Recovery Scam
+how-to-make-instagram-private | How to Make Instagram Private
+us-scam-news-october-2026 | US Scam News: October 2026

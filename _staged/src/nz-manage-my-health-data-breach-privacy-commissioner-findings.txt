@@ -1,0 +1,73 @@
+slug: nz-manage-my-health-data-breach-privacy-commissioner-findings
+country: NZ
+title: Manage My Health Breach: What the Privacy Commissioner Found
+h1: Manage My Health Data Breach: The Privacy Commissioner's Findings and What Patients Can Do
+desc: About 120,000 Manage My Health users had medical documents stolen. The Privacy Commissioner found the portal and Health NZ breached the health privacy code.
+keywords: manage my health data breach, managemyhealth breach nz, privacy commissioner manage my health findings, health nz privacy breach northland, patient portal breach new zealand
+tags: Data Breach|Health Privacy|New Zealand|What To Do
+=== TLDR
+In December 2025 attackers stole more than 400,000 medical documents from the Manage My Health patient portal, affecting roughly 120,000 to 127,000 of its 1.8 million users. In May 2026 the Privacy Commissioner found that both Manage My Health and Health NZ breached Rule 5 of the Health Information Privacy Code, and said it would issue compliance notices. About 91% of affected people were Northland hospital patients. Affected patients can now make privacy complaints.
+
+=== BODY
+## What happened
+
+Manage My Health is a privately run portal that GP practices use to give patients access to their records. According to the [Wikipedia summary of the breach](https://en.wikipedia.org/wiki/ManageMyHealth_data_breach):
+
+- the company learned of unauthorised access on **30 December 2025**;
+- roughly **6–7% of its 1.8 million users** (about 120,000–127,000 people) may be affected;
+- more than **400,000 documents** were taken, including referrals, discharge summaries, lab results and imaging reports;
+- a group calling itself “Kazu” demanded **US$60,000** and published samples;
+- on 6 January 2026 the High Court granted injunctions barring anyone from publishing or using the stolen data.
+
+The company said usernames, passwords and core clinical systems weren't compromised, and that access was limited to a document storage module.
+
+## What the Privacy Commissioner found
+
+On 27 May 2026 the [Privacy Commissioner published Phase 1 findings](https://www.privacy.org.nz/tuhono-connect/statements-media-releases/privacy-commissioner-finds-manage-my-health-and-health-new-zealand-breached-privacy-act-91-percent-of-affected-patients-based-in-northland/):
+
+- **Both Manage My Health and Health NZ breached Rule 5** of the Health Information Privacy Code, the rule on keeping health information secure.
+- About **91% of affected people were patients of Northland hospitals**, because Health NZ had a local arrangement to share discharge information through the portal that didn't exist in other regions. Many affected patients are likely to be Māori.
+- Health NZ's project lacked specialist privacy and security staff, leaned too heavily on the vendor's security claims, and used a contract that was too generic.
+- Manage My Health had security gaps and **no systems to detect large-scale data access**.
+- **GP practices are not liable**, as they couldn't have prevented it.
+- The Commissioner intends to issue **compliance notices** to both organisations.
+
+Phase 2 will look at patient authorisation, data retention, breach communications and the impact on Northland Māori.
+
+## Why health data is different
+
+You can cancel a credit card. You can't cancel a diagnosis. Stolen medical documents can be used for extortion (“pay or we tell your employer”), for very convincing phishing (“Your specialist referral needs updating”), and for identity fraud using the personal details on letters.
+
+## What affected patients can do
+
+1. **Make a privacy complaint** if you were affected. The Commissioner's office says it can now consider complaints.
+2. **Be wary of any message that mentions your health details**, a hospital stay or a referral and asks you to click, pay or confirm information. Call your GP on a number you already have.
+3. **Never pay anyone who threatens to release your records.** Report it to Police on 105 and to [Netsafe](https://netsafe.org.nz/).
+4. **Lock down your email** with a strong unique password and two-factor authentication, because your email is the key to every portal you use.
+
+## Check what else is out there
+
+A breach like this adds to whatever is already circulating about you. A free [[/digital-footprint-checker/|email exposure check]] shows which known breaches include your email address, and our guide to [[medical-identity-theft-signs-what-to-do|medical identity theft]] explains the warning signs.
+
+=== FAQ
+Q: How many people were affected by the Manage My Health breach?
+A: Roughly 120,000 to 127,000 people, about 6–7% of the portal's 1.8 million users, with more than 400,000 documents taken.
+Q: What did the Privacy Commissioner find?
+A: That Manage My Health and Health NZ both breached Rule 5 of the Health Information Privacy Code on security, and that compliance notices would be issued.
+Q: Why were Northland patients most affected?
+A: Health NZ had a Northland-only arrangement to share hospital discharge information through the portal. About 91% of affected people were Northland hospital patients.
+Q: Can I complain if my records were taken?
+A: Yes. The Privacy Commissioner's office says it can now consider complaints from affected people.
+
+=== SOURCES
+https://www.privacy.org.nz/tuhono-connect/statements-media-releases/privacy-commissioner-finds-manage-my-health-and-health-new-zealand-breached-privacy-act-91-percent-of-affected-patients-based-in-northland/ | Privacy Commissioner: Manage My Health and Health NZ breached the Privacy Act (May 27, 2026)
+https://www.privacy.org.nz/assets/DOCUMENTS/Manage-My-Health/20260525-Executive-summary-of-Manage-My-Health-phase-one-report-A1191447.pdf | Privacy Commissioner: Executive summary of Manage My Health phase one report
+https://en.wikipedia.org/wiki/ManageMyHealth_data_breach | Wikipedia: ManageMyHealth data breach
+https://www.1news.co.nz/2026/05/27/managemyhealth-warned-before-massive-data-breach-inquiry/ | 1News: ManageMyHealth warned before massive data breach, inquiry
+
+=== RELATED
+medical-identity-theft-signs-what-to-do | Medical Identity Theft: Signs and What to Do
+was-i-affected-by-the-medibank-data-breach | Was I Affected by the Medibank Breach?
+was-i-affected-by-the-latitude-financial-data-breach | Was I Affected by the Latitude Breach?
+sextortion-scams-rising-nz | Sextortion Scams Rising in NZ
+data-breach-notification-email-what-to-do | Got a Data Breach Notification?

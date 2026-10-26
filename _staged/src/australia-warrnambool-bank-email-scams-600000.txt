@@ -1,0 +1,67 @@
+slug: australia-warrnambool-bank-email-scams-600000
+country: AU
+title: Warrnambool Bank Email Scams: $600,000 Lost in One Week
+h1: Four Warrnambool Locals Lose About $600,000 to Fake Bank Emails
+desc: Victoria Police say four south-west locals lost about $600,000 after emails claimed their bank account was compromised. How the scam worked and the one rule that stops it.
+keywords: warrnambool scam, bank email scam australia, fake bank email account compromised, $600000 scam victoria, bank impersonation scam 2026
+tags: Bank Impersonation|Email Scams|Australia|Real Stories
+=== TLDR
+Warrnambool police said on October 26, 2026 that four people in Victoria's south-west lost about $600,000 in a week to the same trick: an email saying their bank account had been compromised, a phone number to call, and a “bank” employee who talked them through moving their money. One woman transferred $270,000 in four payments. Police say there is “zero chance” of getting it back. Banks don't email you to say your account is compromised and ask you to call.
+
+=== BODY
+## What happened
+
+According to [The Standard](https://www.standard.net.au/story/9379442/warrnambool-police-issue-scam-alert-after-600000-lost/), four local victims reported losing about $600,000 between them in the space of a week. The pattern was the same each time:
+
+1. An email arrives saying your bank account has been compromised.
+2. It gives a phone number to call.
+3. The person who answers sounds like a bank fraud officer and tells you what to do to “protect” your money.
+4. You move the money yourself.
+
+The largest loss: a middle-aged woman who transferred **$270,000 in four separate transactions** in September. Police say the money went to an account in Australia, apparently via a hijacked account, then overseas.
+
+Detective Sergeant Derek Verity didn't sugar-coat it: “There is zero chance of those funds being recovered.”
+
+## Why calling the number feels safe
+
+Most of us have learned not to click links. Calling a phone number feels like the cautious option, because you are the one making the call. That's the trick. If the number came from the email, you are calling the scammer, and everything they say afterwards sounds reasonable because you started the conversation.
+
+## The rule that stops this
+
+Warrnambool police were clear that banks don't contact customers this way by email. If you get a worrying message about your account:
+
+- **don't use any number or link in it;**
+- call the number on the back of your card, or visit a branch;
+- treat any instruction to move money to a “safe account” as a scam, every time.
+
+No genuine bank fraud team asks you to transfer your own money to protect it. We explain the script in [[australia-bank-impersonation-scams-what-to-know|bank impersonation scams in Australia]].
+
+## If you've sent money
+
+Call your bank immediately using the number on your card and ask them to try to stop or recall the payments. Then report it at [ReportCyber](https://www.cyber.gov.au/report-and-recover/report), to [Scamwatch](https://www.scamwatch.gov.au/), and contact [[australia-scamwatch-idcare-recovery-process|IDCARE]] for free support. Speed matters: once money leaves Australia it is much harder to trace.
+
+## Why they targeted these people
+
+Scam emails like this go to huge lists, and a convincing one only needs a few replies. Lists come from breaches, which is why checking your own exposure helps. A free [[/digital-footprint-checker/|email exposure check]] shows if your email has been in known breaches.
+
+=== FAQ
+Q: How much was lost in the Warrnambool scams?
+A: About $600,000 across four victims in one week, according to Warrnambool police.
+Q: How did the scam start?
+A: With an email claiming the victim's bank account was compromised and giving a phone number to call.
+Q: Can the money be recovered?
+A: In the largest case police said there is "zero chance" of recovery. Acting fast gives the best odds.
+Q: Do Australian banks email to say your account is compromised?
+A: Police say banks don't contact customers this way. Call the number on your card or visit a branch.
+
+=== SOURCES
+https://www.standard.net.au/story/9379442/warrnambool-police-issue-scam-alert-after-600000-lost/ | The Standard: Warrnambool police issue scam alert after $600,000 lost (Oct 26, 2026)
+https://www.scamwatch.gov.au/ | Scamwatch
+https://www.cyber.gov.au/report-and-recover/report | ReportCyber
+
+=== RELATED
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Australia
+australia-scamwatch-idcare-recovery-process | Scamwatch and IDCARE Recovery Process
+australia-scams-2025-national-anti-scam-centre-data | Australia Scam Data 2025
+how-to-report-a-scam-to-scamwatch | How to Report a Scam to Scamwatch
+australia-scam-news-october-2026 | Australia Scam News: October 2026

@@ -1,0 +1,77 @@
+slug: us-ftc-fake-charity-sweepstakes-prize-calls
+country: US
+title: “You Won Our Charity Sweepstakes”: The FTC's New Warning
+h1: “You Won Because You Donated”: Fake Charity Sweepstakes Calls, Explained
+desc: The FTC warns of callers posing as charities you support, saying you won a sweepstakes and must pay to claim it. How it works and how to check a charity.
+keywords: charity sweepstakes scam, fake charity prize call, ftc sweepstakes scam warning, you won a sweepstakes call, charity impersonation scam 2026
+tags: Charity Scams|Prize Scams|United States|Scam Alert
+=== TLDR
+The FTC warned on October 26, 2026 that scammers are calling people, posing as a real charity they support (or one with a similar name), and saying they won a sweepstakes because they donated. The catch is always a fee, a tax or your Social Security number to “release” the prize. Real sweepstakes are free and never ask you to pay to claim.
+
+=== BODY
+## The call
+
+It starts with flattery and a thank-you. A friendly voice says you won a prize from a charity you gave to, maybe a cancer charity or a veterans' group. The [FTC's alert](https://consumer.ftc.gov/consumer-alerts/2026/10/spot-scammers-impersonating-well-known-charities-and-sweepstakes) says the scammers use a real charity's name or a sound-alike, and often hint that your donation is why you won.
+
+It is smart psychology. You did donate. Being rewarded for kindness feels fair. And the call uses a name you already trust.
+
+## The catch
+
+Before the “prize” arrives you are asked to pay something: a processing fee, taxes, shipping, insurance. Or they want your Social Security number “for the paperwork.” The FTC's line is blunt: “The moment someone tells you to pay to claim your prize, you know you're dealing with a scam.”
+
+Paying rarely ends it. The FTC notes that people who pay usually lose the money and then get more calls, mail and spam, because their number goes on a list of people who pay.
+
+## Why caller ID doesn't settle it
+
+If your phone shows the charity's real name, that proves nothing. “Scammers can fake caller ID,” the FTC says. We explain how in [[what-is-caller-id-spoofing|what is caller ID spoofing]].
+
+## The rules of real sweepstakes
+
+Real sweepstakes in the US work on chance and are free. According to the FTC, it is illegal to ask you to pay or buy something to enter or to improve your odds. So:
+
+- no fees to claim, ever;
+- no gift cards, wires or crypto;
+- no Social Security number just to “release” a prize;
+- no pressure to decide on the call.
+
+## How to check a charity in five minutes
+
+1. **Hang up and look it up yourself.** Type the charity's website into your browser. Don't use a link or number the caller gives you.
+2. **Search the name with “scam”, “complaint” or “review”** and scroll past the first results.
+3. **Skip paid search ads.** The FTC warns that sponsored results can lead to imposters.
+4. **Check the charity** with your state charity regulator or a watchdog like [Charity Navigator](https://www.charitynavigator.org/) or the [BBB Wise Giving Alliance](https://give.org/).
+5. **Call the charity's real number** from its website and ask if it runs a sweepstakes.
+
+Our guide on [[how-to-verify-a-charity-before-you-donate|verifying a charity before you donate]] has more detail, and [[what-is-fake-charity-scams|how fake charity scams work]] covers the wider pattern.
+
+## Why donors get these calls
+
+Donor lists, mailing lists and breach data get bought, sold and stolen, which is how a scammer knows you gave money to a cause. If you donate online, use a dedicated email for donations and check whether your main email has already leaked with a free [[/digital-footprint-checker/|email exposure check]].
+
+## Already paid?
+
+Contact your bank or card issuer right away and ask them to stop or reverse the payment. If you paid with a gift card, call the card company immediately, see [[gift-card-scam-recovery-what-to-do|gift card scam recovery]]. Then report it at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/).
+
+=== FAQ
+Q: Do real charities run sweepstakes?
+A: Some do, but a real sweepstakes is free to enter and free to claim. Any fee or tax demanded up front is a scam sign.
+Q: The caller ID showed the charity's name. Is it real?
+A: Not necessarily. Caller ID can be faked. Hang up and call the charity on the number from its own website.
+Q: Can a sweepstakes ask for my Social Security number?
+A: The FTC calls it a warning sign when a caller asks for your SSN to release a prize. Don't give it on an unexpected call.
+Q: Where do I report a fake sweepstakes call?
+A: Report it to the FTC at ReportFraud.ftc.gov.
+
+=== SOURCES
+https://consumer.ftc.gov/consumer-alerts/2026/10/spot-scammers-impersonating-well-known-charities-and-sweepstakes | FTC Consumer Alert: Spot scammers impersonating well-known charities and sweepstakes (Oct 26, 2026)
+https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams | FTC: Fake prize, sweepstakes, and lottery scams
+https://consumer.ftc.gov/features/donating-safely-and-avoiding-scams | FTC: Donating safely and avoiding scams
+https://www.charitynavigator.org/ | Charity Navigator
+https://give.org/ | BBB Wise Giving Alliance
+
+=== RELATED
+what-is-lottery-sweepstakes-scams | Lottery and Sweepstakes Scams Explained
+how-to-verify-a-charity-before-you-donate | How to Verify a Charity Before You Donate
+end-of-year-charity-scams | End-of-Year Charity Scams
+what-is-caller-id-spoofing | What Is Caller ID Spoofing?
+us-scam-news-october-2026 | US Scam News: October 2026

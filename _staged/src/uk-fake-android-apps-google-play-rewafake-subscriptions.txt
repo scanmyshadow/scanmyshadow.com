@@ -1,0 +1,79 @@
+slug: uk-fake-android-apps-google-play-rewafake-subscriptions
+country: UK
+title: 1,900 Fake Apps on Google Play: UK Users Hit Hardest
+h1: Fake PayPal, Apple Pay and Netflix Apps on Google Play: UK Had the Most Detections
+desc: McAfee found 1,900+ fake Android apps posing as PayPal, Apple Pay, Netflix and Roblox, pushing subscriptions up to $49.99 a month. The UK topped detections.
+keywords: fake apps google play, rewafake, fake paypal app android, fake apple pay app android, google play subscription scam uk
+tags: Fake Apps|Android|United Kingdom|Subscription Scams
+=== TLDR
+McAfee reported on October 7, 2026 that a campaign it calls Android/RewaFake put more than 1,900 fake apps on Google Play, posing as PayPal, Apple Pay, Netflix, Zelle, CapCut, Roblox and more. The apps were empty shells that opened gambling-style quizzes and subscription traps billing up to $49.99 a month. The UK had the most detections in McAfee's list. Google removed the identified apps, but new ones were appearing at 20 to 25 a day.
+
+=== BODY
+## What McAfee found
+
+[McAfee Labs](https://mcafee.com/blogs/other-blogs/mcafee-labs/malicious-apps-google-play-store-adware-campaign) says the campaign involved more than **1,900 unique apps** on over **500,000 devices** in more than 190 countries. The operators were releasing an estimated **20 to 25 new apps a day**. Which? later highlighted the UK angle, reporting 970 fake apps targeting UK consumers.
+
+Brands copied include PayPal, Apple Pay, Netflix, Zelle, Xbox Game Pass, Siri, iMessage, Apple Health, Binance and several banks, plus 37 apps aimed at children that pretended to be Roblox, Minecraft or Fall Guys.
+
+## Some of the download numbers
+
+- a fake Zelle app: 100,000+ downloads;
+- a fake Roblox app: 50,000+;
+- a fake CapCut editor: 50,000+;
+- a fake PayPal app: 10,000+;
+- fake children's game apps: 86,000+ combined.
+
+## Where users were hit
+
+| Market | McAfee detections |
+|---|---|
+| United Kingdom | 11,862 |
+| Germany | 5,016 |
+| France | 4,288 |
+| Australia | 1,434 |
+| Japan | 944 |
+
+These are detections by McAfee's own software, not infection rates, but the UK topping the list is striking.
+
+## What the apps actually did
+
+Nothing useful. Each app downloaded instructions from the operators' server and opened a web page in a hidden-address-bar browser window. Users saw full-screen ads and gambling-style quizzes that funnelled them into subscription pages charging **up to $49.99 a month**. The apps asked for no dangerous permissions and used no hacks, which is partly why they slipped through review. McAfee warns the same setup could be switched to phishing at any time, because the destination page is controlled remotely.
+
+## The giveaway nobody checks
+
+Apple Pay, Siri and iMessage don't exist on Android. Any Android app claiming to be one of them is fake, full stop. It is the app-store equivalent of a Rolex sold out of a car boot.
+
+## How to stay safe
+
+1. **Install bank and payment apps from links on the company's own website**, not by searching the store.
+2. **Check the developer name**, not just the icon and title. PayPal's app is published by PayPal.
+3. **Ignore download counts.** 100,000 installs proves good marketing, not honesty.
+4. **Be wary of “guide”, “helper” or “tutorial” apps** for products you already have.
+5. **Check your subscriptions**: on Android, open the Play Store, tap your profile, then Payments & subscriptions. Cancel anything you don't recognise and ask your bank about disputing charges.
+
+Our guides on [[how-to-tell-if-an-app-is-spyware|telling whether an app is spyware]] and [[what-is-subscription-trap-scams|subscription traps]] go deeper. If a child installed a fake game app, see [[kids-gaming-scams-robux-v-bucks-free-fire-parents|gaming scams for parents]].
+
+## If you entered details into a fake app
+
+Change the password for the real service, turn on two-factor authentication and call your bank if you entered card details. Report the app in Google Play using the three-dot menu and “Flag as inappropriate.” A free [[/digital-footprint-checker/|email exposure check]] will show if your email already appears in known breaches.
+
+=== FAQ
+Q: How many fake apps did McAfee find?
+A: More than 1,900 unique apps in the Android/RewaFake campaign, on over 500,000 devices in 190+ countries.
+Q: Have the apps been removed?
+A: Google removed the apps McAfee reported, but McAfee estimated 20 to 25 new ones were being released each day.
+Q: Is there an Apple Pay app for Android?
+A: No. Apple Pay, Siri and iMessage are not available on Android, so any Android app using those names is fake.
+Q: How do I cancel a subscription started by a fake app?
+A: Open the Play Store, tap your profile, go to Payments & subscriptions, and cancel it. Contact your bank if you were charged.
+
+=== SOURCES
+https://mcafee.com/blogs/other-blogs/mcafee-labs/malicious-apps-google-play-store-adware-campaign | McAfee Labs: Android/RewaFake fake apps adware campaign on Google Play (Oct 7, 2026)
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Oct 20, 2026 entry)
+
+=== RELATED
+how-to-spot-a-fake-vpn-app | How to Spot a Fake VPN App
+how-to-spot-a-fake-browser-extension | How to Spot a Fake Browser Extension
+is-my-android-phone-hacked | Is My Android Phone Hacked?
+how-to-remove-spyware-from-android | How to Remove Spyware From Android
+uk-scam-news-october-2026 | UK Scam News: October 2026

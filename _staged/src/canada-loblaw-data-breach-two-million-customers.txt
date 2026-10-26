@@ -1,0 +1,75 @@
+slug: canada-loblaw-data-breach-two-million-customers
+country: CA
+title: Loblaw Data Breach: 2 Million Canadians Being Notified
+h1: Loblaw Data Breach: About 2 Million Canadians Notified. What Was Exposed and What to Do
+desc: Loblaw is notifying about two million Canadians that a March 2026 breach may have exposed names, addresses, birth dates, loyalty numbers and partial card data.
+keywords: loblaw data breach, loblaw breach two million, loblaw data breach notification 2026, loyalty card data breach canada, loblaw transunion credit monitoring
+tags: Data Breach|Retail|Canada|What To Do
+=== TLDR
+Loblaw said on October 23, 2026 that it is starting to notify about two million Canadians affected by a breach it detected in March. Depending on the person, exposed data may include names, email and home addresses, dates of birth, loyalty card numbers, some order details and partial payment card information. Loblaw is offering free TransUnion credit monitoring and identity restoration. The bigger risk now is scam emails and texts dressed up as breach notices.
+
+=== BODY
+## What happened
+
+According to the [Canadian Press report carried by CP24](https://www.cp24.com/news/money/2026/10/23/loblaw-says-march-data-breach-affected-about-two-million-canadians/), Loblaw detected “suspicious activity” on its IT network in March 2026 and found that an unauthorized third party had accessed some basic customer information. It investigated, notified police and regulators, and says it strengthened its security.
+
+Seven months later, on October 23, it began notifying about **two million Canadians**. The company hasn't said how the attackers got in.
+
+## What may have been exposed
+
+Not everyone had everything exposed. The possible data includes:
+
+- names;
+- email and home addresses;
+- dates of birth;
+- loyalty card numbers;
+- some purchase order details;
+- **partial** payment card information.
+
+Partial card data can't be used to shop on its own, but it is gold for phishing: “We noticed a charge on your card ending 4417” sounds terrifyingly real when the last four digits are correct.
+
+## The scam wave to expect
+
+Every big Canadian breach is followed by fake notices. Watch for:
+
+- emails or texts saying “Your Loblaw/PC account was compromised, verify here”;
+- fake “compensation” or “gift card for the inconvenience” offers;
+- calls from a “bank fraud team” that quote your partial card number and ask you to move money or read out a code;
+- loyalty-points theft attempts, where scammers log in and redeem your points.
+
+Small businesses are being targeted with fake breach notices too, as [Cybersecurity Canada notes](https://cybersecuritycanada.ca/news/posts/loblaw-data-breach-phishing-scams-how-canadian-smbs-should-respond/).
+
+## What to do now
+
+1. **Wait for the real notice**, then enroll in the free TransUnion credit monitoring using the code in it. Don't click enrollment links in unexpected texts.
+2. **Change your loyalty account password** and any other account that shared it. A [[check-if-your-password-has-been-leaked|leaked password]] is the most common way points get stolen.
+3. **Place a fraud alert** with Equifax and TransUnion Canada, or go further with a [[how-to-freeze-your-credit-canada|credit freeze in Canada]].
+4. **Check your card statements** for small test charges.
+5. **Report scam messages** to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) and see our guide to [[canada-anti-fraud-centre-reporting-guide|reporting to the CAFC]].
+
+## A breach rarely comes alone
+
+If your email is on one breached list, it is usually on several. A free [[/digital-footprint-checker/|email exposure check]] shows where it has turned up, which helps you guess what a scammer knows before they call.
+
+=== FAQ
+Q: How many people were affected by the Loblaw breach?
+A: Loblaw says it is notifying about two million Canadians.
+Q: When did the Loblaw breach happen?
+A: Loblaw detected suspicious activity in March 2026 and began notifying customers on October 23, 2026.
+Q: Was my full credit card number stolen?
+A: Loblaw says partial payment card information may have been exposed, not full card numbers.
+Q: Is Loblaw offering credit monitoring?
+A: Yes. Affected customers are offered complimentary credit monitoring and identity restoration through TransUnion.
+
+=== SOURCES
+https://www.cp24.com/news/money/2026/10/23/loblaw-says-march-data-breach-affected-about-two-million-canadians/ | CP24 / Canadian Press: Loblaw says March data breach affected about two million Canadians (Oct 23, 2026)
+https://www.theglobeandmail.com/business/article-loblaw-march-data-breach-affected-about-2-million-customers/ | The Globe and Mail: Loblaw says March data breach affected about 2 million customers
+https://cybersecuritycanada.ca/news/posts/loblaw-data-breach-phishing-scams-how-canadian-smbs-should-respond/ | Cybersecurity Canada: Loblaw breach and fake notification scams
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-identity-theft-report-by-province | Identity Theft in Canada by Province
+how-to-report-identity-theft-canada | How to Report Identity Theft in Canada
+telus-data-breach-notification-email-real-or-scam | Telus Breach Email: Real or Scam?
+canada-scam-news-october-2026 | Canada Scam News: October 2026
+data-breach-notification-email-what-to-do | Got a Data Breach Notification?

@@ -1,0 +1,67 @@
+slug: nz-fake-police-crypto-seed-phrase-scam
+country: NZ
+title: Fake NZ Police Call Crypto Holders, Then Steal Seed Phrases
+h1: “Your ID Was Found on a Suspect”: The Fake Police Crypto Scam Hitting Kiwis
+desc: Scammers posing as NZ Police say your ID was found on someone arrested, then pass you to a fake crypto company that steals your seed phrase. Some lost millions.
+keywords: fake police crypto scam nz, seed phrase scam, nz police impersonation scam, crypto holder scam new zealand, ncsc scam alert police impersonation
+tags: Crypto Scams|Police Impersonation|New Zealand|Scam Alert
+=== TLDR
+NZ Police and the NCSC warned in July 2026 about a scam aimed at people who hold cryptocurrency. A fake detective says your ID was found on someone arrested and asks if you hold crypto. Then a fake “crypto company” rep calls to help you secure it, and walks you into entering your seed phrase on a lookalike site. Some victims lost millions. Real police never ask for passwords, seed phrases or financial details.
+
+=== BODY
+## How it works
+
+[1News](https://www.1news.co.nz/2026/07/21/scammers-posing-as-police-stealing-millions-from-kiwi-crypto-holders/) laid out the four steps from NZ Police:
+
+1. **The detective.** A caller says your personal information or ID was found on someone police arrested.
+2. **The question.** They ask whether you hold cryptocurrency, and how.
+3. **The “crypto company.”** A second person, posing as a rep from your exchange or wallet provider, contacts you to “secure” your account.
+4. **The seed phrase.** You're persuaded to type your password or seed phrase into a page that looks exactly like your crypto app. It isn't.
+
+Detective Inspector Stuart Mills said police had received many reports in a few weeks and that some victims lost millions. The [NCSC issued its own alert](https://www.ncsc.govt.nz/alerts/scammers-impersonating-police-to-target-victims-for-cryptocurrency-theft/) on the same scam.
+
+## Why it's so effective
+
+The first call does the heavy lifting. Being told a criminal had your ID makes you scared and grateful at once. So when “your exchange” rings shortly after, it feels like the system working, not a second scammer. It's a two-person relay where each runner makes the other look legitimate.
+
+## Your seed phrase is the whole wallet
+
+A seed phrase (or recovery phrase) is 12 or 24 words that can recreate your crypto wallet on any device. Anyone who has it owns your crypto. No exchange, police force or support team ever needs it, and transfers on the blockchain can't be reversed. It's a bit like giving a stranger the original deeds to your house, signed.
+
+## What real police will and won't do
+
+NZ Police may contact you for genuine reasons, but they say they will **never ask for sensitive financial details**. If you're unsure:
+
+- ask for the officer's name and station;
+- hang up and call **105** yourself;
+- ask for the officer to contact you through official channels.
+
+## If you've shared a seed phrase
+
+Move any remaining funds immediately to a brand new wallet with a new seed phrase, from a device you trust. Report it to Police (105 or online), the [NCSC](https://www.ncsc.govt.nz/) and your exchange. Be ready for “recovery” scammers next: they target recent victims with promises to trace stolen crypto for a fee. Our guide on [[crypto-scam-recovery-realistic-expectations|realistic crypto recovery]] explains why to say no.
+
+## Why you were on their list
+
+Crypto holders are often found through exchange breaches and leaked customer lists. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in known breaches, including crypto platforms.
+
+=== FAQ
+Q: Do NZ Police ever ask for crypto passwords or seed phrases?
+A: No. Police say they will never ask for sensitive financial details. Call 105 to check.
+Q: What is a seed phrase?
+A: The 12 or 24 recovery words that control your crypto wallet. Anyone with it can take your funds.
+Q: How much have victims lost?
+A: Police said some victims lost millions of dollars.
+Q: Where do I report this scam in New Zealand?
+A: Report to NZ Police (105), the NCSC and your crypto exchange.
+
+=== SOURCES
+https://www.1news.co.nz/2026/07/21/scammers-posing-as-police-stealing-millions-from-kiwi-crypto-holders/ | 1News: Scammers posing as police stealing millions from Kiwi crypto holders (Jul 21, 2026)
+https://www.ncsc.govt.nz/alerts/scammers-impersonating-police-to-target-victims-for-cryptocurrency-theft/ | NCSC: Scammers impersonating police to target victims for cryptocurrency theft
+https://www.ncsc.govt.nz/ | National Cyber Security Centre (NZ)
+
+=== RELATED
+uk-kent-police-impersonation-calls-crypto-seed-phrase-warning | Kent Police Warn of Seed Phrase Calls
+metamask-phishing-scam-what-to-know | MetaMask Phishing Scams
+trust-wallet-phishing-scam-what-to-know | Trust Wallet Phishing Scams
+crypto-scam-statistics-2026 | Crypto Scam Statistics 2026
+sextortion-scams-rising-nz | Sextortion Scams Rising in NZ

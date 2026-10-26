@@ -1,0 +1,68 @@
+slug: canada-gold-bar-safekeeping-scam-fake-rcmp
+country: CA
+title: Gold Bar Scam: Fake Bank Calls Then Fake RCMP Collect the Gold
+h1: The Gold “Safekeeping” Scam: Buy Gold, Hand It to a Fake Officer
+desc: Nova Scotia RCMP warns of scammers posing as bank fraud teams who tell victims to buy gold, then send fake officers to collect it. How it works and red flags.
+keywords: gold scam canada, gold bar scam rcmp, buy gold safekeeping scam, fake police collect gold, bank fraud department gold scam
+tags: Bank Impersonation|Police Impersonation|Canada|Scam Alert
+=== TLDR
+Nova Scotia RCMP warned on October 5, 2026 about a scam where callers pose as a big bank's fraud department, say foreign hackers are after your savings, and tell you to convert the money into gold from a real Canadian dealer. Then a fake “police officer” with a fake badge comes to collect the gold for “safekeeping.” Police never hold your valuables for safekeeping.
+
+=== BODY
+## How the scam works
+
+The [RCMP's release](https://rcmp.ca/en/nova-scotia/news/2026/10/4357534) describes a two-act scam:
+
+1. **The bank call.** Someone posing as the fraud department of a major Canadian bank says your money is at risk from foreign hackers.
+2. **The gold plan.** You're told to protect your savings by buying gold, from a genuine online dealer, using savings and investments.
+3. **The pickup.** A “police officer” meets you in person, shows a badge and takes the gold to keep it safe.
+
+In the Nova Scotia case under investigation, the scammers said they were RCMP investigators. Their badges did not match real RCMP badges, and they weren't in uniform or in police vehicles. Similar cases have been reported elsewhere in Canada.
+
+## Why gold?
+
+Because the old routes are getting harder. Banks now question large wire transfers and cash withdrawals, and gift cards and crypto ATMs draw attention. Buying gold from a legitimate dealer looks like a normal investment, so it raises fewer flags. And unlike a bank transfer, a gold bar handed over on your doorstep can't be recalled. It's the [[uk-card-cleaning-courier-scam|courier scam]] with a shinier prop.
+
+## The line to remember
+
+Cpl. Mitch Thompson of the RCMP: “Police will not take financial instruments from people for safekeeping.”
+
+That covers gold, cash, bank cards, jewellery and anything else. If someone in a suit with a badge wants to hold your valuables, they are not police.
+
+## Red flags
+
+- A bank “fraud team” that wants you to move money out of the bank.
+- Instructions to keep it secret from family or branch staff.
+- Any plan where a stranger collects money, gold or cards from your home.
+- A badge shown at the door without uniform, marked car or a call-back you can verify.
+
+## What to do
+
+If you get a call like this, hang up before following any directions, the RCMP says. Then call your branch or the number on the back of your card, or talk to someone you trust. Report it to local police, or anonymously through Crime Stoppers, and to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+Older adults are the main targets of in-person pickup scams. Our guides on [[protect-elderly-parents-from-phone-scams|protecting elderly parents from phone scams]] and [[talk-to-parents-about-scam-prevention|talking to parents about scams]] help start the conversation.
+
+## How they knew which bank you use
+
+Often they guess, because a handful of banks serve most Canadians. Sometimes they have leaked data. A free [[/digital-footprint-checker/|email exposure check]] shows if your email has been in a breach, which is one way scammers build their call lists.
+
+=== FAQ
+Q: Will police ever hold gold or money for safekeeping?
+A: No. The RCMP says police will not take financial instruments from people for safekeeping.
+Q: Was the gold dealer part of the scam?
+A: In the case described, victims bought gold from a legitimate online dealer. The scam was the calls and the fake officers who collected it.
+Q: What should I do if my bank's fraud team calls?
+A: Hang up and call the number on the back of your card or your local branch before doing anything.
+Q: Where do I report this scam in Canada?
+A: Report to local police and the Canadian Anti-Fraud Centre.
+
+=== SOURCES
+https://rcmp.ca/en/nova-scotia/news/2026/10/4357534 | Nova Scotia RCMP: RCMP warns of emerging scam involving gold purchases (Oct 5, 2026)
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
+canada-maple-ridge-rcmp-card-pick-up-fraud-bank-impersonation | Card Pick-Up Fraud in Maple Ridge
+fake-bank-investigator-scam-guelph-800k | Fake Bank Investigator Scam: $800K in Guelph
+uk-courier-fraud-fake-bank-investigators-explained | Courier Fraud Explained
+canada-scam-news-october-2026 | Canada Scam News: October 2026

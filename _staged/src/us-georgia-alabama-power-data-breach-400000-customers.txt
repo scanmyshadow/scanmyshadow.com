@@ -1,0 +1,80 @@
+slug: us-georgia-alabama-power-data-breach-400000-customers
+country: US
+title: Georgia Power and Alabama Power Breach: 400,000 Customers
+h1: Georgia Power and Alabama Power Data Breach: What 400,000 Customers Should Do
+desc: Hackers got into Southern Company's customer portal, exposing names, addresses, emails and last-4 SSNs for about 400,000 customers. What leaked and next steps.
+keywords: georgia power data breach, alabama power data breach, southern company data breach 2026, georgia power customer portal hack, utility data breach equifax monitoring
+tags: Data Breach|Utilities|United States|What To Do
+=== TLDR
+Southern Company said in early October 2026 that an unauthorized party got into its online customer portal and took account information for about 400,000 customers: roughly 300,000 at Georgia Power and about 100,000 at Alabama Power. Names, addresses, phone numbers, emails, basic account details and the last four digits of Social Security numbers were exposed. Bank and card numbers were not. Affected customers get a year of free Equifax credit monitoring. Expect convincing fake “power bill” calls and texts.
+
+=== BODY
+## What happened
+
+According to [ABC 33/40](https://abc3340.com/news/local/100000-alabama-power-customers-affected-in-southern-company-data-breach-draft-10-05-2026-october) and the [Atlanta Journal-Constitution](https://www.ajc.com/business/2026/10/georgia-power-data-breach/), Southern Company detected suspicious activity on the online portal its customers use to view and pay bills. An unauthorized third party had accessed “limited customer account information.” The company says it stopped the access, notified law enforcement and found no evidence of ongoing access.
+
+Georgia Power announced the breach on October 5, 2026. The Georgia Public Service Commission said it is monitoring the situation.
+
+## Who is affected
+
+| Utility | Customers affected (approx.) | Total customers (approx.) |
+|---|---|---|
+| Georgia Power | 300,000 | 2.8 million |
+| Alabama Power | 100,000 | 1.6 million |
+| Total | 400,000 | |
+
+Affected customers are being notified by US mail and email. If you get a notice, it should come from Southern Company or your utility, not from someone calling you about it.
+
+## What was exposed, and what wasn't
+
+**Exposed:** name, home address, phone number, email address, the last four digits of your Social Security number and basic account details.
+
+**Not exposed, per the company:** bank account numbers, payment card numbers and driver's license numbers.
+
+That last-four SSN detail matters more than it sounds. Many call centers, including some banks and phone carriers, still use the last four digits as a security check. Combined with your name, address and phone number, it gives a scammer a believable script.
+
+## The real risk: fake power bill calls
+
+Utility customers are already a favorite target for “your power will be cut off in 30 minutes unless you pay” scams. Now the callers may know your account details and the last four of your SSN. Expect:
+
+- calls or texts saying your payment failed and service will be disconnected today;
+- requests to pay by gift card, Zelle, Cash App or crypto;
+- fake “breach compensation” or “refund” offers asking you to confirm your details;
+- phishing emails pretending to be the breach notice itself.
+
+Georgia Power and Alabama Power do not take payment by gift card. If you get a threatening call, hang up and call the number on your paper bill or the official website. We explain how these calls work in [[bank-government-imposter-scam-calls|imposter scam calls]] and [[what-is-caller-id-spoofing|caller ID spoofing]].
+
+## What to do now
+
+1. **Enroll in the free Equifax monitoring** if you get a notice. Use the code in the letter, not a link from an unexpected text.
+2. **Change your portal password** and any other account that used the same one. Our [[check-if-your-password-has-been-leaked|leaked password guide]] explains why reuse is the real danger.
+3. **Freeze your credit** at Equifax, Experian and TransUnion. It is free and stops new accounts being opened in your name, see [[how-to-freeze-your-credit-us|how to freeze your credit]].
+4. **Ask your phone carrier and bank** to stop using SSN digits alone as verification, and add a PIN or passphrase. For your phone, add a [[port-out-pin-number-lock-att-verizon-t-mobile|port-out PIN]].
+5. **Watch for breach-themed phishing.** See [[data-breach-notification-email-what-to-do|how to tell a real breach notice from a fake one]].
+
+## How exposed are you already?
+
+A utility portal breach is rarely the first time your details have leaked. Your email may already be in several older breaches, which makes phishing easier to tailor. Run a free [[/digital-footprint-checker/|email exposure check]] to see where it has turned up.
+
+=== FAQ
+Q: How many customers were affected by the Southern Company breach?
+A: About 400,000 in total: roughly 300,000 Georgia Power customers and about 100,000 Alabama Power customers, according to the company and local reports.
+Q: Was my full Social Security number stolen?
+A: The company says only the last four digits were exposed, along with name, address, phone, email and basic account details. Bank and card numbers were not.
+Q: Is there free credit monitoring?
+A: Yes. Affected customers are offered one year of free credit monitoring through Equifax. Enroll using the details in your official notice.
+Q: Someone called saying my power will be shut off today. Is it real?
+A: Treat it as a scam. Hang up and call the number on your bill or the utility's official website. Utilities do not demand gift cards or crypto.
+
+=== SOURCES
+https://abc3340.com/news/local/100000-alabama-power-customers-affected-in-southern-company-data-breach-draft-10-05-2026-october | ABC 33/40: 100,000 Alabama Power customers affected in Southern Company data breach
+https://www.ajc.com/business/2026/10/georgia-power-data-breach/ | Atlanta Journal-Constitution: Georgia Power data breach (Oct 2026)
+https://securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts | SecurityWeek: Georgia Power, Alabama Power data breach hits 400,000 accounts
+https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts | FTC: Credit freezes and fraud alerts
+
+=== RELATED
+centerpoint-energy-data-breach-what-to-do | CenterPoint Energy Data Breach: What To Do
+data-breach-notification-email-what-to-do | Got a Data Breach Notification? What To Do
+how-to-freeze-your-credit-us | How to Freeze Your Credit in the US
+fake-electricity-bill-disconnection-scam-india | Fake Electricity Disconnection Scams
+recent-data-breaches-this-week | Recent Data Breaches This Week

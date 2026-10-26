@@ -1,0 +1,77 @@
+slug: us-california-ets-student-testing-data-breach
+country: US
+title: California Student Data Breach (ETS): What Parents Should Do
+h1: California's ETS Student Data Breach: What Was Taken and What Parents Can Do
+desc: Hackers copied California student records from testing contractor ETS, including disability and 504 data. Who is affected, what leaked and steps for parents.
+keywords: ets data breach california, california student data breach 2026, caaspp data breach, cde ets breach notice, student data breach what to do parents
+tags: Data Breach|Children's Privacy|United States|What To Do
+=== TLDR
+The California Department of Education began notifying families on October 16, 2026 that hackers copied student data from a secure file-transfer site run by testing contractor ETS between May 22 and September 18, 2026. Current and former public school students are affected. The data includes names, birth dates, home addresses, student IDs, and sensitive details like disability and Section 504 status. No Social Security numbers were listed. Kids have clean credit, which makes a child credit freeze the single best move.
+
+=== BODY
+## What happened
+
+ETS (Educational Testing Service) runs California's state tests, the CAASPP and ELPAC, for the California Department of Education (CDE). According to [The Record](https://therecord.media/california-warns-all-public-school-students-of-data-breach), hackers copied data through an ETS secure file transfer (SFTP) site between **May 22 and September 18, 2026**. ETS found the breach on **September 25**, disabled the account used, took the site offline and built a new platform.
+
+The CDE started notifying families on **October 16** and said notices would continue through November. CDE said ETS's web monitoring had found no evidence the data has been made public. As of October 20 no hacking group had claimed it.
+
+## Who is affected
+
+California enrolled more than 5.7 million public school students in the 2025 school year. Per The Record, affected people include:
+
+- current and former students enrolled from 2023 to now;
+- students who left a California school since 2006 without a confirmed transfer to another school.
+
+So yes, this can include young adults who left school years ago.
+
+## What was taken
+
+The list is long, and some of it is sensitive:
+
+- names, dates of birth, home addresses, school, district and grade;
+- state and local student ID numbers;
+- gender, race or ethnicity, primary language, country of origin, English learner status;
+- **disability and Section 504 status**, testing accommodations and primary disability type;
+- eligibility for programs including McKinney-Vento (homeless students) and Military Connected Student;
+- English proficiency and test registration, participation and results.
+
+Social Security numbers and financial data were not in the reported list.
+
+## Why this matters even without SSNs
+
+A child's identity is valuable precisely because nobody is watching it. Name, birth date and address are the building blocks of [[what-is-synthetic-identity-fraud|synthetic identity fraud]], where criminals mix real and fake details. The sensitive fields also create a scam risk: a caller who knows your child's school, grade and disability status sounds very much like a real school official or therapist.
+
+## What parents can do this week
+
+1. **Freeze your child's credit.** It is free at Equifax, Experian and TransUnion and blocks new accounts until your child needs credit. Our guide: [[how-to-freeze-a-childs-credit-file|how to freeze a child's credit file]].
+2. **Be suspicious of school-themed calls and emails** that mention the breach, offer “compensation” or ask you to confirm details. Call the school or district on a number you already have.
+3. **Watch the mail** for anything in your child's name: credit card offers, collection letters or IRS notices are red flags.
+4. **Older teens and young adults** should check their own email in breach data with a free [[/digital-footprint-checker/|exposure check]] and turn on two-factor authentication.
+5. **Talk to your kids** about strangers who know details about them. Our guide on [[protect-your-teen-from-online-scams|protecting teens from scams]] has a simple script.
+
+## How to check if your child was included
+
+Look for the official CDE notice by mail or through your district. Verify anything you get by checking the [California Department of Education website](https://www.cde.ca.gov/) directly rather than clicking links in an email.
+
+=== FAQ
+Q: Which students are affected by the ETS breach?
+A: Current and former California public school students enrolled from 2023 onward, plus students who left a California school since 2006 without a confirmed transfer, according to The Record.
+Q: Were Social Security numbers stolen?
+A: SSNs were not among the data types reported. Names, birth dates, addresses, student IDs and disability and program details were.
+Q: When did the breach happen?
+A: Data was copied between May 22 and September 18, 2026. ETS discovered it on September 25 and the CDE began notifying families on October 16.
+Q: Should I freeze my child's credit?
+A: Yes. It is free and is the most effective way to stop someone opening credit in your child's name.
+
+=== SOURCES
+https://therecord.media/california-warns-all-public-school-students-of-data-breach | The Record: California warns all public school students of data breach (Oct 20, 2026)
+https://govtech.com/education/k-12/testing-company-data-breach-affects-millions-of-calif-students | GovTech: Testing company data breach affects millions of California students
+https://www.cde.ca.gov/ | California Department of Education
+https://consumer.ftc.gov/articles/how-protect-your-child-identity-theft | FTC: How to protect your child from identity theft
+
+=== RELATED
+how-to-freeze-a-childs-credit-file | How to Freeze a Child's Credit File
+was-i-affected-by-the-powerschool-data-breach | Was I Affected by the PowerSchool Breach?
+protect-college-students-identity | Protect a College Student's Identity
+sharenting-risks-posting-kids-online | Sharenting Risks
+recent-data-breaches-this-week | Recent Data Breaches This Week

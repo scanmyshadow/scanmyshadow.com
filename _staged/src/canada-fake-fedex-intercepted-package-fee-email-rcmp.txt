@@ -1,0 +1,65 @@
+slug: canada-fake-fedex-intercepted-package-fee-email-rcmp
+country: CA
+title: Fake FedEx “Intercepted Package” Email Demands $1,200
+h1: “Your Package Was Intercepted”: The Fake FedEx Email With an RCMP Logo
+desc: Campbell River RCMP warns of a FedEx-themed email saying a parcel was stopped and needs a $1,200 fee, complete with a crude RCMP logo. Red flags and what to do.
+keywords: fedex intercepted package scam, fake fedex email canada, rcmp logo scam email, package release fee scam, campbell river rcmp scam
+tags: Delivery Scams|Email Scams|Canada|Scam Alert
+=== TLDR
+Campbell River RCMP warned on October 20, 2026 about an email that looks like it's from FedEx, says a package for you was stopped “south of Campbell River,” and demands $1,200 to release it. It even carries a crude RCMP logo. Police don't collect fees by email, and no courier or agency charges you to “release” an intercepted parcel.
+
+=== BODY
+## What the email says
+
+According to [Oak Bay News](https://oakbaynews.com/2026/10/20/campbell-river-rcmp-warns-about-fraudulent-intercepted-package-scam/), the message claimed a package addressed to the recipient had been stopped south of Campbell River and would only be released once a fee was paid: **$1,200**. A Vancouver Island resident spotted it, reported it and didn't click anything. Good instincts.
+
+The twist is the mash-up of authority: a courier brand plus a police logo. Delivery scams usually threaten you with a missed parcel. This one hints you might be in trouble too.
+
+## Red flags the RCMP pointed out
+
+- lots of spelling and grammar mistakes;
+- badly written, oddly formal content;
+- an unauthorized, crude RCMP logo meant to look official;
+- a demand for immediate payment.
+
+Campbell River's officer in charge, Jeff Preston, said scammers “frequently attempt to create a sense of urgency or authority.” This email tried both at once.
+
+## The rules that make it obvious
+
+- **Police don't collect fees or fines by unsolicited email.**
+- **No legitimate agency charges a fee to release a package.** Real customs duties on imports are handled by the carrier on its own site and are usually modest, not a round $1,200.
+- **A parcel you aren't expecting can't be “yours” in trouble.** If you didn't order anything, there's nothing to release.
+
+## What to do with one
+
+1. Don't click links, open attachments or reply.
+2. If you are expecting a parcel, check it on FedEx's site by typing the address yourself.
+3. Delete it and report it to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Related delivery scams in Canada
+
+Text versions of the same trick use Canada Post and Purolator: see [[canada-post-delivery-text-scam-what-to-do|Canada Post text scams]] and [[purolator-delivery-text-scam-what-to-do|Purolator text scams]]. Our [[fedex-delivery-text-scam-what-to-do|FedEx text scam guide]] covers the SMS version.
+
+If you get a lot of these, your email is probably on a few leaked lists. A free [[/digital-footprint-checker/|email exposure check]] will show which breaches it has appeared in.
+
+=== FAQ
+Q: Does FedEx charge a fee to release an intercepted package?
+A: Not like this. Legitimate customs charges are handled through the carrier's own site, and police never collect fees by email.
+Q: Why does the email have an RCMP logo?
+A: To scare you into paying. The RCMP says the logo was used without authorization.
+Q: How much did the scam email demand?
+A: $1,200, according to Campbell River RCMP.
+Q: Where do I report a fake delivery email in Canada?
+A: Report it to the Canadian Anti-Fraud Centre, then delete it.
+
+=== SOURCES
+https://oakbaynews.com/2026/10/20/campbell-river-rcmp-warns-about-fraudulent-intercepted-package-scam/ | Oak Bay News: Campbell River RCMP warns about fraudulent intercepted package scam (Oct 20, 2026)
+https://www.ctvnews.ca/vancouver/vancouver-island/article/vancouver-island-email-scam-demands-1200-and-features-rcmp-logo/ | CTV News: Vancouver Island email scam demands $1,200 and features RCMP logo
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+
+=== RELATED
+fedex-delivery-text-scam-what-to-do | FedEx Delivery Text Scams
+fake-parcel-customs-scam-india-explained | Fake Parcel Customs Scams Explained
+delivery-scam-statistics-2026 | Delivery Scam Statistics 2026
+canada-post-delivery-text-scam-what-to-do | Canada Post Text Scams
+canada-scam-news-october-2026 | Canada Scam News: October 2026
