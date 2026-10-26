@@ -1,0 +1,65 @@
+slug: uk-companies-house-check-before-paying
+country: UK
+title: Check a Company on Companies House Before You Pay (Free)
+h1: How to Check a UK Company on Companies House Before You Pay a Penny
+desc: Builders, landlords, investment firms and online shops: a free Companies House search shows directors, filing history and red flags. What to look for.
+keywords: companies house check, check a company uk, companies house search before paying, is this company legit uk, company director check
+tags: Business Checks|Scam Prevention|United Kingdom|How To
+=== TLDR
+Companies House's free “Find and update company information” service shows a company's directors, registered address, filing history and status. Before paying a builder, landlord's company, online shop or investment firm, check it exists, is active, has filed accounts, and that the names and address match what you were told. A company being registered doesn't make it honest, but a missing, dissolved or brand-new company is a clear warning.
+
+=== BODY
+## What the register shows
+
+From [Companies House's own blog](https://companieshouse.blog.gov.uk/2019/01/29/checking-the-public-company-record/):
+
+- directors' names and service addresses;
+- filing history, including accounts, confirmation statements and charges;
+- other business activity.
+
+It also notes: “It's quite easy for someone to say ‘I'm a company director',” which is precisely why you check. The search now lives on GOV.UK as “Find and update company information.”
+
+## Five-minute check
+
+1. **Search the exact company name** and the company number if you have it.
+2. **Status**: is it “Active”? Avoid “Dissolved,” “Liquidation” or “Proposal to strike off.”
+3. **Age**: incorporated last month? Be careful with big payments.
+4. **People**: do the directors match the person you're dealing with?
+5. **Filing history**: are accounts and confirmation statements up to date? Lots of overdue filings is a red flag.
+6. **Address**: does the registered office match the address on their website or invoice?
+
+## What it doesn't prove
+
+A registration isn't a seal of approval. Scammers register companies too, and some clone real ones. So also:
+
+- check investment firms on the [[uk-fca-firm-checker-clone-firms-fca-impersonation|FCA Firm Checker]];
+- check reviews beyond the first page of results;
+- for property, verify ownership with HM Land Registry ([[uk-spareroom-flatshare-rental-scams|as SpareRoom advises]]);
+- never pay by bank transfer to a personal account for a business invoice.
+
+## Directors' own privacy
+
+If you're a director, only your month and year of birth are public, and you can use a service address instead of your home. If your home address is on old filings, you may be able to apply to have it removed. See our [[uk-192-com-remove-your-details|192.com guide]], since people-finder sites copy Companies House data.
+
+A free [[/digital-footprint-checker/|email exposure check]] covers the breach side of your footprint.
+
+=== FAQ
+Q: Is a Companies House search free?
+A: Yes. The Find and update company information service on GOV.UK is free.
+Q: Does being on Companies House mean a company is legitimate?
+A: No. It shows the company is registered, not that it's honest. Use it alongside other checks.
+Q: What are the red flags on Companies House?
+A: Dissolved or strike-off status, very recent incorporation, overdue filings and directors who don't match who you're dealing with.
+Q: Can company directors hide their home address?
+A: Directors can use a service address, and only month and year of birth are public.
+
+=== SOURCES
+https://companieshouse.blog.gov.uk/2019/01/29/checking-the-public-company-record/ | Companies House blog: Checking the public company record
+https://find-and-update.company-information.service.gov.uk/ | Companies House: Find and update company information
+
+=== RELATED
+scams-targeting-small-businesses-sellers-and-investors | Scams Targeting Small Businesses
+uk-fca-firm-checker-clone-firms-fca-impersonation | FCA Firm Checker and Clone Firms
+uk-roofing-gang-jailed-63-years-1m-fraud-older-homeowners | Roofing Gang Jailed
+is-this-website-a-scam-how-to-check | Is This Website a Scam?
+what-gst-company-registration-exposes-publicly | What Company Registration Exposes

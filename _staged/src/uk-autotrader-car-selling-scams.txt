@@ -1,0 +1,64 @@
+slug: uk-autotrader-car-selling-scams
+country: UK
+title: Selling a Car on Autotrader? The Scams Aimed at Sellers
+h1: Selling Your Car on Autotrader: Fake Buyers, Deposit Requests and Phishing to Watch For
+desc: Scammers use the Autotrader name to promise buyers, ask sellers for deposits and phish logins. Autotrader's own warnings and how to sell safely.
+keywords: autotrader scam, autotrader seller scam, autotrader phishing email, car selling scam uk, fake car buyer deposit scam
+tags: Marketplace Scams|Motoring|United Kingdom|What To Do
+=== TLDR
+Autotrader warns sellers about companies that promise ready buyers while using its name, texts and emails asking for a deposit to “secure” a sale or appointment, fake Autotrader websites, and phishing emails that steal your login. Autotrader says it will never ask for your login details or personal information by email, or ask you to verify your account via a link. Forward suspicious emails to customersecurity@autotrader.co.uk.
+
+=== BODY
+## The scams sellers face
+
+From [Autotrader's seller advice](https://www.autotrader.co.uk/sell-my-car/advice/why-you-should-know-who-your-buyer-is):
+
+- **Buyer-promise scams**: a company contacts you saying it has buyers lined up or will buy your car, sometimes using the Autotrader name to look legitimate.
+- **Deposit scams**: texts or emails asking you to pay a deposit to secure a sale or an inspection appointment.
+- **Fake websites**: copies of Autotrader that collect your information.
+- **Phishing emails**: messages that look like Autotrader and link to a copycat login page.
+
+The deposit one is the strangest: you're the seller, and somehow you end up paying. That alone should set off alarm bells.
+
+## What Autotrader never does
+
+- ask for your login details or personal information by email;
+- ask you to verify your account by clicking a link.
+
+## Selling safely
+
+- Ignore unsolicited “we have a buyer” companies.
+- Never pay a deposit to sell.
+- Log in only by typing the Autotrader address yourself.
+- Use a strong, unique password ([[strong-password-examples-and-ideas|ideas]]).
+- Take payment by bank transfer and **confirm it has actually cleared** in your banking app before handing over keys. Fake payment screenshots and emails are common across marketplaces ([[zelle-business-account-upgrade-scam-marketplace|the US version]]).
+- Meet buyers in daylight, in a public place or with someone else present.
+
+## If you've been caught
+
+If you paid a deposit, contact your bank or **159** and report it to [Report Fraud](https://www.reportfraud.police.uk/). Forward phishing emails to **customersecurity@autotrader.co.uk** or call Autotrader's Customer Security Team on **0330 303 9001**.
+
+## Related
+
+See [[online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted|marketplace scam rules]] and [[uk-facebook-van-seller-15-aliases-clocked-mileage|the Facebook van seller with 15 aliases]]. Car listings show your phone number and sometimes your location; a free [[/digital-footprint-checker/|email exposure check]] covers the breach side.
+
+=== FAQ
+Q: Will Autotrader ask me to pay a deposit to sell my car?
+A: Treat deposit requests to secure a sale or appointment as scams, as Autotrader warns.
+Q: Does Autotrader email asking for login details?
+A: No. Autotrader says it will never ask for login details or personal information by email.
+Q: How do I report a fake Autotrader email?
+A: Forward it to customersecurity@autotrader.co.uk or call 0330 303 9001.
+Q: How do I know a buyer has paid?
+A: Check that the money has cleared in your own banking app before handing over the car.
+
+=== SOURCES
+https://www.autotrader.co.uk/sell-my-car/advice/why-you-should-know-who-your-buyer-is | Autotrader: Why you should know who your buyer is
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted | Marketplace Scam Rules
+uk-facebook-van-seller-15-aliases-clocked-mileage | Facebook Van Seller With 15 Aliases
+what-is-fake-check-scams | Fake Check Scams
+is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe?
+dvla-scam-what-to-know | DVLA Scams

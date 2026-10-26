@@ -1,0 +1,61 @@
+slug: uk-cosmetic-surgery-scam-ads
+country: UK
+title: Cosmetic Surgery Scam Ads: Deposits Paid, Clinics Vanish
+h1: Cosmetic Surgery Scam Ads: How Deposits Disappear and How to Check a Clinic
+desc: Social media ads for cheap cosmetic procedures take deposits, then cancel and claim liquidation. Report Fraud data, red flags and checks before you pay.
+keywords: cosmetic surgery scam uk, cosmetic surgery deposit scam, fake cosmetic clinic ad, cosmetic procedure scam social media, check cosmetic surgeon uk
+tags: Online Shopping|Health|United Kingdom|Scam Alert
+=== TLDR
+Which? warned in July 2026 about social media ads for cosmetic procedures that take deposits, then cancel the treatment and claim the company has gone into liquidation. Report Fraud received 49 reports between 2020 and 2025 with losses of £234,112. Before paying, check the surgeon's registration, the clinic's regulator and the company's record, and pay by credit card.
+
+=== BODY
+## How it works
+
+According to [Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC), social media adverts lure people in with appealing prices for cosmetic procedures. Victims pay deposits. Then the procedure is cancelled and the company says it's in liquidation, so the money is gone.
+
+Report Fraud received **49 reports between 2020 and 2025**, with losses of **£234,112**. That's nearly £4,800 per report, and many people never report at all because the topic feels private.
+
+## Why it works
+
+Cosmetic treatment is personal, often planned for months, and people compare prices online. A “limited slots” offer at half the usual price feels like luck. And shame keeps victims quiet, which is good news for the scammers.
+
+## Checks before you pay a deposit
+
+- **Check the surgeon**: in the UK, surgeons should be registered with the General Medical Council (GMC); check the GMC register yourself.
+- **Check the clinic's regulator**: in England, clinics providing surgery should be registered with the Care Quality Commission (CQC). Other UK nations have their own regulators.
+- **Check the company** on Companies House: how old is it, are accounts filed, any liquidations? ([[uk-companies-house-check-before-paying|how]])
+- **Search reviews** beyond the clinic's own site and social media.
+- **Pay by credit card** where possible; it gives more protection than a bank transfer.
+- **Avoid pressure**: “book today” discounts and deposits by bank transfer to individuals are red flags.
+
+## Overseas packages
+
+Package deals abroad add more risk: aftercare, complications and getting money back across borders. Take extra care, and read [[investment-trading-app-scam-recovery|why cross-border recovery is hard]].
+
+## If you've lost a deposit
+
+Contact your card provider about a chargeback or Section 75 claim, then report to [Report Fraud](https://www.reportfraud.police.uk/). Report the advert to the platform.
+
+Ads find you using your online data. A free [[/digital-footprint-checker/|email exposure check]] shows what's leaked about your email.
+
+=== FAQ
+Q: How do cosmetic surgery scams work?
+A: Social media ads take deposits for procedures, then cancel and claim the company is in liquidation.
+Q: How much have people lost?
+A: Report Fraud received 49 reports between 2020 and 2025 with losses of £234,112, according to Which?.
+Q: How do I check a cosmetic surgeon in the UK?
+A: Check the surgeon on the General Medical Council register and the clinic with the relevant regulator, such as the CQC in England.
+Q: How should I pay a deposit?
+A: By credit card where possible, which offers more protection than a bank transfer.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (cosmetic surgery ads, Jul 28, 2026)
+https://www.gmc-uk.org/registration-and-licensing/the-medical-register | General Medical Council: The medical register
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+is-this-website-a-scam-how-to-check | Is This Website a Scam?
+online-shopping-fraud-statistics-2026 | Online Shopping Fraud Statistics 2026
+uk-companies-house-check-before-paying | Check a Company on Companies House
+instagram-scams-common-types-and-what-to-do | Instagram Scams
+how-to-dispute-a-fraudulent-charge | How to Dispute a Charge

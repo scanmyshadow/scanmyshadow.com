@@ -1,0 +1,73 @@
+slug: uk-sextortion-teenage-boys-nca-advice-parents
+country: UK
+title: Sextortion and Teenage Boys: What UK Parents Need to Know
+h1: Sextortion Targeting Teenage Boys: The NCA's Numbers and How Parents Can Help
+desc: Organised gangs blackmail teenage boys over real or fake images, sometimes within an hour of first contact. NCA research, warning signs and where to report.
+keywords: sextortion teenage boys uk, nca sextortion warning, sextortion parents advice uk, ceop report sextortion, financially motivated sextortion
+tags: Sextortion|Children's Safety|United Kingdom|For Parents
+=== TLDR
+The National Crime Agency says financially motivated sextortion, mainly run by organised gangs in parts of West Africa and South East Asia, is targeting boys aged 15 to 17. Some cases go from first contact to blackmail in under an hour. In NCA research, 74% of boys didn't see requests for nude images as a warning sign and 73% didn't know how to report. Teach your child: it's never their fault, don't pay, tell an adult, and report to CEOP or police.
+
+=== BODY
+## What the NCA found
+
+From the [NCA's campaign launch](https://www.nationalcrimeagency.gov.uk/news/national-crime-agency-launches-online-campaign-to-tackle-sextortion-among-young-teenage-boys):
+
+- **74%** of boys didn't fully understand sextortion;
+- **74%** didn't see requests for nude images as a warning sign;
+- **73%** didn't know how to report it;
+- only **12%** thought they might be at risk;
+- the CEOP Safety Centre received **380** sextortion reports in 2024;
+- from January to May 2024, police averaged **117 reports a month** from under-18s, likely an undercount.
+
+The NCA also alerted teachers in April 2024, reaching an estimated two-thirds of UK teaching staff.
+
+## How it happens
+
+- A friendly, flirty account (often posing as a girl of similar age) makes contact on social media or a game.
+- The chat moves fast to swapping images, or images are faked.
+- Then the threat: pay, or the images go to your friends and family.
+- The NCA says some cases go from first message to blackmail **in under an hour**.
+
+These gangs want money, not images. That's grimly useful to know: it means there's a business script, and scripts can be recognised.
+
+## What to tell your teenager
+
+Say it before anything happens, calmly:
+
+- **It's never your fault**, even if you sent something. The NCA is explicit about this.
+- **Don't pay.** Paying usually leads to more demands.
+- **Stop replying, but don't delete everything**: screenshots help police.
+- **Tell an adult you trust**, today.
+- **Report** to the CEOP Safety Centre or police.
+
+For removing images, the NSPCC and Childline's Report Remove tool exists for under-18s in the UK.
+
+## For parents
+
+Understand it, talk about it, and know the reporting routes, says the NCA. A low-drama conversation now is worth more than any app setting. Our guides on [[protect-your-teen-from-online-scams|protecting teens from scams]] and [[teaching-teenagers-digital-footprint|teaching teens about their footprint]] help.
+
+Lock down profiles so strangers can't see friends lists: [[how-to-make-instagram-private|Instagram]], [[snap-map-privacy-settings-ghost-mode|Snapchat]]. And beware of paid “sextortion help” services that promise miracles; the US FTC sued one alleged to have taken $60 million ([[us-ftc-sextortion-help-service-digital-forensics-lawsuit|the case]]).
+
+A free [[/digital-footprint-checker/|email exposure check]] helps you see what's leaked about a family email.
+
+=== FAQ
+Q: Who is targeting boys with sextortion?
+A: The NCA says organised crime groups, mainly in some West African countries and South East Asia, motivated by money.
+Q: How fast does sextortion happen?
+A: The NCA says some cases go from first contact to blackmail in under an hour.
+Q: Should my child pay the blackmailer?
+A: No. Stop replying, keep evidence, tell a trusted adult and report to CEOP or police.
+Q: Where do UK teens report sextortion?
+A: To a trusted adult, the police or the CEOP Safety Centre.
+
+=== SOURCES
+https://www.nationalcrimeagency.gov.uk/news/national-crime-agency-launches-online-campaign-to-tackle-sextortion-among-young-teenage-boys | National Crime Agency: Campaign to tackle sextortion among teenage boys
+https://www.ceop.police.uk/Safety-Centre/ | CEOP Safety Centre
+
+=== RELATED
+sextortion-scams-rising-nz | Sextortion Scams Rising in NZ
+what-is-sextortion-scams-india-explained | What Is Sextortion?
+protect-your-teen-from-online-scams | Protect Your Teen From Online Scams
+intimate-image-takedown-48-hours-ftc | Intimate Image Takedown Rules
+kids-gaming-scams-robux-v-bucks-free-fire-parents | Kids' Gaming Scams

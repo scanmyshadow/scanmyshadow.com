@@ -1,0 +1,67 @@
+slug: uk-who-called-me-unknown-number-what-to-do
+country: UK
+title: Who Called Me? Checking an Unknown Number in the UK
+h1: Who Called Me From This Number? How to Check Unknown Callers in the UK
+desc: Dial 1471, search the number, and know the rules: live marketers must identify themselves, robocalls need consent, silent calls can be reported. Ofcom's guidance.
+keywords: who called me uk, unknown number uk, check phone number uk, 1471 who called, nuisance calls uk report, silent calls uk
+tags: Phone Lookup|Nuisance Calls|United Kingdom|How To
+=== TLDR
+On a landline, dial 1471 straight after the call. On a mobile, search the full number in quotes and check community reports. Under UK rules, live marketing callers must say who they are and give a contact number, automated marketing calls need your consent, and anyone registered with the free TPS shouldn't get marketing calls. Report persistent silent calls to Ofcom (0300 123 3333), robocalls and nuisance marketing to the ICO, and scams to 7726.
+
+=== BODY
+## First, find the number
+
+From [Ofcom's guidance on unwanted calls](https://www.ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/unwanted-calls-texts-and-emails):
+
+- Companies using automated dialling must display a number.
+- On a landline, dial **1471** after the call.
+- Note the number, time and how often they call.
+- If you can't identify them, ask your phone company.
+
+Then search the full number in quotes. UK community sites where people report callers can help, though anything you read there is crowd-sourced, so treat it as a clue, not proof.
+
+## Who's allowed to call you
+
+| Call type | The rule |
+|---|---|
+| Live marketing call | Must say who they are and give a contact number; must stop if you ask |
+| If you're on the TPS | Marketers shouldn't call unless you specifically agreed |
+| Automated marketing call | Needs your explicit consent |
+| Spam text from unknown sender | Don't reply; forward to 7726 |
+
+## Silent and abandoned calls
+
+Ofcom says these are often caused by call-centre dialling systems rather than someone targeting you. Report persistent ones to Ofcom online or on **0300 123 3333** with the number, frequency and how long it's been happening. Ofcom can fine firms up to **£2 million**.
+
+## When it's a scam
+
+If the caller claims to be your bank, police, HMRC or a delivery company and wants money, details or codes: hang up and call **159** or the official number. Spoofed numbers can look genuine. See [[what-is-caller-id-spoofing|caller ID spoofing]] and [[uk-159-scam-hotline-how-it-works|how 159 works]]. Report scam calls by texting “call” plus the number to **7726** ([[uk-7726-how-to-report-scam-texts-calls|how]]).
+
+## Cut the calls
+
+- Register free with the **Telephone Preference Service** (calls can take up to 28 days to drop). See our [[uk-telephone-preference-service-mailing-preference-service|TPS guide]].
+- Use your phone's call blocking.
+- Go [[uk-go-ex-directory-landline-privacy|ex-directory]] and remove your listing from [[uk-192-com-remove-your-details|192.com]].
+
+Nuisance callers usually buy your number from lists. A free [[/digital-footprint-checker/|email exposure check]] shows whether your details are in breach data.
+
+=== FAQ
+Q: How do I find out who called me in the UK?
+A: Dial 1471 on a landline after the call. On a mobile, search the number and check your call log details.
+Q: Do marketing callers have to tell me who they are?
+A: Yes. Ofcom says live marketing callers must say who they are and give a contact number.
+Q: Where do I report silent calls?
+A: To Ofcom online or on 0300 123 3333, with the number and how often they call.
+Q: How do I stop marketing calls?
+A: Register free with the Telephone Preference Service and use call blocking.
+
+=== SOURCES
+https://www.ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/unwanted-calls-texts-and-emails | Ofcom: Unwanted calls, texts and emails
+https://ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/7726-reporting-scam-texts-and-calls | Ofcom: 7726 reporting
+
+=== RELATED
+uk-telephone-preference-service-mailing-preference-service | TPS and MPS Guide
+uk-politeness-scam-calls-take-five-53-percent | Politeness and Scam Calls
+uk-city-of-london-police-spoofed-number-alert-260-calls | 260+ Calls From One Spoofed Number
+free-reverse-phone-lookup-us-what-actually-works | Reverse Phone Lookup (US)
+robocall-statistics-2026 | Robocall Statistics 2026

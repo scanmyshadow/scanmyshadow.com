@@ -1,0 +1,66 @@
+slug: uk-lost-stolen-passport-identity-fraud
+country: UK
+title: Lost or Stolen UK Passport? Report It Fast to Stop ID Fraud
+h1: Lost or Stolen UK Passport: Why the Average 73-Day Wait to Report Is a Gift to Fraudsters
+desc: Almost 400,000 UK passports are reported lost or stolen yearly, and people wait 73 days on average to report. Why speed matters and the steps to protect your identity.
+keywords: lost passport uk, stolen passport identity fraud, report lost passport uk, passport stolen what to do, hm passport office report lost
+tags: Identity Fraud|Passports|United Kingdom|What To Do
+=== TLDR
+Just under 400,000 UK passports are reported lost or stolen each year, and people wait an average of 73 days to report it, according to Action Fraud. A passport holds everything a fraudster needs to open accounts in your name. Report it to HM Passport Office online straight away: the passport is cancelled, shared with the National Crime Agency within 24 hours and flagged on Interpol's lost and stolen document database. Then protect your credit file.
+
+=== BODY
+## The numbers
+
+From an [Action Fraud campaign](https://www.actionfraud.police.uk/news/a-lost-passport-could-lead-to-identity-crime):
+
+- about **50 million** people hold a UK passport;
+- **just under 400,000** are reported lost or stolen each year;
+- people wait an average of **73 days** before reporting it.
+
+Seventy-three days is a long time to leave a fraudster holding your photo, full name, date of birth and signature.
+
+## What fraudsters can do with it
+
+- open bank accounts or apply for credit in your name;
+- pass ID checks for phone contracts or rentals;
+- use it to try to cross borders.
+
+We'd never wait 73 days to cancel a lost bank card. A passport deserves the same urgency.
+
+## What to do, in order
+
+1. **Report it to HM Passport Office online** (you can report all losses and thefts this way). The passport is cancelled.
+2. Your details are **shared with the National Crime Agency within 24 hours** and recorded on **Interpol's Stolen and Lost Travel Document database**.
+3. **If stolen**, consider reporting the theft to police too, especially if other ID went with it.
+4. **Check your credit reports** at all three agencies ([[uk-free-statutory-credit-report-how-to-get|free statutory reports]]).
+5. **Consider [[uk-cifas-protective-registration-explained|Cifas Protective Registration]]**, designed for exactly this kind of risk.
+6. **Watch for scam calls** claiming to be HM Passport Office or police asking for fees or details.
+
+A cancelled passport can't be used again, even if you find it in the sofa next week. Factor that into your travel plans.
+
+## If it was a photo, not the passport
+
+Sending a photo of your passport to a “landlord,” “employer” or “prize company” carries similar risk. See our [[how-to-report-identity-theft-uk|UK identity theft guide]] and [[uk-spareroom-flatshare-rental-scams|rental scam red flags]].
+
+Passport scans also turn up in data breaches. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in known breaches.
+
+=== FAQ
+Q: How do I report a lost UK passport?
+A: Report it to HM Passport Office online. It will be cancelled.
+Q: What happens after I report it?
+A: It's cancelled, shared with the National Crime Agency within 24 hours and recorded on Interpol's lost and stolen documents database.
+Q: Can I use my passport if I find it after reporting it lost?
+A: No. Once reported, it's cancelled and can't be used.
+Q: How can I protect myself from identity fraud after losing my passport?
+A: Check your credit reports, consider Cifas Protective Registration and watch for scam calls.
+
+=== SOURCES
+https://www.actionfraud.police.uk/news/a-lost-passport-could-lead-to-identity-crime | Action Fraud: A lost passport could lead to identity crime
+https://www.gov.uk/report-a-lost-or-stolen-passport | GOV.UK: Report a lost or stolen passport
+
+=== RELATED
+how-to-report-identity-theft-uk | Report Identity Theft in the UK
+uk-cifas-protective-registration-explained | Cifas Protective Registration
+uk-free-statutory-credit-report-how-to-get | Free Statutory Credit Report
+identity-theft-statistics-uk-2026 | UK Identity Theft Statistics 2026
+summer-travel-scams | Summer Travel Scams

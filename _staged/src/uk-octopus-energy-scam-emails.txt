@@ -1,0 +1,65 @@
+slug: uk-octopus-energy-scam-emails
+country: UK
+title: Octopus Energy Scam Emails: The Real Domains and Login Page
+h1: Fake Octopus Energy Emails: How to Check the Sender and Avoid Refund Scams
+desc: Scammers copy Octopus Energy with fake refund and payment emails. Octopus lists its real email domains and its only login page. How to check and report.
+keywords: octopus energy scam email, fake octopus energy email, octopus energy refund scam, octopus energy phishing, energy supplier scam uk
+tags: Energy Scams|Phishing|United Kingdom|What To Do
+=== TLDR
+Octopus Energy says genuine emails come only from @octopus.energy, @octoenergy.com, @octoes.com, @octopusev.com or @octopusenergy.services, and it will never ask you to log in anywhere except octopus.energy/login or ask you to confirm your password. Fake “refund” or “compensation” emails asking for bank details are scams. Screenshot and send them to hello@octopus.energy.
+
+=== BODY
+## Why energy companies are favourite disguises
+
+Energy bills are big, refunds and credits are real, and price changes come every quarter. So “You're owed £187.43 in credit” sounds plausible. Which? has reported big jumps in energy-related scams during cost-of-living pressure, and Octopus, as one of the UK's largest suppliers, gets copied a lot.
+
+## Octopus's own checklist
+
+From [Octopus Energy's help page](https://octopus.energy/help-and-faqs/articles/what-should-i-do-if-i-think-i-ve-received-a-scam-or-phishing-email/):
+
+**Real sender domains**
+
+- @octopus.energy
+- @octoenergy.com
+- @octoes.com
+- @octopusev.com
+- @octopusenergy.services
+
+**Real login page**: only **https://octopus.energy/login/**.
+
+**Never**: Octopus will never ask you to confirm your password.
+
+**Warning signs**: spelling and grammar errors, and offers of payment or compensation in exchange for usernames, passwords or bank details.
+
+## How to report
+
+Record what you can (a screenshot, or the number that called you) and send it to **hello@octopus.energy**. Forward scam emails to **report@phishing.gov.uk** too. If you lost money, report to [Report Fraud](https://www.reportfraud.police.uk/) and call your bank or **159**.
+
+Octopus's advice is pleasingly blunt: “If in doubt: give us a shout!”
+
+## Other energy scams
+
+The same tricks hit British Gas, EDF and others: fake refunds, fake smart meter appointments, and fake “energy grant” texts. See [[british-gas-scam-what-to-know|British Gas scams]] and [[uk-council-tax-refund-band-reduction-scam|council tax refund scams]], which use the same “you're owed money” hook.
+
+A free [[/digital-footprint-checker/|email exposure check]] shows if your email address is in breach data, which often explains why fakes find you.
+
+=== FAQ
+Q: What email addresses does Octopus Energy use?
+A: @octopus.energy, @octoenergy.com, @octoes.com, @octopusev.com and @octopusenergy.services.
+Q: Will Octopus Energy ask for my password by email?
+A: No. Octopus says it will never ask you to confirm your password.
+Q: How do I report a fake Octopus email?
+A: Screenshot it and send it to hello@octopus.energy, and forward it to report@phishing.gov.uk.
+Q: Is an Octopus refund email real?
+A: Check your account by going to octopus.energy/login yourself. Don't use links in the email.
+
+=== SOURCES
+https://octopus.energy/help-and-faqs/articles/what-should-i-do-if-i-think-i-ve-received-a-scam-or-phishing-email/ | Octopus Energy: What to do if you think you've received a scam email
+https://www.which.co.uk/policy-and-insight/article/which-reveals-huge-jump-in-energy-related-scams-as-fraudsters-seek-to-exploit-cost-of-living-crisis-a9rxE9e8RWQR | Which?: Huge jump in energy-related scams
+
+=== RELATED
+british-gas-scam-what-to-know | British Gas Scams
+national-grid-uk-scam-what-to-know | National Grid UK Scams
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing
+uk-council-tax-refund-band-reduction-scam | Council Tax Refund Scams
+uk-7726-how-to-report-scam-texts-calls | How to Report to 7726

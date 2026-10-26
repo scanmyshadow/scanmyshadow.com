@@ -1,0 +1,65 @@
+slug: uk-halifax-scam-email-text-what-to-do
+country: UK
+title: Halifax Scam Emails and Texts: How to Spot Them and Report
+h1: Fake Halifax Emails Asking You to “Confirm Your Information”: How to Tell
+desc: Fake Halifax emails link to lookalike sites to steal your login. Halifax's own checks (your name and part of your postcode), what it never does, and how to report.
+keywords: halifax scam email, halifax phishing email, fake halifax text, report halifax scam security@halifax.co.uk, halifax confirm details email
+tags: Bank Scams|Phishing|United Kingdom|What To Do
+=== TLDR
+Fake Halifax emails ask you to confirm personal information through a link to a lookalike site (Which? flagged one in September 2026). Halifax says genuine emails include your name and part of your postcode, and it never links straight to the Online Banking sign-in page, asks you to move money, or asks for a test payment. Forward scam emails to security@halifax.co.uk and texts to 7726.
+
+=== BODY
+## The email
+
+[Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) warned on September 7, 2026 about a Halifax impersonation email asking you to confirm personal information via a link to a fake Halifax site. It looks routine. That's the trick.
+
+## Halifax's tells for a genuine email
+
+From [Halifax's scam messages page](https://www.halifax.co.uk/helpcentre/protecting-yourself-from-fraud/scam-messages.html):
+
+- Genuine Halifax emails include **your name and part of your postcode**.
+- They may link to information or the secure app, but **never directly to the Online Banking sign-in page**.
+- Check the sender's full address by hovering or tapping. If it doesn't match the name, it's likely a scam.
+
+The postcode detail is a nice, simple check: scammers sending to millions rarely have it.
+
+## What Halifax will never do
+
+- send you to a page asking for sign-in, personal or banking details;
+- tell you to move money to another account;
+- ask you to make a test payment online;
+- ask you to share personal details or move money by phone, email or text;
+- ask you to log in or verify yourself through links or QR codes.
+
+## How to report
+
+- **Emails**: forward to **security@halifax.co.uk**, then delete. You can also message Halifax through the app.
+- **Texts**: forward to **7726**, then delete ([[uk-7726-how-to-report-scam-texts-calls|how]]).
+- Unsure? Call Halifax on a number you trust, or dial **159** ([[uk-159-scam-hotline-how-it-works|how 159 works]]).
+
+## If you entered details
+
+Contact Halifax immediately using its official [contact page](https://www.halifax.co.uk/helpcentre/protecting-yourself-from-fraud/contact-us.html) or 159, change your login details and check recent payments. Report losses to [Report Fraud](https://www.reportfraud.police.uk/).
+
+A free [[/digital-footprint-checker/|email exposure check]] shows if your email address is in breach data, which is how these emails find you.
+
+=== FAQ
+Q: How can I tell if a Halifax email is real?
+A: Halifax says genuine emails include your name and part of your postcode, and never link directly to the Online Banking sign-in page.
+Q: Where do I report a fake Halifax email?
+A: Forward it to security@halifax.co.uk and delete it.
+Q: Will Halifax ask me to make a test payment?
+A: No. Halifax says it will never ask you to make a test payment online.
+Q: How do I report a fake Halifax text?
+A: Forward it to 7726 and delete it.
+
+=== SOURCES
+https://www.halifax.co.uk/helpcentre/protecting-yourself-from-fraud/scam-messages.html | Halifax: Scam messages
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Halifax email, Sept 7, 2026)
+
+=== RELATED
+uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams
+uk-natwest-scam-email-what-to-do | NatWest Scam Emails
+uk-barclays-scam-text-direct-debit-credit-card | Barclays Scam Texts
+uk-nationwide-scam-text-standing-order | Nationwide Scam Texts
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing

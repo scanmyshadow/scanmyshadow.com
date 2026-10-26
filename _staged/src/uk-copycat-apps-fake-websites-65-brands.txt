@@ -1,0 +1,66 @@
+slug: uk-copycat-apps-fake-websites-65-brands
+country: UK
+title: Fake Apps on Copycat Sites: 65+ Brands Impersonated
+h1: Scam Texts Push Fake Apps on Copycat Websites That Can Watch Your Screen
+desc: Which? found scam texts promoting airline discounts, jobs and document renewals that lead to fake apps impersonating 65+ brands, able to spy on screens and cameras.
+keywords: fake app copycat website, sideloaded app scam, fake ryanair app scam, scam text fake app download, android apk scam uk
+tags: Fake Apps|Malware|United Kingdom|Scam Alert
+=== TLDR
+Which? warned in August 2026 about scam texts offering airline discounts, job offers or document renewals that lead to copycat websites pushing fake apps. The campaign impersonated more than 65 brands, including airlines like Ryanair, government services and retailers. Once installed, the apps can spy on your screen and switch on your microphone and camera. Only install apps from official stores via links on the company's own website.
+
+=== BODY
+## How it works
+
+According to [Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC):
+
+1. A text promises something useful: an airline discount, a job, a document renewal.
+2. The link goes to a copycat website for a well-known brand.
+3. The site pushes you to download “the app” directly, outside the official app store.
+4. The fake app can **spy on your screen** and **activate your microphone and camera**.
+
+More than **65 brands** were impersonated, including airlines such as Ryanair, government services and retailers.
+
+## Why it's dangerous
+
+A fake website steals what you type once. A fake app with screen access can watch everything: banking logins, one-time codes, private messages. It's the difference between someone reading your postcard and moving into your spare room.
+
+## How to protect yourself
+
+- **Install apps only from Google Play or Apple's App Store**, and preferably via a link on the company's own website.
+- **Never install an app from a link in a text.**
+- On Android, **keep “Install unknown apps” turned off** for your browser and messaging apps.
+- Check the developer name before installing.
+- Be suspicious of any “app” that asks for Accessibility or screen-recording permissions it doesn't need.
+
+Even official stores aren't perfect: McAfee found 1,900+ fake apps on Google Play in 2026 ([[uk-fake-android-apps-google-play-rewafake-subscriptions|details]]).
+
+## If you installed one
+
+1. Disconnect from the internet.
+2. Uninstall the app (on Android, check Settings > Apps and remove device admin rights first if needed).
+3. Run a security scan; see [[how-to-remove-spyware-from-android|removing spyware from Android]].
+4. From a different device, change your banking and email passwords and call your bank or **159**.
+5. Forward the original text to **7726** and report the site to the NCSC.
+
+A free [[/digital-footprint-checker/|email exposure check]] shows if your details are in breach data used for these campaigns.
+
+=== FAQ
+Q: Which brands were impersonated?
+A: More than 65 brands, including airlines such as Ryanair, government services and retailers, according to Which?.
+Q: What can the fake apps do?
+A: Spy on your screen and activate your microphone and camera.
+Q: How do I avoid fake apps?
+A: Only install from official app stores, ideally via the company's own website, and never from a link in a text.
+Q: I installed a fake app. What should I do?
+A: Disconnect, uninstall it, run a security scan, change passwords from another device and call your bank.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (fake apps on copycat sites, Aug 19, 2026)
+https://mcafee.com/blogs/other-blogs/mcafee-labs/malicious-apps-google-play-store-adware-campaign | McAfee Labs: Fake apps on Google Play (Oct 2026)
+
+=== RELATED
+how-to-tell-if-an-app-is-spyware | How to Tell if an App Is Spyware
+how-to-remove-spyware-from-android | Remove Spyware From Android
+is-my-android-phone-hacked | Is My Android Phone Hacked?
+how-to-spot-a-fake-vpn-app | How to Spot a Fake VPN App
+what-is-smishing | What Is Smishing?

@@ -1,0 +1,62 @@
+slug: uk-go-ex-directory-landline-privacy
+country: UK
+title: How to Go Ex-Directory in the UK (It's Free)
+h1: How to Go Ex-Directory and Take Your Landline Out of the Phone Book
+desc: Going ex-directory is free and removes your landline from the Phone Book, 118 directory enquiries and online directories. BT's two options and what else to do.
+keywords: go ex-directory, how to go ex directory bt, remove number from phone book uk, ex-directory free, directory enquiries remove listing
+tags: Phone Privacy|Landline|United Kingdom|How To
+=== TLDR
+Going ex-directory is free. With BT you can choose “Ex-directory – No calls” (left out of the Phone Book, BT 118500 directory enquiries and BT's online directory) or “Directory Enquiries Only” (only available via directory enquiries). Other providers offer the same; just ask. It stops new directory listings, but you'll still want to remove old copies from people-finder sites like 192.com.
+
+=== BODY
+## Why it still matters
+
+Landlines feel old-fashioned, but they're a goldmine for scammers: a name, a number and often an address, all pointing at a household that probably includes an older person. Directory listings feed people-finder sites, and people-finder sites feed scam call lists.
+
+## BT's two options
+
+According to [BT](https://www.bt.com/help/landline/manage-service/how-do-i-sign-up-to-ex-directory-services-), both are free:
+
+| Option | What happens |
+|---|---|
+| Ex-directory – No calls | Left out of the Phone Book, BT 118500 Directory Enquiries and BT's online directory |
+| Directory Enquiries Only | Shared only through directory enquiries, not printed or listed online |
+
+Request it by calling BT through its account and billing contact page. If you're with TalkTalk, Sky, Virgin Media or another provider, ask them for the same; it's a standard request.
+
+## What it doesn't do
+
+- remove your number from people-finder sites that already copied it ([[uk-192-com-remove-your-details|remove 192.com listings]]);
+- stop cold calls by itself (register with the [[uk-telephone-preference-service-mailing-preference-service|Telephone Preference Service]] too);
+- hide your address if it's on the open electoral register ([[uk-open-electoral-register-opt-out|opt out here]]).
+
+## A tidy-up plan for your landline
+
+1. Go ex-directory with your provider.
+2. Register with the TPS.
+3. Remove old listings from 192.com and similar sites.
+4. Opt out of the open register.
+5. Use a call-blocking phone if a relative gets lots of scam calls.
+
+Then check the online side: a free [[/digital-footprint-checker/|email exposure check]] shows whether your email has leaked in breaches.
+
+=== FAQ
+Q: Does it cost money to go ex-directory?
+A: No. BT says both its ex-directory options are free.
+Q: What is the difference between ex-directory and Directory Enquiries Only?
+A: Ex-directory keeps you out of the Phone Book, directory enquiries and online directory. Directory Enquiries Only shares your number only through directory enquiries.
+Q: Will going ex-directory stop scam calls?
+A: It reduces new listings but won't stop all calls. Also register with the TPS and remove old listings.
+Q: Can I go ex-directory with providers other than BT?
+A: Yes. Ask your provider; ex-directory is a standard option.
+
+=== SOURCES
+https://www.bt.com/help/landline/manage-service/how-do-i-sign-up-to-ex-directory-services- | BT: How do I sign up to ex-directory services?
+https://help-centre.talktalk.co.uk/Telephone/Telephone_Add_ons_and_settings/Making_my_landline_ex-directory | TalkTalk: Making my landline ex-directory
+
+=== RELATED
+uk-telephone-preference-service-mailing-preference-service | TPS and MPS Guide
+uk-192-com-remove-your-details | Remove Yourself From 192.com
+how-to-remove-your-phone-number-from | Remove Your Phone Number From the Internet
+protect-elderly-parents-from-phone-scams | Protect Elderly Parents From Phone Scams
+data-broker-opt-out-uk-canada-australia | Data Broker Opt-Outs: UK, Canada, Australia

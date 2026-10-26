@@ -1,0 +1,68 @@
+slug: uk-free-gift-survey-scam-emails
+country: UK
+title: “Free Gift for a Quick Survey” Emails: B&Q, Currys, Aldi and More
+h1: The Free-Gift Survey Scam: Fake B&Q, Currys, BT and National Rail Rewards
+desc: Emails promise a free BBQ, air conditioner, earbuds or hamper for a short survey, then ask for a small postage fee. Which?'s 2026 examples and how the trick works.
+keywords: free gift survey scam, b&q free bbq scam email, currys free air conditioner email, survey reward scam uk, pay postage free gift scam
+tags: Email Scams|Online Shopping|United Kingdom|Scam Alert
+=== TLDR
+Fake emails from big UK brands offer a free gift for answering a short survey: a £549 BBQ from B&Q, an air conditioner from Currys, a Wi-Fi booster from BT or EE, earbuds from National Rail, a Fortnum & Mason hamper. Then they ask for your card details to pay a small postage fee. Which? flagged all of these in 2026. There's no gift; the fee often hides a subscription, and your card details are the real prize. Delete and forward to report@phishing.gov.uk.
+
+=== BODY
+## The 2026 line-up
+
+From [Which?'s scam alerts](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC):
+
+| Date | Brand used | The “gift” |
+|---|---|---|
+| Apr 13 | National Rail | Earbuds for “valued” passengers |
+| Apr 13 | Fortnum & Mason | “Tea Explorer Hamper” |
+| May 18 | EE | Chance to win a Wi-Fi booster |
+| May 28 | BT | Discount on a Wi-Fi booster |
+| Jul 20 | Currys | Free air conditioner and dehumidifier for a “home comfort” survey |
+| Aug 10 | B&Q | Free BBQ worth £549 for a survey, then a postal fee |
+
+## How it works
+
+1. A friendly email says you've been chosen to give feedback.
+2. A short, harmless-looking survey (“How often do you shop with us?”).
+3. Congratulations! You can claim a high-value reward.
+4. Just pay a small delivery fee, entering name, address and full card details.
+
+The tiny fee is the hook. The card details often end up charged again, sometimes through hidden subscriptions buried in small print, and your answers feed a profile used for future scams. Currys' version even said the reward was “reserved for a limited time,” because nothing says genuine generosity like a countdown.
+
+## Red flags
+
+- a reward far bigger than a survey deserves;
+- any payment to receive a free gift;
+- sender addresses that don't match the brand's real domain;
+- urgent deadlines.
+
+## What to do
+
+- Don't click. Forward to **report@phishing.gov.uk** and delete.
+- If you paid, call your card issuer to cancel the card and check for repeat charges. See [[what-is-subscription-trap-scams|subscription traps]].
+- Report losses to [Report Fraud](https://www.reportfraud.police.uk/).
+
+These emails go to addresses from breaches and old sign-ups. A free [[/digital-footprint-checker/|email exposure check]] shows where yours has leaked.
+
+=== FAQ
+Q: Is the B&Q free BBQ email real?
+A: Which? flagged it as a scam in August 2026. It offers a £549 BBQ for a survey, then asks for a postal fee.
+Q: Why do free gift scams ask for a small fee?
+A: To capture your card details, which may then be charged again or used for subscriptions.
+Q: Which brands are being used?
+A: Which? flagged B&Q, Currys, BT, EE, National Rail and Fortnum & Mason in 2026, among others.
+Q: How do I report a free gift scam email?
+A: Forward it to report@phishing.gov.uk and delete it.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (2026 entries)
+https://www.reportfraud.police.uk/ | Report Fraud (UK)
+
+=== RELATED
+what-is-subscription-trap-scams | Subscription Trap Scams
+what-is-lottery-sweepstakes-scams | Lottery and Sweepstakes Scams
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing
+how-to-block-emails-stop-spam-gmail-outlook | How to Block Spam Emails
+uk-fake-calendar-invite-spam-how-to-stop | Fake Calendar Invites

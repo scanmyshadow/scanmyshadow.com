@@ -1,0 +1,60 @@
+slug: uk-paypal-inactive-account-closing-email-scam
+country: UK
+title: PayPal “Account Restricted for Inactivity” Email: It's a Scam
+h1: The PayPal Email Saying Your Inactive Account Will Close in 90 Days
+desc: A fake PayPal email says your account is restricted for inactivity and will close, linking to a page to "create a new account." How to check and report it.
+keywords: paypal inactive account email scam, paypal account restricted email, paypal account closing 90 days scam, fake paypal email uk, report paypal phishing
+tags: PayPal|Phishing|United Kingdom|What To Do
+=== TLDR
+Which? flagged a fake PayPal email in September 2026 saying your account is restricted due to inactivity and will close in 90 days, with a link to “create a new account.” The page steals your login and card details. Check your account by opening the PayPal app or typing paypal.com yourself. Forward the email to phishing@paypal.com and report@phishing.gov.uk, then delete it.
+
+=== BODY
+## The email
+
+According to [Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) (September 9, 2026), the message says your PayPal account is restricted because of inactivity and will close in 90 days. A link leads to a fake page to “create a new account.”
+
+It's a clever twist. Most PayPal scams claim suspicious activity. This one targets people who *haven't* used PayPal in a while, who are less likely to remember what a real PayPal email looks like and more likely to think “oh, I'd better keep that.”
+
+## What the fake page wants
+
+- your PayPal email and password;
+- card and bank details for the “new account”;
+- sometimes a one-time code to “verify.”
+
+## How to check
+
+Open the PayPal app or type paypal.com and log in. If there's a real problem, it will show in your account. If you don't use PayPal any more, close it properly from inside your account rather than via an email.
+
+## How to report
+
+PayPal's [reporting page](https://history.paypal.com/us/security/report-suspicious-messages) says to forward suspicious emails to **phishing@paypal.com**, then delete them. In the UK, also forward to **report@phishing.gov.uk** (the NCSC).
+
+## If you entered details
+
+1. Change your PayPal password, and your email password if they were the same.
+2. Turn on two-step verification in PayPal.
+3. Check for unknown payments and linked cards.
+4. Call your bank or **159** if you entered card details.
+
+Old dormant accounts are a security risk in general. Our [[how-to-find-old-accounts-linked-to-your|old accounts guide]] helps you find and close them, and the [[paypal-scam-text-what-to-do|PayPal text scam guide]] covers SMS versions. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in breach data.
+
+=== FAQ
+Q: Will PayPal close my account for inactivity by email link?
+A: Check by logging in through the app or paypal.com yourself. Don't use links in the email.
+Q: How do I report a fake PayPal email?
+A: Forward it to phishing@paypal.com and, in the UK, to report@phishing.gov.uk.
+Q: What does the fake "create a new account" page steal?
+A: Your login, card and bank details, and sometimes a one-time code.
+Q: I don't use PayPal any more. What should I do?
+A: Log in directly and close the account from your settings, so it can't be misused.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (PayPal email, Sept 9, 2026)
+https://history.paypal.com/us/security/report-suspicious-messages | PayPal: Report suspicious messages
+
+=== RELATED
+paypal-scam-text-what-to-do | PayPal Scam Texts
+paypal-invoice-scam-what-to-know | PayPal Invoice Scam
+is-paypal-safe-from-scams | Is PayPal Safe From Scams?
+old-apps-forgotten-accounts-and-your | Old Apps and Forgotten Accounts
+how-to-spot-and-report-phishing-emails-texts-calls | How to Spot and Report Phishing

@@ -1,0 +1,62 @@
+slug: uk-online-safety-act-age-checks-privacy
+country: UK
+title: UK Age Checks: What Happens to the Data You Hand Over?
+h1: Online Safety Act Age Checks: What You're Sharing, Who's Responsible and How to Stay Safe
+desc: Some UK sites now require "highly effective" age checks. What Ofcom and the ICO say about your data, why there's no blanket ID rule, and how to avoid fake age-check pages.
+keywords: online safety act age verification privacy, uk age checks data, ofcom age assurance, age verification data protection uk, is age verification safe
+tags: Online Safety Act|Privacy|United Kingdom|Explainer
+=== TLDR
+Under the Online Safety Act, services that host pornography or content about suicide, self-harm and eating disorders must use “highly effective age assurance” to keep children out. There's no general requirement for UK users to complete age checks for legal content. Ofcom doesn't approve providers or see your data; the ICO oversees data protection, and services and vendors must follow UK GDPR. Choose the least-invasive check offered, use the official flow only, and be wary of age-check “links” arriving by email or text.
+
+=== BODY
+## What the law requires
+
+According to an [Ofcom freedom of information response](https://www.ofcom.org.uk/siteassets/resources/documents/about-ofcom/foi/2025/october/age-verification-data-protection-and-access-rights.pdf):
+
+- In-scope services must use **“highly effective age assurance”** to keep children away from pornography and content about suicide, self-harm and eating disorders.
+- Ofcom lists methods it considers capable of being highly effective, but **doesn't certify or approve any specific provider**.
+- There's **no general requirement** for UK users to complete an age check to access legal content. The duty is on services, where needed to protect children.
+
+## Who protects your data
+
+- The **ICO** oversees data protection for age assurance and has issued an Opinion on it.
+- **Services and age-check vendors** are responsible for complying with UK GDPR, including impact assessments and data protection by design.
+- **Ofcom has no access** to the personal data you submit to age assurance providers.
+
+So if you're unhappy with how an age-check provider handled your data, your rights are the usual UK GDPR ones: ask what they hold ([[subject-access-request-dsar-guide|subject access request]]), ask for deletion ([[uk-right-to-erasure-how-to-get-data-deleted|right to erasure]]) and complain to the ICO.
+
+## Practical privacy tips
+
+- **Pick the least-invasive option** offered. Estimation methods (like a selfie age estimate) may involve less data than uploading a passport, depending on the provider.
+- **Read who the vendor is** before uploading ID, and look for how long they keep it.
+- **Only start age checks from the site you're using.** Treat “verify your age” emails or texts with links as phishing; scammers love a new official-sounding process.
+- **Don't reuse passwords** on adult or forum sites, which are common breach targets.
+
+## Why scammers will use this
+
+Every new rule that asks people to prove something online gives scammers a fresh script. Expect fake “your account will be restricted until you verify your age” messages. The defence is the same as always: go to the site directly, never through a link.
+
+## Your wider footprint
+
+Age checks add a new place your ID might sit. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches already include your email, and our [[gdpr-explained-what-you-can-request|GDPR rights guide]] explains what you can ask any company for.
+
+=== FAQ
+Q: Do I have to verify my age to use the internet in the UK?
+A: No. Ofcom says there's no general requirement for users to complete age checks for legal content; the duty applies to certain services.
+Q: Does Ofcom approve age verification companies?
+A: No. Ofcom says it doesn't certify or approve specific age assurance providers.
+Q: Who protects the data I give for age checks?
+A: The services and vendors must follow UK GDPR, and the ICO oversees data protection.
+Q: How do I avoid age-check scams?
+A: Only start age checks from the website you're using, and treat emailed or texted age-check links as suspicious.
+
+=== SOURCES
+https://www.ofcom.org.uk/siteassets/resources/documents/about-ofcom/foi/2025/october/age-verification-data-protection-and-access-rights.pdf | Ofcom: FOI response on age verification, data protection and access rights
+https://www.lewissilkin.com/en/insights/2026/03/26/another-milestone-in-drive-for-increased-age-assurance-reached-as-ofcom-and-ico-i-102mo76 | Lewis Silkin: Ofcom and ICO age assurance milestone (Mar 2026)
+
+=== RELATED
+gdpr-explained-what-you-can-request | GDPR: What You Can Request
+subject-access-request-dsar-guide | Subject Access Request Guide
+australia-social-media-age-ban-scam | Australia's Social Media Age Ban Scams
+do-vpns-actually-protect-your-privacy | Do VPNs Protect Your Privacy?
+how-to-complain-to-the-ico | How to Complain to the ICO

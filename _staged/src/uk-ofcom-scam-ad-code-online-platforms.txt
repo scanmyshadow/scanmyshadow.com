@@ -1,0 +1,67 @@
+slug: uk-ofcom-scam-ad-code-online-platforms
+country: UK
+title: Ofcom's Scam Ad Rules: What Big Tech Will Have to Do
+h1: Ofcom's Plan to Make Facebook, Google and YouTube Stop Scam Ads: What It Means for You
+desc: Ofcom's draft fraudulent advertising code has 40 measures, from banning repeat scam advertisers to FCA checks on finance ads. Fines of up to £18m or 10% of revenue.
+keywords: ofcom scam ads code, fraudulent advertising code of practice, online safety act scam ads, facebook scam ads uk rules, ofcom 18 million fine scam ads
+tags: Online Safety Act|Scam Ads|United Kingdom|News
+=== TLDR
+Ofcom published draft rules in July 2026 for a fraudulent advertising code under the Online Safety Act, with 40 proposed measures for platforms like Facebook, Google and YouTube: banning scam advertisers, verifying who sets up ad accounts, requiring banking and investment advertisers to be FCA-authorised, testing AI ad tools and fast-tracking police reports. Fines could reach £18m or 10% of global revenue. The consultation closed on October 2; final rules are expected next year, so protection won't arrive until 2027 at the earliest.
+
+=== BODY
+## Why this matters
+
+UK Finance says **66%** of bank transfer fraud in 2025 started online, and investment fraud cases rose **26%**, as [Which? reported](https://www.which.co.uk/news/article/big-tech-must-tackle-scam-ads-or-face-fines-anVqt0t5B3EL). Fake celebrity investment ads, copycat retailer ads and fake “apps” in sponsored posts are a big part of that.
+
+## The proposed measures
+
+Among Ofcom's 40 draft measures:
+
+- **ban fraudsters** who post scam ads and stop them opening new accounts;
+- **verify identity** of people setting up advertising accounts, to stop impersonation of real businesses;
+- **require FCA authorisation** for anyone advertising banking or investment services;
+- **strengthen security** to reduce account hijacking;
+- **test AI ad-making tools** for misuse;
+- create a **dedicated channel for law enforcement** to flag scam ads for swift removal.
+
+## The teeth
+
+Firms that fail to comply could face fines of **up to £18m or 10% of global revenue**, whichever is greater. Meta is challenging the proposed fines in court, Which? reports.
+
+## Timeline
+
+- Consultation: ran until **2 October 2026**.
+- Final rules: expected next year.
+- Which? says consumers would be unprotected until **2027 at the earliest**, and urged Ofcom to move fast. Ofcom says platforms don't have to wait.
+
+Which?'s Rocio Concha called the proposals “a significant step” towards holding firms accountable.
+
+## Until then: protect yourself
+
+- Treat investment ads with celebrities as fake by default ([[deepfake-investment-scams-digital|deepfake investment scams]]).
+- Check any finance firm on the FCA register ([[uk-fca-firm-checker-clone-firms-fca-impersonation|how]]).
+- Don't install “apps” from ads ([[uk-fake-casino-apps-social-media-ads|fake app ads]]).
+- Report scam ads using the three dots on the ad.
+
+A related rule is coming for networks: see [[uk-ofcom-rules-block-scam-texts-mobile-operators-2027|Ofcom's plan to block scam texts]]. And check your own exposure with a free [[/digital-footprint-checker/|email exposure check]].
+
+=== FAQ
+Q: What is Ofcom's fraudulent advertising code?
+A: Draft rules under the Online Safety Act requiring large platforms to tackle scam ads, with 40 proposed measures.
+Q: How big are the fines?
+A: Up to £18m or 10% of global revenue, whichever is greater.
+Q: When will the rules apply?
+A: The consultation closed on 2 October 2026 and final rules are expected next year. Which? says protection won't arrive until 2027 at the earliest.
+Q: Will investment advertisers need FCA authorisation?
+A: That's one of the proposed measures for banking and investment ads.
+
+=== SOURCES
+https://www.which.co.uk/news/article/big-tech-must-tackle-scam-ads-or-face-fines-anVqt0t5B3EL | Which?: Big tech must tackle scam ads or face fines (Jul 14, 2026)
+https://www.techuk.org/insights/news/ofcom-publishes-draft-fraudulent-advertising-codes-of-practice | techUK: Ofcom publishes draft fraudulent advertising codes of practice
+
+=== RELATED
+uk-ofcom-rules-block-scam-texts-mobile-operators-2027 | Ofcom Rules to Block Scam Texts
+deepfake-investment-scams-digital | Deepfake Investment Scams
+australia-abc-investigation-fake-abc-articles-sapphire-network | Fake News Article Investment Ads
+investment-fraud-losses-us-uk-canada-australia-2025 | Investment Fraud Losses 2025
+uk-fca-global-week-of-action-finfluencers-2026 | FCA Action on Finfluencers

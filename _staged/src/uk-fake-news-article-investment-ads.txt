@@ -1,0 +1,66 @@
+slug: uk-fake-news-article-investment-ads
+country: UK
+title: Fake News Articles in Facebook Ads Selling “£250 Into £4,500”
+h1: The Fake News Article Ad: “Invest £250, Earn £2,500 to £4,500 a Month”
+desc: Facebook ads dressed as news articles promote investment platforms promising huge monthly returns. How the format works, why money is rarely recovered, and how to check.
+keywords: fake news article investment ad, facebook investment scam uk, invest 250 scam, celebrity investment ad scam uk, fake bbc article investment
+tags: Investment Scams|Social Media|United Kingdom|Scam Alert
+=== TLDR
+Which? warned in August 2026 about a Facebook ad styled as a news article promoting an investment platform that claimed £250 could return £2,500 to £4,500 a month. These fake-news ads often borrow celebrity names and real news branding. Money sent is unlikely to be recoverable, Which? says. No legitimate investment promises that. Check any firm on the FCA register and report the ad.
+
+=== BODY
+## The ad
+
+[Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) described it on August 14, 2026: a fake news article on Facebook promoting an investment platform, claiming **£250 can return £2,500 to £4,500 monthly**. Its advice was blunt: money sent is unlikely to be recoverable.
+
+That return is 1,000% to 1,800% a month. If it were real, the person running the ad would own Europe by Christmas.
+
+## How the format works
+
+1. A sponsored post looks like a news story, often with a familiar outlet's styling and a celebrity “secret.”
+2. The link opens a fake article praising a trading platform.
+3. You sign up with a small deposit. A friendly “account manager” calls.
+4. Your dashboard shows gains. You're encouraged to add more, sometimes to install remote-access software “to help.”
+5. Withdrawals fail, or need “fees” and “taxes” first.
+
+Australia's ABC uncovered a whole network of fake ABC articles used this way ([[australia-abc-investigation-fake-abc-articles-sapphire-network|the investigation]]), and the pattern is global.
+
+## Red flags
+
+- guaranteed or huge monthly returns;
+- celebrity endorsements (they're almost always fake: [[deepfake-investment-scams-digital|deepfakes explained]]);
+- a “news article” you reached through an ad;
+- pressure to deposit more, or to let someone access your computer.
+
+## Check before you invest
+
+- Look up the firm on the FCA Firm Checker and Warning List ([[uk-fca-firm-checker-clone-firms-fca-impersonation|how]]).
+- Search the platform name with “scam” and “review.”
+- Never install remote-access apps for an investment.
+
+## Report it
+
+Report the ad using the three dots on the ad and “Report.” If you've paid, call your bank or **159** and report to [Report Fraud](https://www.reportfraud.police.uk/). Ofcom is drawing up rules to force platforms to act on these ads ([[uk-ofcom-scam-ad-code-online-platforms|Ofcom's scam ad code]]).
+
+Investment scam call lists are built from breached contact details. A free [[/digital-footprint-checker/|email exposure check]] shows if yours is in breach data.
+
+=== FAQ
+Q: Are investment ads styled as news articles real?
+A: Treat them as scams. Which? warned about one claiming £250 could return £2,500 to £4,500 a month.
+Q: Can I get my money back from a fake investment platform?
+A: Which? says it's unlikely. Contact your bank immediately and report to Report Fraud.
+Q: How do I check an investment firm in the UK?
+A: Use the FCA Firm Checker and Warning List, reached by typing the FCA's address yourself.
+Q: How do I report a scam ad on Facebook?
+A: Tap the three dots on the ad and choose Report.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (investment ad, Aug 14, 2026)
+https://www.which.co.uk/news/article/big-tech-must-tackle-scam-ads-or-face-fines-anVqt0t5B3EL | Which?: Big tech must tackle scam ads or face fines
+
+=== RELATED
+deepfake-investment-scams-digital | Deepfake Investment Scams
+australia-abc-investigation-fake-abc-articles-sapphire-network | Fake ABC Articles Investigation
+investment-trading-app-scam-recovery | Investment App Scam Recovery
+uk-nca-nigeria-arrests-investment-scam-centre-fake-facebook-traders | NCA Arrests Over Fake Facebook Traders
+investment-fraud-losses-us-uk-canada-australia-2025 | Investment Fraud Losses 2025

@@ -1,0 +1,59 @@
+slug: uk-mobile-network-scam-calls-number-will-stop-working
+country: UK
+title: “Your Number Stops Working in 24 Hours” Calls: Three and Others
+h1: “Your SIM Will Be Blocked Within 24 Hours”: The Fake Mobile Network Call
+desc: Callers posing as Three and other networks say your number will stop working unless you confirm details or pay. What they're after and how to check safely.
+keywords: three scam call, sim will be blocked scam call, number will stop working 24 hours call, mobile network impersonation scam uk, three mobile scam
+tags: Mobile Networks|Phone Scams|United Kingdom|What To Do
+=== TLDR
+Which? warned in August 2026 about calls impersonating Three, claiming your number will stop working within 24 hours or your SIM will be blocked, to extract personal and payment details. Similar calls and texts use O2, EE and Vodafone. The goal is often your account access, which can lead to SIM swaps or phones ordered on your contract. Hang up and check in your network's app or by calling the number on your bill. Report by texting “call” and the number to 7726.
+
+=== BODY
+## The call
+
+[Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) reported on August 28, 2026 that callers claiming to be from Three say your number will stop working within 24 hours or your SIM will be blocked. They ask for personal and payment details to “keep it active.”
+
+It's a close cousin of O2's [[uk-o2-inactive-sim-scam-text|inactive SIM text]], and the same script turns up with EE and Vodafone branding.
+
+## What they're really after
+
+- **Payment details** for a fake “reactivation fee.”
+- **Account access**: your date of birth, account PIN or a one-time code. With those, criminals can order a new handset on your account or move your number to their SIM.
+- A SIM swap then lets them receive your bank's security codes. Cifas recorded a **402% rise** in unauthorised SIM swaps in the first half of 2026 ([[uk-cifas-fraudscape-2026-identity-fraud-sim-swap-data|the data]]).
+
+## How to check
+
+- Hang up. Networks don't cut numbers off with a 24-hour phone warning.
+- Open your network's app, or call the number on your bill or the network's website.
+- Never give a PIN, password or code to an incoming caller.
+
+## Report it
+
+Text “call” followed by the number to **7726** (on Android, text “call” and follow the prompts), as Which? advises. See [[uk-7726-how-to-report-scam-texts-calls|how 7726 works]].
+
+## If you shared details
+
+Call your network immediately and ask them to check for upgrades, SIM changes or porting requests, and add a password or PIN to your account. If your phone loses signal unexpectedly, act fast: [[how-to-block-a-swapped-sim-card|how to block a swapped SIM]]. Tell your bank too, or dial **159**.
+
+Scammers often already know your name and number from leaks. A free [[/digital-footprint-checker/|email exposure check]] shows what's circulating about your email.
+
+=== FAQ
+Q: Will Three block my SIM within 24 hours by phone?
+A: Treat such calls as scams. Check in the Three app or by calling the number on your bill.
+Q: What do fake mobile network callers want?
+A: Payment details, or account access that can be used for SIM swaps or ordering phones on your account.
+Q: How do I report a scam call in the UK?
+A: Text "call" followed by the number to 7726.
+Q: What should I do if I gave a code to a caller?
+A: Call your network immediately to check for SIM changes and orders, and add an account PIN.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Three calls, Aug 28, 2026)
+https://www.cifas.org.uk/newsroom/fraudscape-2026-6-month-update | Cifas: Fraudscape 2026 six-month update
+
+=== RELATED
+uk-o2-inactive-sim-scam-text | O2 Inactive SIM Scam
+ee-mobile-scam-what-to-know | EE Mobile Scams
+vodafone-uk-scam-what-to-know | Vodafone UK Scams
+sim-swap-fraud-how-it-works-and-how-to | SIM Swap Fraud Explained
+how-to-block-a-swapped-sim-card | Block a Swapped SIM

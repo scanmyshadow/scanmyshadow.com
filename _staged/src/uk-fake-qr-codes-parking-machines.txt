@@ -1,0 +1,61 @@
+slug: uk-fake-qr-codes-parking-machines
+country: UK
+title: Fake QR Codes on UK Parking Machines: Don't Scan, Pay Direct
+h1: Fake QR Code Stickers on Parking Machines: How to Pay Without Getting Scammed
+desc: Councils keep finding scam QR code stickers on pay and display machines. Why councils say not to scan them, how to pay safely and how to report one.
+keywords: fake qr code parking uk, qr code parking scam, quishing parking meter uk, pay and display qr code scam, ringgo qr code scam
+tags: QR Code Scams|Motoring|United Kingdom|What To Do
+=== TLDR
+Scam QR code stickers keep appearing on UK pay and display machines. Hartlepool Council found one in March 2026 and said it never uses QR codes as a payment option. Scanning one can take you to a fake payment page that steals your card details. Pay with cash or card at the machine, or through the official parking app you already use. Report stickers to the council and to RingGo.
+
+=== BODY
+## What's happening
+
+In March 2026 [Hartlepool Council](https://www.hartlepool.gov.uk/news/article/240/warning-issued-over-scam-qr-code-on-pay-and-display-parking-ticket-machine) warned that a scam QR code was found on a pay and display machine at Seaton Carew. Codes had been found on machines across the borough the year before, and similar scams have been reported across England.
+
+The council's line is simple: **it never uses QR codes as a payment option**. So any QR code on its machines is fake.
+
+## How the scam works
+
+Someone sticks a printed QR code on a machine, often with “Scan to pay” or an app logo. Scanning it opens a convincing payment page. You enter your card details and registration. The “payment” goes nowhere except to criminals, and you may still get a parking fine. It's called quishing: [[what-is-quishing-qr-code-phishing|QR code phishing]].
+
+## How to pay safely
+
+- **Cash or card directly at the machine.**
+- **The official app** you've downloaded from the app store (Hartlepool mentions RingGo).
+- **Type the parking website address** from the signs yourself, if offered.
+
+Never scan a sticker, even if it looks neat. Real QR codes are rare on council machines and are never stickers slapped on the side.
+
+## Report it
+
+- Tell the council (Hartlepool's Community Safety Team: 01429 523100).
+- Report QR codes to RingGo through its QR code safety page, so it can work to shut them down.
+- If you paid, call your bank or **159** and report to [Report Fraud](https://www.reportfraud.police.uk/).
+
+## The text version
+
+Parking scams also come by text: see [[uk-fake-speeding-fine-parking-pcn-text-scams|fake parking and fine texts]]. The US has the same sticker trick; the [[us-fake-qr-codes-parking-meters-ftc-warning|FTC warned about it]] in 2026.
+
+A free [[/digital-footprint-checker/|email exposure check]] shows if your details are already in breach data.
+
+=== FAQ
+Q: Do UK councils use QR codes for parking payments?
+A: Hartlepool Council says it never uses QR codes as a payment option. Treat stickers on machines as suspicious.
+Q: What happens if I scan a fake parking QR code?
+A: It can lead to a fake payment page that steals your card details.
+Q: How should I pay for parking?
+A: With cash or card at the machine, or through the official parking app you already use.
+Q: Where do I report a fake QR code?
+A: To the council and to RingGo. If you paid, call your bank and report to Report Fraud.
+
+=== SOURCES
+https://www.hartlepool.gov.uk/news/article/240/warning-issued-over-scam-qr-code-on-pay-and-display-parking-ticket-machine | Hartlepool Council: Warning over scam QR code on parking machine (Mar 25, 2026)
+https://icm.sunderland.gov.uk/article/37764/Fake-QR-Code-Scam-at-city-car-park-payment-machines | Sunderland City Council: Fake QR code scam at car park payment machines
+
+=== RELATED
+what-is-quishing-qr-code-phishing | What Is Quishing?
+us-fake-qr-codes-parking-meters-ftc-warning | Fake QR Codes on US Parking Meters
+qr-code-scams-quishing-international | QR Code Scams Internationally
+uk-fake-speeding-fine-parking-pcn-text-scams | Fake Parking Fine Texts
+how-to-cancel-a-compromised-debit-card | Cancel a Compromised Card

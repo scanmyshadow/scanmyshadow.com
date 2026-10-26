@@ -1,0 +1,60 @@
+slug: uk-fake-apple-virus-pop-up-scareware
+country: UK
+title: “179 Viruses Found on Your iPhone” Pop-Up: It's Scareware
+h1: “179 Viruses Have Been Found on Your iPhone”: How to Close the Fake Apple Warning
+desc: Fake Apple pop-ups claim your iPhone is infected or hacked and push a button that can download malware or a scam app. Why it's fake and how to close it safely.
+keywords: iphone virus pop up scam, 179 viruses iphone, fake apple security alert, iphone hacked pop up scareware, how to close fake virus warning iphone
+tags: Scareware|iPhone|United Kingdom|What To Do
+=== TLDR
+Pop-ups saying “179 viruses have been found in your iPhone's storage” or “your iPhone has been hacked” are scareware: fake warnings designed to make you tap a button that downloads malware, installs a scam app or sends you to a paid “cleaner.” Which? flagged both versions in 2026. Don't tap anything inside the pop-up. Close the browser tab or app from your app switcher, then clear website data.
+
+=== BODY
+## The pop-ups
+
+[Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) logged two this year:
+
+- **October 12, 2026**: a pop-up claiming “179 viruses have been found in your iPhone's storage,” with a button that can download malware.
+- **June 15, 2026**: an “Apple iPhone hacked” pop-up saying your details were in a data breach and your device is at risk. Which? calls it scareware: the buttons often download malware.
+
+## Why it's fake
+
+A web page can't scan your iPhone's storage. iOS keeps apps sandboxed, and Safari has no access to your files. Any website claiming to count your viruses is making the number up, and 179 is just specific enough to sound scientific.
+
+Also, Apple doesn't show security warnings as web pop-ups with countdown timers and “Clean now” buttons.
+
+## How to close it safely
+
+1. **Don't tap anything in the pop-up**, including “Close,” “Cancel” or “OK,” which can be fake buttons.
+2. Swipe up to open the **app switcher** and swipe Safari (or the app) away.
+3. Go to **Settings > Apps > Safari > Clear History and Website Data** (on older iOS: Settings > Safari).
+4. If it keeps returning, check **Settings > General > VPN & Device Management** for profiles you don't recognise and remove them. Also check calendar subscriptions ([[uk-fake-calendar-invite-spam-how-to-stop|how]]).
+
+## If you tapped it
+
+- Delete any app or profile it got you to install.
+- If you entered your Apple Account details, change your password and check trusted devices ([[apple-id-account-hacked-what-to-do|Apple ID guide]]).
+- If you paid for a “cleaner,” contact your bank and ask Apple for a refund if it was an App Store subscription.
+
+## The breach angle
+
+The June version used real fear: “your details were in a data breach.” If you want to know whether that's true, check properly. A free [[/digital-footprint-checker/|email exposure check]] shows which breaches include your email, without pop-ups.
+
+=== FAQ
+Q: Can a website find viruses on my iPhone?
+A: No. Websites can't scan your iPhone's storage, so any pop-up claiming to have found viruses is fake.
+Q: How do I get rid of a fake virus pop-up on iPhone?
+A: Don't tap it. Close Safari from the app switcher, then clear history and website data in Settings.
+Q: I tapped the pop-up. Is my iPhone hacked?
+A: Not necessarily. Remove any app or profile it installed and change your Apple Account password if you entered it.
+Q: Does Apple send virus warnings in Safari?
+A: Apple doesn't use web pop-ups with countdowns and "clean now" buttons to warn about viruses.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Apple pop-ups, Jun 15 and Oct 12, 2026)
+
+=== RELATED
+is-my-iphone-hacked | Is My iPhone Hacked?
+how-to-remove-spyware-from-iphone | Remove Spyware From iPhone
+what-is-tech-support-scams | Tech Support Scams
+how-to-check-if-browser-hijacked | Is Your Browser Hijacked?
+apple-id-account-hacked-what-to-do | Apple ID Hacked?

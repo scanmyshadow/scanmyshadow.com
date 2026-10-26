@@ -1,0 +1,67 @@
+slug: uk-fake-casino-apps-social-media-ads
+country: UK
+title: Fake “Apps” in Social Ads Leading to Unlicensed Casinos
+h1: Fake App Store Pages in Facebook Ads Are Pushing People Into Unlicensed Casinos
+desc: Social media ads disguised as Google Authenticator, Duolingo or Airbnb apps lead to unlicensed online casinos. How the fake app-store trick works and how to remove it.
+keywords: fake casino app scam, unlicensed online casino uk, facebook ad fake app casino, pwa scam app, friendlydealer casino scam
+tags: Fake Apps|Gambling Scams|United Kingdom|Scam Alert
+=== TLDR
+Which? warned in July 2026 about Facebook and Instagram ads promoting fake apps posing as Google Authenticator, Disney+, Duolingo and Airbnb that actually lead to unlicensed online casinos asking for deposits. Malwarebytes separately found a kit called FriendlyDealer using fake Google Play and App Store pages across 1,500+ domains. Unlicensed casinos offer none of the protections of UK-licensed ones, so deposits are risky. Remove the “app,” clear site data and block notifications.
+
+=== BODY
+## What Which? found
+
+[Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) reported on July 29, 2026 that ads on Facebook and Instagram promote fake apps dressed up as Google Authenticator, Disney+, Duolingo and Airbnb. Tap through and you end up at unlicensed online casinos asking for deposits. You came for language lessons and left with a slot machine.
+
+## How the trick works
+
+[Malwarebytes' March 2026 report](https://www.malwarebytes.com/blog/scams/2026/03/friendlydealer-mimics-official-app-stores-to-push-unvetted-gambling-apps) on a kit it calls **FriendlyDealer** explains the mechanics:
+
+- Ads lead to **fake Google Play or App Store pages**, complete with fake reviews.
+- The “Install” button creates a **web app** (PWA) on your home screen rather than a real app from the store.
+- The “app” redirects to casino offers, and operators earn affiliate commission when you sign up or deposit.
+- At least **1,500 domains** and **20+ casino brands** were generated from one configuration file.
+- The kit collects browser data and can send **push notifications** after you close it.
+
+Malwarebytes says this campaign doesn't steal passwords or install traditional malware, but it pushes people into **unregulated gambling** with no age checks, deposit limits or consumer protection.
+
+## Why “unlicensed” matters
+
+UK-licensed gambling sites must verify age, offer safer-gambling tools and follow complaint rules. An unlicensed site can refuse withdrawals, change terms or vanish. Before depositing anywhere, check the operator on the Gambling Commission's public register.
+
+## How to remove a fake app
+
+**Android**: uninstall the app, clear the site's data in Chrome (and any other browser), and remove notification permissions.
+
+**iPhone**: delete the home-screen icon, clear the site's website data in Safari settings and deny notifications.
+
+If you deposited money, contact your bank or card provider promptly. Report the ad to Facebook or Instagram using the three dots on the ad.
+
+## Spot the fake next time
+
+- Real app downloads open the actual Play Store or App Store app, not a web page.
+- Big brands advertise their own apps from their own pages.
+- If an “authenticator” app starts talking about spins, you have your answer.
+
+See also [[uk-copycat-apps-fake-websites-65-brands|fake apps on copycat sites]] and [[scam-online-casino-websites-australia|scam casino websites]]. A free [[/digital-footprint-checker/|email exposure check]] covers the breach side of your footprint.
+
+=== FAQ
+Q: What brands did the fake casino apps imitate?
+A: Which? reported fakes posing as Google Authenticator, Disney+, Duolingo and Airbnb.
+Q: Are these real apps?
+A: Often they're web apps installed from fake store pages, not apps from Google Play or the App Store.
+Q: Is it dangerous to gamble on an unlicensed site?
+A: Unlicensed sites lack age checks, deposit limits and consumer protections, so you may not get money back.
+Q: How do I remove a fake casino app?
+A: Delete the app, clear the site's data in your browser and remove its notification permission.
+
+=== SOURCES
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (casino apps, Jul 29, 2026)
+https://www.malwarebytes.com/blog/scams/2026/03/friendlydealer-mimics-official-app-stores-to-push-unvetted-gambling-apps | Malwarebytes: FriendlyDealer mimics official app stores (Mar 2026)
+
+=== RELATED
+scam-online-casino-websites-australia | Scam Casino Websites
+uk-copycat-apps-fake-websites-65-brands | Fake Apps on Copycat Sites
+ipl-betting-app-scams | Betting App Scams
+how-to-tell-if-an-app-is-spyware | How to Tell if an App Is Spyware
+instagram-scams-common-types-and-what-to-do | Instagram Scams
