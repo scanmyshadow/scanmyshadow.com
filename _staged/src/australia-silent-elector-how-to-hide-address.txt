@@ -1,0 +1,74 @@
+slug: australia-silent-elector-how-to-hide-address
+country: AU
+title: How to Become a Silent Elector and Hide Your Address
+h1: Silent Elector: How to Keep Your Address Off Australia's Public Electoral Roll
+desc: Silent enrolment hides your address on future public electoral rolls if it could put your safety at risk. Who qualifies, what you need and how to apply with the AEC.
+keywords: silent elector, how to become a silent elector, hide address electoral roll australia, aec silent elector form, silent enrolment australia, remove address from electoral roll
+tags: Privacy|Australia|How To|Personal Safety
+=== TLDR
+If having your address on the **public electoral roll** could put **you or your family's safety at risk**, you can apply to the AEC to become a **silent elector**. You'll need a **Commonwealth Statutory Declaration** explaining the risk, and one form of ID. Once approved, your address won't appear on **future** public rolls (masking can take up to 7 days). Wanting fewer junk mail or a silent phone number isn't enough on its own.
+
+=== BODY
+## Why it matters
+
+The public electoral roll can be inspected, and it lists names and addresses. For most people that's fine. For anyone escaping violence, stalking or harassment, it's a real risk.
+
+## Who can apply
+
+According to the [AEC](https://www.aec.gov.au/Enrolling_to_vote/Special_Category/silent-electors.htm):
+
+- Australian citizens **18 or over** (16- and 17-year-olds can enrol and register now, ready for 18);
+- who have lived at their address for at least **one month**;
+- who believe having their address on the public roll **could put them or their family's safety at risk**.
+
+Not accepted as grounds on their own: a silent phone number, or not wanting junk mail.
+
+## What you need
+
+1. **The silent elector form**: online, or the paper version for your state or territory.
+2. **A Commonwealth Statutory Declaration**, witnessed by an approved person, explaining **in detail** the risk to you or your family. State or territory declarations aren't accepted (the Attorney-General's Department lists alternatives, including myGov and Digital ID options).
+3. **One form of ID**: Australian driver licence, passport, Medicare card, citizenship number, or confirmation from a currently enrolled person. Proof of age cards don't count.
+
+**Tip:** family members at the same address with the same surname should each apply separately.
+
+## What it hides (and doesn't)
+
+- Your address **won't be shown on future editions** of the public roll.
+- At a **new address**, only your name and division appear.
+- At your **current address**, it stays on rolls **already** published. That's why applying before or as you move is best.
+- Masking can take up to **7 days** after approval.
+- You **don't need to reapply** after moving or changing your name. Just update your enrolment.
+
+## State and local rolls
+
+Paper forms exist for each state and territory. In **Victoria**, silent status on the state roll also suppresses your address on the local government roll. Non-resident ratepayers may need to apply separately to their council.
+
+## Other places your address leaks
+
+The electoral roll is one source. Others include old data breaches, directory listings and property records. To reduce your footprint:
+
+- unlist your number from directories ([[australia-white-pages-remove-number-unlisted|how]]);
+- check breaches with our free [[/digital-footprint-checker/|exposure checker]];
+- know your legal options under the [[australia-privacy-statutory-tort-explained|privacy tort]].
+
+If you're in danger, call **000**. For support, contact 1800RESPECT.
+
+=== FAQ
+Q: Who can become a silent elector in Australia?
+A: Australian citizens 18 or over who believe having their address on the public roll could put them or their family's safety at risk.
+Q: What documents do I need to become a silent elector?
+A: The silent elector form, a Commonwealth Statutory Declaration explaining the risk, and one form of ID such as a driver licence or passport.
+Q: Does silent enrolment remove my address from old rolls?
+A: No. It hides your address on future public rolls. Rolls already published at your current address still show it.
+Q: Do I need to reapply after moving?
+A: No. Update your enrolment and you remain a silent elector.
+
+=== SOURCES
+https://www.aec.gov.au/Enrolling_to_vote/Special_Category/silent-electors.htm | Australian Electoral Commission: Silent electors
+
+=== RELATED
+australia-white-pages-remove-number-unlisted | Remove Your Number From White Pages
+australia-privacy-statutory-tort-explained | Australia's Privacy Tort
+can-someone-find-my-address-using-my | Can Someone Find My Address?
+voter-id-electoral-roll-exposes-your-address | Electoral Rolls and Your Address
+airtag-stalking-check | AirTag Stalking Check

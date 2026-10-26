@@ -1,0 +1,73 @@
+slug: australia-westpac-scam-alerts-2026
+country: AU
+title: Westpac Scam Alerts 2026: "New Login Detected" and Other Fakes
+h1: Westpac Scam Alerts 2026: Fake Login Alerts, ID Secure Emails and Rewards Texts
+desc: Westpac's 2026 scams include "new login detected" emails leading to "safe account" calls, fake ID Secure and verification emails, and rewards texts. What Westpac never asks.
+keywords: westpac scam email, westpac new login detected scam, westpac scam text 2026, westpac safe account scam, hoax@westpac.com.au, westpac id secure scam
+tags: Bank Scams|Australia|Email Scams|What To Do
+=== TLDR
+Westpac's 2026 alerts: **"New login detected"** emails asking you to **call a number**, which leads to a **"safe account"** transfer (October); fake **Online Banking verification** emails with a deadline (July); a business called **"Westpac-Group Australia"** that has nothing to do with Westpac (July); fake **ID Secure** "stay compliant" emails (May); and **Rewards points expiring** texts (March). Westpac will **never** ask you to move money to a safe account or verify ID via a link. Forward emails to **hoax@westpac.com.au**, texts to **0497 132 032**.
+
+=== BODY
+## Westpac's 2026 scam list
+
+From [Westpac's latest scams page](https://www.westpac.com.au/security/latest-scams/):
+
+| When | Scam | How it works |
+|---|---|---|
+| Oct 2026 | **"New login detected"** | Email says someone logged in and asks you to call a number; a fake banker then pushes you to move money to a "safe" account |
+| Jul 2026 | **Online Banking verification** | Email says access will be restricted unless you verify by a deadline; link goes to a fake site |
+| Jul 2026 | **"Westpac-Group Australia"** | A business unaffiliated with Westpac using a similar name; verify payment requests independently |
+| May 2026 | **ID Secure** | Email says update your details to stay "compliant"; "Verify your ID" goes to a fake site |
+| Mar 2026 | **Rewards SMS** | Points about to expire; "redeem" link goes to a fake site |
+
+## The "new login" trick, step by step
+
+1. You get a scary email: someone just logged in from a new device.
+2. It gives a **phone number**, not a link, so it feels safer.
+3. The "fraud team" answers, confirms the "attack", and says your money must be moved to a **safe account** right now.
+4. The safe account belongs to the scammer.
+
+There's no such thing as a safe account. If a bank ever needed to protect your money, it would lock the account, not ask you to move it. See also [[australia-bank-new-login-call-this-number-email-scam|the same trick at NAB and ANZ]].
+
+## What Westpac will never ask
+
+- Your Online Banking **password, card PIN or CVC**
+- An Online Banking **Security Code** (SMS, token or app)
+- To **install software** so Westpac can connect to your device
+- To sign in while using **remote access software**
+- To **verify your identity via a link** in an email or SMS
+- To **move money to a "safe" account**
+- To **leave your card** in the letterbox for a courier
+
+## How to report
+
+- **Emails:** forward to **hoax@westpac.com.au**, then delete.
+- **Texts:** forward to **0497 132 032**.
+- **Clicked, shared details or called a number?** Contact Westpac immediately via westpac.com.au/contact-us, change your password from another device, and watch your accounts.
+
+## Real story: a banker's instinct
+
+In August 2026, a Westpac banker stopped a **$1.2 million** home-deposit transfer after spotting a hacked settlement agent email. Read [[australia-property-settlement-payment-redirection-scams|how property settlement scams work]].
+
+A free [[/digital-footprint-checker/|exposure check]] shows whether your email is in the breaches these scams draw on.
+
+=== FAQ
+Q: Is the Westpac "new login detected" email real?
+A: Westpac warned in October 2026 that these emails are scams that lead to "safe account" transfer requests.
+Q: Will Westpac ask me to move money to a safe account?
+A: No. Westpac says it will never ask you to move money to a "safe" account.
+Q: How do I report a Westpac scam text?
+A: Forward it to 0497 132 032. Forward emails to hoax@westpac.com.au.
+Q: Is Westpac-Group Australia part of Westpac?
+A: No. Westpac says it is not affiliated and not authorised to use its name.
+
+=== SOURCES
+https://www.westpac.com.au/security/latest-scams/ | Westpac: Latest scams
+
+=== RELATED
+australia-bank-new-login-call-this-number-email-scam | "New Login, Call This Number" Scams
+australia-nab-scam-alerts-2026 | NAB Scam Alerts 2026
+australia-anz-scam-alerts-2026 | ANZ Scam Alerts 2026
+australia-property-settlement-payment-redirection-scams | Property Settlement Scams
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams

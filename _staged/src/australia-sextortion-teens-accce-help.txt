@@ -1,0 +1,80 @@
+slug: australia-sextortion-teens-accce-help
+country: AU
+title: Sextortion in Australia: Signs, What to Do and Where to Report (ACCCE)
+h1: Sextortion Targeting Australian Teens: Warning Signs, What to Do and Where to Report
+desc: The ACCCE gets close to 100 sextortion reports a month about Australian children. Warning signs for parents, what to do right now, and how to report at accce.gov.au.
+keywords: sextortion australia, sextortion help teens australia, report sextortion accce, online blackmail teenager australia, sextortion what to do parents, thinkuknow sextortion
+tags: Sextortion|Australia|Parents|What To Do
+=== TLDR
+Sextortion is when offenders trick or pressure someone into sending sexual images, then **threaten to share them** unless they get **money, gift cards or more content**. The AFP-led **ACCCE** says it still gets **almost 100 reports a month** about Australian children, mostly by offshore criminal groups. If it's happening: **stop chatting, screenshot, block, report** to the platform and **accce.gov.au/report**. **Don't pay.** And tell someone you trust. It's not your fault.
+
+=== BODY
+## The numbers
+
+From the [AFP](https://afp.gov.au/news-centre/media-release/promising-results-sextortion-reports-drop-concern-children-remains) (September 2024):
+
+- The ACCCE received **560 reports** in the first half of 2024, about **93 a month**.
+- That's down from about **300 a month** in 2023, the first drop since the crime surged in 2022.
+- Police still call it **under-reported**.
+- The AFP and AUSTRAC have helped close **1,800+** bank and digital currency accounts linked to offshore groups.
+
+## How it happens
+
+Offenders **trick or coerce** someone into sending sexual images, then threaten to share them. Demands can be for **money, gift cards or more images**.
+
+## Warning signs (for parents and carers)
+
+- Friend requests from **people the child doesn't know**
+- **Sudden sexual questions** or conversation
+- Getting sexual images from a profile that **asks for the same**
+- Being **moved from one app to another**
+- Signs the sender may be writing in **English as a second language**
+- Excuses for **no video** ("my webcam's broken")
+- **Promises to delete** content
+
+## If it's happening right now
+
+1. **Stop the chat.** Don't respond to demands.
+2. **Screenshot** the profile, messages and demands.
+3. **Block** the account and **report** it to the platform.
+4. **Don't pay** and **don't send more images**. Paying usually leads to more demands.
+5. **Report** to the ACCCE at **accce.gov.au/report**.
+6. **Tell a trusted person.** Get support, including mental health support.
+
+## Where to get help
+
+| Situation | Contact |
+|---|---|
+| Immediate danger | **000** |
+| Report the crime | **accce.gov.au/report** |
+| Non-urgent police help | **131 444** |
+| Free, confidential counselling (young people) | **Kids Helpline** |
+| Response kit for ages 13–17 | **ThinkUKnow** online blackmail and sexual extortion kit |
+
+## For parents: the most important line
+
+If your child comes to you, the first words matter most. "Thank you for telling me. You're not in trouble. We'll fix this together." Offenders rely on shame to keep kids quiet and paying.
+
+## Reduce exposure
+
+Offenders find targets through public profiles. Set teens' accounts to private and limit who can message them. Our guides to [[how-to-make-instagram-private|Instagram privacy]] and [[how-to-make-tiktok-private-privacy-settings|TikTok privacy]] help. Also see [[sextortion-scams-rising-nz|sextortion in New Zealand]].
+
+=== FAQ
+Q: Where do I report sextortion in Australia?
+A: Report it to the ACCCE at accce.gov.au/report. Call 000 if someone is in immediate danger.
+Q: Should my child pay a sextortion demand?
+A: No. Don't pay or send more images. Stop contact, screenshot, block, report and get support.
+Q: How common is sextortion in Australia?
+A: The ACCCE receives almost 100 reports a month about children being targeted, according to the AFP.
+Q: What are the warning signs of sextortion?
+A: Unknown friend requests, sudden sexual conversation, pressure to switch apps, excuses not to video chat, and promises to delete content.
+
+=== SOURCES
+https://afp.gov.au/news-centre/media-release/promising-results-sextortion-reports-drop-concern-children-remains | AFP: Sextortion reports drop but concern for children remains
+
+=== RELATED
+sextortion-scams-rising-nz | Sextortion in New Zealand
+canada-sextortion-cybertip-help-for-teens-parents | Sextortion Help in Canada
+how-to-make-instagram-private | How to Make Instagram Private
+how-to-make-tiktok-private-privacy-settings | How to Make TikTok Private
+australia-social-media-age-ban-scam | Social Media Age Ban Scams

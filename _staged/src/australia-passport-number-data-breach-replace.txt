@@ -1,0 +1,69 @@
+slug: australia-passport-number-data-breach-replace
+country: AU
+title: Passport Number in a Data Breach? Do You Need a New One?
+h1: Australian Passport Number Leaked in a Breach: Is It Still Valid and Should You Replace It?
+desc: The Australian Passport Office says a leaked passport number can't be used to travel, and compromised passports are blocked in online ID checks. When replacing makes sense.
+keywords: passport number data breach australia, do i need a new passport after data breach, australian passport compromised, passport number leaked what to do, document verification service passport, apo data breach advice
+tags: Identity Theft|Australia|Passports|What To Do
+=== TLDR
+If your **passport number** leaked in a breach, the **Australian Passport Office** says your passport is **still valid for travel**: someone would need the **physical passport** to travel on it. Compromised passports can be **blocked in the Document Verification Service (DVS)** so they can't be used for **online ID checks**, and a passport number **can't be used to get a new passport**. You usually **don't need to replace it**. But if you're asked to use it online and it fails, that's why.
+
+=== BODY
+## What the APO says
+
+This guidance from the [Australian Passport Office](https://passports.gov.au/node/305) was written after the **Optus** breach, but the principles apply to any breach exposing passport numbers:
+
+- **Travel:** "Your passport is still safe to use for international travel." A number alone can't be used to travel.
+- **Online ID checks:** compromised passports are **blocked in the DVS**, so they can't be used to verify identity online.
+- **In person:** you can still show your physical passport.
+- **New passports:** a passport number **can't be used to get a new passport**, and **facial recognition** guards against identity takeover.
+- **Replacement:** usually **not required**. If you're **travelling soon**, don't apply now, as processing could take longer than your trip.
+
+## When replacing might make sense
+
+- You **lost the physical passport** as well (then you must report and cancel it).
+- You need to use your passport for **online ID checks** and it's now blocked.
+- The breaching company **offers to pay** for a replacement (Optus did).
+
+## Cancelling a lost or stolen passport
+
+Call **131 232**, or if you're overseas, contact the nearest Australian embassy or consulate.
+
+## The real risk from a leaked passport number
+
+The passport itself is fairly well protected. The danger is that the number is often leaked **alongside** your name, birthday and address, which helps scammers:
+
+- pass weaker ID checks at smaller lenders;
+- sound convincing on the phone;
+- run "your passport is compromised, pay to replace it" scams.
+
+The APO's advice: don't click links or share details with **unsolicited** contacts.
+
+## What to do
+
+1. Keep the breach notice.
+2. Consider a [[australia-credit-ban-how-to-request|credit ban]] if your birthday and address also leaked.
+3. Check your [[australia-free-credit-report-equifax-experian-illion|credit report]].
+4. Get help from IDCARE (1800 595 160) if you see misuse.
+
+Breaches exposing ID documents include [[was-i-affected-by-the-optus-data-breach|Optus]] and [[australia-genea-ivf-data-breach|Genea]]. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in.
+
+=== FAQ
+Q: Can someone travel on my passport if they have the number?
+A: No. The Australian Passport Office says they would need the physical passport.
+Q: Do I need a new passport after a data breach?
+A: Usually not. The APO says the passport remains valid for travel; replacement may help if it's blocked for online ID checks.
+Q: What is the Document Verification Service block?
+A: Compromised passports can be blocked in the DVS so they can't be used for online identity checks.
+Q: How do I cancel a lost Australian passport?
+A: Call 131 232, or contact the nearest Australian embassy or consulate if you're overseas.
+
+=== SOURCES
+https://passports.gov.au/node/305 | Australian Passport Office: Data breach advice for passport holders
+
+=== RELATED
+was-i-affected-by-the-optus-data-breach | Optus Data Breach
+australia-credit-ban-how-to-request | How to Request a Credit Ban
+australia-free-credit-report-equifax-experian-illion | Free Credit Reports in Australia
+was-i-affected-by-the-westjet-data-breach | WestJet Data Breach (Passports)
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches

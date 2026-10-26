@@ -1,0 +1,65 @@
+slug: australia-tax-file-number-stolen-what-to-do
+country: AU
+title: Tax File Number Stolen or Compromised? What To Do Now
+h1: TFN Stolen or Compromised: The ATO Steps, Phone Number and Warning Signs
+desc: If your TFN is stolen or your ATO record changes without your OK, call the ATO on 1800 467 033. Signs of misuse, what the ATO does, and how to lock down myGov.
+keywords: tfn stolen, tax file number compromised, ato identity theft, ato client identity support centre, someone using my tfn, tfn scam what to do
+tags: Identity Theft|Australia|Tax|What To Do
+=== TLDR
+If your **Tax File Number** is stolen or misused, call the **ATO Client Identity Support Centre on 1800 467 033** (8am–6pm AEST, weekdays). Warning signs include **changes to your ATO record** you didn't make (especially bank details), **unauthorised myGov access**, or a **self-managed super fund** set up in your name. The ATO will monitor your record and add protections. Also contact **IDCARE (1800 595 160)** and set up a **Strong myID**.
+
+=== BODY
+## Signs your TFN may be compromised
+
+The [ATO](https://www.ato.gov.au/online-services/identity-security-and-scams/help-for-identity-theft) lists these red flags:
+
+- someone has **stolen or misused** your TFN, ABN or other tax details;
+- someone **accessed your myGov account** or linked ATO services without permission;
+- your ATO record was **changed without approval**, like your bank account;
+- someone **set up a self-managed super fund** in your name, or changed an existing one, to get at your super.
+
+Common ways TFNs leak: scam calls "from the ATO", fake job onboarding forms, phishing myGov pages, and data breaches.
+
+## What to do
+
+1. **Call the ATO on 1800 467 033** as soon as you can (8am–6pm AEST, Monday–Friday). This is the **Client Identity Support Centre**; it helps you re-establish your tax identity and tells you which ID documents you'll need.
+2. **Secure myGov.** Change your password, turn on MFA and check sign-in history ([[australia-mygov-account-compromised-what-to-do|guide]]).
+3. **Set up a Strong myID** to protect ATO online access.
+4. **Report** other cybercrime via ReportCyber, and identity theft to state or territory **police**.
+5. **Call IDCARE** on **1800 595 160** (free, confidential) if other personal information is exposed.
+6. **Consider a [[australia-credit-ban-how-to-request|credit ban]]** if your ID documents leaked too.
+
+## What the ATO does for you
+
+- Checks your account for unusual activity and **corrects details** if your TFN was misused.
+- **Monitors your record** before lodgments or claims are processed automatically.
+- May **contact you to confirm** suspicious activity before processing.
+- Keeps **security measures on your file** until it's satisfied the risk has passed.
+
+## Avoid the scam after the scam
+
+Once you've reported identity theft, scammers sometimes call "from the ATO" offering to "help". Real ATO contact won't demand payment by gift card or crypto. If unsure, hang up and call the ATO yourself. Our guide to [[hmrc-ato-mygov-tax-scam-texts-emails|ATO and myGov scam texts]] covers the common versions.
+
+## Where else is your data?
+
+A TFN rarely leaks alone. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email appears in, which hints at what else is out there.
+
+=== FAQ
+Q: What number do I call if my TFN is stolen?
+A: The ATO Client Identity Support Centre on 1800 467 033, 8am to 6pm AEST, Monday to Friday.
+Q: How do I know if someone is using my TFN?
+A: Signs include changes to your ATO record you didn't make, unauthorised myGov access, or a self-managed super fund set up in your name.
+Q: What does the ATO do if my TFN is compromised?
+A: It checks for suspicious activity, monitors your record before processing lodgments, may contact you to confirm activity, and keeps security measures on your file.
+Q: Should I contact IDCARE about a stolen TFN?
+A: Yes, if other personal information may be compromised. IDCARE is free on 1800 595 160.
+
+=== SOURCES
+https://www.ato.gov.au/online-services/identity-security-and-scams/help-for-identity-theft | ATO: Help for identity theft
+
+=== RELATED
+australia-mygov-account-compromised-what-to-do | myGov Account Compromised
+hmrc-ato-mygov-tax-scam-texts-emails | ATO and myGov Scam Texts
+australia-credit-ban-how-to-request | How to Request a Credit Ban
+australia-super-fund-credential-stuffing-attacks | Super Fund Account Attacks
+how-to-report-identity-theft-australia | Report Identity Theft in Australia

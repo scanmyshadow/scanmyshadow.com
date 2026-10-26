@@ -1,0 +1,74 @@
+slug: australia-mygov-account-compromised-what-to-do
+country: AU
+title: myGov Account Hacked or Scammed? The Steps to Take Now
+h1: myGov Account Compromised? What to Do in the First Hour
+desc: If a scammer got into your myGov, act fast: call the Services Australia scams helpdesk, switch on passkeys or Digital ID, check sign-in history and linked services.
+keywords: mygov account hacked, mygov compromised what to do, mygov scam help, mygov passkey, mygov security review, someone accessed my mygov
+tags: Account Takeover|Australia|Government|What To Do
+=== TLDR
+If your **myGov** account may be compromised, **act quickly**: call the **Services Australia Scams and Identity Theft Helpdesk**, set up **passkeys or Digital ID** and **turn off your password**, check your **account history**, complete the **Security review**, remove unknown **devices and passkeys**, then contact linked services (**ATO, Medicare, Centrelink**) and your bank. Locked out? Recover with Digital ID or call the myGov helpdesk.
+
+=== BODY
+## Why myGov is a target
+
+One login connects your **ATO, Medicare and Centrelink** records. A scammer inside can change bank details for refunds or payments, and read personal data. The NDIA said in July 2026 that criminals used myGov to get into [[australia-ndis-mygov-phishing-scam|some NDIS accounts]].
+
+## Step-by-step
+
+From myGov's [what to do if you've been scammed](https://my.gov.au/en/about/privacy-and-security/security/mygov-scams/what-to-do-if-you-ve-been-scammed):
+
+1. **Act quickly.**
+2. **Call the Services Australia Scams and Identity Theft Helpdesk** (number on the Services Australia contact page).
+3. **Set up multi-factor authentication** using **Digital ID or passkeys**, then **turn off your password**.
+4. **Change your myGov password** if you're keeping one.
+5. **Check your account history** for sign-ins or activity you don't recognise.
+6. **Complete the Security review** tasks after signing in.
+7. **Remove devices or passkeys** you don't recognise.
+8. **Contact linked services** (ATO, Medicare, Centrelink) if the scammer could have accessed them, and **your bank** if you shared bank or card details.
+
+## Locked out?
+
+- Look for a myGov email about **unusual sign-in activity** and follow it (check it's genuine first).
+- **Recover your account using Digital ID**.
+- **Call the myGov helpdesk** immediately; after hours, use the Services Australia scams help page.
+
+## Gave away ID details?
+
+If you shared your **driver's licence, Medicare number or TFN**, contact **IDCARE** (1800 595 160). For your TFN, also call the ATO: see [[australia-tax-file-number-stolen-what-to-do|TFN stolen]].
+
+## Why passkeys beat passwords here
+
+A passkey can't be typed into a fake myGov page, because there's nothing to type. It only works on the real site with your device. For an account this important, that's the upgrade worth ten minutes. Read more about [[australia-digital-id-myid-explained|Digital ID and myID]] and [[setting-up-passkeys-and-authenticator|setting up passkeys]].
+
+## How people get caught
+
+- fake "**myGov secure message**" emails ([[australia-fake-mygov-secure-message-email-licence-harvest|example]]);
+- fake **Medicare inbox** emails leading to a fake myGov sign-in (ANZ warned in June 2026);
+- [[hmrc-ato-mygov-tax-scam-texts-emails|ATO and myGov scam texts]].
+
+Don't sign in through a link in an email or text. Type my.gov.au yourself.
+
+Also worth support: myGov points people to Moneysmart for financial counselling and to mental health services. Getting scammed is stressful; you don't have to sort it alone.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your email is in breach data.
+
+=== FAQ
+Q: What should I do if my myGov account is hacked?
+A: Act quickly: call the Services Australia Scams and Identity Theft Helpdesk, set up passkeys or Digital ID, check account history, remove unknown devices and contact linked services.
+Q: How do I recover a locked myGov account?
+A: Use Digital ID to recover it or contact the myGov helpdesk.
+Q: Should I use passkeys on myGov?
+A: myGov recommends setting up MFA with Digital ID or passkeys and turning off your password.
+Q: What if I gave my TFN or Medicare number to a scammer?
+A: Contact IDCARE on 1800 595 160, and the ATO for your TFN.
+
+=== SOURCES
+https://my.gov.au/en/about/privacy-and-security/security/mygov-scams/what-to-do-if-you-ve-been-scammed | myGov: What to do if you've been scammed
+https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams (fake Medicare inbox emails)
+
+=== RELATED
+australia-fake-mygov-secure-message-email-licence-harvest | Fake myGov Secure Message Emails
+australia-ndis-mygov-phishing-scam | NDIS myGov Phishing
+australia-tax-file-number-stolen-what-to-do | TFN Stolen? What To Do
+australia-digital-id-myid-explained | Digital ID and myID Explained
+centrelink-scam-what-to-know | Centrelink Scams

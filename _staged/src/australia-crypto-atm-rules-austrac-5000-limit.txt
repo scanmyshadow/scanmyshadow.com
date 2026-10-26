@@ -1,0 +1,72 @@
+slug: australia-crypto-atm-rules-austrac-5000-limit
+country: AU
+title: Australia's Crypto ATM Rules: $5,000 Cash Limit and Scam Warnings
+h1: AUSTRAC's Crypto ATM Crackdown: $5,000 Cash Limit, Scam Warnings and Why It Matters
+desc: Australia went from 67 crypto ATMs in 2022 to 1,819. AUSTRAC now caps cash at $5,000 and requires scam warnings, because most heavy users are over 50 and many are scam victims.
+keywords: crypto atm australia rules, austrac crypto atm 5000 limit, bitcoin atm scam australia, crypto atm scam warning, austrac crypto atm, crypto atm older australians scam
+tags: Crypto Scams|Australia|Regulation|News
+=== TLDR
+In **June 2025**, AUSTRAC imposed a **$5,000 limit on cash deposits and withdrawals** at crypto ATMs, plus **scam warning signs**, tighter **transaction monitoring** and **enhanced customer checks**. Why: Australia's crypto ATMs exploded from **67 (Aug 2022)** to **1,819**, the third-largest fleet in the world. AUSTRAC found most users are **over 50**, making up almost **72% of transactions by value**, and many people aged 60–70 were scam victims. If anyone tells you to go to a crypto ATM, it's a scam.
+
+=== BODY
+## The new rules
+
+From [Cointelegraph's report on AUSTRAC](https://cointelegraph.com/news/australia-new-crypto-atm-rules-amid-rising-scams):
+
+| Rule | Detail |
+|---|---|
+| **Cash limit** | A$5,000 per deposit or withdrawal |
+| **Scam warnings** | Warning signs on machines |
+| **Monitoring** | Stronger transaction monitoring |
+| **Customer checks** | Enhanced due diligence |
+
+The limits apply to crypto ATM providers now; AUSTRAC expects exchanges taking cash to consider similar limits.
+
+## The numbers behind it
+
+- **1,819** crypto ATMs in Australia, up from **67** in August 2022 (Coin ATM Radar).
+- Australia is the **third-largest** crypto ATM hub after the US and Canada.
+- The AFP received **150 reports** of crypto ATM scams from January 2024 to January 2025, with losses over **A$3.1 million**, which it called "the tip of the iceberg."
+- AUSTRAC's taskforce found most users are **over 50**, making up nearly **72% of transactions by value**, and a "large number" of 60–70-year-olds were scam victims.
+
+From 67 to 1,819 in under three years. Those machines aren't popping up in shopping centres because grandma suddenly got into Bitcoin.
+
+## What AUSTRAC said
+
+CEO **Brendan Thomas** called the rules "absolutely necessary" and said they aim to deter criminals from directing victims to crypto ATMs. The rules will be reviewed and adjusted if needed.
+
+## How the scams use crypto ATMs
+
+Scammers posing as **police, banks, government or a romantic partner** tell victims to withdraw cash and feed it into a crypto ATM, scanning a QR code that sends the money to the scammer's wallet. Once sent, it's almost impossible to get back. We've covered real cases in [[australia-tasmania-crypto-atm-scam-losses-1-5-million|Tasmania]] and [[australia-sydney-widow-crypto-atm-dating-app-430000-afp-austrac|Sydney]].
+
+## The simple rule
+
+**No legitimate organisation will ever ask you to pay with a crypto ATM.** Not the bank, not the ATO, not the police, not your online sweetheart.
+
+## If you've paid
+
+1. Call your bank (if cash came from your account) and police.
+2. Report to ReportCyber and Scamwatch.
+3. Beware **recovery scams** promising to get the crypto back for a fee.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breaches scammers use to find targets.
+
+=== FAQ
+Q: What is the crypto ATM cash limit in Australia?
+A: AUSTRAC set a A$5,000 limit on cash deposits and withdrawals at crypto ATMs.
+Q: How many crypto ATMs are in Australia?
+A: About 1,819, up from 67 in August 2022, per Coin ATM Radar data reported in 2025.
+Q: Who uses crypto ATMs most in Australia?
+A: AUSTRAC found most users are over 50 and account for almost 72% of transactions by value.
+Q: Will anyone legitimate ask me to pay at a crypto ATM?
+A: No. Treat any request to pay via a crypto ATM as a scam.
+
+=== SOURCES
+https://cointelegraph.com/news/australia-new-crypto-atm-rules-amid-rising-scams | Cointelegraph: Australia's new crypto ATM rules amid rising scams
+
+=== RELATED
+australia-tasmania-crypto-atm-scam-losses-1-5-million | Tasmania Crypto ATM Scams
+australia-sydney-widow-crypto-atm-dating-app-430000-afp-austrac | Sydney Widow Crypto ATM Scam
+us-wisconsin-crypto-atm-law-1000-cap-refunds | Wisconsin Crypto ATM Law
+australia-asic-alert-fake-crypto-trading-platforms-stock-tip-groups | Fake Crypto Trading Platforms
+australia-scams-2025-national-anti-scam-centre-data | Australian Scam Data 2025

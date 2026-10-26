@@ -1,0 +1,69 @@
+slug: australia-food-delivery-scams-scamwatch
+country: AU
+title: Food Delivery Scams: Fake Uber Eats and DoorDash Calls and Texts
+h1: Food Delivery Scams in Australia: Fake DoorDash, Uber Eats and "Restaurant" Contacts
+desc: Scamwatch warns scammers pose as DoorDash, Uber Eats, restaurants or customers to grab codes and logins, then redirect payments. How it works for customers, restaurants and riders.
+keywords: food delivery scam australia, uber eats scam call, doordash scam text, fake restaurant call scam, delivery driver scam, scamwatch food delivery
+tags: Account Takeover|Australia|Scamwatch|What To Do
+=== TLDR
+In **June 2026**, Scamwatch warned about **food delivery scams** hitting customers, restaurants and delivery workers. Scammers pose as **DoorDash, Uber Eats**, a restaurant or a customer and ask for **one-time codes, logins, your mobile number or bank details**. They use them to **take over accounts**, change payment settings or **redirect earnings**. Rule: never share a code, and deal only through the official app.
+
+=== BODY
+## Who gets targeted
+
+[Scamwatch](https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-food-delivery-scams) says the scams hit three groups:
+
+| Who | What the scammer says |
+|---|---|
+| **Customers** | "There's a problem with your order/refund, read me the code we just sent" |
+| **Restaurants** | "We're Uber Eats/DoorDash, we need to verify your account" |
+| **Delivery workers** | "That order was fraudulent / a double order, give us your details for compensation" |
+
+## How it works
+
+1. Scammers contact you about an **order, refund, cancellation, account issue or payment problem**.
+2. They might say they **can see your order** to sound legit, then ask for "extra" details or payment **outside the app**.
+3. They ask for a **one-time code, login or bank details**.
+4. With that, they **take over the account**, change payment settings or **redirect money**. For riders, that can mean **earnings** go to the scammer.
+
+Your dinner arrives cold. Your account doesn't come back at all. Bad night.
+
+## Red flags
+
+- Unexpected calls or messages about orders, refunds, cancellations or account issues
+- **Requests for codes**, passwords, logins or bank details
+- Unexpected **password reset emails**, login alerts or account changes
+- **Pressure** to act fast
+
+## Stop, Check, Protect
+
+- **Stop:** don't rush, don't click links in unexpected messages, don't share codes or financial details.
+- **Check:** contact the restaurant or platform through its **official app or website**.
+- **Protect:** if you shared money or info, act fast. Change passwords, contact the platform and your bank.
+
+## If you've been hit
+
+1. Change your app password and email password.
+2. Remove unknown devices and payment methods from the app.
+3. Call your bank if card or bank details were shared.
+4. Report to Scamwatch and get help from IDCARE (1800 595 160).
+
+A one-time code is the key to your account. Nobody legit needs you to read it out. That's the same lesson as our guide to [[australia-bank-code-read-back-scam|"read me the code" bank scams]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number or email has leaked.
+
+=== FAQ
+Q: Do Uber Eats or DoorDash ask for verification codes by phone?
+A: Treat any request for a one-time code as a scam. Scamwatch says scammers use codes to take over accounts.
+Q: How do food delivery scams target drivers?
+A: Scammers tell workers an order was fraudulent or doubled and ask for details as "compensation", or access their accounts to redirect earnings.
+Q: What should I do if I gave a code to a scammer?
+A: Change your passwords, remove unknown devices and payment methods, contact the platform and your bank, and report to Scamwatch.
+
+=== SOURCES
+https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-food-delivery-scams | Scamwatch: Food delivery scams (12 June 2026)
+
+=== RELATED
+australia-bank-code-read-back-scam | "Read Me the Code" Scams
+australia-fake-purchase-callback-scams-scamwatch-alert | Fake Purchase Callback Scams
+australia-scamwatch-job-recruitment-scams-amazon-youtube-texts | Job Recruitment Scams
+credential-stuffing-explained | Credential Stuffing Explained
+how-to-report-a-scam-to-scamwatch | How to Report to Scamwatch

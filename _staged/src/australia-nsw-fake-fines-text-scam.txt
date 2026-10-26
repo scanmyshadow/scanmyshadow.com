@@ -1,0 +1,73 @@
+slug: australia-nsw-fake-fines-text-scam
+country: AU
+title: Fake NSW Fine Texts: Revenue NSW Never Asks You to Pay by Link
+h1: Fake Revenue NSW Fine Texts: "Pay Now or Face Penalties" Is a Scam
+desc: Texts and recorded calls claim you have unpaid NSW fines and push a payment link or card details. NSW Government says it never asks for payment via a link in an SMS.
+keywords: revenue nsw scam text, nsw fine scam text, unpaid fine text scam nsw, fake fine sms australia, service nsw fine scam, nsw government payment link scam
+tags: Government Impersonation|Australia|Text Scams|What To Do
+=== TLDR
+Scammers send **texts and prerecorded calls** saying you have **unpaid fines** and need to pay now, through a **link** or by giving your **card details**. ID Support NSW is clear: "**NSW Government will never ask you to make a payment via a link in a SMS text message.**" Check any fine yourself through Service NSW, never through the message. Report it to Scamwatch and ReportCyber.
+
+=== BODY
+## What the scam looks like
+
+According to [ID Support NSW](https://www.nsw.gov.au/departments-and-agencies/id-support-nsw/learn/scams/threats-and-extortion-fines-and-penalties):
+
+- **SMS texts** or **prerecorded phone messages** claim you have **unpaid fines**.
+- The goal is your **credit card details**, through a link, a cold call or a voicemail service.
+
+The texts often use urgent wording: "final notice", "licence suspension", "enforcement action today."
+
+## The rule that settles it
+
+> "NSW Government will never ask you to make a payment via a link in a SMS text message."
+
+So any fine text with a payment link is fake. You don't need to work out whether the fine sounds plausible. The link is the giveaway.
+
+## How to check a fine safely
+
+- Look it up **yourself** with **Service NSW**: type the address or open the official app you already use.
+- Use contact details you find independently, never the ones in the message.
+
+## What not to do
+
+- Don't give card details to **cold callers** or **voicemail** services.
+- Don't pay through **links in unexpected texts**.
+- Don't call back numbers left in recorded messages.
+
+## Where to report
+
+- **ReportCyber** at cyber.gov.au
+- **Police Assistance Line**: 131 444
+- **Scamwatch**
+- Forward the text to ACMA on **0429 999 888** ([[australia-report-spam-sms-acma-0429-999-888|how]])
+
+Collect as much detail as you can (sender number, screenshots, link address) before reporting.
+
+## If you paid
+
+1. Call your bank and cancel the card.
+2. Report to ReportCyber and police.
+3. Contact IDCARE (1800 595 160) if you gave other personal details.
+
+## Same trick, other states and agencies
+
+Fake toll and fine texts are among the most common government scams in Australia ([[australia-government-impersonation-toll-scams-top-detections-2026|top detections 2026]]). In Canada it's [[canada-icbc-scam-text-driving-fines|ICBC]] and [[canada-serviceontario-scam-text-licence-renewal|ServiceOntario]]; in the US, [[dmv-text-scam-unpaid-ticket-suspension|DMV texts]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number is in breach data.
+
+=== FAQ
+Q: Does Revenue NSW send texts with payment links?
+A: ID Support NSW says NSW Government will never ask you to make a payment via a link in an SMS.
+Q: How do I check if I have an unpaid fine in NSW?
+A: Look it up yourself through Service NSW using details you find independently, not the message.
+Q: Where do I report a fake NSW fine text?
+A: Report it to ReportCyber, Scamwatch or the Police Assistance Line on 131 444, and forward the text to 0429 999 888.
+
+=== SOURCES
+https://www.nsw.gov.au/departments-and-agencies/id-support-nsw/learn/scams/threats-and-extortion-fines-and-penalties | ID Support NSW: Threats and extortion (fines and penalties)
+
+=== RELATED
+australia-government-impersonation-toll-scams-top-detections-2026 | Government and Toll Scams 2026
+australia-report-spam-sms-acma-0429-999-888 | Report Scam Texts in Australia
+dmv-text-scam-unpaid-ticket-suspension | DMV Text Scams (US)
+canada-icbc-scam-text-driving-fines | ICBC Scam Texts
+what-is-smishing | What Is Smishing?

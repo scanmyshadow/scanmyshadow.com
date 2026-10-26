@@ -1,0 +1,79 @@
+slug: australia-oaic-data-breach-notifications-record-2025
+country: AU
+title: Australia Hit a Record 1,205 Data Breach Notifications in 2025
+h1: Record Year: Australia Logged 1,205 Data Breach Notifications in 2025 (OAIC Data)
+desc: OAIC figures show 1,205 notifiable data breaches in 2025, up 8%, with health the most hit sector and criminal attacks the main cause. What the numbers mean for you.
+keywords: oaic notifiable data breaches 2025, australia data breach statistics 2025, ndb report 2025, oaic data breach record, health sector data breaches australia, data breaches australia 2026
+tags: Data Breaches|Australia|Statistics|News
+=== TLDR
+The OAIC received **1,205** notifiable data breach reports in **2025**, the most since the scheme started in 2018 and **up 8%** from 1,112 in 2024. **Malicious or criminal activity** caused **716**. **Health service providers** were the most affected sector (**225**, 19%), followed by finance (157) and the Australian Government (118). And **82%** of Australians now say they're concerned about breaches. Released **6 July 2026**.
+
+=== BODY
+## The headline numbers
+
+From the [OAIC's July 2026 release](https://www.oaic.gov.au/news/media-centre/data-breach-notifications-increase-to-all-time-high-in-2025,-new-ndb-stats-show):
+
+| Metric | 2025 |
+|---|---|
+| Total notifications | **1,205** (record) |
+| Change vs 2024 | +8% (from 1,112) |
+| Caused by malicious or criminal activity | **716** |
+| Australians concerned about breaches | **82%** (up from 74% in 2023) |
+
+That's about **23 breaches a week** serious enough to report, or roughly five every working day.
+
+## Which sectors leak the most
+
+| Sector | Notifications |
+|---|---|
+| Health service providers | **225** (19%) |
+| Financial services | 157 |
+| Australian Government | 118 |
+| Business and professional associations | 103 |
+| Education | 81 |
+| Legal, accounting and management | 81 |
+
+Health tops the list again. That fits the big health breaches of recent years: [[australia-medisecure-data-breach-12-9-million|MediSecure]], [[was-i-affected-by-the-medibank-data-breach|Medibank]] and [[australia-genea-ivf-data-breach|Genea]].
+
+## What the Commissioner said
+
+Privacy Commissioner **Carly Kind** described the threat as "substantial and rising year on year."
+
+## What a "notifiable" breach means
+
+Under the Notifiable Data Breaches scheme, organisations covered by the Privacy Act must notify you and the OAIC when a breach is likely to cause **serious harm**. So these 1,205 are the serious ones, not every lost laptop.
+
+## What it means for you
+
+- **Assume your data is out there.** With this volume, it's a matter of how much, not whether.
+- **Health and finance data is most at risk**, which is also the data scammers can use most convincingly.
+- **Most breaches are deliberate attacks**, so the stolen data is usually going somewhere useful to criminals.
+
+## What to do
+
+1. Check your email with our free [[/digital-footprint-checker/|exposure checker]].
+2. Use unique passwords and MFA everywhere it counts.
+3. Know your rights: [[australia-oaic-complaint-how-to|complain to the OAIC]] if a company drops the ball.
+4. Consider a [[australia-credit-ban-how-to-request|credit ban]] if your ID details have leaked.
+
+Our [[australia-biggest-data-breaches-list|list of Australia's biggest breaches]] shows which ones you're likely in.
+
+=== FAQ
+Q: How many data breaches were reported in Australia in 2025?
+A: 1,205 notifications to the OAIC, the highest since the scheme began in 2018.
+Q: What sector had the most data breaches in Australia in 2025?
+A: Health service providers, with 225 notifications (19% of the total).
+Q: What caused most data breaches in 2025?
+A: Malicious or criminal activity, which caused 716 notifications.
+Q: Are data breaches increasing in Australia?
+A: Yes. 2025 notifications were up 8% from 1,112 in 2024.
+
+=== SOURCES
+https://www.oaic.gov.au/news/media-centre/data-breach-notifications-increase-to-all-time-high-in-2025,-new-ndb-stats-show | OAIC: Data breach notifications increase to all-time high in 2025
+
+=== RELATED
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+data-breach-statistics-2026 | Data Breach Statistics 2026
+australia-oaic-complaint-how-to | How to Complain to the OAIC
+australia-medisecure-data-breach-12-9-million | MediSecure Data Breach
+how-many-data-breaches-in-2025 | How Many Data Breaches in 2025?

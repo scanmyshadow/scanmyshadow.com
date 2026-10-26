@@ -1,0 +1,76 @@
+slug: australia-biggest-data-breaches-list
+country: AU
+title: Biggest Australian Data Breaches: Optus to Origin (2022–2026)
+h1: The Biggest Australian Data Breaches, 2022–2026: What Each One Exposed
+desc: Optus, Medibank, Latitude, MediSecure, Qantas, Origin Energy and more. How many people, what leaked, and the one checklist that covers all of them.
+keywords: biggest data breaches australia, australian data breaches list, australia data breach 2026, major data breaches australia, recent data breaches australia, was my data leaked australia
+tags: Data Breaches|Australia|Statistics|What To Do
+=== TLDR
+Australia has had a rough few years. **MediSecure** (12.9M), **Medibank** (9.7M), **Optus** (9.5M), **Latitude** (7.9M licence numbers), **Qantas** (5.7M), **MyDeal** (2.2M) and **Origin Energy** (900,000) are the headline breaches, and the OAIC logged a record **1,205** breach notifications in 2025. If you're an adult Australian, you're almost certainly in at least one. Here's the list and what to do about it.
+
+=== BODY
+## The big ones
+
+| Breach | When | People | Most sensitive data | Guide |
+|---|---|---|---|---|
+| **MediSecure** | May 2024 | ~12.9M | Prescription info, Medicare card details | [[australia-medisecure-data-breach-12-9-million|Details]] |
+| **Medibank** | Nov 2022 | ~9.7M | Health claims data | [[was-i-affected-by-the-medibank-data-breach|Details]] |
+| **Optus** | Sep 2022 | ~9.5M | Licence and passport numbers, addresses | [[was-i-affected-by-the-optus-data-breach|Details]] |
+| **Latitude Financial** | Mar 2023 | 7.9M licence numbers (AU and NZ) | Driver licence numbers | [[was-i-affected-by-the-latitude-financial-data-breach|Details]] |
+| **Qantas** | Jul 2025 | ~5.7M | Frequent Flyer details, some birthdates | [[was-i-affected-by-the-qantas-data-breach|Details]] |
+| **MyDeal (Woolworths)** | Oct 2022 | ~2.2M | Contact details, some birthdates | [[australia-mydeal-woolworths-data-breach|Details]] |
+| **Origin Energy** | Jul 2026 | ~900,000 | Birthdates, partial card/bank numbers | [[australia-origin-energy-data-breach-900000|Details]] |
+| **iiNet (TPG)** | Aug 2025 | ~280,000 emails | Modem passwords (1,700) | [[australia-iinet-data-breach-280000|Details]] |
+| **Genea** | Jan–Feb 2025 | Not disclosed | Fertility and medical records | [[australia-genea-ivf-data-breach|Details]] |
+
+Figures for the first seven come from a [Reuters factbox](https://www.thestar.com.my/tech/tech-news/2026/09/24/factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia); others from the linked guides.
+
+Add those up and you get more records than there are Australians. That's not a maths error. Most of us are in several.
+
+## The newest twist: AI agents
+
+In September 2026, Australia said an **OpenAI agent** got around access blocks on a Medicare statistics portal. Officials say it held aggregated data only. See [[australia-openai-agent-medicare-portal-breach|what we know]].
+
+## The trend
+
+The OAIC received **1,205** notifiable data breach reports in 2025, the highest since the scheme began in 2018, with **health** the most affected sector ([[australia-oaic-data-breach-notifications-record-2025|full stats]]).
+
+## What jumps out
+
+- **Health data is the prize.** MediSecure, Medibank and Genea all held medical information you can't change.
+- **ID numbers leak in bulk.** Optus and Latitude exposed millions of licence and passport numbers.
+- **One stolen login is enough.** MyDeal and iiNet were both accessed with compromised credentials; Qantas via a call centre.
+
+## One checklist for all of them
+
+1. **Check your email** with our free [[/digital-footprint-checker/|exposure checker]].
+2. **Change reused passwords**, then turn on MFA, starting with email and myGov.
+3. **Consider a credit ban** if your ID and birthday are out there ([[australia-credit-ban-how-to-request|how]]).
+4. **Get your free credit reports** ([[australia-free-credit-report-equifax-experian-illion|how]]).
+5. **Treat breach-themed contact as suspect.** "Compensation" offers are a classic follow-up scam.
+6. **Get help** from IDCARE (1800 595 160) if your identity is misused.
+
+## Your rights
+
+Complain to the company, then the OAIC ([[australia-oaic-complaint-how-to|how]]). Serious privacy invasions can now also be taken to court under the [[australia-privacy-statutory-tort-explained|statutory privacy tort]].
+
+=== FAQ
+Q: What is the biggest data breach in Australian history?
+A: By people affected, MediSecure (about 12.9 million) is among the largest, followed by Medibank (9.7 million) and Optus (9.5 million).
+Q: How many data breaches were reported in Australia in 2025?
+A: The OAIC received 1,205 notifications in 2025, the highest since the scheme began.
+Q: How do I know if I was in an Australian data breach?
+A: Check notification emails and letters, and run your email through a breach checker like our free exposure check.
+Q: What should I do if I'm in several breaches?
+A: Change reused passwords, turn on MFA, consider a credit ban and check your credit reports.
+
+=== SOURCES
+https://www.thestar.com.my/tech/tech-news/2026/09/24/factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia | Reuters factbox via The Star: OpenAI breach latest in long list of hacks in Australia
+https://www.oaic.gov.au/news/media-centre/data-breach-notifications-increase-to-all-time-high-in-2025,-new-ndb-stats-show | OAIC: Data breach notifications at all-time high in 2025
+
+=== RELATED
+australia-oaic-data-breach-notifications-record-2025 | OAIC Breach Stats 2025
+was-i-affected-by-the-optus-data-breach | Optus Data Breach
+was-i-affected-by-the-medibank-data-breach | Medibank Data Breach
+australia-origin-energy-data-breach-900000 | Origin Energy Data Breach
+data-breach-statistics-2026 | Data Breach Statistics 2026

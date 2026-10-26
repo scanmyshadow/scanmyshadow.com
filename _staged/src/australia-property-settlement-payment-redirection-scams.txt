@@ -1,0 +1,76 @@
+slug: australia-property-settlement-payment-redirection-scams
+country: AU
+title: Property Settlement Scams: How a $1.2M Home Deposit Was Nearly Stolen
+h1: Property Settlement Scams in Australia: Hacked Emails, Fake Bank Details and $166.8M Lost
+desc: Payment redirection scams cost Australians $166.8M in 2025. A Westpac banker stopped a $1.2M first-home theft in 2026. How settlement scams work and the one call that beats them.
+keywords: property settlement scam australia, payment redirection scam, conveyancer email hacked, house deposit scam, settlement fraud australia, real estate email scam bank details
+tags: Payment Redirection|Australia|Property|What To Do
+=== TLDR
+**Payment redirection scams**, including property settlement scams, cost Australians **$166.8 million in 2025**, up more than 9%. Criminals hack or impersonate **conveyancers, agents or settlement agents** and send **fake bank details** that look genuine. In **August 2026**, a Westpac banker stopped a **$1.2 million** first-home transfer after spotting a hacked settlement agent email. The fix: **call to confirm bank details** on a number you already saved, every time.
+
+=== BODY
+## The $1.2 million near miss
+
+Per [Westpac](https://www.westpac.com.au/news/money-matters/2026/08/westpac-bankers-instinct-saves-customer-from-1-million-scam/) (6 August 2026):
+
+- A customer was about to send **$1.2 million**, savings plus loan, for their first home.
+- Criminals had **hacked the settlement agent's email** and sent fake instructions.
+- Banker **Neet Kukreja** noticed: the **tone** was different; the **urgency** didn't fit; the staff member named was **on leave**; the sender's address had **one extra letter**; and the payment route didn't match normal practice.
+- She paused, called the real settlement agent, who confirmed no such request existed.
+
+"Scammers rely on urgency and fear," she said.
+
+## How these scams work
+
+From [CommBank's September 2026 warning](https://www.commbank.com.au/articles/newsroom/2026/09/property-settlement-scam-risk-rising.html):
+
+- Fraudsters **intercept emails** with bank details and send **fake payment instructions**.
+- They **research buyers and sellers on social media** and use **AI** to write messages and even **clone voices**.
+- In one case, a scammer posing as the seller had first **phoned the agency**, mentioning the property address and local landmarks to sound legit, then emailed "new" bank details.
+- A conveyancer intercepted another attempt that could have diverted nearly **$200,000**.
+
+A PEXA survey found **99%** of Australians couldn't identify a fraudulent email address even when told it was a scam. So "I'd spot it" isn't a plan.
+
+## Warning signs
+
+- **Changed bank details**, especially last minute
+- **Urgency**: "settlement fails today unless you pay now"
+- Payment details arriving **without the client knowing**
+- Small changes in **tone, signature or email address**
+
+PEXA's Graham Fairley: "Property professionals won't be injecting a sense of urgency."
+
+## The rules
+
+1. **Call to confirm bank details** using a number you **saved yourself** or found independently. Never use numbers in the email.
+2. **Agree on communication rules** with your conveyancer at the start ("we'll never change bank details by email").
+3. **Question any last-minute change.**
+4. **Send a small test amount** and confirm by phone before the big transfer.
+5. **Contact your bank immediately** if anything feels off.
+
+## If you've sent money
+
+Call your bank **immediately**, then your conveyancer, and report to ReportCyber and Scamwatch. Speed is everything with recalls.
+
+Similar cases: [[australia-victoria-police-recover-118000-bec-invoice-scam|Victoria's $118K BEC recovery]]. Your email being in breaches makes takeover easier: run a free [[/digital-footprint-checker/|exposure check]].
+
+=== FAQ
+Q: How much do Australians lose to payment redirection scams?
+A: $166.8 million in 2025, according to National Anti-Scam Centre data cited by Westpac and CommBank.
+Q: How do property settlement scams work?
+A: Criminals hack or impersonate conveyancers, agents or settlement agents and send fake bank details for the deposit or settlement.
+Q: How do I protect my house deposit from scams?
+A: Confirm bank details by phone using a number you saved yourself, and treat any last-minute change as suspicious.
+Q: What should I do if I sent my deposit to a scammer?
+A: Call your bank immediately to try to recall the payment, then your conveyancer, and report it.
+
+=== SOURCES
+https://www.westpac.com.au/news/money-matters/2026/08/westpac-bankers-instinct-saves-customer-from-1-million-scam/ | Westpac: Banker's instinct saves customer from $1.2 million scam
+https://www.commbank.com.au/articles/newsroom/2026/09/property-settlement-scam-risk-rising.html | CommBank: Property settlement scam risk rising
+
+=== RELATED
+australia-victoria-police-recover-118000-bec-invoice-scam | Victoria $118K BEC Recovery
+australia-confirmation-of-payee-explained | Confirmation of Payee
+australia-warrnambool-bank-email-scams-600000 | Warrnambool Bank Email Scams
+home-buying-season-scams | Home Buying Season Scams
+australia-westpac-scam-alerts-2026 | Westpac Scam Alerts 2026

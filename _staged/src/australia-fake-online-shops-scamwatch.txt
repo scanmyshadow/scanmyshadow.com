@@ -1,0 +1,72 @@
+slug: australia-fake-online-shops-scamwatch
+country: AU
+title: Fake Online Shops in Australia: How to Spot a Scam Store
+h1: Fake Online Shops: How to Spot a Scam Store Before You Pay (Scamwatch Tips)
+desc: Half of the malicious sites the National Anti-Scam Centre took down in one quarter were fake shops. Red flags, quick checks and what to do if you've paid.
+keywords: fake online shop australia, scam website check australia, how to spot fake online store, scamwatch online shopping scam, fake shop facebook ads australia, is this website legit australia
+tags: Shopping Scams|Australia|Scamwatch|What To Do
+=== TLDR
+Fake online shops copy real brands' **URLs and designs**, use **fake reviews** and **celebrity endorsements**, and take your money and card details for goods that never arrive. Scamwatch said about **half** the malicious sites the National Anti-Scam Centre took down in one three-month period were **shopping scams**. Red flags: **prices way too low**, **only glowing reviews**, **no ABN, T&Cs or privacy policy**, and **odd payment requests** like multiple PayIDs or gift cards.
+
+=== BODY
+## How fake shops work
+
+From [Scamwatch's December 2024 warning](https://www.scamwatch.gov.au/about-us/news-and-alerts/online-shopping-scams):
+
+- Scammers build **websites and social media profiles** that **imitate well-known brands**, often copying URLs and page designs.
+- They add **fake reviews** and **fake celebrity endorsements**.
+- You enter personal and card details. **Nothing arrives**, and your details may be **misused**.
+
+The National Anti-Scam Centre removed or restricted thousands of scam sites; about **half** of those taken down in the prior three months were **shopping scams**.
+
+## Red flags
+
+| Flag | Why it matters |
+|---|---|
+| **Prices much lower** than elsewhere | The oldest trick in retail crime |
+| **Reviews all positive**, no detail | Real customers complain about something |
+| **No ABN, T&Cs or privacy policy** | Legit Aussie businesses show these |
+| **Odd payment methods**: money orders, gift cards, **multiple PayIDs or bank accounts** | No buyer protection; the "changing PayID" is a big tell |
+| **New social media store** with huge discounts | Popped up last week, gone next week |
+
+A 90% off designer handbag isn't a sale. It's a sign.
+
+## Quick checks before you pay
+
+1. **Search the company name** plus "scam" or "reviews" on independent sites.
+2. **Compare prices** with other stores.
+3. **Don't trust the top search result** blindly; ads can be fake. Go to the brand's site directly.
+4. **Look for** contact details, dispute resolution, T&Cs and a privacy policy.
+5. **Pay with a credit card or PayPal**, which give you dispute options.
+6. Keep your **device and apps updated**.
+
+## If you've paid
+
+1. **Call your bank** and ask about a chargeback.
+2. **Report the site** to Scamwatch.
+3. If you shared personal info, contact **IDCARE** on **1800 595 160**.
+4. Watch for follow-up "refund" scams.
+
+## Related
+
+Selling online? See the [[australia-payid-scam-marketplace-sellers|PayID marketplace scam]]. Shopping season tips: [[holiday-ecommerce-shopping-scams-guide|holiday shopping scams]]. A free [[/digital-footprint-checker/|exposure check]] shows if your email is in breach data.
+
+=== FAQ
+Q: How do I know if an online shop in Australia is fake?
+A: Watch for very low prices, only positive reviews, no ABN or policies, and requests to pay by gift card, money order or multiple PayIDs.
+Q: How common are fake online shops?
+A: Scamwatch said about half the malicious sites taken down by the National Anti-Scam Centre in one three-month period were shopping scams.
+Q: What payment method is safest online?
+A: Scamwatch suggests secure options like PayPal or a credit card.
+Q: What should I do if I bought from a fake shop?
+A: Contact your bank, report the site to Scamwatch and contact IDCARE if you shared personal details.
+
+=== SOURCES
+https://www.scamwatch.gov.au/about-us/news-and-alerts/online-shopping-scams | Scamwatch: Online shopping scams (Dec 2024)
+
+=== RELATED
+australia-payid-scam-marketplace-sellers | PayID Marketplace Scams
+holiday-ecommerce-shopping-scams-guide | Holiday Shopping Scams
+australia-asic-11964-scam-websites-removed-2025-ai-investment-ads | ASIC Scam Website Takedowns
+is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe?
+how-to-report-a-scam-to-scamwatch | How to Report to Scamwatch

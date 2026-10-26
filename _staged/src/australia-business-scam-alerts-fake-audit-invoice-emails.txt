@@ -1,0 +1,69 @@
+slug: australia-business-scam-alerts-fake-audit-invoice-emails
+country: AU
+title: Fake "Credit Review" and "Internal Audit" Emails Targeting Australian Businesses
+h1: Business Scam Alerts 2026: Fake Bank Audit Emails, Look-Alike Companies and Invoice Fraud
+desc: NAB warns of fake audit emails asking businesses for invoices; Westpac flags a look-alike "Westpac-Group Australia". How these lead to invoice fraud, and the checks that stop it.
+keywords: fake bank audit email business, nab fake audit email, credit review email scam, westpac-group australia scam, business email compromise australia, invoice scam australia
+tags: Business Scams|Australia|Email Scams|What To Do
+=== TLDR
+In **September 2026**, NAB warned of **fake audit emails** that ask businesses for **invoice details** for a "**credit review**" or "**internal audit**", sometimes styled as a forwarded email from a **NAB banker**. In **July 2026**, Westpac warned that a business called "**Westpac-Group Australia**" has **no link** to Westpac. Both feed **invoice and payment redirection fraud**, which cost Australians **$166.8 million** in 2025. Verify any request by phone with a number you already have.
+
+=== BODY
+## The fake audit email
+
+From [NAB's alerts](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts) (September 2026):
+
+- Emails ask businesses for **invoice details** as part of a "**credit review**" or "**internal audit**".
+- Some pose as a **forwarded message from a NAB banker**.
+- **Don't respond.** Verify with your banker first.
+
+Why invoices? Because with real invoices, a scammer learns **who you pay, how much and when**. Next comes a perfectly timed "**our bank details have changed**" email from your "supplier."
+
+## The look-alike company
+
+[Westpac](https://www.westpac.com.au/security/latest-scams/) (July 2026): "**Westpac-Group Australia**" is **not affiliated** with Westpac and **isn't authorised** to use its name. **Verify any payment requests independently.**
+
+A hyphen and the word "Group" are all it takes to look official. It's the corporate version of a knock-off handbag.
+
+## The bigger picture
+
+Payment redirection scams cost Australians **$166.8 million in 2025**, per National Anti-Scam Centre data cited by [CommBank](https://www.commbank.com.au/articles/newsroom/2026/09/property-settlement-scam-risk-rising.html). Businesses are prime targets because they pay large invoices routinely.
+
+## Controls that work
+
+1. **Never send invoices or customer lists** in response to unexpected "audit" requests. Call your banker on a number you already have.
+2. **Verify every bank detail change by phone**, using a saved number, not one from the email.
+3. **Use Confirmation of Payee**: a "No match" on a supplier payment is a red flag ([[australia-confirmation-of-payee-explained|how it works]]).
+4. **Two-person approval** for new payees or changed details.
+5. **Turn on MFA** for all business email accounts. A hacked inbox is how most of this starts.
+6. **Train staff** to pause on urgency.
+
+## If you've paid a fake invoice
+
+- Call your bank **immediately** to try a recall.
+- Report to **ReportCyber** and Scamwatch.
+- Check your email for **forwarding rules** you didn't create.
+
+Real Australian cases: [[australia-victoria-police-recover-118000-bec-invoice-scam|Victoria's $118K BEC recovery]] and [[australia-sydney-bec-scam-600000-gold-bullion-three-charged|Sydney's $600K BEC case]]. A free [[/digital-footprint-checker/|exposure check]] shows if staff emails appear in breach data.
+
+=== FAQ
+Q: Does NAB email businesses asking for invoices for an audit?
+A: NAB warned in September 2026 that such "credit review" or "internal audit" emails are scams. Verify with your banker first.
+Q: Is Westpac-Group Australia part of Westpac?
+A: No. Westpac says it is not affiliated or authorised to use its name.
+Q: How much do Australians lose to payment redirection scams?
+A: $166.8 million in 2025, according to National Anti-Scam Centre data.
+Q: How do businesses prevent invoice fraud?
+A: Verify bank detail changes by phone using saved numbers, use Confirmation of Payee, require two-person approval and turn on MFA.
+
+=== SOURCES
+https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scam alerts
+https://www.westpac.com.au/security/latest-scams/ | Westpac: Latest scams
+https://www.commbank.com.au/articles/newsroom/2026/09/property-settlement-scam-risk-rising.html | CommBank: Property settlement scam risk rising
+
+=== RELATED
+australia-victoria-police-recover-118000-bec-invoice-scam | Victoria $118K BEC Recovery
+australia-sydney-bec-scam-600000-gold-bullion-three-charged | Sydney $600K BEC Case
+australia-confirmation-of-payee-explained | Confirmation of Payee
+australia-property-settlement-payment-redirection-scams | Property Settlement Scams
+australia-nab-scam-alerts-2026 | NAB Scam Alerts 2026

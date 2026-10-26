@@ -1,0 +1,91 @@
+slug: australia-oaic-complaint-how-to
+country: AU
+title: How to Make a Privacy Complaint to the OAIC (Step by Step)
+h1: How to Make a Privacy or Data Breach Complaint to the OAIC
+desc: Complain to the company first, wait 30 days, check if AFCA or another scheme applies, then lodge in writing with the OAIC. A simple walkthrough with a checklist.
+keywords: oaic complaint, how to make a privacy complaint australia, data breach complaint oaic, lodge privacy complaint, oaic complaint form, privacy complaint against company australia
+tags: Privacy Rights|Australia|How To|Data Breaches
+=== TLDR
+To complain to the **Office of the Australian Information Commissioner (OAIC)**: (1) complain **in writing to the organisation first**; (2) give it **30 days**; (3) check whether an **external dispute resolution scheme** applies (e.g. **AFCA** for banks, telco, energy schemes); (4) if you're still unhappy, lodge **in writing** with the OAIC online or at **oaicintake@oaic.gov.au**. The OAIC can't take complaints over the phone.
+
+=== BODY
+## Step 1: Complain to the organisation
+
+The OAIC says you [first need to complain](https://www.oaic.gov.au/privacy/privacy-complaints/before-you-lodge-a-privacy-complaint-with-us) to the organisation or agency you think mishandled your information. For breaches specifically, [ask them](https://www.oaic.gov.au/privacy/your-privacy-rights/data-breaches/make-a-data-breach-complaint) whether your information was affected.
+
+Do it in writing. Keep it short:
+
+- what happened and when;
+- what personal information was involved;
+- what you want (an explanation, correction, deletion, an apology, compensation).
+
+## Step 2: Wait 30 days
+
+The OAIC considers **30 days** a reasonable time to respond. If they ignore you or the response is poor, move on.
+
+## Step 3: Check for another scheme
+
+Some complaints go to an **external dispute resolution (EDR) scheme** first:
+
+| Sector | Where it goes |
+|---|---|
+| Banks and financial services | **AFCA** |
+| Telecommunications | Telco EDR scheme |
+| Some electricity, gas and water | Energy and water ombudsman |
+| Victorian public transport, some tolling | Relevant scheme |
+
+## Step 4: Lodge with the OAIC
+
+- **Online form**, or download the form and email **oaicintake@oaic.gov.au**, or post to **GPO Box 5288, Sydney NSW 2001**.
+- Must be **in writing**. No phone complaints.
+
+**Include:**
+
+- your name and contact details;
+- the organisation's name (and ABN if known);
+- what happened and when;
+- your complaint to them and their response;
+- reference numbers;
+- what they've done about it;
+- the outcome you want;
+- for credit reporting complaints, a **copy of your credit report**.
+
+You can nominate a representative, such as a lawyer, and you can withdraw at any time without penalty.
+
+## Data breach grounds
+
+You can complain if:
+
+- you weren't **notified quickly enough** about a breach that the Notifiable Data Breaches scheme required them to tell you about; or
+- the breach raises **other privacy issues** (like poor security).
+
+## What happens next
+
+The OAIC reviews it and may decline or investigate. It's not a fast process, so keep copies of everything.
+
+## Other options
+
+For serious invasions of privacy, you can now also go to court under the [[australia-privacy-statutory-tort-explained|statutory privacy tort]]. That needs legal advice.
+
+Not sure which companies hold your data? A free [[/digital-footprint-checker/|exposure check]] shows the breaches your email is in.
+
+=== FAQ
+Q: Do I have to complain to the company before the OAIC?
+A: Yes. The OAIC says you first need to complain to the organisation or agency.
+Q: How long should I wait for a response?
+A: The OAIC considers 30 days a reasonable period.
+Q: Can I complain to the OAIC by phone?
+A: No. Complaints must be in writing, online, by email or by post.
+Q: Where do bank privacy complaints go?
+A: Usually to the Australian Financial Complaints Authority (AFCA) first.
+
+=== SOURCES
+https://www.oaic.gov.au/privacy/privacy-complaints/before-you-lodge-a-privacy-complaint-with-us | OAIC: Before you lodge a privacy complaint
+https://www.oaic.gov.au/privacy/your-privacy-rights/data-breaches/make-a-data-breach-complaint | OAIC: Make a data breach complaint
+
+=== RELATED
+australia-privacy-statutory-tort-explained | Australia's Privacy Tort Explained
+australia-oaic-data-breach-notifications-record-2025 | OAIC Breach Stats 2025
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+how-to-report-identity-theft-australia | Report Identity Theft in Australia
+canada-privacy-commissioner-complaint-how-to | Privacy Complaints in Canada

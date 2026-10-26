@@ -1,0 +1,68 @@
+slug: australia-banks-no-links-in-texts-why
+country: AU
+title: Why Australian Banks Stopped Putting Links in Texts (And What That Means for You)
+h1: Australian Banks Don't Send Login Links in Texts Anymore: Use This as Your Scam Filter
+desc: NAB removed links from its texts; CommBank, Westpac and ANZ say they never send login links. That makes one simple rule: a bank text with a link is a scam. Here's the evidence.
+keywords: do banks send links in texts australia, nab removed links from sms, bank text with link scam, commbank sms link, westpac sms link, bank scam text rule
+tags: Bank Scams|Australia|Text Scams|Explainer
+=== TLDR
+Australia's big banks have made text scams easier to spot. **NAB removed links from its text messages**. **CommBank** says it never includes a link in an SMS or email to log in. **Westpac** says it never asks you to verify identity via a link in an email or SMS. **ANZ** says it never asks you to click a link to log in. So the rule is simple: **a "bank" text with a link is a scam.** Open the app instead.
+
+=== BODY
+## What each bank says
+
+| Bank | Policy | Source |
+|---|---|---|
+| **NAB** | Removed links from text messages; never sends unexpected texts with links | [NAB](https://www.nab.com.au/news/technology-ai/nab-scam-stop-and-recover), [NAB alerts](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts) |
+| **CommBank** | Never includes a link in an SMS or email to log in directly | [CommBank](https://www.commbank.com.au/security-privacy/report-hoaxes.html) |
+| **Westpac** | Never asks you to verify identity by clicking a link in an email or SMS | [Westpac](https://www.westpac.com.au/security/latest-scams/) |
+| **ANZ** | Never asks you to click a link to log in | [ANZ](https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html) |
+
+## Did it work?
+
+NAB says it stopped or recovered more than **$48 million** heading to scammers between October 2024 and March 2025, and customers **abandoned $195 million** in payments after scam alerts. Removing links was one of several steps, alongside **real-time payment alerts** and **blocking some high-risk crypto exchanges**.
+
+## The one rule
+
+**If a text says it's from your bank and has a link, it's a scam.** You don't have to judge the wording, the logo or the sender name. Spoofed messages can even land in the same thread as real ones.
+
+It's like a restaurant announcing it never asks for your PIN at the table. Easy test, very hard to fake around.
+
+## But watch for the workaround
+
+Scammers adapted. Instead of links, they now say **"call this number"**: see [[australia-bank-new-login-call-this-number-email-scam|the callback scam]]. And they'll ask you to **read out a code**: see [[australia-bank-code-read-back-scam|read-back code scams]].
+
+So the full rule set:
+
+1. **No links** from banks in texts. Ignore any that have them.
+2. **No calling numbers** from unexpected messages. Use the number on your card or app.
+3. **No reading out codes** to anyone.
+4. **No "safe accounts."** Ever.
+
+## What to do with a fake
+
+Forward it to your bank and ACMA (**0429 999 888**). Full list in our [[australia-report-spam-sms-acma-0429-999-888|reporting guide]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number is in breach data scammers use.
+
+=== FAQ
+Q: Do Australian banks send links in text messages?
+A: NAB removed links from its texts, and CommBank, Westpac and ANZ say they don't send links to log in or verify identity.
+Q: Is a text from my bank with a link a scam?
+A: Based on the banks' own policies, treat any bank text with a login or verification link as a scam.
+Q: What should I do instead of clicking?
+A: Open your banking app or type the bank's website yourself.
+Q: Has removing links reduced scams?
+A: NAB says it stopped or recovered more than $48 million from October 2024 to March 2025 using measures including removing links and payment alerts.
+
+=== SOURCES
+https://www.nab.com.au/news/technology-ai/nab-scam-stop-and-recover | NAB: NAB stops and recovers more than $48 million
+https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scam alerts
+https://www.commbank.com.au/security-privacy/report-hoaxes.html | CommBank: Report hoaxes
+https://www.westpac.com.au/security/latest-scams/ | Westpac: Latest scams
+https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams
+
+=== RELATED
+australia-bank-new-login-call-this-number-email-scam | "Call This Number" Bank Scams
+australia-bank-code-read-back-scam | "Read Me the Code" Scams
+australia-bank-rewards-points-expiring-sms-scam | Rewards Points Expiring Scams
+australia-acma-sms-sender-id-register-unverified-label-1-july | SMS Sender ID Register
+australia-report-spam-sms-acma-0429-999-888 | Report Scam Texts in Australia

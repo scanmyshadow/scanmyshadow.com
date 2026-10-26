@@ -1,0 +1,71 @@
+slug: australia-clickfix-fake-verification-copy-paste-scam
+country: AU
+title: "Copy and Paste This to Prove You're Human": The Fake Verification Scam
+h1: Fake "Verify You're Human" Pages That Ask You to Paste a Command (ClickFix-Style Scam)
+desc: ANZ warned of fake verification pages that tell you to copy and paste a command to prove you're human. Doing it installs malware. How to spot it and what to do if you ran it.
+keywords: fake captcha copy paste scam, prove you are human paste command, clickfix scam, fake verification page malware, windows r paste scam, anz fake verification warning
+tags: Malware|Australia|Phishing|What To Do
+=== TLDR
+Some websites now show a fake **"verify you're human"** check that tells you to **copy a command and paste it** into your computer, often by pressing a key combo and hitting Enter. **ANZ warned about this in June 2026**: running it **installs harmful software**. A real CAPTCHA asks you to click boxes or pick pictures. It **never** asks you to run anything. If you did it, disconnect and get the device checked.
+
+=== BODY
+## What it looks like
+
+[ANZ's June 2026 alert](https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html) describes fake verification pages that ask you to **copy and paste a command** to prove you're human. That command **installs harmful software**.
+
+Typically the page says something like:
+
+- "Verify you are human"
+- "Press **[key] + R**", then "**Ctrl + V**", then "**Enter**"
+- Sometimes it silently copies the command for you when you click a button
+
+Security researchers call this style of attack **ClickFix**.
+
+## Why it fools smart people
+
+- CAPTCHAs are annoying and familiar, so we do what they say without thinking.
+- The instructions are short and technical-looking. It feels like IT, not crime.
+- The page may look like a site you trust, reached from a search ad or a link in an email.
+
+Here's the tell: **no website needs you to open a system box and run code to prove you're a person.** A robot could do that faster than you anyway.
+
+## What the malware can do
+
+Pasted commands can download software that steals **saved passwords, browser cookies, banking sessions and crypto wallets**, or lets attackers control the device. That's how a "quick check" turns into an emptied account.
+
+## If you already ran it
+
+1. **Disconnect** from the internet (Wi-Fi off, cable out).
+2. From a **different, clean device**, change passwords for email and banking, and sign out of all sessions.
+3. **Call your bank.** Tell them your device may be compromised.
+4. Get the computer **scanned or professionally cleaned**; consider a full reinstall.
+5. Turn on **MFA** everywhere ([[how-to-set-up-two-factor-authentication|guide]]).
+6. Report it to **ReportCyber** at cyber.gov.au.
+
+## Avoid it next time
+
+- Never paste anything a website tells you to into a Run box, Terminal or PowerShell.
+- Be wary of sponsored search results for banks, software downloads and government services.
+- Keep your OS and browser updated.
+
+More scams in our [[australia-anz-scam-alerts-2026|ANZ 2026 alerts roundup]]. A free [[/digital-footprint-checker/|exposure check]] shows whether your email already appears in breach data.
+
+=== FAQ
+Q: Will a real CAPTCHA ask me to paste a command?
+A: No. Real human-verification checks ask you to click boxes or pick images, never to run a command.
+Q: What happens if I paste the command from a fake verification page?
+A: ANZ warns it installs harmful software, which can steal passwords and banking sessions.
+Q: What should I do if I ran a command from a fake CAPTCHA?
+A: Disconnect, change passwords from a clean device, call your bank and get the computer checked.
+Q: What is ClickFix?
+A: A name security researchers use for scams that trick people into running malicious commands themselves, often via fake verification pages.
+
+=== SOURCES
+https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams (fake verification pages, 18 June 2026)
+
+=== RELATED
+australia-anz-scam-alerts-2026 | ANZ Scam Alerts 2026
+tech-support-scam-remote-access-recovery | Remote Access Scam Recovery
+how-to-set-up-two-factor-authentication | How to Set Up 2FA
+how-to-spot-and-report-phishing-emails-texts-calls | Spot and Report Phishing
+fake-chatgpt-billing-email-scam | Fake ChatGPT Billing Emails

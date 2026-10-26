@@ -1,0 +1,72 @@
+slug: australia-genea-ivf-data-breach
+country: AU
+title: Genea IVF Data Breach: Patient Records Published by Hackers
+h1: Genea IVF Data Breach: What Was Taken and What Patients Can Do
+desc: Hackers took about 940 GB from fertility provider Genea in 2025 and published patient data. Medicare numbers, health histories and test results were in the system.
+keywords: genea data breach, genea ivf hack, genea fertility breach, termite ransomware genea, ivf patient data leak australia, genea breach what to do
+tags: Data Breaches|Australia|Health|What To Do
+=== TLDR
+Hackers breached fertility provider **Genea** on **31 January 2025** and pulled about **940 GB** of data on **14 February**. The **Termite** ransomware group published patient data. Genea's patient management system held **contact details, Medicare card numbers, health insurance details, medical histories, test results and medications**. Genea says there's no evidence financial details were taken, and it won a **court injunction** banning anyone from using or sharing the data. Patients should expect sensitive, targeted scams.
+
+=== BODY
+## What happened
+
+According to [TechCrunch](https://techcrunch.com/2025/02/26/hackers-publish-sensitive-patient-data-allegedly-stolen-from-australian-ivf-provider-genea):
+
+- Hackers got into Genea's **Citrix environment** on **31 January 2025**.
+- They extracted about **940 GB** on **14 February**.
+- **Termite** listed Genea on its leak site and claimed to publish patient data.
+- CEO Tim Yeoh confirmed "data taken from our systems has been published externally."
+- The MyGenea app was taken offline, per ABC News.
+
+## What was in the system
+
+Genea said the compromised patient management system held:
+
+- contact details;
+- **Medicare card numbers**;
+- **health insurance details**;
+- **medical histories, test results and medications**.
+
+Samples seen by TechCrunch appeared to include **government ID documents**. Genea said there's **no evidence** that credit card or bank details were taken. The number of affected patients wasn't disclosed.
+
+## The court injunction
+
+Genea obtained an injunction that bars the attacker **and anyone who receives the data** from accessing, using, sharing or publishing it. That won't stop criminals, but it gives legal weight against anyone in Australia who tries to spread it.
+
+## Why fertility data is different
+
+Fertility treatment is about as private as health information gets. The danger isn't just fraud. It's **extortion and emotionally targeted scams**: messages that mention treatment, demand payment to "keep it quiet," or pose as the clinic asking for "outstanding fees."
+
+## What patients can do
+
+1. **Never pay extortion demands.** Report them to police and ReportCyber at cyber.gov.au.
+2. **Verify clinic contact** by calling Genea on a number you look up yourself.
+3. **Use MFA** on email and myGov.
+4. **Talk to IDCARE** (1800 595 160) for free support.
+5. **If ID documents were exposed**, see our guide to [[australia-passport-number-data-breach-replace|passports in breaches]].
+6. If you feel unhappy with how it was handled, see [[australia-oaic-complaint-how-to|how to complain to the OAIC]].
+
+And look after yourself. Having health details exposed can be distressing; it's reasonable to lean on people you trust.
+
+See also [[australia-medisecure-data-breach-12-9-million|MediSecure]] and [[was-i-affected-by-the-medibank-data-breach|Medibank]]. A free [[/digital-footprint-checker/|exposure check]] shows other breaches tied to your email.
+
+=== FAQ
+Q: When was Genea hacked?
+A: Hackers breached Genea's systems on 31 January 2025 and extracted data on 14 February 2025.
+Q: What data was in the Genea breach?
+A: Genea's patient management system held contact details, Medicare card numbers, health insurance details, medical histories, test results and medications.
+Q: Was financial information stolen from Genea?
+A: Genea said there was no evidence that credit card or bank account details were compromised.
+Q: Who was behind the Genea attack?
+A: The Termite ransomware group claimed the attack and published data.
+
+=== SOURCES
+https://techcrunch.com/2025/02/26/hackers-publish-sensitive-patient-data-allegedly-stolen-from-australian-ivf-provider-genea | TechCrunch: Hackers publish sensitive patient data allegedly stolen from Genea
+
+=== RELATED
+australia-medisecure-data-breach-12-9-million | MediSecure Data Breach
+was-i-affected-by-the-medibank-data-breach | Medibank Data Breach
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+australia-oaic-complaint-how-to | How to Complain to the OAIC
+australia-scamwatch-idcare-recovery-process | IDCARE Recovery Process

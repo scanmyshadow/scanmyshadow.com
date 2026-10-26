@@ -1,0 +1,73 @@
+slug: australia-anz-scam-alerts-2026
+country: AU
+title: ANZ Scam Alerts 2026: The Latest Fakes and What ANZ Never Asks
+h1: ANZ Scam Alerts 2026: Fake Recruiters, Rewards Texts, Code Scams and What to Do
+desc: ANZ's 2026 scam list includes fake recruiters on Gmail, rewards-expiry texts, "Advisor Verification" code calls and fake direct debit emails. Report to hoax@cybersecurity.anz.com.
+keywords: anz scam text, anz scam alert 2026, anz rewards points scam sms, anz advisor verification scam, anz hoax email, anz fake recruiter scam
+tags: Bank Scams|Australia|Text Scams|What To Do
+=== TLDR
+ANZ's 2026 alerts include **fake ANZ recruiters** emailing from Gmail (September), **"Advisor Verification"** calls asking you to read back a code (February), **fake direct debit** emails telling you to call a mobile number (February), and **ANZ Rewards points expiring** texts (January). ANZ says it will **never** ask for passwords, PINs or one-time codes, ask you to **log in via a link**, request **remote access**, or ask you to **move money**. Forward fake emails to **hoax@cybersecurity.anz.com**.
+
+=== BODY
+## ANZ's 2026 scam alerts
+
+From [ANZ's latest scams page](https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html):
+
+| Date | Scam |
+|---|---|
+| 18 Sep 2026 | **Fake ANZ recruiters** contact job candidates from Gmail accounts using stolen identities |
+| 30 Jul 2026 | **Post-breach phishing** using stolen personal details |
+| 29 Jun 2026 | **End-of-financial-year scams**: payment redirection, authority impersonation, pushy investments |
+| 18 Jun 2026 | **Fake "verification" pages** that ask you to copy and paste a command |
+| 9 Jun 2026 | **Fake Medicare inbox emails** leading to fake myGov sign-in pages |
+| 15 May 2026 | **ANZ impersonation** calls, texts and emails |
+| 20 Feb 2026 | **"Advisor Verification"**: caller sends a fake code by email and asks you to read it back |
+| 16 Feb 2026 | **Direct debit scam**: email says a new direct debit was set up, call this mobile |
+| 3 Feb 2026 | **Investment scams** with fake celebrity endorsements |
+| 6 Jan 2026 | **ANZ Rewards SMS**: points expiring, link to fake redemption page |
+
+## The ones to watch
+
+**Fake recruiters.** A recruiter using a Gmail address for a big bank is like a pilot showing up in thongs. Possible, but check first. Real recruiters use company email and won't ask for bank details or ID scans up front.
+
+**Advisor Verification.** The caller emails you a "verification code" and asks you to read it back. That code is usually for something **they** are doing in your account. See our [[australia-bank-code-read-back-scam|read-back code scam guide]].
+
+**Fake verification pages.** "Copy and paste this to prove you're human" installs malware. Explained in our [[australia-clickfix-fake-verification-copy-paste-scam|ClickFix guide]].
+
+**Rewards texts.** The same trick hits Westpac and NAB customers. See [[australia-bank-rewards-points-expiring-sms-scam|rewards points scams]].
+
+## What ANZ will never do
+
+- Ask you to share **passwords, PINs, ANZ Shield or token codes**, or **one-time passcodes** for payments
+- Ask you to **click a link to log in**
+- Ask for **remote access** to your device
+- Ask you to **transfer money** to another account
+
+## How to report
+
+- **Emails:** forward to **hoax@cybersecurity.anz.com**
+- **Money sent or details shared:** contact ANZ through its **Report scams & fraud** page or the ANZ App. The Customer Protection Team works 24/7. Use contact details from ANZ's website or app, never from the message.
+- **Texts:** also forward to ACMA on 0429 999 888 ([[australia-report-spam-sms-acma-0429-999-888|guide]])
+- **Government:** Scamwatch and ReportCyber
+
+A free [[/digital-footprint-checker/|exposure check]] shows whether your contact details are in breaches scammers use.
+
+=== FAQ
+Q: Does ANZ ask for one-time passcodes over the phone?
+A: No. ANZ says it will never ask you to share one-time passcodes for payments.
+Q: Is the ANZ Rewards points expiring text real?
+A: ANZ has warned about texts claiming points are expiring that link to a fake redemption page.
+Q: How do I report an ANZ scam email?
+A: Forward it to hoax@cybersecurity.anz.com.
+Q: Do ANZ recruiters use Gmail?
+A: ANZ warned in September 2026 that scammers posing as ANZ recruiters contact candidates from Gmail accounts.
+
+=== SOURCES
+https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams in Australia
+
+=== RELATED
+australia-bank-code-read-back-scam | "Read Me the Code" Scams
+australia-bank-rewards-points-expiring-sms-scam | Rewards Points Expiring Scams
+australia-clickfix-fake-verification-copy-paste-scam | ClickFix Fake Verification Scam
+australia-commbank-scam-texts-netcode | CommBank Scam Texts
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams

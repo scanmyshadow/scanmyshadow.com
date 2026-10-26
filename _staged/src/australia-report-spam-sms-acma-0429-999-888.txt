@@ -1,0 +1,74 @@
+slug: australia-report-spam-sms-acma-0429-999-888
+country: AU
+title: How to Report Spam and Scam Texts in Australia (0429 999 888)
+h1: How to Report Scam Texts in Australia: ACMA's 0429 999 888, Scamwatch and Your Bank
+desc: Forward spam texts to ACMA on 0429 999 888, report scams to Scamwatch, and forward bank-branded texts to your bank's own number. A quick guide with every number in one place.
+keywords: report scam text australia, 0429 999 888, acma spam sms, how to report spam text australia, forward scam text australia, report phishing text australia
+tags: Text Scams|Australia|How To|Reporting
+=== TLDR
+In Australia, forward spam and scam texts to **ACMA's Spam SMS line on 0429 999 888** (standard SMS rates apply). Report the scam itself to **Scamwatch**. If it impersonates a bank, also forward it to that bank: **CommBank** hoax@cba.com.au, **Westpac** 0497 132 032, **NAB** 0476 220 003, **ANZ** hoax@cybersecurity.anz.com (email). Lost money? Call your bank first, right now.
+
+=== BODY
+## Step 1: Forward to ACMA
+
+[Scamwatch](https://www.scamwatch.gov.au/node/160) points to ACMA's dedicated **Spam SMS line: 0429 999 888**. Forward the text there. Your normal SMS rates apply. You can also register online with ACMA so its Anti-Spam Team can contact you if needed.
+
+**iPhone:** press and hold the message → More → tap the forward arrow → enter 0429 999 888.
+**Android:** press and hold → Forward → 0429 999 888.
+
+Save it as a contact called "SPAM" and you'll never have to look it up again.
+
+## Step 2: Report to Scamwatch
+
+Use Scamwatch's **Report a scam** page. Reports feed the National Anti-Scam Centre's takedown and warning work.
+
+## Step 3: Tell the brand
+
+If the text pretends to be a bank, forward it to that bank too:
+
+| Bank | Where to forward |
+|---|---|
+| CommBank | hoax@cba.com.au ([source](https://www.commbank.com.au/security-privacy/report-hoaxes.html)) |
+| Westpac | Texts: **0497 132 032**; emails: hoax@westpac.com.au ([source](https://www.westpac.com.au/security/latest-scams/)) |
+| NAB | Texts: **0476 220 003**; emails: phish@nab.com.au ([source](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts)) |
+| ANZ | Emails: hoax@cybersecurity.anz.com ([source](https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html)) |
+
+## Don't reply
+
+Replying (even "STOP") to a scam text confirms your number is live. Report and delete.
+
+## Lost money or shared details?
+
+Reporting spam doesn't get money back. Do this instead:
+
+1. **Call your bank immediately.**
+2. Report to **ReportCyber** at cyber.gov.au.
+3. Get free help from **IDCARE** on 1800 595 160.
+
+## Fewer scam texts in future
+
+Unverified sender names now get flagged under the [[australia-acma-sms-sender-id-register-unverified-label-1-july|SMS Sender ID Register]]. For calls, see the [[australia-do-not-call-register-guide|Do Not Call Register]]. And if you're wondering how scammers got your number, a free [[/digital-footprint-checker/|exposure check]] shows the breaches it may have come from.
+
+=== FAQ
+Q: What number do I forward scam texts to in Australia?
+A: ACMA's Spam SMS line, 0429 999 888.
+Q: Is it free to forward spam to 0429 999 888?
+A: Your mobile provider's standard SMS rates apply.
+Q: Where else should I report a scam text?
+A: Report it to Scamwatch, and forward bank-branded texts to the bank's own reporting address or number.
+Q: Should I reply STOP to a scam text?
+A: No. Replying confirms your number is active.
+
+=== SOURCES
+https://www.scamwatch.gov.au/node/160 | Scamwatch: Reporting spam SMS to ACMA
+https://www.commbank.com.au/security-privacy/report-hoaxes.html | CommBank: Report hoaxes
+https://www.westpac.com.au/security/latest-scams/ | Westpac: Latest scams
+https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scam alerts
+https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams
+
+=== RELATED
+australia-acma-sms-sender-id-register-unverified-label-1-july | SMS Sender ID Register
+australia-do-not-call-register-guide | Do Not Call Register
+how-to-report-a-scam-to-scamwatch | How to Report to Scamwatch
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams
+canada-7726-spam-text-reporting-guide | Reporting Spam Texts in Canada

@@ -1,0 +1,63 @@
+slug: australia-iinet-data-breach-280000
+country: AU
+title: iiNet Data Breach: 280,000 Emails and Modem Passwords Exposed
+h1: iiNet Data Breach: 280,000 Customer Emails, Landlines and Modem Passwords Taken
+desc: Hackers used a stolen iiNet employee login to reach an order system and took 280,000 emails, landline numbers and 1,700 modem passwords. What iiNet customers should do.
+keywords: iinet data breach, iinet breach 2025, tpg iinet hack, iinet modem password leak, iinet customer data stolen, iinet scam email
+tags: Data Breaches|Australia|Telco|What To Do
+=== TLDR
+On **16 August 2025**, TPG Telecom confirmed someone used an **iiNet employee's stolen login** to access an order management system. Taken: **280,000 active iiNet email addresses**, **20,000 landline numbers**, **10,000 names, addresses and phone numbers**, and **1,700 modem set-up passwords**. No ID documents, cards or financial details. If your modem still uses its original password, change it today.
+
+=== BODY
+## What happened
+
+According to [Infosecurity Magazine](https://www.infosecurity-magazine.com/news/aussie-isp-iinet-breach-280000/), an "unknown third party" logged in with **stolen credentials belonging to an iiNet employee** and reached an order management system. TPG discovered it on 16 August 2025, cut off access, brought in external experts and notified regulators. It's unclear how the login was stolen.
+
+## What was taken
+
+| Data | Count |
+|---|---|
+| Active iiNet email addresses | ~280,000 |
+| Active iiNet landline numbers | ~20,000 |
+| Usernames, street addresses, phone numbers | ~10,000 |
+| **Modem set-up passwords** | ~1,700 |
+| Inactive emails and landlines | Unspecified |
+| ID documents, cards, financial info | Not taken, per TPG |
+
+## The modem passwords matter most
+
+Most people never change the password their modem shipped with. If yours was one of the 1,700, someone could use it to get into your home network settings. Ten minutes now beats finding out the hard way.
+
+**Fix:** log in to your modem's admin page and change both the **admin password** and the **Wi-Fi password**. If you're unsure how, iiNet support can walk you through it.
+
+## What to do
+
+1. **Change your modem passwords** (admin and Wi-Fi).
+2. **Watch for iiNet-themed phishing**: fake "account suspended", "overdue bill" or "upgrade your modem" emails.
+3. **Don't trust caller ID.** A call "from iiNet tech support" asking for remote access is a scam pattern. See [[tech-support-scam-remote-access-recovery|remote access scam recovery]].
+4. **Turn on MFA** on your email account.
+5. If you use your iiNet email for everything, check our free [[/digital-footprint-checker/|exposure check]] to see other breaches.
+
+## A lesson in stolen logins
+
+This breach didn't need clever hacking, just one employee's password. It's the same weakness behind many big breaches, from [[was-i-affected-by-the-qantas-data-breach|Qantas]] to [[australia-mydeal-woolworths-data-breach|MyDeal]].
+
+=== FAQ
+Q: When was the iiNet data breach?
+A: TPG Telecom discovered and confirmed it on 16 August 2025.
+Q: How did hackers get into iiNet's systems?
+A: They used stolen login credentials belonging to an iiNet employee.
+Q: Were modem passwords exposed in the iiNet breach?
+A: Yes, about 1,700 modem set-up passwords were taken.
+Q: Were credit cards or ID documents stolen?
+A: No. TPG says no identity documents, credit card details or other financial information were compromised.
+
+=== SOURCES
+https://www.infosecurity-magazine.com/news/aussie-isp-iinet-breach-280000/ | Infosecurity Magazine: Australian ISP iiNet suffers breach of 280,000+ records
+
+=== RELATED
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+telstra-scam-what-to-know | Telstra Scams
+optus-mobile-scam-what-to-know | Optus Scams
+tech-support-scam-remote-access-recovery | Remote Access Scam Recovery
+credential-stuffing-explained | Credential Stuffing Explained

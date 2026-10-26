@@ -1,0 +1,74 @@
+slug: australia-payid-scam-marketplace-sellers
+country: AU
+title: PayID Scam: "Your Account Needs Upgrading" Emails to Sellers
+h1: The PayID Scam Targeting Marketplace Sellers: Fake "Upgrade" Emails and Refund Tricks
+desc: Buyers on Facebook Marketplace or Gumtree ask for your PayID, then a fake email says you must pay to "upgrade" to a business account. PayID is free. Here's the scam.
+keywords: payid scam, payid scam facebook marketplace, payid upgrade business account scam, payid email scam, payid fee scam, gumtree payid scam
+tags: Marketplace Scams|Australia|Payments|What To Do
+=== TLDR
+You're selling something online. A "buyer" asks for your **PayID and email**. Soon you get an official-looking email saying your account must be **"upgraded to a business account"** and you need to **refund a deposit** or pay a fee before the money is released. It's fake. **PayID is free**, and you **never need to upgrade** your account to receive a PayID payment. Don't pay, report the buyer, and check payments only in your banking app.
+
+=== BODY
+## How the scam works
+
+Per [Westpac](https://westpac.com.au/security/articles/using-payid-and-avoid-online-marketplace-scams):
+
+1. A buyer on a marketplace is keen, often without asking about the item. Bonus red flag.
+2. They ask for your **PayID** (usually your mobile or email) **and your email address**.
+3. You receive a fake email, styled like a bank or PayID, saying your account was **upgraded to a business account**, and you must **refund a "deposit"** or pay an upgrade fee.
+4. The buyer pressures you: "I've already paid, the money's waiting, just send the fee."
+
+There's also a **new account** version where the "buyer" insists you open a new bank account or PayID to complete the sale.
+
+## The facts that kill the scam
+
+- **"PayID is a free service."** You never pay a fee to use it.
+- You **never need to upgrade** your account to receive a PayID payment.
+- PayID payments show up in **your banking app**, not in an email.
+
+If it's not in your app, it hasn't arrived. That's the whole test.
+
+## Red flags
+
+- Buyer asks for your **email** as well as your PayID
+- Buyer is in a rush, sends a "courier" or "friend" to collect
+- Offers above asking price, or money in advance
+- **New profiles**, no friends, or overseas buyers
+- Moving the chat off the marketplace to email or text
+
+## What to do
+
+1. **Don't reply** to upgrade or refund emails. Don't pay anything.
+2. **Check your banking app.** No money there means no sale.
+3. **Report the buyer** to the marketplace.
+4. **Forward the fake email** to your bank's hoax address (Westpac: hoax@westpac.com.au; texts to 0497 132 032). Others are in our [[australia-report-spam-sms-acma-0429-999-888|reporting guide]].
+5. **Report to Scamwatch.**
+6. **Already paid?** Call your bank immediately.
+
+## Selling safely
+
+- Keep chats on the platform.
+- Accept payment only once it appears in your account.
+- Avoid international transfers, gift cards and crypto.
+
+See our guides to [[is-facebook-marketplace-safe-from-scams|Facebook Marketplace scams]] and [[online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted|marketplace scam rules]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are already in breach data.
+
+=== FAQ
+Q: Does PayID charge fees?
+A: No. PayID is a free service and you should never pay a fee to use it.
+Q: Do I need a business account to receive PayID payments?
+A: No. You never need to upgrade your account to use PayID.
+Q: How do I know a PayID payment arrived?
+A: Check your banking app. Emails claiming money is "pending" are a scam sign.
+Q: Where do I report a PayID scam?
+A: Report the buyer to the marketplace, forward the email to your bank and report to Scamwatch.
+
+=== SOURCES
+https://westpac.com.au/security/articles/using-payid-and-avoid-online-marketplace-scams | Westpac: Using PayID and avoiding online marketplace scams
+
+=== RELATED
+is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe?
+online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted | Marketplace Scam Rules
+australia-confirmation-of-payee-explained | Confirmation of Payee
+australia-fake-online-shops-scamwatch | Fake Online Shops in Australia
+australia-report-spam-sms-acma-0429-999-888 | Report Scam Texts in Australia

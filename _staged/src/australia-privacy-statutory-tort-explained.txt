@@ -1,0 +1,81 @@
+slug: australia-privacy-statutory-tort-explained
+country: AU
+title: Australia's New Right to Sue for Serious Invasions of Privacy
+h1: Australia's Statutory Privacy Tort Explained: When You Can Sue for an Invasion of Privacy
+desc: Since 10 June 2025, Australians can sue people and organisations for intruding on their seclusion or misusing their information. Who it covers, time limits and remedies.
+keywords: statutory tort serious invasion of privacy, australia privacy tort, sue for invasion of privacy australia, privacy tort 10 june 2025, misuse of private information australia, intrusion upon seclusion australia
+tags: Privacy Rights|Australia|Law|Explainer
+=== TLDR
+Since **10 June 2025**, Australians can **sue** for a serious invasion of privacy in two ways: **intrusion upon seclusion** (e.g. someone entering your private space) or **misuse of information** about you. You must have had a **reasonable expectation of privacy**, and the public interest in your privacy must outweigh other interests. You can sue **individuals and organisations**. Deadline: generally **one year** from when you became aware, or **three years** from the invasion, whichever is earlier.
+
+=== BODY
+## What changed
+
+Before June 2025, Australia had no general right to sue for invasion of privacy. Now there's a statutory tort, explained by the [OAIC](https://www.oaic.gov.au/privacy/your-privacy-rights/more-privacy-rights/statutory-tort-for-serious-invasions-of-privacy). Unlike the Australian Privacy Principles, which apply only to certain entities, the tort can be used against **individuals and organisations**.
+
+## The two types of invasion
+
+| Type | Example |
+|---|---|
+| **Intrusion upon seclusion** | Physically entering your private space; covert surveillance |
+| **Misuse of information** | Publishing or sharing private information about you |
+
+## What you need to show
+
+- You had a **reasonable expectation of privacy** in all the circumstances.
+- The **public interest in your privacy outweighs** any competing public interest.
+- The invasion was serious (it's a tort for *serious* invasions).
+
+## Defences and exemptions
+
+- **Consent** or **lawful authority** is a defence.
+- **Exemptions** apply to intelligence agencies, law enforcement bodies and, in certain circumstances, **journalists**.
+
+## Time limits
+
+| Your situation | Deadline |
+|---|---|
+| Under 18 at the time | Before your **21st birthday** |
+| Everyone else | The earlier of **1 year** after you became aware, or **3 years** after it happened |
+
+The one-year clock is tight. If something happens, get advice early.
+
+## Remedies
+
+The court can award what it considers appropriate, such as:
+
+- **damages**;
+- an **injunction** (an order to stop);
+- an order requiring an **apology**.
+
+## The OAIC's role
+
+None, directly. This is a court action, so you'll need **independent legal advice**. For ordinary privacy complaints against businesses, the [[australia-oaic-complaint-how-to|OAIC complaint process]] is still the cheaper route.
+
+## Where it might apply
+
+The tort is new, so courts are still shaping it. In our view it could be relevant to things like doxxing, hidden cameras or deliberately publishing someone's private information, but every case turns on its facts. Get legal advice before relying on it.
+
+## Reduce your exposure first
+
+Prevention beats litigation. A free [[/digital-footprint-checker/|exposure check]] shows where your email has leaked, and [[australia-silent-elector-how-to-hide-address|silent elector enrolment]] can keep your address off the public roll.
+
+=== FAQ
+Q: When did Australia's privacy tort start?
+A: The statutory tort for serious invasions of privacy commenced on 10 June 2025.
+Q: Can I sue an individual for invading my privacy in Australia?
+A: Yes. The tort applies to individuals and organisations, not only entities covered by the Privacy Principles.
+Q: How long do I have to sue for invasion of privacy?
+A: Generally the earlier of one year after becoming aware or three years after it happened. If you were under 18, before your 21st birthday.
+Q: Are journalists exempt?
+A: Journalists are exempt in certain circumstances, as are intelligence and law enforcement bodies.
+
+=== SOURCES
+https://www.oaic.gov.au/privacy/your-privacy-rights/more-privacy-rights/statutory-tort-for-serious-invasions-of-privacy | OAIC: Statutory tort for serious invasions of privacy
+
+=== RELATED
+australia-oaic-complaint-how-to | How to Complain to the OAIC
+australia-silent-elector-how-to-hide-address | Silent Elector Enrolment
+australia-scams-prevention-framework-explained | Scams Prevention Framework
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+australia-identity-theft-report-by-state | Identity Theft by State

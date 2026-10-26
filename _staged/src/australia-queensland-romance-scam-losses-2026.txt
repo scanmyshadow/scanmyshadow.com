@@ -1,0 +1,74 @@
+slug: australia-queensland-romance-scam-losses-2026
+country: AU
+title: Queenslanders Lost Nearly $6M to Romance Scams, 4x NSW in One Month
+h1: Queensland Romance Scam Losses: Nearly $6 Million in a Year, and a February Spike
+desc: Over 850 Queenslanders reported losing close to $6M to dating and romance scams in a year; one February's losses were about four times NSW's. Warning signs and what to do.
+keywords: queensland romance scam, romance scam statistics queensland, dating scam queensland 2026, valentines day scam australia, romance scam losses qld, online dating scam warning signs
+tags: Romance Scams|Australia|Statistics|News
+=== TLDR
+The Queensland Government said in **February 2026** that more than **850 Queenslanders** reported losing close to **$6 million** to dating and romance scams over a year, with about **a quarter in February** alone. In one February, **61 Queenslanders lost $1.4 million+**, about **four times NSW** ($296,000) and over **three times Victoria** ($380,000). People aged **55–64** were most likely to be scammed, with a **median loss of $7,000**.
+
+=== BODY
+## The numbers
+
+From the [Queensland Government statement](https://statements.qld.gov.au/statements/104455) (6 February 2026), using Scamwatch data:
+
+| Stat | Figure |
+|---|---|
+| Queenslanders reporting romance scam losses (year) | **850+** |
+| Total reported losses | **Close to $6 million** |
+| Share of losses in February | **About a quarter** |
+| Queensland, one February | **61 people, $1.4M+** |
+| NSW, same February | $296,000+ |
+| Victoria, same February | $380,000 |
+| Most-scammed age group | **55–64** |
+| Median loss per scam | **$7,000** |
+
+Top contact methods: **websites, emails and text messages**. And the government says victims likely **under-report** out of embarrassment.
+
+Why February? Valentine's Day. Scammers time the love-bombing to land when people are most hopeful. It's cynical, and it works.
+
+## Warning signs
+
+- Someone you've **never met in person** asks for **money**
+- The relationship **moves fast**
+- Pressure to **move to another messaging app**
+- **Investment** suggestions, often **cryptocurrency**
+- **Urgent** money requests
+- **Secrecy** and **isolation** from friends and family
+- Endless excuses for **not meeting or video chatting**
+
+If three or more of those sound familiar, step back and talk to someone you trust.
+
+## What to do
+
+1. **Stop sending money.** Don't send "one last payment" to unlock earlier ones.
+2. **Contact your bank** immediately.
+3. **Report** to police and **Scamwatch**.
+4. Get support from **IDCARE** (1800 595 160) if you shared personal info.
+
+## A quick reality check
+
+A reverse image search of their photos takes a minute. A video call takes five. Real partners pass both. Read our [[dating-and-romance-scams-red-flags|romance scam red flags]] and [[can-you-find-a-hidden-dating-profile-by-phone-or-email|how to check a dating profile]].
+
+More Australian cases: [[australia-wa-romance-scam-victims-climb-2025-3-8-million|WA romance scams]] and [[australia-consumer-affairs-victoria-romance-scams-surged-2025-women-lose-more|Victoria's 2025 surge]]. A free [[/digital-footprint-checker/|exposure check]] shows what personal data scammers could find on you.
+
+=== FAQ
+Q: How much did Queenslanders lose to romance scams?
+A: More than 850 Queenslanders reported losing close to $6 million in a year, per the Queensland Government.
+Q: Why are romance scam losses higher in February?
+A: About a quarter of Queensland's yearly losses happened in February, around Valentine's Day.
+Q: Who is most targeted by romance scams in Queensland?
+A: People aged 55 to 64, with a median reported loss of $7,000.
+Q: What should I do if I'm in a romance scam?
+A: Stop sending money, contact your bank, report to police and Scamwatch, and get support.
+
+=== SOURCES
+https://statements.qld.gov.au/statements/104455 | Queensland Government: Romance scam warning (6 Feb 2026)
+
+=== RELATED
+dating-and-romance-scams-red-flags | Romance Scam Red Flags
+australia-wa-romance-scam-victims-climb-2025-3-8-million | WA Romance Scam Victims 2025
+australia-consumer-affairs-victoria-romance-scams-surged-2025-women-lose-more | Victoria Romance Scams 2025
+dating-app-scam-statistics-2026 | Dating App Scam Statistics 2026
+can-you-find-a-hidden-dating-profile-by-phone-or-email | Check a Dating Profile

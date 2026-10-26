@@ -1,0 +1,73 @@
+slug: australia-hi-mum-scam-whatsapp
+country: AU
+title: The "Hi Mum" Scam: How It Works and the One Question That Beats It
+h1: The "Hi Mum" WhatsApp Scam: How It Works and How to Check It's Really Your Kid
+desc: "Hi Mum, I dropped my phone, this is my new number." Over 1,150 Australians lost $2.6M in seven months when the scam spiked. How it works and how to check in seconds.
+keywords: hi mum scam, hi mum whatsapp scam australia, new number scam text, family impersonation scam, hi dad scam, hi mum scam how to check
+tags: Impersonation|Australia|WhatsApp|What To Do
+=== TLDR
+"**Hi Mum, I dropped my phone, this is my new number.**" After some friendly chat, "your kid" needs money for a bill, a replacement phone or a contractor, and can't use their banking app. When the scam spiked in 2022, the ACCC said **more than 1,150 Australians** lost **$2.6 million** in seven months. **Women over 55** made over two-thirds of reports, and **over-55s** bore **95% of losses**. Beat it in seconds: **call the old number**.
+
+=== BODY
+## How it goes
+
+From the [ACCC's warning](https://www.accc.gov.au/media-release/accc-warning-of-suspicious-messages-as-hi-mum-scams-spike):
+
+1. A WhatsApp message from an **unknown number**: "Hi Mum" or "It's me."
+2. They say their phone was **lost or broken**, so this is a **new number**.
+3. A bit of chat to build rapport. Maybe a photo request.
+4. Then the ask: money for an **urgent bill**, a **contractor**, or a **new phone**.
+5. The excuse: they **can't access their online banking** right now.
+
+## Who it hits
+
+| Stat (Jan–Jul 2022) | Figure |
+|---|---|
+| Victims | 1,150+ |
+| Losses | $2.6 million |
+| Reports from women over 55 | Over two-thirds |
+| Share of losses from over-55s | 95% |
+
+The scam works because it's built on love, not greed. You're not chasing a prize. You're helping your kid. That's a much harder instinct to override.
+
+## The 30-second check
+
+- **Call the number already saved** in your phone. If your kid answers, mystery solved.
+- No answer? Try **another way**: a partner, sibling, flatmate, work.
+- Ask a **personal question** only they'd know (not "what's your birthday", which is in data breaches; try "what did we eat last Christmas?").
+- The ACCC's rule: **never send money unless you're absolutely sure** who it's going to.
+
+## A family code word
+
+Agree on a silly word or phrase with your family. If "you" text asking for money, the real you will know it. The scammer won't. It costs nothing and it's oddly fun.
+
+## If you've already paid
+
+1. **Call your bank immediately** and ask them to stop or recall the payment.
+2. Report to **Scamwatch**.
+3. If you shared personal info or photos, contact **IDCARE** on 1800 595 160.
+4. Don't feel stupid. These scams are built by professionals to beat good people.
+
+## Why they had your number
+
+Scammers often work through leaked phone numbers from breaches. A free [[/digital-footprint-checker/|exposure check]] shows where your number or email has appeared. AI voice cloning is the next step for this scam; read [[ai-voice-cloning-scam-calls-explained|how voice cloning scams work]].
+
+=== FAQ
+Q: What is the Hi Mum scam?
+A: A scammer messages pretending to be your child on a new number, then asks for money for an urgent bill or new phone.
+Q: How much have Australians lost to Hi Mum scams?
+A: The ACCC reported more than 1,150 victims lost $2.6 million in the first seven months of 2022.
+Q: How do I check if a Hi Mum message is real?
+A: Call your child on the number already saved in your phone, or contact them another way.
+Q: What should I do if I paid a Hi Mum scammer?
+A: Call your bank immediately, report it to Scamwatch and contact IDCARE if you shared personal information.
+
+=== SOURCES
+https://www.accc.gov.au/media-release/accc-warning-of-suspicious-messages-as-hi-mum-scams-spike | ACCC: Warning as "Hi Mum" scams spike
+
+=== RELATED
+ai-voice-cloning-scam-calls-explained | AI Voice Cloning Scams
+whatsapp-scams-how-to-spot-and-report | WhatsApp Scams
+what-is-grandparent-scams | Grandparent Scams
+australia-bank-code-read-back-scam | "Read Me the Code" Scams
+how-to-report-a-scam-to-scamwatch | How to Report to Scamwatch

@@ -1,0 +1,75 @@
+slug: australia-credit-ban-how-to-request
+country: AU
+title: How to Put a Credit Ban on Your Credit File in Australia
+h1: Credit Ban Australia: How to Freeze Your Credit File (21 Days, Extendable to 12 Months)
+desc: A credit ban stops lenders seeing your credit file without your consent, blocking new loans in your name. How to request one, extend it, and what it doesn't affect.
+keywords: credit ban australia, how to place a credit ban, credit ban equifax experian, freeze credit file australia, credit ban after data breach, credit ban extension 12 months
+tags: Identity Theft|Australia|Credit|How To
+=== TLDR
+A **credit ban** is Australia's version of a credit freeze. Credit reporting agencies can't share your credit file with lenders **without your written consent**, so a fraudster can't easily open credit in your name. It lasts **21 days** at first, and you can extend it to **12 months** if you're at risk of fraud. You can apply through **one agency and ask it to place bans with the others**. Existing cards and loans keep working.
+
+=== BODY
+## What a credit ban does
+
+According to [IDCARE](https://www.idcare.org/fact-sheets/credit-bans-australia), a ban "freezes" access to your credit file. Credit reporting agencies can't disclose your consumer credit information to credit providers without your **written consent**, unless the law requires it.
+
+Since most lenders check your file before approving credit, a ban makes it very hard for someone using your stolen details to get a loan, card or phone plan in your name.
+
+## What it doesn't affect
+
+- Your **existing** credit cards and loans keep working.
+- You can still **make repayments**.
+- **Exception:** if credit is due for renewal (say, a card expiring), the ban can get in the way.
+
+## How long it lasts
+
+| Stage | Length |
+|---|---|
+| Initial ban | **21 days** |
+| Extension | **12 months**, if you're a victim of or at risk of credit fraud |
+
+Apply for an extension **before the ban expires**, ideally at least **10 days** before. You may be asked for a police report number or a cyber.gov.au report number.
+
+## How to request one
+
+1. Go to one credit reporting agency's ban request page. **Equifax** has an online form (it emails you once the ban is in place); **Experian** has an online ban request form.
+2. **Ask that agency to place bans with the other agencies** too. IDCARE says one request can cover both.
+3. Keep the confirmation.
+4. Diary the end date, so you can extend if needed.
+
+## When to use one
+
+- Your **driver licence, passport or Medicare details** were in a breach (think [[was-i-affected-by-the-optus-data-breach|Optus]] or [[was-i-affected-by-the-latitude-financial-data-breach|Latitude]]).
+- Your **wallet or ID** was stolen.
+- You **gave ID to a scammer**.
+- You see **credit enquiries** you don't recognise ([[australia-free-credit-report-equifax-experian-illion|check your report]]).
+
+## Need credit while banned?
+
+You'll need to give written consent for a lender to access your file, or wait for the ban to end. Plan big applications (like a mortgage) around it.
+
+## Get help
+
+**IDCARE** offers free support on **1800 595 160** (Australia) or **0800 121 068** (NZ). See our [[australia-scamwatch-idcare-recovery-process|IDCARE recovery guide]].
+
+A free [[/digital-footprint-checker/|exposure check]] shows whether your email turns up in breach data, a good early warning sign.
+
+=== FAQ
+Q: How long does a credit ban last in Australia?
+A: An initial ban lasts 21 days. You can extend it to 12 months if you're a victim of or at risk of credit fraud.
+Q: Does a credit ban affect my existing credit cards?
+A: No. You can still use existing cards and repay loans, unless credit is due for renewal.
+Q: Do I need to contact every credit agency?
+A: IDCARE says you can apply through one agency and ask it to place bans with the others.
+Q: When should I extend my credit ban?
+A: Before it expires, ideally at least 10 days beforehand.
+
+=== SOURCES
+https://www.idcare.org/fact-sheets/credit-bans-australia | IDCARE: Credit bans in Australia
+
+=== RELATED
+australia-free-credit-report-equifax-experian-illion | Free Credit Reports in Australia
+australia-scamwatch-idcare-recovery-process | IDCARE Recovery Process
+australia-tax-file-number-stolen-what-to-do | TFN Stolen? What To Do
+credit-lock-vs-credit-freeze | Credit Lock vs Credit Freeze
+how-to-report-identity-theft-australia | Report Identity Theft in Australia

@@ -1,0 +1,71 @@
+slug: australia-bank-new-login-call-this-number-email-scam
+country: AU
+title: "New Login Detected, Call Us" Bank Emails: The Callback Scam
+h1: "New Login Detected, Call This Number": Why Bank Scam Emails Now Want You to Phone Them
+desc: Westpac, NAB and ANZ have all warned about emails claiming a new login, payment or direct debit, with a phone number to call. The number reaches scammers who push "safe account" transfers.
+keywords: new login detected scam email, bank callback scam australia, call this number scam email bank, safe account scam australia, direct debit scam email, nab westpac anz phone scam email
+tags: Bank Scams|Australia|Phone Scams|What To Do
+=== TLDR
+The newest bank scam emails don't have a link. They have a **phone number**. "**New login detected**", "**Automatic Payment Arrangement Now Active**", "**new direct debit set up**", "**unfamiliar charge on your card**": call us now. **Westpac**, **NAB** and **ANZ** have all warned about these in 2026. The number reaches a fake fraud team that talks you into moving money to a **"safe account"** or reading out codes. Never call a number from an email. Use the one on your card or app.
+
+=== BODY
+## The 2026 versions
+
+| Bank | Email claims | Source |
+|---|---|---|
+| **Westpac** (Oct 2026) | New login detected; call this number. Follow-up pushes a "safe" account transfer | [Westpac](https://www.westpac.com.au/security/latest-scams/) |
+| **NAB** (Sep 2026) | Profile used on a new device / suspicious activity; call this number | [NAB](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts) |
+| **NAB** (Sep 2026) | "Automatic Payment Arrangement Now Active"; call this number | NAB |
+| **NAB** (Aug 2026) | "Unfamiliar charge on your card"; call or click to approve | NAB |
+| **ANZ** (Feb 2026) | A new direct debit was set up; call this mobile number | [ANZ](https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html) |
+
+## Why phone numbers instead of links
+
+People have been told for years "don't click links." Fair enough. So scammers switched to **"call us"**. Email filters don't flag a phone number the way they flag a dodgy link, and a human voice is more persuasive than a web page.
+
+It's the scam equivalent of a shop that got banned from the mall opening a stall in the car park.
+
+## What happens on the call
+
+1. A calm "fraud specialist" confirms there's a problem.
+2. They may know your name, address or partial account number (thanks, data breaches).
+3. They ask you to **read out a code**, **install an app** for "security", or **move money to a safe account**.
+4. Your money goes to the scammer.
+
+## The rules that beat it
+
+- **Never call a number from an unexpected email or text.** Use the number on your card, in your app or on the bank's website.
+- **No bank uses "safe accounts."** Westpac and NAB both say they'll never ask you to move money to keep it safe.
+- **Never read out a code.** See [[australia-bank-code-read-back-scam|read-back code scams]].
+- **Never install remote access software** for a bank.
+
+## If you called and acted
+
+1. Hang up. Call your bank on the official number **immediately**.
+2. Ask them to stop or recall any payment.
+3. Change passwords from a different device.
+4. Report to Scamwatch and ReportCyber; contact IDCARE (1800 595 160).
+
+Forward the email to your bank's hoax address: [[australia-report-spam-sms-acma-0429-999-888|full list here]]. A free [[/digital-footprint-checker/|exposure check]] shows if breach data is why they knew your details.
+
+=== FAQ
+Q: Is a "new login detected" email from my bank real?
+A: Westpac and NAB have warned about fake "new login" emails that ask you to call a number. Call your bank on its official number instead.
+Q: What is a safe account scam?
+A: A scammer posing as your bank convinces you to move money to a "safe" account that they control. Banks don't do this.
+Q: Why do scam emails ask me to call instead of click?
+A: People are wary of links, and phone numbers are harder for filters to catch. A live caller can also pressure you more effectively.
+Q: What should I do if I called the number?
+A: Call your bank on its official number immediately, stop any payments, change passwords and report it.
+
+=== SOURCES
+https://www.westpac.com.au/security/latest-scams/ | Westpac: Latest scams
+https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scam alerts
+https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams
+
+=== RELATED
+australia-bank-code-read-back-scam | "Read Me the Code" Scams
+australia-westpac-scam-alerts-2026 | Westpac Scam Alerts 2026
+australia-nab-scam-alerts-2026 | NAB Scam Alerts 2026
+australia-fake-purchase-callback-scams-scamwatch-alert | Fake Purchase Callback Scams
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams

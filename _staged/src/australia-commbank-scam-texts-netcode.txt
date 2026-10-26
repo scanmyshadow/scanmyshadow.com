@@ -1,0 +1,70 @@
+slug: australia-commbank-scam-texts-netcode
+country: AU
+title: CommBank Scam Texts: NetCode, Digital Wallet and Remote Access Tricks
+h1: CommBank Scam Texts and Calls: NetCode Theft, Digital Wallet Fraud and How to Report
+desc: CommBank never texts or emails a link to log in or asks for your NetCode. How the digital wallet scam works, how CallerCheck verifies a real caller, and where to forward fakes.
+keywords: commbank scam text, commbank netcode scam, commbank hoax email, hoax@cba.com.au, commbank callercheck, commonwealth bank digital wallet scam
+tags: Bank Scams|Australia|Text Scams|What To Do
+=== TLDR
+CommBank says it **never** sends an SMS or email asking for your **NetBank client ID or password**, **never** asks you to share a **NetCode**, and **never** includes a **link to log in** directly. Watch for the **digital wallet scam**, where someone gets your card details and NetCode and adds your card to **their** phone. Not sure a caller is real? Ask them to use **CallerCheck** in the CommBank app. Forward fakes to **hoax@cba.com.au**.
+
+=== BODY
+## What CommBank never does
+
+From [CommBank's report hoaxes page](https://www.commbank.com.au/security-privacy/report-hoaxes.html):
+
+- Send an SMS or email asking for your **NetBank client ID or password**
+- Ask you to **share a NetCode**
+- Include a **link** in an SMS or email to **log in directly**
+
+Type **commbank.com.au** yourself or open the **CommBank app** instead.
+
+## The three scams CommBank flags
+
+**1. SMS and email phishing.** Messages link to fake sites or ask for personal info.
+
+**2. Digital wallet scams.** This one's sneaky. Scammers trick you into sharing your **card details and NetCode**, then use them to **add your card to a digital wallet on their phone**. From then on, they tap and pay with your card, no physical card needed. The NetCode is the final lock, and you're the one being asked to open it.
+
+**3. Remote access scams.** A caller claims to be from a well-known company and wants access to your device or accounts.
+
+## CallerCheck: verify a real caller
+
+If someone calls saying they're from CommBank, you can ask them to use **CallerCheck** in the CommBank app. A real CommBank staff member can send a check to your app. If they can't or won't, hang up.
+
+## How to report
+
+1. **Forward** the suspicious SMS or email to **hoax@cba.com.au**.
+2. Or use **"Report an email or SMS"** to send a copy or screenshot.
+3. **Delete** the message.
+4. Also forward scam texts to ACMA on **0429 999 888** ([[australia-report-spam-sms-acma-0429-999-888|guide]]).
+
+## If you clicked or shared a NetCode
+
+- Contact CommBank straight away through the app's **Message us** or the official contact page.
+- Change your NetBank password.
+- Check for unfamiliar digital wallet devices or transactions.
+- Report to Scamwatch; get help from IDCARE (1800 595 160).
+
+## The bigger lesson
+
+A code that arrives on your phone is for **you** to use, never to tell someone else. That's true for every bank, and for food delivery apps too. Our [[australia-bank-code-read-back-scam|read-back code guide]] covers it. A free [[/digital-footprint-checker/|exposure check]] shows if your details are in the breaches scammers use.
+
+=== FAQ
+Q: Does CommBank send texts with links to log in?
+A: No. CommBank says it never includes a link in an SMS or email to log in directly.
+Q: Will CommBank ask for my NetCode?
+A: No. CommBank says it never asks you to share a NetCode.
+Q: How do I report a CommBank scam text?
+A: Forward it to hoax@cba.com.au, then delete it.
+Q: What is CommBank CallerCheck?
+A: A feature that lets a real CommBank caller verify themselves through your CommBank app.
+
+=== SOURCES
+https://www.commbank.com.au/security-privacy/report-hoaxes.html | CommBank: Report hoaxes and common scams
+
+=== RELATED
+australia-bank-code-read-back-scam | "Read Me the Code" Scams
+australia-anz-scam-alerts-2026 | ANZ Scam Alerts 2026
+australia-westpac-scam-alerts-2026 | Westpac Scam Alerts 2026
+australia-nab-scam-alerts-2026 | NAB Scam Alerts 2026
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams

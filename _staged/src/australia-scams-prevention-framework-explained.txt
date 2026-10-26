@@ -1,0 +1,77 @@
+slug: australia-scams-prevention-framework-explained
+country: AU
+title: Australia's Scams Prevention Framework: What It Means for You
+h1: The Scams Prevention Framework Explained: New Duties for Banks, Telcos and Platforms
+desc: Passed in February 2025, the SPF makes banks, telcos and social platforms prevent, detect, disrupt and respond to scams, with fines up to ~$52.7M. No automatic refunds, though.
+keywords: scams prevention framework australia, spf act 2025, scams prevention framework explained, bank scam compensation australia, afca scam complaint, scam laws australia
+tags: Scam Laws|Australia|Explainer|Banking
+=== TLDR
+Federal Parliament passed the **Scams Prevention Framework (SPF)** on **13 February 2025**. It puts legal duties on businesses expected to be designated first: **banks, telcos and digital platforms** (social media, paid search ads, messaging). They must **prevent, detect, report, disrupt and respond** to scams. Penalties go up to about **$52.7 million**. But unlike the UK, there's **no mandatory reimbursement**; instead you get internal complaints, a single external scheme (likely **AFCA**) and the right to sue.
+
+=== BODY
+## The basics
+
+From [Bird & Bird's explainer](https://www.twobirds.com/en/insights/2025/australia/explainer-australias-new-scam-prevention-framework):
+
+- **Passed:** 13 February 2025, and has Royal Assent.
+- **Lead regulator:** the **ACCC**.
+- **Sector codes:** **ASIC** enforces the banking code; **ACMA** the telco code.
+- **First sectors expected:** telecommunications, banking, and digital platforms (social media, paid search advertising, direct messaging). Designation still needs confirming.
+
+## The six principles
+
+| Principle | What businesses must do |
+|---|---|
+| **Governance** | Written anti-scam policies, reviewed and certified yearly |
+| **Prevent** | Reasonable steps to stop scams |
+| **Detect** | Investigate scam intelligence; identify affected customers |
+| **Report** | Share actionable scam intelligence with the ACCC |
+| **Disrupt** | Act to stop scams and losses (with legal protection for good-faith action) |
+| **Respond** | Easy scam reporting for customers, plus internal dispute resolution |
+
+## Penalties
+
+- **Tier 1** (prevent, detect, disrupt, respond): up to the greater of about **$52.7 million**, three times the benefit, or **30% of adjusted turnover**.
+- **Tier 2** (codes, governance, reporting): up to about **$10.5 million**, three times the benefit, or 10% of turnover.
+
+## What it means if you're scammed
+
+Here's the honest part. **There's no automatic refund.** The UK made banks reimburse most push-payment scam victims; Australia chose a different path:
+
+1. Complain to the business through its **internal dispute resolution**.
+2. Escalate to a **single external dispute resolution scheme**, expected to be **AFCA**.
+3. You (or a regulator on your behalf) can **sue** a business that broke its SPF obligations to recover losses.
+
+So the framework gives you leverage: if your bank ignored obvious red flags, or a platform kept running a reported scam ad, that's now a legal failing, not just bad manners.
+
+## What's still to come
+
+The government still has to confirm designated sectors, consult on sector codes, and make the SPF Rules. Start dates for specific obligations depend on that.
+
+## What to do in the meantime
+
+- Use bank tools like [[australia-confirmation-of-payee-explained|Confirmation of Payee]].
+- Report scams fast: your bank first, then Scamwatch ([[how-to-report-a-scam-to-scamwatch|how]]).
+- Keep records of every report you make, which matters for later complaints.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in the breach data scammers use.
+
+=== FAQ
+Q: When was the Scams Prevention Framework passed?
+A: Federal Parliament passed it on 13 February 2025.
+Q: Does the Scams Prevention Framework make banks refund scam victims?
+A: No. Australia did not adopt mandatory reimbursement. Victims can use internal complaints, external dispute resolution and court action.
+Q: Which businesses does the SPF cover?
+A: Banks, telcos and digital platforms are expected to be designated first.
+Q: What are the penalties under the SPF?
+A: Up to about $52.7 million, three times the benefit, or 30% of adjusted turnover for the most serious breaches.
+
+=== SOURCES
+https://www.twobirds.com/en/insights/2025/australia/explainer-australias-new-scam-prevention-framework | Bird & Bird: Explainer, Australia's new Scam Prevention Framework
+
+=== RELATED
+australia-confirmation-of-payee-explained | Confirmation of Payee Explained
+how-to-report-a-scam-to-scamwatch | How to Report to Scamwatch
+australia-scams-2025-national-anti-scam-centre-data | Australian Scam Data 2025
+uk-action-fraud-crm-reimbursement-code | UK Scam Reimbursement
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams

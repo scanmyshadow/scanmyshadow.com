@@ -1,0 +1,64 @@
+slug: australia-telstra-silent-numbers-white-pages-breach
+country: AU
+title: Telstra Published 24,000 Silent Numbers in the White Pages
+h1: Telstra's Silent Number Breach: 140,000 Unlisted Customers Exposed, 24,000 in the White Pages
+desc: ACMA found Telstra disclosed details of more than 140,000 unlisted customers between 2021 and 2022, including 24,000+ silent numbers with names and addresses in the White Pages.
+keywords: telstra silent number breach, telstra unlisted numbers white pages, acma telstra privacy breach, silent number published, telstra directory breach, unlisted number leaked
+tags: Data Breaches|Australia|Telco|Privacy
+=== TLDR
+Between **2021 and 2022**, Telstra disclosed details of **more than 140,000** customers who'd asked for **unlisted or silent numbers**. More than **24,000** silent numbers appeared **with names and addresses in the White Pages**, and **139,402** unlisted numbers went into the directory assistance database operators use. ACMA found **163,000+** breaches of Telstra's licence conditions and ordered audits, training and twice-yearly data checks. For people who chose silent numbers for safety, this was serious.
+
+=== BODY
+## What happened
+
+From [The Canberra Times](https://www.canberratimes.com.au/story/8690789/telstra-put-silent-numbers-addresses-in-phone-book/) (July 2024):
+
+- Telstra disclosed details of customers who had requested **silent or unlisted** numbers.
+- **24,000+** silent numbers were **published with names and addresses** in the **White Pages**.
+- **139,402** unlisted numbers were published in the **directory assistance database**.
+- Telstra blamed **systems issues and process failures** and reported itself to the regulator.
+
+## What ACMA did
+
+- Found Telstra **breached its carrier licence conditions on more than 163,000 occasions**.
+- Said the breach put **privacy and safety at risk**, though it wasn't aware of resulting harm.
+- Required Telstra to **reconcile customer data** between the White Pages and its own database **every six months**, run **staff training**, and get an **independent audit**.
+- No fine was reported. If Telstra doesn't comply, ACMA could go to court, where penalties could run into millions.
+
+## Why it matters
+
+People ask for silent numbers for real reasons: escaping family violence, stalking, harassment, sensitive jobs. A silent number showing up in the phone book is the opposite of what they paid attention to set up.
+
+It's like putting up a "do not disturb" sign and having it printed in the local paper with your address.
+
+## What to do if you rely on a silent number
+
+1. **Check the White Pages** yourself for your name and address.
+2. **Confirm your listing status** in My Telstra ([[australia-white-pages-remove-number-unlisted|how]]).
+3. If your safety depends on it, also become a [[australia-silent-elector-how-to-hide-address|silent elector]].
+4. If you were affected, you can complain to Telstra and then the telco ombudsman or OAIC ([[australia-oaic-complaint-how-to|how]]).
+5. Serious invasions of privacy may now also be actionable under the [[australia-privacy-statutory-tort-explained|privacy tort]].
+
+## Check everything else that's out there
+
+Phone directories are just one source. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email appears in.
+
+=== FAQ
+Q: Did Telstra publish silent numbers?
+A: Yes. ACMA found more than 24,000 silent numbers were published with names and addresses in the White Pages between 2021 and 2022.
+Q: How many Telstra customers were affected?
+A: More than 140,000 customers with unlisted numbers had their details disclosed.
+Q: Was Telstra fined for the silent number breach?
+A: No fine was reported. ACMA required data reconciliation, staff training and an independent audit.
+Q: What should I do if I have a silent number?
+A: Check the White Pages, confirm your listing status and consider silent elector enrolment if your safety depends on it.
+
+=== SOURCES
+https://www.canberratimes.com.au/story/8690789/telstra-put-silent-numbers-addresses-in-phone-book/ | The Canberra Times: Telstra put silent numbers and addresses in phone book
+
+=== RELATED
+australia-white-pages-remove-number-unlisted | Remove Your Number From White Pages
+australia-silent-elector-how-to-hide-address | Silent Elector Enrolment
+telstra-scam-what-to-know | Telstra Scams
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+australia-privacy-statutory-tort-explained | Australia's Privacy Tort

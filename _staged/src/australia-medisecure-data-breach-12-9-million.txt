@@ -1,0 +1,70 @@
+slug: australia-medisecure-data-breach-12-9-million
+country: AU
+title: MediSecure Data Breach: 12.9 Million Australians, Medicare Details
+h1: MediSecure Data Breach: 12.9 Million Australians' Prescription and Medicare Details
+desc: The MediSecure breach exposed prescription information and Medicare card details for about 12.9 million people. What it means, what doesn't need replacing, and what to do.
+keywords: medisecure data breach, medisecure breach 12.9 million, medisecure medicare card, was i affected by medisecure, medisecure what to do, prescription data breach australia
+tags: Data Breaches|Australia|Health|What To Do
+=== TLDR
+The **MediSecure** breach (disclosed **May 2024**) affected about **12.9 million** people. Exposed: **personal and health information relating to prescriptions** distributed through MediSecure's systems up to **November 2023**, plus **Medicare card details** (numbers, individual identifiers, expiry dates). MediSecure later went into administration. Your Medicare account **can't be accessed with card details alone**, and you don't need to act on concession cards. Your biggest risk is health-themed scam calls.
+
+=== BODY
+## What happened
+
+MediSecure, an electronic prescription delivery service, told the government about **12.9 million** people may be affected. It's one of the largest breaches in Australian history ([Reuters factbox](https://www.thestar.com.my/tech/tech-news/2026/09/24/factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia)), and the company later went into administration.
+
+## What was exposed
+
+According to [ID Support NSW](https://www.nsw.gov.au/id-support-nsw/learn/data-breaches/data-breach-announcements/medisecure-data-breach):
+
+- **Personal and health information relating to prescriptions** distributed by MediSecure up to **November 2023**;
+- **Medicare card details**: numbers, individual identifiers and expiry dates;
+- healthcare provider information.
+
+The current national prescription delivery service **wasn't** affected. Paper and e-scripts work as normal.
+
+## What you don't need to worry about
+
+- Services Australia says you **don't need to act** on Pensioner Concession, Health Care or Commonwealth Seniors Health cards.
+- Your **Medicare online account can't be accessed with card details alone**.
+
+## What you should watch for
+
+Scammers love health data because it sounds personal. Expect:
+
+- calls "from your pharmacy" or "from Medicare" mentioning a medication;
+- "compensation for the MediSecure breach" offers;
+- fake insurer calls about a claim.
+
+**Hang up and call back** on a number you find yourself.
+
+## What to do
+
+1. **Report misuse** to ReportCyber at cyber.gov.au.
+2. Turn on **multi-factor authentication** for myGov and email.
+3. Use **strong, unique passphrases**.
+4. **NSW residents:** ID Support NSW offers free help on **1800 001 040**.
+5. Elsewhere: **IDCARE** on **1800 595 160**.
+
+Health data stays sensitive for life, so this is one to remember. See also [[was-i-affected-by-the-medibank-data-breach|Medibank]] and [[australia-genea-ivf-data-breach|Genea]]. A free [[/digital-footprint-checker/|exposure check]] shows the breaches tied to your email.
+
+=== FAQ
+Q: How many people were affected by the MediSecure breach?
+A: About 12.9 million people, according to MediSecure.
+Q: Was my Medicare card number exposed?
+A: Medicare card details, including numbers, individual identifiers and expiry dates, were exposed for affected people.
+Q: Can someone access my Medicare account with my card number?
+A: No. Services Australia says the Medicare account can't be accessed with card details alone.
+Q: Do I need to replace my concession card?
+A: No. Services Australia says no action is needed on concession or Commonwealth Seniors cards.
+
+=== SOURCES
+https://www.nsw.gov.au/id-support-nsw/learn/data-breaches/data-breach-announcements/medisecure-data-breach | ID Support NSW: MediSecure data breach
+https://www.thestar.com.my/tech/tech-news/2026/09/24/factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia | Reuters factbox via The Star: Major Australian data breaches
+
+=== RELATED
+was-i-affected-by-the-medibank-data-breach | Medibank Data Breach
+australia-genea-ivf-data-breach | Genea IVF Data Breach
+medicare-card-scam-calls-what-to-do | Medicare Scam Calls
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+australia-scamwatch-idcare-recovery-process | IDCARE Recovery Process

@@ -1,0 +1,72 @@
+slug: australia-nab-scam-alerts-2026
+country: AU
+title: NAB Scam Alerts 2026: Fake Device Logins, Payment Notices and More
+h1: NAB Scam Alerts 2026: Fake Login Emails, "Automatic Payment" Notices and Audit Scams
+desc: NAB's 2026 alerts include fake new-device login emails, "Automatic Payment Arrangement Now Active" notices, fake audits and rewards texts. Report to phish@nab.com.au or 0476 220 003.
+keywords: nab scam email, nab scam text 2026, nab automatic payment arrangement scam, nab new device login scam, phish@nab.com.au, report scam nab
+tags: Bank Scams|Australia|Email Scams|What To Do
+=== TLDR
+NAB's 2026 alerts: emails about a **new device login** or **suspicious activity** asking you to call a number (September); **"Automatic Payment Arrangement Now Active"** emails (September); **fake audit** emails asking businesses for invoices (September); **"Unfamiliar charge on your card"** notices (August); **Rewards points** texts (June); and fake **"NAB Security Team"** emails (April). NAB says it **never** texts links unexpectedly or asks for your PIN. Report emails to **phish@nab.com.au** and texts to **0476 220 003**.
+
+=== BODY
+## NAB's 2026 scam list
+
+From [NAB's latest alerts](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts):
+
+| When | Scam |
+|---|---|
+| Sep 2026 | Emails claiming your NAB profile was used on a **new device** or there was **suspicious activity**; asks you to call a number |
+| Sep 2026 | **"Automatic Payment Arrangement Now Active"** emails saying a new payment was set up; call this number |
+| Sep 2026 | **Fake audit emails** to businesses requesting invoices for a "credit review", sometimes posing as a forwarded email from a NAB banker |
+| Aug 2026 | **"Account Payment Notice"** or **"Unfamiliar charge on your card"** emails with a call number or approval link |
+| Jul 2026 | **Origin Energy breach** raises targeted phishing risk (NAB not affected) |
+| Jun 2026 | **Fake online gambling sites** using changing PayIDs and referral bonuses |
+| Jun 2026 | **Rewards Points** texts and emails linking to fake NAB sites |
+| Apr 2026 | Fake **"NAB Security Team"** emails referencing a fake transaction |
+| Jan 2026 | **Investment scams** impersonating nabtrade's Tom Piotrowski and others |
+
+Notice how many say "call this number"? Scammers learned people won't click links anymore, so they make you dial instead. Same scam, new door. More in our guide to [[australia-bank-new-login-call-this-number-email-scam|"call this number" bank emails]].
+
+## What NAB never does
+
+- Send an **email or text asking for personal information**
+- Ask for your **card PIN** or full card details, or ask you to **leave your card out** for collection
+- Ask you to **withdraw cash** so it can be "checked"
+- Ask you to **transfer money** to keep it safe
+- Ask you to **download programs** from its site
+- Send **unexpected texts containing links**
+
+## How NAB is fighting back
+
+NAB says it stopped or recovered more than **$48 million** heading to scammers between **October 2024 and March 2025**, almost **$2 million a week**. Customers **abandoned $195 million** in payments after real-time scam alerts. NAB has also **removed links from its text messages** and blocks payments to some high-risk crypto exchanges ([NAB](https://www.nab.com.au/news/technology-ai/nab-scam-stop-and-recover)).
+
+## How to report
+
+- **Emails:** forward to **phish@nab.com.au**, then delete.
+- **Texts:** forward to **0476 220 003**.
+- **Phone:** **13 22 65** (option 3), or +61 3 8641 9083 from overseas.
+- **App:** search "Contact us" → **Fraud and Scams**.
+- **Money sent?** Call 13 22 65 immediately or visit a branch.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data.
+
+=== FAQ
+Q: Is the NAB "Automatic Payment Arrangement Now Active" email real?
+A: NAB warned in September 2026 that these emails are scams. Don't call the number or click links.
+Q: How do I report a NAB scam text?
+A: Forward it to 0476 220 003. Forward emails to phish@nab.com.au.
+Q: Does NAB send text messages with links?
+A: NAB says it will never send unexpected texts containing links, and has removed links from its text messages.
+Q: What's NAB's fraud phone number?
+A: 13 22 65, option 3, or +61 3 8641 9083 from overseas.
+
+=== SOURCES
+https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scams, fraud and phishing activity
+https://www.nab.com.au/news/technology-ai/nab-scam-stop-and-recover | NAB: NAB stops and recovers more than $48 million in suspected scams
+
+=== RELATED
+australia-bank-new-login-call-this-number-email-scam | "New Login, Call This Number" Scams
+australia-westpac-scam-alerts-2026 | Westpac Scam Alerts 2026
+australia-bank-rewards-points-expiring-sms-scam | Rewards Points Expiring Scams
+scam-online-casino-websites-australia | Scam Online Casino Sites
+australia-origin-energy-data-breach-900000 | Origin Energy Data Breach

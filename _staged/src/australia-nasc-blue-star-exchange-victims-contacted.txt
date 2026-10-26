@@ -1,0 +1,71 @@
+slug: australia-nasc-blue-star-exchange-victims-contacted
+country: AU
+title: Got an Email From the National Anti-Scam Centre? How to Tell It's Real
+h1: The National Anti-Scam Centre Emailed 1,500 Victims After a Money Laundering Case: Real or Fake?
+desc: In June 2026 the NASC emailed about 1,500 victims after the Blue Star Exchange director was prosecuted for money laundering. How genuine NASC contact works and how fake "recovery" scams copy it.
+keywords: national anti-scam centre email real, nasc contacted me, blue star exchange money laundering, scam recovery email australia, nasc victim contact, fake scam recovery australia
+tags: Scam Recovery|Australia|Scamwatch|News
+=== TLDR
+On **23 June 2026**, the **National Anti-Scam Centre (NASC)** emailed about **1,500 victims** after the director of **Blue Star Exchange Pty Ltd** was successfully prosecuted for **money laundering** following an **AFP** investigation. The AFP had obtained victims' contact details during the case. Genuine NASC contact exists, but the NASC says it will **never** text you **a number to call, links or attachments**. Fake "scam recovery" contacts are common, so verify everything.
+
+=== BODY
+## What happened
+
+From [Scamwatch](https://www.scamwatch.gov.au/about-us/news-and-alerts/national-anti-scam-centre-contacted-victims-following-successful-money-laundering-prosecution):
+
+- The **AFP** investigated, and the director of **Blue Star Exchange Pty Ltd** was **successfully prosecuted for money laundering**.
+- The AFP obtained victims' **contact details** during the investigation and passed them to the NASC.
+- The NASC emailed around **1,500 victims** on 23 June 2026.
+
+This follows a similar effort where the [[australia-nasc-warns-10000-after-uk-crypto-wallet-investigation|NASC contacted more than 10,000 Australians]] after an international crypto investigation.
+
+## How to tell real NASC contact from fake
+
+The NASC says it **will never send you a text message with a number to call, or with links or attachments**.
+
+Scammers know victims are desperate to recover money, and they copy official agencies. Fake "recovery" contacts often:
+
+- say they can **get your money back**, for a **fee**;
+- ask for **ID documents** or **bank details** to "release funds";
+- pressure you with **deadlines**;
+- claim to be from the AFP, NASC, ASIC or a "recovery firm."
+
+**Government agencies don't charge you to recover scam losses.** That one rule kills most recovery scams.
+
+## Stop, Check, Protect
+
+- **Stop:** pause before giving money or personal information.
+- **Check:** contact the organisation using details **you find yourself**, like scamwatch.gov.au.
+- **Protect:** if you think you've been scammed, contact your bank and report to **ReportCyber**.
+
+## Why victims get targeted twice
+
+Victim lists are valuable. Once you've lost money, scammers may sell or reuse your details for a "second wave." We wrote about the same pattern in Canada: [[canada-fake-cafc-recovery-scam-54-million|fake CAFC recovery scams]].
+
+## If you were a victim
+
+- Keep records of your original loss and reports.
+- Get free support from **IDCARE** (1800 595 160).
+- See our [[australia-scamwatch-idcare-recovery-process|recovery process guide]].
+
+A free [[/digital-footprint-checker/|exposure check]] shows what's already out there about you.
+
+=== FAQ
+Q: Does the National Anti-Scam Centre contact scam victims?
+A: Yes. In June 2026 it emailed about 1,500 victims after a money laundering prosecution, using details the AFP obtained.
+Q: Will the NASC send me a text with a number to call?
+A: No. The NASC says it will never send a text with a number to call, links or attachments.
+Q: Who was prosecuted in the Blue Star Exchange case?
+A: The director of Blue Star Exchange Pty Ltd was successfully prosecuted for money laundering after an AFP investigation.
+Q: Do I have to pay to get scam money back?
+A: Government agencies don't charge to recover scam losses. Anyone asking for a fee is likely a scammer.
+
+=== SOURCES
+https://www.scamwatch.gov.au/about-us/news-and-alerts/national-anti-scam-centre-contacted-victims-following-successful-money-laundering-prosecution | Scamwatch: NASC contacted victims following money laundering prosecution (23 June 2026)
+
+=== RELATED
+australia-nasc-warns-10000-after-uk-crypto-wallet-investigation | NASC Contacts 10,000 Australians
+canada-fake-cafc-recovery-scam-54-million | Fake Scam Recovery (Canada)
+australia-scamwatch-idcare-recovery-process | IDCARE Recovery Process
+investment-trading-app-scam-recovery | Investment Scam Recovery
+how-to-report-a-scam-to-scamwatch | How to Report to Scamwatch

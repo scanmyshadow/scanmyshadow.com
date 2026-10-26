@@ -1,0 +1,69 @@
+slug: australia-digital-id-myid-explained
+country: AU
+title: Digital ID and myID Explained: Is It Safe, and Do You Have to Use It?
+h1: Australia's Digital ID and myID Explained: Voluntary, Privacy Rules and Scam Risks
+desc: The Digital ID Act 2024 started 1 December 2024. Digital ID is voluntary, bans single identifiers and marketing use, and limits biometrics. What myID is and how to use it safely.
+keywords: digital id australia explained, myid explained, digital id act 2024, is digital id mandatory australia, mygovid myid, digital id privacy australia
+tags: Digital Identity|Australia|Privacy|Explainer
+=== TLDR
+The **Digital ID Act 2024** took effect on **1 December 2024**. **Digital ID is voluntary**: a service generally can't make you use it. Accredited providers face privacy rules stricter than the Privacy Act, including bans on **single identifiers** and on using your data for **marketing**, plus limits on **biometrics**. **myID** (formerly myGovID) is the government's provider. It's also one of the best ways to secure myGov, as long as you never approve a sign-in you didn't start.
+
+=== BODY
+## The key facts
+
+From the [government's Digital ID Act factsheet](https://digitalidsystem.gov.au/sites/default/files/2024-11/factsheet_digital_id_act_2024_-_19112024.pdf):
+
+| Point | Detail |
+|---|---|
+| **Start date** | 1 December 2024 |
+| **Voluntary?** | Yes. An entity can't require a Digital ID to provide a service |
+| **Privacy rules** | Stronger than the Privacy Act for accredited entities |
+| **Banned** | Single identifiers across services; using info for marketing |
+| **Limited** | Handling of biometric and other personal information |
+| **Government provider** | **myID**, part of the Australian Government Digital ID System |
+| **Private sector** | System set to expand to private providers within two years |
+| **Regulator** | ACCC initially; Information Commissioner for privacy |
+
+## What myID is
+
+**myID** is an app that proves who you are online, used to sign in to government services like myGov. (It used to be called **myGovID**.) You verify your identity once with documents, then approve sign-ins on your phone.
+
+## Is it safe?
+
+The design is privacy-focused: no single ID number tracking you everywhere, and no marketing use. The bigger risk is **you being tricked**:
+
+- **Never approve a sign-in request you didn't start.** If a code or prompt appears and you weren't logging in, someone else is.
+- **Never share your myID code** with a caller. See [[australia-bank-code-read-back-scam|read-back code scams]].
+- **Ignore texts or emails** with "verify your Digital ID" links.
+
+## Why it helps protect myGov
+
+myGov recommends setting up **Digital ID or passkeys** and **turning off your password**, which makes phishing much harder ([[australia-mygov-account-compromised-what-to-do|myGov security steps]]). The ATO also suggests a **Strong myID** to protect tax accounts after identity theft ([[australia-tax-file-number-stolen-what-to-do|TFN guide]]).
+
+## The concerns people raise
+
+Some critics worry Digital ID could become effectively mandatory over time, or create a single point of failure. The Act's voluntary rule and privacy bans are the main safeguards. You can still use other ways to access services.
+
+## Your digital footprint
+
+Digital ID protects how you log in. It doesn't clean up what's already leaked. A free [[/digital-footprint-checker/|exposure check]] shows where your email has been exposed.
+
+=== FAQ
+Q: Is Digital ID mandatory in Australia?
+A: No. The Digital ID Act 2024 says creating and using a Digital ID is voluntary, and an entity generally can't require one.
+Q: When did the Digital ID Act start?
+A: 1 December 2024.
+Q: What is myID?
+A: The Australian Government's Digital ID provider, formerly called myGovID, used to sign in to government services.
+Q: Can my Digital ID data be used for marketing?
+A: No. The Act bans accredited entities from using information for marketing.
+
+=== SOURCES
+https://digitalidsystem.gov.au/sites/default/files/2024-11/factsheet_digital_id_act_2024_-_19112024.pdf | Australian Government: Digital ID Act 2024 factsheet
+
+=== RELATED
+australia-mygov-account-compromised-what-to-do | myGov Account Compromised
+australia-tax-file-number-stolen-what-to-do | TFN Stolen? What To Do
+setting-up-passkeys-and-authenticator | Setting Up Passkeys
+australia-bank-code-read-back-scam | "Read Me the Code" Scams
+australia-fake-mygov-secure-message-email-licence-harvest | Fake myGov Secure Message Emails

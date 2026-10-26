@@ -1,0 +1,78 @@
+slug: australia-bank-rewards-points-expiring-sms-scam
+country: AU
+title: "Your Rewards Points Are Expiring" Texts: The Bank Scam Hitting ANZ, NAB, Westpac
+h1: "Your Rewards Points Expire Today": The SMS Scam Hitting ANZ, NAB and Westpac Customers
+desc: Fake texts say your bank rewards points are about to expire and link to a "redeem" page that steals your login and card. All three major banks have warned about it.
+keywords: rewards points expiring scam, anz rewards sms scam, nab rewards points scam, westpac rewards text scam, points expiring text scam australia, redeem points scam
+tags: Bank Scams|Australia|Text Scams|What To Do
+=== TLDR
+A text says your **bank rewards points are about to expire** and gives a **"redeem" link**. The site looks like your bank and asks for your **login, card number or PIN**. **ANZ** (November 2025 and January 2026), **Westpac** (March 2026) and **NAB** (June 2026) have all warned about it. Banks say they don't send unexpected texts with login links. Check points only in your banking app.
+
+=== BODY
+## Three banks, one scam
+
+| Bank | Warning | Source |
+|---|---|---|
+| **ANZ** | Rewards SMS: points expiring, link to fake redemption page (Nov 2025, Jan 2026) | [ANZ](https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html) |
+| **Westpac** | Rewards SMS: points about to expire, "redeem" link to fake site (Mar 2026) | [Westpac](https://www.westpac.com.au/security/latest-scams/) |
+| **NAB** | Rewards points texts and emails linking to fake NAB sites asking for login, card or PIN (Jun 2026) | [NAB](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts) |
+
+When a scam gets warnings from three of the big four, it's not a one-off. It's a product line.
+
+## Why it works
+
+- **Loss aversion.** "Use it or lose it" hits harder than "you've won something."
+- **Real programs.** People do have points, often more than they remember.
+- **Small ask.** "Just log in to redeem" feels routine.
+- **Not your money... yet.** It feels low-risk, so guards drop.
+
+## What the fake site wants
+
+- your **internet banking login**;
+- your **card number** and sometimes **PIN**;
+- a **one-time code** to "confirm" redemption.
+
+With those, they can log in, add payees or set up a digital wallet.
+
+## How to check your points safely
+
+Open your **banking app** or type your bank's address yourself. Points that are really expiring will show there. If the app says nothing, the text was lying.
+
+## What banks say they never do
+
+- **ANZ:** never asks you to click a link to log in.
+- **Westpac:** never asks you to verify your identity by clicking a link in an SMS.
+- **NAB:** never sends unexpected texts with links.
+
+## If you clicked and entered details
+
+1. **Call your bank now** using the number on its website or card.
+2. Change your banking password from another device.
+3. Ask the bank to check for new payees, devices or wallets.
+4. Report the text to your bank and ACMA (**0429 999 888**). See [[australia-report-spam-sms-acma-0429-999-888|reporting guide]].
+
+## Same scam, other places
+
+Airline and retail points get targeted too. See [[canada-loyalty-points-theft-pc-optimum-aeroplan|loyalty points theft]] and [[was-i-affected-by-the-qantas-data-breach|the Qantas breach]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number is in breach data.
+
+=== FAQ
+Q: Is the "rewards points expiring" text from my bank real?
+A: ANZ, Westpac and NAB have all warned about scam texts claiming rewards points are expiring. Check your points in your banking app instead.
+Q: What happens if I click the rewards points link?
+A: It leads to a fake site that asks for your login, card number or PIN.
+Q: Do Australian banks send text messages with login links?
+A: ANZ, Westpac and NAB all say they don't ask you to log in or verify identity via links in texts.
+Q: Where do I report a rewards points scam text?
+A: Forward it to your bank's reporting number or address and to ACMA on 0429 999 888.
+
+=== SOURCES
+https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams
+https://www.westpac.com.au/security/latest-scams/ | Westpac: Latest scams
+https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scam alerts
+
+=== RELATED
+australia-anz-scam-alerts-2026 | ANZ Scam Alerts 2026
+australia-westpac-scam-alerts-2026 | Westpac Scam Alerts 2026
+australia-nab-scam-alerts-2026 | NAB Scam Alerts 2026
+australia-report-spam-sms-acma-0429-999-888 | Report Scam Texts in Australia
+what-is-smishing | What Is Smishing?

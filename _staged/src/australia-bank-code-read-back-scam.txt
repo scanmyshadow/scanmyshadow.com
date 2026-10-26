@@ -1,0 +1,75 @@
+slug: australia-bank-code-read-back-scam
+country: AU
+title: "Just Read Me the Code": Why Your Bank Will Never Ask
+h1: The "Read Me the Code" Scam: Why No Bank Will Ever Ask for Your One-Time Code
+desc: ANZ warned of "Advisor Verification" calls where the scammer asks you to read back a code. ANZ, Westpac, NAB and CommBank all say they never ask for codes. Here's why it matters.
+keywords: bank asks for verification code scam, read back code scam, advisor verification scam anz, one time passcode scam australia, netcode scam, security code scam call
+tags: Bank Scams|Australia|Phone Scams|What To Do
+=== TLDR
+A caller says they're from your bank and need to "verify" you. A code arrives by SMS or email. They ask you to **read it back**. That code is usually the key to **something they're doing in your account**: a login, a new payee, a digital wallet, a transfer. **ANZ** warned of this exact "**Advisor Verification**" scam in February 2026. **ANZ, Westpac, NAB and CommBank** all say they'll never ask for your one-time codes. Hang up.
+
+=== BODY
+## What happens
+
+ANZ's [February 2026 alert](https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html): callers pretending to be ANZ send an email with a fake "verification code" and ask you to read it back.
+
+Variations you'll meet:
+
+- "I'm sending a code to confirm it's you."
+- "We've blocked a payment; read me the code to cancel it."
+- "We need the code to secure your account."
+
+The twist: the scammer is often **logging in or approving something right now**, and your bank's real security system just sent **you** the code for it.
+
+## The banks are unanimous
+
+| Bank | What it says it never asks for |
+|---|---|
+| **ANZ** | One-time passcodes for payments, ANZ Shield or token codes |
+| **Westpac** | Online Banking Security Codes, whether by SMS, token or app ([source](https://www.westpac.com.au/security/latest-scams/)) |
+| **NAB** | Personal info by email or text; your PIN ([source](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts)) |
+| **CommBank** | Your NetCode ([source](https://www.commbank.com.au/security-privacy/report-hoaxes.html)) |
+
+A code arriving on your phone is like a key in your hand. The bank gave it to **you**. If someone on the phone wants you to hand it over, they're not the bank.
+
+## Why it works so well
+
+- The code is **real**. It came from your actual bank, so it feels legit.
+- The caller **sounds professional** and may know your name or partial card number from data breaches.
+- It feels like you're **helping security**, not undermining it.
+
+## The 5-second rule
+
+When someone asks for a code: **stop, read the SMS itself.** Real codes often say what they're for ("to add a new payee", "to register a device") and "never share this code." That text is your bank talking to you directly.
+
+## If you read out a code
+
+1. **Hang up** and call your bank on the number on your card or in the app.
+2. Ask them to check for **new payees, devices, wallets or transfers**.
+3. Change your password from a different device.
+4. Report to Scamwatch; get support from IDCARE (1800 595 160).
+
+The same trick hits food delivery and social apps too ([[australia-food-delivery-scams-scamwatch|food delivery scams]]). A free [[/digital-footprint-checker/|exposure check]] shows if your details are in the breaches scammers use to sound convincing.
+
+=== FAQ
+Q: Will my bank ever ask me to read out a one-time code?
+A: ANZ, Westpac, NAB and CommBank all say they never ask for one-time codes or security codes.
+Q: What is the ANZ Advisor Verification scam?
+A: Callers posing as ANZ send a fake verification code by email and ask you to read it back.
+Q: Why do scammers want my verification code?
+A: The code often authorises something they're doing in your account, like logging in or adding a payee.
+Q: What should I do if I gave a code to a caller?
+A: Call your bank on its official number immediately and ask it to check for new payees, devices or transfers.
+
+=== SOURCES
+https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams
+https://www.westpac.com.au/security/latest-scams/ | Westpac: Latest scams
+https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scam alerts
+https://www.commbank.com.au/security-privacy/report-hoaxes.html | CommBank: Report hoaxes
+
+=== RELATED
+australia-bank-new-login-call-this-number-email-scam | "New Login, Call This Number" Scams
+australia-commbank-scam-texts-netcode | CommBank Scam Texts
+australia-anz-scam-alerts-2026 | ANZ Scam Alerts 2026
+australia-food-delivery-scams-scamwatch | Food Delivery Scams
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams

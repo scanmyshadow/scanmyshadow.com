@@ -1,0 +1,65 @@
+slug: australia-white-pages-remove-number-unlisted
+country: AU
+title: How to Remove Your Number From White Pages Australia (Free)
+h1: How to Remove Your Number From the White Pages in Australia (Unlisted Number Guide)
+desc: An unlisted number keeps your name, number and address out of public directories, and Telstra charges nothing extra. How to do it in My Telstra and what it won't stop.
+keywords: remove number from white pages australia, unlisted number telstra, silent number australia, white pages removal, how to make my number private australia, telstra directory listing
+tags: Privacy|Australia|How To|Phone
+=== TLDR
+To get off the **White Pages**, make your landline **unlisted** (often called a silent number). With Telstra: **My Telstra → Services → your service → three dots → Manage directory listing**. It's **free**. Online directory changes take up to **3 business days**. Unlisting **doesn't stop telemarketers** (use the Do Not Call Register) and won't remove you from directories unrelated to Telstra. And yes, even silent numbers have leaked before.
+
+=== BODY
+## How to unlist with Telstra
+
+From [Telstra's guide](https://telstra.com.au/support/internet-and-home-phone/change-or-unlist-number):
+
+1. Sign in to **My Telstra**.
+2. Go to **Services** and pick the service.
+3. Tap the **three dots** in the corner.
+4. Choose **Manage directory listing** and follow the prompts.
+
+If you can't see the option, contact Telstra. If you have a paid **Thryv** listing, contact Thryv to change it.
+
+## What it does
+
+An **unlisted** number is left out of **printed, online and voice-assisted public directories**. There's **no extra charge**.
+
+## How long it takes
+
+Online directory changes can take up to **3 business days**. Need it gone from the online White Pages sooner? Contact Telstra.
+
+## What it doesn't do
+
+- **Doesn't stop telemarketing.** Register with the [[australia-do-not-call-register-guide|Do Not Call Register]].
+- **Doesn't remove you** from directories **unrelated** to Telstra and the White Pages.
+- **Doesn't hide your number** when you call out. For that, change your caller ID settings.
+
+## Silent numbers have leaked before
+
+Between 2021 and 2022, Telstra published more than **24,000** silent numbers with names and addresses in the White Pages, a failure the regulator called a privacy and safety risk. Read [[australia-telstra-silent-numbers-white-pages-breach|what happened]]. Unlisting is still worth doing; just don't treat it as invisibility.
+
+## Other places your address shows up
+
+- The **electoral roll**: apply as a [[australia-silent-elector-how-to-hide-address|silent elector]] if your safety is at risk.
+- **Data breaches**: a free [[/digital-footprint-checker/|exposure check]] shows where your email has leaked.
+- People-search and old business listings: see [[can-someone-find-my-address-using-my|can someone find my address?]]
+
+=== FAQ
+Q: How do I remove my number from White Pages Australia?
+A: Make your number unlisted. With Telstra, go to My Telstra, Services, your service, then Manage directory listing.
+Q: Does it cost money to have an unlisted number?
+A: Telstra says there's no extra charge for the unlisted option.
+Q: How long does it take to disappear from White Pages online?
+A: Up to 3 business days, or contact Telstra if you need it sooner.
+Q: Will an unlisted number stop telemarketing calls?
+A: No. Register on the Do Not Call Register for that.
+
+=== SOURCES
+https://telstra.com.au/support/internet-and-home-phone/change-or-unlist-number | Telstra: Change or unlist your number
+
+=== RELATED
+australia-telstra-silent-numbers-white-pages-breach | Telstra Silent Numbers Breach
+australia-silent-elector-how-to-hide-address | Silent Elector Enrolment
+australia-do-not-call-register-guide | Do Not Call Register
+can-someone-find-my-address-using-my | Can Someone Find My Address?
+telstra-scam-what-to-know | Telstra Scams

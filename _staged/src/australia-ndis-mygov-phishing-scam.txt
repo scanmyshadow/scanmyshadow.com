@@ -1,0 +1,73 @@
+slug: australia-ndis-mygov-phishing-scam
+country: AU
+title: NDIS Accounts Accessed Through myGov Phishing: What Participants Should Do
+h1: Scammers Used myGov to Get Into NDIS Accounts: How to Protect Your Plan
+desc: In July 2026 the NDIA said criminals accessed some NDIS accounts via myGov after phishing participants. The NDIS never asks for personal details by SMS. What to check.
+keywords: ndis scam, ndis mygov phishing, ndis account hacked, ndis scam text, ndis plan fraud, ndis participant scam warning
+tags: Account Takeover|Australia|Government|News
+=== TLDR
+On **27 July 2026**, the NDIA said cyber criminals **used myGov to access some NDIS accounts**, through **phishing** and by persuading people to **hand over sign-in details**. The NDIS "**will never ask for your personal details by SMS**." Participants, nominees and carers should **check plan funds for payments you didn't request**, turn on **MFA**, and never share codes. NDIS: **1800 800 110**; IDCARE: **1800 595 160**.
+
+=== BODY
+## What happened
+
+From the [NDIS news update](https://www.ndis.gov.au/news/11611-phishing-scams) (27 July 2026):
+
+- Criminals accessed **some NDIS accounts through myGov**.
+- They got in via **phishing**, and by **persuading people to voluntarily give up sign-in details**.
+- The NDIA is working with **Services Australia**, which runs myGov.
+
+## Why NDIS accounts are targeted
+
+NDIS plans hold **funds for supports**. A scammer with access can try to claim for **services that were never provided**. Participants may also rely on carers or nominees to manage accounts, which gives scammers more people to trick.
+
+## What the NDIS never does
+
+> "The NDIS will never ask for your personal details by SMS."
+
+Don't share passwords, **SMS authentication codes** or personal information with anyone you don't know or trust.
+
+## What participants and nominees should check
+
+- **Plan funds:** look for payments for services you didn't request or receive.
+- **Bank accounts:** look for anything unusual.
+- **myGov:** check sign-in history and remove unknown devices ([[australia-mygov-account-compromised-what-to-do|full myGov steps]]).
+
+## Protect your account
+
+1. Turn on **multi-factor authentication**; passkeys or Digital ID are best.
+2. **Change passwords** and don't reuse them.
+3. Be cautious with **unexpected emails, texts, messaging app chats and calls**.
+4. **Don't click** suspicious links. Type my.gov.au yourself.
+
+## Who to contact
+
+- **NDIS:** 1800 800 110 (8am–8pm AEST business days)
+- **IDCARE:** 1800 595 160 for personalised support
+- **Scamwatch** and **ReportCyber** to report
+
+## For carers and support workers
+
+If you help someone manage their NDIS, talk with them about codes: **nobody from the NDIS or myGov will ask for one**. A simple fridge note ("Never share a code") can do more than a long briefing.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if an email address is in breach data that phishing lists draw on.
+
+=== FAQ
+Q: Were NDIS accounts hacked in 2026?
+A: The NDIA said in July 2026 that criminals accessed some NDIS accounts through myGov using phishing and tricking people into giving sign-in details.
+Q: Does the NDIS ask for personal details by SMS?
+A: No. The NDIS says it will never ask for your personal details by SMS.
+Q: What should NDIS participants check?
+A: Plan funds for payments you didn't request or receive, and bank accounts for unusual activity.
+Q: What is the NDIS phone number?
+A: 1800 800 110, 8am to 8pm AEST on business days.
+
+=== SOURCES
+https://www.ndis.gov.au/news/11611-phishing-scams | NDIS: Phishing scams (27 July 2026)
+
+=== RELATED
+australia-mygov-account-compromised-what-to-do | myGov Account Compromised
+australia-fake-mygov-secure-message-email-licence-harvest | Fake myGov Secure Message Emails
+centrelink-scam-what-to-know | Centrelink Scams
+australia-bank-code-read-back-scam | "Read Me the Code" Scams
+australia-scamwatch-idcare-recovery-process | IDCARE Recovery Process

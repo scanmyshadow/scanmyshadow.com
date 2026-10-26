@@ -1,0 +1,79 @@
+slug: was-i-affected-by-the-qantas-data-breach
+country: AU
+title: Qantas Data Breach: 5.7 Million Customers, What Was Taken
+h1: Was I Affected by the Qantas Data Breach? 5.7 Million Customers Explained
+desc: The 2025 Qantas breach exposed names, emails and Frequent Flyer numbers for 4 million people, plus birthdays and addresses for others. No cards or passports. What to do.
+keywords: qantas data breach, qantas breach 5.7 million, qantas frequent flyer data breach, qantas cyber attack 2025, qantas breach what data, qantas scam emails
+tags: Data Breaches|Australia|Travel|What To Do
+=== TLDR
+In **July 2025**, Qantas confirmed attackers reached a **third-party customer servicing platform** used by a call centre and took data on **5.7 million** customers. About **4 million** had names, emails and **Frequent Flyer details** exposed; about **1.7 million** also had some mix of **addresses (1.3M), birthdates (1.1M), phone numbers (900,000)**, gender and meal preferences. Qantas says **no cards, financial data, passports, passwords or PINs** were taken. Watch for Qantas-themed phishing.
+
+=== BODY
+## What happened
+
+[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/qantas-57m-data-breach/) reported that attackers accessed a third-party customer servicing platform via an attack on a **call centre**. The method bore hallmarks of the Scattered Spider group, known for talking helpdesk staff into resetting passwords, though attribution wasn't confirmed.
+
+## What was taken
+
+| Data | Customers |
+|---|---|
+| Name, email, Frequent Flyer details | ~4 million (1.2M of these name and email only) |
+| Residential and/or business address | 1.3 million |
+| Date of birth | 1.1 million |
+| Phone number | 900,000 |
+| Gender | 400,000 |
+| Meal preferences | 10,000 |
+| Cards, financial data, passports | **Not taken** |
+| Passwords, PINs, logins | **Not taken** |
+
+Ten thousand people's meal preferences are now in criminal hands. Vegetarians of Australia, stay alert. (Seriously, it's harmless on its own. The rest isn't.)
+
+Qantas emailed affected customers with the specific data types taken.
+
+## How to check
+
+- Look for the Qantas email listing your data types.
+- Check your email on our free [[/digital-footprint-checker/|exposure checker]] to see this and other breaches.
+
+## What Qantas advised
+
+- Watch for **phishing emails, texts and calls**, especially ones claiming to be Qantas.
+- Use **multi-factor authentication** on email and other accounts.
+- **Never give passwords** or personal or financial information to anyone who contacts you claiming to be official.
+- Check **Scamwatch** and the **Australian Cyber Security Centre** for current threats.
+- See **IDCARE** and the **OAIC** for guidance.
+
+## Scams to expect
+
+With your name, email, Frequent Flyer number and maybe your birthday:
+
+- "Your points are expiring, log in to redeem" emails (see [[australia-bank-rewards-points-expiring-sms-scam|rewards points scams]]);
+- fake flight cancellation refunds;
+- "Qantas security" calls asking you to verify your account.
+
+Log in through the Qantas app or by typing qantas.com yourself. Our [[qantas-scam-what-to-know|Qantas scams guide]] covers more.
+
+## Your rights
+
+If you're unhappy with how Qantas handled your data, complain to Qantas first, then to the OAIC ([[australia-oaic-complaint-how-to|how]]).
+
+=== FAQ
+Q: How many people were affected by the Qantas data breach?
+A: 5.7 million customers, according to Qantas.
+Q: Were passports or credit cards stolen in the Qantas breach?
+A: No. Qantas said no card, financial or passport data was compromised.
+Q: Were Frequent Flyer passwords or PINs leaked?
+A: No. Qantas said no passwords, PINs or login details were affected.
+Q: How did the Qantas breach happen?
+A: Attackers accessed a third-party customer servicing platform through an attack on a call centre.
+
+=== SOURCES
+https://www.infosecurity-magazine.com/news/qantas-57m-data-breach/ | Infosecurity Magazine: Qantas confirms 5.7 million customers hit by data breach
+https://www.thestar.com.my/tech/tech-news/2026/09/24/factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia | Reuters factbox via The Star: Major Australian data breaches
+
+=== RELATED
+qantas-scam-what-to-know | Qantas Scams
+australia-bank-rewards-points-expiring-sms-scam | Rewards Points Expiring Scams
+was-i-affected-by-the-westjet-data-breach | WestJet Data Breach
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+was-i-affected-by-the-optus-data-breach | Optus Data Breach

@@ -1,0 +1,75 @@
+slug: australia-origin-energy-data-breach-900000
+country: AU
+title: Origin Energy Data Breach: 900,000 Customers, What Leaked
+h1: Origin Energy Data Breach: 900,000 Customers' Details and Partial Bank Numbers Exposed
+desc: Origin Energy says 900,000 current and former customers had names, birth dates, addresses and partial card or bank numbers exposed. What it means and what to do.
+keywords: origin energy data breach, origin energy hack 2026, origin energy breach what to do, origin energy customer data leak, origin energy scam emails, origin breach 900000
+tags: Data Breaches|Australia|Utilities|What To Do
+=== TLDR
+Origin Energy disclosed a breach on **28 July 2026** affecting about **900,000 current and former customers**, roughly one in five. Exposed: **names, dates of birth, phone numbers, addresses, account information and partial card or bank account numbers**. The attacker claims 2 million; Origin hasn't confirmed that. No credit monitoring has been announced. Expect very convincing "Origin" bills, refunds and "account problem" calls, and treat them all with suspicion.
+
+=== BODY
+## What happened
+
+According to [Daily Security Review](https://dailysecurityreview.com/cyber-security/origin-energy-breach-exposes-data-on-900000-australian-customers/), Origin began investigating in early July 2026 after receiving a threat report it first didn't think was credible. New evidence on **22 July** escalated things, and Origin disclosed on **28 July**.
+
+- **Affected:** about 900,000 of roughly 4.8 million customers
+- **Attacker's claim:** 2 million customers, not confirmed by Origin
+- **How:** not disclosed; CEO Frank Calabrese cited an ongoing investigation by authorities
+
+Reuters' list of major Australian breaches includes Origin as the latest big name before [the OpenAI agent incident](https://www.thestar.com.my/tech/tech-news/2026/09/24/factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia).
+
+## What was exposed
+
+| Data | Exposed |
+|---|---|
+| Names | Yes |
+| Dates of birth | Yes |
+| Phone numbers and addresses | Yes |
+| Account information | Yes |
+| Card or bank account numbers | **Partial** |
+
+"Partial" is better than full. But a birthday, address and a few digits of your bank account are exactly what a scammer needs to sound like your bank on the phone.
+
+## The real risk: targeted scams
+
+Origin itself warned that even if the original attacker never publishes the data, **other criminals could get hold of it** for scams and phishing. Banks noticed too: NAB put the Origin incident on its [scam alerts page](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts), warning of targeted phishing.
+
+Expect:
+
+- fake Origin bills or "overdue" notices with a payment link;
+- "refund" or "compensation for the breach" emails;
+- calls from "your bank's fraud team" quoting your partial account number.
+
+## What to do
+
+1. **Be sceptical of any contact claiming to be Origin**, another utility or your bank. Call back on a number you look up yourself.
+2. **Pay bills only through the Origin app or a site you type in.**
+3. **Watch your bank statements** for unfamiliar direct debits.
+4. **Consider a credit ban** if you're worried about your birthday and address being misused ([[australia-credit-ban-how-to-request|how]]).
+5. **Turn on multi-factor authentication** on email and banking.
+6. **Contact IDCARE** on 1800 595 160 for free support if you think your identity is being misused.
+
+Check which other breaches your email is in with a free [[/digital-footprint-checker/|exposure check]]. See all the big ones in our [[australia-biggest-data-breaches-list|Australian breach list]].
+
+=== FAQ
+Q: How many people were affected by the Origin Energy breach?
+A: About 900,000 current and former customers, according to Origin. The attacker claims 2 million, which Origin hasn't confirmed.
+Q: Was my bank account number exposed?
+A: Partial card or bank account numbers were exposed for affected customers.
+Q: Is Origin offering credit monitoring?
+A: Origin had not announced credit monitoring or identity protection services at the time of reporting.
+Q: When did Origin disclose the breach?
+A: 28 July 2026.
+
+=== SOURCES
+https://dailysecurityreview.com/cyber-security/origin-energy-breach-exposes-data-on-900000-australian-customers/ | Daily Security Review: Origin Energy breach exposes data on 900,000 customers
+https://www.thestar.com.my/tech/tech-news/2026/09/24/factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia | Reuters factbox via The Star: Major Australian data breaches
+https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scam alerts
+
+=== RELATED
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+agl-energy-scam-what-to-know | AGL Energy Scams
+australia-credit-ban-how-to-request | How to Request a Credit Ban
+australia-oaic-complaint-how-to | How to Complain to the OAIC
+was-i-affected-by-the-optus-data-breach | Optus Data Breach

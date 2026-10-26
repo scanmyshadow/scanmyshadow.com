@@ -1,0 +1,82 @@
+slug: australia-free-credit-report-equifax-experian-illion
+country: AU
+title: How to Get Your Free Credit Report in Australia (Every 3 Months)
+h1: Free Credit Report Australia: How to Get One Every 3 Months and Spot Identity Theft
+desc: You can get a free credit report every three months from each credit reporting agency. What's on it, how to fix errors for free, and the signs of identity theft to look for.
+keywords: free credit report australia, how to get credit report australia, credit report every 3 months, check credit file australia, credit report identity theft, fix credit report error free
+tags: Identity Theft|Australia|Credit|How To
+=== TLDR
+Australians can get a **free credit report every 3 months**, and Moneysmart suggests checking **at least once a year**. Different agencies hold different information, so check more than one. Online reports usually arrive in a day or two; by email or post, up to 10 days. **Fixing errors is free**: ignore companies that charge to "repair" your credit. Unknown loans or enquiries on your report can be a sign of identity theft.
+
+=== BODY
+## The rules
+
+From [Moneysmart](https://moneysmart.gov.au/managing-debt/credit-scores-and-credit-reports):
+
+- **Free every 3 months** from each credit reporting agency.
+- Check **at least once a year**, and more often after a breach.
+- **Different agencies hold different information**, so one report may not show everything.
+- **Online:** usually a day or two. **Email or post:** up to 10 days.
+
+The main agencies are Equifax, Experian and illion. Go to their websites directly and look for the **free** report option. Some will steer you toward paid products first. Polite, but no.
+
+## What's on your report
+
+- Personal details: name, date of birth, address history
+- Credit products and **repayment history** (last two years)
+- Financial hardship arrangements (these don't affect your score)
+- **Defaults**, such as unpaid utility or phone bills
+- **Credit applications**, bankruptcies and court judgments
+- **Who has requested your report**
+
+## Credit scores
+
+Scores run from 0 to 1,000 or 1,200 depending on the agency, with bands like low, fair, good, very good and excellent. Some agencies show your score free; free score services exist too. Moneysmart warns to **avoid providers that ask you to pay** or want your card details.
+
+## Spotting identity theft
+
+Look for:
+
+- **loans or cards you don't recognise**;
+- **credit enquiries** from lenders you never applied with;
+- **addresses** you've never lived at;
+- **defaults** on accounts you never opened.
+
+Moneysmart says unknown loans or debts may mean you're a victim of identity theft. Next steps:
+
+1. Contact the lender and the agency.
+2. Place a [[australia-credit-ban-how-to-request|credit ban]].
+3. Report to police and ReportCyber; get help from IDCARE (1800 595 160).
+
+## Fixing errors
+
+Ask the agency to correct anything wrong or out of date. It's **free**. Moneysmart warns against companies that charge to remove negative information: only **incorrect** information can be removed, and you can request that yourself.
+
+## When to check
+
+- every few months as routine;
+- after any big breach you're in ([[australia-biggest-data-breaches-list|see the list]]);
+- before applying for a home loan;
+- after losing your wallet or ID.
+
+A free [[/digital-footprint-checker/|exposure check]] tells you which breaches your email is in, a good prompt to pull a report.
+
+=== FAQ
+Q: How often can I get a free credit report in Australia?
+A: Every three months from each credit reporting agency.
+Q: How long does it take to get my credit report?
+A: Online usually a day or two; by email or post up to 10 days.
+Q: Do I have to pay to fix errors on my credit report?
+A: No. Fixing incorrect information is free. Only incorrect information can be removed.
+Q: How can my credit report show identity theft?
+A: Look for loans, enquiries, addresses or defaults you don't recognise.
+
+=== SOURCES
+https://moneysmart.gov.au/managing-debt/credit-scores-and-credit-reports | Moneysmart: Credit scores and credit reports
+
+=== RELATED
+australia-credit-ban-how-to-request | How to Request a Credit Ban
+australia-tax-file-number-stolen-what-to-do | TFN Stolen? What To Do
+how-to-check-your-credit-report-for-fraud | Check Your Credit Report for Fraud
+australia-scamwatch-idcare-recovery-process | IDCARE Recovery Process
+how-to-report-identity-theft-australia | Report Identity Theft in Australia

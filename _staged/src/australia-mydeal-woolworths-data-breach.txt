@@ -1,0 +1,59 @@
+slug: australia-mydeal-woolworths-data-breach
+country: AU
+title: MyDeal Data Breach (Woolworths): 2.2 Million Customers
+h1: Was I Affected by the MyDeal Data Breach? Woolworths' 2.2 Million-Customer Leak
+desc: One compromised login exposed 2.2 million MyDeal customers' names, emails, phones, addresses and some birthdates. No passwords or cards. What it means today.
+keywords: mydeal data breach, woolworths mydeal breach, mydeal hack 2.2 million, mydeal customer data, was i affected mydeal, mydeal breach what to do
+tags: Data Breaches|Australia|Retail|What To Do
+=== TLDR
+In **October 2022**, an attacker used a **compromised user credential** to access the customer system of **MyDeal**, Woolworths' majority-owned online marketplace. About **2.2 million** customers were affected; **1.2 million** had only their email exposed. Others had **names, phone numbers and delivery addresses**, plus **birthdates** for people who verified their age to buy alcohol. No passwords, payment data or ID documents. The data is old, but contact details don't expire.
+
+=== BODY
+## What happened
+
+[Information Age (ACS)](https://ia.acs.org.au/article/2022/data-of-2-2m-australians-exposed-in-mydeal-breach.html) reported that an attacker used a **compromised user credential** to get into MyDeal's **customer relationship management system**. MyDeal said it found the breach the same day, notified the OAIC and worked with security experts.
+
+## What was exposed
+
+| Data | Who |
+|---|---|
+| Email address only | ~1.2 million customers |
+| Names, emails, phone numbers, delivery addresses | The rest of the ~2.2 million |
+| Birthdates | Customers who verified age to buy alcohol |
+| Passwords | Not compromised |
+| Payment details | Not compromised |
+| Passport or licence details | Not compromised |
+
+Fun fact nobody asked for: buying a bottle of wine online is how some customers ended up with their birthday in a breach.
+
+## Why a 2022 breach still matters
+
+Phone numbers, addresses and birthdays rarely change. Data from older breaches gets combined with newer ones to build fuller profiles. Your MyDeal phone number plus your [[was-i-affected-by-the-qantas-data-breach|Qantas]] Frequent Flyer number plus your [[australia-origin-energy-data-breach-900000|Origin]] partial bank number starts to look like a very convincing scam call.
+
+## What to do now
+
+1. **Check your exposure** with our free [[/digital-footprint-checker/|exposure checker]].
+2. **Be wary of "Woolworths" or "MyDeal" refund and prize messages.**
+3. **Use unique passwords**, since breaches feed [[australia-credential-stuffing-retail-accounts-2024|credential stuffing attacks]].
+4. **Consider a credit ban** if your birthday and address are in multiple breaches ([[australia-credit-ban-how-to-request|how]]).
+
+=== FAQ
+Q: How many people were affected by the MyDeal breach?
+A: About 2.2 million customers. About 1.2 million had only their email address exposed.
+Q: Were MyDeal passwords or cards leaked?
+A: No. MyDeal said passwords, payment information and ID documents were not compromised.
+Q: How did the MyDeal breach happen?
+A: An attacker used a compromised user credential to access MyDeal's customer relationship management system.
+Q: Is MyDeal owned by Woolworths?
+A: Woolworths was MyDeal's majority owner at the time of the breach.
+
+=== SOURCES
+https://ia.acs.org.au/article/2022/data-of-2-2m-australians-exposed-in-mydeal-breach.html | Information Age: Data of 2.2m Australians exposed in MyDeal breach
+https://www.thestar.com.my/tech/tech-news/2026/09/24/factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia | Reuters factbox via The Star: Major Australian data breaches
+
+=== RELATED
+australia-biggest-data-breaches-list | Biggest Australian Data Breaches
+australia-credential-stuffing-retail-accounts-2024 | Credential Stuffing Attacks in Australia
+was-i-affected-by-the-optus-data-breach | Optus Data Breach
+australia-credit-ban-how-to-request | How to Request a Credit Ban
+how-to-claim-a-data-breach-settlement | Data Breach Settlements
