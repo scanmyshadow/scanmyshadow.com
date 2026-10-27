@@ -74,3 +74,4 @@ australia-confirmation-of-payee-explained | Confirmation of Payee
 australia-warrnambool-bank-email-scams-600000 | Warrnambool Bank Email Scams
 home-buying-season-scams | Home Buying Season Scams
 australia-westpac-scam-alerts-2026 | Westpac Scam Alerts 2026
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Australia

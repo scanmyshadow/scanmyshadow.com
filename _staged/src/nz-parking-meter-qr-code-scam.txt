@@ -61,3 +61,5 @@ nz-ncsc-cyber-security-insights-q2-2026 | NCSC Q2 2026 Report
 nz-how-to-report-a-scam | How to Report a Scam in NZ
 nz-report-scam-text-7726 | Report Scam Texts to 7726
 what-is-smishing | What Is Smishing?
+qr-code-scams-quishing-international | QR Code Scams (Quishing)
+what-is-quishing-qr-code-phishing | What Is Quishing?

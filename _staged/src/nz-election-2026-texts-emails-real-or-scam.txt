@@ -74,3 +74,5 @@ nz-report-scam-text-7726 | Report Scam Texts to 7726
 nz-ministry-of-justice-fines-text-scam-how-to-check | Fake Fines Texts (NZ)
 nz-nzta-toll-scam-text-3651 | Fake NZTA Toll Texts
 what-is-smishing | What Is Smishing?
+election-season-donation-scams | Election Season Donation Scams
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scam Surge

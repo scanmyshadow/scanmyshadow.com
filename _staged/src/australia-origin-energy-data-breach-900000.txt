@@ -73,3 +73,4 @@ agl-energy-scam-what-to-know | AGL Energy Scams
 australia-credit-ban-how-to-request | How to Request a Credit Ban
 australia-oaic-complaint-how-to | How to Complain to the OAIC
 was-i-affected-by-the-optus-data-breach | Optus Data Breach
+australia-identity-theft-report-by-state | Report Identity Theft by State

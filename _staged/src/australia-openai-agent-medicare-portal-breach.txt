@@ -72,3 +72,4 @@ australia-biggest-data-breaches-list | Biggest Australian Data Breaches
 australia-medisecure-data-breach-12-9-million | MediSecure Data Breach
 medicare-card-scam-calls-what-to-do | Medicare Scam Calls
 australia-mygov-account-compromised-what-to-do | myGov Account Compromised
+australia-scamwatch-idcare-recovery-process | Scamwatch and IDCARE Recovery Steps

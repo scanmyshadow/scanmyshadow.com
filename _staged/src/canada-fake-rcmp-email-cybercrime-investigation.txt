@@ -69,3 +69,5 @@ canada-rcmp-spoofed-calls-kelowna-newfoundland-sheriff | Spoofed RCMP Calls
 canada-fake-fedex-intercepted-package-fee-email-rcmp | Fake FedEx "Intercepted Package" Email
 canada-fake-cafc-recovery-scam-54-million | Fake CAFC Recovery Scams
 canada-anti-fraud-centre-reporting-guide | How to Report to the CAFC
+canada-revenue-agency-scam-what-to-know | CRA Scams: What to Know
+canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada

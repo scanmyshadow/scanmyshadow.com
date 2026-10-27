@@ -66,3 +66,5 @@ nz-banks-whatsapp-impersonation-scams | NZ Banks Don't Use WhatsApp
 nz-asb-scam-alerts-2026 | ASB Scam Alerts
 nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts
 nz-ird-tax-refund-scam-surge | IRD Tax Refund Scams
+what-is-smishing | What Is Smishing?
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Australia
