@@ -1178,6 +1178,9 @@ Site: https://www.scanmyshadow.com/
 - [Perth Grandfather, 80, Loses Home and Up to $300K in Facebook Romance Scam](https://www.scanmyshadow.com/blog/2026/10/australia-perth-grandfather-80-loses-home-romance-scam-300000-gift-cards.html)
 - [Romance Scams Surged Again in 2025: Men Report More, Women Lose More](https://www.scanmyshadow.com/blog/2026/10/australia-consumer-affairs-victoria-romance-scams-surged-2025-women-lose-more.html)
 
+## United States scam news (added Oct 27, 2026)
+- [Georgia Power and Alabama Power Breach: 400,000 Customers](https://www.scanmyshadow.com/blog/2026/10/us-georgia-alabama-power-data-breach-400000-customers.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
