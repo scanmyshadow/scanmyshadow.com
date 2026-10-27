@@ -1179,7 +1179,39 @@ Site: https://www.scanmyshadow.com/
 - [Romance Scams Surged Again in 2025: Men Report More, Women Lose More](https://www.scanmyshadow.com/blog/2026/10/australia-consumer-affairs-victoria-romance-scams-surged-2025-women-lose-more.html)
 
 ## United States scam news (added Oct 27, 2026)
+- [Fake FTC Call Says Your Number Will Be Shut Off: It's a Scam](https://www.scanmyshadow.com/blog/2026/10/us-ftc-impersonator-phone-number-deactivation-scam.html)
+- [FTC Sues “Sextortion Help” Firm Over $60M in Alleged Payments](https://www.scanmyshadow.com/blog/2026/10/us-ftc-sextortion-help-service-digital-forensics-lawsuit.html)
+- [“You Won Our Charity Sweepstakes”: The FTC's New Warning](https://www.scanmyshadow.com/blog/2026/10/us-ftc-fake-charity-sweepstakes-prize-calls.html)
+- [California Student Data Breach (ETS): What Parents Should Do](https://www.scanmyshadow.com/blog/2026/10/us-california-ets-student-testing-data-breach.html)
 - [Georgia Power and Alabama Power Breach: 400,000 Customers](https://www.scanmyshadow.com/blog/2026/10/us-georgia-alabama-power-data-breach-400000-customers.html)
+
+## United Kingdom scam news (added Oct 27, 2026)
+- [ASOS Data Breach 2026: What Was Taken and What to Do](https://www.scanmyshadow.com/blog/2026/10/uk-asos-data-breach-what-customers-should-do.html)
+- [Car Finance Compensation Scams: Spot the Fake Calls and Texts](https://www.scanmyshadow.com/blog/2026/10/uk-car-finance-compensation-scam-calls-texts.html)
+- [UK Identity Fraud 2026: Cifas Data, SIM Swaps Up 402%](https://www.scanmyshadow.com/blog/2026/10/uk-cifas-fraudscape-2026-identity-fraud-sim-swap-data.html)
+- [1,900 Fake Apps on Google Play: UK Users Hit Hardest](https://www.scanmyshadow.com/blog/2026/10/uk-fake-android-apps-google-play-rewafake-subscriptions.html)
+- [Fake Apps on Copycat Sites: 65+ Brands Impersonated](https://www.scanmyshadow.com/blog/2026/10/uk-copycat-apps-fake-websites-65-brands.html)
+
+## Canada scam news (added Oct 27, 2026)
+- [Loblaw Data Breach: 2 Million Canadians Being Notified](https://www.scanmyshadow.com/blog/2026/10/canada-loblaw-data-breach-two-million-customers.html)
+- [Crime Stoppers Leak: 1.5 Million Canadian Tips Exposed](https://www.scanmyshadow.com/blog/2026/10/canada-crime-stoppers-tips-leak-1-5-million.html)
+- ["Vancouver Sheriff's Office" Scam Calls: You Didn't Miss Court](https://www.scanmyshadow.com/blog/2026/10/canada-vancouver-sheriffs-office-scam-call-missed-court.html)
+- [Fake RCMP Email Says You're Under Cybercrime Investigation](https://www.scanmyshadow.com/blog/2026/10/canada-fake-rcmp-email-cybercrime-investigation.html)
+- [Canadian Tire Data Breach: 38 Million Emails, What Leaked and What To Do](https://www.scanmyshadow.com/blog/2026/10/was-i-affected-by-the-canadian-tire-data-breach.html)
+
+## Australia scam news (added Oct 27, 2026)
+- [OpenAI Agent Breached an Australian Medicare Portal: What We Know](https://www.scanmyshadow.com/blog/2026/10/australia-openai-agent-medicare-portal-breach.html)
+- [Origin Energy Data Breach: 900,000 Customers, What Leaked](https://www.scanmyshadow.com/blog/2026/10/australia-origin-energy-data-breach-900000.html)
+- [Property Settlement Scams: How a $1.2M Home Deposit Was Nearly Stolen](https://www.scanmyshadow.com/blog/2026/10/australia-property-settlement-payment-redirection-scams.html)
+- [Westpac Scam Alerts 2026: "New Login Detected" and Other Fakes](https://www.scanmyshadow.com/blog/2026/10/australia-westpac-scam-alerts-2026.html)
+- [NAB Scam Alerts 2026: Fake Device Logins, Payment Notices and More](https://www.scanmyshadow.com/blog/2026/10/australia-nab-scam-alerts-2026.html)
+
+## New Zealand scam news (added Oct 27, 2026)
+- [NZ Election 2026 Texts and Emails: How to Tell Real From Scam](https://www.scanmyshadow.com/blog/2026/10/nz-election-2026-texts-emails-real-or-scam.html)
+- [Fake QR Codes on Parking Meters in Christchurch, Auckland and Wellington](https://www.scanmyshadow.com/blog/2026/10/nz-parking-meter-qr-code-scam.html)
+- [Bank Impersonation Scams More Than Doubled in August 2026: Netsafe](https://www.scanmyshadow.com/blog/2026/10/nz-netsafe-bank-impersonation-spike-august-2026.html)
+- [Kiwibank Scam Alerts 2026: WhatsApp Fakes, myIR Refunds and Wallet Fraud](https://www.scanmyshadow.com/blog/2026/10/nz-kiwibank-latest-scams-2026.html)
+- [Manage My Health Breach: What the Privacy Commissioner Found](https://www.scanmyshadow.com/blog/2026/10/nz-manage-my-health-data-breach-privacy-commissioner-findings.html)
 
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
