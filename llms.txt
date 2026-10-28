@@ -1213,6 +1213,41 @@ Site: https://www.scanmyshadow.com/
 - [Kiwibank Scam Alerts 2026: WhatsApp Fakes, myIR Refunds and Wallet Fraud](https://www.scanmyshadow.com/blog/2026/10/nz-kiwibank-latest-scams-2026.html)
 - [Manage My Health Breach: What the Privacy Commissioner Found](https://www.scanmyshadow.com/blog/2026/10/nz-manage-my-health-data-breach-privacy-commissioner-findings.html)
 
+## United States scam news (added Oct 28, 2026)
+- [Frontline Education Breach: School Staff SSNs Exposed](https://www.scanmyshadow.com/blog/2026/10/us-frontline-education-breach-school-employees-ssn.html)
+- [California DROP: Delete Your Data From 600+ Brokers at Once](https://www.scanmyshadow.com/blog/2026/10/california-drop-data-broker-delete-request-guide.html)
+- [Acxiom Opt Out 2026: Marketing Opt-Out vs Deleting Your Data](https://www.scanmyshadow.com/blog/2026/10/acxiom-opt-out-guide.html)
+- [Amazon Scam Texts 2026: Examples and What Amazon Never Asks](https://www.scanmyshadow.com/blog/2026/10/amazon-scam-text-messages-what-to-do.html)
+- [“Apple Pay Has Been Suspended” Text: It's a Scam](https://www.scanmyshadow.com/blog/2026/10/apple-pay-suspended-text-scam.html)
+
+## United Kingdom scam news (added Oct 28, 2026)
+- [Ofcom's Scam Ad Rules: What Big Tech Will Have to Do](https://www.scanmyshadow.com/blog/2026/10/uk-ofcom-scam-ad-code-online-platforms.html)
+- [Winter Fuel Payment Scam Texts: You Don't Need to Apply](https://www.scanmyshadow.com/blog/2026/10/uk-winter-fuel-payment-scam-texts.html)
+- [Call 159: The UK Number That Gets You to Your Real Bank](https://www.scanmyshadow.com/blog/2026/10/uk-159-scam-hotline-how-it-works.html)
+- [How to Remove Yourself From 192.com (UK, 2026)](https://www.scanmyshadow.com/blog/2026/10/uk-192-com-remove-your-details.html)
+- [How to Report Scam Texts and Calls to 7726 (iPhone and Android)](https://www.scanmyshadow.com/blog/2026/10/uk-7726-how-to-report-scam-texts-calls.html)
+
+## Canada scam news (added Oct 28, 2026)
+- [Biggest Canadian Data Breaches of 2025–2026: Were You Hit?](https://www.scanmyshadow.com/blog/2026/10/canada-biggest-data-breaches-2025-2026.html)
+- [Got a Data Breach Letter in Canada? Your Rights and Next Steps](https://www.scanmyshadow.com/blog/2026/10/canada-breach-notification-letter-what-to-do.html)
+- [Canada Computers Data Breach: Guest Checkout Card Details Exposed](https://www.scanmyshadow.com/blog/2026/10/canada-computers-data-breach-guest-checkout-cards.html)
+- [Nova Scotia Power Data Breach: SINs and Bank Details on the Dark Web](https://www.scanmyshadow.com/blog/2026/10/canada-nova-scotia-power-data-breach-sin-bank.html)
+- [Toys "R" Us Canada Data Breach: What Was Taken and What To Do](https://www.scanmyshadow.com/blog/2026/10/canada-toys-r-us-data-breach-customers-notified.html)
+
+## Australia scam news (added Oct 28, 2026)
+- [Biggest Australian Data Breaches: Optus to Origin (2022–2026)](https://www.scanmyshadow.com/blog/2026/10/australia-biggest-data-breaches-list.html)
+- [Australia's Crypto ATM Rules: $5,000 Cash Limit and Scam Warnings](https://www.scanmyshadow.com/blog/2026/10/australia-crypto-atm-rules-austrac-5000-limit.html)
+- [Genea IVF Data Breach: Patient Records Published by Hackers](https://www.scanmyshadow.com/blog/2026/10/australia-genea-ivf-data-breach.html)
+- [iiNet Data Breach: 280,000 Emails and Modem Passwords Exposed](https://www.scanmyshadow.com/blog/2026/10/australia-iinet-data-breach-280000.html)
+- [MediSecure Data Breach: 12.9 Million Australians, Medicare Details](https://www.scanmyshadow.com/blog/2026/10/australia-medisecure-data-breach-12-9-million.html)
+
+## New Zealand scam news (added Oct 28, 2026)
+- [NZ Anti-Scam Alliance 2026 Plan: What's Changing for Kiwis](https://www.scanmyshadow.com/blog/2026/10/nz-anti-scam-alliance-2026-work-programme.html)
+- [Fake ANZ "Stock Market Education" Ads Lure Kiwis Into Scam Chat Groups](https://www.scanmyshadow.com/blog/2026/10/nz-anz-fake-stock-education-ads-investment-chat-groups.html)
+- [New Zealand Is Banning Crypto ATMs: Here's Why](https://www.scanmyshadow.com/blog/2026/10/nz-crypto-atm-ban-explained.html)
+- [NZ May Make It a Crime to Share Stolen Data, and Add Privacy Fines](https://www.scanmyshadow.com/blog/2026/10/nz-cyber-security-action-plan-stolen-data-offence.html)
+- [Deepfake Luxon Ad Cost a Taranaki Pensioner $224,000](https://www.scanmyshadow.com/blog/2026/10/nz-deepfake-luxon-investment-scam-ads.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
