@@ -63,3 +63,6 @@ nz-telco-scam-prevention-code-explained | NZ Telco Scam Prevention Code
 nz-scam-statistics-2026-netsafe-data | NZ Scam Statistics 2026
 nz-how-to-report-a-scam | How to Report a Scam in NZ
 australia-scams-prevention-framework-explained | Australia's Scams Prevention Framework
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scam Surge
+australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Australia
+what-is-smishing | What Is Smishing?

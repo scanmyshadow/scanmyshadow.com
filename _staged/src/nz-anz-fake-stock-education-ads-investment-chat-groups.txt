@@ -68,3 +68,5 @@ nz-deepfake-luxon-investment-scam-ads | Deepfake Luxon Investment Scams
 nz-fma-fake-nz-registered-investment-firms | Fake NZ-Registered Firms
 australia-scamwatch-investment-scams-whatsapp-groups-fake-news | WhatsApp Investment Groups (AU)
 nz-kiwisaver-scams-retirement-savings | KiwiSaver Scams
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scam Surge
+australia-asic-pump-and-dump-fake-celebrity-endorsements-whatsapp | Pump-and-Dump WhatsApp Groups (ASIC)

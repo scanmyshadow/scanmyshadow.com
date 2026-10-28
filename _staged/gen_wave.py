@@ -73,7 +73,7 @@ def body_html(md, links, missing):
             rest = '\n'.join(lines[1:]).strip()
             if rest: out.append(body_html(rest, links, missing))
         elif lines[0].startswith('|'):
-            rows = [ [c.strip() for c in l.strip().strip('|').split('|')] for l in lines if not re.match(r'^\|\s*-', l)]
+            rows = [ [c.strip().replace('\x00','|') for c in re.sub(r'\[\[[^\]]*\]\]', lambda m: m.group(0).replace('|','\x00'), l.strip()).strip('|').split('|')] for l in lines if not re.match(r'^\|\s*-', l)]
             h = ''.join(f'<th>{inline(c, links, missing)}</th>' for c in rows[0])
             r = ''.join('<tr>' + ''.join(f'<td>{inline(c, links, missing)}</td>' for c in row) + '</tr>' for row in rows[1:])
             out.append(f'<div class="dtable-wrap"><table class="dtable"><thead><tr>{h}</tr></thead><tbody>{r}</tbody></table></div>')

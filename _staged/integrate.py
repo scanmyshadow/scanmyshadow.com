@@ -1,7 +1,7 @@
 import sys,re,glob,json,os,shutil
-W='/home/claude/wave'; R=sys.argv[1]; OUT=sys.argv[2]; DATE='2026-10-27'; DLAB='October 27, 2026'
+W='/home/claude/wave'; R=sys.argv[1]; OUT=sys.argv[2]; BI=int(sys.argv[3]); DATE=sys.argv[4]; import datetime; _d=datetime.date.fromisoformat(DATE); DLAB=_d.strftime('%B ')+str(_d.day)+_d.strftime(', %Y'); DLONG=_d.strftime('%b ')+str(_d.day)+_d.strftime(', %Y')
 SITE='https://www.scanmyshadow.com'
-slugs=json.load(open(f'{W}/batches.json'))[0]
+slugs=json.load(open(f'{W}/batches.json'))[BI]
 def meta(s):
     t=open(f'{W}/src/{s}.txt',encoding='utf-8').read()
     h=dict(re.findall(r'^(\w+): (.*)$',t.split('=== TLDR')[0],re.M))
@@ -44,7 +44,7 @@ p=f'{R}/llms.txt'; t=open(p,encoding='utf-8').read()
 for c in ['US','UK','CA','AU','NZ']:
     lines=''.join(f"- [{meta(s)[0]['title']}]({SITE}/blog/2026/10/{s}.html)\n" for s in todo if meta(s)[0]['country']==c)
     if not lines: continue
-    head=f'## {names[c]} scam news (added Oct 27, 2026)\n'
+    head=f'## {names[c]} scam news (added {DLONG})\n'
     if head in t: t=t.replace(head,head+lines,1)
     else: t=t.replace('## Optional\n',head+lines+'\n## Optional\n',1)
 open(p,'w',encoding='utf-8').write(t)
@@ -73,7 +73,7 @@ for r,ss in plan.items():
         add+=f'<li><a href="{u}">{meta(s)[0]["title"].replace("&","&amp;")}</a></li>\n'
     if not add: continue
     t=t[:m.end(2)]+add+t[m.end(2):]
-    t=re.sub(r'("dateModified"\s*:\s*")[^"]*(")',r'\g<1>2026-10-27T12:00:00+05:30\2',t)
+    t=re.sub(r'("dateModified"\s*:\s*")[^"]*(")',r'\g<1>'+DATE+r'T12:00:00+05:30\2',t)
     open(f,'w',encoding='utf-8').write(t); changed.append((os.path.relpath(f,R),len(ss)))
-json.dump({'new':todo,'changed':changed},open('/tmp/claude-0/b1_summary.json','w'))
+json.dump({'new':todo,'changed':changed},open(f'/tmp/claude-0/b{BI+1}_summary.json','w'))
 print('uplinked',len(changed))

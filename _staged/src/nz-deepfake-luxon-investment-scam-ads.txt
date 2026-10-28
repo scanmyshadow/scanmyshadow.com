@@ -76,3 +76,5 @@ nz-anz-fake-stock-education-ads-investment-chat-groups | ANZ Fake Investment Ads
 nz-fma-fake-nz-registered-investment-firms | Fake NZ-Registered Firms
 nz-kiwisaver-scams-retirement-savings | KiwiSaver Scams
 australia-queensland-retiree-deepfake-nurse-romance-scam-180000-six-fingers | Deepfake Romance Scam (AU)
+australia-asic-ai-deepfake-scam-networks-19400-takedowns-fy26 | ASIC Deepfake Scam Networks
+nz-ird-tax-refund-scam-surge | IRD Tax Refund Scam Surge

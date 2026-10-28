@@ -60,3 +60,5 @@ nz-medimap-attack-patients-marked-deceased | MediMap Attack
 nz-manage-my-health-data-breach-privacy-commissioner-findings | Manage My Health Data Breach
 nz-ncsc-cyber-security-insights-q2-2026 | NCSC Q2 2026 Report
 australia-privacy-statutory-tort-explained | Australia's Privacy Tort
+data-breach-notification-email-what-to-do | Got a Data Breach Notification? What To Do
+recent-data-breaches-this-week | Recent Data Breaches This Week
