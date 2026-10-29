@@ -21,7 +21,7 @@ Your WhatsApp is worth more than a stolen order. Once they control it, they mess
 
 ## Signs it's a scam
 
-- Amazon calls you unprompted about an order (it generally won't; it emails and shows alerts in the app).
+- Someone calls you out of the blue about an order you never placed.
 - You're asked to read out a code from a text.
 - The text mentions WhatsApp, or says “Don't share this code with anyone” while the caller asks you to share it.
 - There's urgency: “we need to confirm in the next two minutes.”
@@ -43,7 +43,7 @@ Mostly from leaked data. Phone numbers, names and email addresses from old breac
 
 === FAQ
 Q: Does Amazon call about unauthorised orders?
-A: Amazon generally notifies you by email and in the app. Treat unexpected calls about orders as suspicious and check your orders in the app yourself.
+A: Treat unexpected calls about orders as suspicious. Hang up and check your orders in the Amazon app yourself.
 Q: What code are the scammers asking for?
 A: Usually a WhatsApp verification code, sent because they are trying to register your number on their phone.
 Q: How do I protect my WhatsApp?

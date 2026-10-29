@@ -1,8 +1,8 @@
 slug: australia-oaic-data-breach-notifications-record-2025
 country: AU
-title: Australia Hit a Record 1,205 Data Breach Notifications in 2025
+title: Australia Hit a Record 1,205 Data Breaches in 2025: OAIC
 h1: Record Year: Australia Logged 1,205 Data Breach Notifications in 2025 (OAIC Data)
-desc: OAIC figures show 1,205 notifiable data breaches in 2025, up 8%, with health the most hit sector and criminal attacks the main cause. What the numbers mean for you.
+desc: OAIC figures show 1,205 notifiable data breaches in 2025, up 8%. Health was the most hit sector and criminal attacks the main cause. What it means for you.
 keywords: oaic notifiable data breaches 2025, australia data breach statistics 2025, ndb report 2025, oaic data breach record, health sector data breaches australia, data breaches australia 2026
 tags: Data Breaches|Australia|Statistics|News
 === TLDR

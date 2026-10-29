@@ -1,6 +1,6 @@
 slug: was-i-affected-by-the-westjet-data-breach
 country: CA
-title: WestJet Data Breach: 1.2 Million Passengers, Passports Exposed
+title: WestJet Data Breach: 1.2 Million People, Passports Exposed
 h1: Was I Affected by the WestJet Data Breach? Passports, IDs and What To Do
 desc: WestJet's 2025 breach exposed names, birth dates, addresses and passport or ID details for 1.2 million people. No cards or passwords. Steps to take now.
 keywords: westjet data breach, westjet breach passport, westjet cyberattack 2025, westjet rewards breach, westjet identity monitoring, westjet breach what to do

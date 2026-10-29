@@ -2,7 +2,7 @@ slug: can-you-hear-me-scam-call-yes
 country: US
 title: “Can You Hear Me?” Calls: Should You Say Yes?
 h1: The “Can You Hear Me?” Call: What It's Really For and How to Answer
-desc: Robocalls opening with "Can you hear me?" try to get a "yes." What's known about voice recording fears, what these calls actually want, and what the FCC advises.
+desc: Robocalls opening with "Can you hear me?" want a "yes." What's known about the recording fear, what these calls really want, and what the FCC advises.
 keywords: can you hear me scam, can you hear me call, say yes scam call, robocall yes or no question, should i say yes on phone scam
 tags: Robocalls|Phone Scams|United States|How To
 === TLDR
@@ -15,7 +15,7 @@ You pick up. A pause. Then a friendly voice: “Hi! Can you hear me?” or “So
 
 ## The internet's version
 
-The popular warning says scammers record your “yes” and use it to authorise purchases. In practice, a voice clip saying “yes” isn't much use for signing up for most services, and consumer agencies have struggled to find confirmed cases of exactly that. So the internet panic is overstated.
+The popular warning says scammers record your “yes” and use it to authorise purchases. The Better Business Bureau warned in January 2017 about “scattered reports” of the calls, but as [TruthOrFiction](https://www.truthorfiction.com/?p=103539) put it, “It's not clear how many people have been impacted.” A clip of you saying “yes” isn't much use for signing up to most services, so the recorded-yes panic looks overstated.
 
 ## What these calls really do
 
@@ -54,6 +54,7 @@ A: Don't answer unknown numbers, use carrier call blocking and register with the
 === SOURCES
 https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts | FCC: Stop unwanted robocalls and texts
 https://fcc.gov/spoofing | FCC: Caller ID spoofing
+https://www.truthorfiction.com/?p=103539 | TruthOrFiction: The 'Can You Hear Me?' phone scam
 
 === RELATED
 robocall-statistics-2026 | Robocall Statistics 2026

@@ -1,53 +1,98 @@
 slug: canada-411-and-people-search-removal
 country: CA
-title: Remove Your Number From Canada411 and People-Search Sites
-h1: How to Get Your Name and Number Off Canada411 and Other Canadian Directories
-desc: Canada411 listings come from your phone company. How to go unlisted, why some directories need separate requests, and how to tackle people-search sites.
-keywords: remove from canada411, canada411 remove listing, unlisted number canada, remove name from phone directory canada, people search sites canada remove
+title: Remove Your Listing From Canada411: Form, Unlisting, Fees
+h1: How to Get Your Name and Number Off Canada411 (and Keep It Off)
+desc: Canada411's removal form works within two working days, but your phone company feeds the listing. The full fix: the form, going unlisted, people-search sites.
+keywords: remove from canada411, canada411 listing removal, canada411 remove my number, unlisted number canada, bell non-published number fee, people search sites canada remove
 tags: Phone Privacy|Data Brokers|Canada|How To
 === TLDR
-Canada411 and printed White Pages listings come from your phone company. To remove yours, ask your provider for an unlisted name and number; Cogeco, for example, says its Unlisted feature removes you from directory assistance, the printed White Pages and canada411.ca. Some online directories don't get their data from your provider, so you'll need to contact those sites directly. Then handle people-search sites one by one.
+Canada411 has a **Listing removal form** on its help page: enter your name, email and listed number, pick a reason, and removal from **Canada411.ca** takes effect **within two working days**. But that only cleans the website. Your listing comes from your **phone company**, so also ask for an **unlisted (non-published) number**: Bell charges **$2 a month** plus possible one-time fees, and Cogeco's Unlisted feature removes you from directory assistance, the White Pages and canada411.ca. Then deal with **people-search sites** one by one.
 
 === BODY
-## Where Canada411 gets your listing
+## Two layers: the website and the source
 
-Directory listings in Canada flow from the phone company that provides your landline. So the fix starts there, not with the directory. According to [Cogeco's support page](https://support.cogeco.ca/hc/en-ca/articles/360059892993-How-do-I-remove-my-name-and-Home-Phone-number-from-the-directory), subscribing to its **Unlisted Name and Phone Number** feature removes your listing from:
+There are two places your listing lives:
 
-- directory assistance;
-- the printed White Pages;
-- **canada411.ca**.
+1. **The source**: your landline provider, which feeds directory assistance (411), printed White Pages and online directories.
+2. **The websites**: Canada411.ca and the people-search sites that have copied the data over the years.
 
-Other providers (Bell, Telus, Rogers, Vidéotron and others) offer the same kind of unlisted option. Ask yours; there may be a monthly fee.
+Fixing only the website is like mopping under a dripping tap. Fixing only the source leaves copies online. You want both.
+
+## Option 1: Canada411's own removal form
+
+According to [Canada411's help page](https://www.canada411.ca/help.html?key=terms), the **Listing removal** form asks for:
+
+- your **full name**;
+- an **email** address;
+- the **listed phone number**;
+- a **reason**: "I've paid my phone company to be unlisted," "Security/privacy issues," "Person deceased," "The listed number doesn't belong to me" or "Duplicate listing";
+- a CAPTCHA, plus an optional comment.
+
+Canada411 says: "Your listing removal from Canada411.ca will be effective within two working days." It also warns that this "will not affect your Print Directory and Directory Assistance listings." That's why the next step matters.
+
+## Option 2: Go unlisted with your phone company
+
+Directory listings come from the phone company that provides your landline, so this is the fix that stops new copies.
+
+| Provider | What it offers | Cost / catch |
+|---|---|---|
+| **Bell** | Non-published number: not listed with 411 Directory Assistance and kept out of the next printed White and Yellow Pages | **$2/month plus tax**; one-time fees may apply. An existing listed number can't be unlisted until the next directory publication |
+| **Cogeco** | Unlisted Name and Phone Number: removes you from directory assistance, the printed White Pages and **canada411.ca** | Ask Cogeco for the current price |
+| **Others** (Rogers, Telus, Vidéotron and smaller providers) | Usually a similar unlisted option | Ask your provider |
+
+The details come from [Bell's support page](https://support.bell.ca/Home_phone/Phone_line/How_to_unlist_my_Bell_Home_phone_number) and [Cogeco's support page](https://support.cogeco.ca/hc/en-ca/articles/360059892993-How-do-I-remove-my-name-and-Home-Phone-number-from-the-directory).
+
+Bell's catch is worth noticing: if your number is already listed, it stays in print until the next edition. Bell's page talks about requesting a **new non-published number**, so if you need to disappear quickly, a new number is the cleaner route.
 
 ## What going unlisted doesn't do
 
-- **Call Display**: people you call still see your name and number. Dial **\*67** before a call, or ask for permanent Call Display blocking.
-- **Other directories**: some online directories don't get their data from your phone company, so you'll have to contact them directly.
-- **People-search sites**: listings already copied elsewhere stay until you remove them.
+- **Call Display**: people you call still see your name and number. Dial **\*67** before a call (Bell says there's no charge), or ask for permanent blocking.
+- **Copies already out there**: people-search sites that scraped your listing years ago keep it until you remove it.
+- **Other online directories**: some don't get their data from your phone company, so you'll have to contact them directly.
 
-## People-search sites that show Canadians
+## Option 3: People-search sites
 
-Many US-based people-search sites also list Canadian addresses and numbers. The most common ones have their own opt-outs: see our guides to [[whitepages-opt-out-guide|Whitepages]], [[spokeo-opt-out-guide|Spokeo]] and [[radaris-opt-out-guide|Radaris]], plus our [[data-broker-opt-out-uk-canada-australia|Canada data broker guide]].
+Many US-based people-search sites also list Canadian names, addresses and numbers. Each has its own opt-out:
+
+- [[whitepages-opt-out-guide|Whitepages]]
+- [[spokeo-opt-out-guide|Spokeo]]
+- [[radaris-opt-out-guide|Radaris]]
+- our [[data-broker-opt-out-uk-canada-australia|Canada data broker guide]] for the rest
+
+Search your name and number in a private browser window afterwards. Google's cached results can lag behind, so check again a few weeks later.
+
+## The order that works
+
+1. Ask your phone company for an unlisted (or new non-published) number.
+2. Submit Canada411's removal form, choosing "I've paid my phone company to be unlisted" if that's true.
+3. Opt out of the main people-search sites.
+4. Re-check in two working days (Canada411) and again in a month (everything else).
 
 ## Your rights under PIPEDA
 
-Canadian organisations covered by PIPEDA must let you access your personal information and challenge its accuracy, and you can withdraw consent in many cases. If a Canadian company won't remove your data, you can complain to the Office of the Privacy Commissioner. See [[canada-pipeda-explained|PIPEDA explained]].
+Canadian organizations covered by PIPEDA must let you access your personal information and challenge its accuracy, and you can withdraw consent in many cases. If a Canadian company won't deal with your data properly, you can complain to the Office of the Privacy Commissioner. See [[canada-pipeda-explained|PIPEDA explained]] and, in Quebec, [[quebec-law-25-privacy-rights-explained|Law 25]], which adds a limited right to de-indexing.
 
 ## Why bother
 
-Name, number and address together let anyone find your door, and give scammers a script. Crime Stoppers tipsters learned that the hard way in 2026 ([[canada-crime-stoppers-tips-leak-1-5-million|the leak]]). Check the breach side of your footprint with a free [[/digital-footprint-checker/|email exposure check]].
+Name, number and address together let anyone find your front door, and give scammers a ready-made script. Crime Stoppers tipsters found out how much that matters in 2026 ([[canada-crime-stoppers-tips-leak-1-5-million|the leak]]). Directories are one source; breaches are another. A free [[/digital-footprint-checker/|email exposure check]] covers the breach side.
 
 === FAQ
 Q: How do I remove my number from Canada411?
-A: Ask your phone company for an unlisted name and number. Cogeco says this removes you from canada411.ca, directory assistance and the White Pages.
-Q: Is an unlisted number free in Canada?
-A: It depends on the provider; some charge a monthly fee. Ask your phone company.
+A: Use the Listing removal form on Canada411's help page. Canada411 says removal from the website takes effect within two working days.
+Q: Does the Canada411 form remove me from 411 directory assistance?
+A: No. Canada411 says it won't affect print directory or directory assistance listings. Ask your phone company for an unlisted number for that.
+Q: How much does an unlisted number cost in Canada?
+A: Bell lists $2 a month plus tax for a non-published listing, and one-time fees may apply. Other providers set their own prices.
+Q: Can I unlist a number that's already in the phone book?
+A: Bell says an existing listed number can't be unlisted until the next directory publication, so a new non-published number is faster.
 Q: Will going unlisted hide my number when I call people?
-A: No. Use *67 per call or ask for permanent Call Display blocking.
+A: No. Dial *67 before a call or ask your provider for permanent Call Display blocking.
 Q: Does it remove me from people-search websites?
-A: No. Contact those sites directly to remove your listing.
+A: No. Those sites have their own opt-out forms.
 
 === SOURCES
+https://www.canada411.ca/help.html?key=terms | Canada411: Help and listing removal
+https://support.bell.ca/Home_phone/Phone_line/How_to_unlist_my_Bell_Home_phone_number | Bell: How to unlist my Bell Home phone number
 https://support.cogeco.ca/hc/en-ca/articles/360059892993-How-do-I-remove-my-name-and-Home-Phone-number-from-the-directory | Cogeco: How do I remove my name and home phone number from the directory?
 
 === RELATED

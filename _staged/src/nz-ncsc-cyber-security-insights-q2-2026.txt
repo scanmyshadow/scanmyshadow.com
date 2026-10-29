@@ -1,8 +1,8 @@
 slug: nz-ncsc-cyber-security-insights-q2-2026
 country: NZ
-title: NZ Cyber Report Q2 2026: 1,129 Incidents, $2.7M Lost, QR Scams Rising
+title: NZ Cyber Report Q2 2026: 1,129 Incidents, $2.7M Lost
 h1: NCSC Cyber Security Insights Q2 2026: 1,129 Incidents, $2.7 Million in Losses
-desc: New Zealand's NCSC logged 1,129 incidents from April to June 2026, with $2.7M in direct losses. Scams and fraud led; unauthorised access caused half the money lost.
+desc: New Zealand's NCSC logged 1,129 incidents from April to June 2026 and $2.7M in direct losses. Scams led; unauthorised access caused half the money lost.
 keywords: ncsc quarterly report q2 2026, nz cyber security insights 2026, ncsc nz incidents, new zealand cyber losses 2026, ncsc scams fraud report, qr code phishing nz
 tags: Statistics|New Zealand|Cybercrime|News
 === TLDR
@@ -73,3 +73,5 @@ nz-parking-meter-qr-code-scam | NZ Parking Meter QR Scams
 nz-fake-job-ads-app-malware-scam | Fake Job Ads With Malware Apps
 nz-netsafe-bank-impersonation-spike-august-2026 | Bank Impersonation Spike (Aug 2026)
 nz-how-to-report-a-scam | How to Report a Scam in NZ
+nz-medimap-attack-patients-marked-deceased | MediMap Attack
+nz-domain-renewal-fake-invoice-billing-scams | Fake Domain Renewal Scams (NZ)

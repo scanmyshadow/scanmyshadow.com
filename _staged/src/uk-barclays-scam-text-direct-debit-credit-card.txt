@@ -1,8 +1,8 @@
 slug: uk-barclays-scam-text-direct-debit-credit-card
 country: UK
-title: Barclays Scam Texts: “Direct Debit Set Up” and “Card Approved”
+title: Barclays Scam Texts: Fake Direct Debit and Card Approved
 h1: The Barclays “Direct Debit Set Up” and “Credit Card Approved” Texts Are Scams. Here's the Trick
-desc: Fake Barclays texts say a direct debit was set up or a £1,500 card approved, and give a number to call. That number reaches a scammer. How to spot and report it.
+desc: Fake Barclays texts say a direct debit was set up or a £1,500 card approved, with a number to call. That number reaches a scammer. How to spot and report it.
 keywords: barclays scam text, barclays direct debit scam text, barclays credit card approved text scam, fake barclays text message, report barclays phishing
 tags: Bank Scams|Text Scams|United Kingdom|What To Do
 === TLDR

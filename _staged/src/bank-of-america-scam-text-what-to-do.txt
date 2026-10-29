@@ -11,11 +11,11 @@ Fake Bank of America texts claim your account is locked, a Zelle payment is pend
 === BODY
 ## What the fake texts say
 
-The messages change weekly, but they rhyme. Common versions:
+The wording changes constantly, but the themes repeat:
 
-- “BofA Alert: Unusual activity detected. Did you attempt a $1,249.00 Zelle payment? Reply YES or NO.”
-- “Your account has been temporarily locked. Verify your identity at [link].”
-- “A new device signed in. If this wasn't you, call 844-…”
+- **"Unusual activity"** on your account, or a large **Zelle payment** waiting for your approval;
+- your account is **locked** until you "verify" through a link;
+- a **new device** has signed in, with a number to call "if this wasn't you.
 
 The goal is either a fake login page or a phone call with a fake “fraud specialist.” The second is more dangerous, because the person on the phone can talk you into moving money to a “safe account” or reading out a code.
 
@@ -27,10 +27,12 @@ According to [Bank of America's report suspicious activity page](https://web.ban
 - **Emails or texts using Bank of America's name:** forward to **abuse@bofa.com**;
 - **If you responded** to a suspicious call, text or email: call the number on your card or statement, not any number in the message;
 - **Suspected fraud on ATM, debit, check or Zelle:** log in to Online Banking or call 800-432-1000.
+- **Consumer credit card fraud:** 800-732-9194.
+- **Security issues with a Bank of America product:** email security@bofa.com.
 
 ## The “reply YES or NO” trick
 
-Some real bank alerts do ask you to reply YES or NO. Scammers copy the format. If you reply NO (“that wasn't me!”), the scammer calls back pretending to be the fraud team, already knowing you're worried. The safest move with any alert: open the Bank of America app yourself or call the number on your card. If the alert was real, you'll see it there.
+Banks do send genuine fraud alerts, and scammers copy the format. If you reply NO (“that wasn't me!”), the scammer calls back pretending to be the fraud team, already knowing you're worried. The safest move with any alert: open the Bank of America app yourself or call the number on your card. If the alert was real, you'll see it there.
 
 ## Never give these to anyone who contacted you
 
@@ -51,7 +53,7 @@ Zelle payments are hard to claw back once sent; see [[zelle-cash-app-venmo-scams
 
 ## Why did they text you?
 
-Scammers send bank texts to huge lists. Many recipients don't even bank with BofA; it's a numbers game. Your number likely came from a breach or data broker. A free [[/digital-footprint-checker/|email exposure check]] shows whether your details are circulating, and our guide to [[us-bank-impersonation-scams-what-to-know|US bank impersonation scams]] covers the wider pattern.
+Scammers send bank texts to huge lists. Many recipients don't even bank with BofA; it's a numbers game. The lists are built from breaches, data brokers and plain random dialling. A free [[/digital-footprint-checker/|email exposure check]] shows whether your details are circulating, and our guide to [[us-bank-impersonation-scams-what-to-know|US bank impersonation scams]] covers the wider pattern.
 
 === FAQ
 Q: How do I report a fake Bank of America text?

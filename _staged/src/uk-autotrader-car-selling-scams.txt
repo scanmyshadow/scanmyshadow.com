@@ -1,64 +1,108 @@
 slug: uk-autotrader-car-selling-scams
 country: UK
-title: Selling a Car on Autotrader? The Scams Aimed at Sellers
-h1: Selling Your Car on Autotrader: Fake Buyers, Deposit Requests and Phishing to Watch For
-desc: Scammers use the Autotrader name to promise buyers, ask sellers for deposits and phish logins. Autotrader's own warnings and how to sell safely.
-keywords: autotrader scam, autotrader seller scam, autotrader phishing email, car selling scam uk, fake car buyer deposit scam
+title: Selling a Car on Autotrader? 7 Scams Aimed at Sellers
+h1: Selling Your Car on Autotrader: Fake Buyers, Overpayments, "Dirty Oil" Tricks and Phishing
+desc: Autotrader's warnings plus a July 2026 Trading Standards alert: canvassers, deposits, overpayments, fake shipping fees, engine tampering and phishing.
+keywords: autotrader scam, autotrader seller scam, car selling scam uk, dirty oil car scam, autotrader phishing email, fake car buyer overpayment scam
 tags: Marketplace Scams|Motoring|United Kingdom|What To Do
 === TLDR
-Autotrader warns sellers about companies that promise ready buyers while using its name, texts and emails asking for a deposit to “secure” a sale or appointment, fake Autotrader websites, and phishing emails that steal your login. Autotrader says it will never ask for your login details or personal information by email, or ask you to verify your account via a link. Forward suspicious emails to customersecurity@autotrader.co.uk.
+Sellers on Autotrader face **phishing** texts and emails, **canvassers** promising buyers for a fee, **deposit requests**, **overpayment** tricks, fake **overseas shipping fees** and pressure to buy dodgy **vehicle history checks**. In July 2026, Warwickshire Trading Standards also warned of gangs posing as buyers who **tamper with the engine** mid-viewing to haggle the price down. Autotrader says it will never ask for your login details by email. Only hand over keys once money has **cleared in your own bank account**. Forward phishing to **customersecurity@autotrader.co.uk**.
 
 === BODY
 ## The scams sellers face
 
-From [Autotrader's seller advice](https://www.autotrader.co.uk/sell-my-car/advice/why-you-should-know-who-your-buyer-is):
+Autotrader's [scam guide for sellers](https://www.autotrader.co.uk/sell-my-car/advice/how-to-spot-and-avoid-potential-scams) (updated July 2026) and its page on [knowing your buyer](https://www.autotrader.co.uk/sell-my-car/advice/why-you-should-know-who-your-buyer-is) describe these:
 
-- **Buyer-promise scams**: a company contacts you saying it has buyers lined up or will buy your car, sometimes using the Autotrader name to look legitimate.
-- **Deposit scams**: texts or emails asking you to pay a deposit to secure a sale or an inspection appointment.
-- **Fake websites**: copies of Autotrader that collect your information.
-- **Phishing emails**: messages that look like Autotrader and link to a copycat login page.
+| Scam | How it works |
+|---|---|
+| **Phishing and smishing** | Texts or emails that look like Autotrader ask you to "verify" your account or log in through a link to a fake site |
+| **Canvassers** | Callers say a buyer is waiting if you pay a fee to list elsewhere. Autotrader: they "just want your money" |
+| **Deposit requests** | Texts or emails asking you to pay a deposit to secure a sale or an appointment |
+| **Overpayment** | A "buyer" pays too much via PayPal, asks you to refund the difference another way, then cancels the original payment |
+| **Fake shipping fee** | An "exporter" for an overseas buyer asks you to pay shipping or insurance up front, then vanishes |
+| **Fake history checks** | A buyer insists you buy a vehicle history report from a website they choose, which steals your card details |
+| **Unsolicited buyers** | Companies promising to buy your car or claiming to have buyers lined up |
 
-The deposit one is the strangest: you're the seller, and somehow you end up paying. That alone should set off alarm bells.
+Notice the pattern: in most of these, the **seller** ends up paying. If you're selling a car and someone wants money from you, that's the whole tell.
+
+## The "dirty oil" viewing scam
+
+On 14 July 2026, [Warwickshire Trading Standards](https://www.warwickshire.gov.uk/news/article/7905/trading-standards-warns-of-car-buyer-scam-targeting-private-sellers-) warned about groups of three or more posing as buyers:
+
+1. They ask for a test drive and to look through the paperwork and service history.
+2. One distracts the seller while another opens the bonnet and **tampers with electrical cables** or **pours oil** over the engine or into the cooling system.
+3. The car won't start, shows warning lights or seems to leak oil.
+4. They announce "serious faults" and push the price down, in some cases by thousands of pounds.
+
+The council said older sellers may be targeted; in one case the victim was asked their age on the first call. Its advice is to sell from home or a busy place you know, have someone with you, and never leave the car unattended with "buyers". Councillor Robert Gisbourne's summary: "Don't let go of anything until the money is in your bank."
 
 ## What Autotrader never does
 
-- ask for your login details or personal information by email;
-- ask you to verify your account by clicking a link.
+Autotrader "will never ask you for your login details or other personal information in an email," and won't ask you to verify your account by clicking a link. Log in only by typing the Autotrader address yourself.
 
-## Selling safely
+## Selling safely: the checklist
 
-- Ignore unsolicited “we have a buyer” companies.
-- Never pay a deposit to sell.
-- Log in only by typing the Autotrader address yourself.
+**Before you list**
+- Use Autotrader's free option to **hide your phone number** from buyers.
 - Use a strong, unique password ([[strong-password-examples-and-ideas|ideas]]).
-- Take payment by bank transfer and **confirm it has actually cleared** in your banking app before handing over keys. Fake payment screenshots and emails are common across marketplaces ([[zelle-business-account-upgrade-scam-marketplace|the US version]]).
-- Meet buyers in daylight, in a public place or with someone else present.
+- Ignore unsolicited "we have a buyer" calls and never pay a fee or deposit to sell.
+
+**At the viewing**
+- **Show the V5C logbook in person only.** Autotrader warns never to send a photo of it, because the reference number can be misused.
+- Have a friend or family member with you, and keep groups small.
+- Check the car over before the buyer arrives, so you know its condition.
+- Watch any "mechanic" the buyer brings.
+
+**On the test drive**
+- Check the buyer's **driving licence** and confirm they're **insured**.
+- Go with them. Keep your keys, and **keep the keyless fob** with you.
+
+**Taking payment**
+- Autotrader describes **bank transfer** as fast and safe. Hand over the keys only when the money shows as cleared in your own banking app, not on a screenshot or email.
+- If you take cash, meet at a bank so the notes can be checked.
+- Autotrader's overpayment example runs through PayPal, so stick to bank transfer.
+- You never need to give your card number, security code or expiry date to receive a bank transfer.
+- Refuse any request for up-front shipping or insurance fees.
+
+**After the sale**
+- Tell the **DVLA** you've sold the car straight away. See [[dvla-scam-what-to-know|DVLA scams]] for the fake DVLA messages that follow.
 
 ## If you've been caught
 
-If you paid a deposit, contact your bank or **159** and report it to [Report Fraud](https://www.reportfraud.police.uk/). Forward phishing emails to **customersecurity@autotrader.co.uk** or call Autotrader's Customer Security Team on **0330 303 9001**.
+- **Paid money or shared bank details?** Call your bank now, or dial **159** to reach it securely.
+- **Report fraud** to [Report Fraud](https://www.reportfraud.police.uk/).
+- **Phishing emails**: forward to **report@phishing.gov.uk** and to **customersecurity@autotrader.co.uk**.
+- **Scam texts**: forward free to **7726**.
+- **Autotrader's Customer Security Team**: **0330 303 9001**. Autotrader says its specialist team works seven days a week.
+- **Engine tampering at a viewing**: report it to Trading Standards through the Citizens Advice consumer helpline on **0808 223 1133**.
 
 ## Related
 
-See [[online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted|marketplace scam rules]] and [[uk-facebook-van-seller-15-aliases-clocked-mileage|the Facebook van seller with 15 aliases]]. Car listings show your phone number and sometimes your location; a free [[/digital-footprint-checker/|email exposure check]] covers the breach side.
+See our [[online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted|marketplace scam rules]] and [[uk-facebook-van-seller-15-aliases-clocked-mileage|the Facebook van seller with 15 aliases]]. Car listings expose your phone number and often your area; a free [[/digital-footprint-checker/|email exposure check]] shows the breach side of your footprint.
 
 === FAQ
 Q: Will Autotrader ask me to pay a deposit to sell my car?
-A: Treat deposit requests to secure a sale or appointment as scams, as Autotrader warns.
+A: No. Treat any request for a deposit to secure a sale or appointment as a scam, as Autotrader warns.
 Q: Does Autotrader email asking for login details?
-A: No. Autotrader says it will never ask for login details or personal information by email.
-Q: How do I report a fake Autotrader email?
-A: Forward it to customersecurity@autotrader.co.uk or call 0330 303 9001.
+A: No. Autotrader says it will never ask for your login details or other personal information in an email.
+Q: What is the dirty oil car scam?
+A: Fake buyers distract the seller, tamper with the engine or pour oil on it, then claim the car is faulty to push the price down. Warwickshire Trading Standards warned about it in July 2026.
+Q: Should I send a buyer a photo of my V5C logbook?
+A: No. Autotrader says to show it in person only, because the reference number can be misused.
 Q: How do I know a buyer has paid?
-A: Check that the money has cleared in your own banking app before handing over the car.
+A: Check that the money has cleared in your own banking app before handing over keys. Screenshots and emails can be faked.
+Q: How do I report a fake Autotrader email?
+A: Forward it to customersecurity@autotrader.co.uk and report@phishing.gov.uk, or call Autotrader's Customer Security Team on 0330 303 9001.
 
 === SOURCES
+https://www.autotrader.co.uk/sell-my-car/advice/how-to-spot-and-avoid-potential-scams | Autotrader: How to spot and avoid potential scams (updated July 2026)
 https://www.autotrader.co.uk/sell-my-car/advice/why-you-should-know-who-your-buyer-is | Autotrader: Why you should know who your buyer is
+https://www.warwickshire.gov.uk/news/article/7905/trading-standards-warns-of-car-buyer-scam-targeting-private-sellers- | Warwickshire County Council: Trading Standards warns of car buyer scam targeting private sellers (14 July 2026)
 https://www.reportfraud.police.uk/ | Report Fraud (UK)
 
 === RELATED
 online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted | Marketplace Scam Rules
 uk-facebook-van-seller-15-aliases-clocked-mileage | Facebook Van Seller With 15 Aliases
-what-is-fake-check-scams | Fake Check Scams
-is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe?
 dvla-scam-what-to-know | DVLA Scams
+is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe?
+what-is-fake-check-scams | Fake Check Scams

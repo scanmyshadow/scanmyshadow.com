@@ -1,65 +1,107 @@
 slug: uk-companies-house-check-before-paying
 country: UK
-title: Check a Company on Companies House Before You Pay (Free)
+title: Companies House Check Before You Pay: 5-Minute Guide
 h1: How to Check a UK Company on Companies House Before You Pay a Penny
-desc: Builders, landlords, investment firms and online shops: a free Companies House search shows directors, filing history and red flags. What to look for.
-keywords: companies house check, check a company uk, companies house search before paying, is this company legit uk, company director check
+desc: A free Companies House search shows status, directors, filings and dissolved firms. The red flags, what director ID checks change, and what it can't prove.
+keywords: companies house check, check a company uk, companies house search before paying, is this company legit uk, dissolved company search, companies house identity verification
 tags: Business Checks|Scam Prevention|United Kingdom|How To
 === TLDR
-Companies House's free “Find and update company information” service shows a company's directors, registered address, filing history and status. Before paying a builder, landlord's company, online shop or investment firm, check it exists, is active, has filed accounts, and that the names and address match what you were told. A company being registered doesn't make it honest, but a missing, dissolved or brand-new company is a clear warning.
+Companies House's free **Find and update company information** service shows a company's **status, directors, registered address and filing history**, and lets you search **dissolved companies** too. Before paying a builder, letting agent, online shop or investment firm, check the company **exists, is active, isn't brand new, files on time**, and that the names and address match what you were told. Since **18 November 2025**, directors have to **verify their identity** with Companies House, which makes fake directors harder. But a registered company isn't automatically an honest one.
 
 === BODY
-## What the register shows
+## Why bother checking
 
-From [Companies House's own blog](https://companieshouse.blog.gov.uk/2019/01/29/checking-the-public-company-record/):
+Companies House's own blog puts it plainly: "It's quite easy for someone to say 'I'm a company director'" ([Companies House blog](https://companieshouse.blog.gov.uk/2019/01/29/checking-the-public-company-record/)). Checking takes five minutes. Chasing a deposit from a company that never existed takes considerably longer.
 
-- directors' names and service addresses;
-- filing history, including accounts, confirmation statements and charges;
-- other business activity.
+## What the free search shows
 
-It also notes: “It's quite easy for someone to say ‘I'm a company director',” which is precisely why you check. The search now lives on GOV.UK as “Find and update company information.”
+The service lives at [find-and-update.company-information.service.gov.uk](https://find-and-update.company-information.service.gov.uk/). According to [ACCA's summary of the service](https://www.accaglobal.com/gb/en/technical-activities/uk-tech/in-practice-ezine-archive/in-practice-archive_2023/June/Companies-House-Find-update-service.html), it offers:
 
-## Five-minute check
+- **advanced company searches**;
+- **dissolved company searches** (records of companies dissolved since January 2010, kept for 20 years);
+- **company snapshot reports**;
+- an alphabetical name search.
 
-1. **Search the exact company name** and the company number if you have it.
-2. **Status**: is it “Active”? Avoid “Dissolved,” “Liquidation” or “Proposal to strike off.”
-3. **Age**: incorporated last month? Be careful with big payments.
+From the Companies House blog, each record shows **directors' names and service addresses**, the **filing history** (accounts, confirmation statements, charges) and other business activity.
+
+## The five-minute check
+
+1. **Search the exact name** and the **company number** if it's on the invoice or website. A company number that doesn't match the name is a bad sign.
+2. **Status**: is it "Active"? Walk away from "Dissolved," "Liquidation" or "Proposal to strike off."
+3. **Age**: incorporated last month? Be careful with big payments up front.
 4. **People**: do the directors match the person you're dealing with?
-5. **Filing history**: are accounts and confirmation statements up to date? Lots of overdue filings is a red flag.
-6. **Address**: does the registered office match the address on their website or invoice?
+5. **Filing history**: are accounts and confirmation statements up to date? A string of overdue filings is a red flag.
+6. **Address**: does the registered office match the address on the website or invoice?
+7. **Dissolved search**: if the name isn't on the live register, search dissolved companies. A builder trading under a company that closed two years ago is telling you something.
 
-## What it doesn't prove
+## Red flags at a glance
 
-A registration isn't a seal of approval. Scammers register companies too, and some clone real ones. So also:
+| What you see | What it can mean |
+|---|---|
+| No match for the name or number | The company may not exist, or you have the wrong details |
+| Dissolved or proposal to strike off | The company is closed or being closed |
+| Incorporated in the last few weeks | No track record yet; keep deposits small |
+| Overdue accounts or confirmation statements | Poorly run, or abandoned |
+| Directors don't match who you're dealing with | Possible impersonation or a "clone" of a real firm |
+| Registered office is a different address from the invoice | Ask why before paying |
+
+## What changed: director ID verification
+
+Under the new company law reforms, **identity verification** became mandatory from **18 November 2025**, according to [Howard Kennedy's summary](https://insights.howardkennedy.com/post/102kz33/companies-house-announces-id-verification-rollout-from-18-november-2025):
+
+- **new directors** must verify their identity to set up a company or be appointed;
+- **existing directors** must confirm verification in their company's **next confirmation statement**;
+- people can verify through **GOV.UK One Login** (free) or through an **Authorised Corporate Service Provider**.
+
+For you as a customer, this means a director's name on the register is more likely to belong to a real, verified person than it used to be. It doesn't vouch for their workmanship, their honesty or whether the person emailing you is actually them.
+
+## What a clean record doesn't prove
+
+A registration isn't a seal of approval. Scammers register companies too, and some "clone" real firms by copying their name and number. So also:
 
 - check investment firms on the [[uk-fca-firm-checker-clone-firms-fca-impersonation|FCA Firm Checker]];
-- check reviews beyond the first page of results;
+- read reviews beyond the first page of results;
 - for property, verify ownership with HM Land Registry ([[uk-spareroom-flatshare-rental-scams|as SpareRoom advises]]);
-- never pay by bank transfer to a personal account for a business invoice.
+- call the company on a number you found yourself, not the one in the email or invoice;
+- never pay a business invoice into a personal bank account.
 
-## Directors' own privacy
+Doorstep builders deserve extra care. A roofing gang that targeted older homeowners was jailed for 63 years in total ([[uk-roofing-gang-jailed-63-years-1m-fraud-older-homeowners|the case]]).
 
-If you're a director, only your month and year of birth are public, and you can use a service address instead of your home. If your home address is on old filings, you may be able to apply to have it removed. See our [[uk-192-com-remove-your-details|192.com guide]], since people-finder sites copy Companies House data.
+## If you're a director: your own privacy
 
-A free [[/digital-footprint-checker/|email exposure check]] covers the breach side of your footprint.
+The register shows a lot about directors, and people-finder sites copy it. The government's [Companies House changes page](https://changestoukcompanylaw.campaign.gov.uk/protecting-your-information/) lists what you can now hide:
+
+- **since 27 January 2025**: your **home address**, where it was used as a registered office, in historical documents;
+- **since 21 July 2025**: **residential addresses** elsewhere on the register in most cases, **day of birth** on documents filed before 10 October 2015, **signatures** and **business occupation**.
+
+Since 10 October 2015, only the **month and year** of birth have been shown publicly. If your details have spread beyond the register, see our [[uk-192-com-remove-your-details|192.com removal guide]].
+
+A free [[/digital-footprint-checker/|email exposure check]] covers the other side of your footprint: which breaches your email address appears in.
 
 === FAQ
 Q: Is a Companies House search free?
-A: Yes. The Find and update company information service on GOV.UK is free.
+A: Yes. The Find and update company information service on GOV.UK is free to search.
 Q: Does being on Companies House mean a company is legitimate?
-A: No. It shows the company is registered, not that it's honest. Use it alongside other checks.
+A: No. It shows the company is registered, not that it's honest. Use it alongside the FCA register, reviews and your own checks.
 Q: What are the red flags on Companies House?
-A: Dissolved or strike-off status, very recent incorporation, overdue filings and directors who don't match who you're dealing with.
+A: No match for the name or number, dissolved or strike-off status, very recent incorporation, overdue filings, and directors who don't match the person you're dealing with.
+Q: Can I check a company that has closed?
+A: Yes. The service includes a dissolved company search covering companies dissolved since January 2010.
+Q: Do company directors have to verify their identity now?
+A: Yes. Identity verification became mandatory from 18 November 2025 for new directors, and existing directors confirm it in their next confirmation statement.
 Q: Can company directors hide their home address?
-A: Directors can use a service address, and only month and year of birth are public.
+A: Directors can use a service address, and since July 2025 they can apply to suppress residential addresses elsewhere on the register in most cases.
 
 === SOURCES
 https://companieshouse.blog.gov.uk/2019/01/29/checking-the-public-company-record/ | Companies House blog: Checking the public company record
 https://find-and-update.company-information.service.gov.uk/ | Companies House: Find and update company information
+https://www.accaglobal.com/gb/en/technical-activities/uk-tech/in-practice-ezine-archive/in-practice-archive_2023/June/Companies-House-Find-update-service.html | ACCA: Companies House Find and update service
+https://insights.howardkennedy.com/post/102kz33/companies-house-announces-id-verification-rollout-from-18-november-2025 | Howard Kennedy: Companies House ID verification from 18 November 2025
+https://changestoukcompanylaw.campaign.gov.uk/protecting-your-information/ | GOV.UK: Changes to UK company law, protecting your information
 
 === RELATED
 scams-targeting-small-businesses-sellers-and-investors | Scams Targeting Small Businesses
 uk-fca-firm-checker-clone-firms-fca-impersonation | FCA Firm Checker and Clone Firms
 uk-roofing-gang-jailed-63-years-1m-fraud-older-homeowners | Roofing Gang Jailed
 is-this-website-a-scam-how-to-check | Is This Website a Scam?
-what-gst-company-registration-exposes-publicly | What Company Registration Exposes
+uk-192-com-remove-your-details | Remove Your Details From 192.com

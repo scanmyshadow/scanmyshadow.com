@@ -1,71 +1,106 @@
 slug: nz-domain-renewal-fake-invoice-billing-scams
 country: NZ
-title: Fake Domain Renewal and Invoice Scams Are Rising in NZ: Netsafe
-h1: "Your Domain Is Expiring": Netsafe Warns of Unauthorised Billing and Fake Website Scams
-desc: Netsafe says Kiwis lost $58,744 to unauthorised billing scams posing as domain and hosting providers in early 2026, and fake website scam reports jumped 35%. How to spot them.
-keywords: domain renewal scam nz, fake invoice scam new zealand, unauthorised billing scam, netsafe warning 2026, fake hosting renewal email, small business scam nz
+title: Fake Domain Renewal and Invoice Scams in NZ (2026)
+h1: "Your Domain Is Expiring": How to Spot Fake .nz Renewal Emails and Unauthorised Billing Scams
+desc: Kiwis lost $58,744 to fake domain and hosting invoices in early 2026, and the Domain Name Commission warned .nz holders of fake registrar emails. Spot them.
+keywords: domain renewal scam nz, fake domain invoice nz, .nz phishing email registrar, unauthorised billing scam, netsafe warning 2026, domain name commission warning, irpo nz
 tags: Business Scams|New Zealand|Phishing|News
 === TLDR
-In **April 2026**, Netsafe warned that scammers are now copying the **systems** that make businesses trustworthy: **domain renewals, hosting invoices, account renewals and login pages**. **Unauthorised billing scams** took **$58,744** so far in 2026 (over **$26,500** in January alone); **fake website** scam reports jumped **35%** from February to March. If you get an urgent "renew your domain" email, **log in to your provider directly**.
+In early 2026, Netsafe said **unauthorised billing scams**, where fraudsters pose as **domain, hosting or trusted providers**, had taken **$58,744** from Kiwis, over **$26,500** of it in January alone, and **fake website** scam reports jumped **35%** from February to March. In March, the **Domain Name Commission** told .nz registrars to warn customers about **phishing emails impersonating registrars**, asking people to renew via a link or pay a **fake invoice**. Never renew from an email link: **log in to your registrar directly**. Individuals can also hide their contact details from the public .nz WHOIS with the **IRPO** privacy option.
 
 === BODY
 ## The numbers
 
-From [Newstalk ZB](https://www.newstalkzb.co.nz/news/national/netsafe-urges-extra-checks-as-wave-of-sophisticated-online-scams-emerges-on-the-internet) (1 April 2026):
+From [Newstalk ZB](https://www.newstalkzb.co.nz/news/national/netsafe-urges-extra-checks-as-wave-of-sophisticated-online-scams-emerges-on-the-internet) (1 April 2026), reporting Netsafe's figures:
 
-| Scam | 2026 so far |
+| Scam | 2026 so far (to 1 April) |
 |---|---|
 | **Unauthorised billing** (posing as domain, hosting or trusted providers) | **$58,744** lost |
 | Of which in **January** | **$26,500+** |
-| **Fake website** scams | $5,862 lost; reports **up 35%+** Feb→Mar |
+| **Fake website** scams | $5,862 lost; reports **up 35%+** February to March |
 | Total | Almost **$65,000** |
 
 ## What Netsafe said
 
-Alex Yi, digital harms services manager: "Scammers are no longer just pretending to be organisations." They're copying **domain names, websites, invoices and account renewals**: the things that normally make an organisation look legit.
+Alex Yi, Netsafe's digital harms services manager: "Scammers are no longer just pretending to be organisations." They're copying **domain names, websites, invoices and account renewals**, which are the very things that normally make an organisation look legitimate.
 
-Three types:
+Netsafe described three types:
 
-1. **Unauthorised billing**: fake domain or hosting renewals, invoices from "providers."
+1. **Unauthorised billing**: fake domain or hosting renewals and invoices from "providers."
 2. **Fake websites and login pages** that steal logins and payments.
-3. **Multi-step** scams: a social ad leads to a realistic site, then a phone or email follow-up closes the deal.
+3. **Multi-step scams**: a social media ad leads to a realistic site, then a phone call or email closes the deal.
 
-Domain renewal emails are perfect bait. Most people renew once a year and can't remember who their registrar is. Scammers are counting on that fog.
+Domain renewal emails make perfect bait. Most people renew once a year, by which time nobody remembers who the registrar is. Scammers are counting on that fog.
 
-## How to spot it
+## The Domain Name Commission's warning
 
-- **Urgent** "renew now or lose your domain/website/email" messages
+On 6 March 2026, [Domain Compare reported](https://domaincompare.nz/blog/dnc-warning/) that the **Domain Name Commission (DNC)** had told all .nz registrars to watch for **phishing email campaigns impersonating registrars** and to pass the warning on to domain holders. Several registrars had reported the emails. They:
+
+- appear to come from a **legitimate registrar**;
+- ask .nz holders to **renew** their domain by clicking a link;
+- may ask you to **pay a fraudulent invoice**;
+- aim to collect **payment or login details**.
+
+The DNC's advice: "Always think twice before clicking links in emails, and check the email address of the sender," and "contact your registrar for them to confirm whether it's genuine or not."
+
+## The paper version: "invoices" that aren't
+
+Not every renewal scam is a phishing link. The DNC has also [warned about mailouts](https://dnc.org.nz/news/586) from an outfit trading as "Domain Names NZ," which it said wasn't a known authorised registrar. Its letters, printed to look like an invoice or renewal notice, offered to register a version of your existing name. The DNC pointed out that authorised .nz registrars aren't allowed to specify a particular domain name in this way, and that "doing nothing will not affect their current domain name."
+
+So if a letter or email looks like an invoice for a domain you don't recognise, or comes from a company you've never dealt with, you can simply ignore it.
+
+## How scammers find you: WHOIS
+
+The DNC's warning notes that .nz contact details are **publicly visible through WHOIS** unless you've applied privacy protection, and "scammers can use this to get your contact email for phishing attempts."
+
+The fix, if you're an individual, is the **Individual Registrant Privacy Option (IRPO)**. According to the [DNC](https://dnc.org.nz/irpo):
+
+- it's for .nz names **registered to individuals** not involved in significant trade;
+- it hides your **address, phone number and email** from public WHOIS, and people can still contact you through a message form;
+- you ask your **registrar** to apply it, then check the WHOIS lookup to confirm.
+
+## How to spot a fake renewal
+
+- **Urgent** "renew now or lose your website and email" messages
 - An **invoice** from a provider you **don't recognise**, or for a service you don't use
 - **Links** to log in or pay
-- Slightly **wrong web addresses**
+- A **sender address** that doesn't match your registrar's real domain
+- **Slightly wrong web addresses** on the payment page
 
 ## Netsafe's advice
 
 - Be wary of **urgent** requests to renew domains, pay invoices or update details.
-- **Don't click links** in unsolicited emails; go to the official site.
+- **Don't click links** in unsolicited emails; go to the official site yourself.
 - **Check web addresses** carefully.
-- Turn on **MFA** on important accounts.
-- **Verify** payment requests independently.
-- When something seems legit but **unexpected**, check through a trusted channel.
+- Turn on **multi-factor authentication** for important accounts.
+- **Verify** payment requests independently, through a channel you trust.
 
-## For small businesses
+## For small businesses: a 10-minute fix
 
-- Keep a simple list: **registrar, host, renewal dates, how they bill you**.
+- Keep a simple list: **registrar, host, renewal dates and how each bills you**.
 - Route all invoices to **one person** who checks them against that list.
-- Never pay from an email link.
+- Never pay from an email link; log in to the provider instead.
+- Turn on MFA for your registrar account, because a stolen login can mean a stolen domain ([[how-to-recover-a-hijacked-domain|how to recover one]]).
 
-Australia has the same problem: see [[australia-business-scam-alerts-fake-audit-invoice-emails|fake audit and invoice emails]]. A free [[/digital-footprint-checker/|exposure check]] shows if business emails are in breach data.
+Australia has the same problem: see [[australia-business-scam-alerts-fake-audit-invoice-emails|fake audit and invoice emails]]. Phishing lists are often built from breached email addresses. A free [[/digital-footprint-checker/|exposure check]] shows if an email address is in breach data.
 
 === FAQ
 Q: What are unauthorised billing scams?
-A: Scams where fraudsters pose as domain name providers, hosting services or trusted organisations to collect payments.
+A: Scams where fraudsters pose as domain name providers, hosting services or other trusted organisations to collect payments.
 Q: How much have Kiwis lost to unauthorised billing scams in 2026?
-A: Netsafe said $58,744 so far in 2026 at the start of April, including over $26,500 in January.
-Q: How do I check if a domain renewal email is real?
-A: Don't click the link. Log in to your domain provider directly and check your renewal date there.
+A: Netsafe said $58,744 by the start of April 2026, including over $26,500 in January.
+Q: Is that .nz domain renewal email real?
+A: Don't click the link. Log in to your registrar directly or contact them to confirm. The Domain Name Commission warned in March 2026 about phishing emails impersonating registrars.
+Q: What happens if I ignore a domain "invoice" letter from a company I don't know?
+A: The DNC has said that doing nothing will not affect your current domain name.
+Q: How do I hide my details from the .nz WHOIS?
+A: If the domain is registered to you as an individual and isn't used for significant trade, ask your registrar to apply the Individual Registrant Privacy Option (IRPO).
 
 === SOURCES
 https://www.newstalkzb.co.nz/news/national/netsafe-urges-extra-checks-as-wave-of-sophisticated-online-scams-emerges-on-the-internet | Newstalk ZB: Netsafe urges extra checks as wave of sophisticated scams emerges (1 Apr 2026)
+https://domaincompare.nz/blog/dnc-warning/ | Domain Compare: Domain Name Commission warns of rising phishing scams (6 Mar 2026)
+https://dnc.org.nz/irpo | Domain Name Commission: Individual Registrant Privacy Option
+https://dnc.org.nz/news/586 | Domain Name Commission: Domain Names NZ mailouts
 
 === RELATED
 australia-business-scam-alerts-fake-audit-invoice-emails | Fake Audit and Invoice Emails (AU)

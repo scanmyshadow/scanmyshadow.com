@@ -2,7 +2,7 @@ slug: australia-oaic-complaint-how-to
 country: AU
 title: How to Make a Privacy Complaint to the OAIC (Step by Step)
 h1: How to Make a Privacy or Data Breach Complaint to the OAIC
-desc: Complain to the company first, wait 30 days, check if AFCA or another scheme applies, then lodge in writing with the OAIC. A simple walkthrough with a checklist.
+desc: Complain to the company first, wait 30 days, check if AFCA or another scheme applies, then lodge in writing with the OAIC. A simple walkthrough and checklist.
 keywords: oaic complaint, how to make a privacy complaint australia, data breach complaint oaic, lodge privacy complaint, oaic complaint form, privacy complaint against company australia
 tags: Privacy Rights|Australia|How To|Data Breaches
 === TLDR

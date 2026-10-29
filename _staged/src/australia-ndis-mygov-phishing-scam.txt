@@ -1,69 +1,106 @@
 slug: australia-ndis-mygov-phishing-scam
 country: AU
-title: NDIS Accounts Accessed Through myGov Phishing: What Participants Should Do
-h1: Scammers Used myGov to Get Into NDIS Accounts: How to Protect Your Plan
-desc: In July 2026 the NDIA said criminals accessed some NDIS accounts via myGov after phishing participants. The NDIS never asks for personal details by SMS. What to check.
-keywords: ndis scam, ndis mygov phishing, ndis account hacked, ndis scam text, ndis plan fraud, ndis participant scam warning
+title: NDIS Accounts Hit via myGov Phishing: What to Do
+h1: Scammers Used myGov to Get Into NDIS Accounts: How to Protect Your Plan in 2026
+desc: In July 2026 the NDIA said phished myGov logins were used to access some NDIS accounts. What to check in your plan, and why passkeys beat passwords.
+keywords: ndis scam, ndis mygov phishing, ndis account hacked, ndis scam text, ndis plan fraud, mygov passkey, ndis participant scam warning
 tags: Account Takeover|Australia|Government|News
 === TLDR
-On **27 July 2026**, the NDIA said cyber criminals **used myGov to access some NDIS accounts**, through **phishing** and by persuading people to **hand over sign-in details**. The NDIS "**will never ask for your personal details by SMS**." Participants, nominees and carers should **check plan funds for payments you didn't request**, turn on **MFA**, and never share codes. NDIS: **1800 800 110**; IDCARE: **1800 595 160**.
+On **27 July 2026**, the NDIA said cyber criminals **used phishing to obtain individual myGov credentials and access some NDIS accounts**. It wasn't described as a break-in to NDIA systems; people were tricked into handing over sign-in details. The NDIA hasn't said how many accounts or whether plan funds were taken. Participants, nominees and carers should **check plan funds, NDIS payments and bank accounts**, switch myGov to a **passkey**, and never share codes. The NDIS "**will never ask for your personal details by SMS**." NDIS: **1800 800 110**. Services Australia scams helpdesk: **1800 941 126**. IDCARE: **1800 595 160**.
 
 === BODY
 ## What happened
 
 From the [NDIS news update](https://www.ndis.gov.au/news/11611-phishing-scams) (27 July 2026):
 
-- Criminals accessed **some NDIS accounts through myGov**.
-- They got in via **phishing**, and by **persuading people to voluntarily give up sign-in details**.
-- The NDIA is working with **Services Australia**, which runs myGov.
+- criminals accessed **some NDIS accounts through myGov**;
+- they got in through **phishing**, and by **persuading people to give up their sign-in details**;
+- the NDIA is working with **Services Australia**, which runs myGov.
 
-## Why NDIS accounts are targeted
+[abilityNEWS](https://www.abilitynews.org/p/ndia-hacked) quoted the agency: "Cyber criminals used phishing to obtain individual myGov credentials and access some NDIS accounts." It noted the alert "does not say how many accounts were accessed, what information was viewed or whether plan funds were taken," and that the NDIA is adding security measures and will contact people where it finds evidence of compromise.
 
-NDIS plans hold **funds for supports**. A scammer with access can try to claim for **services that were never provided**. Participants may also rely on carers or nominees to manage accounts, which gives scammers more people to trick.
+## Why NDIS accounts are a target
 
-## What the NDIS never does
+NDIS plans hold **funding for supports**. Someone with access could try to claim for services that were never delivered. Many participants rely on **carers or nominees** to manage their accounts, which gives scammers more people to trick.
+
+## The bigger myGov problem
+
+This isn't a one-off. According to [IDCARE](https://idcare.org/latest-news/10-000-mygov-and-linked-accounts-misused-due-to-identity-theft-and-scams):
+
+- **more than 10,000 people** reported misuse of their myGov and linked accounts in a 12-month period, almost double the year before;
+- about **1,100** IDCARE clients reported fraudulent tax returns totalling **$25.5 million**;
+- in **70%** of cases, the person didn't know how their account had been accessed;
+- Services Australia dealt with over **10,000** agency impersonation scams in 2023-24, and **86%** mentioned myGov.
+
+## What the NDIS and Services Australia will never do
 
 > "The NDIS will never ask for your personal details by SMS."
 
-Don't share passwords, **SMS authentication codes** or personal information with anyone you don't know or trust.
+[Services Australia](https://www.servicesaustralia.gov.au/hank-jongens-may-column-scams) says it will never:
 
-## What participants and nominees should check
+- ask you to **click a link to sign in** to myGov;
+- ask you to **pay money** to receive a payment or get help;
+- ask for **remote access** to your computer or device;
+- ask you to **reply by email or text** to a message it sent.
 
-- **Plan funds:** look for payments for services you didn't request or receive.
-- **Bank accounts:** look for anything unusual.
-- **myGov:** check sign-in history and remove unknown devices ([[australia-mygov-account-compromised-what-to-do|full myGov steps]]).
+## What participants and nominees should check now
 
-## Protect your account
+- **Plan funds**: look for claims for services you didn't request or receive.
+- **NDIS payments and bank accounts**: look for anything unusual, including changed bank details.
+- **Contact details and representatives**: check nobody new has been added, as [Youngcare's checklist](https://youngcare.com.au/news/ndis-mygov-data-breach-participants-families-2026/) suggests.
+- **myGov**: review sign-in history and linked services ([[australia-mygov-account-compromised-what-to-do|full myGov steps]]).
 
-1. Turn on **multi-factor authentication**; passkeys or Digital ID are best.
-2. **Change passwords** and don't reuse them.
-3. Be cautious with **unexpected emails, texts, messaging app chats and calls**.
-4. **Don't click** suspicious links. Type my.gov.au yourself.
+## Lock myGov down: use a passkey
+
+A passkey signs you in with your phone or computer's fingerprint, face or PIN instead of a password. Services Australia recommends **passkeys or Digital ID** as more secure sign-in methods.
+
+Why it matters here: a passkey "only works with the website or app it is created on," so a fake myGov page can't steal and reuse it, according to the Digital Transformation Agency report quoted by [iTnews](https://www.itnews.com.au/news/over-200000-mygov-users-disable-passwords-in-passkey-shift-615664). By the end of 2024, **over 200,000** myGov users had switched off their passwords entirely and signed in with passkeys only.
+
+Then:
+
+1. **Change your password** if you still use one, and don't reuse it anywhere.
+2. **Never share** passwords or SMS codes with anyone, including someone "helping" over the phone.
+3. **Sign in only** through the myGov app or by typing **my.gov.au**.
+4. Run myGov's **security review**, which walks you through the settings.
 
 ## Who to contact
 
-- **NDIS:** 1800 800 110 (8am–8pm AEST business days)
-- **IDCARE:** 1800 595 160 for personalised support
-- **Scamwatch** and **ReportCyber** to report
+| Who | Number | For |
+|---|---|---|
+| **NDIS** | 1800 800 110 (8am to 8pm AEST, business days) | Plan and payment concerns |
+| **Services Australia Scams and Identity Theft Helpdesk** | 1800 941 126 | If you shared myGov details or think you've been scammed |
+| **IDCARE** | 1800 595 160 | Personalised identity theft support |
+| **Services Australia** | reportascam@servicesaustralia.gov.au | Reporting a scam you saw but didn't fall for |
+
+You can also report to **Scamwatch** and **ReportCyber**.
 
 ## For carers and support workers
 
-If you help someone manage their NDIS, talk with them about codes: **nobody from the NDIS or myGov will ask for one**. A simple fridge note ("Never share a code") can do more than a long briefing.
+If you help someone manage their NDIS, have the "codes" conversation: nobody from the NDIS, myGov or Services Australia will ever ask for one. A note on the fridge ("Never share a code. Ever.") can do more than a long briefing. Setting up a passkey together is a good second step.
 
-A free [[/digital-footprint-checker/|exposure check]] shows if an email address is in breach data that phishing lists draw on.
+Phishing lists are often built from breached email addresses. A free [[/digital-footprint-checker/|exposure check]] shows whether an email is in breach data.
 
 === FAQ
 Q: Were NDIS accounts hacked in 2026?
-A: The NDIA said in July 2026 that criminals accessed some NDIS accounts through myGov using phishing and tricking people into giving sign-in details.
+A: The NDIA said in July 2026 that criminals used phished myGov credentials to access some NDIS accounts. It did not describe a breach of NDIA systems.
+Q: How many NDIS accounts were affected?
+A: The NDIA has not said how many accounts were accessed or whether plan funds were taken.
 Q: Does the NDIS ask for personal details by SMS?
 A: No. The NDIS says it will never ask for your personal details by SMS.
 Q: What should NDIS participants check?
-A: Plan funds for payments you didn't request or receive, and bank accounts for unusual activity.
-Q: What is the NDIS phone number?
-A: 1800 800 110, 8am to 8pm AEST on business days.
+A: Plan funds for claims you didn't request, NDIS payments, bank accounts, and any new contacts or representatives on the account.
+Q: What is the best way to protect a myGov account?
+A: Use a passkey or Digital ID. Passkeys only work on the real myGov site, so they can't be phished like a password.
+Q: Who do I call if I gave my myGov details to a scammer?
+A: The Services Australia Scams and Identity Theft Helpdesk on 1800 941 126, and IDCARE on 1800 595 160.
 
 === SOURCES
 https://www.ndis.gov.au/news/11611-phishing-scams | NDIS: Phishing scams (27 July 2026)
+https://www.abilitynews.org/p/ndia-hacked | abilityNEWS: NDIA hacked (28 July 2026)
+https://www.servicesaustralia.gov.au/hank-jongens-may-column-scams | Services Australia: Scams column (May 2026)
+https://idcare.org/latest-news/10-000-mygov-and-linked-accounts-misused-due-to-identity-theft-and-scams | IDCARE: 10,000 myGov and linked accounts misused
+https://www.itnews.com.au/news/over-200000-mygov-users-disable-passwords-in-passkey-shift-615664 | iTnews: Over 200,000 myGov users disable passwords in passkey shift
+https://youngcare.com.au/news/ndis-mygov-data-breach-participants-families-2026/ | Youngcare: NDIS myGov breach, what participants and families should know
 
 === RELATED
 australia-mygov-account-compromised-what-to-do | myGov Account Compromised

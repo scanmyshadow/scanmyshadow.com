@@ -1,60 +1,79 @@
 slug: nz-medimap-attack-patients-marked-deceased
 country: NZ
-title: MediMap Attack: Living Patients Marked "Deceased" in NZ Care Homes
+title: MediMap Attack: Living NZ Patients Marked "Deceased"
 h1: The MediMap Attack: Hackers Altered Records and Marked Living Patients as Dead
-desc: In February 2026, attackers tampered with MediMap, a medication portal used by aged care, hospices and disability services, changing names and birth dates and marking patients deceased.
+desc: Attackers broke into MediMap, a medication portal used in NZ aged care and hospices, in February 2026, renaming patients and marking living people deceased.
 keywords: medimap cyber attack, medimap hack 2026, patients marked deceased hack nz, aged care medication portal breach, nz health cyber attack 2026, privacy act reform nz
 tags: Data Breaches|New Zealand|Health|News
 === TLDR
-On **22 February 2026**, **MediMap**, a medication portal used by **aged-care homes, hospices and disability services**, was taken offline after attackers **tampered with patient records**: changing **names and birth dates** and marking **living patients as "deceased."** It came weeks after the **Manage My Health** breach. PM **Christopher Luxon** acknowledged the need for stronger cyber laws, and the government's new strategy now asks the Ministry of Justice to look at **civil penalties** for privacy failures.
+On **Sunday 22 February 2026**, **MediMap**, a privately owned medication portal used by **aged care, disability, hospice and community care** providers, detected "unauthorised entry" and went offline. Attackers had **altered patient records**, **marking living patients as deceased** and changing names. The Aged Care Association said up to **60%** of aged care facilities could be using it. PM **Christopher Luxon** called it "concerning, particularly when it follows Manage My Health," and the government's cyber action plan now asks the Ministry of Justice to look at **civil penalties** for privacy failures.
 
 === BODY
 ## What happened
 
-According to [Rankiteo's incident summary](https://blog.rankiteo.com/med1772728377-medimap-cyber-attack-february-2026/):
+According to [RNZ](https://www.rnz.co.nz/news/alert-nat/587773/patient-data-changed-as-major-nz-health-app-medimap-hacked) (24 February 2026):
 
-- MediMap was taken offline on **22 February 2026**.
-- Attackers **altered** records rather than (as far as reported) stealing medical files.
-- Changes included **names**, **birth dates**, and marking **living patients "deceased."**
+- MediMap found **"unauthorised entry"**; the problem began around **1:30pm on Sunday** and the platform was put into maintenance mode as a precaution.
+- Some patient information was **altered**, including records marking **living patients as deceased**. Some patients were relabelled with a stranger's name.
+- MediMap said the data involved included **names, dates of birth, prescribers, location of care and resident status**.
+- It notified the **Privacy Commissioner** and **NZ Police**, brought in external cyber experts, and was being helped by the **Ministry of Health**. Health NZ activated its Cyber Incident Management Team.
 
-The number of affected MediMap patients wasn't given.
+[Newstalk ZB](https://www.newstalkzb.co.nz/news/national/medimap-hack-investigation-after-patients-wrongly-marked-dead-names-changed) also reported patients being wrongly marked dead and names being changed.
+
+## Who uses MediMap
+
+MediMap records medication doses, handles e-prescribing, holds medication histories and connects care providers with pharmacies. RNZ reported that:
+
+- the **Aged Care Association** said as many as **60%** of aged care facilities could be using it;
+- **Hospice NZ** said a number of hospices were affected and had switched to **paper systems**;
+- the **Nurses Organisation** said Christchurch aged care sites were affected.
+
+Hospice NZ chief executive Wayne Naylor said: "As far as we are aware, patient care has continued safely and has not been impacted greatly by the outage."
 
 ## Why tampering is scarier than theft
 
 A stolen record is a privacy problem. A **changed** medication record is a **safety** problem. Staff rely on these systems to give the right dose to the right person. Marking someone as dead in a care system is, to put it mildly, not a clerical inconvenience.
 
-## The policy fallout
+## Who's responsible?
 
-- **PM Christopher Luxon** acknowledged the need to strengthen cybersecurity laws.
-- The **Cyber Security Strategy 2026–2030** was released on **27 February 2026**, with an Action Plan tasking the Ministry of Justice to explore **civil penalties** for privacy breaches and a possible **offence for handling illegally obtained data** ([[nz-cyber-security-action-plan-stolen-data-offence|details]]).
-- Critics noted the **Privacy Act 2020** has no civil penalties for failing to secure data; the only fines (up to **$10,000**) are for failing to **notify** the Privacy Commissioner of a breach.
-- The Privacy Commissioner reported a **43% rise** in serious breach notifications in 2024–25 ([[nz-privacy-breach-notifications-rise-43-percent|more]]).
+Health NZ was clear about where the responsibility sits. Its spokesperson Darren Douglass said: "As a private company, MediMap is solely responsible for ensuring the security of its platform." MediMap director Geoffrey Sayer apologised for the disruption and concern.
+
+## The political fallout
+
+- **PM Christopher Luxon**: "It's concerning, particularly when it follows Manage My Health." He said he had been pushing for stronger cybersecurity laws.
+- **Associate Health Minister David Seymour**: "New Zealand cannot afford to be the weakest link."
+- The government's **Cyber Security Strategy 2026–2030** and **Action Plan** ask the Ministry of Justice to advise on **civil penalties** under the Privacy Act, which currently has no civil fines for poor security, and on a new offence for handling illegally obtained data ([MinterEllison](https://minterellison.co.nz/insights/government-releases-new-zealand-cyber-security-action-plan); [[nz-cyber-security-action-plan-stolen-data-offence|our explainer]]).
+- The Privacy Commissioner has also reported a **43% rise** in serious breach notifications ([[nz-privacy-breach-notifications-rise-43-percent|more]]).
 
 ## Context: a bad run for NZ health data
 
-MediMap followed the **December 2025 Manage My Health** breach, where hundreds of thousands of documents were stolen and the Privacy Commissioner later issued compliance notices ([[nz-manage-my-health-data-breach-privacy-commissioner-findings|our guide]]).
+MediMap followed the **Manage My Health** breach, where hundreds of thousands of documents were stolen and the Privacy Commissioner later issued compliance notices ([[nz-manage-my-health-data-breach-privacy-commissioner-findings|our guide]]).
 
 ## If you or a family member uses aged care, hospice or disability services
 
-- Ask the provider whether **records were checked** after the incident.
+- Ask the provider whether **records were checked and corrected** after the incident.
 - Double-check **medications and personal details** at the next review.
-- Be wary of **calls or messages** referencing the incident; verify through the provider directly.
-- You can request a copy of health records to check accuracy ([[nz-health-records-access-request|how]]).
+- Be wary of **calls or messages** that mention the incident; verify through the provider directly.
+- You can ask for a copy of health records to check they're accurate ([[nz-health-records-access-request|how]]).
 
-A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email appears in.
+Health breaches rarely travel alone. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email appears in.
 
 === FAQ
 Q: What happened to MediMap?
-A: Attackers tampered with patient records, changing names and birth dates and marking living patients as deceased. MediMap was taken offline on 22 February 2026.
+A: Attackers got into the MediMap medication portal in February 2026 and altered patient records, including marking living patients as deceased and changing names. The platform was taken offline.
 Q: Who uses MediMap?
-A: Aged-care homes, hospices and disability services.
+A: Aged care, disability, hospice and community care providers. The Aged Care Association said up to 60% of aged care facilities could be using it.
+Q: Was patient care affected?
+A: Hospice NZ said that, as far as it knew, care continued safely; affected hospices switched to paper systems.
 Q: Did the government respond?
-A: PM Christopher Luxon acknowledged the need for stronger cyber laws, and the new Cyber Security Strategy action plan asks the Ministry of Justice to explore civil privacy penalties.
+A: PM Christopher Luxon called it concerning, and the government's cyber action plan asks the Ministry of Justice to explore civil penalties for privacy failures.
 Q: Does the NZ Privacy Act fine companies for poor security?
-A: Not currently. The only fines, up to $10,000, are for failing to notify the Privacy Commissioner of a breach.
+A: Not currently. The government has asked the Ministry of Justice to advise on a civil penalty regime.
 
 === SOURCES
-https://blog.rankiteo.com/med1772728377-medimap-cyber-attack-february-2026/ | Rankiteo: MediMap cyber attack (February 2026)
+https://www.rnz.co.nz/news/alert-nat/587773/patient-data-changed-as-major-nz-health-app-medimap-hacked | RNZ: Patient data changed as major NZ health app MediMap hacked (24 Feb 2026)
+https://www.newstalkzb.co.nz/news/national/medimap-hack-investigation-after-patients-wrongly-marked-dead-names-changed | Newstalk ZB: MediMap hack investigation after patients wrongly marked dead
+https://minterellison.co.nz/insights/government-releases-new-zealand-cyber-security-action-plan | MinterEllison: Government releases NZ Cyber Security Action Plan (16 Mar 2026)
 
 === RELATED
 nz-manage-my-health-data-breach-privacy-commissioner-findings | Manage My Health Data Breach
