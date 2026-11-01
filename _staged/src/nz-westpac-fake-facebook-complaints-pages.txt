@@ -64,3 +64,5 @@ how-to-report-fake-impersonation-account-facebook-instagram | Report Fake Facebo
 nz-netsafe-bank-impersonation-spike-august-2026 | Bank Impersonation Spike
 nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts
 nz-how-to-report-a-scam | How to Report a Scam in NZ
+nz-kiwibank-latest-scams-2026 | Kiwibank Latest Scams 2026
+nz-kiwibank-ceo-fake-investment-ads | Fake Kiwibank CEO Investment Ads

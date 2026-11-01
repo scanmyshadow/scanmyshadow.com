@@ -1,8 +1,8 @@
 slug: uk-fake-news-article-investment-ads
 country: UK
-title: Fake News Articles in Facebook Ads Selling “£250 Into £4,500”
+title: Fake News Article Ads on Facebook: "£250 Into £4,500"
 h1: The Fake News Article Ad: “Invest £250, Earn £2,500 to £4,500 a Month”
-desc: Facebook ads dressed as news articles promote investment platforms promising huge monthly returns. How the format works, why money is rarely recovered, and how to check.
+desc: Facebook ads dressed as news articles promote investment platforms promising huge returns. How the format works, why money is rarely recovered, how to check.
 keywords: fake news article investment ad, facebook investment scam uk, invest 250 scam, celebrity investment ad scam uk, fake bbc article investment
 tags: Investment Scams|Social Media|United Kingdom|Scam Alert
 === TLDR

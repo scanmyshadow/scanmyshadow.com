@@ -71,3 +71,5 @@ australia-bank-rewards-points-expiring-sms-scam | Rewards Points Expiring Scams
 australia-clickfix-fake-verification-copy-paste-scam | ClickFix Fake Verification Scam
 australia-commbank-scam-texts-netcode | CommBank Scam Texts
 australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams
+how-to-report-a-scam-to-scamwatch | How to Report a Scam to Scamwatch
+australia-scamwatch-idcare-recovery-process | Scamwatch and IDCARE Recovery Process

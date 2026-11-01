@@ -1,74 +1,103 @@
 slug: nz-bank-scam-reimbursement-rules-explained
 country: NZ
-title: NZ Bank Scam Refunds: Who Gets Reimbursed Under the New Rules
+title: NZ Bank Scam Refunds: Who Gets Reimbursed Under New Rules
 h1: New Zealand's Bank Scam Reimbursement Rules: What You Can Claim (and the Catches)
-desc: Since 30 November 2025, NZ banks reimburse some scam victims up to $500,000. Who qualifies, the 3-month reporting deadline, what's excluded (Trade Me buys), and how to claim.
-keywords: nz bank scam reimbursement, scam refund new zealand bank, code of banking practice scam 2025, authorised payment scam nz, nzba scam compensation, banking ombudsman scam claim
+desc: Since 30 November 2025, NZ banks reimburse some scam victims up to $500,000. Who qualifies, the 3-month deadline, the Trade Me exclusion, and how to claim.
+keywords: nz bank scam reimbursement, scam refund new zealand bank, code of banking practice scam 2025, authorised payment scam nz, nzba scam compensation, banking ombudsman scam claim, confirmation of payee nz
 tags: Scam Laws|New Zealand|Banking|Explainer
 === TLDR
-Under changes to the **Code of Banking Practice** that took effect **30 November 2025**, NZ banks can reimburse victims of **authorised payment scams** (where you made the payment yourself, like romance or investment scams) **up to $500,000**, if your bank or the receiving bank **failed to meet its commitments**. How much you get depends on whether you took **"reasonable care."** Report to your **bank and Police within 3 months** of discovering it. Purchases on **Trade Me or social media** aren't covered. Disagree? Go to the **Banking Ombudsman**.
+Under changes to the **Code of Banking Practice** that took effect **30 November 2025**, NZ banks can reimburse victims of **authorised payment scams** (where you made the payment yourself, as in romance or investment scams) **up to $500,000** if your bank or the receiving bank **failed to meet one of five commitments**. How much you get depends on whether you took **"reasonable care."** Report to your **bank and Police within 3 months** of discovering the scam and within **12 months** of the last payment. Purchases on **Trade Me or social media marketplaces** aren't covered. If you disagree, go to the **Banking Ombudsman**.
 
 === BODY
-## What changed
+## How we got here
 
-On 23 April 2025, the NZ Banking Association announced Code changes, effective **30 November 2025**, per [Bell Gully](https://www.bellgully.com/insights/fraud-and-scams-update-banks-commit-to-new-protections-and-reimbursement-for-scam-victims/):
+| Date | What happened |
+|---|---|
+| 2023 | Scam losses reached **almost $200 million**, according to [interest.co.nz](https://www.interest.co.nz/banking/126640/new-zealand-banks-told-come-reimbursement-scheme-scam-victims-september) |
+| Feb 2024 | Commerce and Consumer Affairs Minister **Andrew Bayly** wrote to the banks asking them to investigate a reimbursement scheme |
+| Apr 2025 | **Confirmation of payee** finished rolling out; the NZ Banking Association (NZBA) announced the reimbursement scheme |
+| 30 Nov 2025 | The updated Code took effect |
+
+Before this, banks generally didn't have to reimburse authorised payment scams such as paying a fake invoice, though they usually did reimburse **unauthorised** fraud such as someone breaking into your online banking.
+
+## The rules
+
+From [Bell Gully's summary](https://www.bellgully.com/insights/fraud-and-scams-update-banks-commit-to-new-protections-and-reimbursement-for-scam-victims/):
 
 | Area | Rule |
 |---|---|
 | **Authorised payment scams** | Reimbursement up to **$500,000** where your bank or the recipient bank failed its commitments |
 | **How much** | Some or all, depending on whether **you took reasonable care** |
-| **Above $500k or 3+ times** | At the bank's discretion |
+| **Above $500k, or 3+ claims** | At the bank's discretion |
 | **Deadline** | Report to the bank **and Police** within **3 months** of discovering it, and within **12 months** of the last payment |
 | **Which payments** | To **NZ bank accounts**, made **after 30 November 2025** |
-| **Unauthorised payments** (scammer accessed your account) | Compensated if you weren't dishonest or negligent, took reasonable steps and cooperated |
+| **Unauthorised payments** (scammer got into your account) | Compensated if you weren't dishonest or negligent, took reasonable steps and cooperated |
 
 ## The five bank commitments
 
-Banks must provide:
+The [NZBA's go-live announcement](https://nzba.org.nz/new-banking-scam-protections-and-compensation-go-live/) (28 November 2025) lists them. Banks must provide:
 
-1. **Warnings** for high-risk or unusual payments, including asking what the payment is for.
-2. **Confirmation of payee** in online and mobile banking.
-3. **Policies to catch high-risk transactions**: questions, real-time warnings, delays or blocks.
-4. A **24/7 scam reporting** line with timely investigations.
-5. **Information sharing** between banks to freeze and recover funds and close mule accounts.
+1. **Warnings** before certain higher-risk payments.
+2. **Confirmation of payee**, which checks the payee's name matches the account number.
+3. Systems to **identify and respond to high-risk or unusual activity**, including delaying or blocking some payments.
+4. A **24/7 reporting channel** for scam victims.
+5. **Information sharing** between banks to freeze funds and shut down mule accounts.
 
-If your bank skipped one of these and you lost money, that's your strongest argument.
+If your bank skipped one of these and you lost money, that's your strongest argument. For example: no warning on a large, unusual payment to a new payee, or a name-mismatch that confirmation of payee should have flagged.
+
+NZBA chief executive Roger Beaumont said banks "cannot take on full liability for scam losses that are beyond their control," pointing to scams that start on social media, in fake ads and in search results.
 
 ## The catches
 
-[Consumer NZ](https://www.consumer.org.nz/articles/banks-introduce-new-compensation-measures-for-scam-victims) welcomed the scheme but flagged problems:
+[Consumer NZ](https://www.consumer.org.nz/consumer-rights-and-campaigns/scams/new-zealand-s-scam-response-papering-over-the-cracks) has been the scheme's sharpest critic:
 
-- **Voluntary**, with no regulator or penalties.
-- **"Reasonable care"** is a lower bar for banks than the UK's gross-negligence test, so fewer victims may be paid.
-- **Speed:** banks pledge payment within **30 business days** after gathering information; the UK typically takes five.
-- **Exclusions:** scams buying goods on **social media or marketplaces like Trade Me** aren't covered.
+- **Voluntary**, designed by the banks, with **no penalties** for not complying.
+- **"Reasonable care"** is a lower bar for banks than the UK's gross-negligence test. Consumer NZ legal expert Aneleise Gawn: "A failure to take reasonable care is a much lower bar than gross negligence."
+- **Speed:** reimbursement within **30 business days**, but only after the bank has gathered information, with no set start for that period. In the UK, Consumer NZ says victims are generally reimbursed within **five business days**.
+- **Marketplace exclusion:** scams buying goods on **Trade Me or Facebook Marketplace** aren't covered. Consumer NZ quotes BNZ saying **nearly 40%** of authorised payment scams start on online marketplaces.
 - You may be ineligible if you acted dishonestly or paid through a **third-party service**.
+
+The Banking Ombudsman's record matters too. In one case reported by the [NZ Herald](https://nzherald.co.nz/nz/banking-sector-launches-review-of-fraud-reimbursement-rules-after-threat-of-govt-regulation/3WE7B5RHQNDHZJDVJOYRMOWAGE), a man who lost $100,000 to a fake BNP Paribas bond scam didn't get his money back; Ombudsman Nicola Sladden found banks had no obligation to monitor payment references for known scams. That case predates the new Code, but it shows how narrowly bank duties can be read.
+
+## Why it matters now
+
+Bank impersonation is rising. In October 2026, ASB pointed to [Netsafe data](https://www.mpamag.com/nz/news/general/asb-warns-customers-as-bank-impersonation-scams-rise-in-new-zealand/594702) showing **34%** of August 2026 impersonation reports involved a scammer posing as a bank or financial institution, up from **20%** between April and July. Westpac NZ said bank impersonation made up **71%** of gross scam losses among its business customers in the first half of 2026.
 
 ## How to claim
 
 1. **Call your bank immediately.** Every hour counts for freezing funds.
-2. **Report to Police** (105.police.govt.nz or 105). The Code requires both reports.
-3. Keep **records**: screenshots, messages, payment details.
-4. Ask the bank in writing to consider **reimbursement under the Code**.
-5. If you disagree with the outcome, complain to the **Banking Ombudsman**.
+2. **Report to Police** online at 105.police.govt.nz or by calling 105. The Code requires both reports.
+3. **Keep records:** screenshots, messages, call logs, payment details, any warnings the bank showed you.
+4. **Ask in writing** for reimbursement under the Code of Banking Practice, and note which commitment you think was missed.
+5. If you disagree with the outcome, **complain to the Banking Ombudsman**. It's free.
 
-## Related
+## How NZ compares
 
-Australia took a different route with its [[australia-scams-prevention-framework-explained|Scams Prevention Framework]]; the UK has [[uk-action-fraud-crm-reimbursement-code|mandatory reimbursement]]. A free [[/digital-footprint-checker/|exposure check]] shows if your details are in the breaches scammers use.
+Australia took a different route with its legislated [[australia-scams-prevention-framework-explained|Scams Prevention Framework]]; the UK has [[uk-action-fraud-crm-reimbursement-code|mandatory reimbursement]]. Consumer NZ wants a government-led framework that also makes **telcos, social media platforms and marketplaces** share responsibility.
+
+Scammers often start with breached data. A free [[/digital-footprint-checker/|exposure check]] shows if your email is in the breaches they use.
 
 === FAQ
 Q: Will my NZ bank refund money I lost to a scam?
 A: Possibly. Since 30 November 2025, banks can reimburse authorised payment scam losses up to $500,000 where they or the recipient bank failed to meet their commitments, depending on whether you took reasonable care.
 Q: How long do I have to report a scam to claim?
 A: Within three months of discovering it, and within 12 months of the last payment, to both your bank and Police.
-Q: Are Trade Me scams covered?
-A: Consumer NZ says scams involving purchases on social media or marketplaces like Trade Me are not covered.
+Q: Are Trade Me or Facebook Marketplace scams covered?
+A: No. Consumer NZ says scams involving purchases on online marketplaces are excluded.
+Q: How fast will my bank pay?
+A: Banks pledge to pay within 30 business days, but only after gathering information.
+Q: What are the five bank commitments?
+A: Payment warnings, confirmation of payee, systems to catch high-risk activity, a 24/7 reporting channel, and information sharing between banks.
 Q: What if my bank refuses?
-A: You can complain to the Banking Ombudsman.
+A: You can complain to the Banking Ombudsman for free.
 
 === SOURCES
+https://nzba.org.nz/new-banking-scam-protections-and-compensation-go-live/ | NZ Banking Association: New banking scam protections and compensation go live (28 Nov 2025)
 https://www.bellgully.com/insights/fraud-and-scams-update-banks-commit-to-new-protections-and-reimbursement-for-scam-victims/ | Bell Gully: Banks commit to new protections and reimbursement for scam victims
-https://www.consumer.org.nz/articles/banks-introduce-new-compensation-measures-for-scam-victims | Consumer NZ: Banks introduce new compensation measures for scam victims
+https://www.consumer.org.nz/consumer-rights-and-campaigns/scams/new-zealand-s-scam-response-papering-over-the-cracks | Consumer NZ: New Zealand's scam response, papering over the cracks
+https://www.interest.co.nz/banking/126640/new-zealand-banks-told-come-reimbursement-scheme-scam-victims-september | interest.co.nz: Government asks banks to set up reimbursement scheme
+https://nzherald.co.nz/nz/banking-sector-launches-review-of-fraud-reimbursement-rules-after-threat-of-govt-regulation/3WE7B5RHQNDHZJDVJOYRMOWAGE | NZ Herald: Banking sector launches review of fraud reimbursement rules
+https://www.mpamag.com/nz/news/general/asb-warns-customers-as-bank-impersonation-scams-rise-in-new-zealand/594702 | NZ Adviser: ASB warns as bank impersonation scams rise (Oct 2026)
 
 === RELATED
 nz-scam-statistics-2026-netsafe-data | NZ Scam Statistics 2026
@@ -76,3 +105,5 @@ nz-how-to-report-a-scam | How to Report a Scam in NZ
 nz-anti-scam-alliance-2026-work-programme | NZ Anti-Scam Alliance 2026
 australia-scams-prevention-framework-explained | Australia's Scams Prevention Framework
 uk-action-fraud-crm-reimbursement-code | UK Scam Reimbursement
+nz-asb-scam-alerts-2026 | ASB Scam Alerts 2026
+nz-netsafe-bank-impersonation-spike-august-2026 | Netsafe Bank Impersonation Spike

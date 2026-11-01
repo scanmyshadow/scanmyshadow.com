@@ -1,7 +1,7 @@
 import json,re,os,subprocess,sys
 S=json.load(open(sys.argv[1])); bad=0
 for s in S['new']:
-    t=open(f'blog/2026/10/{s}.html',encoding='utf-8').read(); iss=[]
+    t=open(__import__('glob').glob(f'blog/*/*/{s}.html')[0],encoding='utf-8').read(); iss=[]
     for k,pat in {'ga4':'G-S4P3YTNEDY','aw':'AW-18188455581','og':'og-image.png','cta':'blog-cta.js','author':'Siddharth Shankar','hook':'tldr-hook','faq':'"FAQPage"','art':'"Article"','canon':'rel="canonical"'}.items():
         if pat not in t: iss.append('no-'+k)
     if re.search('Jaishree|A unit of',t): iss.append('jaishree')

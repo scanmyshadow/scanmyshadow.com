@@ -1,6 +1,6 @@
 import sys,re,glob,json,os,shutil
 W='/home/claude/wave'; R=sys.argv[1]; OUT=sys.argv[2]; BI=int(sys.argv[3]); DATE=sys.argv[4]; import datetime; _d=datetime.date.fromisoformat(DATE); DLAB=_d.strftime('%B ')+str(_d.day)+_d.strftime(', %Y'); DLONG=_d.strftime('%b ')+str(_d.day)+_d.strftime(', %Y')
-SITE='https://www.scanmyshadow.com'
+SITE='https://www.scanmyshadow.com'; YM='2026/'+DATE[5:7]
 slugs=json.load(open(f'{W}/batches.json'))[BI]
 def meta(s):
     t=open(f'{W}/src/{s}.txt',encoding='utf-8').read()
@@ -10,10 +10,11 @@ def meta(s):
 newset=set(slugs)
 existing=set()
 for f in glob.glob(f'{R}/blog/*/*/*.html'): existing.add(os.path.basename(f)[:-5])
-done=set(os.path.basename(f)[:-5] for f in glob.glob(f'{R}/blog/2026/10/*.html'))
+done=set(os.path.basename(f)[:-5] for f in glob.glob(f'{R}/blog/*/*/*.html'))
 todo=[s for s in slugs if s not in done]
 print('new',len(todo))
-for s in todo: shutil.copy(f'{OUT}/blog/2026/10/{s}.html',f'{R}/blog/2026/10/{s}.html')
+os.makedirs(f'{R}/blog/{YM}',exist_ok=True)
+for s in todo: shutil.copy(f'{OUT}/blog/{YM}/{s}.html',f'{R}/blog/{YM}/{s}.html')
 # index cards (insert so first of batch ends up... order: reverse so list order preserved)
 p=f'{R}/blog/index.html'; t=open(p,encoding='utf-8').read(); marker='  <div class="post-grid" id="postGrid">\n'
 cards=''
@@ -21,7 +22,7 @@ for s in todo:
     h,_=meta(s); tags=h['tags'].split('|')[:2]
     pills=''.join(f'<span class="tag-pill">{x}</span>' for x in tags)
     title=h['title'].replace('&','&amp;'); d=h['desc'].replace('&','&amp;')
-    cards+=f'''    <a class="post-card" href="{SITE}/blog/2026/10/{s}.html">
+    cards+=f'''    <a class="post-card" href="{SITE}/blog/{YM}/{s}.html">
       <div class="post-card-top">
         <span class="post-date">{DLAB}</span>
         <div class="post-tags">{pills}</div>
@@ -36,13 +37,13 @@ assert t.count(marker)==1
 t=t.replace(marker,marker+cards,1); open(p,'w',encoding='utf-8').write(t)
 # sitemap
 p=f'{R}/blog/sitemap.xml'; t=open(p).read()
-ent=''.join(f'  <url>\n    <loc>{SITE}/blog/2026/10/{s}.html</loc>\n    <lastmod>{DATE}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n' for s in todo)
+ent=''.join(f'  <url>\n    <loc>{SITE}/blog/{YM}/{s}.html</loc>\n    <lastmod>{DATE}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n' for s in todo)
 t=t.replace('</urlset>',ent+'</urlset>'); open(p,'w').write(t)
 # llms
 names={'US':'United States','UK':'United Kingdom','CA':'Canada','AU':'Australia','NZ':'New Zealand'}
 p=f'{R}/llms.txt'; t=open(p,encoding='utf-8').read()
 for c in ['US','UK','CA','AU','NZ']:
-    lines=''.join(f"- [{meta(s)[0]['title']}]({SITE}/blog/2026/10/{s}.html)\n" for s in todo if meta(s)[0]['country']==c)
+    lines=''.join(f"- [{meta(s)[0]['title']}]({SITE}/blog/{YM}/{s}.html)\n" for s in todo if meta(s)[0]['country']==c)
     if not lines: continue
     head=f'## {names[c]} scam news (added {DLONG})\n'
     if head in t: t=t.replace(head,head+lines,1)
@@ -68,7 +69,7 @@ for r,ss in plan.items():
     if not m: print('NO RELATED',r); continue
     add=''
     for s in ss:
-        u=f'{SITE}/blog/2026/10/{s}.html'
+        u=f'{SITE}/blog/{YM}/{s}.html'
         if u in t: continue
         add+=f'<li><a href="{u}">{meta(s)[0]["title"].replace("&","&amp;")}</a></li>\n'
     if not add: continue

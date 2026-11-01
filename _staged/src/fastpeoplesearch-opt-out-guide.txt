@@ -1,62 +1,98 @@
 slug: fastpeoplesearch-opt-out-guide
 country: US
 title: FastPeopleSearch Removal 2026: Remove Your Record Fast
-h1: How to Remove Yourself From FastPeopleSearch (and Two Sites With It)
-desc: FastPeopleSearch removal: start at fastpeoplesearch.com/removal, find your record, click Remove My Record and confirm by email. It may also clear PeopleFinders.
-keywords: fastpeoplesearch removal, fastpeoplesearch opt out, remove from fast people search, fastpeoplesearch delete record, fastpeoplesearch 2026
+h1: How to Remove Yourself From FastPeopleSearch (and Keep It Off)
+desc: FastPeopleSearch removal in 5 minutes: the removal page, the email confirmation, how to check it worked, why it comes back, and California's free DROP tool.
+keywords: fastpeoplesearch removal, fastpeoplesearch opt out, remove from fast people search, fastpeoplesearch delete record, fastpeoplesearch 2026, fastpeoplesearch reappeared
 tags: Data Brokers|Opt-Out Guides|United States|How To
 === TLDR
-Go to fastpeoplesearch.com/removal, enter your email, confirm you're the subject and start the removal. Search your name, open your listing with “View Free Details”, click “Remove My Record”, then click the button in the confirmation email. It usually takes about an hour (the site says up to 72 hours). According to DuckDuckGo, it can also remove the listing from related sites PeopleFinders and SmartBackgroundChecks.
+Go to **fastpeoplesearch.com/removal**, enter your email, confirm you're the person (or authorised), search your name, open your listing with **"View Free Details"**, click **"Remove My Record"** and click the button in the confirmation email. It takes about **5 minutes**. The site says up to **72 hours** to process; DuckDuckGo says it's usually about **an hour**. You can send up to **five requests per email address**, and the listing **can come back**, so recheck every few months. Californians can also use the state's free **DROP** platform, which since **1 August 2026** sends one deletion request to every registered data broker.
 
 === BODY
-## What FastPeopleSearch shows
+## What FastPeopleSearch shows about you
 
-Like its cousin TruePeopleSearch, FastPeopleSearch is free and shows addresses, phone numbers, emails, relatives and associates without a paywall. DuckDuckGo notes its data can be outdated, which is why it recommends searching by name rather than phone or address.
+FastPeopleSearch is one of the free US people-search sites that need no account and no payment. According to [DuckDuckGo's removal guide](https://duckduckgo.com/duckduckgo-help-pages/fastpeoplesearch-removal), a listing can show your **name, current and past addresses, phone numbers, email addresses, relatives and associates**, all fully visible to anyone who types your name.
+
+That combination is exactly what a scammer, stalker or "grandparent scam" caller wants: who you are, where you live, and who your family members are. Removing it takes about five minutes.
+
+## Before you start
+
+- Use an email address you're happy to share with the site. A separate address or an [[email-alias-temporary-phone-number-privacy|email alias]] works well.
+- Search by **name and city or state**, not by phone or address. DuckDuckGo recommends this because broker data is often out of date, so older listings may not show up when you search your current details.
+- Note every variation: maiden names, middle initials and previous cities often create separate listings.
 
 ## Step by step
 
 From [DuckDuckGo's FastPeopleSearch guide](https://duckduckgo.com/duckduckgo-help-pages/fastpeoplesearch-removal):
 
 1. Open [fastpeoplesearch.com/removal](https://www.fastpeoplesearch.com/removal). A Cloudflare check may appear first.
-2. Enter your email, tick the box confirming you're the subject (or authorised), complete the reCAPTCHA and begin the removal.
+2. Enter your email, tick the box confirming you're the subject (or authorised to act for them), complete the reCAPTCHA and select **"Begin Removal Process."**
 3. Search by first and last name plus city, state or ZIP.
-4. Open your listing with “View Free Details” and note the URL.
-5. Click “Remove My Record.”
-6. Open the email “Opt out request for FastPeopleSearch.com” and click the blue button.
+4. Open your listing with **"View Free Details"** and copy the page URL somewhere safe.
+5. Click **"Remove My Record."** Not "View Full Background Report," which is the upsell.
+6. Open the email titled **"Opt out request for FastPeopleSearch.com"** and click the blue button.
 
-You'll see a “Record Removal Complete” page. No follow-up email arrives later.
+You'll land on a **"Record Removal Complete"** page. No follow-up email arrives later, so that page is your receipt. Take a screenshot.
 
 ## Check it worked
 
-Revisit the old listing URL. A removed listing shows a “Something went wrong” message, which, for once, is the message you want to see.
+Paste the old listing URL back into your browser. A removed listing shows an error message, which, for once, is exactly what you want to see. If the listing is still live after 72 hours, repeat the steps or contact the site through its support form with the listing URL.
 
-## The bonus
+## Limits and quirks
 
-According to DuckDuckGo, removing your listing here also removes it from related sites such as PeopleFinders and SmartBackgroundChecks. That's a rare two-for-one. Still, verify on those sites yourself: PeopleFinders has its own [[peoplefinders-opt-out-guide|state-based opt-out rules]].
+| Issue | What to know |
+|---|---|
+| Request limit | Up to **five** opt-out requests from one email address |
+| Several listings | Repeat steps 3 to 6 for each one |
+| Processing time | Site says up to 72 hours; usually about an hour |
+| Reappearing data | The site updates automatically, so a removed listing **can return** |
+| Google still shows it | Search engines cache old pages; re-indexing can take days to weeks |
 
-## Limits
+## The two-for-one
 
-- Up to five requests per email address.
-- Repeat steps 3 to 6 for each listing.
-- Data can reappear as the site updates; recheck every few months.
+DuckDuckGo says removing your listing here also removes it from **related sites such as PeopleFinders and SmartBackgroundChecks**, and makes it harder for other brokers to copy your data from FastPeopleSearch. Check those sites yourself anyway: PeopleFinders has its own [[peoplefinders-opt-out-guide|opt-out process]].
 
-## Keep going
+## Clean up Google too
 
-Next on the list: [[truepeoplesearch-opt-out-guide|TruePeopleSearch]], [[usphonebook-opt-out-guide|USPhonebook]] and [[whitepages-opt-out-guide|Whitepages]]. If you'd rather automate, see our comparison of [[incogni-vs-deleteme-vs-aura-vs-scan-my-shadow|removal services]]. And check your email against breach data with a free [[/digital-footprint-checker/|exposure check]].
+Removing a listing at the source doesn't instantly remove it from search results. Google's **Results about you** tool lets you find and request removal of results showing your **phone number, home address or email**, and it can notify you when new ones appear. But as [Google's help page](https://support.google.com/websearch/answer/12719076?hl=en) puts it, removing a result from Search "doesn't mean that the info is gone from the internet." That's why you do both: remove at the source, then clean up the search results.
+
+## If you live in California: use DROP
+
+California's **Delete Request and Opt-out Platform (DROP)** lets residents send one deletion request to every data broker registered with the state. According to [Malwarebytes](https://www.malwarebytes.com/blog/news/2026/08/californians-can-tell-data-brokers-to-drop-their-information):
+
+- registered brokers had to start accessing DROP from **1 August 2026**;
+- they have **90 days** to delete your records after a request;
+- more than **600 data brokers** are on the state registry;
+- you verify residency (manually or through Login.gov) and get a **DROP ID** to track your request.
+
+The official portal is [privacy.ca.gov/drop](https://privacy.ca.gov/drop/). Oregon, Texas and Vermont also require broker registration, but Malwarebytes says only California currently offers a single platform like this.
+
+## Keep going: the rest of the list
+
+FastPeopleSearch is one site of many. Work through [[truepeoplesearch-opt-out-guide|TruePeopleSearch]], [[usphonebook-opt-out-guide|USPhonebook]] and [[whitepages-opt-out-guide|Whitepages]] next, then recheck all of them in three months. If that sounds like a chore, our comparison of [[incogni-vs-deleteme-vs-aura-vs-scan-my-shadow|removal services]] covers the paid options.
+
+People-search sites show where you live. Breaches show what else is out there. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email address appears in.
 
 === FAQ
 Q: How do I remove myself from FastPeopleSearch?
-A: Start at fastpeoplesearch.com/removal, find your listing, click Remove My Record and confirm via the emailed link.
+A: Go to fastpeoplesearch.com/removal, enter your email, find your listing, click Remove My Record and confirm through the link in the email.
 Q: How long does FastPeopleSearch removal take?
-A: Usually about an hour; the site says up to 72 hours.
-Q: Does it remove me from other sites?
-A: DuckDuckGo says it also removes your listing from related sites such as PeopleFinders and SmartBackgroundChecks. Check them to be sure.
+A: The site says up to 72 hours. DuckDuckGo's guide says it usually takes about an hour.
+Q: Why is my FastPeopleSearch listing back?
+A: The site updates automatically, so removed data can reappear. Check every few months and resubmit if needed.
+Q: Does removing FastPeopleSearch remove me from other sites?
+A: DuckDuckGo says it also removes the listing from related sites such as PeopleFinders and SmartBackgroundChecks. Check them to be sure.
 Q: How many removal requests can I make?
-A: Reportedly up to five per email address.
+A: Up to five per email address, according to DuckDuckGo.
+Q: My listing is gone but still shows on Google. Why?
+A: Search engines cache old pages. Use Google's Results about you tool or wait for re-indexing, which can take days to weeks.
 
 === SOURCES
 https://duckduckgo.com/duckduckgo-help-pages/fastpeoplesearch-removal | DuckDuckGo Help: FastPeopleSearch removal guide
 https://www.fastpeoplesearch.com/removal | FastPeopleSearch removal page
+https://support.google.com/websearch/answer/12719076?hl=en | Google Search Help: Find and remove personal contact info
+https://www.malwarebytes.com/blog/news/2026/08/californians-can-tell-data-brokers-to-drop-their-information | Malwarebytes: Californians can tell data brokers to DROP their information (Aug 2026)
+https://privacy.ca.gov/drop/ | California Privacy Protection Agency: Delete Request and Opt-out Platform (DROP)
 
 === RELATED
 us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide

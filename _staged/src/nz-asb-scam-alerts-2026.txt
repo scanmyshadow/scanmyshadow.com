@@ -1,65 +1,93 @@
 slug: nz-asb-scam-alerts-2026
 country: NZ
-title: ASB Scam Alerts 2026: Netcode Calls, WhatsApp Fakes and School Scams
-h1: ASB Scam Alerts: Fake Fraud Calls Asking for Netcodes, WhatsApp and Google Meet Impersonation
-desc: ASB warns of callers claiming fraud on your account who then ask for Netcodes or FastNet token codes, plus fakes on WhatsApp, Google Meet and iCloud. What ASB never does.
-keywords: asb scam call, asb netcode scam, asb scam text 2026, asb fraud number, asb caller check, asb whatsapp scam
+title: ASB Scam Alerts 2026: Call Forwarding, Netcodes, WhatsApp
+h1: ASB Scam Alerts 2026: Call-Forwarding Tricks, Netcode Requests and WhatsApp, Google Meet and iCloud Fakes
+desc: ASB warns of fake fraud-team calls that turn on call forwarding or ask for Netcodes, plus WhatsApp, Google Meet and iCloud fakes. What ASB never does.
+keywords: asb scam call, asb netcode scam, asb call forwarding scam, asb scam text 2026, asb fraud number, asb caller check, asb whatsapp scam
 tags: Bank Scams|New Zealand|Phone Scams|What To Do
 === TLDR
-In **March 2026**, ASB warned of scammers **cold calling** about "fraud" on personal or business accounts, sending people to a **fake ASB web address**, and asking for **Netcodes** or **FastNet Business token codes**. ASB also flags fakes on **WhatsApp, Google Meet and iCloud**, and calls to **schools**. ASB will **never** ask for codes, remote access, call forwarding or "safe account" transfers. Not sure? Ask for **Caller Check** in the ASB app. Fraud line: **0800 272 372**.
+In **October 2026**, ASB warned of a rise in callers posing as its **fraud team** who ask you to key in a **number sequence that secretly turns on call forwarding**, sending your calls (and bank verification calls) to the scammer. Earlier alerts cover cold calls that send you to a **fake ASB web address** and ask for **Netcodes** or **FastNet Business token codes**, plus fakes on **WhatsApp, Google Meet and iCloud** and calls to **schools**. ASB will **never** ask for codes, call forwarding, remote access or "safe account" transfers. Ask for **Caller Check** in the ASB app. Fraud line: **0800 272 372**.
 
 === BODY
-## ASB's current alerts
+## October 2026: the call-forwarding trick
 
-From [ASB's security alerts](https://www.asb.co.nz/banking-with-asb/security-alerts.html):
+According to [NZ Adviser](https://www.mpamag.com/nz/news/general/asb-warns-customers-as-bank-impersonation-scams-rise-in-new-zealand/594702) (23 October 2026):
+
+- callers claim to be from **ASB's own fraud team**;
+- they **spoof caller ID** so the number looks identical or very close to ASB's;
+- they ask you to **key in a number sequence**, framed as a way to "stop scam calls," which actually **turns on call forwarding** to the scammer's phone;
+- they also contact people through **WhatsApp, Google Meet and iCloud**, often using a company logo as the profile picture.
+
+Once your calls are forwarded, the scammer can receive calls meant for you, including a genuine check from your bank. That's why this matters so much.
+
+ASB head of fraud operations **Julie Wilton** said anyone asked to forward their calls should hang up: it's "a big red flag." She added: "We will never contact customers through an app, unless it's the ASB Mobile App," and "A real organisation won't mind you checking. A scammer will."
+
+### The numbers behind the warning
+
+- **Netsafe:** 34% of August 2026 reports involving someone posing as another person related to a **bank or financial institution**, up from **20%** between April and July 2026. (Netsafe notes these are reports made to it, not all scams.)
+- **Westpac NZ:** bank impersonation made up **71%** of gross scam losses among its business customers in the first half of 2026.
+
+## ASB's other alerts
+
+From [ASB's security alerts page](https://www.asb.co.nz/banking-with-asb/security-alerts.html):
 
 | Alert | What happens |
 |---|---|
-| **Bank impersonation (Mar 2026)** | Cold call about fraud; you're sent to a fake ASB web address and asked for Netcodes or FastNet Business token codes |
-| **WhatsApp, Google Meet, iCloud** | Scammers pose as ASB Fraud, other banks or NZ brands; ask for info, remote access or phone setting changes |
-| **Schools** | Callers claim problems with the school's account; ask for usernames, passwords or codes |
-| **Business customers** | Told accounts are at risk; some told to install remote access software |
+| **Bank impersonation (March 2026)** | Cold call about fraud on a personal or business account; you're told to type a fake ASB web address and read out Netcodes or FastNet Business token codes |
+| **WhatsApp, Google Meet, iCloud** | Scammers pose as ASB Fraud, other banks or NZ brands; ask for information, remote access or phone setting changes |
+| **Schools** | Callers claim a problem with the school's account, such as a payment to the wrong account; ask for usernames, passwords or codes |
+| **Business customers** | Told the FastNet Business account is at risk or being hacked; some told to install remote-access software |
 
 The Netcode request is the punchline every time. Everything else is costume.
 
 ## What ASB will never do
 
 - Contact you via **WhatsApp, Google Meet or iCloud**
-- Ask for **remote access**, **call forwarding** or **phone setting changes**
-- Ask for your **password, PIN, text codes, token codes or Netcodes**
-- Ask you to **read out codes** from your phone or FastNet token
+- Ask for **call forwarding**, **remote access** or **phone setting changes**
+- Ask you to key in **long number sequences** to "secure" your account
+- Ask for your **password, PIN, text codes, token codes or Netcodes**, or ask you to read them out
 - Ask you to type any web address **other than asb.co.nz**
 - Need your **full card number or CVV**
 - Ask you to **download software**
-- Ask you to **buy gift cards**, set up **crypto**, or **move money to keep it safe**
+- Ask you to **buy gift cards**, set up **crypto** or **money remittance** accounts, or **move money to keep it safe**
 
-## Caller Check
+## Use Caller Check
 
-If someone says they're ASB, ask for a **Caller Check** notification. Real ones appear **in the ASB Mobile Banking app**. If they can't send one, **hang up** and call ASB on its published number. Scammers have started faking caller checks by text or WhatsApp; see [[nz-bank-caller-check-impersonation-scams|Caller Check scams]].
+If someone says they're ASB, ask them to send a **Caller Check** notification. Real ones appear **only in the ASB Mobile Banking app**. If they can't send one, or one arrives by text, email or WhatsApp, **hang up** and call ASB on its publicly listed number. Scammers have started faking caller checks by message: see [[nz-bank-caller-check-impersonation-scams|Caller Check scams]].
+
+## Already keyed in a code?
+
+If you entered a number sequence during a call, your phone may now be forwarding calls. Check your phone's **call forwarding** setting and turn it off, or ask your mobile provider to check. Then call ASB.
 
 ## How to report
 
 - **Phone (24/7):** **0800 ASB FRAUD (0800 272 372)**; overseas **+64 9 303 0332**
 - **Texts:** forward to **7726** ([[nz-report-scam-text-7726|how]])
+- **Schools and businesses:** contact your Account Manager or call 0800 ASB FRAUD
 
-## If you gave a code
+## If you gave a code or sent money
 
-Call ASB immediately. Ask them to check for new payees, devices or transfers. The new [[nz-bank-scam-reimbursement-rules-explained|reimbursement rules]] may apply, but only if you report within three months.
+1. Call ASB immediately and ask them to check for **new payees, devices or transfers**.
+2. Change your banking password from a clean device.
+3. Report to Police. The new [[nz-bank-scam-reimbursement-rules-explained|reimbursement rules]] may apply, but only if you report to your bank and Police within three months.
 
-A free [[/digital-footprint-checker/|exposure check]] shows whether your details are in breach data.
+A free [[/digital-footprint-checker/|exposure check]] shows whether your details are in breach data scammers use to sound convincing.
 
 === FAQ
+Q: Will ASB ever ask me to set up call forwarding?
+A: No. ASB says it will never ask for call forwarding or long number sequences to secure your account. Hang up.
 Q: Will ASB ever ask for my Netcode?
 A: No. ASB says it will never ask for Netcodes, text codes or token codes, or ask you to read them out.
 Q: Does ASB contact customers on WhatsApp?
-A: No. ASB says it never contacts you through WhatsApp, Google Meet or iCloud.
+A: No. ASB says it never contacts you through WhatsApp, Google Meet or iCloud, and only uses the ASB Mobile App.
 Q: What is ASB's fraud number?
 A: 0800 ASB FRAUD (0800 272 372), or +64 9 303 0332 from overseas, 24/7.
 Q: How do I check a caller is really from ASB?
-A: Ask for a Caller Check notification in the ASB Mobile Banking app. If they can't, hang up.
+A: Ask for a Caller Check notification in the ASB Mobile Banking app. If they can't send one, hang up.
 
 === SOURCES
 https://www.asb.co.nz/banking-with-asb/security-alerts.html | ASB: Security alerts
+https://www.mpamag.com/nz/news/general/asb-warns-customers-as-bank-impersonation-scams-rise-in-new-zealand/594702 | NZ Adviser: ASB warns customers as bank impersonation scams rise (23 Oct 2026)
 
 === RELATED
 nz-bank-caller-check-impersonation-scams | Caller Check Scams
@@ -67,3 +95,4 @@ nz-banks-whatsapp-impersonation-scams | NZ Banks Don't Use WhatsApp
 nz-kiwibank-latest-scams-2026 | Kiwibank Latest Scams
 nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts
 nz-bank-scam-reimbursement-rules-explained | NZ Scam Reimbursement Rules
+nz-netsafe-bank-impersonation-spike-august-2026 | Netsafe Bank Impersonation Spike

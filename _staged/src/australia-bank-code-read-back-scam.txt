@@ -73,3 +73,5 @@ australia-commbank-scam-texts-netcode | CommBank Scam Texts
 australia-anz-scam-alerts-2026 | ANZ Scam Alerts 2026
 australia-food-delivery-scams-scamwatch | Food Delivery Scams
 australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams
+why-you-should-never-share-otp | Why You Should Never Share an OTP
+how-to-report-a-scam-to-scamwatch | How to Report a Scam to Scamwatch

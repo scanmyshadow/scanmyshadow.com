@@ -1,63 +1,90 @@
 slug: uk-fake-casino-apps-social-media-ads
 country: UK
-title: Fake “Apps” in Social Ads Leading to Unlicensed Casinos
+title: Fake "Apps" in Social Ads Leading to Unlicensed Casinos
 h1: Fake App Store Pages in Facebook Ads Are Pushing People Into Unlicensed Casinos
-desc: Social media ads disguised as Google Authenticator, Duolingo or Airbnb apps lead to unlicensed online casinos. How the fake app-store trick works and how to remove it.
-keywords: fake casino app scam, unlicensed online casino uk, facebook ad fake app casino, pwa scam app, friendlydealer casino scam
+desc: Facebook and Instagram ads for fake Google Authenticator, Duolingo or Airbnb apps lead to unlicensed casinos. How the fake app trick works and how to remove it.
+keywords: fake casino app scam, unlicensed online casino uk, facebook ad fake app casino, pwa scam app, friendlydealer casino scam, nordvpn pwa scam research, non gamstop casino risk
 tags: Fake Apps|Gambling Scams|United Kingdom|Scam Alert
 === TLDR
-Which? warned in July 2026 about Facebook and Instagram ads promoting fake apps posing as Google Authenticator, Disney+, Duolingo and Airbnb that actually lead to unlicensed online casinos asking for deposits. Malwarebytes separately found a kit called FriendlyDealer using fake Google Play and App Store pages across 1,500+ domains. Unlicensed casinos offer none of the protections of UK-licensed ones, so deposits are risky. Remove the “app,” clear site data and block notifications.
+In **July 2026**, Which? warned about Facebook and Instagram ads promoting **fake apps** posing as **Google Authenticator, Disney+, Duolingo and Airbnb** that lead to **unlicensed online casinos** asking for a deposit. NordVPN's research found one network impersonating **more than 400 brands**; Malwarebytes found a kit called **FriendlyDealer** behind **1,500+ domains**. The "app" is usually a **web shortcut** installed from a **fake Google Play or App Store page**. Unlicensed casinos offer none of the protections of UK-licensed ones. Delete the shortcut, clear the site's data, block its notifications, and don't deposit.
 
 === BODY
 ## What Which? found
 
-[Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) reported on July 29, 2026 that ads on Facebook and Instagram promote fake apps dressed up as Google Authenticator, Disney+, Duolingo and Airbnb. Tap through and you end up at unlicensed online casinos asking for deposits. You came for language lessons and left with a slot machine.
+[Which?](https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC) reported on **29 July 2026** that NordVPN had found a criminal network running Facebook and Instagram ads that impersonate **Google Authenticator, Disney+, Duolingo and Airbnb**. The "apps" lead to **unlicensed online casinos** that ask for a deposit, and Which? says some victims only realise after they've paid into a casino they've never heard of. You came for language lessons and left with a slot machine.
 
 ## How the trick works
 
-[Malwarebytes' March 2026 report](https://www.malwarebytes.com/blog/scams/2026/03/friendlydealer-mimics-official-app-stores-to-push-unvetted-gambling-apps) on a kit it calls **FriendlyDealer** explains the mechanics:
+[NordVPN's research](https://nordvpn.com/blog/nordvpn-pwa-scams-research/) (published 2 September 2026) walks through the steps:
 
-- Ads lead to **fake Google Play or App Store pages**, complete with fake reviews.
-- The “Install” button creates a **web app** (PWA) on your home screen rather than a real app from the store.
-- The “app” redirects to casino offers, and operators earn affiliate commission when you sign up or deposit.
-- At least **1,500 domains** and **20+ casino brands** were generated from one configuration file.
-- The kit collects browser data and can send **push notifications** after you close it.
+1. A **Facebook or Instagram ad** leads to a **fake app-store page**, often on an unrelated throwaway domain.
+2. A tracking system checks who's visiting. Real people see the fake install page; scanners and ad reviewers may see a harmless page instead.
+3. "Install" adds a **progressive web app (PWA)**, a web shortcut on your home screen that opens a website rather than a real app.
+4. The page may ask for **notification permission**, so it can send alerts later, and some interfere with the **Back** button.
+5. The shortcut opens a **casino sign-up page** asking for an email, password, country, age confirmation and a first deposit, often with a big welcome bonus.
+6. **Affiliates get paid** for every registration or deposit.
 
-Malwarebytes says this campaign doesn't steal passwords or install traditional malware, but it pushes people into **unregulated gambling** with no age checks, deposit limits or consumer protection.
+NordVPN says the network impersonated **more than 400 brands**, including Google Authenticator, Google Translate, Gemini and YouTube Kids, plus banks, lotteries, travel, streaming and VPN apps. NordVPN chief technology officer **Marijus Briedis** called it "essentially trust laundering."
 
-## Why “unlicensed” matters
+[Malwarebytes' March 2026 report](https://www.malwarebytes.com/blog/scams/2026/03/friendlydealer-mimics-official-app-stores-to-push-unvetted-gambling-apps) on a similar kit, **FriendlyDealer**, found **1,500+ domains** and **20+ casino brands** generated from one configuration file, with fake reviews on the fake store pages. Malwarebytes says this campaign doesn't steal passwords or install traditional malware, but pushes people into **unregulated gambling** with no age checks, deposit limits or consumer protection.
 
-UK-licensed gambling sites must verify age, offer safer-gambling tools and follow complaint rules. An unlicensed site can refuse withdrawals, change terms or vanish. Before depositing anywhere, check the operator on the Gambling Commission's public register.
+## Why "unlicensed" matters
+
+UK-licensed gambling sites must verify age, offer safer-gambling tools and follow complaint rules. NordVPN lists what you risk on an unlicensed site: **poor age checks, unclear deposit rules, unfair bonus terms, refused payouts** and aggressive marketing.
+
+The Gambling Commission calls the illegal market "unsafe, unfair and criminal." According to [SBC News](https://sbcnews.co.uk/featurednews/2025/09/19/ukgc-black-market/), its research found:
+
+- some people use illegal sites to **get around GAMSTOP self-exclusion** or spending limits, and those people are more likely to experience gambling harm;
+- some offshore sites openly advertise as **"non-Gamstop casinos"**;
+- many use **Gambling Commission and GambleAware logos** to look regulated.
+
+So a logo on the page proves nothing. Check the operator's name on the **Gambling Commission's public register** before depositing anywhere.
 
 ## How to remove a fake app
 
-**Android**: uninstall the app, clear the site's data in Chrome (and any other browser), and remove notification permissions.
+| If you... | Do this |
+|---|---|
+| Only opened the page | Close it; don't install or allow notifications; report the ad |
+| Added the shortcut | Delete it, revoke notification permission and clear the site's data in your browser |
+| Registered at the casino | Don't deposit more; change any reused password; save evidence |
+| Deposited money | Contact your bank or card provider promptly |
+| Entered real logins (e.g. Google) | Change the password, turn on two-step verification, sign out other sessions |
 
-**iPhone**: delete the home-screen icon, clear the site's website data in Safari settings and deny notifications.
+That advice comes from NordVPN. On **Android**, clear site data in Chrome's site settings; on **iPhone**, delete the home-screen icon and clear the site's data in Safari settings.
 
-If you deposited money, contact your bank or card provider promptly. Report the ad to Facebook or Instagram using the three dots on the ad.
+**Report the ad** on Facebook or Instagram using the three dots in the top-right corner of the ad, then **Report**.
 
 ## Spot the fake next time
 
-- Real app downloads open the actual Play Store or App Store app, not a web page.
-- Big brands advertise their own apps from their own pages.
-- If an “authenticator” app starts talking about spins, you have your answer.
+- **Real installs open the Play Store or App Store app**, not a web page that looks like it.
+- **Check the address bar:** NordVPN says scammers count on people checking the logo, not the URL.
+- **Search for the app yourself** in the official store and check the developer name.
+- **A notification request during "install"** is a warning sign.
+- If an "authenticator" app starts talking about free spins, you have your answer.
 
-See also [[uk-copycat-apps-fake-websites-65-brands|fake apps on copycat sites]] and [[scam-online-casino-websites-australia|scam casino websites]]. A free [[/digital-footprint-checker/|email exposure check]] covers the breach side of your footprint.
+Fake apps are a wider problem: in October 2026 Which? also reported McAfee finding **970 fake apps** on Google Play targeting UK users. See also [[uk-copycat-apps-fake-websites-65-brands|fake apps on copycat sites]] and [[scam-online-casino-websites-australia|scam casino websites]].
+
+If gambling is becoming hard to control, GAMSTOP lets you self-exclude from UK-licensed sites.
+
+A free [[/digital-footprint-checker/|email exposure check]] covers the breach side of your footprint.
 
 === FAQ
 Q: What brands did the fake casino apps imitate?
-A: Which? reported fakes posing as Google Authenticator, Disney+, Duolingo and Airbnb.
+A: Which? reported fakes posing as Google Authenticator, Disney+, Duolingo and Airbnb. NordVPN found one network impersonating more than 400 brands.
 Q: Are these real apps?
-A: Often they're web apps installed from fake store pages, not apps from Google Play or the App Store.
+A: Usually not. They're web shortcuts (PWAs) installed from fake store pages, not apps from Google Play or the App Store.
 Q: Is it dangerous to gamble on an unlicensed site?
-A: Unlicensed sites lack age checks, deposit limits and consumer protections, so you may not get money back.
+A: Unlicensed sites can lack age checks, deposit limits and consumer protection, and may refuse payouts.
+Q: The site shows a Gambling Commission logo. Is it licensed?
+A: Not necessarily. The Gambling Commission says many offshore sites copy its logo. Check the operator on its public register.
 Q: How do I remove a fake casino app?
-A: Delete the app, clear the site's data in your browser and remove its notification permission.
+A: Delete the shortcut, clear the site's data in your browser and remove its notification permission.
 
 === SOURCES
-https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (casino apps, Jul 29, 2026)
+https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (casino apps, 29 Jul 2026)
+https://nordvpn.com/blog/nordvpn-pwa-scams-research/ | NordVPN: Fake social media ads can lead you to unlicensed casinos (Sep 2026)
 https://www.malwarebytes.com/blog/scams/2026/03/friendlydealer-mimics-official-app-stores-to-push-unvetted-gambling-apps | Malwarebytes: FriendlyDealer mimics official app stores (Mar 2026)
+https://sbcnews.co.uk/featurednews/2025/09/19/ukgc-black-market/ | SBC News: Gambling Commission illegal market findings
 
 === RELATED
 scam-online-casino-websites-australia | Scam Casino Websites

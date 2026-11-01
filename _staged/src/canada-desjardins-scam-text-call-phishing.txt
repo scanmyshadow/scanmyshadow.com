@@ -73,3 +73,5 @@ canada-rbc-scam-alerts-2026-what-to-do | RBC Scam Alerts 2026
 canada-td-scam-text-phishing | TD Scam Texts
 canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
 canada-hydro-quebec-scam-calls-texts | Hydro-Québec Scams
+canada-anti-fraud-centre-reporting-guide | Canadian Anti-Fraud Centre Reporting Guide
+why-you-should-never-share-otp | Why You Should Never Share an OTP

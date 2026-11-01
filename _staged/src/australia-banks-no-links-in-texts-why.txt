@@ -1,61 +1,84 @@
 slug: australia-banks-no-links-in-texts-why
 country: AU
-title: Why Australian Banks Stopped Putting Links in Texts (And What That Means for You)
+title: Why Australian Banks Stopped Putting Links in Texts
 h1: Australian Banks Don't Send Login Links in Texts Anymore: Use This as Your Scam Filter
-desc: NAB removed links from its texts; CommBank, Westpac and ANZ say they never send login links. That makes one simple rule: a bank text with a link is a scam. Here's the evidence.
-keywords: do banks send links in texts australia, nab removed links from sms, bank text with link scam, commbank sms link, westpac sms link, bank scam text rule
+desc: NAB removed links from its texts, and CommBank, Westpac and ANZ say they never send login links. That makes one simple rule: a bank text with a link is a scam.
+keywords: do banks send links in texts australia, nab removed links from sms, bank text with link scam, commbank sms link, westpac sms link, bank scam text rule, unverified sms label australia
 tags: Bank Scams|Australia|Text Scams|Explainer
 === TLDR
-Australia's big banks have made text scams easier to spot. **NAB removed links from its text messages**. **CommBank** says it never includes a link in an SMS or email to log in. **Westpac** says it never asks you to verify identity via a link in an email or SMS. **ANZ** says it never asks you to click a link to log in. So the rule is simple: **a "bank" text with a link is a scam.** Open the app instead.
+Australia's big banks have made text scams easier to spot. **NAB removed links from its text messages** in 2023, when about **40 million of its 112 million texts** that year contained one. **CommBank** says it never includes a link in an SMS or email to log in. **Westpac** says it never asks you to verify your identity via a link. **ANZ** says it never asks you to click a link to log in. And since **1 July 2026**, texts from unregistered brand names show as **"Unverified."** The rule is simple: **a "bank" text with a link is a scam.** Open the app instead.
 
 === BODY
 ## What each bank says
 
 | Bank | Policy | Source |
 |---|---|---|
-| **NAB** | Removed links from text messages; never sends unexpected texts with links | [NAB](https://www.nab.com.au/news/technology-ai/nab-scam-stop-and-recover), [NAB alerts](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts) |
+| **NAB** | Removed links from text messages; texts point you to the app, website or phone line instead | [NAB](https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts), [iTnews](https://www.itnews.com.au/news/nab-removes-links-from-text-messages-597719) |
 | **CommBank** | Never includes a link in an SMS or email to log in directly | [CommBank](https://www.commbank.com.au/security-privacy/report-hoaxes.html) |
 | **Westpac** | Never asks you to verify identity by clicking a link in an email or SMS | [Westpac](https://www.westpac.com.au/security/latest-scams/) |
 | **ANZ** | Never asks you to click a link to log in | [ANZ](https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html) |
 
+## Why NAB did it
+
+When NAB announced the change in July 2023, [iTnews reported](https://www.itnews.com.au/news/nab-removes-links-from-text-messages-597719) that the bank had sent **112 million messages** that year, about **40 million** with a link. Chief executive **Ross McEwan** said the aim was "to make it as simple as we can for customers to know whether a message from NAB is legitimate," and his advice was blunt: "don't click on a link."
+
+Two exceptions are worth knowing: at the time, subsidiaries **Ubank, JBWere and Citi Consumer Bank** were excluded, and a text sent by a NAB representative **during a phone call you're already on** may still contain a link.
+
 ## Did it work?
 
-NAB says it stopped or recovered more than **$48 million** heading to scammers between October 2024 and March 2025, and customers **abandoned $195 million** in payments after scam alerts. Removing links was one of several steps, alongside **real-time payment alerts** and **blocking some high-risk crypto exchanges**.
+Removing links was one of several measures, so no single number proves it. But the trend is clear:
+
+- NAB said reports of **NAB-branded spoofing scams fell 29%** (January to May 2023 compared with August to December 2022), as it worked with telcos to stop criminals getting into legitimate text threads ([NAB](https://www.nab.com.au/news/personal-finance/scam-strategy-update)).
+- Between **October 2024 and March 2025**, NAB said it stopped or recovered **more than $48 million** heading to scammers, almost $2 million a week, and customers **abandoned more than $195 million** in payments after real-time alerts ([NAB](https://www.nab.com.au/news/technology-ai/nab-scam-stop-and-recover)).
+
+NAB's **Chris Sheehan** described scammers as "experts in socially engineering people to make the payment themselves," which is why friction like alerts and no-link texts matters.
+
+## The new "Unverified" label
+
+From **1 July 2026**, texts that use a brand name as the sender but aren't on the **SMS Sender ID Register** show as **"Unverified"** instead, grouped with other unregistered senders, according to the [ACMA](https://www.acma.gov.au/articles/2026-05/unregistered-branded-sms-be-labelled-unverified-1-july-acma-warns). ACMA member Samantha Yorke: "Scammers rely on familiar names to make fake messages look real." More in our guide to the [[australia-acma-sms-sender-id-register-unverified-label-1-july|Sender ID Register]].
+
+A verified name doesn't make a message safe, but an "Unverified" text claiming to be your bank is a strong warning sign.
 
 ## The one rule
 
-**If a text says it's from your bank and has a link, it's a scam.** You don't have to judge the wording, the logo or the sender name. Spoofed messages can even land in the same thread as real ones.
+**If a text says it's from your bank and has a link, it's a scam.** You don't have to judge the wording, the logo or the sender name. Spoofed messages have even landed in the same thread as real ones.
 
 It's like a restaurant announcing it never asks for your PIN at the table. Easy test, very hard to fake around.
 
-## But watch for the workaround
+## But watch for the workarounds
 
-Scammers adapted. Instead of links, they now say **"call this number"**: see [[australia-bank-new-login-call-this-number-email-scam|the callback scam]]. And they'll ask you to **read out a code**: see [[australia-bank-code-read-back-scam|read-back code scams]].
+Scammers adapted. Instead of links, they now say **"call this number"**: see [[australia-bank-new-login-call-this-number-email-scam|the callback scam]]. And they ask you to **read out a code**: see [[australia-bank-code-read-back-scam|read-back code scams]].
 
 So the full rule set:
 
 1. **No links** from banks in texts. Ignore any that have them.
-2. **No calling numbers** from unexpected messages. Use the number on your card or app.
+2. **No calling numbers** from unexpected messages. Use the number on your card or in the app.
 3. **No reading out codes** to anyone.
 4. **No "safe accounts."** Ever.
 
 ## What to do with a fake
 
-Forward it to your bank and ACMA (**0429 999 888**). Full list in our [[australia-report-spam-sms-acma-0429-999-888|reporting guide]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number is in breach data scammers use.
+Forward it to your bank and to the ACMA's scam text line (**0429 999 888**), then delete it. Full list in our [[australia-report-spam-sms-acma-0429-999-888|reporting guide]]. If you already tapped a link and entered details, call your bank straight away using the number on your card.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your email is in the breach data scammers use to target people.
 
 === FAQ
 Q: Do Australian banks send links in text messages?
-A: NAB removed links from its texts, and CommBank, Westpac and ANZ say they don't send links to log in or verify identity.
+A: NAB removed links from its texts in 2023, and CommBank, Westpac and ANZ say they don't send links to log in or verify identity.
 Q: Is a text from my bank with a link a scam?
 A: Based on the banks' own policies, treat any bank text with a login or verification link as a scam.
+Q: What does "Unverified" mean on a text in Australia?
+A: Since 1 July 2026, texts using a brand name that isn't on the SMS Sender ID Register are labelled "Unverified."
 Q: What should I do instead of clicking?
 A: Open your banking app or type the bank's website yourself.
 Q: Has removing links reduced scams?
-A: NAB says it stopped or recovered more than $48 million from October 2024 to March 2025 using measures including removing links and payment alerts.
+A: NAB says spoofing reports fell 29% in 2023, and it stopped or recovered more than $48 million from October 2024 to March 2025 using measures including no-link texts and payment alerts.
 
 === SOURCES
-https://www.nab.com.au/news/technology-ai/nab-scam-stop-and-recover | NAB: NAB stops and recovers more than $48 million
-https://www.nab.com.au/about-us/security/latest-fraud-scam-alerts | NAB: Latest scam alerts
+https://www.itnews.com.au/news/nab-removes-links-from-text-messages-597719 | iTnews: NAB removes links from text messages (Jul 2023)
+https://www.nab.com.au/news/technology-ai/nab-scam-stop-and-recover | NAB: NAB stops and recovers more than $48 million (May 2025)
+https://www.nab.com.au/news/personal-finance/scam-strategy-update | NAB: Scam alerts intervene in $270 million worth of payments
+https://www.acma.gov.au/articles/2026-05/unregistered-branded-sms-be-labelled-unverified-1-july-acma-warns | ACMA: Unregistered branded SMS to be labelled "Unverified" from 1 July
 https://www.commbank.com.au/security-privacy/report-hoaxes.html | CommBank: Report hoaxes
 https://www.westpac.com.au/security/latest-scams/ | Westpac: Latest scams
 https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams

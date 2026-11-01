@@ -2,7 +2,7 @@ slug: australia-bank-new-login-call-this-number-email-scam
 country: AU
 title: "New Login Detected, Call Us" Bank Emails: The Callback Scam
 h1: "New Login Detected, Call This Number": Why Bank Scam Emails Now Want You to Phone Them
-desc: Westpac, NAB and ANZ have all warned about emails claiming a new login, payment or direct debit, with a phone number to call. The number reaches scammers who push "safe account" transfers.
+desc: Westpac, NAB and ANZ warn of emails about a new login, payment or direct debit with a number to call. It reaches scammers who push "safe account" transfers.
 keywords: new login detected scam email, bank callback scam australia, call this number scam email bank, safe account scam australia, direct debit scam email, nab westpac anz phone scam email
 tags: Bank Scams|Australia|Phone Scams|What To Do
 === TLDR

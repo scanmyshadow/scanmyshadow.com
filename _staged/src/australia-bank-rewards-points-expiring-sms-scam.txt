@@ -1,8 +1,8 @@
 slug: australia-bank-rewards-points-expiring-sms-scam
 country: AU
-title: "Your Rewards Points Are Expiring" Texts: The Bank Scam Hitting ANZ, NAB, Westpac
+title: "Rewards Points Expiring" Texts: The Bank Scam in Australia
 h1: "Your Rewards Points Expire Today": The SMS Scam Hitting ANZ, NAB and Westpac Customers
-desc: Fake texts say your bank rewards points are about to expire and link to a "redeem" page that steals your login and card. All three major banks have warned about it.
+desc: Fake texts say your bank rewards points are about to expire and link to a "redeem" page that steals your login and card. All three major banks have warned.
 keywords: rewards points expiring scam, anz rewards sms scam, nab rewards points scam, westpac rewards text scam, points expiring text scam australia, redeem points scam
 tags: Bank Scams|Australia|Text Scams|What To Do
 === TLDR

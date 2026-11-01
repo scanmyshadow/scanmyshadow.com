@@ -3,7 +3,7 @@ import sys,re,json,os
 slugs=open(sys.argv[1]).read().split(','); R=sys.argv[2]; D=sys.argv[3]
 n=0
 for s in slugs:
-    f=f'blog/2026/10/{s}.html'; a=open(f,encoding='utf-8').read(); b=open(f'{R}/blog/2026/10/{s}.html',encoding='utf-8').read()
+    import glob; f=glob.glob(f'blog/*/*/{s}.html')[0]; a=open(f,encoding='utf-8').read(); b=open(glob.glob(f'{R}/blog/*/*/{s}.html')[0],encoding='utf-8').read()
     norm=lambda x: re.sub(r'"dateModified": "[^"]*"','',x)
     rx=r'(<h2>Related Reading</h2>\s*<ul>\n?)(.*?)(\s*</ul>)'
     ma=re.search(rx,a,re.S); mb=re.search(rx,b,re.S)

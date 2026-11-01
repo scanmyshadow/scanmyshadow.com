@@ -64,3 +64,5 @@ nz-fma-fake-nz-registered-investment-firms | Fake NZ-Registered Firms
 nz-kiwisaver-scams-retirement-savings | KiwiSaver Scams
 nz-anz-fake-stock-education-ads-investment-chat-groups | ANZ Fake Investment Ads
 australia-asic-cancels-capital-guard-licence-fake-macquarie-bond | Fake Macquarie Bond (AU)
+nz-kiwibank-ceo-fake-investment-ads | Fake Kiwibank CEO Investment Ads
+nz-deepfake-luxon-investment-scam-ads | Deepfake Luxon Investment Ads

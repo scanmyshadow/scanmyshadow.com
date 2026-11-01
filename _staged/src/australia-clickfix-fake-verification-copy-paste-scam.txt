@@ -1,8 +1,8 @@
 slug: australia-clickfix-fake-verification-copy-paste-scam
 country: AU
-title: "Copy and Paste This to Prove You're Human": The Fake Verification Scam
+title: "Copy and Paste to Prove You're Human": The ClickFix Scam
 h1: Fake "Verify You're Human" Pages That Ask You to Paste a Command (ClickFix-Style Scam)
-desc: ANZ warned of fake verification pages that tell you to copy and paste a command to prove you're human. Doing it installs malware. How to spot it and what to do if you ran it.
+desc: ANZ warned of fake verification pages telling you to copy and paste a command to prove you're human. It installs malware. How to spot it and what to do.
 keywords: fake captcha copy paste scam, prove you are human paste command, clickfix scam, fake verification page malware, windows r paste scam, anz fake verification warning
 tags: Malware|Australia|Phishing|What To Do
 === TLDR

@@ -1,17 +1,25 @@
 slug: canada-equifax-transunion-fraud-alert-guide
 country: CA
-title: Fraud Alerts in Canada: Equifax Identity Alert vs Fraud Warning
+title: Fraud Alerts in Canada: Equifax and TransUnion (2026 Guide)
 h1: How to Put a Fraud Alert on Your Credit File in Canada (Equifax and TransUnion)
-desc: Equifax Canada offers an Identity Alert for anyone and a free Fraud Warning for victims, both lasting six years. How to add them, and why Ontario and Manitoba matter.
-keywords: fraud alert canada, equifax identity alert, equifax fraud warning canada, transunion fraud alert canada, credit file alert canada
+desc: Free fraud alerts last six years at Equifax and TransUnion Canada. How to add them by phone or mail, plus Ontario's new credit lock and where freezes exist.
+keywords: fraud alert canada, equifax identity alert, equifax fraud warning canada, transunion fraud alert canada, credit lock ontario, credit freeze canada 2026
 tags: Credit Protection|Identity Theft|Canada|How To
 === TLDR
-Equifax Canada has two options: an Identity Alert anyone can add (a statement plus phone number, lasting six years) and a free Fraud Warning for confirmed fraud victims (also six years). In Ontario and Manitoba lenders must call you before extending credit when an alert is on file; elsewhere they're encouraged to. Alerts apply to one bureau only, so contact TransUnion Canada separately. Place Equifax alerts by phone (1-800-465-7166), online or by mail.
+A fraud alert tells lenders to **check it's really you** before approving credit. It's **free**, lasts **six years**, and you have to add it **separately** at **Equifax (1-800-465-7166)** and **TransUnion (1-800-663-9980)**. Equifax offers an **Identity Alert** anyone can add and a **Fraud Warning** for confirmed victims. In **Ontario and Manitoba**, lenders must call you before extending credit when an alert is on file. Want stronger protection? A **credit lock (freeze)** is now free in **Quebec** (since February 2023) and **Ontario** (Equifax since **1 July 2026**; TransUnion has until **1 July 2027**).
 
 === BODY
-## Why alerts matter in Canada
+## Fraud alert vs credit lock
 
-Canadians can now freeze credit at the bureaus in some provinces (see [[how-to-freeze-your-credit-canada|credit freezes in Canada]]), but fraud alerts remain the most widely used protection. An alert tells lenders to check it's really you before opening credit.
+| | Fraud alert | Credit lock (freeze) |
+|---|---|---|
+| What it does | Flags your file so lenders verify your identity | Stops the bureau releasing your file for new credit |
+| Where available | Anywhere in Canada | Quebec and Ontario (BC passed a law, not yet in force) |
+| Cost | Free | Free under provincial rules |
+| Lasts | 6 years unless removed | Until you remove or suspend it |
+| Weakness | Lenders may not always act on it | You must suspend it before applying for credit |
+
+[Frugal Flyer's August 2026 review](https://frugalflyer.ca/blog/credit-freezes-in-canada/) notes that a fraud alert "doesn't block access to your file; instead, it tells lenders to verify your identity," and that enforcement is often reported as spotty. That's why the alert and the lock work best together where you can get both.
 
 ## Equifax's two alerts
 
@@ -19,50 +27,79 @@ From [Equifax Canada](https://equifax.ca/personal/education/identity/how-can-i-p
 
 | | Identity Alert | Fraud Warning |
 |---|---|---|
-| Who can add it | Anyone | Confirmed fraud or ID theft victims |
+| Who can add it | Anyone | Confirmed fraud or identity theft victims |
 | What it contains | Your statement plus a required phone number | A phone number for lenders |
 | Duration | 6 years unless removed in writing | 6 years |
-| Cost | Not stated on the page | Free |
 | Lender contact | Required in Ontario and Manitoba; encouraged elsewhere | Encouraged |
 
-## How to place an Equifax alert
+### How to add an Equifax alert
 
-- **Phone**: 1-800-465-7166 (automated).
-- **Online**: Equifax's online form.
-- **Mail**: Equifax Canada Co., Consumer Relations Department, Box 190, Montreal, Quebec H1S 2Z2, with photocopies of two IDs.
+- **Phone:** 1-800-465-7166. [Steps to Justice](https://stepstojustice.ca/steps/debt-and-consumer-rights/3-ask-consumer-reporting-agency-issue-fraud-alert/) says to choose your language, then say "lost ID" or press 2. Have your **SIN and date of birth** ready.
+- **Online:** Equifax's online form.
+- **Mail:** Equifax Canada Co., Consumer Relations Department, Box 190, Montreal, Quebec H1S 2Z2, with photocopies of two pieces of ID.
 
-For a Fraud Warning, call Equifax or submit a dispute; Equifax may open a fraud investigation.
+For a Fraud Warning, call Equifax or file a dispute; Equifax may open a fraud investigation.
 
-## Don't forget TransUnion
+## TransUnion Canada
 
-Each alert applies only to that bureau. Contact **TransUnion Canada** separately to add an alert there. Lenders may check either.
+Each alert covers **only one bureau**, and lenders may check either. TransUnion calls its version a **potential fraud alert**. According to Steps to Justice:
 
-## When to add one
+- **Phone:** 1-800-663-9980
+- **Online:** TransUnion's request form
+- **Mail:** download TransUnion's fraud warning form and send it to the **TransUnion Fraud Victim Assistance Department, 3115 Harvester Road, Suite 201, Burlington, ON L7N 3N8**
 
-- after a breach that exposed your SIN, date of birth or ID ([[canada-sin-stolen-what-to-do|SIN stolen steps]]);
-- after a lost wallet or stolen ID;
-- after scam calls where you gave out personal details;
-- if you see unknown inquiries on your report.
+There's no fee, and the alert lasts six years.
 
-Keep the phone number on your alert current; a lender calling an old number is no protection at all. Updating it is free.
+## The new credit lock: who can get it
 
-## Pair it with these
+| Province | Status |
+|---|---|
+| **Quebec** | Free credit freeze/lock since **1 February 2023** at both bureaus |
+| **Ontario** | Equifax **Credit Lock** since **1 July 2026**; TransUnion must follow by **1 July 2027** |
+| **British Columbia** | Law passed December 2025; not in force until regulations are finalised |
+| **Other provinces** | Not available yet; fraud alerts are the main tool |
 
-Report fraud to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/), and check your exposure with a free [[/digital-footprint-checker/|email exposure check]].
+Sources: Frugal Flyer and [Equifax Canada's June 2026 announcement](https://www.equifax.ca/about-equifax/newsroom/-/intlpress/equifax-canada-introduces-credit-lock-to-empower-ontarians-and-help-fight-identity-theft-and-fraud/).
+
+Equifax calls the Ontario lock a "digital deadbolt": while it's on, Equifax can't give lenders your score, report or personal information for new credit. It's free, doesn't affect your credit score, and you can place, remove or suspend it through **myEquifax**, by phone or by mail. The Ontario change comes from the province's **Bill 142** (Better for Consumers, Better for Businesses Act).
+
+## When to add an alert
+
+- after a breach that exposed your **SIN, date of birth or ID** ([[canada-sin-stolen-what-to-do|SIN stolen steps]]);
+- after a **lost wallet** or stolen ID;
+- after a **scam call** where you gave out personal details;
+- if you spot **unknown inquiries or accounts** on your report.
+
+Keep the phone number on your alert current; a lender calling an old number is no protection at all.
+
+## Check your reports too
+
+Steps to Justice says the bureaus must **mail you a free credit report once a year** if you ask. If you find an account you didn't open, report it right away: the bureau must try to correct it and send the updated report to anyone who requested your file in the past six months. Free monitoring is also available through Borrowell (Equifax data), Credit Karma and ClearScore (TransUnion data), according to Frugal Flyer.
+
+## Report the fraud
+
+Report identity fraud to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) (1-888-495-8501) and your local police, and see our guide to [[how-to-report-identity-theft-canada|reporting identity theft in Canada]]. To see which breaches your email address appears in, run a free [[/digital-footprint-checker/|email exposure check]].
 
 === FAQ
-Q: How long does an Equifax fraud alert last in Canada?
-A: Both the Identity Alert and the Fraud Warning last six years.
-Q: Is the Equifax Fraud Warning free?
-A: Yes, for confirmed fraud or identity theft victims.
+Q: How do I put a fraud alert on my credit in Canada?
+A: Call Equifax Canada at 1-800-465-7166 and TransUnion Canada at 1-800-663-9980, or use their online or mail options. You have to contact each bureau separately.
+Q: How long does a fraud alert last in Canada?
+A: Six years at both Equifax and TransUnion, unless you remove it.
+Q: Is a fraud alert free in Canada?
+A: Yes. There's no fee to add one.
 Q: Do lenders have to call me if I have an alert?
 A: In Ontario and Manitoba they must call before extending credit. Elsewhere they're encouraged to.
+Q: Can I freeze my credit in Canada?
+A: Yes in Quebec (since February 2023) and Ontario (Equifax since 1 July 2026, TransUnion by 1 July 2027). BC has passed a law that isn't in force yet.
 Q: Does an Equifax alert cover TransUnion?
 A: No. Contact TransUnion Canada separately.
 
 === SOURCES
 https://equifax.ca/personal/education/identity/how-can-i-place-a-fraud-alert-on-my-equifax-credit-report | Equifax Canada: How to place a fraud alert
 https://stepstojustice.ca/steps/debt-and-consumer-rights/3-ask-consumer-reporting-agency-issue-fraud-alert/ | Steps to Justice: Ask a consumer reporting agency to issue a fraud alert
+https://www.equifax.ca/about-equifax/newsroom/-/intlpress/equifax-canada-introduces-credit-lock-to-empower-ontarians-and-help-fight-identity-theft-and-fraud/ | Equifax Canada: Credit Lock for Ontarians (June 2026)
+https://frugalflyer.ca/blog/credit-freezes-in-canada/ | Frugal Flyer: Credit freezes in Canada (Aug 2026)
+https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
 
 === RELATED
 how-to-freeze-your-credit-canada | Freeze Your Credit in Canada

@@ -1,8 +1,8 @@
 slug: nz-bank-caller-check-impersonation-scams
 country: NZ
-title: Caller Check Scams: When Fraudsters Fake Your Bank's Security Check
+title: Caller Check Scams: Fraudsters Fake Your Bank's Security Check
 h1: Caller Check in NZ Banks: How It Works, and How Scammers Are Faking It
-desc: ASB and ANZ let you verify a caller with an in-app Caller Check. Scammers now send fake "verification" by text, email or WhatsApp. Real Caller Check only appears in the bank's app.
+desc: ASB and ANZ let you verify callers with an in-app Caller Check. Scammers now send fake "verification" by text, email or WhatsApp. The real one is in the app.
 keywords: caller check scam nz, anz caller check, asb caller check, fake bank verification message, bank calls verify nz, gomoney caller check
 tags: Bank Scams|New Zealand|Phone Scams|Explainer
 === TLDR

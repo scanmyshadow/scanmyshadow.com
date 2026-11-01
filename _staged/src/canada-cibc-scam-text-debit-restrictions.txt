@@ -84,3 +84,5 @@ canada-td-scam-text-phishing | TD Scam Texts
 canada-bmo-scam-text-phishing-report | BMO Scam Texts
 canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada
 canada-fake-interac-e-transfer-notification-scam | Fake Interac e-Transfer Notifications
+what-is-smishing | What Is Smishing?
+canada-anti-fraud-centre-reporting-guide | Canadian Anti-Fraud Centre Reporting Guide

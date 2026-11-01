@@ -1,60 +1,110 @@
 slug: freeze-chexsystems-innovis-lexisnexis-other-credit-bureaus
 country: US
-title: Freeze ChexSystems, Innovis and LexisNexis Too: Here's How
-h1: The Credit Files You Haven't Frozen Yet: ChexSystems, Innovis, LexisNexis and Clarity
-desc: Freezing Equifax, Experian and TransUnion leaves gaps. How to freeze Innovis, LexisNexis (incl. SageStream), ChexSystems and Clarity, with links and phone numbers.
-keywords: freeze chexsystems, innovis credit freeze, lexisnexis security freeze, clarity services freeze, sagestream freeze, other credit bureaus to freeze
+title: Freeze ChexSystems, NCTUE, Innovis and LexisNexis Too
+h1: The Credit Files You Haven't Frozen Yet: ChexSystems, NCTUE, Innovis, LexisNexis and Clarity
+desc: Freezing Equifax, Experian and TransUnion leaves gaps. How to freeze ChexSystems, NCTUE, Innovis, LexisNexis and Clarity free, with phone numbers and PIN tips.
+keywords: freeze chexsystems, nctue freeze, innovis credit freeze, lexisnexis security freeze, clarity services freeze, sagestream freeze, other credit bureaus to freeze
 tags: Credit Freeze|Identity Protection|United States|How To
 === TLDR
-The big three bureaus get all the attention, but criminals can also abuse smaller files: ChexSystems (bank accounts), Innovis (credit), LexisNexis (which now includes SageStream) and Clarity Services (personal and title loans). Each offers a security freeze online, by phone or by mail. Freeze the big three first, then add these for a sturdier fence, especially if your SSN has leaked.
+The big three bureaus get all the attention, but criminals can also exploit smaller files: **ChexSystems** (bank accounts), **NCTUE** (phone, pay-TV and utility accounts), **Innovis** (credit), **LexisNexis** (which now includes SageStream) and **Clarity Services** (personal and auto title loans). Each offers a **free security freeze** online, by phone or by mail. Freeze the big three first, then add these, especially if your **Social Security number has leaked**. Save every **PIN and confirmation page**: ChexSystems and NCTUE need a PIN to lift the freeze, and an NCTUE lift can take up to **three business days**.
 
 === BODY
 ## Why bother with the small ones?
 
-A freeze at Equifax, Experian and TransUnion blocks most new credit. But some banks check **ChexSystems** before opening a checking account, and some lenders use **Innovis**, **LexisNexis** or **Clarity** reports. A fraudster who can open a bank account in your name can use it to launder money or cash fake checks. If your full Social Security number has been in a breach, these files are worth locking.
+A freeze at Equifax, Experian and TransUnion blocks most new credit. But not every company checks the big three:
+
+- some **banks** check **ChexSystems** before opening a checking or savings account;
+- many **mobile carriers and utilities** check **NCTUE**;
+- some **lenders** use **Innovis**, **LexisNexis** or **Clarity** reports.
+
+As security journalist [Brian Krebs reported](https://krebsonsecurity.com/2018/05/another-credit-freeze-target-nctue-com/), freezes aren't shared between agencies. Equifax told him that a consumer "would need to independently place and lift a freeze with NCTUE." A fraudster who can open a bank account or phone contract in your name can use it to launder money, take over your number or run up debts.
 
 ## How to freeze each one
 
-Contact details from [Clark Howard's guide to smaller bureaus](https://clark.com/credit/smaller-credit-bureaus-credit-freeze/):
-
-| Bureau | Used for | Freeze online | Phone |
+| Bureau | Used for | How to freeze | Phone |
 |---|---|---|---|
-| ChexSystems | Checking and savings account history | chexsystems.com (security freeze page) | 800-428-9623 |
-| Innovis | Consumer credit | innovis.com (security freeze page) | 1-866-712-4546 |
-| LexisNexis Risk Solutions (incl. SageStream) | Consumer disclosure and SageStream reports | LexisNexis consumer security freeze form | 1-800-456-1244 |
-| Clarity Services (Experian) | Personal loans and auto title loans | Clarity consumer security freeze form | 866-390-3118 |
+| **ChexSystems** | Checking and savings account history | ChexSystems Consumer Portal ("Place a Security Freeze") | 800-428-9623 |
+| **NCTUE** | Phone, pay-TV, home security and utility accounts | nctue.com/consumer | 866-349-5355 |
+| **Innovis** | Consumer credit | innovis.com security freeze page | 1-866-712-4546 |
+| **LexisNexis Risk Solutions** (incl. SageStream) | Consumer disclosure and SageStream reports | LexisNexis consumer security freeze form | 1-800-456-1244 |
+| **Clarity Services** (Experian) | Personal loans and auto title loans | Clarity consumer security freeze form | 866-390-3118 |
 
-Mail options exist for all four. For LexisNexis: LexisNexis Risk Solutions Consumer Center, Attn: Security Freeze, P.O. Box 105108, Atlanta, GA 30348-5108. For ChexSystems: Chex Systems, Inc., Attn: Security Freeze Department, PO Box 583399, Minneapolis, MN 55458.
+Contact details for ChexSystems, Innovis, LexisNexis and Clarity come from [Clark Howard's guide to smaller bureaus](https://clark.com/credit/smaller-credit-bureaus-credit-freeze/); NCTUE's come from [Experian](https://experian.com/blogs/ask-experian/how-to-freeze-and-unfreeze-nctue-report).
 
-A LexisNexis freeze blocks release of your LexisNexis Consumer Disclosure Report, your SageStream Consumer Report and your score without your authorisation.
+### Mail addresses
+
+- **ChexSystems:** Chex Systems, Inc., Attn: Security Freeze Department, PO Box 583399, Minneapolis, MN 55458
+- **NCTUE:** Security Freeze, Exchange Service Center, NCTUE, P.O. Box 105561, Atlanta, GA 30348
+- **LexisNexis:** LexisNexis Risk Solutions Consumer Center, Attn: Security Freeze, P.O. Box 105108, Atlanta, GA 30348-5108
+
+## Bureau by bureau: what to expect
+
+### ChexSystems
+
+According to [Experian's ChexSystems guide](https://experian.com/blogs/ask-experian/how-to-freeze-chexsystems-report):
+
+- you register for a **Consumer Portal** account with your name, date of birth, SSN, address and an ID number, then answer security questions;
+- ChexSystems freezes your report **within 24 hours**;
+- adding, removing or lifting the freeze is **free**, and it doesn't affect your credit score;
+- you get a **PIN** (in the portal or by mail) that you need to lift the freeze, change details, request your report or dispute errors. Lost it? Request a replacement online or by mail.
+
+A ChexSystems report can include **closed accounts, bounced checks, overdrawn accounts** and your check-ordering history, which is exactly what a bank reviews when you apply.
+
+### NCTUE
+
+NCTUE (the National Consumer Telecom and Utilities Exchange) collects account data from **telecom, pay-TV, home security and utility** companies. Krebs reported that Equifax runs the NCTUE database as a contractor, though Equifax says NCTUE is a separate entity.
+
+From [Experian](https://experian.com/blogs/ask-experian/how-to-freeze-and-unfreeze-nctue-report):
+
+- the freeze is **free**;
+- after freezing online, **download the confirmation page**, because it holds the PIN you'll need to lift the freeze;
+- you can lift it temporarily, for **specific companies** (using one-time codes), or permanently;
+- NCTUE warns a temporary lift can take **up to three business days**, and requests may not work outside business hours. Plan ahead before switching phone carriers or moving home.
+
+### LexisNexis and SageStream
+
+SageStream is now part of LexisNexis Risk Solutions. A LexisNexis freeze blocks release of your **LexisNexis Consumer Disclosure Report**, your **SageStream Consumer Report** and your score without your authorisation.
+
+### Innovis and Clarity
+
+Innovis is a smaller consumer credit bureau that some lenders check alongside the big three. Clarity Services, owned by Experian, is used for **personal and auto title loans**. Both offer free freezes online, by phone or by mail.
 
 ## The trade-off
 
-Freezing ChexSystems means banks may not be able to open a new account for you until you lift it. That's a small hassle when you switch banks, and a big obstacle for someone pretending to be you. Write down which bureaus you froze and how to lift each one; [[how-to-temporarily-lift-credit-freeze-thaw|here's how lifting works]] at the big three.
+Freezing ChexSystems means a bank may not be able to open an account for you until you lift it. Freezing NCTUE can slow down a new phone contract or utility connection. Both are small hassles when you switch providers, and big obstacles for someone pretending to be you.
+
+Keep a simple record: **which bureaus, the date, the PIN or login, and how to lift each one.** Here's [[how-to-temporarily-lift-credit-freeze-thaw|how lifting works at the big three]].
 
 ## Who should do this
 
-- anyone whose SSN appeared in a breach (sadly, a lot of people after [[was-i-affected-by-the-national-public-data-breach|National Public Data]]);
-- people who've already been victims of [[what-is-synthetic-identity-fraud|synthetic or new-account fraud]];
-- anyone who wants belt-and-braces protection for free.
+- anyone whose **full SSN** appeared in a breach (sadly, a lot of people after [[was-i-affected-by-the-national-public-data-breach|National Public Data]]);
+- victims of [[what-is-synthetic-identity-fraud|synthetic or new-account fraud]];
+- anyone whose **mobile number was hijacked** or ported out without permission;
+- anyone who wants free, belt-and-braces protection.
 
 ## Start with the big three
 
-If you haven't frozen Equifax, Experian and TransUnion yet, do that first: [[how-to-freeze-your-credit-us|how to freeze your credit]]. Then check how exposed your email is with a free [[/digital-footprint-checker/|email exposure check]].
+If you haven't frozen Equifax, Experian and TransUnion yet, do that first: [[how-to-freeze-your-credit-us|how to freeze your credit]]. The [FTC](https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts) explains how freezes and fraud alerts differ. Then check how exposed your email is with a free [[/digital-footprint-checker/|email exposure check]].
 
 === FAQ
 Q: Can I freeze ChexSystems?
-A: Yes, online, by phone at 800-428-9623 or by mail. It may block new bank accounts until you lift it.
+A: Yes, free, through the ChexSystems Consumer Portal, by phone at 800-428-9623 or by mail. It may block new bank accounts until you lift it.
+Q: What is NCTUE and should I freeze it?
+A: NCTUE holds account data from phone, pay-TV, home security and utility companies. Many carriers check it, so a freeze helps block phone accounts opened in your name.
+Q: How long does it take to lift an NCTUE freeze?
+A: NCTUE warns a temporary lift can take up to three business days, so plan ahead.
 Q: Is SageStream still a separate bureau?
 A: SageStream is now part of LexisNexis Risk Solutions. A LexisNexis freeze covers the SageStream report.
-Q: Should I freeze Innovis?
-A: It's an optional extra layer after the big three, worth doing if your SSN has been exposed.
-Q: What is Clarity Services?
-A: A specialty bureau owned by Experian, used for personal loans and auto title loans. It offers its own freeze.
+Q: Do freezes at the big three cover these bureaus?
+A: No. Each agency is separate, so you have to freeze and lift each one yourself.
+Q: What happens if I lose my ChexSystems PIN?
+A: You can request a replacement PIN online or by mail.
 
 === SOURCES
 https://clark.com/credit/smaller-credit-bureaus-credit-freeze/ | Clark.com: How to freeze your credit at smaller bureaus
 https://experian.com/blogs/ask-experian/how-to-freeze-chexsystems-report | Experian: How to freeze your ChexSystems report
+https://experian.com/blogs/ask-experian/how-to-freeze-and-unfreeze-nctue-report | Experian: How to freeze and unfreeze your NCTUE report
+https://krebsonsecurity.com/2018/05/another-credit-freeze-target-nctue-com/ | KrebsOnSecurity: Another credit freeze target, NCTUE.com
 https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts | FTC: What to know about credit freezes and fraud alerts
 
 === RELATED

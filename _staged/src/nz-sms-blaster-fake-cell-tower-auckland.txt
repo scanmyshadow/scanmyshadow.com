@@ -60,3 +60,4 @@ nz-anz-scam-alerts-2026 | ANZ NZ Scam Alerts 2026
 nz-telco-scam-prevention-code-explained | NZ Telco Scam Prevention Code
 what-is-smishing | What Is Smishing?
 nz-netsafe-bank-impersonation-spike-august-2026 | Bank Impersonation Spike (Aug 2026)
+nz-anti-scam-alliance-2026-work-programme | NZ Anti-Scam Alliance Work Programme

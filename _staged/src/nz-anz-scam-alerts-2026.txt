@@ -1,17 +1,17 @@
 slug: nz-anz-scam-alerts-2026
 country: NZ
-title: ANZ NZ Scam Alerts 2026: Fake Staff, Fake Caller Checks and More
+title: ANZ NZ Scam Alerts 2026: Fake Staff and Fake Caller Checks
 h1: ANZ New Zealand Scam Alerts 2026: Staff Impersonation, Fake Caller Check, WhatsApp and Reward Scams
-desc: ANZ NZ's 2026 alerts include staff impersonation, malware, fake Caller Check requests, WhatsApp impersonation and fake rewards. ANZ never sends a login link. Call 0800 269 296.
-keywords: anz nz scam, anz scam text nz, anz caller check scam, anz whatsapp scam, anz fake reward scam, anz nz fraud number
+desc: ANZ NZ's 2026 scam alerts: fake direct-debit emails, fake Caller Check requests, WhatsApp fakes and courier card pickups. What ANZ never asks, and who to call.
+keywords: anz nz scam, anz scam text nz, anz caller check scam, anz whatsapp scam, anz fake reward scam, anz nz fraud number, anz direct debit scam email
 tags: Bank Scams|New Zealand|What To Do|Fraud
 === TLDR
-ANZ NZ's 2026 scam list: **staff impersonation** and **malware** (September), **social media** and **fake ANZ phone numbers** (August), **fake Caller Check** requests (July), **look-alike ANZ websites** (May), and **WhatsApp impersonation** plus **fake rewards** (March). ANZ will **never** ask for PINs, passwords or security codes, **never send a link** to log in, and never ask for **remote access**. Real **Caller Check** only appears in **goMoney**. Call **0800 269 296**.
+ANZ NZ has posted eight scam alerts in 2026. The newest (September) describe **fake direct-debit emails** that give you a "support" number, **texts from numbers ANZ has used before** with links to fake login pages, and callers posing as the **ANZ Fraud team** who ask for codes, remote access, "safe account" transfers or even your **card and PIN in an envelope** for a courier. Real **Caller Check** only appears in the **goMoney** app. ANZ will never ask for your **OnlineCode, Visa Secure code, PIN or password**, and never asks for **remote access**. Call **0800 269 296** (overseas **+64 4 470 3142**).
 
 === BODY
-## ANZ NZ's 2026 alerts
+## ANZ NZ's 2026 alerts at a glance
 
-From [ANZ NZ's latest scams](https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/):
+From [ANZ NZ's latest scams page](https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/), newest first:
 
 | Month | Scam |
 |---|---|
@@ -24,20 +24,48 @@ From [ANZ NZ's latest scams](https://www.anz.co.nz/banking-with-anz/banking-safe
 | Mar 2026 | ANZ impersonation on **WhatsApp** |
 | Mar 2026 | Fake **ANZ rewards** |
 
-## The Caller Check fake (July 2026)
+ANZ hadn't posted an October alert when we checked on 2 November 2026.
+
+## September 2026: staff impersonation, three ways
+
+According to [ANZ's September alert](https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/september-2026-anz-impersonation-scam/), scammers pose as ANZ staff by email, text and phone:
+
+| Channel | How it works |
+|---|---|
+| **Email** | Says a **direct debit** has been set up on your account and gives a phone number. The number plays an **automated recording**, then connects you to a scammer posing as ANZ. Other emails copy real ANZ emails with the links swapped for fake ones. |
+| **Text** | Often arrives from a **number ANZ has used before**, urging you to click a link to "verify" your account or respond to suspected fraud. The link goes to a fake login page. |
+| **Phone** | Callers claim to be the **ANZ Fraud team** and may already know some of your details. |
+
+### What they ask for
+
+- money transfers, including to a **"safe" account**;
+- your Internet Banking login, **OnlineCode** or **Visa Secure** code;
+- card details, PIN or passwords;
+- your **cards and PIN in an envelope** for a courier to collect;
+- **remote access** to your device;
+- **gift cards** or new **crypto accounts**;
+- a click on a fake **live chat** link.
+
+The recorded message is a clever touch: it makes a scam line sound like a real call centre. A real bank number on a real ANZ statement doesn't need one.
+
+## July 2026: the fake Caller Check
 
 From [ANZ](https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/july-2026-anz-impersonation-scams/): scammers cold call pretending to be ANZ and send fake **"security verification"** messages by **email, SMS or WhatsApp**, claiming that's how Caller Check works.
 
-**Real Caller Check** is a secure notification **only in the ANZ goMoney app**. ANZ never sends it by email, SMS, WhatsApp or other messaging. "If you receive one anywhere other than goMoney, it's a scam."
-
-The security feature became the costume. Clever, but beatable once you know where the real one lives.
+**Real Caller Check** is a secure notification **only in the ANZ goMoney app**. ANZ never sends it by email, SMS, WhatsApp or other messaging. "If you receive one anywhere other than goMoney, it's a scam." The security feature became the costume. Clever, but beatable once you know where the real one lives. More in our guide to [[nz-bank-caller-check-impersonation-scams|Caller Check scams]].
 
 ## What ANZ will never do
 
-- Ask for your **banking PINs, passwords or security codes**
-- Send you a **link to log in** to Internet Banking (type anz.co.nz)
-- Ask you to **download software**
-- Ask for **remote access**
+- Ask for your **OnlineCode, Visa Secure code, PIN, password or card details** by email, text or phone
+- Send you a **link to log in** to Internet Banking (type anz.co.nz yourself)
+- Ask you to **download software** or give **remote access**
+- Ask you to move money to a **"safe account"**
+
+ANZ says its fraud team may call to check unusual transactions, "however we will never ask you for remote access."
+
+## The bigger picture
+
+Bank impersonation is growing across NZ. In October 2026, [ASB cited Netsafe data](https://www.mpamag.com/nz/news/general/asb-warns-customers-as-bank-impersonation-scams-rise-in-new-zealand/594702) showing **34%** of August 2026 impersonation reports involved someone posing as a bank or financial institution, up from **20%** between April and July. ASB also warned about scammers asking people to key in a code that turns on **call forwarding**; see our [[nz-asb-scam-alerts-2026|ASB alerts]].
 
 ## Also from ANZ NZ
 
@@ -46,25 +74,35 @@ The security feature became the costume. Clever, but beatable once you know wher
 
 ## How to report
 
-- **Phone (24/7):** **0800 269 296**; overseas **+64 4 470 3142**
-- **Texts:** forward to **7726**
-- Use ANZ's online reporting page for suspicious emails, texts or calls.
+- **Phone (24/7):** **0800 269 296**; overseas **+64 4 470 3142** (charges may apply)
+- **Texts:** forward to **7726** ([[nz-report-scam-text-7726|how]])
+- **Suspicious emails, texts or calls:** use ANZ's online reporting page
 
-A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data.
+## If you've already shared something
+
+1. Call ANZ on **0800 269 296** straight away.
+2. Change your Internet Banking password from a clean device.
+3. Report to Police, and ask ANZ about the [[nz-bank-scam-reimbursement-rules-explained|new reimbursement rules]], which require you to report within three months.
+
+A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data scammers use.
 
 === FAQ
 Q: Does ANZ NZ send Caller Check requests by text or WhatsApp?
 A: No. Caller Check is only sent to the ANZ goMoney app. Anywhere else, it's a scam.
+Q: I got an email saying a direct debit was set up on my ANZ account. Is it real?
+A: ANZ warned in September 2026 about fake direct-debit emails that give a phone number leading to scammers. Don't call it; check your account in goMoney or call 0800 269 296.
 Q: Will ANZ send me a link to log in?
 A: No. ANZ says it never sends a link to log on to Internet Banking.
+Q: Will ANZ ever send a courier for my card?
+A: ANZ lists requests for your cards and PIN in an envelope for courier pickup as a scam tactic.
 Q: What is ANZ NZ's fraud number?
 A: 0800 269 296, or +64 4 470 3142 from overseas.
-Q: Does ANZ contact customers on WhatsApp?
-A: ANZ warned in March 2026 about scammers impersonating ANZ on WhatsApp.
 
 === SOURCES
 https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/ | ANZ NZ: Latest scams
+https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/september-2026-anz-impersonation-scam/ | ANZ NZ: September 2026 ANZ impersonation scam
 https://www.anz.co.nz/banking-with-anz/banking-safely/recognise-scams-fraud/latest-scams/july-2026-anz-impersonation-scams/ | ANZ NZ: Caller Check impersonation scams (July 2026)
+https://www.mpamag.com/nz/news/general/asb-warns-customers-as-bank-impersonation-scams-rise-in-new-zealand/594702 | NZ Adviser: ASB warns as bank impersonation scams rise (Oct 2026)
 
 === RELATED
 nz-bank-caller-check-impersonation-scams | Caller Check Scams

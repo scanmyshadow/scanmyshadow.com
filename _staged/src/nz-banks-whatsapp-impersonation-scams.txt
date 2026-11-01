@@ -1,8 +1,8 @@
 slug: nz-banks-whatsapp-impersonation-scams
 country: NZ
-title: Your NZ Bank Won't Message You on WhatsApp: The Impersonation Scam
+title: Your NZ Bank Won't Message You on WhatsApp: The Scam
 h1: "Your Bank" on WhatsApp? ASB, ANZ, Kiwibank and NZ Post All Say It's a Scam
-desc: Scammers impersonate NZ banks on WhatsApp, Google Meet and iCloud, using logos and urgent "suspicious activity" messages. ASB and NZ Post say they don't use WhatsApp. What to do.
+desc: Scammers impersonate NZ banks on WhatsApp, Google Meet and iCloud with logos and urgent "suspicious activity" messages. ASB and NZ Post don't use WhatsApp.
 keywords: bank whatsapp scam nz, asb whatsapp scam, anz whatsapp scam nz, kiwibank whatsapp scam, nz post whatsapp scam, whatsapp impersonation new zealand
 tags: Bank Scams|New Zealand|WhatsApp|What To Do
 === TLDR

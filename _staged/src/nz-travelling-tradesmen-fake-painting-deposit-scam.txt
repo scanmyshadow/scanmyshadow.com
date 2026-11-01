@@ -73,3 +73,5 @@ uk-nottingham-knockers-doorstep-sellers | Doorstep Sellers (UK)
 nz-how-to-report-a-scam | How to Report a Scam in NZ
 nz-rental-scams-fake-landlords-wechat | NZ Rental Scams
 nz-domain-renewal-fake-invoice-billing-scams | Fake Invoice Scams (NZ)
+talk-to-parents-about-scam-prevention | Talk to Parents About Scam Prevention
+nz-anti-scam-alliance-2026-work-programme | NZ Anti-Scam Alliance Work Programme

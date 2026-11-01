@@ -1,8 +1,8 @@
 slug: australia-business-scam-alerts-fake-audit-invoice-emails
 country: AU
-title: Fake "Credit Review" and "Internal Audit" Emails Targeting Australian Businesses
+title: Fake "Internal Audit" Emails Targeting Australian Businesses
 h1: Business Scam Alerts 2026: Fake Bank Audit Emails, Look-Alike Companies and Invoice Fraud
-desc: NAB warns of fake audit emails asking businesses for invoices; Westpac flags a look-alike "Westpac-Group Australia". How these lead to invoice fraud, and the checks that stop it.
+desc: NAB warns of fake audit emails asking businesses for invoices; Westpac flags a look-alike "Westpac-Group Australia". How they lead to invoice fraud.
 keywords: fake bank audit email business, nab fake audit email, credit review email scam, westpac-group australia scam, business email compromise australia, invoice scam australia
 tags: Business Scams|Australia|Email Scams|What To Do
 === TLDR

@@ -62,3 +62,5 @@ australia-silent-elector-how-to-hide-address | Silent Elector Enrolment
 telstra-scam-what-to-know | Telstra Scams
 australia-biggest-data-breaches-list | Biggest Australian Data Breaches
 australia-privacy-statutory-tort-explained | Australia's Privacy Tort
+australia-identity-theft-report-by-state | Identity Theft Reports by State (AU)
+australia-do-not-call-register-guide | Do Not Call Register Guide (AU)

@@ -1,6 +1,6 @@
 slug: canada-enbridge-gas-scam-bill-discount-calls
 country: CA
-title: Enbridge Gas Scams: Bill Discounts, Free Thermostats and Door Knocks
+title: Enbridge Gas Scams: Fake Bill Discounts and Door Knocks
 h1: Enbridge Gas Scams: Fake Bill Discounts, Free Thermostats and Door-to-Door Visits
 desc: Enbridge Gas doesn't offer bill discounts, take card payments by phone or sell door-to-door. The Ontario impersonation scams to know and how to verify a caller.
 keywords: enbridge gas scam, enbridge scam call discount, enbridge door to door scam, enbridge free thermostat scam, enbridge heat pump scam email, enbridge gas phone number scam
@@ -69,3 +69,5 @@ canada-manitoba-hydro-scam-text-disconnection | Manitoba Hydro Scam Texts
 canada-hydro-quebec-scam-calls-texts | Hydro-Québec Scams
 canada-waterloo-home-renovation-scam-seniors-500000 | Waterloo Renovation Scam
 bc-hydro-scam-what-to-know | BC Hydro Scams
+canada-anti-fraud-centre-reporting-guide | Canadian Anti-Fraud Centre Reporting Guide
+canada-national-do-not-call-list-guide | Canada National Do Not Call List
