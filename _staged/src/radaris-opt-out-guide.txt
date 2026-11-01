@@ -55,5 +55,4 @@ https://comparitech.com/blog/vpn-privacy/opt-out-of-radaris | Comparitech: How t
 us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
 veripages-opt-out-guide | VeriPages Opt-Out Guide
 how-do-data-brokers-actually-get-your | How Data Brokers Get Your Data
-how-do-data-brokers-actually-get-your | How Data Brokers Get Your Data
 opting-out-us-people-search-sites | Opting Out of US People-Search Sites

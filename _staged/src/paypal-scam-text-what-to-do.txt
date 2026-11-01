@@ -11,9 +11,11 @@ Fake PayPal texts claim your account is limited, a large payment is pending or a
 === BODY
 ## What the fake texts look like
 
-- “PayPal: Your account has been limited. Restore access within 24 hours: [link]”
-- “You sent $499.99 to Coinbase. If you didn't authorize this, call 1-8xx-…”
-- “You have a pending refund of $87.50. Claim it here.”
+They follow a few patterns:
+
+- **Account limited:** your account is "limited" or "suspended" and you must restore access through a link, usually within hours.
+- **Payment you didn't make:** a large payment and a phone number to call if it wasn't you.
+- **Refund waiting:** money is waiting for you if you "claim" it through a link.
 
 There's also the slower version: a fake invoice that arrives through PayPal itself with a “call us to cancel” number in the notes. We cover that in [[paypal-invoice-scam-what-to-know|the PayPal invoice scam]].
 
