@@ -1,8 +1,8 @@
 slug: australia-commbank-scam-texts-netcode
 country: AU
-title: CommBank Scam Texts: NetCode, Digital Wallet and Remote Access Tricks
+title: CommBank Scam Texts: NetCode, Digital Wallet and Callers
 h1: CommBank Scam Texts and Calls: NetCode Theft, Digital Wallet Fraud and How to Report
-desc: CommBank never texts or emails a link to log in or asks for your NetCode. How the digital wallet scam works, how CallerCheck verifies a real caller, and where to forward fakes.
+desc: CommBank never texts a login link or asks for your NetCode. How the digital wallet scam works, how CallerCheck verifies a caller, and where to forward fakes.
 keywords: commbank scam text, commbank netcode scam, commbank hoax email, hoax@cba.com.au, commbank callercheck, commonwealth bank digital wallet scam
 tags: Bank Scams|Australia|Text Scams|What To Do
 === TLDR
@@ -31,6 +31,28 @@ Type **commbank.com.au** yourself or open the **CommBank app** instead.
 
 If someone calls saying they're from CommBank, you can ask them to use **CallerCheck** in the CommBank app. A real CommBank staff member can send a check to your app. If they can't or won't, hang up.
 
+## What CommBank has changed
+
+CommBank says its measures are working. According to [Australian Broker](https://www.brokernews.com.au/news/breaking-news/cba-scam-losses-drop-76-as-ai-tool-and-inapp-verification-roll-out-287772.aspx) (August 2025):
+
+- customer scam losses had fallen **76%** from their peak in the first half of 2023;
+- CommBank invested more than **$900 million** in FY25 against fraud, scams, financial crime and cyber threats;
+- from **August 2025**, some online card purchases need **real-time approval in the CommBank app** instead of an SMS one-time code;
+- its identity-protection app **Truyu** added a free **Scam Checker**: upload a screenshot of a suspicious text and get an instant assessment.
+
+That in-app approval matters for the digital wallet scam. Codes sent by SMS can be read out to a scammer; an approval screen in your own app shows what you're approving. If it says "add card to a new device" and you didn't ask for that, decline it.
+
+CommBank's general manager of group fraud, James Roberts, has said scammers often impersonate legitimate businesses by text, and that the app can give clearer guidance and warnings than a text message can.
+
+## Red flags in a "CommBank" text
+
+| What you see | Why it's a scam |
+|---|---|
+| A link to "log in," "verify" or "unlock" | CommBank says it never includes a login link in SMS or email |
+| A request for a NetCode | CommBank never asks you to share one |
+| "A new device has been added; call this number" | Use the number in the app or on your card, never the one in the message |
+| A caller who refuses CallerCheck | Real CommBank staff can send one to your app |
+
 ## How to report
 
 1. **Forward** the suspicious SMS or email to **hoax@cba.com.au**.
@@ -56,11 +78,14 @@ Q: Will CommBank ask for my NetCode?
 A: No. CommBank says it never asks you to share a NetCode.
 Q: How do I report a CommBank scam text?
 A: Forward it to hoax@cba.com.au, then delete it.
+Q: Has CommBank stopped using SMS codes?
+A: From August 2025, some online card purchases need real-time approval in the CommBank app instead of an SMS code, according to Australian Broker.
 Q: What is CommBank CallerCheck?
 A: A feature that lets a real CommBank caller verify themselves through your CommBank app.
 
 === SOURCES
 https://www.commbank.com.au/security-privacy/report-hoaxes.html | CommBank: Report hoaxes and common scams
+https://www.brokernews.com.au/news/breaking-news/cba-scam-losses-drop-76-as-ai-tool-and-inapp-verification-roll-out-287772.aspx | Australian Broker: CBA scam losses drop 76% (Aug 2025)
 
 === RELATED
 australia-bank-code-read-back-scam | "Read Me the Code" Scams

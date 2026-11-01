@@ -1,48 +1,91 @@
 slug: infotracer-opt-out-guide
 country: US
-title: InfoTracer Opt Out: How to Remove Your Record
-h1: How to Opt Out of InfoTracer
-desc: InfoTracer removal: go to infotracer.com/optout, enter your name, city and state, select your record and submit. Then check the related sites.
-keywords: infotracer opt out, remove from infotracer, infotracer removal, infotracer optout, delete infotracer record
+title: InfoTracer Opt Out 2026: How to Remove Your Record
+h1: How to Opt Out of InfoTracer (and Its Sister Sites)
+desc: InfoTracer removal takes five minutes at infotracer.com/optout and is processed in 24-48 hours. The steps, its sister sites, and what to do if it comes back.
+keywords: infotracer opt out, remove from infotracer, infotracer removal, infotracer optout, delete infotracer record, infopay opt out
 tags: Data Brokers|Opt-Out Guides|United States|How To
 === TLDR
-Go to infotracer.com/optout, enter your name, city and state, select the matching record and submit the removal request. You'll get an email confirmation message. InfoTracer sells public-records style reports, so it's worth checking alongside the bigger people-search sites.
+Go to **infotracer.com/optout**, open **"Personal Information Opt-Out Requests,"** enter your **first name, last name and state**, tick your record and click **"Remove Data."** Add an email so you get a written confirmation. InfoTracer says requests are processed within **24 to 48 hours**. It's free and needs no account. InfoTracer belongs to a group of public-records sites (including **CourtCaseFinder, StateRecords and RecordsFinder**) that each need their **own opt-out**. Recheck every few months, because records can return.
 
 === BODY
 ## What InfoTracer sells
 
-InfoTracer markets public-records searches: background-style reports that can include addresses, phone numbers, relatives and court or property records. Like most people-search sites, it pulls from public records and other data sources, then charges for the full report.
+InfoTracer markets **public-records searches**: background-style reports that can include addresses, phone numbers, relatives and court or property records. According to [Redact's InfoTracer guide](https://redact.dev/data-brokers/infotracer-com/remove), its records are "assembled out of public records" and refresh from public-records feeds, which also means they can match the wrong person.
+
+## Before you start
+
+- Note every **state** you've lived in. Each search is by state, so an old address in another state can mean a separate record.
+- Have an **email address** ready. It's optional on the form, but it's your only written record of the request.
+- Leave the **city blank** unless your name is common.
 
 ## Step by step
 
-From [Cloaked's manual opt-out guide](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually):
+From [Redact's August 2026 walkthrough](https://redact.dev/data-brokers/infotracer-com/remove):
 
-1. Go to **infotracer.com/optout/**.
-2. Enter your **name, city and state**.
-3. **Select the correct record.**
-4. **Submit** the removal request and watch for the email confirmation message.
+1. Go to **infotracer.com/optout** ("Your Privacy Choices") and open the **"Personal Information Opt-Out Requests"** panel.
+2. Enter your **first name, last name and state**, then click **Submit**. Nothing is deleted at this stage.
+3. Check the results table (**Report ID, Name, Age, Addresses**). Compare age and address history before claiming a record.
+4. Tick **"Select Record,"** then click **"Remove Data."**
+5. Enter your **email** and submit. Screenshot the next screen: the confirmation disappears once you navigate away.
+6. You'll see: "Your request has been received and will be processed within 24-48 hours."
 
-Cloaked doesn't give a timeline, so search again after a week.
+A **slide-to-verify** box sometimes appears after searching. Drag the handle to the end and click Continue.
+
+[Cloaked's manual opt-out guide](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually) describes the same basic route: name, city and state, select the record, submit, then watch for the email.
+
+## If it doesn't work
+
+| Problem | What to do |
+|---|---|
+| Record still there after a week | Email **support@infotracer.com** or **privacy@infopay.com** with your name, the Report ID and the date you submitted |
+| Form not loading | Redact found the form broken from May 2026 until its 11 August 2026 walkthrough. Try again or use the email route |
+| Record came back | Redact notes BBB complaints about records returning; resubmit and recheck quarterly |
+| Several records | Repeat steps 3 to 5 for each one |
+
+Phone fallback: (800) 791-1427.
+
+## The sister sites
+
+Redact describes InfoTracer as part of an **InfoPay/Accucom** group of sites. Each runs its own opt-out, so removing InfoTracer doesn't remove these:
+
+- CourtCaseFinder
+- StateCourts.org
+- ThePublicIndex
+- CourtRecords.us
+- StateRecords
+- RecordsFinder
+
+If you found yourself on InfoTracer, search these too.
+
+## Use your state privacy rights if needed
+
+If you live in a state with a comprehensive privacy law, you can also send a formal deletion request. Redact notes these run on a **45-day** clock. Californians can use the state's free **DROP** platform to send one request to every registered data broker ([[fastpeoplesearch-opt-out-guide|how DROP works]]), and see our [[us-state-privacy-laws-guide|state privacy laws guide]].
 
 ## A note on public records
 
-Opting out removes your listing from InfoTracer's site. It doesn't erase the underlying public records (court filings, property deeds) held by government offices. Those are covered in our guides to [[court-records-public-case-filings-search-results|court records in search results]] and [[are-divorce-death-arrest-records-public|which records are public]].
+Opting out removes your listing from InfoTracer's site. It doesn't erase the underlying public records (court filings, property deeds) held by government offices. See our guides to [[court-records-public-case-filings-search-results|court records in search results]] and [[are-divorce-death-arrest-records-public|which records are public]]. If a background report about you is wrong, you have dispute rights: [[how-to-dispute-a-background-check|how to dispute a background check]].
 
 ## Next steps
 
-Repeat for other listings with different addresses or name spellings, then move through the [[us-data-broker-sites-opt-out-guide|US broker list]]. If you'd rather automate, compare [[incogni-vs-deleteme-vs-aura-vs-scan-my-shadow|removal services]]. A free [[/digital-footprint-checker/|email exposure check]] shows the breach side of your footprint.
+Work through the [[us-data-broker-sites-opt-out-guide|US broker list]], then recheck in three months. If you'd rather automate, compare [[incogni-vs-deleteme-vs-aura-vs-scan-my-shadow|removal services]]. A free [[/digital-footprint-checker/|email exposure check]] shows the breach side of your footprint.
 
 === FAQ
-Q: How do I remove myself from InfoTracer?
-A: Go to infotracer.com/optout, enter your name, city and state, select your record and submit.
-Q: Does InfoTracer opt-out delete public records?
-A: No. It removes the listing from InfoTracer, not the original government records.
-Q: Is there a fee?
-A: No, opting out is free.
-Q: How do I know it worked?
-A: Watch for the confirmation email and search for yourself again after about a week.
+Q: How do I opt out of InfoTracer?
+A: Go to infotracer.com/optout, open Personal Information Opt-Out Requests, search your name and state, select your record, click Remove Data and add your email for confirmation.
+Q: How long does InfoTracer removal take?
+A: InfoTracer's confirmation screen says requests are processed within 24 to 48 hours.
+Q: Is the InfoTracer opt-out free?
+A: Yes. It's free and doesn't require an account.
+Q: Does removing InfoTracer remove me from CourtCaseFinder or StateRecords?
+A: No. Redact says sister sites such as CourtCaseFinder, StateRecords and RecordsFinder each run their own opt-out.
+Q: Who do I contact if my InfoTracer record is still there?
+A: Email support@infotracer.com or privacy@infopay.com with your name, the Report ID and your submission date.
+Q: Does opting out delete my public records?
+A: No. It removes the InfoTracer listing, not the original court or property records held by government offices.
 
 === SOURCES
+https://redact.dev/data-brokers/infotracer-com/remove | Redact: InfoTracer removal guide (Aug 2026 walkthrough)
 https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for InfoTracer and other brokers
 
 === RELATED

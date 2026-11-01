@@ -1,71 +1,108 @@
 slug: iphone-safety-check-how-to-use
 country: US
-title: iPhone Safety Check: Cut Off Who Can See Your Location Fast
+title: iPhone Safety Check: Cut Off Who Can See Your Location
 h1: iPhone Safety Check: How to See (and Instantly Stop) Who Has Access to Your Location and Data
-desc: Safety Check on iPhone shows who you share location and data with, and can reset it all in one go. Where to find it, Emergency Reset vs Manage, and its limits.
-keywords: iphone safety check, safety check emergency reset, stop sharing location iphone, who can see my location iphone, iphone privacy settings check
+desc: Safety Check shows who you share location and data with on iPhone and can reset it all at once. Where to find it, Emergency Reset vs Manage, and its limits.
+keywords: iphone safety check, safety check emergency reset, stop sharing location iphone, who can see my location iphone, iphone privacy settings check, safety check quick exit
 tags: iPhone|Personal Safety|Privacy Settings|How To
 === TLDR
-Safety Check (Settings > Privacy & Security > Safety Check, iOS 16 or later) lets you review and stop location sharing, app access and connected devices. Emergency Reset cuts off sharing with all people and apps at once and lets you change your Apple Account password and trusted numbers. Manage Sharing & Access lets you review person by person. A Quick Exit button closes it instantly. It can't check non-Apple apps or other people's devices.
+**Safety Check** (Settings > Privacy & Security > Safety Check, **iOS 16 or later**) lets you review and stop what you share with other people and apps. **Emergency Reset** cuts off sharing with **all people and apps at once** and walks you through your Apple Account password, trusted numbers and signed-in devices. **Manage Sharing & Access** lets you go person by person and app by app. It covers Apple features such as **Find My location, Shared Albums, Shared Notes, Health, Home, Shared Passwords and Check In**. A **Quick Exit** button closes it instantly. It can't check non-Apple apps, social media or other people's devices.
 
 === BODY
 ## Why it exists
 
-Apple built Safety Check for people leaving controlling relationships, but it's useful for anyone. Over the years, most of us have shared our location with a partner, a parent, an ex, a friend from a festival in 2019, and granted apps access to photos and contacts. Safety Check puts all of that in one place.
+Apple built Safety Check for people in, or leaving, abusive or controlling relationships; its [Personal Safety guide](https://support.apple.com/guide/personal-safety/ips5f85e089f/web) says Quick Exit is there for people who need to hide that they've used it. But it's useful for anyone. Over the years, most of us have shared our location with a partner, a parent, an ex, a friend from a festival in 2019, and given apps access to photos and contacts. Safety Check puts all of that in one place.
 
-## Where to find it
+## Before you start
 
-According to [Apple's Personal Safety guide](https://support.apple.com/guide/personal-safety/how-safety-check-works-ips2aad835e1/web):
+According to [Apple](https://support.apple.com/guide/personal-safety/how-safety-check-works-ips2aad835e1/web), you need:
 
-- **Settings > Privacy & Security > Safety Check** (scroll down if you don't see it).
-- You need **iOS 16 or later**, an Apple Account with **two-factor authentication**, and to be signed in.
+- an iPhone on **iOS 16 or later**;
+- an Apple Account with **two-factor authentication**;
+- to be **signed in** to that account.
+
+Find it at **Settings > Privacy & Security > Safety Check** (scroll down if you don't see it).
+
+## What it can switch off
+
+From Apple's Safety Check FAQ:
+
+| Sharing with people (Apple apps) | App access it can revoke |
+|---|---|
+| Location in **Find My** and shared items in Find My | Location Services |
+| **Shared Photos** (Shared Library and Shared Albums) | Photos, Camera, Microphone |
+| **Shared Notes**, Shared Calendars | Contacts, Calendars, Reminders |
+| **Health**, Activity | Health, Motion & Fitness |
+| **Home** | Bluetooth, Local Network |
+| **Shared Passwords** | Files and Folders |
+| Shared **Maps ETA**, **Check In** in Messages | Speech Recognition, Media and Apple Music |
 
 ## Option 1: Emergency Reset
 
-“Immediate and universal reset of sharing for all people and apps.” It also lets you:
+Apple describes it as an "immediate and universal reset of sharing for all people and apps." Tap **Emergency Reset** and follow the steps. It also lets you:
 
-- review emergency contacts;
-- review and remove devices signed in to your Apple Account;
-- review the phone numbers used to verify your identity;
-- change your Apple Account password.
+- review **emergency contacts**;
+- review and remove **devices** signed in to your Apple Account;
+- review the **phone numbers** used to verify your identity;
+- change your **Apple Account password**.
 
-Use it if you feel unsafe and need everything off now.
+Use it if you feel unsafe and need everything off now. Your progress saves as you go.
 
 ## Option 2: Manage Sharing & Access
 
-The calmer version: review sharing person by person and app by app, remove devices, update verification numbers, change your password, edit emergency contacts and update your passcode or Face ID.
+The calmer version. Review sharing **by person** or **by type of information**, and app access **by app** or **by information**. Then tap Continue to review:
+
+- connected devices and trusted phone numbers;
+- your Apple Account password and emergency contacts;
+- your device **passcode** and **Face ID or Touch ID**;
+- **synced computers** (iOS 17+), **iPhone Mirroring** computers (iOS 18+), iCloud Private Relay and Handoff devices.
+
+A forgotten Face ID "alternate appearance" or a synced laptop at an ex's place can matter as much as location sharing.
 
 ## Quick Exit
 
-Every Safety Check screen has a **Quick Exit** button in the top right. It closes Settings and goes to the Home Screen. Changes made before you tap it are saved. Useful if someone walks in.
+Every Safety Check screen has a **Quick Exit** button in the top right. It closes Settings immediately and goes to the Home Screen. Changes made before you tap it are saved.
+
+## Check it worked
+
+Apple recommends reopening Safety Check and checking the **People** and **Apps/Information** tabs, then confirming removed devices, numbers, emergency contacts and synced computers are gone. To share again later, just reshare from the app itself.
 
 ## What it can't do
 
 Safety Check doesn't cover:
 
-- non-Apple apps and accounts (Google Maps, Life360, WhatsApp, Snapchat);
-- social media sharing;
-- devices signed in to a different Apple Account;
-- sharing on your iPad or Mac.
+- **non-Apple apps and accounts** (Google Maps, Life360, WhatsApp, Snapchat);
+- **social media** sharing;
+- devices signed in to a **different Apple Account**;
+- iPads or Macs sharing information through other apps.
 
-So also check [[life360-privacy-location-sharing-settings|Life360]], [[snap-map-privacy-settings-ghost-mode|Snap Map]] and [[check-apps-with-location-access|apps with location access]]. Screen Time restrictions or a work management profile can limit some options.
+Screen Time restrictions or a work management (MDM) profile can limit some options, and **Stolen Device Protection** may change how it behaves. So also check [[life360-privacy-location-sharing-settings|Life360]], [[snap-map-privacy-settings-ghost-mode|Snap Map]] and [[check-apps-with-location-access|apps with location access]].
+
+## A safety note
+
+Stopping sharing can be noticed: the other person may see that your location or shared album has disappeared. If you're in an abusive situation, think about timing and safety first, and consider talking to an advocate before making changes.
 
 ## If you're worried someone is tracking you
 
-Hardware trackers aren't covered by Safety Check; see our [[airtag-stalking-check|AirTag check]] and [[signs-of-stalkerware-on-your-phone|signs of stalkerware]]. If you're in danger, contact local police or the National Domestic Violence Hotline (1-800-799-7233). And check your email's breach exposure with a free [[/digital-footprint-checker/|exposure check]], because a leaked password can undo all of this.
+Hardware trackers aren't covered by Safety Check; see our [[airtag-stalking-check|AirTag check]] and [[signs-of-stalkerware-on-your-phone|signs of stalkerware]]. If you're in danger, contact local police or the [National Domestic Violence Hotline](https://www.thehotline.org/) (1-800-799-7233). And check your email's breach exposure with a free [[/digital-footprint-checker/|exposure check]], because a leaked password can undo all of this.
 
 === FAQ
 Q: Where is Safety Check on iPhone?
-A: Settings > Privacy & Security > Safety Check, on iOS 16 or later.
+A: Settings > Privacy & Security > Safety Check. You need iOS 16 or later and an Apple Account with two-factor authentication.
 Q: What does Emergency Reset do?
-A: It immediately stops sharing with all people and apps and lets you review devices, emergency contacts and verification numbers, and change your Apple Account password.
-Q: Will the other person be notified?
-A: Apple's guide doesn't say they are notified, but they may notice that sharing has stopped. Plan for your safety first.
-Q: Does Safety Check cover Google Maps or WhatsApp location sharing?
-A: No. It only covers Apple sharing and apps' access on that iPhone. Check other apps separately.
+A: It immediately stops sharing with all people and apps, and helps you review devices, trusted phone numbers, emergency contacts and your Apple Account password.
+Q: Does Safety Check stop location sharing in Find My?
+A: Yes. It can stop location sharing and shared items in Find My, along with Shared Albums, Notes, Health, Home and more.
+Q: Does Safety Check cover Google Maps or Life360?
+A: No. It only covers Apple apps and app permissions. Check third-party apps separately.
+Q: Will the other person know I used Safety Check?
+A: Apple's guide doesn't say they're notified, but they may notice that your shared location or albums are no longer available. Plan for your safety first.
+Q: What is Quick Exit?
+A: A button on every Safety Check screen that closes Settings instantly. Changes made before tapping it are saved.
 
 === SOURCES
 https://support.apple.com/guide/personal-safety/how-safety-check-works-ips2aad835e1/web | Apple Personal Safety User Guide: How Safety Check works
+https://support.apple.com/guide/personal-safety/ips5f85e089f/web | Apple Personal Safety User Guide: Safety Check FAQ
 https://www.thehotline.org/ | National Domestic Violence Hotline
 
 === RELATED

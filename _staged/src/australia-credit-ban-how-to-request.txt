@@ -2,7 +2,7 @@ slug: australia-credit-ban-how-to-request
 country: AU
 title: How to Put a Credit Ban on Your Credit File in Australia
 h1: Credit Ban Australia: How to Freeze Your Credit File (21 Days, Extendable to 12 Months)
-desc: A credit ban stops lenders seeing your credit file without your consent, blocking new loans in your name. How to request one, extend it, and what it doesn't affect.
+desc: A credit ban stops lenders seeing your credit file without consent, blocking new loans in your name. How to request one, extend it to 12 months, and its limits.
 keywords: credit ban australia, how to place a credit ban, credit ban equifax experian, freeze credit file australia, credit ban after data breach, credit ban extension 12 months
 tags: Identity Theft|Australia|Credit|How To
 === TLDR
@@ -37,6 +37,25 @@ Apply for an extension **before the ban expires**, ideally at least **10 days** 
 3. Keep the confirmation.
 4. Diary the end date, so you can extend if needed.
 
+## Credit ban, fraud alert or "credit freeze": what's the difference?
+
+| | Credit ban (Australia) | US credit freeze | Canadian fraud alert |
+|---|---|---|---|
+| Blocks lenders seeing your file | Yes, without your written consent | Yes | No, it flags your file |
+| Length | 21 days, extendable to 12 months | Until you lift it | 6 years |
+| Cost | Free | Free | Free |
+
+Australia's ban is closer to a US freeze than to an alert, but with a shorter default life. That's why diarising the end date matters: if you forget, the protection quietly lapses.
+
+## Step-by-step: a ban after a breach
+
+1. **Check your credit reports first** from the agencies, so you know your starting point ([[australia-free-credit-report-equifax-experian-illion|how]]).
+2. **Request the ban** at Equifax or Experian, asking them to place it with the other agency too.
+3. **Report the incident**: police, or **ReportCyber** at cyber.gov.au. You may need the report number for an extension.
+4. **Extend to 12 months** at least 10 days before the 21 days run out.
+5. **Replace compromised ID**: a new driver licence card number, passport or Medicare card, depending on what leaked.
+6. **Set a reminder** a couple of weeks before the 12 months end to decide whether to renew.
+
 ## When to use one
 
 - Your **driver licence, passport or Medicare details** were in a breach (think [[was-i-affected-by-the-optus-data-breach|Optus]] or [[was-i-affected-by-the-latitude-financial-data-breach|Latitude]]).
@@ -52,7 +71,7 @@ You'll need to give written consent for a lender to access your file, or wait fo
 
 **IDCARE** offers free support on **1800 595 160** (Australia) or **0800 121 068** (NZ). See our [[australia-scamwatch-idcare-recovery-process|IDCARE recovery guide]].
 
-A free [[/digital-footprint-checker/|exposure check]] shows whether your email turns up in breach data, a good early warning sign.
+IDCARE also points to the **OAIC's guidance** on fraud and your credit report if a credit reporting agency or lender doesn't handle your request properly. A free [[/digital-footprint-checker/|exposure check]] shows whether your email turns up in breach data, a good early warning sign.
 
 === FAQ
 Q: How long does a credit ban last in Australia?
@@ -61,6 +80,8 @@ Q: Does a credit ban affect my existing credit cards?
 A: No. You can still use existing cards and repay loans, unless credit is due for renewal.
 Q: Do I need to contact every credit agency?
 A: IDCARE says you can apply through one agency and ask it to place bans with the others.
+Q: What do I need to extend a credit ban?
+A: You may be asked for a police report number or a report number from cyber.gov.au to show you're at risk of fraud.
 Q: When should I extend my credit ban?
 A: Before it expires, ideally at least 10 days beforehand.
 

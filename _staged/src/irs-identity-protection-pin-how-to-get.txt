@@ -2,57 +2,74 @@ slug: irs-identity-protection-pin-how-to-get
 country: US
 title: IRS IP PIN: How to Get One and Stop Tax Identity Theft
 h1: How to Get an IRS Identity Protection PIN (and Why Everyone Should)
-desc: A six-digit IP PIN stops anyone filing a tax return with your SSN. Who can get one, the three ways to apply, yearly rules and the scam to watch for.
-keywords: irs ip pin, identity protection pin, how to get ip pin, ip pin 2026, tax identity theft prevention, form 15227
+desc: A six-digit IP PIN stops anyone filing a federal return with your SSN. Who can get one, the three ways to apply, the yearly routine, and the scam to watch for.
+keywords: irs ip pin, identity protection pin, how to get ip pin, ip pin 2026, tax identity theft prevention, form 15227, ip pin for dependents, lost ip pin
 tags: Tax Identity Theft|IRS|United States|How To
 === TLDR
-An IRS Identity Protection PIN is a six-digit number that blocks anyone else from filing a federal tax return with your Social Security number or ITIN. Anyone who can verify their identity can get one, fastest through an IRS online account. You get a new one every year (viewable online mid-January to mid-November). The IRS never asks for your IP PIN by phone, email or text.
+An IRS **Identity Protection PIN (IP PIN)** is a six-digit number that blocks anyone else from filing a federal tax return with your **Social Security number or ITIN**. Anyone who can verify their identity can get one, and parents can get one for **dependents**. The fastest route is your **IRS online account**; **Form 15227** works if your AGI is under **$84,000** (single) or **$168,000** (married filing jointly); or visit a **Taxpayer Assistance Center**. You get a **new PIN every year**, viewable online from **mid-January to mid-November**. The IRS **never** asks for your IP PIN by phone, email or text.
 
 === BODY
 ## Why bother
 
-Tax identity theft is simple: a criminal with your name, date of birth and SSN files a return before you and pockets the refund. You find out when your real return is rejected. If your SSN has been in a breach (and after the last few years, that's a lot of people), an IP PIN is the free fix. Nobody can e-file with your SSN without it.
+Tax identity theft is simple: a criminal with your name, date of birth and SSN files a return before you and pockets the refund. You find out when your real return is rejected. If your SSN has been in a breach (and after [[was-i-affected-by-the-national-public-data-breach|National Public Data]], that's a lot of people), an IP PIN is the free fix. According to the [IRS](https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin), a return filed with a wrong or missing IP PIN is **rejected** if e-filed and **delayed** if filed on paper. That's the protection: a fraudster has your SSN but not this year's PIN.
 
 ## Who can get one
 
-According to the [IRS](https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin), anyone with an SSN or ITIN who can verify their identity. Parents and guardians can request one for dependents.
+- Anyone with an **SSN or ITIN** who can verify their identity.
+- **Parents and legal guardians** can request one for **dependents**, which protects a child's SSN from being claimed fraudulently.
+- **Non-filers** can get one too.
 
 ## Three ways to apply
 
 | Route | Who it's for | How long |
 |---|---|---|
-| IRS online account (IP PIN section of your profile) | Anyone 18+ who can verify identity online | Immediate |
-| Form 15227 | If you can't verify online and your AGI is under $84,000 (single) or $168,000 (married filing jointly) | By mail, usually 4–6 weeks |
-| In person at a Taxpayer Assistance Center | Anyone; bring a photo ID plus one other ID (two IDs for a dependent) | By mail, usually about 3 weeks |
+| **IRS online account** (IP PIN section of your profile) | Anyone 18+ who can verify identity online | The fastest way |
+| **Form 15227** (submitted online; the IRS calls you to verify) | Can't verify online, last AGI under **$84,000** single or **$168,000** married filing jointly, valid SSN or ITIN, and a phone | PIN by mail, usually **4 to 6 weeks** |
+| **In person** at a Taxpayer Assistance Center (by appointment) | Anyone who can't use the other two | PIN by mail, usually about **3 weeks** |
 
-Under-18s must use one of the alternative options.
+Under-18s must use one of the alternative options. For an in-person visit, bring **one federal or state photo ID plus one other ID**. For a dependent, bring your photo ID and one more ID for yourself, plus **two IDs for the dependent**, such as a birth certificate and Social Security card.
 
 ## The yearly routine
 
-- You get a **new IP PIN every calendar year**.
-- If you enrolled online, the IRS **doesn't mail** it; log in each year to get it (generally available mid-January to mid-November).
-- Give it to your tax software or preparer when prompted. It's needed on Forms 1040, 1040-NR, 1040-PR, 1040-SR and 1040-SS, including prior-year returns filed during the year.
-- A wrong or missing IP PIN means an e-filed return is rejected or a paper return is delayed.
+- You get a **new IP PIN every calendar year**, valid for that year only.
+- If you enrolled **online**, the IRS **doesn't mail it**. Log in each year to get it from your **Profile** tab (generally mid-January to mid-November).
+- If the IRS enrolled you after a confirmed identity theft, you'll get a **CP01A notice** by mail each year.
+- Give it to your tax software or preparer when prompted. It's needed on **Forms 1040, 1040-NR, 1040-PR, 1040-SR and 1040-SS**, including **prior-year returns** filed during the year.
 
-Lost it? View it online or request a reissue by mail; don't file a new Form 15227.
+**Set a reminder for January.** Tax season is when you'll need it, and logging in before you sit down with your software saves a rejected return.
+
+## Lost your PIN?
+
+Check your online account, or request a reissue by mail through the IRS's lost IP PIN process. **Don't** file a new Form 15227 just to replace a lost PIN.
 
 ## The scam to watch for
 
-The IRS says it will **never ask for your IP PIN**. Calls, emails or texts asking for it are scams. Our guide to [[irs-scam-what-to-know|IRS scams]] covers the usual tricks, and [[tax-season-scams-2026|tax season scams]] the seasonal ones.
+The IRS says it will **never ask for your IP PIN**, and calls, emails or texts asking for it are scams. The only people who should know it are you, your tax professional when you're ready to file, and the IRS. Our guide to [[irs-scam-what-to-know|IRS scams]] covers the usual tricks, and [[tax-season-scams-2026|tax season scams]] the seasonal ones.
+
+## Who should get one first
+
+- anyone whose SSN appeared in a **data breach**;
+- anyone who's had **mail stolen** or a wallet lost;
+- parents of **children** whose SSNs are rarely watched;
+- **retirees and non-filers**, whose SSNs can be used for a fake return without them noticing.
 
 ## If someone already filed in your name
 
-See [[how-to-report-tax-identity-theft-irs|how to report tax identity theft]], file Form 14039, and freeze your credit ([[how-to-freeze-your-credit-us|how]]). Then check how exposed your details are with a free [[/digital-footprint-checker/|email exposure check]].
+See [[how-to-report-tax-identity-theft-irs|how to report tax identity theft]] and file **Form 14039**. After a confirmed identity theft, the IRS can enrol you and mail a **CP01A notice** with your PIN each year. Also freeze your credit ([[how-to-freeze-your-credit-us|how]]) and check how exposed your details are with a free [[/digital-footprint-checker/|email exposure check]].
 
 === FAQ
 Q: What is an IRS IP PIN?
-A: A six-digit number that prevents anyone else filing a federal tax return with your SSN or ITIN.
-Q: Who can get an IP PIN?
-A: Anyone with an SSN or ITIN who can verify their identity, including dependents through a parent or guardian.
+A: A six-digit Identity Protection PIN that must be on any federal tax return filed with your SSN or ITIN. Without it, an e-filed return is rejected.
+Q: How do I get an IP PIN?
+A: The fastest way is through your IRS online account. If you can't verify online, use Form 15227 (if your AGI is under the limit) or visit a Taxpayer Assistance Center.
+Q: Can I get an IP PIN for my child?
+A: Yes. Parents and legal guardians can request an IP PIN for dependents, using the alternative options for under-18s.
 Q: Do I get a new IP PIN every year?
-A: Yes. It's valid for one calendar year, and online enrollees must retrieve the new one each year.
+A: Yes. A new IP PIN is generated each calendar year. If you enrolled online, log in to get it; it isn't mailed.
+Q: What if I lose my IP PIN?
+A: Check your online account or request a reissue by mail. Don't file a new Form 15227.
 Q: Will the IRS ever ask for my IP PIN?
-A: No. Any call, email or text asking for it is a scam.
+A: No. The IRS never asks for it by phone, email or text. Any request is a scam.
 
 === SOURCES
 https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin | IRS: Get an Identity Protection PIN

@@ -1,6 +1,6 @@
 slug: canada-gold-bar-safekeeping-scam-fake-rcmp
 country: CA
-title: Gold Bar Scam: Fake Bank Calls Then Fake RCMP Collect the Gold
+title: Gold Bar Scam: Fake Bank Call, Then Fake RCMP Collect Gold
 h1: The Gold “Safekeeping” Scam: Buy Gold, Hand It to a Fake Officer
 desc: Nova Scotia RCMP warns of scammers posing as bank fraud teams who tell victims to buy gold, then send fake officers to collect it. How it works and red flags.
 keywords: gold scam canada, gold bar scam rcmp, buy gold safekeeping scam, fake police collect gold, bank fraud department gold scam
@@ -23,6 +23,18 @@ In the Nova Scotia case under investigation, the scammers said they were RCMP in
 
 Because the old routes are getting harder. Banks now question large wire transfers and cash withdrawals, and gift cards and crypto ATMs draw attention. Buying gold from a legitimate dealer looks like a normal investment, so it raises fewer flags. And unlike a bank transfer, a gold bar handed over on your doorstep can't be recalled. It's the [[uk-card-cleaning-courier-scam|courier scam]] with a shinier prop.
 
+## Not the first gold scam in Canada
+
+Gold has become a favourite prop for fraudsters targeting older Canadians:
+
+| When | Where | What happened |
+|---|---|---|
+| April 2025 | Ottawa and Norfolk County, Ont. | Ottawa Police and the OPP warned that seniors were told by **pop-up messages** that their online financial information had been stolen, then persuaded to **buy gold** that was picked up from their homes. Two Ottawa victims each bought **over $500,000** in gold; a Norfolk County victim lost nearly **$350,000** ([Ottawa Police](https://www.ottawapolice.ca/en/news/warning-ops-and-opp-alert-public-to-new-scam-targeting-seniors-with-fake-gold-investment-schemes.aspx)) |
+| Early 2026 | Vancouver Island and across B.C. | A different trick: strangers in parking lots sell **fake gold jewellery** at a "discount," claiming they need money for gas or a hotel. West Shore RCMP reported at least **nine** incidents in Langford since January ([Victoria Buzz](https://victoriabuzz.com/2026/03/police-warn-of-gold-scam-as-cases-surface-on-vancouver-island-and-across-bc)) |
+| October 2026 | Nova Scotia | The fake bank call plus fake RCMP pickup described above |
+
+Ottawa and OPP police called the 2025 version a new twist on the **grandparent scam**: where scammers once demanded "bail money," they now say buying gold is the only way to protect your savings. In every case, victims were told **not to tell family or their bank**.
+
 ## The line to remember
 
 Cpl. Mitch Thompson of the RCMP: “Police will not take financial instruments from people for safekeeping.”
@@ -38,7 +50,7 @@ That covers gold, cash, bank cards, jewellery and anything else. If someone in a
 
 ## What to do
 
-If you get a call like this, hang up before following any directions, the RCMP says. Then call your branch or the number on the back of your card, or talk to someone you trust. Report it to local police, or anonymously through Crime Stoppers, and to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+If you get a call like this, hang up before following any directions, the RCMP says. Then call your branch or the number on the back of your card, or talk to someone you trust. Report it to local police, or anonymously through Crime Stoppers, and to the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/). Ottawa Police's advice is simple: don't buy gold or gift cards in response to unexpected pop-ups, emails or calls, and if someone asks you to, talk to a trusted family member or friend first. Fraud Detective Shaun Wahbeh: "If something feels suspicious, always ask for help."
 
 Older adults are the main targets of in-person pickup scams. Our guides on [[protect-elderly-parents-from-phone-scams|protecting elderly parents from phone scams]] and [[talk-to-parents-about-scam-prevention|talking to parents about scams]] help start the conversation.
 
@@ -53,12 +65,16 @@ Q: Was the gold dealer part of the scam?
 A: In the case described, victims bought gold from a legitimate online dealer. The scam was the calls and the fake officers who collected it.
 Q: What should I do if my bank's fraud team calls?
 A: Hang up and call the number on the back of your card or your local branch before doing anything.
+Q: Have gold scams happened elsewhere in Canada?
+A: Yes. In 2025, Ottawa Police and the OPP warned about seniors who bought gold after fake pop-up alerts; two Ottawa victims each lost over $500,000.
 Q: Where do I report this scam in Canada?
 A: Report to local police and the Canadian Anti-Fraud Centre.
 
 === SOURCES
 https://rcmp.ca/en/nova-scotia/news/2026/10/4357534 | Nova Scotia RCMP: RCMP warns of emerging scam involving gold purchases (Oct 5, 2026)
 https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+https://www.ottawapolice.ca/en/news/warning-ops-and-opp-alert-public-to-new-scam-targeting-seniors-with-fake-gold-investment-schemes.aspx | Ottawa Police and OPP: Fake gold investment scheme targeting seniors (Apr 2025)
+https://victoriabuzz.com/2026/03/police-warn-of-gold-scam-as-cases-surface-on-vancouver-island-and-across-bc | Victoria Buzz: Police warn of gold scam across BC (Mar 2026)
 
 === RELATED
 canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada

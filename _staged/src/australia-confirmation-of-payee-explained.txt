@@ -1,8 +1,8 @@
 slug: australia-confirmation-of-payee-explained
 country: AU
-title: Confirmation of Payee Explained: Match, Close Match, No Match
+title: Confirmation of Payee: Match, Close Match and No Match
 h1: Confirmation of Payee in Australia: What "Match", "Close Match" and "No Match" Mean
-desc: Australian banks now check the account name against the BSB and account number before you pay. What each result means, why it's a warning not a block, and how scammers fake it.
+desc: Australian banks now check the account name against the BSB and account number before you pay. What each result means, whether it works, how scammers fake it.
 keywords: confirmation of payee australia, confirmation of payee no match, close match bank transfer, account name check australia, cop scam australia, bsb name check
 tags: Payments|Australia|Banking|Explainer
 === TLDR
@@ -25,6 +25,19 @@ From the [Australian Banking Association](https://www.ausbanking.org.au/scam-saf
 - Started **July 2025**; now live nationally at participating banks.
 - **100+** banks, credit unions and mutuals.
 - **150 million+** uses in year one; **8 in 10** Australians have seen or used it.
+
+## Is it working?
+
+The [ABA reported in March 2026](https://www.ausbanking.org.au/banks-hit-major-milestones-as-scam-fighting-technology-stops-thousands-of-risky-transfers/) that:
+
+- CoP was live at **83** financial institutions, covering more than **143 million** bank accounts;
+- at **one bank alone**, customers **abandoned more than 450,000 payments** after a "No match" result;
+- more than **10,000** of those abandoned payments were heading to accounts flagged on the **Australian Financial Crimes Exchange**;
+- a customer-owned bank in Newcastle stopped a **$6,000** scam payment.
+
+Banks spent **$100 million** building it, with no taxpayer funds. "Confirmation of Payee introduces just enough friction to prompt people to pause and reflect," said Adrian Lovney of Australian Payments Plus.
+
+Australia isn't first: the ABA notes the **Netherlands** launched name checks in 2017, the **UK** in 2020 and **New Zealand** in 2024, and euro-area payment providers have had to offer a similar "Verification of Payee" since October 2025.
 
 ## CoP vs PayID
 
@@ -50,12 +63,13 @@ They can happen when:
 - It's a **warning**, not a block. You can still send.
 - A scammer can open an account **in a name that matches** what they told you. A "Match" proves the name, not the honesty.
 - Money sent to the wrong account can be **hard to recover**.
+- CoP only covers **domestic BSB and account number** payments, not overseas transfers.
 
 ## A scam to watch
 
 CoP **will never contact you**, ask you to send money or ask for account details. "Confirmation of Payee team" calls or texts are fake.
 
-If you think you've been scammed, call your bank immediately and report to Scamwatch. Banks' new legal duties are explained in our [[australia-scams-prevention-framework-explained|Scams Prevention Framework guide]].
+If you think you've been scammed, call your bank immediately and report to Scamwatch. If you're unhappy with your bank's response, you can escalate to **AFCA**. Banks' new legal duties are explained in our [[australia-scams-prevention-framework-explained|Scams Prevention Framework guide]].
 
 === FAQ
 Q: What is Confirmation of Payee in Australia?
@@ -64,11 +78,16 @@ Q: What should I do if I get a No Match?
 A: Verify the payment details with the payee using contact details you already trust before sending.
 Q: Does Confirmation of Payee block payments?
 A: No. It's a warning; you can still choose to continue.
+Q: Does Confirmation of Payee work for overseas payments?
+A: No. It only covers domestic payments to a BSB and account number.
+Q: Is Confirmation of Payee stopping scams?
+A: The ABA says that at one bank alone, more than 450,000 payments were abandoned after a No match result, including over 10,000 heading to accounts flagged for financial crime.
 Q: Will Confirmation of Payee ever contact me?
 A: No. Messages claiming to be from Confirmation of Payee are scams.
 
 === SOURCES
 https://www.ausbanking.org.au/scam-safe-accord/confirmation-of-payee/ | Australian Banking Association: Confirmation of Payee
+https://www.ausbanking.org.au/banks-hit-major-milestones-as-scam-fighting-technology-stops-thousands-of-risky-transfers/ | ABA: Banks hit major milestones as scam-fighting technology stops thousands of risky transfers (Mar 2026)
 
 === RELATED
 australia-property-settlement-payment-redirection-scams | Property Settlement Scams
@@ -76,3 +95,4 @@ australia-scams-prevention-framework-explained | Scams Prevention Framework
 australia-payid-scam-marketplace-sellers | PayID Marketplace Scams
 australia-victoria-police-recover-118000-bec-invoice-scam | Victoria $118K BEC Recovery
 australia-bank-impersonation-scams-what-to-know | Bank Impersonation Scams
+how-to-report-a-scam-to-scamwatch | How to Report a Scam to Scamwatch

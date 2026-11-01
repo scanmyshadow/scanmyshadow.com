@@ -2,7 +2,7 @@ slug: canada-hydro-quebec-scam-calls-texts
 country: CA
 title: Hydro-Québec Scams: What Hydro-Québec Never Does
 h1: Fake Hydro-Québec Calls, Texts and Door-to-Door Offers: How to Spot Them
-desc: Hydro-Québec never asks for card or bank details by email or text, never pays outage compensation by text and doesn't sell door to door. Scams and how to report.
+desc: Hydro-Québec never asks for card or bank details by text or email and doesn't sell door to door. The scams, fake investment sites, and how to report them.
 keywords: hydro-quebec scam, hydro quebec scam text, hydro quebec phishing, fake hydro-quebec call, hydro quebec refund scam
 tags: Utility Scams|Phishing|Canada|What To Do
 === TLDR
@@ -29,6 +29,18 @@ That credit card rule is a great tell: a caller threatening a shutoff unless you
 - **Doorstep or phone “assistance”**: fake employees offering financial help or lower bills in exchange for information.
 - **Fake job offers** asking for a fee.
 
+## New in 2026: fake "Hydro-Québec investment" sites
+
+On **11 August 2026**, [Hydro-Québec warned](https://news.hydroquebec.com/news/press-releases/all-quebec/fraudulent-investment-websites-using-hydro-quebec-name-stay-vigilant.html) that "several fraudulent investment websites falsely claiming to be associated with Hydro-Québec are currently online." People who clicked links were asked for **credit card numbers** or confidential information.
+
+The giveaway is simple: Hydro-Québec **does not issue shares**. It pays dividends only to its sole shareholder, the **Government of Québec**, and finances itself through the **bond market**, with bond information on its official Investor Relations site. So any site offering "Hydro-Québec shares" or guaranteed returns is fake.
+
+If you clicked and shared information, Hydro-Québec says to contact your **financial institution** immediately to secure or close the account, report it to **local police**, and read the **Autorité des marchés financiers** guidance on fraudulent trading platforms. Fake investment platforms borrowing trusted brand names are a growing problem everywhere; see [[deepfake-investment-scams-digital|deepfake investment scams]].
+
+## The shutoff threat, explained
+
+Hydro-Québec has warned about waves of calls that **demand immediate payment** and threaten to cut your power, including a [2020 alert](https://news.hydroquebec.com/news/press-releases/all-quebec/another-wave-of-fraudulent-calls-appearing-to-come-from-hydro-quebec.html) at a time when it had suspended disconnections altogether. Because Hydro-Québec doesn't take credit cards for electricity bills, a caller demanding your card number to stop a shutoff fails the test immediately. Hang up and check your account at hydroquebec.com.
+
 ## How Hydro-Québec does contact you
 
 By text, email or phone for information, such as late payment notices or reminders to act in your account. If unsure, don't click; go to hydroquebec.com directly.
@@ -48,12 +60,16 @@ Q: Does Hydro-Québec text refunds or compensation?
 A: No. It doesn't issue refunds or compensation by text or email.
 Q: Does Hydro-Québec sell door to door?
 A: No. It doesn't make sales calls or door-to-door visits.
+Q: Can I buy Hydro-Québec shares?
+A: No. Hydro-Québec says it doesn't issue shares; its only shareholder is the Government of Québec. Sites offering Hydro-Québec investments are fake.
 Q: How do I report a fake Hydro-Québec message?
 A: Forward texts to 7726 and send a copy to Surveillance.Fraudes@hydro.qc.ca.
 
 === SOURCES
 https://hydroquebec.com/fraud-prevention.html | Hydro-Québec: Fraud prevention
 https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+https://news.hydroquebec.com/news/press-releases/all-quebec/fraudulent-investment-websites-using-hydro-quebec-name-stay-vigilant.html | Hydro-Québec: Fraudulent investment websites using Hydro-Québec's name (Aug 2026)
+https://news.hydroquebec.com/news/press-releases/all-quebec/another-wave-of-fraudulent-calls-appearing-to-come-from-hydro-quebec.html | Hydro-Québec: Another wave of fraudulent calls
 
 === RELATED
 hydro-one-scam-what-to-know | Hydro One Scams

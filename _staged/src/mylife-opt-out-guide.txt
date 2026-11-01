@@ -1,27 +1,39 @@
 slug: mylife-opt-out-guide
 country: US
-title: MyLife Opt Out 2026: How to Remove Your “Reputation Profile”
+title: MyLife Opt Out 2026: Remove Your "Reputation Profile"
 h1: How to Opt Out of MyLife and Remove Your Profile
-desc: MyLife removal takes about 15 minutes: find your profile URL, submit it at mylife.com/privacyrequest, verify your email with a code. Plus the FTC case worth knowing.
-keywords: mylife opt out, remove from mylife, mylife privacy request, delete mylife profile, mylife reputation score removal
+desc: MyLife removal takes about 15 minutes: copy your profile URL, submit it at mylife.com/privacyrequest and verify your email. Plus what the FTC's 2021 case found.
+keywords: mylife opt out, remove from mylife, mylife privacy request, delete mylife profile, mylife reputation score removal, mylife ftc settlement
 tags: Data Brokers|Opt-Out Guides|United States|How To
 === TLDR
-Search mylife.com for yourself, open your “Reputation Profile” and copy its URL. Then go to mylife.com/privacyrequest, fill in your state, name and city or ZIP, verify your email with the numeric code MyLife sends, paste the profile URL and submit. Save the confirmation. If removal stalls, email privacy@mylife.com and mention the FTC's 2021 case against MyLife.
+Search mylife.com for yourself, open your **"Reputation Profile"** and copy its URL. Then go to **mylife.com/privacyrequest**, enter your state, name and city or ZIP, verify your email with the **numeric code** MyLife sends, paste the profile URL and submit. It takes about **10 to 15 minutes**. Save the confirmation. If removal stalls, email **privacy@mylife.com**. In 2021 the FTC and Justice Department settled with MyLife and its CEO over **teaser reports that implied criminal records** and hard-to-cancel subscriptions; the FTC's headline figure was **$21 million**.
 
 === BODY
 ## What MyLife is
 
-MyLife builds “reputation profiles” with names, ages, addresses, relatives and a so-called reputation score. People find them by googling their own name and getting an unpleasant surprise. In December 2021 the FTC and Department of Justice settled a case with MyLife and its CEO, *US v. MyLife.com, Inc. and Jeffrey Tinsley*, over its marketing practices.
+MyLife builds **"reputation profiles"** with names, ages, addresses, relatives and a so-called reputation score. People usually find theirs by googling their own name and getting an unpleasant surprise.
+
+## What the FTC case found
+
+In December 2021 the [FTC and Department of Justice](https://ftc.gov/news-events/news/press-releases/2021/12/ftc-doj-obtain-ban-negative-option-marketing-21-million-consumers-deceived-background-report) settled *US v. MyLife.com, Inc. and Jeffrey Tinsley*. The complaint alleged that MyLife:
+
+- sold **"teaser" background reports** suggesting people might have **arrest, criminal or sex offender records**, even when no such records were included;
+- led some people to believe they or others had criminal records when they had none, or only **minor traffic citations**;
+- used those fears to enrol people in **auto-renewing subscriptions**, without clearly disclosing charges, and misrepresented its refund and cancellation policies.
+
+The order **permanently bans** MyLife and Tinsley from offering products with a "negative option" (auto-renewal) feature and from implying a traffic ticket means a criminal record. Tinsley was ordered to pay **$5 million**; MyLife's **$16 million** judgment was partially suspended because it couldn't pay in full. The FTC's Samuel Levine said MyLife "lured consumers into hard-to-cancel negative option subscriptions."
+
+So if a MyLife profile hints at "records" about you, treat it with healthy suspicion.
 
 ## Step by step
 
 From [Redact's MyLife guide](https://redact.dev/data-brokers/mylife-com/remove):
 
-1. On mylife.com, type your name, switch on the **“This is Me”** toggle and search.
-2. Click **“View Reputation Profile”** on your listing.
-3. Tick some data boxes and the **“This is me – Needed to Edit Public Profile”** box, then click **Continue to Details**.
-4. Let the “gathering info” animation finish. Don't close the tab.
-5. Copy the profile URL from the address bar.
+1. On mylife.com, type your name, switch on the **"This is Me"** toggle and search.
+2. Click **"View Reputation Profile"** on your listing.
+3. Tick some data boxes and the **"This is me – Needed to Edit Public Profile"** box, then click **Continue to Details**.
+4. Let the "gathering info" animation finish. Don't close the tab.
+5. Copy the **profile URL** from the address bar.
 6. Go to **mylife.com/privacyrequest** and enter your state, name and city or ZIP.
 7. Enter your email and click **Verify Email**. MyLife sends a **numeric code**, not a link. Enter it.
 8. Paste the profile URL, complete the reCAPTCHA and submit.
@@ -31,11 +43,20 @@ Active work: about 10 to 15 minutes, mostly that animation.
 
 ## If nothing happens
 
-Wait several days for a “deletion complete” email. No luck? Email membersupport@mylife.com or privacy@mylife.com with your name, the listing URL and the date you submitted. Redact suggests mentioning the 2021 FTC consent decree. California residents can complain to the [California Privacy Protection Agency](https://cppa.ca.gov/), and anyone can report to the FTC at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/).
+| Situation | What to do |
+|---|---|
+| No "deletion complete" email after several days | Email **privacy@mylife.com** or **membersupport@mylife.com** with your name, the listing URL and the date you submitted |
+| Still no response | Redact suggests mentioning the 2021 FTC consent decree |
+| California resident | Complain to the [California Privacy Protection Agency](https://cppa.ca.gov/), or use the state's free DROP platform ([[fastpeoplesearch-opt-out-guide|how DROP works]]) |
+| Anywhere in the US | Report to the FTC at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/) |
 
-## Don't pay to “fix” your score
+## Don't pay to "fix" your score
 
-You don't need to buy anything to remove or correct a profile. If a site suggests otherwise, that's a sales pitch, not a privacy process.
+You don't need to buy anything to remove or correct a profile. If a site suggests otherwise, that's a sales pitch, not a privacy process. And if you were ever charged for a MyLife subscription you didn't knowingly sign up for, contact your card provider.
+
+## Clean up Google afterwards
+
+Old MyLife pages can linger in search results after removal. Google's **Results about you** tool lets you request removal of results showing your phone number, home address or email; see [[remove-yourself-from-google-results-about-you|how to use it]].
 
 ## Then do the rest
 
@@ -43,16 +64,19 @@ MyLife is one of many. See our [[us-data-broker-sites-opt-out-guide|US broker li
 
 === FAQ
 Q: How do I remove my MyLife profile?
-A: Copy your profile URL, then submit a request at mylife.com/privacyrequest and verify your email with the numeric code.
-Q: How long does MyLife take?
-A: About 10 to 15 minutes to submit; processing can take days. Watch for a deletion confirmation email.
-Q: Do I have to pay MyLife to remove my information?
-A: No. Opting out is free.
-Q: What if MyLife doesn't remove my profile?
-A: Email privacy@mylife.com with your details and submission date. California residents can complain to the CPPA; others can report to the FTC.
+A: Copy your Reputation Profile URL, then submit it at mylife.com/privacyrequest with your name and location, verifying your email with the numeric code MyLife sends.
+Q: How long does MyLife removal take?
+A: The request takes about 10 to 15 minutes to submit. Wait several days for a deletion confirmation email.
+Q: Do I have to pay MyLife to remove my profile?
+A: No. Removal is free.
+Q: What was the FTC case against MyLife?
+A: In 2021 the FTC and DOJ settled with MyLife and its CEO over teaser reports that implied criminal records and hard-to-cancel subscriptions. The order bans auto-renewal products.
+Q: What if MyLife doesn't respond?
+A: Email privacy@mylife.com with your details and submission date, and report to the FTC or, in California, the CPPA.
 
 === SOURCES
 https://redact.dev/data-brokers/mylife-com/remove | Redact: MyLife removal guide
+https://ftc.gov/news-events/news/press-releases/2021/12/ftc-doj-obtain-ban-negative-option-marketing-21-million-consumers-deceived-background-report | FTC: FTC and DOJ obtain ban on negative option marketing (Dec 2021)
 https://cppa.ca.gov/ | California Privacy Protection Agency
 https://reportfraud.ftc.gov/ | FTC ReportFraud
 

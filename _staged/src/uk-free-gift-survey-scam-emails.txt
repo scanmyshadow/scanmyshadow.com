@@ -1,8 +1,8 @@
 slug: uk-free-gift-survey-scam-emails
 country: UK
-title: “Free Gift for a Quick Survey” Emails: B&Q, Currys, Aldi and More
+title: "Free Gift for a Survey" Scam Emails: B&Q, Currys and More
 h1: The Free-Gift Survey Scam: Fake B&Q, Currys, BT and National Rail Rewards
-desc: Emails promise a free BBQ, air conditioner, earbuds or hamper for a short survey, then ask for a small postage fee. Which?'s 2026 examples and how the trick works.
+desc: Emails promise a free BBQ, air conditioner, earbuds or hamper for a short survey, then ask for a small postage fee. Which?'s 2026 examples and the trick.
 keywords: free gift survey scam, b&q free bbq scam email, currys free air conditioner email, survey reward scam uk, pay postage free gift scam
 tags: Email Scams|Online Shopping|United Kingdom|Scam Alert
 === TLDR
@@ -31,6 +31,27 @@ From [Which?'s scam alerts](https://www.which.co.uk/news/article/the-latest-scam
 
 The tiny fee is the hook. The card details often end up charged again, sometimes through hidden subscriptions buried in small print, and your answers feed a profile used for future scams. Currys' version even said the reward was “reserved for a limited time,” because nothing says genuine generosity like a countdown.
 
+## The lottery cousin
+
+On **1 June 2026**, Which? also warned about fake **People's Postcode Lottery** "wins" promoted by phone and fake social media accounts. The rule is the same as for free gifts: "You can only win the People's Postcode Lottery if you sign up." If you never entered, you didn't win. The official site is postcodelottery.co.uk; text "call" plus the caller's number to **7726** to report a scam call.
+
+## Why small fees are the real trap
+
+A small delivery fee feels too small to worry about, which is exactly why these scams ask for one. Once you've typed your **full card number, expiry date and security code**, the scammer can:
+
+- charge you again, sometimes as a **recurring subscription** hidden in small print ([[what-is-subscription-trap-scams|how subscription traps work]]);
+- sell or reuse your card details for other purchases;
+- use your name, address and email for **follow-up phishing**, often a fake "bank fraud team" call about the very payment you just made.
+
+Your survey answers aren't harmless either. Questions about where you shop, what broadband you use and how old you are help scammers write more convincing messages next time.
+
+## How to check a "reward" is real
+
+1. **Don't use the link.** Go to the brand's website or app yourself.
+2. **Search the offer** with the brand name plus "scam." Brands and consumer groups often publish warnings about fakes.
+3. **Check the sender's address.** Look at the domain after the @, not the display name.
+4. **Never pay to receive a prize or gift.** Genuine giveaways don't charge postage.
+
 ## Red flags
 
 - a reward far bigger than a survey deserves;
@@ -41,6 +62,7 @@ The tiny fee is the hook. The card details often end up charged again, sometimes
 ## What to do
 
 - Don't click. Forward to **report@phishing.gov.uk** and delete.
+- Report the fake website to the **NCSC** through the GOV.UK reporting page, as Which? recommends.
 - If you paid, call your card issuer to cancel the card and check for repeat charges. See [[what-is-subscription-trap-scams|subscription traps]].
 - Report losses to [Report Fraud](https://www.reportfraud.police.uk/).
 
@@ -53,6 +75,8 @@ Q: Why do free gift scams ask for a small fee?
 A: To capture your card details, which may then be charged again or used for subscriptions.
 Q: Which brands are being used?
 A: Which? flagged B&Q, Currys, BT, EE, National Rail and Fortnum & Mason in 2026, among others.
+Q: I got a call saying I won the People's Postcode Lottery. Is it real?
+A: You can only win if you've signed up. Which? warned in June 2026 about fake wins promoted by phone and social media.
 Q: How do I report a free gift scam email?
 A: Forward it to report@phishing.gov.uk and delete it.
 

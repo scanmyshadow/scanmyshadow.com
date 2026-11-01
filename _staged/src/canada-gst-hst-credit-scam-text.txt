@@ -1,6 +1,6 @@
 slug: canada-gst-hst-credit-scam-text
 country: CA
-title: GST/HST Credit Scam Texts: The CRA Doesn't Send Benefit Links
+title: GST/HST Credit Scam Texts: The CRA Doesn't Send Links
 h1: GST/HST Credit and Benefit Scam Texts: Why the CRA Link Is Always Fake
 desc: Texts about the GST/HST credit, Disability Tax Credit or OAS with an "apply now" link are scams. The CRA only texts for multi-factor codes. How to check safely.
 keywords: gst hst credit scam text, cra benefit scam text, cra text message scam 2026, disability tax credit scam, cra refund text scam, does cra send text messages
@@ -19,13 +19,31 @@ The [CRA's scam page](https://www.canada.ca/en/revenue-agency/corporate/scams-fr
 
 The CRA's rule: it does not send texts or emails about benefits or tax credits with links asking you to click them.
 
+## The newest variations on the CRA's list
+
+The CRA updated its scam page on **29 October 2026**. Alongside the GST/HST and benefit messages, it now lists:
+
+| Scam | How it arrives | What it claims |
+|---|---|---|
+| **Notice of assessment phishing** (marked new) | Email | Your return has errors; download a "revised" notice before a deadline |
+| **Fake benefit payment sites** | Website | Non-existent payments such as a "$2,000 direct deposit," a "$680 rent payment" or a "$3,900 essentials payment" |
+| **Grocery Rebate** | Email, text, messaging | Apply for a rebate that was a one-time payment in July 2023 |
+| **Low-income seniors** | Messaging, website | Extra CRA payments for seniors, with links to Telegram or WhatsApp groups |
+| **CPP and OAS** | Text | Reply "Y" about your tax assessment, then a fake CPP link |
+| **Messages with your details** | Text | Includes your **name, date of birth or SIN** to look real, then asks for payment or clicks |
+| **"Text HELP"** | Text | Claims an account error and asks you to reply HELP and share details |
+
+The "messages with your details" one matters most. A scammer quoting your SIN back to you isn't proof they're the CRA; it's proof your data has leaked somewhere.
+
+On the real **Groceries and Essentials Benefit**: the CRA says eligible people won't need to apply, but must file their 2024 and 2025 tax returns. So any message asking you to "apply" through a link is fake.
+
 ## How the CRA actually contacts you
 
 | Channel | What the CRA does | What it never does |
 |---|---|---|
 | **Text** | MFA codes only, if you chose phone | Refunds, payments, account fixes, links |
 | **Email** | Notice of a new message in your CRA account, or a link you asked for on a call | Links asking for personal or financial info; emails from a named person asking you to reply |
-| **Phone** | May ask you to verify identity | Demand e-Transfer, crypto, prepaid or gift cards; threaten arrest or deportation; charge a fee |
+| **Phone** | May ask you to verify identity; automated reminders about filing or GST/HST deadlines (no personal info requested) | Demand e-Transfer, crypto, prepaid or gift cards; threaten arrest or deportation; arrange to meet in public; charge a fee |
 | **WhatsApp / Messenger** | Never | Never |
 
 So the honest answer to "does the CRA send text messages?" is: only six-digit codes you asked for.
@@ -63,6 +81,10 @@ Q: Does the CRA ever send text messages?
 A: Only multi-factor authentication codes, if you chose the phone option.
 Q: Does the CRA use WhatsApp?
 A: No. The CRA does not use WhatsApp or Facebook Messenger.
+Q: A text from the CRA included my SIN. Is it real?
+A: Not necessarily. The CRA warns that scam texts may include your name, date of birth or SIN to look genuine. Don't click; check your CRA account directly.
+Q: Do I need to apply for the Groceries and Essentials Benefit?
+A: The CRA says eligible people won't need to apply, but must file their 2024 and 2025 returns. Messages asking you to apply through a link are scams.
 Q: How do I check my GST/HST credit safely?
 A: Sign in to CRA My Account by typing the address yourself, or check official canada.ca pages.
 

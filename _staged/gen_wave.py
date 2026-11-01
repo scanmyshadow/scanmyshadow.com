@@ -80,7 +80,37 @@ def body_html(md, links, missing):
         elif lines[0].startswith('> '):
             out.append(f'<p class="note">{inline(" ".join(l[2:] for l in lines), links, missing)}</p>')
         else:
-            out.append(f'<p>{inline(" ".join(lines), links, missing)}</p>')
+            out.append(mixed_html(lines, links, missing))
+    return '\n'.join(out)
+
+def mixed_html(lines, links, missing):
+    # paragraphs and lists in one block; indented list lines become nested sub-lists
+    out = []; para = []; items = None; tag = None
+    def flush_para():
+        if para: out.append(f'<p>{inline(" ".join(para), links, missing)}</p>'); para.clear()
+    def flush_list():
+        nonlocal items, tag
+        if items:
+            lis = ''
+            for txt, subs in items:
+                sub = ('<ul>' + ''.join(f'<li>{inline(s, links, missing)}</li>' for s in subs) + '</ul>') if subs else ''
+                lis += f'<li>{inline(txt, links, missing)}{sub}</li>'
+            out.append(f'<{tag}>{lis}</{tag}>')
+        items = None; tag = None
+    for l in lines:
+        m = re.match(r'^(\s*)(- |\d+\. )(.*)$', l)
+        if m and not m.group(1):
+            flush_para()
+            t2 = 'ol' if m.group(2)[0].isdigit() else 'ul'
+            if items is not None and t2 != tag: flush_list()
+            if items is None: items = []; tag = t2
+            items.append([m.group(3), []])
+        elif m and items:
+            items[-1][1].append(m.group(3))
+        else:
+            if items is not None: flush_list()
+            para.append(l.strip())
+    flush_para(); flush_list()
     return '\n'.join(out)
 
 def faq_list(t):

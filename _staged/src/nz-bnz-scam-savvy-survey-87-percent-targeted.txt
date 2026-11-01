@@ -1,12 +1,12 @@
 slug: nz-bnz-scam-savvy-survey-87-percent-targeted
 country: NZ
-title: 87% of Kiwis Targeted by Scams in a Year: BNZ Survey Findings
+title: BNZ Scam Survey: 87% of Kiwis Targeted, AI Fears Rising
 h1: BNZ Scam Savvy Survey: 87% of New Zealanders Targeted, 1 in 8 Fell for It
-desc: BNZ's survey found 87% of Kiwis were targeted by scams in 12 months, 1 in 8 became victims and 7% lost money. Government impersonation is up; website scams more than doubled.
+desc: BNZ found 87% of Kiwis targeted by scams in 2024 and 84% in 2025, when social media overtook email and 64% feared AI phishing. The numbers and what to do.
 keywords: bnz scam survey, how many kiwis targeted by scams, nz scam statistics bnz, government impersonation scams nz, bnz scam savvy, bnz never ask
 tags: Statistics|New Zealand|Banking|Survey
 === TLDR
-BNZ's **Scam Savvy Survey** (1,263 Kiwis, mid-2024) found **87%** were **targeted** by scams in the past year, **1 in 8** fell victim and **7% lost money**. **70%** now report scams, up from **46%** in 2022. **Government impersonation** hit **52%** of respondents. **Website scams** more than doubled to **22%** of victims. BNZ says it will **never** ask for your PIN, password, account number or authentication codes.
+BNZ's **Scam Savvy Survey** (1,263 Kiwis, mid-2024) found **87%** were **targeted** by scams in the past year, **1 in 8** fell victim and **7% lost money**. **70%** now report scams, up from **46%** in 2022. **Government impersonation** hit **52%** of respondents. **Website scams** more than doubled to **22%** of victims. The **2025** survey found the share targeted dipped to **84%**, **social media** overtook email as the main scam channel, and most Kiwis now worry about **AI-generated** scams. BNZ says it will **never** ask for your PIN, password, account number or authentication codes.
 
 === BODY
 ## The numbers
@@ -25,6 +25,32 @@ From [BNZ's release](https://www.bnz.co.nz/about-us/news/scammers-undeterred-9-i
 | Social media scams | 22% of respondents |
 
 Survey of **1,263** New Zealanders, 30 July to 16 August 2024, weighted to be nationally representative.
+
+## Three years of BNZ data
+
+| | 2023 | 2024 | 2025 |
+|---|---|---|---|
+| Targeted in past 12 months | 88% | 87% | **84%** |
+| Main scam channel | Email (40%) | Email (34% of victims) | **Social media (26%)**, ahead of email (22%) |
+| Reported scams | 64% | 70% | Not reported |
+
+Sources: [BNZ 2023](https://www.bnz.co.nz/about-us/news/nine-out-of-ten-targeted-by-scams-but-new-zealanders-getting-more-scam-savvy), BNZ 2024 (above) and [BNZ's November 2025 survey](https://www.scoop.co.nz/stories/BU2511/S00359.htm) of **1,070** New Zealanders, surveyed in September 2025.
+
+## 2025: the AI worry
+
+The 2025 survey asked about artificial intelligence for the first time:
+
+- **64%** worry about **AI-generated phishing**;
+- **58%** worry about **deepfakes**;
+- **53%** worry about **AI voice cloning**.
+
+People are changing behaviour in response: **62%** are more cautious checking messages and links, **55%** limit what they share online, **50%** fact-check news, and **7%** have set up a **family safe word** for emergencies. BNZ's head of fraud operations, Margaret Miller: "AI is making scams more sophisticated and harder to spot," and "Scammers are more successful when people are rushing."
+
+A family safe word costs nothing and beats a cloned voice every time. If "your son" calls from a strange number needing money, ask for the word.
+
+## Where money is hardest to recover
+
+BNZ's 2023 survey found **56%** of **social media** scam victims and **22%** of fake **website** victims couldn't get their money back. With social media now the top channel, that's worth remembering before paying a seller you met on Facebook or Instagram.
 
 ## What it tells us
 
@@ -62,11 +88,15 @@ Q: How many Kiwis lost money to scams?
 A: 7% of respondents lost money, and 1 in 8 fell victim.
 Q: Are more people reporting scams in NZ?
 A: Yes. Reporting rose to 70%, from 62% in 2023 and 46% in 2022.
+Q: What did BNZ's 2025 scam survey find?
+A: 84% of Kiwis were targeted in the past year, social media overtook email as the top scam channel, and 64% worry about AI-generated phishing.
 Q: What will BNZ never ask for?
 A: Your PIN, password, account number, or to share authentication codes.
 
 === SOURCES
-https://www.bnz.co.nz/about-us/news/scammers-undeterred-9-in-10-nzers-targeted-but-reporting-surges | BNZ: Scammers undeterred, 9 in 10 NZers targeted but reporting surges
+https://www.bnz.co.nz/about-us/news/scammers-undeterred-9-in-10-nzers-targeted-but-reporting-surges | BNZ: Scammers undeterred, 9 in 10 NZers targeted but reporting surges (Oct 2024)
+https://www.scoop.co.nz/stories/BU2511/S00359.htm | Scoop: AI scam fears drive shift in New Zealanders' online behaviour (BNZ, Nov 2025)
+https://www.bnz.co.nz/about-us/news/nine-out-of-ten-targeted-by-scams-but-new-zealanders-getting-more-scam-savvy | BNZ: Nine out of ten targeted by scams (Aug 2023)
 
 === RELATED
 nz-scam-statistics-2026-netsafe-data | NZ Scam Statistics 2026

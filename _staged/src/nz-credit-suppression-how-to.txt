@@ -2,7 +2,7 @@ slug: nz-credit-suppression-how-to
 country: NZ
 title: How to Freeze Your Credit in NZ (Credit File Suppression)
 h1: Credit File Suppression in New Zealand: How to Freeze Your Credit With Centrix, Equifax and Experian
-desc: A credit suppression stops lenders accessing your credit file without consent, blocking fraudsters from borrowing in your name. How long it lasts, how to apply and extend.
+desc: A credit suppression stops NZ lenders seeing your credit file without consent. How long it lasts at Centrix, Equifax and Experian, and how to apply and extend.
 keywords: credit freeze nz, credit file suppression new zealand, centrix suppression, equifax nz suppression, experian nz suppression, freeze credit after data breach nz
 tags: Identity Theft|New Zealand|Credit|How To
 === TLDR
@@ -27,7 +27,7 @@ Different lengths at each agency. Yes, it's a bit like three clocks in one kitch
 
 ## How to apply
 
-1. Pick one agency and apply online through its **suppression page**: Centrix (emails confirmation), Equifax (online form), or Experian.
+1. Pick one agency and apply online through its **suppression page**, according to [IDCARE](https://idcare.org/fact-sheets/suppressions-new-zealand): **Centrix** (centrix.co.nz), **Equifax** (equifax.co.nz/credit-file-suppression) or **Experian** (experian.co.nz/consumer/credit-file-suppression). Each agency **emails you** once it's in place.
 2. **Ask that agency to pass the request** to the other two. [govt.nz](https://www.govt.nz/browse/consumer-rights-and-complaints/debt-and-credit-records/check-your-own-credit-report/) confirms you can apply to one and have it notify the others.
 3. Keep the confirmation and note each end date.
 
@@ -43,6 +43,22 @@ Different lengths at each agency. Yes, it's a bit like three clocks in one kitch
 
 To let a lender see your file, submit a **written request** naming the organisation.
 
+## A timeline that works
+
+| When | Do this |
+|---|---|
+| Day 1 | Apply at one agency and ask it to pass the request on; get your free credit reports so you know your starting point ([[nz-free-credit-report-how-to|how]]) |
+| Day 1-2 | Report the incident to **Police** (105) so you have a report number |
+| Before day 10 | **Extend at Equifax**, the shortest initial period |
+| Before day 20-21 | Extend at **Centrix** and **Experian** |
+| Then | Replace compromised ID (driver licence, passport) and diarise a review date |
+
+Because the three agencies run different clocks, the Equifax deadline comes first. Miss it and your file at one agency quietly reopens while the others stay locked.
+
+## Suppression vs Australia's credit ban
+
+New Zealand's suppression works like Australia's **credit ban** (21 days, extendable to 12 months), but NZ extensions **can be indefinite** if the agency approves. See [[australia-credit-ban-how-to-request|how Australia's works]].
+
 ## When to suppress
 
 - Your **driver licence or passport** was in a breach (the [[was-i-affected-by-the-latitude-financial-data-breach|Latitude breach]] exposed over a million NZ licence numbers).
@@ -52,7 +68,7 @@ To let a lender see your file, submit a **written request** naming the organisat
 
 ## Get help
 
-**IDCARE** (free) on **0800 121 068**. A free [[/digital-footprint-checker/|exposure check]] shows whether your email appears in breach data.
+**IDCARE** (free) on **0800 121 068**. If an agency mishandles your request, you can raise it with the [Privacy Commissioner](https://www.privacy.org.nz/). A free [[/digital-footprint-checker/|exposure check]] shows whether your email appears in breach data.
 
 === FAQ
 Q: Can I freeze my credit in New Zealand?
@@ -61,6 +77,10 @@ Q: How long does a credit suppression last in NZ?
 A: Initially 21 days with Experian, 20 days with Centrix and 10 days with Equifax. You can apply to extend it.
 Q: Do I need to contact all three credit agencies?
 A: You can apply to one and ask it to pass the request to the others.
+Q: Which agency's suppression runs out first?
+A: Equifax's, after 10 days. Extend there first, then Centrix (20 days) and Experian (21 days).
+Q: What evidence do I need to extend a suppression?
+A: Usually a police report number, a statutory declaration, or confirmation from a lender that you're at risk of fraud.
 Q: Does a suppression affect my existing credit cards?
 A: No, unless credit is due for renewal.
 
@@ -75,3 +95,4 @@ nz-ird-number-myir-compromised-what-to-do | IRD Number Compromised?
 nz-passport-data-breach-alert-pas201 | NZ Passport in a Data Breach
 australia-credit-ban-how-to-request | Credit Bans in Australia
 credit-lock-vs-credit-freeze | Credit Lock vs Credit Freeze
+was-i-affected-by-the-latitude-financial-data-breach | Latitude Financial Data Breach

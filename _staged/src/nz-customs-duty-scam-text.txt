@@ -2,7 +2,7 @@ slug: nz-customs-duty-scam-text
 country: NZ
 title: NZ Customs Duty Scam: "Pay a Fee to Release Your Parcel"
 h1: The NZ Customs Duty Scam: Your Parcel Isn't Stuck, and Customs Isn't Texting You
-desc: Scam texts and emails claim your parcel is held by NZ Customs and you must pay a small fee to release it. Customs doesn't contact people about paying duty. Here's how to check.
+desc: Scam texts say your parcel is held by NZ Customs until you pay a small fee. Customs doesn't contact people about paying duty. How to spot it and report it.
 keywords: nz customs scam text, customs fee scam new zealand, parcel held customs scam, customs duty scam nz, fake customs text, customs.govt.nz scam
 tags: Delivery Scams|New Zealand|Government Impersonation|What To Do
 === TLDR
@@ -13,7 +13,7 @@ Scam texts and emails say your **package has been in storage** and will be **ret
 
 From [NZ Customs](https://www.customs.govt.nz/about-us/news/important-notices/customs-duty-scam-returns):
 
-- A text or email impersonating NZ Customs says your package has been **in storage since last week**.
+- A text or email impersonating NZ Customs says: "Urgent reminder: Dear, your package has been in our storage since last week. Resolve or we will return it to the sender."
 - Act now or it'll be **returned to the sender**.
 - A link leads to a **multi-step** process to pay a small **"customs fee."**
 
@@ -26,6 +26,22 @@ The "multi-step" part is deliberate. By step three, you've invested enough effor
 
 So a message from "Customs" asking you to pay to release a parcel fails on both counts.
 
+## It keeps coming back
+
+This isn't new. In November 2021, [Customs warned](https://www.customs.govt.nz/about-us/news/media-releases/customs-warns-of-scam-text-messages-in-circulation/) about texts saying "there is an unpaid Customs charge" and "Customs Duty is still pending... we will send your order back." Its chief security officer Jamie Bamford was blunt: "Customs will never text people to inform them that they owe charges," and "Customs does not text!" The wording changes; the trick doesn't.
+
+[Netsafe](https://netsafe.org.nz/scams/courier-delivery-scams) says delivery scams spike around **Black Friday, Cyber Monday and Christmas**, when people are expecting parcels. It lists the common versions:
+
+| Version | What happens |
+|---|---|
+| "Customs fee" | Pay a small duty to release a parcel |
+| "Missed delivery" | Fake NZ Post or DHL message with a link to rearrange |
+| "Approve your pickup time" | Followed by a "small" fee that can lead to **large unauthorised withdrawals** |
+| Prize or survey | Claim a parcel prize or answer a survey |
+| Malicious app | A link that installs an app on your phone |
+
+Netsafe also notes scammers can get your name and address from **public records and data breaches**, so a message that knows where you live still isn't proof it's real.
+
 ## If you're genuinely expecting an import
 
 Check tracking with the **courier or retailer** directly, through their official app or website. If a real fee is due, it comes from the courier or freight forwarder, not a random text.
@@ -35,7 +51,8 @@ Check tracking with the **courier or retailer** directly, through their official
 1. **Don't respond** or click any links.
 2. **Forward texts to 7726** (free) ([[nz-report-scam-text-7726|how]]), then delete.
 3. **Entered card details?** Call your bank now.
-4. Report losses to **Police** (105) and **Netsafe**.
+4. **Tapped a link on your phone?** Netsafe suggests running a malware scan and contacting your phone company; in some cases you may need a factory reset.
+5. Report losses to **Police** (105) and **Netsafe**.
 
 ## Related delivery scams
 
@@ -46,11 +63,15 @@ Q: Does NZ Customs text people about fees?
 A: NZ Customs says it does not contact individuals or businesses about paying customs duty.
 Q: Does NZ Customs hold my parcel?
 A: No. Imported goods are held at warehouses run by licensed freight forwarders, not by Customs itself.
+Q: When are delivery scam texts most common?
+A: Netsafe says they spike around Black Friday, Cyber Monday and Christmas, when people are expecting parcels.
 Q: What should I do with a fake Customs text?
 A: Don't click, forward it to 7726 and delete it. If you paid, call your bank.
 
 === SOURCES
 https://www.customs.govt.nz/about-us/news/important-notices/customs-duty-scam-returns | NZ Customs: Customs duty scam returns
+https://www.customs.govt.nz/about-us/news/media-releases/customs-warns-of-scam-text-messages-in-circulation/ | NZ Customs: Customs warns of scam text messages (Nov 2021)
+https://netsafe.org.nz/scams/courier-delivery-scams | Netsafe: Courier delivery scams
 
 === RELATED
 nz-post-scam-texts-whatsapp | NZ Post Scams

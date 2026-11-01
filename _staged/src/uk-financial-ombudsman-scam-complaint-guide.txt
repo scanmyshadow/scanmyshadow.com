@@ -1,12 +1,12 @@
 slug: uk-financial-ombudsman-scam-complaint-guide
 country: UK
-title: Bank Won't Refund a Scam? Taking It to the Financial Ombudsman
+title: Bank Won't Refund a Scam? Go to the Financial Ombudsman
 h1: Your Bank Refused to Refund a Scam. How the Financial Ombudsman Can Help
 desc: If your bank won't reimburse a scam, the free Financial Ombudsman Service can review it. When to go, what they look at and how often they side with customers.
 keywords: financial ombudsman scam complaint, bank refused scam refund uk, app scam ombudsman, complain bank scam reimbursement, fos fraud complaint
 tags: Scam Recovery|Banking|United Kingdom|How To
 === TLDR
-If your bank won't refund money lost to a scam, complain to the bank first in writing. If you're unhappy with its final response, or it hasn't replied in eight weeks, you can take it to the Financial Ombudsman Service for free. In one record quarter the Ombudsman received 8,734 fraud and scam complaints and upheld 44% of them, well above its average across products. Since October 2024, UK rules also require most banks to reimburse APP scam victims up to £85,000, with exceptions.
+If your bank won't refund money lost to a scam, complain to the bank first in writing. If you're unhappy with its final response, or it hasn't replied in eight weeks, you can take it to the Financial Ombudsman Service for free. The Ombudsman received **31,300** fraud and scam complaints in **2025**, around **20,000** of them about authorised push payment (APP) scams. Since October 2024, UK rules also require most banks to reimburse APP scam victims up to **£85,000**, with exceptions, and the PSR says **88%** of money lost to in-scope APP scams has been reimbursed since the rules began.
 
 === BODY
 ## Step 1: complain to your bank
@@ -39,9 +39,25 @@ The Ombudsman's figures for April to June 2024, reported by [IFA Magazine](https
 
 The Ombudsman said it handles around 500 fraud and scam complaints a week.
 
-## What's changed since
+## The latest numbers
 
-From October 2024, the Payment Systems Regulator's rules require most UK payment firms to reimburse authorised push payment (APP) scam victims, now capped at £85,000 per claim, with exceptions (such as gross negligence or international payments). See [[uk-banks-reimbursed-249-million-app-scam-losses|how much banks have repaid]]. If your bank rejects you under these rules, the Ombudsman route still applies.
+According to [Money Age](https://moneyage.co.uk/31300-complaints-sent-to-ombudsman-in-2025.php) (February 2026), the Ombudsman received **31,300** fraud and scam complaints in **2025**. Around **20,000** came from people who had authorised a payment as part of a scam, and the Ombudsman said, anecdotally, that **over half** of those related to **online investment scams**, often involving crypto. Ombudsman director Patrick Hurley: "If it sounds too good to be true, it probably is a scam."
+
+## What's changed since: mandatory reimbursement
+
+From **October 2024**, the Payment Systems Regulator's rules require most UK payment firms to reimburse authorised push payment (APP) scam victims, capped at **£85,000** per claim, with exceptions such as gross negligence and international payments. See [[uk-action-fraud-crm-reimbursement-code|how the rules work]].
+
+The PSR's Q1 2026 dashboard, reported by [Plenitude Consulting](https://www.plenitudeconsulting.com/news-insights/psr-publishes-q1-2026-app-scams-reimbursement-dashboard) (August 2026), shows:
+
+| Measure | Figure |
+|---|---|
+| Money reimbursed since the rules began | **£316m (88%** of in-scope losses) |
+| Reimbursed in the past 12 months | £249.6m |
+| Reimbursed in Q1 2026 alone | £72.6m, the highest quarter so far |
+| In-scope claims in Q1 2026 | 86,500 |
+| Claims rejected for lack of customer caution | about 1,700 (2%) |
+
+So most victims are now repaid by their bank without needing the Ombudsman. The Ombudsman is for the cases that fall through: rejected claims, payments outside the rules, or disputes about how much was repaid. See also [[uk-banks-reimbursed-249-million-app-scam-losses|how much banks have repaid]].
 
 ## What the Ombudsman looks at
 
@@ -62,12 +78,18 @@ A: No. It's free for consumers.
 Q: How often does the Ombudsman side with scam victims?
 A: In April to June 2024 it upheld 44% of fraud and scam complaints, compared with a 37% average across products.
 Q: Do UK banks have to refund APP scams?
-A: Since October 2024 most must reimburse APP scam victims up to £85,000, with exceptions.
+A: Since October 2024 most must reimburse APP scam victims up to £85,000, with exceptions. The PSR says 88% of in-scope losses have been reimbursed.
+Q: How many scam complaints does the Ombudsman get?
+A: It received 31,300 fraud and scam complaints in 2025, around 20,000 of them about authorised push payment scams.
+Q: Do I need a claims company to go to the Ombudsman?
+A: No. The service is free, and a claims firm would take a share of any payout.
 
 === SOURCES
 https://ifamagazine.com/fos-reports-fraud-and-scam-complaints-reach-highest-level-ever/ | IFA Magazine: FOS fraud and scam complaints reach highest level ever
 https://www.which.co.uk/consumer-rights/letter/letter-to-complain-to-your-bank-about-app-fraud-aopzR8V1RXO5 | Which?: Letter to complain to your bank about APP fraud
 https://www.financial-ombudsman.org.uk/ | Financial Ombudsman Service
+https://moneyage.co.uk/31300-complaints-sent-to-ombudsman-in-2025.php | Money Age: 31,300 complaints sent to Ombudsman in 2025 (Feb 2026)
+https://www.plenitudeconsulting.com/news-insights/psr-publishes-q1-2026-app-scams-reimbursement-dashboard | Plenitude Consulting: PSR Q1 2026 APP scams reimbursement dashboard
 
 === RELATED
 uk-action-fraud-crm-reimbursement-code | APP Fraud Reimbursement Rules

@@ -1,12 +1,12 @@
 slug: australia-digital-id-myid-explained
 country: AU
-title: Digital ID and myID Explained: Is It Safe, and Do You Have to Use It?
+title: Digital ID and myID Explained: Is It Safe? Is It Required?
 h1: Australia's Digital ID and myID Explained: Voluntary, Privacy Rules and Scam Risks
-desc: The Digital ID Act 2024 started 1 December 2024. Digital ID is voluntary, bans single identifiers and marketing use, and limits biometrics. What myID is and how to use it safely.
+desc: Digital ID is voluntary under the Digital ID Act 2024 and bans marketing use. What myID is, what changes in December 2026, and how to use it safely.
 keywords: digital id australia explained, myid explained, digital id act 2024, is digital id mandatory australia, mygovid myid, digital id privacy australia
 tags: Digital Identity|Australia|Privacy|Explainer
 === TLDR
-The **Digital ID Act 2024** took effect on **1 December 2024**. **Digital ID is voluntary**: a service generally can't make you use it. Accredited providers face privacy rules stricter than the Privacy Act, including bans on **single identifiers** and on using your data for **marketing**, plus limits on **biometrics**. **myID** (formerly myGovID) is the government's provider. It's also one of the best ways to secure myGov, as long as you never approve a sign-in you didn't start.
+The **Digital ID Act 2024** took effect on **1 December 2024**. **Digital ID is voluntary**: a service generally can't make you use it. Accredited providers face privacy rules stricter than the Privacy Act, including bans on **single identifiers** and on using your data for **marketing**, plus limits on **biometrics**. **myID** (formerly myGovID) is the government's provider. From **1 December 2026**, accredited **private providers** can join the government system, and businesses using myID start paying for it from **1 January 2027**; individuals stay free. It's also one of the best ways to secure myGov, as long as you never approve a sign-in you didn't start.
 
 === BODY
 ## The key facts
@@ -21,8 +21,24 @@ From the [government's Digital ID Act factsheet](https://digitalidsystem.gov.au/
 | **Banned** | Single identifiers across services; using info for marketing |
 | **Limited** | Handling of biometric and other personal information |
 | **Government provider** | **myID**, part of the Australian Government Digital ID System |
-| **Private sector** | System set to expand to private providers within two years |
+| **Private sector** | Accredited private providers can join from 1 December 2026 |
 | **Regulator** | ACCC initially; Information Commissioner for privacy |
+
+## What changes from December 2026
+
+The [Finance Minister's June 2026 announcement](https://ministers.finance.gov.au/financeminister/media-release/2026/06/26/digital-id-expands-private-sector) sets out the next stage:
+
+- From **1 December 2026**, accredited **private Digital ID providers** that join the government system can be used by selected government services, and can charge commercially.
+- From **1 January 2027** at the latest, **businesses** that use myID for their own services start contributing to its running costs.
+- **Individuals** can still create and use myID **for free**, and government services keep using it at no charge.
+- **Higher-risk services**, where fraud could seriously affect people's finances, won't accept private providers.
+- Digital ID **remains optional**, and alternative ways to prove your identity remain available.
+
+### How much it's already used
+
+- **264** government services accept Digital ID (155 Commonwealth, 109 state and territory).
+- More than **113 million** authenticated transactions between May 2025 and April 2026, up from **36.5 million** the year before.
+- The myGov app passed **10 million** users, with about **six million** signing in with fingerprint or face instead of a password, according to [Biometric Update](https://www.biometricupdate.com/202608/australias-mygov-app-passes-10m-users-as-digital-id-reforms-advance) (August 2026).
 
 ## What myID is
 
@@ -42,7 +58,7 @@ myGov recommends setting up **Digital ID or passkeys** and **turning off your pa
 
 ## The concerns people raise
 
-Some critics worry Digital ID could become effectively mandatory over time, or create a single point of failure. The Act's voluntary rule and privacy bans are the main safeguards. You can still use other ways to access services.
+Some critics worry Digital ID could become effectively mandatory over time, or create a single point of failure. The Act's voluntary rule and privacy bans are the main safeguards, and the government has repeated that alternatives will remain available as private providers join. Business fees were still being consulted on when the 2026 changes were announced. You can still use other ways to access services.
 
 ## Your digital footprint
 
@@ -55,11 +71,17 @@ Q: When did the Digital ID Act start?
 A: 1 December 2024.
 Q: What is myID?
 A: The Australian Government's Digital ID provider, formerly called myGovID, used to sign in to government services.
+Q: Will I have to pay for myID?
+A: No. The government says individuals can still create and use myID for free. Charges from January 2027 apply only to businesses that use it.
+Q: Can private companies provide Digital ID in Australia?
+A: From 1 December 2026, accredited private providers can join the government system for selected services. Higher-risk services will only accept myID.
 Q: Can my Digital ID data be used for marketing?
 A: No. The Act bans accredited entities from using information for marketing.
 
 === SOURCES
 https://digitalidsystem.gov.au/sites/default/files/2024-11/factsheet_digital_id_act_2024_-_19112024.pdf | Australian Government: Digital ID Act 2024 factsheet
+https://ministers.finance.gov.au/financeminister/media-release/2026/06/26/digital-id-expands-private-sector | Minister for Finance: Digital ID expands to the private sector (Jun 2026)
+https://www.biometricupdate.com/202608/australias-mygov-app-passes-10m-users-as-digital-id-reforms-advance | Biometric Update: myGov app passes 10M users (Aug 2026)
 
 === RELATED
 australia-mygov-account-compromised-what-to-do | myGov Account Compromised

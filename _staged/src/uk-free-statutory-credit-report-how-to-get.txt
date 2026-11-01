@@ -1,6 +1,6 @@
 slug: uk-free-statutory-credit-report-how-to-get
 country: UK
-title: Free Statutory Credit Report UK: Get Yours From All 3 Agencies
+title: Free Statutory Credit Report UK: Get It From All 3 Agencies
 h1: How to Get Your Free Statutory Credit Report From Experian, Equifax and TransUnion
 desc: You have a legal right to a free basic credit report from each UK agency. How to request it online or by post, what's in it, and what to look for after fraud.
 keywords: free statutory credit report, statutory credit report uk, free credit report experian equifax transunion, check credit report uk free, credit report fraud check uk
@@ -11,7 +11,7 @@ Every UK credit reference agency (Experian, Equifax and TransUnion) must give yo
 === BODY
 ## What a statutory report is
 
-From [Checkmyfile's guide](https://www.checkmyfile.com/help-centre/articles/what-is-a-statutory-credit-report-what-to-know-and-how-to-find-yours): your statutory credit report is the basic credit record each agency holds about you. It's your legal right to see what lenders see, and the basic version is free. Agencies can charge for extras like scores and explanations, but you don't need those to spot fraud.
+According to Checkmyfile, your statutory credit report is the basic credit record each agency holds about you. It's your legal right to see what lenders see, rooted in the **Consumer Credit Act 1974** and data protection law, and the basic version "must be free for life." Agencies can charge for extras like scores and explanations, but you don't need those to spot fraud.
 
 ## What's in it
 
@@ -23,13 +23,29 @@ From [Checkmyfile's guide](https://www.checkmyfile.com/help-centre/articles/what
 
 ## How to request it
 
-| Agency | Online | By post |
-|---|---|---|
-| Experian | Request a passkey online, which is posted to you, then log in | Paper form to its Nottingham support centre |
-| Equifax | Register online with your address history (it asks for card details but shouldn't charge) | Form to its Leicester customer service centre |
-| TransUnion | Online form with your details and address history | Request to its Hull team |
+From [Checkmyfile's guide](https://www.checkmyfile.com/help-centre/articles/what-is-a-statutory-credit-report-what-to-know-and-how-to-find-yours):
 
-Have your **middle names** and **six years of addresses**, including old postcodes, ready. Missing details cause delays.
+| Agency | Online | By post | Note |
+|---|---|---|---|
+| **Experian** | Request a **passkey**, which is posted to you, then log in (experian.co.uk/consumer/statutory-report.html) | Print the application form and send it to the support centre in **Nottingham** | Allow time for the passkey to arrive |
+| **Equifax** | Register with your address history, then view online or download a PDF | Form to the customer service centre in **Leicester** | Asks for card details but says it won't charge; postal reports sent **within a month** |
+| **TransUnion** | Online form with your details and address history (transunionstatreport.co.uk) | Write to the team in **Hull** | |
+
+Have your **middle names** and **six years of addresses**, including old postcodes, ready. Missing details cause delays, and identity checks mean you **might not get instant access**, especially the first time.
+
+## What's not included
+
+The free report doesn't give you:
+
+- a **credit score**;
+- explanations of how each item affected your borrowing;
+- tracking tools or improvement advice.
+
+Agencies can charge a monthly fee for those extras. You don't need any of them to spot fraud.
+
+## Why you should check all three
+
+Lenders don't all report to the same agency, so **the three reports can differ**. A fraudulent account might show on Equifax and not Experian. Checkmyfile also notes that new information can take **4 to 6 weeks** to appear, because lenders report to the agency and the agency then processes it. If you've just been targeted, check again a month or so later.
 
 ## What to look for after fraud or a breach
 
@@ -55,6 +71,8 @@ Q: Does a statutory report include my credit score?
 A: No. It shows your credit history, searches and public records, but not a score.
 Q: What do I need to request one?
 A: Your full name including middle names and six years of address history with postcodes.
+Q: How long does a postal statutory report take?
+A: Checkmyfile says Equifax sends a postal report within a month if your request succeeds.
 Q: Should I check all three agencies?
 A: Yes. Lenders use different agencies, so fraud may show on one and not another.
 

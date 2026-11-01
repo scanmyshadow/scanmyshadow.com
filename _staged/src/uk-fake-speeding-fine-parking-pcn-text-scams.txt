@@ -43,6 +43,24 @@ So the rule is simple: a fine that only exists as a text message doesn't exist.
 3. **Report the text** by forwarding it to 7726, and report losses to [Report Fraud](https://www.reportfraud.police.uk/).
 4. If you entered your address and date of birth too, read [[how-to-report-identity-theft-uk|what to do about identity theft in the UK]].
 
+## Councils keep warning about this
+
+Councils across England have issued their own alerts. In June 2026, [Wandsworth Council](https://wandsworth.gov.uk/news/news-june-2026/parking-scam-text-message-warning-for-residents/) told residents: "We will never send a text message asking you to pay a PCN." Its advice: don't pay or share bank details, delete the text, and tell the council so it can track new scams. If you're unsure whether a real PCN exists, go to your council's own website (search for it yourself) and look it up using the PCN number on the paper notice.
+
+## The other motoring texts and emails from 2026
+
+Which? has logged a steady stream of driver-targeted fakes this year:
+
+| Date | Pretends to be | The claim |
+|---|---|---|
+| 26 May | DVLA (email) | Driving licence details are out of date; fines of up to £1,000 |
+| 14 July | RingGo (text) | A parking payment "remains outstanding" |
+| 12 August | ParkingEye (text) | Payment not received; pay now or face extra charges |
+| 19 August | DVLA (email) | Vehicle tax renewal incomplete and expired; fines of up to £1,000 |
+| 30 September | Speed camera (text) | You were caught speeding; links to a copycat government site |
+
+The pattern never changes: an official-sounding body, a penalty, a deadline and a link. The DVLA versions arrive by email rather than text, so forward those to **report@phishing.gov.uk**. Report fake websites to the NCSC through the GOV.UK reporting page.
+
 ## Related motoring scams
 
 DVLA, “vehicle tax failed” and congestion charge texts use the same playbook. See our guide to [[dvla-scam-what-to-know|DVLA scams]]. The US version of this trick, unpaid toll texts, is covered in [[ez-pass-unpaid-toll-text-scam|E-ZPass toll text scams]].
@@ -58,6 +76,8 @@ Q: Can a council send a parking PCN by text?
 A: No. Council PCNs are put on your windscreen or sent by post.
 Q: I paid a small amount on a fake fine site. What now?
 A: Call your bank or 159 immediately to block your card. Small payments are often used to steal full card details.
+Q: Will the DVLA email me about fines?
+A: Which? logged fake DVLA emails in May and August 2026 threatening fines of up to £1,000. Don't click; forward them to report@phishing.gov.uk and check your details on GOV.UK directly.
 Q: Where do I report a fake fine text?
 A: Forward it to 7726 and report any loss to Report Fraud.
 
@@ -65,6 +85,7 @@ A: Forward it to 7726 and report any loss to Report Fraud.
 https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (speed camera, ParkingEye and RingGo texts)
 https://www.medway.gov.uk/news/article/1772/speeding_ticket_scam_text_alert_for_residents | Medway Council: Speeding ticket scam text alert
 https://www.reportfraud.police.uk/ | Report Fraud (UK)
+https://wandsworth.gov.uk/news/news-june-2026/parking-scam-text-message-warning-for-residents/ | Wandsworth Council: Parking scam text message warning (Jun 2026)
 
 === RELATED
 what-is-smishing | What Is Smishing?

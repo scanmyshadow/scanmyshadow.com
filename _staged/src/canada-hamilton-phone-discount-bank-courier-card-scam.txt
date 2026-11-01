@@ -1,8 +1,8 @@
 slug: canada-hamilton-phone-discount-bank-courier-card-scam
 country: CA
-title: Hamilton Police: Phone Discount Call, Then “Bank” Courier Scam
+title: Hamilton Police: Phone Discount Call, Then Bank Courier Scam
 h1: A Phone Discount Call, a Fake Bank, Then a Courier for Your Cards: Hamilton Police Warn Seniors
-desc: Hamilton police say scammers posing as phone providers, then banks, send couriers to collect seniors' bank cards and PINs. The three-stage script and how to stop it.
+desc: Hamilton police say scammers posing as phone providers, then banks, send couriers to collect seniors' bank cards and PINs. The script and how to stop it.
 keywords: hamilton police scam seniors, bank card courier scam, phone provider discount scam call, card pickup scam canada, seniors scam warning ontario
 tags: Courier Fraud|Seniors|Canada|Scam Alert
 === TLDR
@@ -27,6 +27,26 @@ The first call is the clever bit. It's friendly and pleasant, so by the time the
 - If unsure, contact your bank or provider on a number you've verified yourself, or visit a branch.
 - Report suspicious calls to police.
 
+## The older version: "bank investigators"
+
+Hamilton police have warned about bank impersonation before. In January 2021, the service described a ["bank investigator" scam](https://hamiltonpolice.on.ca/news/bank-investigator-scam/) where callers posing as a financial institution's investigators told victims to withdraw cash and buy **gift cards** or deposit money into a **crypto ATM**. Police said then: "A financial institution will never ask you to pay for anything in gift cards or virtual currency," and "financial institutions will never involve clients in internal investigations."
+
+The 2026 version swaps gift cards for a courier, but the core lie is the same: your bank needs your help to catch a criminal. It doesn't.
+
+## Red flags at each stage
+
+| Stage | What you hear | The tell |
+|---|---|---|
+| 1. Provider call | "You've earned a discount on your phone or internet bill" | Unsolicited, and asks you to confirm personal details |
+| 2. Bank call | "Your account has been compromised" | Arrives soon after the first call, uses urgency, may know your details |
+| 3. Courier | "We'll send someone to collect your cards; just confirm your PIN" | No bank ever sends couriers for cards or asks for a PIN |
+
+Two old Hamilton police tips still apply: **never use a phone number the caller gives you**, and call your bank using the number on a previous statement or the back of your card.
+
+## For shop and bank staff
+
+Hamilton police have also asked retailers to watch for customers who are **on the phone during a large purchase** or buying unusual amounts of gift cards, and to call police if they suspect a scam. Bank tellers and family members are often the last line of defence.
+
 ## A pattern across Canada
 
 The same card pick-up scam has been reported in [[canada-maple-ridge-rcmp-card-pick-up-fraud-bank-impersonation|Maple Ridge]] and elsewhere, and the UK calls it [[uk-courier-fraud-fake-bank-investigators-explained|courier fraud]]. Variations swap cards for gold ([[canada-gold-bar-safekeeping-scam-fake-rcmp|the gold scam]]) or cash.
@@ -44,12 +64,15 @@ Q: How does the Hamilton scam start?
 A: With a call from someone claiming to be your phone or internet provider offering a discount.
 Q: The caller knew my personal details. Does that mean it's real?
 A: No. Police say scammers get personal information from breaches, stolen mail and other sources.
+Q: Will my bank ask me to help with an investigation?
+A: No. Hamilton police say financial institutions never involve clients in internal investigations.
 Q: What should I do if I handed over my cards?
 A: Call your bank immediately to cancel them, then report to police and the CAFC.
 
 === SOURCES
 https://www.chch.com/chch-news/hamilton-police-warns-public-of-new-scam-targeting-seniors/ | CHCH News: Hamilton police warn of new scam targeting seniors (Oct 20, 2026)
 https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+https://hamiltonpolice.on.ca/news/bank-investigator-scam/ | Hamilton Police Service: Bank investigator scam
 
 === RELATED
 canada-maple-ridge-rcmp-card-pick-up-fraud-bank-impersonation | Card Pick-Up Fraud in Maple Ridge

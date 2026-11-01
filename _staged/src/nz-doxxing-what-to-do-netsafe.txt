@@ -2,7 +2,7 @@ slug: nz-doxxing-what-to-do-netsafe
 country: NZ
 title: Doxxed in New Zealand? What to Do and Where to Get Help
 h1: Doxxing in New Zealand: What to Do if Someone Posts Your Address or Personal Details Online
-desc: Doxxing means sharing someone's personal or identifying info without consent. In NZ, the Harmful Digital Communications Act can apply. Steps to take, and how Netsafe helps.
+desc: Doxxing means sharing someone's personal details without consent. NZ's Harmful Digital Communications Act can apply. Steps to take, penalties, and Netsafe help.
 keywords: doxxing nz, doxxed what to do new zealand, harmful digital communications act doxxing, netsafe doxxing, personal information posted online nz, someone posted my address online
 tags: Online Harassment|New Zealand|Privacy|What To Do
 === TLDR
@@ -17,6 +17,21 @@ From [Netsafe](https://www.netsafe.org.nz/doxxing/), doxxing is "sharing another
 
 Under the **Harmful Digital Communications Act**, sending messages or posting content that **"intentionally causes severe emotional distress"** can be illegal. Netsafe can explain your options under the HDCA.
 
+## The penalties
+
+According to [Community Law](https://communitylaw.org.nz/community-law-manual/chapter-34-bullying-harassment-and-sexual-harm/cyberbullying-protections-against-online-digital-harassment/criminal-offences-under-the-harmful-digital-communications-act/), section 22 of the HDCA makes it an offence to post a digital communication **with intent to cause harm** where it causes **serious emotional distress**, judged against what an ordinary reasonable person in your position would feel.
+
+| Who | Maximum penalty |
+|---|---|
+| An individual | **2 years' imprisonment** or a **$50,000** fine |
+| A company | **$200,000** fine |
+
+Judges consider things such as how extreme the language was, your age and circumstances, whether it was **anonymous** or **repeated**, how many people saw it, and whether it was true.
+
+## Civil route: take-down orders
+
+You don't need a criminal prosecution to get content removed. The **District Court** can make orders such as a **take-down order**, but you must **complain to Netsafe first**: "Before you apply to the court you must have complained to NetSafe." Netsafe is the government-appointed complaints agency under the Act; contact it at **help@netsafe.org.nz** or **0508 638 723**.
+
 ## What to do right now
 
 1. **Report** the post and the account to the platform.
@@ -24,7 +39,7 @@ Under the **Harmful Digital Communications Act**, sending messages or posting co
 3. **Lock down** privacy settings; set profiles to private; limit who can contact you; consider changing profile names if you're being tracked.
 4. **Tell trusted friends and family.** They may be targeted too. Ask them to go private.
 5. If it's **safe**, ask the person (or a mutual friend) to remove it.
-6. **Contact Netsafe**: free helpline, online reporting, email and live chat.
+6. **Contact Netsafe** (**0508 638 723**, help@netsafe.org.nz): free helpline, online reporting, email and live chat.
 7. If you're **threatened** or worried about anyone's safety, call **111**.
 
 ## Prevent the next one
@@ -52,11 +67,16 @@ Q: Is doxxing illegal in New Zealand?
 A: Posting content that intentionally causes severe emotional distress can be illegal under the Harmful Digital Communications Act.
 Q: What should I do if I've been doxxed?
 A: Report it to the platform, screenshot evidence, lock down your profiles, warn family and contact Netsafe. Call 111 if you're in danger.
+Q: What is the penalty for harmful digital communications in NZ?
+A: Up to 2 years' imprisonment or a $50,000 fine for an individual, and up to $200,000 for a company, under section 22 of the HDCA.
+Q: Can I get doxxing content taken down by a court?
+A: The District Court can make take-down orders, but you must complain to Netsafe first.
 Q: Can Netsafe help with doxxing?
 A: Yes. Netsafe offers a free, confidential helpline and can explain your options under the HDCA.
 
 === SOURCES
 https://www.netsafe.org.nz/doxxing/ | Netsafe: Doxxing
+https://communitylaw.org.nz/community-law-manual/chapter-34-bullying-harassment-and-sexual-harm/cyberbullying-protections-against-online-digital-harassment/criminal-offences-under-the-harmful-digital-communications-act/ | Community Law: Criminal offences under the Harmful Digital Communications Act
 
 === RELATED
 nz-unpublished-electoral-roll-how-to | Unpublished Electoral Roll (NZ)
