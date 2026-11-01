@@ -1283,6 +1283,41 @@ Site: https://www.scanmyshadow.com/
 - [MediMap Attack: Living NZ Patients Marked "Deceased"](https://www.scanmyshadow.com/blog/2026/10/nz-medimap-attack-patients-marked-deceased.html)
 - [NZ Cyber Report Q2 2026: 1,129 Incidents, $2.7M Lost](https://www.scanmyshadow.com/blog/2026/10/nz-ncsc-cyber-security-insights-q2-2026.html)
 
+## United States scam news (added Nov 2, 2026)
+- [Chase Scam Texts and Calls: How to Spot and Report Them](https://www.scanmyshadow.com/blog/2026/11/chase-scam-text-what-to-do.html)
+- [Check Washing: How Stolen Checks Get Rewritten and How to Stop It](https://www.scanmyshadow.com/blog/2026/11/check-washing-mail-theft-how-to-protect-checks.html)
+- [DMV Text Scam: “Final Notice” Unpaid Ticket Messages Explained](https://www.scanmyshadow.com/blog/2026/11/dmv-text-scam-unpaid-ticket-suspension.html)
+- [“Is This You in This Video?” Facebook Messenger Scam Explained](https://www.scanmyshadow.com/blog/2026/11/facebook-messenger-is-this-you-in-this-video-scam.html)
+- [FamilyTreeNow Opt Out 2026: Remove Your Record (and Your Kids')](https://www.scanmyshadow.com/blog/2026/11/familytreenow-opt-out-guide.html)
+
+## United Kingdom scam news (added Nov 2, 2026)
+- [Cosmetic Surgery Scam Ads: Deposits Paid, Clinics Vanish](https://www.scanmyshadow.com/blog/2026/11/uk-cosmetic-surgery-scam-ads.html)
+- [Council Tax Refund or Band Reduction Texts: It's a Scam](https://www.scanmyshadow.com/blog/2026/11/uk-council-tax-refund-band-reduction-scam.html)
+- [Can I Claim Compensation for a Data Breach in the UK?](https://www.scanmyshadow.com/blog/2026/11/uk-data-breach-compensation-claim-how.html)
+- [Digital Landline Switchover Scams: “Pay or Lose Your Phone Line”](https://www.scanmyshadow.com/blog/2026/11/uk-digital-landline-switchover-scam-calls.html)
+- [DPD Scam Texts: How to Spot a Fake Delivery Message](https://www.scanmyshadow.com/blog/2026/11/uk-dpd-scam-text-what-to-do.html)
+
+## Canada scam news (added Nov 2, 2026)
+- [Check an Investment Adviser in Canada: AreTheyRegistered.ca](https://www.scanmyshadow.com/blog/2026/11/canada-check-investment-registration-aretheyregistered.html)
+- [CIBC "Restrictions on Your Debit Account" Text Is a Scam](https://www.scanmyshadow.com/blog/2026/11/canada-cibc-scam-text-debit-restrictions.html)
+- [CPP and OAS Scams: How Seniors' Payments Get Redirected](https://www.scanmyshadow.com/blog/2026/11/canada-cpp-oas-scams-seniors-redirected-payments.html)
+- [CRA My Account Compromised? Signs and What to Do](https://www.scanmyshadow.com/blog/2026/11/canada-cra-my-account-compromised-what-to-do.html)
+- [Desjardins Scam Texts and Calls: What Desjardins Never Asks](https://www.scanmyshadow.com/blog/2026/11/canada-desjardins-scam-text-call-phishing.html)
+
+## Australia scam news (added Nov 2, 2026)
+- [Queenslanders Lost Nearly $6M to Romance Scams, 4x NSW in One Month](https://www.scanmyshadow.com/blog/2026/11/australia-queensland-romance-scam-losses-2026.html)
+- [Telstra Published 24,000 Silent Numbers in the White Pages](https://www.scanmyshadow.com/blog/2026/11/australia-telstra-silent-numbers-white-pages-breach.html)
+- [Qantas Data Breach: 5.7 Million Customers, What Was Taken](https://www.scanmyshadow.com/blog/2026/11/was-i-affected-by-the-qantas-data-breach.html)
+- [ANZ Scam Alerts 2026: The Latest Fakes and What ANZ Never Asks](https://www.scanmyshadow.com/blog/2026/11/australia-anz-scam-alerts-2026.html)
+- ["Just Read Me the Code": Why Your Bank Will Never Ask](https://www.scanmyshadow.com/blog/2026/11/australia-bank-code-read-back-scam.html)
+
+## New Zealand scam news (added Nov 2, 2026)
+- [NZ Serious Privacy Breach Notifications Up 43%: What the Commissioner Wants](https://www.scanmyshadow.com/blog/2026/11/nz-privacy-breach-notifications-rise-43-percent.html)
+- [The Auckland "SMS Blaster": A Fake Cell Tower That Sent Bank Scam Texts](https://www.scanmyshadow.com/blog/2026/11/nz-sms-blaster-fake-cell-tower-auckland.html)
+- [Fake Painters Took a $27,000 Deposit in Auckland: The Travelling Tradesmen Scam](https://www.scanmyshadow.com/blog/2026/11/nz-travelling-tradesmen-fake-painting-deposit-scam.html)
+- [Fake Facebook "Complaints" Pages Are Scamming Westpac NZ Customers](https://www.scanmyshadow.com/blog/2026/11/nz-westpac-fake-facebook-complaints-pages.html)
+- [Fake ANZ "Kiwi Bonds" Emails Misuse the Depositor Compensation Scheme](https://www.scanmyshadow.com/blog/2026/11/nz-anz-fake-kiwi-bonds-depositor-compensation-scam.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
