@@ -928,6 +928,61 @@ h1 .accent{color:var(--purple);}
 
 
 var SMSL_LOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
+function smsLeakFlags(list){
+var f={};var T={pw:/password/i,phone:/phone/i,id:/government|passport|social security/i,addr:/physical address/i,dob:/date of birth/i};
+for(var k in T){f[k]=0;for(var b=0;b<list.length;b++){var dc=list[b].dataClasses||[];for(var c=0;c<dc.length;c++){if(T[k].test(dc[c])){f[k]++;break}}}}
+return f;
+}
+function smsLeakLead(list,count){
+var f=smsLeakFlags(list),n=0,t='';
+if(f.pw){n=f.pw;t='A password linked to your email was exposed'}
+else if(f.id){n=f.id;t='Your ID details were exposed'}
+else if(f.addr){n=f.addr;t='Your home address was exposed'}
+else if(f.dob){n=f.dob;t='Your date of birth was exposed'}
+else if(f.phone){n=f.phone;t='Your phone number was exposed'}
+if(!n)return null;
+var m=f.pw&&f.phone?'Someone holding these details could try that password on your other accounts, or call you sounding like your bank.':f.pw?'Someone could try that password on your email, shopping or banking logins.':f.phone?'A caller could use these details to sound like your bank or courier company.':'A scammer could quote these details to convince you they are genuine.';
+return {t:t+(count===1?'.':n===count?' in all '+count+' breaches.':' in '+n+' of '+count+' breaches.'),p:m+" This check covered your email only. We haven't checked where your phone number appears yet."};
+}
+function smsPhoneQ(list){return smsLeakFlags(list).phone?'Where else does your phone number appear?':'Is your phone number exposed too?'}
+function smsPlainName(b){
+if(b.stealerLog||b.malware||/credential|stealer|combolist|threat data|txtbase/i.test(b.name||''))return 'A stolen-password list';
+if(b.spamList||/spam/i.test(b.name||''))return 'A spam list';
+if(!b.domain)return 'A leaked data list';
+return b.name;
+}
+function smsTopTwo(list){
+var all=(list||[]).slice().sort(function(p,q){return String(q.date||'').localeCompare(String(p.date||''))});
+var known=function(b){return !!(b&&b.domain&&!b.stealerLog&&!b.malware&&!b.spamList&&smsPlainName(b)===b.name)};
+var pick=all.filter(known).slice(0,2);
+all.forEach(function(b){if(pick.length<2&&pick.indexOf(b)<0)pick.push(b)});
+var rest=all.filter(function(b){return pick.indexOf(b)<0});
+var shown=pick.map(function(b){var o={};for(var k in b)o[k]=b[k];o.name=smsPlainName(b);if(o.name!==b.name)o.domain='';return o});
+return {top:shown,rest:rest};
+}
+function smsSummary(rest){
+if(!rest.length)return '';
+var f=smsLeakFlags(rest),a=[];
+if(f.pw)a.push('passwords in '+f.pw);
+if(f.phone)a.push('phone numbers in '+f.phone);
+if(f.dob)a.push('date of birth in '+f.dob);
+if(f.addr)a.push('home address in '+f.addr);
+if(f.id)a.push('ID details in '+f.id);
+var y=String(rest[0].date||'').slice(0,4);
+return '<div style="margin:14px 0;padding:12px 14px;border:1px solid rgba(123,92,250,.22);border-radius:12px;font-size:13.5px;line-height:1.55;color:var(--ink)"><b>+'+rest.length+' more '+(rest.length===1?'breach':'breaches')+'</b>'+(a.length?': '+a.join(', ')+'.':'.')+(/^\d{4}$/.test(y)?' Latest: '+y+'.':'')+'</div>';
+}
+function smsAnswers(){
+return '<div style="margin:14px 0;font-size:13.5px;line-height:1.55;color:var(--ink-soft)">'
++'<p style="margin:0 0 8px"><b style="color:var(--ink)">Can\'t I just change my password?</b> That fixes one account. It doesn\'t show which apps and sites are linked to your phone and email.</p>'
++'<p style="margin:0"><b style="color:var(--ink)">My data\'s already out, so what\'s the point?</b> You can\'t undo a leak, but you can close the doors it opens.</p></div>';
+}
+function smsHookPanel(q,btnHtml){
+return '<div class="smsl"><div class="smsl-panel"><div class="smsl-pt">Your email is one half. '+q+'</div>'
++'<div class="smsl-ps">The complete phone + email report shows everything, including:</div>'
++'<ul class="smsl-ul"><li>Breach and leak names</li><li>Linked account names</li><li>Google Maps locations</li><li>Where your phone number appears</li><li>A step-by-step removal guide</li></ul>'
++btnHtml+'</div></div>';
+}
+function smsLeadHtml(list,count){var sm=smsLeakLead(list,count);if(!sm)return '';return '<div style="margin-top:16px"><div style="font:600 19px/1.3 \'Space Grotesk\',sans-serif;color:var(--ink);overflow-wrap:anywhere">'+sm.t+'</div><p style="font-size:13.5px;line-height:1.6;color:var(--ink-soft);margin-top:6px">'+sm.p+'</p></div>';}
 function smslEsc(t){var d=document.createElement('div');d.textContent=t==null?'':String(t);return d.innerHTML}
 function smslSplit(list){
 var all=(list||[]).slice();
@@ -996,8 +1051,11 @@ return h;
     breachList.innerHTML = '';
 
     if(data.breaches && data.breaches.length){
-      var smsl = smslSplit(data.breaches);
-      var shown = smsl.vis.slice(0,9);
+      var smsl = smsTopTwo(data.breaches);
+      var shown = smsl.top;
+      var ld = document.createElement('div');
+      ld.innerHTML = smsLeadHtml(data.breaches, count);
+      breachList.appendChild(ld);
 
       shown.forEach(function(b, idx){
         var card = document.createElement('div');
@@ -1028,17 +1086,9 @@ return h;
         setTimeout(function(){ card.classList.add('in'); }, 120 + idx*90);
       });
 
-      if(smsl.vis.length > 9){
-        var more = document.createElement('div');
-        more.className = 'breach-more';
-        more.textContent = '+ ' + (smsl.vis.length - 9) + ' more breaches found';
-        breachList.appendChild(more);
-      }
-      if(smsl.locked.length){
-        var lk = document.createElement('div');
-        lk.innerHTML = smslLocked(smsl.locked, '');
-        breachList.appendChild(lk);
-      }
+      var lk = document.createElement('div');
+      lk.innerHTML = smsSummary(smsl.rest) + smsAnswers() + smsHookPanel(smsPhoneQ(data.breaches), '<a class="smsl-btn" href="https://www.scanmyshadow.com/#pricing" onclick="if(window.gtag){try{gtag(\'event\',\'breach_result_cta_click\',{placement:\'locked\'})}catch(e){}}">Check my phone + email</a><div style="font-size:12px;line-height:1.55;color:var(--ink-soft);text-align:center;margin-top:10px">System error? Free re-scan or full refund. <a href="https://legal.scanmyshadow.com/refund.html" target="_blank" rel="noopener">Refund Policy</a></div><div style="font-size:12px;line-height:1.55;color:var(--ink-soft);text-align:center;margin-top:10px">Built by Sid. Your data is deleted after your report is delivered.</div>');
+      breachList.appendChild(lk);
 
       hibpAttrib.style.display = 'block';
     }else{
