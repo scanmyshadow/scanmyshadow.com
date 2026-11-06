@@ -1,6 +1,6 @@
 slug: uk-paypal-inactive-account-closing-email-scam
 country: UK
-title: PayPal “Account Restricted for Inactivity” Email: It's a Scam
+title: PayPal "Account Restricted for Inactivity" Email Is a Scam
 h1: The PayPal Email Saying Your Inactive Account Will Close in 90 Days
 desc: A fake PayPal email says your account is restricted for inactivity and will close, linking to a page to "create a new account." How to check and report it.
 keywords: paypal inactive account email scam, paypal account restricted email, paypal account closing 90 days scam, fake paypal email uk, report paypal phishing

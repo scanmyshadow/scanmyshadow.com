@@ -31,11 +31,26 @@ Timeline: **within 3 days** of submission.
 - Search again in a private window after three days.
 - Recheck every few months; data brokers refresh.
 
+## A second walkthrough, and what the site shows
+
+DeleteMe's [USA People Search guide](https://joindeleteme.com/opt-out-guides/how-to-remove-yourself-from-usa-people-search/) (updated September 2026) describes the route from the site footer:
+
+1. Click **"Do Not Sell My Personal Information"** at the bottom of usa-people-search.com.
+2. Enter your email, tick the two boxes, complete the CAPTCHA and click **"Begin Removal Process"**.
+3. Search your **full name, city and state**, click **"View Details"** on your listing, then **"Remove Record"**.
+4. Click the link in the confirmation email. It **expires after 24 hours**, so do it straight away.
+
+The site says removals are processed within **72 hours**. A free listing typically shows your **name and aliases, age, current and past phone numbers and addresses**, and **relatives and associates**. It links to a paid site for full background reports.
+
+DeleteMe also notes that if you're on USA People Search you're probably on **411.com** too, and that records can **reappear** as the site re-collects public data. Put a reminder in your calendar to search again in three months.
+
 ## The rest of the list
 
 USA People Search is a smaller site, so do the big ones first: [[whitepages-opt-out-guide|Whitepages]], [[spokeo-opt-out-guide|Spokeo]], [[truepeoplesearch-opt-out-guide|TruePeopleSearch]], [[fastpeoplesearch-opt-out-guide|FastPeopleSearch]] and [[beenverified-opt-out-guide|BeenVerified]]. California residents can use the state's [[california-drop-data-broker-delete-request-guide|DROP tool]] to reach registered brokers in one go. And a free [[/digital-footprint-checker/|email exposure check]] covers breach data.
 
 === FAQ
+Q: How long does the USA People Search confirmation link last?
+A: DeleteMe says the confirmation email link expires after 24 hours, and the site processes removals within 72 hours.
 Q: How do I opt out of USA People Search?
 A: Start at usa-people-search.com/manage, confirm your email, then enter the details to remove and submit.
 Q: How long does USA People Search take?
@@ -46,6 +61,7 @@ Q: Will my listing come back?
 A: It can as data refreshes, so search yourself every few months.
 
 === SOURCES
+https://joindeleteme.com/opt-out-guides/how-to-remove-yourself-from-usa-people-search/ | DeleteMe: How to remove yourself from USA People Search (Sep 2026)
 https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for PeopleConnect, Radaris, BeenVerified, Spokeo and others
 
 === RELATED

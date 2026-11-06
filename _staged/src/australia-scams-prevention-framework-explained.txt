@@ -1,8 +1,8 @@
 slug: australia-scams-prevention-framework-explained
 country: AU
-title: Australia's Scams Prevention Framework: What It Means for You
+title: Australia's Scams Prevention Framework Explained (2026)
 h1: The Scams Prevention Framework Explained: New Duties for Banks, Telcos and Platforms
-desc: Passed in February 2025, the SPF makes banks, telcos and social platforms prevent, detect, disrupt and respond to scams, with fines up to ~$52.7M. No automatic refunds, though.
+desc: Australia's Scams Prevention Framework puts duties on banks, telcos and platforms. 2026 update: dates, draft $3,000 reimbursement and what it means for you.
 keywords: scams prevention framework australia, spf act 2025, scams prevention framework explained, bank scam compensation australia, afca scam complaint, scam laws australia
 tags: Scam Laws|Australia|Explainer|Banking
 === TLDR
@@ -48,6 +48,26 @@ So the framework gives you leverage: if your bank ignored obvious red flags, or 
 
 The government still has to confirm designated sectors, consult on sector codes, and make the SPF Rules. Start dates for specific obligations depend on that.
 
+## 2026 update: the detail arrives
+
+The framework is moving from law to rules. Law firm [Herbert Smith Freehills Kramer](https://www.hsfkramer.com/insights/2026-06/stage-1-of-the-scams-prevention-framework) summarised Stage 1 in June 2026:
+
+| Milestone | Date |
+|---|---|
+| SPF Act in force | 21 February 2025 |
+| Designation instrument (banks, telcos, digital platforms) takes effect | 23 May 2026 |
+| Treasury releases draft rules and sector codes | 28 May 2026 |
+| Key bank obligations start | from **31 March 2027** |
+| AFCA expected to handle SPF complaints | from **31 March 2027** |
+| Scam intelligence sharing and reporting | by end of 2027 |
+
+Two proposals stand out for consumers:
+
+- **Automatic reimbursement for verified losses under $3,000**, through ministerial guidance in the SPF rules.
+- **Shared liability**: where several businesses (say, a bank and a telco) breached their obligations, liability would generally be **split equally**.
+
+AFCA has already changed its constitution (26 May 2026) so it can cover **telcos and digital platforms**, not just banks. These were still drafts when HSF wrote, so check the final rules before relying on them.
+
 ## What to do in the meantime
 
 - Use bank tools like [[australia-confirmation-of-payee-explained|Confirmation of Payee]].
@@ -57,6 +77,10 @@ The government still has to confirm designated sectors, consult on sector codes,
 A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in the breach data scammers use.
 
 === FAQ
+Q: When does the Scams Prevention Framework start protecting consumers?
+A: Banks, telcos and digital platforms were designated from 23 May 2026. Key bank obligations and AFCA complaints are expected from 31 March 2027.
+Q: Will scam victims be reimbursed under the SPF?
+A: Draft rules released in May 2026 propose automatic reimbursement for verified losses under $3,000. Check the final rules.
 Q: When was the Scams Prevention Framework passed?
 A: Federal Parliament passed it on 13 February 2025.
 Q: Does the Scams Prevention Framework make banks refund scam victims?
@@ -67,6 +91,7 @@ Q: What are the penalties under the SPF?
 A: Up to about $52.7 million, three times the benefit, or 30% of adjusted turnover for the most serious breaches.
 
 === SOURCES
+https://www.hsfkramer.com/insights/2026-06/stage-1-of-the-scams-prevention-framework | HSF Kramer: Stage 1 of the Scams Prevention Framework (Jun 2026)
 https://www.twobirds.com/en/insights/2025/australia/explainer-australias-new-scam-prevention-framework | Bird & Bird: Explainer, Australia's new Scam Prevention Framework
 
 === RELATED

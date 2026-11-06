@@ -1,8 +1,8 @@
 slug: canada-sim-swap-port-out-fraud-crtc
 country: CA
-title: SIM Swap and Port-Out Fraud in Canada: 24,627 Cases in 10 Months
+title: SIM Swap and Port-Out Fraud in Canada: 24,627 Cases
 h1: SIM Swap and Port-Out Fraud in Canada: What the CRTC Numbers Show and How to Protect Your Number
-desc: CRTC data logged 24,627 likely number-hijack cases in 10 months, 88% of them unauthorized ports. How Canadian phone number fraud works and how to lock yours down.
+desc: CRTC data logged 24,627 likely number-hijack cases in 10 months, 88% unauthorized ports. How Canadian phone number fraud works and how to lock yours.
 keywords: sim swap canada, port out fraud canada, crtc sim swap, phone number hijacked canada, unauthorized port canada, protect phone number from sim swap canada
 tags: SIM Swap|Account Takeover|Canada|How To
 === TLDR

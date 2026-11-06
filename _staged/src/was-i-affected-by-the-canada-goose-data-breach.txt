@@ -2,7 +2,7 @@ slug: was-i-affected-by-the-canada-goose-data-breach
 country: CA
 title: Canada Goose Data Breach: Was I Affected? What Leaked
 h1: Was I Affected by the Canada Goose Data Breach? What Was Exposed and What to Do
-desc: About 581,900 email addresses and order histories from Canada Goose customers were leaked by ShinyHunters in 2026, with partial card data. How to check and protect yourself.
+desc: About 581,900 Canada Goose customer emails and order histories were leaked by ShinyHunters in 2026, with partial card data. How to check and protect yourself.
 keywords: canada goose data breach, was i affected canada goose breach, canada goose shinyhunters, canada goose customer data leak, canada goose breach 2026
 tags: Data Breach|Retail|Canada|What To Do
 === TLDR

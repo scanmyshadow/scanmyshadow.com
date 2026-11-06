@@ -2,7 +2,7 @@ slug: nz-post-scam-texts-whatsapp
 country: NZ
 title: NZ Post Scam Texts: What NZ Post Never Does
 h1: NZ Post Scam Texts and WhatsApp Messages: How to Tell Real From Fake
-desc: NZ Post never asks for payment or card details by text, never texts from overseas numbers and doesn't use WhatsApp. Real links go to nzpost.co.nz or nzp.st. The latest scams listed.
+desc: NZ Post never asks for personal or financial details by text or email, never texts from overseas numbers and doesn't use WhatsApp. How to spot fakes.
 keywords: nz post scam text, nz post scam 2026, nz post whatsapp scam, fake nz post delivery text, nzp.st real, nz post parcel redelivery scam
 tags: Delivery Scams|New Zealand|Text Scams|What To Do
 === TLDR
@@ -49,6 +49,17 @@ A small redelivery fee doesn't sound like much. That's the trick: the real prize
 - **QR code scams:** Police at **105**.
 - **Facebook posts:** report to Facebook.
 
+## Customs fees and "reschedule" links
+
+[Netsafe's courier scam guide](https://netsafe.org.nz/scams/courier-delivery-scams) (updated June 2026) adds two patterns that hit NZ Post customers:
+
+- **"We tried to deliver"**: a link to **reschedule** a delivery that never happened.
+- **"Approve your pickup"**, then a small **customs fee**. Netsafe says people who paid later saw **large unauthorised withdrawals**.
+
+On that second one, Netsafe is clear: **New Zealand Customs does not contact individuals or businesses about paying customs duty**. Licensed freight forwarders handle it. Any "Customs" text asking for money is a scam ([[nz-customs-duty-scam-text|more on that]]).
+
+Netsafe also warns scams spike around **Black Friday, Cyber Monday and Christmas**. If you clicked a link on your phone, close the page, run a malware scan and **call your phone company**; a factory reset may be needed.
+
 ## If you paid or entered details
 
 Call your bank immediately and report to Police (105) and Netsafe.
@@ -56,6 +67,8 @@ Call your bank immediately and report to Police (105) and Netsafe.
 Customs-fee versions are covered in our [[nz-customs-duty-scam-text|NZ Customs guide]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in breach data.
 
 === FAQ
+Q: Does NZ Customs text you to pay a parcel fee?
+A: No. Netsafe says New Zealand Customs does not contact individuals or businesses about paying customs duty. Licensed freight forwarders handle imports.
 Q: Does NZ Post use WhatsApp?
 A: No. NZ Post says it does not use WhatsApp as a communication channel.
 Q: What do real NZ Post links look like?
@@ -66,6 +79,7 @@ Q: Where do I report an NZ Post scam text?
 A: Forward it to 7726.
 
 === SOURCES
+https://netsafe.org.nz/scams/courier-delivery-scams | Netsafe: Courier delivery scams (updated Jun 2026)
 https://www.nzpost.co.nz/contact-support/scams-and-fraud | NZ Post: Scams and fraud
 
 === RELATED

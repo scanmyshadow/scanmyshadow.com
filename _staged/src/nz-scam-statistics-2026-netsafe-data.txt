@@ -1,6 +1,6 @@
 slug: nz-scam-statistics-2026-netsafe-data
 country: NZ
-title: NZ Scam Statistics 2026: $3 Billion Lost and What the Data Shows
+title: NZ Scam Statistics 2026: $3 Billion Lost, What Data Shows
 h1: New Zealand Scam Statistics 2026: What Netsafe's Latest Numbers Show
 desc: Kiwis lost an estimated $3 billion to scams in 2025, up 30%. Netsafe's 2026 quarterly data, top scam types, who reports, and how often money comes back.
 keywords: new zealand scam statistics 2026, nz scam losses, netsafe scam data, how much do kiwis lose to scams, state of scams new zealand

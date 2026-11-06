@@ -45,6 +45,15 @@ Exemptions include freedom of expression and journalism, legal obligations to ke
 
 Complain to the organisation first, then to the ICO ([[how-to-complain-to-the-ico|how]]). You can also go to court, though the ICO advises legal advice first.
 
+## What changed with the Data (Use and Access) Act 2025
+
+The **Data (Use and Access) Act 2025** received Royal Assent on **19 June 2025**, with changes phased in over the following 2 to 12 months. The government's [guide to the changes](https://www.gov.uk/guidance/data-use-and-access-act-2025-data-protection-and-privacy-changes) doesn't change the right to erasure itself, but two things affect how your request is handled:
+
+- **Complaints handling**: organisations must now handle data protection complaints properly, for example by offering an **electronic complaint form** and telling you the **outcome**. So if an erasure request is ignored, complain to the organisation in writing before going to the ICO.
+- **"Stop the clock"**: for subject access requests, an organisation can **pause** the deadline while it waits for information it needs from you. Answer any ID or clarification questions quickly so you don't lose time.
+
+Tip: send an **access request and an erasure request together** to a company you're unsure about. First see what they hold, then make sure it's gone.
+
 ## Useful targets for erasure requests
 
 - old shopping and loyalty accounts you no longer use ([[how-to-find-old-accounts-linked-to-your|find them]]);
@@ -54,6 +63,8 @@ Complain to the organisation first, then to the ICO ([[how-to-complain-to-the-ic
 Pair it with a [[subject-access-request-dsar-guide|subject access request]] if you want to see what they hold first. And check where your email has leaked with a free [[/digital-footprint-checker/|exposure check]], which often reveals forgotten accounts.
 
 === FAQ
+Q: Did the Data (Use and Access) Act 2025 change the right to erasure?
+A: The government's guide doesn't list changes to erasure itself, but organisations now have a duty to handle data protection complaints, which helps if a request is ignored.
 Q: How do I ask a UK company to delete my data?
 A: Contact any part of the organisation verbally or in writing; no special wording is needed. Follow up in writing.
 Q: How long does a company have to delete my data?
@@ -64,6 +75,7 @@ Q: Does it cost anything?
 A: No, unless the request is manifestly unfounded or excessive.
 
 === SOURCES
+https://www.gov.uk/guidance/data-use-and-access-act-2025-data-protection-and-privacy-changes | GOV.UK: Data (Use and Access) Act 2025, data protection and privacy changes
 https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/ | ICO: Your right to get your data deleted
 
 === RELATED

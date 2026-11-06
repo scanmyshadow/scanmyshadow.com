@@ -2,7 +2,7 @@ slug: is-wealthsimple-safe-from-scams
 country: CA
 title: Is Wealthsimple Safe From Scams? What It Never Asks
 h1: Is Wealthsimple Safe From Scams? The Six Things Wealthsimple Says It Will Never Do
-desc: Wealthsimple is a regulated platform, but scammers impersonate it and target its users. What Wealthsimple never asks, common scams and how to secure your account.
+desc: Wealthsimple is regulated, but scammers impersonate it and target its users. What Wealthsimple never asks, common scams and how to secure your account.
 keywords: is wealthsimple safe, wealthsimple scam, wealthsimple phishing, wealthsimple phone scam, wealthsimple account security
 tags: Investing Apps|Phishing|Canada|How To
 === TLDR

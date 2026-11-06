@@ -2,7 +2,7 @@ slug: australia-warrnambool-bank-email-scams-600000
 country: AU
 title: Warrnambool Bank Email Scams: $600,000 Lost in One Week
 h1: Four Warrnambool Locals Lose About $600,000 to Fake Bank Emails
-desc: Victoria Police say four south-west locals lost about $600,000 after emails claimed their bank account was compromised. How the scam worked and the one rule that stops it.
+desc: Victoria Police say four south-west locals lost about $600,000 after emails claimed their bank account was compromised. How it worked and the rule to stop it.
 keywords: warrnambool scam, bank email scam australia, fake bank email account compromised, $600000 scam victoria, bank impersonation scam 2026
 tags: Bank Impersonation|Email Scams|Australia|Real Stories
 === TLDR

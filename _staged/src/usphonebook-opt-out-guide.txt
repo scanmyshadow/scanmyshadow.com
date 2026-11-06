@@ -31,11 +31,24 @@ After three days, use a private window and search by name and by phone number. I
 
 The source doesn't confirm one removal covers FastPeopleSearch or PeopleSearchNow, so do them separately. Our [[fastpeoplesearch-opt-out-guide|FastPeopleSearch guide]] takes five minutes.
 
+## What testers found
+
+Security.org [tested the process](https://www.security.org/data-removal/opt-out/usphonebook/) (January 2026) and reported:
+
+- The form is reached through **"Do Not Sell My Personal Information"** in the site footer. Use that link rather than an old bookmarked URL.
+- Search by **phone number, name or address**, click **"Get details for"** on your listing, then the large **"Remove Record"** button.
+- The confirmation link **expires within 24 hours**.
+- Removal is typically processed within **72 hours**; in one test it took about **12 hours**. The whole job took them about **15 minutes**.
+
+They also flagged the limits: USPhonebook keeps an internal **suppression list** to stop you being re-added, but that's **not a guarantee**. New public records can create a new listing, and opting out doesn't stop the company collecting data. Check back about **once a year**.
+
 ## Why phone numbers are the soft spot
 
 Your mobile number follows you for years and links your accounts, your address and your name. We explain [[where-do-phone-numbers-get-exposed|where phone numbers get exposed]] and [[how-to-remove-your-phone-number-from|how to remove your number from the internet]]. A free [[/digital-footprint-checker/|email exposure check]] covers your email side.
 
 === FAQ
+Q: Can my USPhonebook listing come back after I opt out?
+A: Yes. Security.org says USPhonebook uses a suppression list, but new public records can create a new listing. Check back about once a year.
 Q: What is the correct USPhonebook opt-out page?
 A: usphonebook.com/removal. Redact says the older /opt-out path is outdated.
 Q: How long does USPhonebook take to remove a listing?
@@ -46,6 +59,7 @@ Q: Do I need separate requests for each phone number?
 A: Yes, each listing (number, address or name variant) needs its own request.
 
 === SOURCES
+https://www.security.org/data-removal/opt-out/usphonebook/ | Security.org: How to opt out of USPhoneBook (Jan 2026)
 https://redact.dev/data-brokers/usphonebook-com/remove | Redact: USPhonebook removal guide
 
 === RELATED

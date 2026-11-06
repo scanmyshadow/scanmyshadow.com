@@ -2,7 +2,7 @@ slug: nz-unpublished-electoral-roll-how-to
 country: NZ
 title: How to Go on the Unpublished Electoral Roll in New Zealand
 h1: The Unpublished Electoral Roll: Keep Your Name and Address Off NZ's Public Roll
-desc: If having your details on the public electoral roll could put you or your family at risk, you can apply for the confidential unpublished roll. Evidence needed and how to apply.
+desc: Concerned for your safety? Apply for NZ's unpublished electoral roll to keep your name and address off the public roll. Who qualifies, evidence and voting.
 keywords: unpublished electoral roll nz, unpublished roll application, hide address electoral roll new zealand, electoral roll privacy nz, family violence electoral roll, vote.nz unpublished
 tags: Privacy|New Zealand|How To|Personal Safety
 === TLDR
@@ -42,6 +42,18 @@ You can vote anywhere in a general election or by-election, but you'll cast a **
 
 Tell the Electoral Commission about name or address changes by submitting a new enrolment form. You can ask to return to the public roll if things change.
 
+## Background from the Privacy Commissioner
+
+A Privacy Commissioner [blog on the unpublished roll](https://www.privacy.org.nz/blog/electoral-roll) explains the legal basis: under **section 115 of the Electoral Act**, the Electoral Commission can put you on the unpublished roll if publishing your details would be **prejudicial to your safety or your family's**. Points worth knowing:
+
+- Only the **Registrar of Electors** can see the unpublished roll.
+- It's used mainly by people with **protection or restraining orders**, and by **Police** staff and their families.
+- Nearly **16,000 people** were on it in **2014**, according to Ministry of Justice figures cited then.
+- You stay on it until your circumstances change; the Registrar **periodically confirms** your details.
+- Because you're not on the printed roll, you cast a **special vote**, before or on election day.
+
+The blog dates from 2014, so check vote.nz for current forms and rules, but the principles haven't changed.
+
 ## Other ways your address leaks
 
 The roll is just one source. Check breach exposure with our free [[/digital-footprint-checker/|exposure checker]], and if someone has posted your details online, see [[nz-doxxing-what-to-do-netsafe|what to do about doxxing]].
@@ -49,6 +61,8 @@ The roll is just one source. Check breach exposure with our free [[/digital-foot
 If you're in danger, call **111**.
 
 === FAQ
+Q: Who can see the unpublished electoral roll in NZ?
+A: Only the Registrar of Electors, according to the Privacy Commissioner. You cast a special vote because you're not on the printed roll.
 Q: Who can go on the unpublished electoral roll in NZ?
 A: Anyone concerned about their own or their family's personal safety.
 Q: What evidence do I need?
@@ -59,6 +73,7 @@ Q: Can I still vote if I'm on the unpublished roll?
 A: Yes. You'll cast a special vote and complete an extra form.
 
 === SOURCES
+https://www.privacy.org.nz/blog/electoral-roll | Privacy Commissioner: Confidentiality and the unpublished electoral roll
 https://vote.nz/assets/Accessible-formats/2026/ROE47b-Concerned-for-your-personal-safety-Large-Print-GE26.pdf | Electoral Commission: Concerned for your personal safety (2026)
 
 === RELATED

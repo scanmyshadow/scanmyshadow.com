@@ -2,7 +2,7 @@ slug: zelle-business-account-upgrade-scam-marketplace
 country: US
 title: Zelle “Business Account Upgrade” Scam: Sellers, Read This
 h1: The Fake Zelle “Upgrade to a Business Account” Email That Targets Marketplace Sellers
-desc: A buyer says they paid by Zelle, then a fake email says you must upgrade to a business account and have the buyer send more. You end up paying them. How it works.
+desc: A buyer says they paid by Zelle, then a fake email says you must upgrade to a business account and have them send more. You end up paying. How it works.
 keywords: zelle business account scam, zelle upgrade scam, facebook marketplace zelle scam, zelle payment on hold email, zelle seller scam
 tags: Zelle|Marketplace Scams|United States|What To Do
 === TLDR

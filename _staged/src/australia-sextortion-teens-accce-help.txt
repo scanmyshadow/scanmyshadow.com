@@ -1,8 +1,8 @@
 slug: australia-sextortion-teens-accce-help
 country: AU
-title: Sextortion in Australia: Signs, What to Do and Where to Report (ACCCE)
+title: Sextortion in Australia: Help for Teens, Parents and Adults
 h1: Sextortion Targeting Australian Teens: Warning Signs, What to Do and Where to Report
-desc: The ACCCE gets close to 100 sextortion reports a month about Australian children. Warning signs for parents, what to do right now, and how to report at accce.gov.au.
+desc: Sextortion offenders threaten to share images unless paid. ACCCE gets about 100 reports a month on children; eSafety saw 3,300+ in 2025. What to do now.
 keywords: sextortion australia, sextortion help teens australia, report sextortion accce, online blackmail teenager australia, sextortion what to do parents, thinkuknow sextortion
 tags: Sextortion|Australia|Parents|What To Do
 === TLDR
@@ -55,11 +55,26 @@ Offenders **trick or coerce** someone into sending sexual images, then threaten 
 
 If your child comes to you, the first words matter most. "Thank you for telling me. You're not in trouble. We'll fix this together." Offenders rely on shame to keep kids quiet and paying.
 
+## Young men are the biggest target
+
+Sextortion isn't only a teen problem. eSafety received more than **3,300 sextortion reports in 2025**, and **86%** came from male victims, [The Daily Aus reported](https://www.thedailyaus.com.au/news/esafety-sextortion-men) in June 2026. Nearly **half** of all reports came from **men aged 18 to 24**.
+
+The pattern eSafety described:
+
+- First contact on **Tinder, Instagram or Grindr**.
+- The chat moves fast to **WhatsApp or Telegram**.
+- **Spoofed numbers** make overseas criminals look like Australians.
+- After an image is shared: **countdown threats** to create panic.
+
+eSafety Commissioner Julie Inman Grant said young people new to an area are especially exposed: "They may not understand [local] dating conventions. They're away from home." If you have older teens or young adult kids at uni, this is the conversation to have too.
+
 ## Reduce exposure
 
 Offenders find targets through public profiles. Set teens' accounts to private and limit who can message them. Our guides to [[how-to-make-instagram-private|Instagram privacy]] and [[how-to-make-tiktok-private-privacy-settings|TikTok privacy]] help. Also see [[sextortion-scams-rising-nz|sextortion in New Zealand]].
 
 === FAQ
+Q: Who is most targeted by sextortion in Australia?
+A: eSafety said 86% of its 2025 sextortion reports came from male victims, and nearly half from men aged 18 to 24.
 Q: Where do I report sextortion in Australia?
 A: Report it to the ACCCE at accce.gov.au/report. Call 000 if someone is in immediate danger.
 Q: Should my child pay a sextortion demand?
@@ -70,6 +85,7 @@ Q: What are the warning signs of sextortion?
 A: Unknown friend requests, sudden sexual conversation, pressure to switch apps, excuses not to video chat, and promises to delete content.
 
 === SOURCES
+https://www.thedailyaus.com.au/news/esafety-sextortion-men | The Daily Aus: Men made 86% of sextortion reports to eSafety in 2025 (Jun 2026)
 https://afp.gov.au/news-centre/media-release/promising-results-sextortion-reports-drop-concern-children-remains | AFP: Sextortion reports drop but concern for children remains
 
 === RELATED

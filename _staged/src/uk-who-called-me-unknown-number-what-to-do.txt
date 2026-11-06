@@ -2,7 +2,7 @@ slug: uk-who-called-me-unknown-number-what-to-do
 country: UK
 title: Who Called Me? Checking an Unknown Number in the UK
 h1: Who Called Me From This Number? How to Check Unknown Callers in the UK
-desc: Dial 1471, search the number, and know the rules: live marketers must identify themselves, robocalls need consent, silent calls can be reported. Ofcom's guidance.
+desc: Dial 1471, search the number, and know the rules: live marketers must identify themselves, robocalls need consent, silent calls can be reported. Ofcom guide.
 keywords: who called me uk, unknown number uk, check phone number uk, 1471 who called, nuisance calls uk report, silent calls uk
 tags: Phone Lookup|Nuisance Calls|United Kingdom|How To
 === TLDR

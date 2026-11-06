@@ -1,6 +1,6 @@
 slug: australia-victoria-police-recover-118000-bec-invoice-scam
 country: AU
-title: Victoria Police Recover $118,000 Lost to a Fake Supplier Email
+title: Victoria Police Recover $118,000 Lost to Fake Supplier Email
 h1: How a Melbourne Family Business Got $118,000 Back After a Fake Invoice Email
 desc: A Bayside furniture business paid $118,000 to a scammer posing as its supplier. Victoria Police's Cybercrime Squad got it back. What happened and what to copy.
 keywords: business email compromise australia, invoice scam recovered, victoria police cybercrime squad, payment redirection scam, fake supplier bank details email

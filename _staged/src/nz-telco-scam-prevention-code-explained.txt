@@ -1,8 +1,8 @@
 slug: nz-telco-scam-prevention-code-explained
 country: NZ
-title: What NZ Telcos Do to Block Scam Calls and Texts (Scam Prevention Code)
+title: NZ Telco Scam Prevention Code: How Scam Calls Get Blocked
 h1: New Zealand's Telco Scam Prevention Code: Blocking, SIM Swap Checks and Port Confirmations
-desc: NZ telcos filter scam calls and texts, require in-store ID for SIM swaps, and need a "yes" text reply for number ports. How the TCF Scam Prevention Code works and what's under review.
+desc: NZ telcos filter scam calls and texts, need in-store ID for SIM swaps and a "yes" reply for number ports. How the TCF code works and what's under review.
 keywords: telco scam prevention code nz, tcf scam code, nz telcos block scam calls, sim swap id check nz, number port confirmation nz, scam calls new zealand telcos
 tags: Telco|New Zealand|SIM Swap|Explainer
 === TLDR

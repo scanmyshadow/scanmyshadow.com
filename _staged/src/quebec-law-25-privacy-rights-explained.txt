@@ -60,11 +60,23 @@ File a complaint with the **Commission d'accès à l'information (CAI)**. It can
 
 Outside Quebec, federal law (PIPEDA) applies instead. See our [[canada-pipeda-explained|PIPEDA explainer]] and [[canada-privacy-commissioner-complaint-how-to|how to complain to the federal Privacy Commissioner]].
 
+## How the CAI complaint form works
+
+The **Commission d'accès à l'information** runs an [online complaint form](https://plainte.cai.gouv.qc.ca/default.aspx?l=en-us) that anyone can use to report a privacy or access practice by a **company**, a **public body** or a **health and social services** organisation. Know what to expect:
+
+- The CAI **doesn't represent you** or settle your personal dispute with the company.
+- It **won't keep you updated** on the complaint's progress or result, and doesn't issue a file number.
+- It will contact you **only if it needs more information**.
+
+That makes a complaint a tool for getting a practice looked at, not for getting your own data back. If a company refused your **access or rectification** request, the form links to a separate **review request** (demande de révision) process, which is the route for your individual case.
+
 ## Where to start
 
 Most people don't know which companies hold their data. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email appears in, which is a good list of who to send access requests to first.
 
 === FAQ
+Q: Will the CAI keep me updated on my privacy complaint?
+A: No. The CAI says it won't keep complainants informed of progress or results, and only gets in touch if it needs more information. For a refused access request, use its separate review request process.
 Q: What rights does Quebec Law 25 give individuals?
 A: Access, rectification, withdrawal of consent, de-indexing or stopping dissemination, information about automated decisions, and data portability.
 Q: How long does a company have to respond to a Law 25 request?
@@ -77,6 +89,7 @@ Q: When did data portability start under Law 25?
 A: September 22, 2024.
 
 === SOURCES
+https://plainte.cai.gouv.qc.ca/default.aspx?l=en-us | Commission d'accès à l'information: Complaint form
 https://hilotech.ca/en/wiki/law-25/individual-rights | Hilotech: Law 25 individual rights
 
 === RELATED

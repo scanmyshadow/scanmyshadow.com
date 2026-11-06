@@ -1,8 +1,8 @@
 slug: australia-report-spam-sms-acma-0429-999-888
 country: AU
-title: How to Report Spam and Scam Texts in Australia (0429 999 888)
+title: How to Report Scam Texts in Australia (0429 999 888)
 h1: How to Report Scam Texts in Australia: ACMA's 0429 999 888, Scamwatch and Your Bank
-desc: Forward spam texts to ACMA on 0429 999 888, report scams to Scamwatch, and forward bank-branded texts to your bank's own number. A quick guide with every number in one place.
+desc: Forward spam texts to ACMA on 0429 999 888, report scams to Scamwatch, and send bank-branded texts to your bank's own number. Every number in one place.
 keywords: report scam text australia, 0429 999 888, acma spam sms, how to report spam text australia, forward scam text australia, report phishing text australia
 tags: Text Scams|Australia|How To|Reporting
 === TLDR

@@ -1,8 +1,8 @@
 slug: nz-trade-me-phishing-emails-after-sale
 country: NZ
-title: Trade Me Scam: "Confirm Your Details to Finalise the Sale" Emails
+title: Trade Me Phishing Emails After a Sale: Spot the Fake
 h1: Trade Me Phishing After a Sale: The "Finalise Your Sale" Email That Steals Your Login
-desc: After winning your listing, scammers send emails posing as Trade Me, NZ Post or a bank asking you to "finalise the sale." Trade Me never asks for your login, card or bank password.
+desc: After a sale, fake Trade Me, NZ Post or bank emails ask you to "finalise" via a link. Trade Me never asks for your login or card. Plus the fake courier link.
 keywords: trade me scam email, trade me phishing, finalise sale scam trade me, trade me seller scam, trade me fake payment email, trade me community watch
 tags: Marketplace Scams|New Zealand|Phishing|What To Do
 === TLDR
@@ -41,6 +41,17 @@ It's the PayID trick from across the Tasman with a Kiwi accent ([[australia-payi
 3. Don't click links in sale-related emails; log in through the app.
 4. Ask a friend for a second opinion when something feels off.
 
+## The courier-link version
+
+Police warned in December 2024 about scammers posing as **buyers** on **Trade Me and Facebook Marketplace**, [RNZ reported](https://www.rnz.co.nz/news/national/536138/police-warn-of-scammers-posing-as-buyers-targeting-online-sales-platforms). The pattern:
+
+- The buyer is **in a hurry** and offers to **arrange the courier**.
+- They send a **fake courier link**.
+- The link asks for your personal and **banking details** and a **four- or five-digit code**.
+- That's enough to take money from your account.
+
+Detective Inspector Stuart Mills said the scam is likely run by **international organised crime**, and targets people under **financial pressure**. His rule: "You should never give those authorisations or confirmation details to a third person at any time." Go to your bank's site yourself, never through a link a buyer sends.
+
 ## If you clicked
 
 - Change your **Trade Me** and **email** passwords.
@@ -50,6 +61,8 @@ It's the PayID trick from across the Tasman with a Kiwi accent ([[australia-payi
 Note: the [[nz-bank-scam-reimbursement-rules-explained|bank reimbursement rules]] don't cover marketplace purchase scams, which makes prevention even more important. A free [[/digital-footprint-checker/|exposure check]] shows if your email is in breach data.
 
 === FAQ
+Q: Is it safe to let a Trade Me buyer arrange the courier?
+A: Be careful. Police warned of fake buyers who send a courier link that asks for bank details and a code. Never enter banking details or codes through a buyer's link.
 Q: Does Trade Me email you to finalise a sale?
 A: Trade Me emails you the buyer's details after a sale. It never asks for your Trade Me login, card details or banking password.
 Q: How do I report a Trade Me scam?
@@ -58,6 +71,7 @@ Q: How can sellers avoid Trade Me scams?
 A: Turn on MFA, allow bids only from authenticated members, and don't click links in sale emails.
 
 === SOURCES
+https://www.rnz.co.nz/news/national/536138/police-warn-of-scammers-posing-as-buyers-targeting-online-sales-platforms | RNZ: Police warn of scammers posing as buyers on online sales platforms (Dec 2024)
 https://help.trademe.co.nz/hc/en-us/articles/12434190471439-Phishing-emails-after-a-sale | Trade Me: Phishing emails after a sale
 
 === RELATED

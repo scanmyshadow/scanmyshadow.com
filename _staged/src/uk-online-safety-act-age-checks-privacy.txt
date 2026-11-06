@@ -2,7 +2,7 @@ slug: uk-online-safety-act-age-checks-privacy
 country: UK
 title: UK Age Checks: What Happens to the Data You Hand Over?
 h1: Online Safety Act Age Checks: What You're Sharing, Who's Responsible and How to Stay Safe
-desc: Some UK sites now require "highly effective" age checks. What Ofcom and the ICO say about your data, why there's no blanket ID rule, and how to avoid fake age-check pages.
+desc: Some UK sites now require "highly effective" age checks. What Ofcom and the ICO say about your data, why there's no blanket ID rule, and fake check pages.
 keywords: online safety act age verification privacy, uk age checks data, ofcom age assurance, age verification data protection uk, is age verification safe
 tags: Online Safety Act|Privacy|United Kingdom|Explainer
 === TLDR

@@ -2,7 +2,7 @@ slug: nz-report-scam-text-7726
 country: NZ
 title: Forward Scam Texts to 7726 in New Zealand (It's Free)
 h1: How to Report a Scam Text in New Zealand: Forward It Free to 7726
-desc: In NZ, forward scam texts free to 7726 so the Department of Internal Affairs can investigate and alert mobile networks. Steps for iPhone and Android, and what else to do.
+desc: In NZ, forward scam texts free to 7726 so Internal Affairs can investigate and alert mobile networks. Steps for iPhone and Android, and what else to do.
 keywords: 7726 nz, report scam text nz, forward spam text new zealand, dia scam text report, how to report phishing text nz, 7726 free
 tags: Text Scams|New Zealand|How To|Reporting
 === TLDR

@@ -2,7 +2,7 @@ slug: australia-silent-elector-how-to-hide-address
 country: AU
 title: How to Become a Silent Elector and Hide Your Address
 h1: Silent Elector: How to Keep Your Address Off Australia's Public Electoral Roll
-desc: Silent enrolment hides your address on future public electoral rolls if it could put your safety at risk. Who qualifies, what you need and how to apply with the AEC.
+desc: If your address on the electoral roll could put your safety at risk, apply to the AEC as a silent elector. Who qualifies, what you need and what it hides.
 keywords: silent elector, how to become a silent elector, hide address electoral roll australia, aec silent elector form, silent enrolment australia, remove address from electoral roll
 tags: Privacy|Australia|How To|Personal Safety
 === TLDR
@@ -43,6 +43,18 @@ Not accepted as grounds on their own: a silent phone number, or not wanting junk
 
 Paper forms exist for each state and territory. In **Victoria**, silent status on the state roll also suppresses your address on the local government roll. Non-resident ratepayers may need to apply separately to their council.
 
+## How the application works in practice
+
+Service NSW's [referral page](https://www.service.nsw.gov.au/transaction/apply-register-silent-elector) shows how it plays out for NSW residents (the process runs through the AEC for everyone):
+
+- You must **already be enrolled** at your **current address**.
+- Your application must **explain in detail** what the risk is and why your or your family's safety is at risk.
+- You'll need the AEC form, a **statutory declaration** and one ID: an **Australian driver licence or passport**.
+- A **Divisional Returning Officer** decides and tells you **in writing**. The information in your application stays **strictly confidential**.
+- Once approved, only your **name and electoral division** appear on future rolls.
+
+One easily missed tip: **family members with the same surname** enrolled at your address should consider applying too. Otherwise their entry can link your surname to the address anyway.
+
 ## Other places your address leaks
 
 The electoral roll is one source. Others include old data breaches, directory listings and property records. To reduce your footprint:
@@ -54,6 +66,8 @@ The electoral roll is one source. Others include old data breaches, directory li
 If you're in danger, call **000**. For support, contact 1800RESPECT.
 
 === FAQ
+Q: Should my family also apply to be silent electors?
+A: Service NSW suggests family members with the same surname enrolled at your address consider applying, so the address can't be linked to your surname through them.
 Q: Who can become a silent elector in Australia?
 A: Australian citizens 18 or over who believe having their address on the public roll could put them or their family's safety at risk.
 Q: What documents do I need to become a silent elector?
@@ -64,6 +78,7 @@ Q: Do I need to reapply after moving?
 A: No. Update your enrolment and you remain a silent elector.
 
 === SOURCES
+https://www.service.nsw.gov.au/transaction/apply-register-silent-elector | Service NSW: Apply to register as a silent elector
 https://www.aec.gov.au/Enrolling_to_vote/Special_Category/silent-electors.htm | Australian Electoral Commission: Silent electors
 
 === RELATED

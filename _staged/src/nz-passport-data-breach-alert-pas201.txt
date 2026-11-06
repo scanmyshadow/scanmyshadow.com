@@ -1,8 +1,8 @@
 slug: nz-passport-data-breach-alert-pas201
 country: NZ
-title: NZ Passport in a Data Breach or Scam? Add an Alert or Cancel It
+title: NZ Passport in a Data Breach? Use Form PAS201
 h1: Your NZ Passport Was in a Data Breach or Scam: How to Add an Alert (Form PAS201)
-desc: If your NZ passport details were exposed in a breach or scam, you can add an alert, cancel it, or both, using form PAS201. What each option does and how to apply.
+desc: If your NZ passport details were exposed in a breach or scam, form PAS201 lets you add an alert, cancel, or both. Plus the Australian online-check block.
 keywords: nz passport data breach, passport alert nz, pas201 form, nz passport compromised, passport scam new zealand, cancel nz passport breach
 tags: Identity Theft|New Zealand|Passports|How To
 === TLDR
@@ -37,6 +37,17 @@ PAS201 doesn't issue one. Use the regular **adult (PAS310)** or **child (PAS305)
 
 The **Latitude** breach (2023) exposed NZ licence and passport details ([[was-i-affected-by-the-latitude-financial-data-breach|our guide]]). Breaches abroad can hit Kiwis too, like [[was-i-affected-by-the-westjet-data-breach|WestJet]].
 
+## If you live in Australia: block online checks
+
+When the **Latitude Financial** breach exposed copies of passport photo pages, DIA's [Latitude advice](https://www.passports.govt.nz/latitude-financial-services-data-breach) added an option that's still worth knowing:
+
+- Your passport stays **valid for travel**. DIA says controls including **facial recognition** stop identity takeover; someone would need the **physical passport** to travel as you.
+- If you're in **Australia**, you can ask DIA to **block your passport number in Australia's Document Verification Service (DVS)**, which stops it being used for **online ID checks** there. You can still use it in person.
+- To ask, email **passportsafe@dia.govt.nz** with your current passport number, name and a phone number with country code. DIA will call from New Zealand.
+- If you're **not** in Australia, the block isn't needed: DVS only verifies passports for people in Australia.
+
+**Before replacing:** your old passport is **cancelled as soon as DIA receives the application**. If you're travelling soon, travel on the current one and talk to DIA before you apply.
+
 ## Other steps
 
 - **Suppress** your credit file ([[nz-credit-suppression-how-to|how]]).
@@ -46,6 +57,8 @@ The **Latitude** breach (2023) exposed NZ licence and passport details ([[was-i-
 A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in.
 
 === FAQ
+Q: Can I stop my NZ passport being used for online ID checks in Australia?
+A: Yes. DIA can block your passport number in Australia's Document Verification Service. Email passportsafe@dia.govt.nz with your passport number, name and phone number.
 Q: What should I do if my NZ passport was in a data breach?
 A: Use form PAS201 to add an alert, cancel the passport, or both.
 Q: Can I still travel if I add an alert to my NZ passport?
@@ -56,6 +69,7 @@ Q: Does PAS201 give me a new passport?
 A: No. Use a separate adult or child passport application for a new one.
 
 === SOURCES
+https://www.passports.govt.nz/latitude-financial-services-data-breach | DIA Passports: Latitude Financial Services data breach advice
 https://www.passports.govt.nz/__data/assets/pdf_file/0027/54756/PAS201-Declare-your-New-Zealand-passport-or-travel-document-lost,-stolen,-damaged-or-involved-in-a-data-breach-or-scam-251128.pdf | NZ Passports: PAS201 form
 
 === RELATED

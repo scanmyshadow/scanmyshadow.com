@@ -1,6 +1,6 @@
 slug: uk-student-finance-scam-messages-slc
 country: UK
-title: Student Finance Scams: Fake SLC Messages Around Payment Dates
+title: Student Finance Scams: Fake SLC Messages on Payment Dates
 h1: Fake Student Finance Messages: How Scammers Time Them to Payment Dates
 desc: Scammers target students with fake Student Loans Company texts and emails in September, January and April. SLC's own warning signs and how to report.
 keywords: student finance scam, slc scam email, student loan scam text uk, fake student finance england message, maintenance loan scam

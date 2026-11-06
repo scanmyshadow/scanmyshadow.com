@@ -40,11 +40,27 @@ Common ways TFNs leak: scam calls "from the ATO", fake job onboarding forms, phi
 
 Once you've reported identity theft, scammers sometimes call "from the ATO" offering to "help". Real ATO contact won't demand payment by gift card or crypto. If unsure, hang up and call the ATO yourself. Our guide to [[hmrc-ato-mygov-tax-scam-texts-emails|ATO and myGov scam texts]] covers the common versions.
 
+## Finding your TFN safely (and where not to look)
+
+If you've **lost** your TFN rather than had it stolen, the ATO's [lost or stolen TFN page](https://www.ato.gov.au/Individuals/Tax-file-number/Lost-or-stolen-TFN/) lists safe places to find it:
+
+- **myGov** (linked to the ATO) or the **ATO app**;
+- your **notice of assessment** or other ATO letters;
+- your **income statement** or payment summary from your employer;
+- your **super account statement**;
+- your **registered tax agent**.
+
+Never search for it by replying to a text or email that offers to "look up" your TFN. Those are fishing for exactly this.
+
+If your TFN is **stolen or misused**, the ATO says to tell it **as soon as possible**: call the **Client Identity Support Centre on 1800 467 033** (8am to 6pm, Monday to Friday). It may add **security measures** that monitor your account for unusual activity.
+
 ## Where else is your data?
 
 A TFN rarely leaks alone. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email appears in, which hints at what else is out there.
 
 === FAQ
+Q: Where can I find my TFN if I've lost it?
+A: The ATO says to check myGov or the ATO app, your notice of assessment, ATO letters, your income statement, super statement, or ask your registered tax agent.
 Q: What number do I call if my TFN is stolen?
 A: The ATO Client Identity Support Centre on 1800 467 033, 8am to 6pm AEST, Monday to Friday.
 Q: How do I know if someone is using my TFN?
@@ -55,6 +71,7 @@ Q: Should I contact IDCARE about a stolen TFN?
 A: Yes, if other personal information may be compromised. IDCARE is free on 1800 595 160.
 
 === SOURCES
+https://www.ato.gov.au/Individuals/Tax-file-number/Lost-or-stolen-TFN/ | ATO: Lost or stolen TFN
 https://www.ato.gov.au/online-services/identity-security-and-scams/help-for-identity-theft | ATO: Help for identity theft
 
 === RELATED
