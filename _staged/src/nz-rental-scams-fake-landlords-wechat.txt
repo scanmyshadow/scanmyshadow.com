@@ -1,8 +1,8 @@
 slug: nz-rental-scams-fake-landlords-wechat
 country: NZ
-title: NZ Rental Scams: Fake Landlords, Fake Tenancy Agreements, Real Losses
+title: NZ Rental Scams: Fake Landlords, WeChat and Facebook Ads
 h1: Rental Scams in New Zealand: Fake Landlords, Fake Agreements and "Reserve the Property" Payments
-desc: Auckland Police warned of fake landlords on WeChat taking thousands for properties already rented, with fake IDs and tenancy agreements. How the scam works and how to check a rental.
+desc: Police warned of fake landlords using WeChat and fake tenancy agreements; REINZ flagged cloned Facebook listings. How rental scams work and checks to make.
 keywords: rental scam nz, fake landlord scam auckland, wechat rental scam new zealand, rental deposit scam nz, fake tenancy agreement scam, international student rental scam nz
 tags: Rental Scams|New Zealand|Fraud|What To Do
 === TLDR
@@ -39,6 +39,22 @@ The scam targets people who can't inspect a property in person. Distance is the 
 - **Never pay** extra to "beat another tenant."
 - Pay bonds properly: in NZ, landlords lodge bonds with **Tenancy Services**, so ask how the bond will be lodged.
 
+## The same tricks, in English
+
+This isn't only a WeChat problem. The Real Estate Institute (REINZ) [warned tenants](https://www.newstalkzb.co.nz/news/business/real-estate-institute-warns-tenants-to-beware-of-online-rental-scams) in July 2023 about cases including:
+
+- a real agency's listing **copied onto a personal Facebook page**, where the "landlord" took a victim's details and **bond**;
+- a scammer posing as the **owner** after a viewing, offering the house "outside the agency" for an **immediate deposit** (the bank reversed it in time);
+- emails using an agency's **name and logo** for listings in a city it doesn't even operate in.
+
+The agency said victims risk losing **up to five weeks' rent and bond**. Its tips:
+
+1. Confirm the manager or owner using contact details **you find yourself**, not ones from social media.
+2. Use **official listing sites**, agency websites or office numbers.
+3. Be wary of rent **well below market**, or the same house listed at **two prices**.
+4. **Don't pay upfront** before you've confirmed who you're dealing with.
+5. Get a **written tenancy agreement**, sign **in person**, and confirm the person owns or is authorised to rent the property. Scammers have produced fake agreements using MBIE's own template.
+
 ## If you've paid
 
 1. **Call your bank** immediately.
@@ -48,6 +64,8 @@ The scam targets people who can't inspect a property in person. Distance is the 
 More on rental fraud: [[rental-listing-scams-fake-apartment-ads|fake rental listings]] and [[rental-scam-statistics-2026|rental scam statistics]]. A free [[/digital-footprint-checker/|exposure check]] shows whether your contact details are in breach data.
 
 === FAQ
+Q: How much can you lose to a rental scam in NZ?
+A: REINZ's warning cited an agency saying victims risk losing up to five weeks' rent and bond.
 Q: How do rental scams work in NZ?
 A: Fraudsters pose as landlords or agents, send fake IDs and tenancy agreements, and take payments for properties that are already rented.
 Q: Who do rental scammers target in NZ?
@@ -56,6 +74,7 @@ Q: How can I check a rental is real?
 A: Verify the agent's website and address, speak to more than one person, and have someone in NZ view the property.
 
 === SOURCES
+https://www.newstalkzb.co.nz/news/business/real-estate-institute-warns-tenants-to-beware-of-online-rental-scams | Newstalk ZB: Real Estate Institute warns tenants of online rental scams (Jul 2023)
 https://www.1news.co.nz/2024/03/04/scam-alert-rent-fraudsters-target-chinese-community-police | 1News: Rent fraudsters target Chinese community, police warn (Mar 2024)
 
 === RELATED
