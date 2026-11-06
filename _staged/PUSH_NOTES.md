@@ -10,3 +10,9 @@
 - Push 7+8 together (render with push date), then 9+10 together two days later. Batch 9 links to batch 10 siblings, so push 9 and 10 in ONE commit.
 - Registries: /tmp/claude-0/reg8.json for 7+8 (no 9/10 links yet); /tmp/claude-0/reg10.json for 9+10.
 - After 9+10: relink batches 1-8 with reg10 (dates: idx0 10-27, idx1 10-28, idx2 10-29, idx3-5 11-02, idx6-7 = 7+8 push date). Dry run: 0 broken internal links across all 250.
+
+## NON-NEGOTIABLE final step (Capo, 6 Nov): after batch 10 is live
+1. Relink all 250 wave posts (batches 1-10) with the full registry so every sibling link resolves.
+2. Cross-link pass across the WHOLE blog: find older (non-wave) posts on the same topic/country and add Related Reading uplinks to the matching wave posts (beyond the 2-per-post cap used in integrate.py), plus wave posts linking back to the best older pillar posts.
+3. Audit: 0 broken internal links site-wide, every wave post >=3 Related Reading, no orphan wave posts (each has >=2 inbound internal links).
+4. Byte-verify on main, then send GSC/Bing URL list of all updated posts.
