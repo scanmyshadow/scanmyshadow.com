@@ -2,7 +2,7 @@ slug: australia-payid-scam-marketplace-sellers
 country: AU
 title: PayID Scam: "Your Account Needs Upgrading" Emails to Sellers
 h1: The PayID Scam Targeting Marketplace Sellers: Fake "Upgrade" Emails and Refund Tricks
-desc: Buyers on Facebook Marketplace or Gumtree ask for your PayID, then a fake email says you must pay to "upgrade" to a business account. PayID is free. Here's the scam.
+desc: A marketplace "buyer" asks for your PayID, then a fake email says you must pay to "upgrade" to a business account. PayID is free. How the scam works.
 keywords: payid scam, payid scam facebook marketplace, payid upgrade business account scam, payid email scam, payid fee scam, gumtree payid scam
 tags: Marketplace Scams|Australia|Payments|What To Do
 === TLDR
@@ -20,11 +20,19 @@ Per [Westpac](https://westpac.com.au/security/articles/using-payid-and-avoid-onl
 
 There's also a **new account** version where the "buyer" insists you open a new bank account or PayID to complete the sale.
 
+## How common it is
+
+NAB [warned in 2023](https://www.nab.com.au/news/personal-finance/payid-scam) that scam reports to the bank had risen **38%** year on year, and that Australians lost **$260,000** to PayID impersonation scams in the previous year, according to Scamwatch. NAB's fraud chief Chris Sheehan put it simply: "the biggest red flag of any PayID-related scam is often if someone asks you for money to upgrade an account."
+
+WA ScamNet [describes the ending](https://scamnet.wa.gov.au/scamnet/Scam_types-Buying_or_selling-Classified_scams-PayID_impersonation_scams.htm): you pay the "refund", the buyer vanishes, and your item is **still unsold**. One WA victim lost **$1,300**.
+
 ## The facts that kill the scam
 
 - **"PayID is a free service."** You never pay a fee to use it.
 - You **never need to upgrade** your account to receive a PayID payment.
 - PayID payments show up in **your banking app**, not in an email.
+- NAB says **PayID doesn't contact users by email, text or message**. Any "PayID" email is fake.
+- **Never send money first** to receive a payment. Real buyers pay you; you don't pay them.
 
 If it's not in your app, it hasn't arrived. That's the whole test.
 
@@ -54,6 +62,8 @@ If it's not in your app, it hasn't arrived. That's the whole test.
 See our guides to [[is-facebook-marketplace-safe-from-scams|Facebook Marketplace scams]] and [[online-marketplace-scam-rules-craigslist-gumtree-kijiji-vinted|marketplace scam rules]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are already in breach data.
 
 === FAQ
+Q: Does PayID send emails about payments?
+A: NAB says PayID doesn't contact users by email, text or message, so treat any "PayID" email as a scam. Check your banking app instead.
 Q: Does PayID charge fees?
 A: No. PayID is a free service and you should never pay a fee to use it.
 Q: Do I need a business account to receive PayID payments?
@@ -65,6 +75,8 @@ A: Report the buyer to the marketplace, forward the email to your bank and repor
 
 === SOURCES
 https://westpac.com.au/security/articles/using-payid-and-avoid-online-marketplace-scams | Westpac: Using PayID and avoiding online marketplace scams
+https://www.nab.com.au/news/personal-finance/payid-scam | NAB: New PayID scam targeting Aussies selling items online
+https://scamnet.wa.gov.au/scamnet/Scam_types-Buying_or_selling-Classified_scams-PayID_impersonation_scams.htm | WA ScamNet: PayID impersonation scams
 
 === RELATED
 is-facebook-marketplace-safe-from-scams | Is Facebook Marketplace Safe?

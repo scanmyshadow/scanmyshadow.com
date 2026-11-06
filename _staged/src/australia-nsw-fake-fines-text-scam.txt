@@ -1,8 +1,8 @@
 slug: australia-nsw-fake-fines-text-scam
 country: AU
-title: Fake NSW Fine Texts: Revenue NSW Never Asks You to Pay by Link
+title: Fake NSW Fine Texts: Revenue NSW Never Sends Pay Links
 h1: Fake Revenue NSW Fine Texts: "Pay Now or Face Penalties" Is a Scam
-desc: Texts and recorded calls claim you have unpaid NSW fines and push a payment link or card details. NSW Government says it never asks for payment via a link in an SMS.
+desc: Texts and recorded calls claim you owe NSW fines and push a payment link. NSW Government never asks for payment via an SMS link. How to check a fine safely.
 keywords: revenue nsw scam text, nsw fine scam text, unpaid fine text scam nsw, fake fine sms australia, service nsw fine scam, nsw government payment link scam
 tags: Government Impersonation|Australia|Text Scams|What To Do
 === TLDR
@@ -24,10 +24,26 @@ The texts often use urgent wording: "final notice", "licence suspension", "enfor
 
 So any fine text with a payment link is fake. You don't need to work out whether the fine sounds plausible. The link is the giveaway.
 
+## Fake Revenue NSW and Service NSW sites
+
+ID Support NSW's [government impersonation page](https://www.nsw.gov.au/departments-and-agencies/id-support-nsw/learn/scams/government-impersonation-scams) (updated February 2026) says scammers send these by **text, email and even letters**, for fine notices that **don't exist**. It shows screenshots of real scam texts and lists **24 fake web addresses** as a sample, with names like `revenue.newgov[.]click/fines`. That's a lookalike: it borrows "revenue" and "gov" but isn't a real NSW Government site.
+
+Two more lines from NSW Government worth keeping:
+
+- "**Service NSW will never call you to ask for a code or password.**"
+- It **won't pressure you to act instantly**.
+
 ## How to check a fine safely
 
-- Look it up **yourself** with **Service NSW**: type the address or open the official app you already use.
-- Use contact details you find independently, never the ones in the message.
+Check it yourself through the official tools ID Support NSW names:
+
+| Tool | Use it for |
+|---|---|
+| **myPenalty** | Penalty notices (fines) |
+| **myEnforcement Order** | Overdue fines sent to enforcement |
+| **MyServiceNSW account** | Your licence, rego and notices in one place |
+
+Type the address yourself or open the app you already use. Use contact details you find independently, never the ones in the message. Still unsure? Call **ID Support NSW** on **1800 001 040** (Mon–Fri, 9am–5pm), interpreters available.
 
 ## What not to do
 
@@ -55,6 +71,8 @@ Collect as much detail as you can (sender number, screenshots, link address) bef
 Fake toll and fine texts are among the most common government scams in Australia ([[australia-government-impersonation-toll-scams-top-detections-2026|top detections 2026]]). In Canada it's [[canada-icbc-scam-text-driving-fines|ICBC]] and [[canada-serviceontario-scam-text-licence-renewal|ServiceOntario]]; in the US, [[dmv-text-scam-unpaid-ticket-suspension|DMV texts]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number is in breach data.
 
 === FAQ
+Q: How do I check if a NSW fine is real?
+A: Look it up yourself through myPenalty, myEnforcement Order or your MyServiceNSW account, never through a link in a message.
 Q: Does Revenue NSW send texts with payment links?
 A: ID Support NSW says NSW Government will never ask you to make a payment via a link in an SMS.
 Q: How do I check if I have an unpaid fine in NSW?
@@ -64,6 +82,7 @@ A: Report it to ReportCyber, Scamwatch or the Police Assistance Line on 131 444,
 
 === SOURCES
 https://www.nsw.gov.au/departments-and-agencies/id-support-nsw/learn/scams/threats-and-extortion-fines-and-penalties | ID Support NSW: Threats and extortion (fines and penalties)
+https://www.nsw.gov.au/departments-and-agencies/id-support-nsw/learn/scams/government-impersonation-scams | ID Support NSW: Government impersonation scams (updated Feb 2026)
 
 === RELATED
 australia-government-impersonation-toll-scams-top-detections-2026 | Government and Toll Scams 2026

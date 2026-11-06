@@ -17,9 +17,21 @@ According to [Brockville police](https://www.brockvilledaily.ca/news/the-brockvi
 - warn your **driver's licence won't be renewed** unless you pay immediately;
 - link to a fake website that collects personal and banking information.
 
+Police said at least **one person** had already fallen victim when they issued the warning in April 2026, [local TV reported](https://hometowntv12.ca/2026/04/08/scam-alert-from-brockville-police-fraudulent-service-ontario-text-message/).
+
 ## The earlier refund version
 
-When Ontario ended licence plate sticker fees, scammers sent texts offering “refunds” through a link. Ontario and police warned it was a scam ([CTV News](https://toronto.ctvnews.ca/it-s-a-scam-ontario-warns-residents-not-to-click-on-link-in-licence-plate-refund-text-1.5799250)). Real policy news, fake messenger: the classic recipe.
+In 2022, less than a week after Ontario announced it was scrapping licence plate sticker fees, scammers texted "refund" links. Ontario said the message was "not authorized by ServiceOntario and is a scam" ([CBC](https://amp.cbc.ca/news/canada/toronto/service-ontario-scam-text-refund-1.6367224); [CTV News](https://toronto.ctvnews.ca/it-s-a-scam-ontario-warns-residents-not-to-click-on-link-in-licence-plate-refund-text-1.5799250)).
+
+How the real refunds worked is the tell: they were **$60 to $240**, depending on your last renewal, and went out **by cheque in the mail**. No link, no text, no form. Real policy news, fake messenger: the classic recipe.
+
+## How to check a ServiceOntario message in 30 seconds
+
+| Real ServiceOntario | Scam text |
+|---|---|
+| Renewals through **ontario.ca** or in person | A link in a text |
+| Refunds by **cheque or official account** | "Claim your refund" link |
+| No payment requests by text | "Pay now or your licence won't be renewed" |
 
 ## What ServiceOntario says
 
@@ -32,13 +44,15 @@ ServiceOntario **does not send text messages requesting payment or financial det
 - Forward it to **7726**.
 - Check your licence status by typing ontario.ca yourself.
 - If you entered card details, call your bank; watch your accounts.
-- Report losses to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+- Report losses to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/) (1-888-495-8501).
 
 ## Related Ontario scams
 
 Fake [[canada-407-etr-scam-text-unpaid-toll|407 ETR toll texts]] and [[canada-post-delivery-text-scam-what-to-do|Canada Post delivery texts]] follow the same pattern. A free [[/digital-footprint-checker/|email exposure check]] shows if your contact details are in breach data.
 
 === FAQ
+Q: Did ServiceOntario send licence sticker refunds by text?
+A: No. The 2022 sticker refunds, typically $60 to $240, were sent by cheque in the mail. Refund texts with links were scams.
 Q: Does ServiceOntario text about unpaid fees?
 A: Police say ServiceOntario does not send texts requesting payment or financial details.
 Q: Is the licence plate sticker refund text real?
@@ -52,6 +66,8 @@ A: Forward it to 7726 and report losses to police and the CAFC.
 https://www.brockvilledaily.ca/news/the-brockville-top-3/scam-warning-issued-after-fake-serviceontario-texts-target-residents | Brockville Daily: Scam warning after fake ServiceOntario texts
 https://toronto.ctvnews.ca/it-s-a-scam-ontario-warns-residents-not-to-click-on-link-in-licence-plate-refund-text-1.5799250 | CTV News: Ontario warns of licence plate refund text scam
 https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+https://hometowntv12.ca/2026/04/08/scam-alert-from-brockville-police-fraudulent-service-ontario-text-message/ | Hometown TV12: Brockville police scam alert (Apr 2026)
+https://amp.cbc.ca/news/canada/toronto/service-ontario-scam-text-refund-1.6367224 | CBC Toronto: ServiceOntario refund text is a scam
 
 === RELATED
 canada-407-etr-scam-text-unpaid-toll | 407 ETR Scam Texts

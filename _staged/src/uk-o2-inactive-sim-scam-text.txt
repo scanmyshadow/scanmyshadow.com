@@ -1,6 +1,6 @@
 slug: uk-o2-inactive-sim-scam-text
 country: UK
-title: O2 “Inactive SIM” Scam Text: Your SIM Isn't Being Switched Off
+title: O2 "Inactive SIM" Scam Text: Your SIM Isn't Being Cut Off
 h1: The O2 “Your SIM Will Become Inactive” Text, and the O2 Bill Discount Calls
 desc: Fake O2 texts say your SIM will be deactivated unless you accept new terms, and callers offer bill discounts then ask for a passcode. How both scams work.
 keywords: o2 inactive sim scam, o2 scam text, o2 sim deactivated text, o2 scam call discount, o2 7726 report

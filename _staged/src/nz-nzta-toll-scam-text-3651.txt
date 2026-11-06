@@ -1,8 +1,8 @@
 slug: nz-nzta-toll-scam-text-3651
 country: NZ
-title: Fake NZTA Toll Texts: Real Ones Only Come From 3651
+title: Fake NZTA Toll and Rego Texts: Real Ones Come From 3651
 h1: Fake NZTA Toll and Rego Texts: Real Messages Come From 3651 and Never Include a Payment Link
-desc: Scam texts claim you owe road toll late fees and link to a fake payment page. NZTA says official texts come only from 3651 and never contain payment links. How to check.
+desc: Scam texts claim you owe toll late fees and link to a fake page. NZTA texts come only from 3651 with no payment links. How to check tolls and rego safely.
 keywords: nzta scam text, toll scam text nz, nzta 3651, fake toll fee text new zealand, waka kotahi scam text, road toll scam nz
 tags: Government Impersonation|New Zealand|Text Scams|What To Do
 === TLDR
@@ -34,6 +34,18 @@ Any other number, or any link, means scam.
 - **Overseas phone numbers**
 - **Urgency**: "pay today or face a penalty"
 
+## The email version: fake rego renewals
+
+Texts aren't the only route. [Netsafe's guide to NZTA scams](https://netsafe.org.nz/?p=8546) says the most common fake NZTA emails ask you to "**renew your rego**", and scammers keep putting up new fake sites as old ones are taken down. Netsafe's checks:
+
+| Genuine NZTA email | Scam |
+|---|---|
+| Comes from **@nzta.govt.nz** or **@reply.nzta.govt.nz** | Any other address |
+| Includes **your vehicle details** (plate, make, licence expiry) | Generic "your vehicle" |
+| **Never asks for your driver licence details** to renew rego | Asks for licence number "to verify" |
+
+That last one matters. A scam that gets your licence number and card has most of what it needs to open accounts in your name.
+
 ## How to check your tolls
 
 Go to the NZTA website by **typing it yourself**, or use NZTA's app for licence and vehicle info. Don't use the text's link.
@@ -42,7 +54,10 @@ Go to the NZTA website by **typing it yourself**, or use NZTA's app for licence 
 
 - Report it to **NZTA** using its online phishing form. NZTA: "The sooner we know about it, the faster we can act."
 - Forward it to **7726** ([[nz-report-scam-text-7726|how]]).
-- If you paid: call your bank, then report to Police (105).
+- Report it to **Netsafe** at netsafe.org.nz/report. Netsafe can't investigate individual scams, but uses reports to track how they change.
+- If you entered **card or bank details**: call your bank to replace the card, then report to Police (105).
+- If you entered **driver licence details**: arrange a **replacement licence** through NZTA online or an approved agent, and contact **IDCARE** for free help.
+- If you clicked a link: run a **malware scan** on the device.
 
 ## The same trick, elsewhere
 
@@ -51,6 +66,8 @@ Australians get [[australia-government-impersonation-toll-scams-top-detections-2
 A free [[/digital-footprint-checker/|exposure check]] shows if your phone number is in leaked data.
 
 === FAQ
+Q: What email address do real NZTA emails come from?
+A: Netsafe says genuine NZTA emails end in @nzta.govt.nz or @reply.nzta.govt.nz and include your vehicle details. NZTA never asks for driver licence details to renew rego.
 Q: What number do real NZTA texts come from?
 A: NZTA says official texts only come from 3651.
 Q: Do NZTA toll texts include payment links?
@@ -62,6 +79,7 @@ A: Call your bank immediately and report it to Police.
 
 === SOURCES
 https://www.sunlive.co.nz/news/358441-fake-nzta-toll-fee-text-circulates-tauranga.html | SunLive: Fake NZTA toll fee text circulates in Tauranga (Jan 2025)
+https://netsafe.org.nz/?p=8546 | Netsafe: NZTA related scams
 
 === RELATED
 nz-ministry-of-justice-fines-text-scam-how-to-check | Fake Fines Texts (NZ)

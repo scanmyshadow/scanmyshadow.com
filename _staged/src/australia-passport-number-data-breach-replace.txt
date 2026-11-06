@@ -2,7 +2,7 @@ slug: australia-passport-number-data-breach-replace
 country: AU
 title: Passport Number in a Data Breach? Do You Need a New One?
 h1: Australian Passport Number Leaked in a Breach: Is It Still Valid and Should You Replace It?
-desc: The Australian Passport Office says a leaked passport number can't be used to travel, and compromised passports are blocked in online ID checks. When replacing makes sense.
+desc: A leaked passport number can't be used to travel, and compromised passports are blocked in online ID checks. When replacing makes sense, and what it costs.
 keywords: passport number data breach australia, do i need a new passport after data breach, australian passport compromised, passport number leaked what to do, document verification service passport, apo data breach advice
 tags: Identity Theft|Australia|Passports|What To Do
 === TLDR
@@ -19,11 +19,27 @@ This guidance from the [Australian Passport Office](https://passports.gov.au/nod
 - **New passports:** a passport number **can't be used to get a new passport**, and **facial recognition** guards against identity takeover.
 - **Replacement:** usually **not required**. If you're **travelling soon**, don't apply now, as processing could take longer than your trip.
 
+## The same advice after Latitude
+
+When the **Latitude Financial** breach exposed copies of ID documents, including passports, the APO's [Latitude FAQ](https://passports.gov.au/node/345) repeated the key points and added detail:
+
+- Your details "**can't be used by someone else to travel under your identity**": they'd need the physical passport too.
+- The government **blocked compromised Australian passports** from the **Document Verification Service**, the system used for online ID checks for things like bank and welfare applications. The passport is still valid for ID **in person**.
+- If an online check fails, use **another credential** or ask the business for another option, like showing the passport in person.
+
+| If you replace it | What the APO says |
+|---|---|
+| Processing time | Allow **at least six weeks**; don't apply if you travel sooner |
+| More than 2 years left | You can get a replacement with the **same expiry date** |
+| Under 2 years left (or expired < 3 years ago) | You'll need a new **10-year** passport |
+| Cost | Normal fees apply; ask the breached company about **reimbursement** |
+
 ## When replacing might make sense
 
 - You **lost the physical passport** as well (then you must report and cancel it).
 - You need to use your passport for **online ID checks** and it's now blocked.
-- The breaching company **offers to pay** for a replacement (Optus did).
+- The breaching company **offers to pay** for a replacement (Optus did; Latitude said it would advise affected customers on reimbursement).
+- The company **confirms** your passport copy was taken, not just your number. The APO says you **may want** to replace it then, to prevent misuse.
 
 ## Cancelling a lost or stolen passport
 
@@ -49,6 +65,8 @@ The APO's advice: don't click links or share details with **unsolicited** contac
 Breaches exposing ID documents include [[was-i-affected-by-the-optus-data-breach|Optus]] and [[australia-genea-ivf-data-breach|Genea]]. A free [[/digital-footprint-checker/|exposure check]] shows which breaches your email is in.
 
 === FAQ
+Q: Why does my passport fail online ID checks after a breach?
+A: The government blocks compromised Australian passports in the Document Verification Service. It's still valid in person and for travel. Use another ID online or replace it.
 Q: Can someone travel on my passport if they have the number?
 A: No. The Australian Passport Office says they would need the physical passport.
 Q: Do I need a new passport after a data breach?
@@ -60,6 +78,7 @@ A: Call 131 232, or contact the nearest Australian embassy or consulate if you'r
 
 === SOURCES
 https://passports.gov.au/node/305 | Australian Passport Office: Data breach advice for passport holders
+https://passports.gov.au/node/345 | Australian Passport Office: Latitude Financial Services breach FAQ
 
 === RELATED
 was-i-affected-by-the-optus-data-breach | Optus Data Breach

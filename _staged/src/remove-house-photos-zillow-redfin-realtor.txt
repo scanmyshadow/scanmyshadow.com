@@ -1,6 +1,6 @@
 slug: remove-house-photos-zillow-redfin-realtor
 country: US
-title: How to Remove Your House Photos From Zillow, Redfin and Realtor.com
+title: Remove House Photos From Zillow, Redfin and Realtor.com
 h1: How to Remove Photos of Your Home From Zillow, Redfin and Realtor.com
 desc: Old listing photos show the inside of your home to anyone. How to claim your home and hide photos on Zillow, Redfin and Realtor.com, step by step.
 keywords: remove house photos from zillow, hide listing photos redfin, remove home photos realtor.com, claim my home zillow, delete house pictures real estate sites
@@ -12,6 +12,19 @@ When you buy a home, the old listing photos usually stay online, showing your la
 ## Why bother
 
 Listing photos are designed to show off your home. That's great when you're selling and less great once you live there. They show floor plans, where the expensive TV hangs, which windows face the back garden and where the side door is. They're also free intel for anyone who's [[can-someone-find-my-address-using-my|already found your address]].
+
+## What you can and can't remove
+
+Know this before you start: you can usually **hide photos**, but not the **page itself**. A 2026 guide from [Offlist](https://www.offlist.me/blog/remove-home-from-zillow-redfin-blockshopper) says Zillow states that property pages **cannot be removed**, and Redfin says it **does not remove property pages** because its data comes from public records.
+
+| Site | Photos | The property page |
+|---|---|---|
+| **Zillow** | Hide or remove once you've claimed and verified ownership | Stays up |
+| **Redfin** | Hide listing photos; separate route for photos or 3D tours posted without consent | Stays up |
+| **Realtor.com** | Remove via Edit home, usually 6+ months after sale | Stays up |
+| **BlockShopper** | Doesn't remove public-record pages, with narrow exceptions (some officials, police, people with protection orders or documented threats) | Stays up |
+
+Some recently sold homes on Zillow may only let you hide **all but the main photo**, and some off-market homes don't show the edit option at all. If the details (price history, bedrooms) are wrong, report them to the site's support.
 
 ## Zillow
 
@@ -40,6 +53,10 @@ From [Security.org's guide](https://www.security.org/data-removal/house-photos/)
 
 Note: you typically can't edit a listing on Realtor.com for **six months after a sale**. Put a reminder in your calendar.
 
+## The address itself lives in county records
+
+Real estate sites pull ownership and sale data from **county records**. A request to Zillow doesn't change those. If you have a safety reason (domestic violence, a stalker, certain public jobs), ask your **county recorder, assessor or clerk** about confidentiality or redaction, which varies by county.
+
 ## While you're at it
 
 - **Blur your house on Google Street View**: [[how-to-blur-your-house-on-google-street-view|here's how]].
@@ -51,6 +68,8 @@ Note: you typically can't edit a listing on Realtor.com for **six months after a
 A house is the most permanent thing in your digital footprint. Photos, address, purchase price and owner names all end up online. A free [[/digital-footprint-checker/|email exposure check]] covers another piece: whether your email has been in a breach.
 
 === FAQ
+Q: Can I remove my house from Zillow completely?
+A: No. Zillow says property pages can't be removed. A verified owner can hide or remove the photos.
 Q: Can I remove my house photos from Zillow?
 A: Yes. Claim ownership of your home, verify it, then edit the listing and delete the photos.
 Q: How do I hide photos on Redfin?
@@ -62,6 +81,7 @@ A: Yes. All three sites require you to claim and verify ownership before editing
 
 === SOURCES
 https://www.security.org/data-removal/house-photos/ | Security.org: How to remove house photos from real estate sites
+https://www.offlist.me/blog/remove-home-from-zillow-redfin-blockshopper | Offlist: How to remove your home from Zillow, Redfin, BlockShopper and property records (2026)
 https://cyberguy.com/tech-tips-tricks/how-to-delete-photos-of-your-house-from-real-estate-websites/ | CyberGuy: How to delete photos of your house from real estate websites
 
 === RELATED

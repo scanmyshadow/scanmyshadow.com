@@ -1,6 +1,6 @@
 slug: uk-notice-of-correction-credit-report
 country: UK
-title: Notice of Correction: Explain Your Credit Report in 200 Words
+title: Notice of Correction: Explain Your UK Credit Report
 h1: How to Add a Notice of Correction to Your UK Credit Report (and When It Helps)
 desc: A notice of correction lets you add up to 200 words to your credit file to explain accurate but unfair-looking entries. How to add one at all three agencies.
 keywords: notice of correction credit report, how to add notice of correction, notice of correction uk, explain missed payment credit report, notice of dispute credit report
@@ -22,9 +22,28 @@ From [TransUnion's guide](https://www.transunion.co.uk/consumer/credit-report-he
 
 So “My ex-partner ran up debts on our joint account” won't fly, but “Payments were missed in March to June 2025 while I was in hospital; the account has been up to date since” will.
 
+## What Experian adds
+
+[Experian's guide](https://www.experian.co.uk/consumer/guides/notice-of-correction.html) sets out its side:
+
+- Keep it **clear, concise and factual**, under 200 words, setting out the facts as you see them.
+- It **won't affect your credit score**, and there's **no guarantee** it changes a lender's decision.
+- If Experian **can't accept your wording**, it will tell you and usually suggest an alternative. If you still can't agree, it can ask the **Information Commissioner's Office** to review it.
+- It **won't pass your notice to other agencies**. You contact Equifax and TransUnion yourself.
+
+Debt charity [PayPlan](https://www.payplan.com/financial-wellbeing/financial-wellbeing-resources/notice-of-correction/) adds a useful tip: include **dates**, and keep it relevant. Because a person has to read the note rather than a computer deciding automatically, your application may take a bit longer.
+
+## A good notice vs a bad one
+
+| Works | Won't be accepted |
+|---|---|
+| "I missed payments on my credit card from March to June 2025 while in hospital. All payments have been made on time since July 2025." | "My bank treated me terribly and refused to help." (names and blames a company) |
+| "This loan was taken out fraudulently in my name in 2025 and is being investigated. Ref: [police reference]." | "This is all my ex-husband's fault." (blames a named person) |
+
 ## When it helps
 
-- explaining missed payments during illness, bereavement or redundancy;
+- explaining missed payments during illness, bereavement, redundancy or a relationship breakdown;
+- PayPlan also lists economic or domestic abuse, a mental health condition, or a mental capacity limitation;
 - explaining why there's no electoral register record (e.g., you've just moved to the UK);
 - after identity fraud, explaining that accounts or searches weren't yours while they're being removed (check with the agency on wording).
 
@@ -50,6 +69,10 @@ See our [[how-to-report-identity-theft-uk|UK identity theft guide]] and [[how-to
 Many UK identity fraud cases start with breached personal data. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email has been in a breach, a hint that more of your details may be circulating.
 
 === FAQ
+Q: Does a notice of correction improve my credit score?
+A: No. Experian says it won't affect your score, but lenders will read it when you apply.
+Q: If I add a notice at Experian, does it show at Equifax and TransUnion?
+A: No. Experian says it doesn't add notices to other agencies' reports, so contact each one yourself.
 Q: What is a notice of correction?
 A: A statement of up to 200 words added to your credit report to explain accurate information to lenders.
 Q: Does a notice of correction affect my credit score?
@@ -61,6 +84,8 @@ A: Use a Notice of Dispute and ask the agency to investigate.
 
 === SOURCES
 https://www.transunion.co.uk/consumer/credit-report-help/what-is-a-notice-of-correction-and-how-can-i-add-one-to-my-credit-report-if-needed | TransUnion UK: What is a notice of correction?
+https://www.experian.co.uk/consumer/guides/notice-of-correction.html | Experian UK: Notice of correction
+https://www.payplan.com/financial-wellbeing/financial-wellbeing-resources/notice-of-correction/ | PayPlan: Notice of correction
 https://www.checkmyfile.com/help-centre/articles/what-is-a-statutory-credit-report-what-to-know-and-how-to-find-yours | Checkmyfile: What is a statutory credit report?
 
 === RELATED

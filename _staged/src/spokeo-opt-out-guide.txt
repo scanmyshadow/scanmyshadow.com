@@ -13,6 +13,23 @@ Find your Spokeo profile URL, paste it with your email at spokeo.com/optout, com
 
 Spokeo pulls together names, addresses, phone numbers, emails, relatives and social profiles into one page. It's popular with people checking a date, a seller or an old classmate, and also with people you'd rather not hear from.
 
+## Spokeo runs more sites than you think
+
+California's data broker registry (an August 2026 snapshot compiled by [Offlist](https://www.offlist.me/ca-broker/spokeo-inc)) lists **Spokeo, Inc.** of Pasadena as doing business as:
+
+| Site | Covered by spokeo.com/optout? |
+|---|---|
+| Spokeo.com | Yes |
+| AnyWho.com | Yes |
+| Family.me | Yes |
+| Freepeopledirectory.com | Yes |
+| Peoplewin.com | Yes |
+| **ThatsThem.com** | **No**: it has its own form ([[thatsthem-opt-out-guide|ThatsThem guide]]) |
+
+So one Spokeo opt-out does more than it looks, but ThatsThem still needs its own request.
+
+In its 2024 registry filing, Spokeo reported receiving almost **3.8 million opt-out-of-sale requests**. You're far from the only person doing this.
+
 ## Step by step
 
 These steps follow [DuckDuckGo's Spokeo opt-out guide](https://duckduckgo.com/duckduckgo-help-pages/spokeo-opt-out).
@@ -31,11 +48,19 @@ Spokeo says 2 to 3 days. In practice, DuckDuckGo found listings are typically re
 - **No email arrives.** Check spam and promotions folders. Use an email you can access but don't mind sharing; an [[email-alias-temporary-phone-number-privacy|email alias]] works well.
 - **Spokeo doesn't cover other sites.** As ThatsThem's guidance notes, Spokeo's removal doesn't extend to other brokers. You still need to do the others.
 
+## California residents: add DROP
+
+California's **Delete Request and Opt-out Platform** (DROP) sends one deletion request to every registered broker, and Spokeo is registered. [Malwarebytes explains](https://www.malwarebytes.com/blog/news/2026/08/californians-can-tell-data-brokers-to-drop-their-informatio) that from **1 August 2026** registered brokers must check DROP and have **90 days** to delete your records. Verify residency (manually or with Login.gov), submit once, and keep your **DROP ID**. Still do the Spokeo form above: it's faster. Our [[california-drop-data-broker-delete-request-guide|DROP guide]] has the details.
+
+Outside California? Oregon, Texas and Vermont require broker registration but have no one-stop tool, so you still go site by site.
+
 ## Next sites to clear
 
 Do [[whitepages-opt-out-guide|Whitepages]], [[beenverified-opt-out-guide|BeenVerified]] and [[radaris-opt-out-guide|Radaris]] next, then check our [[us-data-broker-sites-opt-out-guide|full broker list]]. If you'd like to know whether your email has been in a data breach, too, a free [[/digital-footprint-checker/|email exposure check]] takes 30 seconds.
 
 === FAQ
+Q: Does a Spokeo opt-out also remove me from AnyWho?
+A: Spokeo's registry entry lists AnyWho, Family.me, Freepeopledirectory and Peoplewin as Spokeo sites covered by spokeo.com/optout. ThatsThem, also a Spokeo site, needs its own request.
 Q: How do I opt out of Spokeo?
 A: Copy your profile URL, submit it with your email at spokeo.com/optout, complete the CAPTCHA and click the link in the confirmation email.
 Q: How long does Spokeo take to remove a listing?
@@ -48,6 +73,8 @@ A: No. You only need the profile URL and an email address to confirm.
 === SOURCES
 https://duckduckgo.com/duckduckgo-help-pages/spokeo-opt-out | DuckDuckGo Help: Spokeo opt-out guide
 https://www.spokeo.com/optout | Spokeo opt-out page
+https://www.offlist.me/ca-broker/spokeo-inc | Offlist: Spokeo, Inc. in the California data broker registry (Aug 2026)
+https://www.malwarebytes.com/blog/news/2026/08/californians-can-tell-data-brokers-to-drop-their-informatio | Malwarebytes: Californians can tell data brokers to DROP their information (Aug 2026)
 https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for PeopleConnect, Radaris, BeenVerified, Spokeo
 
 === RELATED

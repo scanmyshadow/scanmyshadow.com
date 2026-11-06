@@ -23,12 +23,22 @@ From [NatWest's reporting page](https://www.natwest.com/support-centre/help-with
 - It would only ever ask for **random characters** from your PIN or password, never the full thing.
 - If you received a suspicious email and haven't responded, forward it to **phishing@natwest.com**.
 
+## Why this matters: the 2026 numbers
+
+UK Finance's annual fraud report, [covered by The Register](https://www.theregister.com/a/5256106) in June 2026, put total UK payment fraud losses for 2025 at about **£1.28 billion**. **Unauthorised fraud**, where criminals use your stolen card or login, accounted for **£703.4 million**. Authorised push payment (APP) fraud, where you're tricked into sending money, rose **19%** to over **£576 million**, with impersonation scams among the types whose case numbers grew.
+
+A phishing email is the front door to both kinds. Your login lets them spend; a follow-up "fraud team" call talks you into moving money yourself.
+
 ## Spot the fake
 
 - a link to log in or “verify” (log in via the app or by typing natwest.com instead);
 - a sender address that isn't a NatWest domain;
 - requests for your full PIN or password;
 - urgency: “your account will be restricted within 24 hours.”
+
+## The follow-up call
+
+Phishing emails are often step one. A day later, a "NatWest fraud team" may call to say your account was attacked and you need to move money to a "safe account". A genuine bank protecting your account freezes it; it doesn't ask you to move the money. Hang up and call the number on your card, ideally from another phone ([[uk-bank-impersonation-scams-what-to-know|how bank impersonation calls work]]).
 
 ## If you clicked and entered details
 
@@ -55,6 +65,7 @@ A: Forward emails to report@phishing.gov.uk and texts to 7726.
 === SOURCES
 https://www.natwest.com/support-centre/help-with-your-card/fraud/how-do-i-report-a-phishing-email-or-scam-email.html | NatWest: How to report a phishing or scam email
 https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (NatWest email, Oct 7, 2026)
+https://www.theregister.com/a/5256106 | The Register: UK Finance fraud report, Brits lose £1.3B (Jun 2026)
 
 === RELATED
 uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams

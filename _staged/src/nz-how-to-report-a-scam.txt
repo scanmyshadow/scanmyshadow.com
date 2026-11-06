@@ -2,7 +2,7 @@ slug: nz-how-to-report-a-scam
 country: NZ
 title: How to Report a Scam in New Zealand: Who to Call First
 h1: How to Report a Scam in New Zealand: Bank, Police 105, Netsafe, 7726 and More
-desc: Lost money? Call your bank first, then Police on 105. Scam text? 7726. Not sure? Netsafe on 0508 638 723. Every NZ scam reporting option in one place, in the right order.
+desc: Lost money? Call your bank first, then Police on 105. Scam text? 7726. Unsure? Netsafe on 0508 638 723. Every NZ scam reporting option, in the right order.
 keywords: how to report a scam nz, report scam new zealand, police 105 scam, netsafe report scam, report scam text nz 7726, ncsc report nz
 tags: Reporting|New Zealand|How To|What To Do
 === TLDR

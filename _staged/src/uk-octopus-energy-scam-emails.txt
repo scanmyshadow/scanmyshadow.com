@@ -11,7 +11,17 @@ Octopus Energy says genuine emails come only from @octopus.energy, @octoenergy.c
 === BODY
 ## Why energy companies are favourite disguises
 
-Energy bills are big, refunds and credits are real, and price changes come every quarter. So “You're owed £187.43 in credit” sounds plausible. Which? has reported big jumps in energy-related scams during cost-of-living pressure, and Octopus, as one of the UK's largest suppliers, gets copied a lot.
+Energy bills are big, refunds and credits are real, and price changes come every quarter. So “You're owed £187.43 in credit” sounds plausible. Octopus, as one of the UK's largest suppliers, gets copied a lot.
+
+When energy bills spiked in 2022, [Which? found](https://www.which.co.uk/policy-and-insight/article/which-reveals-huge-jump-in-energy-related-scams-as-fraudsters-seek-to-exploit-cost-of-living-crisis-a9rxE9e8RWQR) scams mentioning the big energy firms rose **10%** in the first quarter, with **January up 27%** year on year. The types it saw are still the ones to watch:
+
+| Scam | How it works |
+|---|---|
+| **Refund phishing** | A "billing error" means you're owed money; the link asks for bank details |
+| **Fake debt collectors** | Target ex-customers of collapsed suppliers, sometimes with real personal details |
+| **Fake grants** | Insulation or heat pump "schemes" online, by phone or at the door |
+| **Cloned prepayment tokens** | Cheap "£100 of credit for £50"; you end up paying twice |
+| **Fake energy bonds** | Investment offers using a supplier's name |
 
 ## Octopus's own checklist
 

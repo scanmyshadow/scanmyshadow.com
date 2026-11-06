@@ -32,15 +32,23 @@ ThatsThem says it processes requests within 72 hours and sends a confirmation em
 - submit another request for any listing still showing;
 - if that fails, email optout@thatsthem.com with what you submitted and your screenshot.
 
-## Spokeo won't do it for you
+## Who's behind ThatsThem
 
-Redact notes that Spokeo's removal tool doesn't cover ThatsThem. Every site needs its own request, which is why our [[us-data-broker-sites-opt-out-guide|broker list]] exists.
+ThatsThem is run by **Spokeo**. California's data broker registry (an August 2026 snapshot compiled by [Offlist](https://www.offlist.me/ca-broker/spokeo-inc)) lists Thatsthem.com among the sites **Spokeo, Inc.** does business as, alongside Spokeo.com, AnyWho, Family.me, Freepeopledirectory and Peoplewin.
+
+The catch: Spokeo's own opt-out at spokeo.com/optout **doesn't cover ThatsThem**, which keeps its separate form. Redact says the same. So do both: [[spokeo-opt-out-guide|Spokeo's form]] clears the other Spokeo sites, and this one clears ThatsThem.
+
+**In California?** Because Spokeo is a registered broker, a single request through the state's **DROP** platform should reach it too ([[california-drop-data-broker-delete-request-guide|how DROP works]]). Registered brokers must process DROP requests within 90 days from 1 August 2026.
+
+Every other site still needs its own request, which is why our [[us-data-broker-sites-opt-out-guide|broker list]] exists.
 
 ## The email-to-address problem
 
 Because ThatsThem searches by email, the email you use everywhere is effectively a key to your home address. Consider separate emails for shopping and sign-ups ([[email-alias-temporary-phone-number-privacy|aliases help]]), and see [[what-does-your-email-address-reveal|what your email address reveals]]. To see which breaches your email has been in, run a free [[/digital-footprint-checker/|email exposure check]].
 
 === FAQ
+Q: Who owns ThatsThem?
+A: California's data broker registry lists Thatsthem.com as one of the sites run by Spokeo, Inc. Spokeo's main opt-out doesn't cover it, so use thatsthem.com/optout.
 Q: How do I opt out of ThatsThem?
 A: Fill in the form at thatsthem.com/optout with your details, pass the Cloudflare check and submit.
 Q: Do I need to confirm by email?
@@ -53,6 +61,7 @@ A: Name, address, phone and email can each be separate listings. Search all four
 === SOURCES
 https://redact.dev/data-brokers/thatsthem-com/remove | Redact: ThatsThem removal guide
 https://thatsthem.com/optout | ThatsThem opt-out page
+https://www.offlist.me/ca-broker/spokeo-inc | Offlist: Spokeo, Inc. in the California data broker registry (Aug 2026)
 
 === RELATED
 us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide

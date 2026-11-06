@@ -9,13 +9,28 @@ tags: Bank Scams|Phishing|Canada|What To Do
 Fake Scotiabank emails and texts say your account is locked or needs verifying and send you to a lookalike login page. Scotiabank says it won't send unsolicited emails asking for passwords, PINs, access codes or card numbers, and won't ask you to restore account access by email or text. Forward emails (unchanged subject line) or text screenshots to phishing@scotiabank.com, and call 1-866-625-0561 if you think you've been defrauded.
 
 === BODY
-## What the fakes say
+## What the fakes look like
 
-- “Your Scotiabank account has been temporarily locked. Restore access: [link]”
-- “Unusual sign-in detected. Verify your identity.”
-- “Your Scene+ points expire today.”
+They follow a few patterns:
+
+- **Account locked**: restore access through a link.
+- **Unusual sign-in**: verify your identity now.
+- **Rewards expiring**: points or a reward about to lapse.
 
 They're built to get your login onto a fake page, or to start a phone call with a fake fraud agent.
+
+## How big the problem is in Canada
+
+The [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm) received over **112,000 fraud reports** in 2025, with more than **$704 million** in reported losses. Its top 10 included:
+
+| Fraud type (2025) | Reports | Victims | Losses |
+|---|---|---|---|
+| Phishing | 2,869 | 467 | not counted |
+| **Spear phishing** (targeted) | 813 | 571 | **$67.9M** |
+| **Fake "fraud investigator"** calls | 2,167 | 1,137 | **$28.3M** |
+| Identity fraud | 8,403 | 8,403 | not counted |
+
+The fake investigator line is the one to remember. Scam texts and calls often work as a pair: the message primes you, then a caller posing as "bank security" talks you into acting. If a call follows a suspicious text, hang up and dial the number on the back of your card. See how one [[canada-barrie-fake-scotiabank-investigator-link-56000-lost|fake Scotiabank investigator took $56,000]].
 
 ## What Scotiabank says it won't do
 
@@ -41,6 +56,8 @@ Call Scotiabank immediately on **1-866-625-0561**. Change your password, check r
 The same playbook is used with every big Canadian bank: see [[canada-rbc-scam-alerts-2026-what-to-do|RBC's 2026 alerts]] and [[canada-bank-impersonation-scams-what-to-know|bank impersonation in Canada]]. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in breach data.
 
 === FAQ
+Q: How much do Canadians lose to phishing and fake bank calls?
+A: The CAFC recorded $67.9 million lost to spear phishing and $28.3 million to fake fraud investigator calls in 2025, out of more than $704 million in total reported fraud losses.
 Q: How do I report a Scotiabank phishing email?
 A: Forward it to phishing@scotiabank.com without changing the subject line, then delete it.
 Q: How do I report a fake Scotiabank text?
@@ -53,6 +70,7 @@ A: Scotiabank lists 1-866-625-0561.
 === SOURCES
 https://www.scotiabank.com/ca/en/about/contact-us/security/report-an-incident-or-suspicious-activity.html | Scotiabank: Report an incident or suspicious activity
 https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm | CAFC: Top 10 frauds in 2025
 
 === RELATED
 canada-bank-impersonation-scams-what-to-know | Bank Impersonation Scams in Canada

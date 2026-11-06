@@ -2,7 +2,7 @@ slug: truepeoplesearch-opt-out-guide
 country: US
 title: TruePeopleSearch Removal 2026: Opt Out in 4 Steps
 h1: How to Remove Yourself From TruePeopleSearch
-desc: TruePeopleSearch removal in four steps: start at truepeoplesearch.com/removal, find your listing, click Remove This Record and confirm by email. Limits and timing.
+desc: TruePeopleSearch removal in four steps: start at truepeoplesearch.com/removal, find your listing, remove it and confirm by email. Limits and timing.
 keywords: truepeoplesearch removal, truepeoplesearch opt out, remove from true people search, true people search delete record, truepeoplesearch 2026
 tags: Data Brokers|Opt-Out Guides|United States|How To
 === TLDR

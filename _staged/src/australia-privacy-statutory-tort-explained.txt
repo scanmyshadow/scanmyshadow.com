@@ -1,8 +1,8 @@
 slug: australia-privacy-statutory-tort-explained
 country: AU
-title: Australia's New Right to Sue for Serious Invasions of Privacy
+title: Australia's Privacy Tort: When You Can Sue Over Privacy
 h1: Australia's Statutory Privacy Tort Explained: When You Can Sue for an Invasion of Privacy
-desc: Since 10 June 2025, Australians can sue people and organisations for intruding on their seclusion or misusing their information. Who it covers, time limits and remedies.
+desc: Since 10 June 2025, Australians can sue for serious invasions of privacy. Who it covers, time limits, remedies and the first court case under the new law.
 keywords: statutory tort serious invasion of privacy, australia privacy tort, sue for invasion of privacy australia, privacy tort 10 june 2025, misuse of private information australia, intrusion upon seclusion australia
 tags: Privacy Rights|Australia|Law|Explainer
 === TLDR
@@ -52,7 +52,20 @@ The court can award what it considers appropriate, such as:
 
 None, directly. This is a court action, so you'll need **independent legal advice**. For ordinary privacy complaints against businesses, the [[australia-oaic-complaint-how-to|OAIC complaint process]] is still the cheaper route.
 
-## Where it might apply
+## The first case: private wedding photos
+
+The first published decision under the tort came in October 2025. In *Kurraba Group Pty Ltd v Williams* [2025] NSWDC 396, the NSW District Court dealt with a man who, after his demand for $50,000 to drop objections to a development was refused, ran a campaign against the developer and its CEO. Among other things, he published the CEO's **private wedding photographs** without consent, in a way that suggested things the photos didn't show, [law firm Colin Biggers & Paisley explains](https://www.cbp.com.au/insights/publications/putting-the-privacy-tort-to-the-test-first-application-for-relief-under-the-statutory-tort-for-seri).
+
+What the court did:
+
+- found a **serious question to be tried** on the privacy claim (along with defamation and intimidation);
+- noted weddings are meant to be private and the CEO **wasn't a public figure**;
+- rejected the argument that the **journalism exemption** applied, calling the conduct coercion rather than reporting;
+- granted **injunctions** to stop publication and require removal within **two days**.
+
+That was interim relief, not a final judgment or damages, and the allegations were untested at that stage. But it shows the tort working as intended: fast orders to take private material down.
+
+## Where else it might apply
 
 The tort is new, so courts are still shaping it. In our view it could be relevant to things like doxxing, hidden cameras or deliberately publishing someone's private information, but every case turns on its facts. Get legal advice before relying on it.
 
@@ -61,6 +74,8 @@ The tort is new, so courts are still shaping it. In our view it could be relevan
 Prevention beats litigation. A free [[/digital-footprint-checker/|exposure check]] shows where your email has leaked, and [[australia-silent-elector-how-to-hide-address|silent elector enrolment]] can keep your address off the public roll.
 
 === FAQ
+Q: Has anyone used Australia's privacy tort yet?
+A: Yes. In October 2025 the NSW District Court granted injunctions in Kurraba Group v Williams, partly over private wedding photos published without consent. It was interim relief, not a final judgment.
 Q: When did Australia's privacy tort start?
 A: The statutory tort for serious invasions of privacy commenced on 10 June 2025.
 Q: Can I sue an individual for invading my privacy in Australia?
@@ -72,6 +87,7 @@ A: Journalists are exempt in certain circumstances, as are intelligence and law 
 
 === SOURCES
 https://www.oaic.gov.au/privacy/your-privacy-rights/more-privacy-rights/statutory-tort-for-serious-invasions-of-privacy | OAIC: Statutory tort for serious invasions of privacy
+https://www.cbp.com.au/insights/publications/putting-the-privacy-tort-to-the-test-first-application-for-relief-under-the-statutory-tort-for-seri | Colin Biggers & Paisley: First application for relief under the statutory privacy tort (Nov 2025)
 
 === RELATED
 australia-oaic-complaint-how-to | How to Complain to the OAIC
