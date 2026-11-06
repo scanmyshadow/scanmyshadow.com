@@ -1,8 +1,8 @@
 slug: australia-hi-mum-scam-whatsapp
 country: AU
-title: The "Hi Mum" Scam: How It Works and the One Question That Beats It
+title: The "Hi Mum" Scam: How It Works and How to Check Fast
 h1: The "Hi Mum" WhatsApp Scam: How It Works and How to Check It's Really Your Kid
-desc: "Hi Mum, I dropped my phone, this is my new number." Over 1,150 Australians lost $2.6M in seven months when the scam spiked. How it works and how to check in seconds.
+desc: "Hi Mum, I dropped my phone, this is my new number." How the WhatsApp scam works, who it hits, a real victim's story and the 30-second check.
 keywords: hi mum scam, hi mum whatsapp scam australia, new number scam text, family impersonation scam, hi dad scam, hi mum scam how to check
 tags: Impersonation|Australia|WhatsApp|What To Do
 === TLDR
@@ -15,24 +15,35 @@ From the [ACCC's warning](https://www.accc.gov.au/media-release/accc-warning-of-
 
 1. A WhatsApp message from an **unknown number**: "Hi Mum" or "It's me."
 2. They say their phone was **lost or broken**, so this is a **new number**.
-3. A bit of chat to build rapport. Maybe a photo request.
+3. A bit of chat to build rapport.
 4. Then the ask: money for an **urgent bill**, a **contractor**, or a **new phone**.
 5. The excuse: they **can't access their online banking** right now.
 
+Some ask you to pay a "friend's" account, because the child's own account is "frozen". That detail alone should stop you: a real kid's bank problem is never solved by paying a stranger.
+
+## A real Australian case
+
+SBS [reported](https://www.sbs.com.au/news/dateline/article/the-scam-targeting-australian-women-by-preying-on-a-mothers-love/40lydym5r) on a Perth mother whose "daughter", supposedly overseas, messaged from a new number after "water damage" to her phone. The scammer knew details that fitted the daughter's life and said her bank account was **frozen for 48 hours**. Over three transfers she sent **just under $10,000** before a family member noticed something was off. After SBS contacted her bank, she was told the money would be refunded.
+
+Notice how ordinary each step was. No threats, no prize. Just a child who needed help.
+
 ## Who it hits
 
-| Stat (Jan–Jul 2022) | Figure |
+| ACCC figure (Jan–Jul 2022) | Number |
 |---|---|
 | Victims | 1,150+ |
 | Losses | $2.6 million |
-| Reports from women over 55 | Over two-thirds |
+| Reports from women over 55 | Over two-thirds (losses over $1.4m) |
+| Share of reports from over-55s | 82% |
 | Share of losses from over-55s | 95% |
 
-The scam works because it's built on love, not greed. You're not chasing a prize. You're helping your kid. That's a much harder instinct to override.
+Most reports landed in **June and July 2022**, which is when the scam took off in Australia. It hasn't gone away; the same script turns up as "Hi Dad", "Hi Nan" and messages from a "friend".
+
+The scam works because it's built on love, not greed. You're not chasing a prize. You're helping your kid. That's a much harder instinct to override. As the ACCC's then-Deputy Chair put it: "It's designed to pull your heartstrings."
 
 ## The 30-second check
 
-- **Call the number already saved** in your phone. If your kid answers, mystery solved.
+- **Call the number already saved** in your phone. If the old number still works, the "new number" story is false.
 - No answer? Try **another way**: a partner, sibling, flatmate, work.
 - Ask a **personal question** only they'd know (not "what's your birthday", which is in data breaches; try "what did we eat last Christmas?").
 - The ACCC's rule: **never send money unless you're absolutely sure** who it's going to.
@@ -43,10 +54,11 @@ Agree on a silly word or phrase with your family. If "you" text asking for money
 
 ## If you've already paid
 
-1. **Call your bank immediately** and ask them to stop or recall the payment.
-2. Report to **Scamwatch**.
+1. **Call your bank immediately** and ask them to stop or recall the payment. Speed matters.
+2. Report to **Scamwatch**, even if you didn't lose money.
 3. If you shared personal info or photos, contact **IDCARE** on 1800 595 160.
-4. Don't feel stupid. These scams are built by professionals to beat good people.
+4. Block and report the number in WhatsApp.
+5. Don't feel stupid. These scams are built by professionals to beat good people.
 
 ## Why they had your number
 
@@ -54,16 +66,17 @@ Scammers often work through leaked phone numbers from breaches. A free [[/digita
 
 === FAQ
 Q: What is the Hi Mum scam?
-A: A scammer messages pretending to be your child on a new number, then asks for money for an urgent bill or new phone.
+A: A scammer messages pretending to be your child on a new number, then asks for money for an urgent bill or new phone, often to a "friend's" account.
 Q: How much have Australians lost to Hi Mum scams?
 A: The ACCC reported more than 1,150 victims lost $2.6 million in the first seven months of 2022.
 Q: How do I check if a Hi Mum message is real?
-A: Call your child on the number already saved in your phone, or contact them another way.
+A: Call your child on the number already saved in your phone, or contact them another way. If the old number works, it's a scam.
 Q: What should I do if I paid a Hi Mum scammer?
 A: Call your bank immediately, report it to Scamwatch and contact IDCARE if you shared personal information.
 
 === SOURCES
-https://www.accc.gov.au/media-release/accc-warning-of-suspicious-messages-as-hi-mum-scams-spike | ACCC: Warning as "Hi Mum" scams spike
+https://www.accc.gov.au/media-release/accc-warning-of-suspicious-messages-as-hi-mum-scams-spike | ACCC: Warning as "Hi Mum" scams spike (Aug 2022)
+https://www.sbs.com.au/news/dateline/article/the-scam-targeting-australian-women-by-preying-on-a-mothers-love/40lydym5r | SBS Dateline: The scam preying on a mother's love
 
 === RELATED
 ai-voice-cloning-scam-calls-explained | AI Voice Cloning Scams

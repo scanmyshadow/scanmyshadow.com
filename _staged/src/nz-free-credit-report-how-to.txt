@@ -2,7 +2,7 @@ slug: nz-free-credit-report-how-to
 country: NZ
 title: How to Get Your Free Credit Report in New Zealand
 h1: Free Credit Report NZ: How to Get One From Centrix, Equifax and Experian (and What to Check)
-desc: You can get a free credit report from Centrix, Equifax and Experian in New Zealand. What to look for, how to fix errors, and the signs someone is using your identity.
+desc: Get a free credit report from Centrix, Equifax and Experian in New Zealand. Your rights under the code, what to look for, fixing errors and fraud signs.
 keywords: free credit report nz, check my credit report new zealand, centrix credit report, equifax nz free report, experian nz credit report, credit report errors nz
 tags: Identity Theft|New Zealand|Credit|How To
 === TLDR
@@ -20,6 +20,28 @@ From [govt.nz](https://www.govt.nz/browse/consumer-rights-and-complaints/debt-an
 | **Experian** | Ordered through CreditConnect |
 
 Each holds slightly different data, so checking all three gives the full picture. Ignore the upsells unless you actually need a report tomorrow.
+
+## Your rights under the Credit Reporting Privacy Code
+
+The Privacy Commissioner's [summary of rights](https://privacy.org.nz/assets/New-order/Privacy-Act-2020/Codes-of-practice/Credit-reporting-privacy-code-2020/Credit-Reporting-Summary-of-Rights-December-2020.pdf) sets the rules every agency has to follow:
+
+| Right | What the code says |
+|---|---|
+| **Copy of your report** | Generally **free**, provided without undue delay |
+| **Urgent copy** (within 3 working days) | The agency **may charge**, but no more than **$10** |
+| **Disputing an error** | Decided as soon as possible; if it'll take over **20 working days**, they must tell you why |
+| **Fraud suppression** | Initially **10 working days**, extendable if fraud is ongoing |
+| **Credit score** | You can ask for an **explanation** of any score they've created |
+
+So any site charging you $30 for "instant" access is selling you speed, not access. The free route is the legal default.
+
+## How long things stay on your file
+
+- Most **adverse information** (defaults, judgments, bankruptcies): generally shown for **4 to 5 years**, then kept one more year.
+- **Current accounts**: can be shown until **2 years after** the account closes.
+- **ID information** and records of **multiple bankruptcies**: can be kept indefinitely.
+
+A default from a phone plan you forgot about in 2022 can still matter in 2026. Worth a look before a mortgage application.
 
 ## What to check
 
@@ -60,11 +82,14 @@ Q: How long does a free Equifax report take in NZ?
 A: Equifax's free option is labelled "Get my report in 10 business days."
 Q: What should I look for on my NZ credit report?
 A: Accounts you didn't open, missed payments, defaults and credit enquiries you didn't approve.
+Q: Can a credit agency charge me for my report in NZ?
+A: Copies are generally free. An agency may charge up to $10 if you want the report urgently, within three working days.
 Q: How do I fix a mistake on my credit report?
 A: Contact the credit provider for payment errors, or each agency for errors in the report itself.
 
 === SOURCES
 https://www.govt.nz/browse/consumer-rights-and-complaints/debt-and-credit-records/check-your-own-credit-report/ | govt.nz: Check your own credit report
+https://privacy.org.nz/assets/New-order/Privacy-Act-2020/Codes-of-practice/Credit-reporting-privacy-code-2020/Credit-Reporting-Summary-of-Rights-December-2020.pdf | Privacy Commissioner: Credit Reporting Summary of Rights
 
 === RELATED
 nz-credit-suppression-how-to | Credit File Suppression (NZ)

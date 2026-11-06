@@ -2,7 +2,7 @@ slug: nz-health-records-access-request
 country: NZ
 title: How to Get a Copy of Your Health Records in New Zealand
 h1: Your Right to Your Health Records in NZ: 20 Working Days, Usually Free
-desc: Under the Health Information Privacy Code, you can request your health records. Agencies must respond within 20 working days; public hospitals can't charge. How to ask and when GPs can charge.
+desc: Under the Health Information Privacy Code you can get your health records within 20 working days. Public hospitals can't charge. How to ask and when GPs can.
 keywords: access health records nz, request medical records new zealand, health information privacy code rule 6, gp charge for medical records nz, hospital records request nz, hipc access request
 tags: Privacy Rights|New Zealand|Health|How To
 === TLDR
@@ -34,6 +34,24 @@ From the [Privacy Commissioner's HIPC fact sheet](https://www.privacy.org.nz/ass
 3. Include **ID details** they can check.
 4. Diary **20 working days**.
 
+## Asking Health NZ (public hospitals)
+
+Health New Zealand's [request fact sheet](https://info.health.nz/assets/Privacy/Requesting-Health-Information-Fact-Sheet.pdf) spells out the practical bits:
+
+- Use the **Release of Personal Health Information Request Form**, filled in fully and **signed**.
+- Include **proof of ID**, ideally **photo ID with a signature** (driver's licence or passport). If you can't, tell them early.
+- Be **specific** about what and which dates. Specific requests come back faster.
+- Responses can take **up to 20 working days**. If it's urgent, say why and when you need it.
+- There's **no charge**.
+
+| Requesting for... | What you'll need |
+|---|---|
+| Your **child** | Your ID plus proof of relationship (e.g. birth certificate) |
+| A **relative or friend** | Your ID plus their consent, or an activated EPOA/PPPR |
+| A **deceased relative** | Your ID, executor's consent (if not you), and the Will page or Letter of Administration |
+
+Spot an error? Health NZ says to contact its **National Privacy Office** at hnzprivacy@tewhatuora.govt.nz to ask for a correction. If they refuse part of your request, they must tell you why, and you can ask the Privacy Commissioner to review it.
+
 ## Why check now
 
 New Zealand health data has had a rough couple of years: the [[nz-manage-my-health-data-breach-privacy-commissioner-findings|Manage My Health breach]] and the [[nz-medimap-attack-patients-marked-deceased|MediMap attack]], where records were **altered**. Checking your records for errors is reasonable, especially medications and personal details.
@@ -54,11 +72,14 @@ Q: How long does a health provider have to respond?
 A: 20 working days.
 Q: Do I have to pay for my health records?
 A: Public agencies like hospitals can't charge. Private providers may charge only in limited cases, like repeat requests within 12 months or imaging.
+Q: How do I get my hospital records from Health NZ?
+A: Fill in and sign Health NZ's Release of Personal Health Information Request Form, attach photo ID, and expect a reply within 20 working days. There's no charge.
 Q: Can a provider refuse my request?
 A: Only on specific grounds, such as serious harm to your health or unwarranted disclosure of someone else's affairs.
 
 === SOURCES
 https://www.privacy.org.nz/assets/New-order/Privacy-Act-2020/Codes-of-practice/Health-information-privacy-code-2020/HIPC-Factsheet-4_-Dealing-with-Access-Requests.pdf | Privacy Commissioner: HIPC Factsheet 4, dealing with access requests
+https://info.health.nz/assets/Privacy/Requesting-Health-Information-Fact-Sheet.pdf | Health New Zealand: Requesting health information fact sheet
 
 === RELATED
 nz-manage-my-health-data-breach-privacy-commissioner-findings | Manage My Health Data Breach

@@ -1,8 +1,8 @@
 slug: nz-fma-fake-nz-registered-investment-firms
 country: NZ
-title: Fake "NZ-Registered" Investment Firms: How to Check Before You Invest
+title: Fake "NZ-Registered" Investment Firms: How to Check Them
 h1: Scam Firms Falsely Claiming NZ Registration: The FMA Warning and How to Check a Company
-desc: The FMA warns scam firms show fake NZ incorporation certificates and copy real companies to lure investors. Here's how to check the Companies Register and FSPR in two minutes.
+desc: The FMA warns scam firms show fake NZ incorporation certificates and copy real companies. How to check the Companies Register and FSPR before you invest.
 keywords: fma warning fake nz registration, check financial service provider register, fspr check, fake nz company certificate scam, investment scam new zealand registered, fma warnings and alerts
 tags: Investment Scams|New Zealand|FMA|How To
 === TLDR
@@ -20,6 +20,18 @@ From the [FMA's alert](https://www.fma.govt.nz/library/warnings-and-alerts/entit
 
 The FMA lists many suspected sites, including **RS Finance (rs-fin.com)**, **JRBKR (jrbkr.com)**, **Zennith Vista (zennithvista.com)**, **Allied Holdings Limited Investments (alliedholdingslimited.com)** and **BitsStrategy (bitsstrategy.com)**. Many are flagged as **impersonating legitimate firms**.
 
+## Not just one alert
+
+The October 2025 warning is part of a steady run. The FMA's [scams hub](https://www.fma.govt.nz/scams/) lists recent alerts on:
+
+- **fake news articles** using NZ politicians' and business leaders' names to push trading platforms (April 2026);
+- **romance scams** using **fake banks** to steal personal information (February 2026);
+- **recovery scams** that phish for bank access or demand upfront fees (late 2025 and January 2026);
+- **fake IPO offers** from unregistered firms;
+- **fake trading platforms** promising quick profits.
+
+The FMA says its research found around **one in five Kiwis** has been targeted by an investment scam, and it notes **Pacific communities** are being harmed.
+
 ## Why "registered in New Zealand" is the hook
 
 NZ has a clean reputation, and it's cheap and quick to register a company. Scammers borrow that reputation. A registration number on a website sounds official, but it might belong to a completely different, real company that has no idea it's being used.
@@ -31,8 +43,9 @@ Being on a register isn't the same as being licensed to give investment advice, 
 1. Search the **Companies Register** for the company name and number.
 2. Search the **Financial Service Providers Register (FSPR)**.
 3. Check the **website and contact details match** what's on the register exactly.
-4. Check the FMA's **warnings and alerts** list.
-5. Contact the firm using details **from the register**, not the website or chat.
+4. Check the FMA's **warnings and alerts** list and its list of **unregistered businesses**.
+5. Check **IOSCO's international warnings**, which flag firms using names similar to real ones or falsely claiming a connection.
+6. Contact the firm using details **from the register**, not the website or chat.
 
 ## Red flags
 
@@ -55,6 +68,8 @@ Q: How do I check if a company is really registered in New Zealand?
 A: Search the Companies Register and the Financial Service Providers Register, and make sure the website and contact details match.
 Q: What did the FMA warn about in October 2025?
 A: Scam entities and websites falsely claiming NZ registration, often using fake certificates and copied company details.
+Q: How many New Zealanders are targeted by investment scams?
+A: The FMA says its research found around one in five Kiwis has been targeted by an investment scam.
 Q: Is a company on the FSPR safe to invest with?
 A: Not necessarily. Registration isn't an endorsement. Also check the FMA's warnings and confirm contact details match the register.
 Q: What should I do if I invested with a fake NZ firm?
@@ -62,6 +77,7 @@ A: Stop paying, call your bank, report to the FMA and Police, and beware of reco
 
 === SOURCES
 https://www.fma.govt.nz/library/warnings-and-alerts/entities-falsely-claiming-nz-registration/ | FMA: Entities falsely claiming New Zealand registration (30 Oct 2025)
+https://www.fma.govt.nz/scams/ | FMA: Scams
 
 === RELATED
 nz-deepfake-luxon-investment-scam-ads | Deepfake Luxon Investment Scams

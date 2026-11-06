@@ -1,6 +1,6 @@
 slug: uk-mobile-network-scam-calls-number-will-stop-working
 country: UK
-title: “Your Number Stops Working in 24 Hours” Calls: Three and Others
+title: "Your Number Stops Working" Scam Calls: Three and Others
 h1: “Your SIM Will Be Blocked Within 24 Hours”: The Fake Mobile Network Call
 desc: Callers posing as Three and other networks say your number will stop working unless you confirm details or pay. What they're after and how to check safely.
 keywords: three scam call, sim will be blocked scam call, number will stop working 24 hours call, mobile network impersonation scam uk, three mobile scam
@@ -21,6 +21,12 @@ It's a close cousin of O2's [[uk-o2-inactive-sim-scam-text|inactive SIM text]], 
 - **Account access**: your date of birth, account PIN or a one-time code. With those, criminals can order a new handset on your account or move your number to their SIM.
 - A SIM swap then lets them receive your bank's security codes. Cifas recorded a **402% rise** in unauthorised SIM swaps in the first half of 2026 ([[uk-cifas-fraudscape-2026-identity-fraud-sim-swap-data|the data]]).
 
+## Why your phone account is worth stealing
+
+Cifas's Fraudscape report, [published in May 2025](https://www.cifas.org.uk/newsroom/huge-surge-see-sim-swaps-hit-telco-and-mobile), found unauthorised **SIM swaps rose 1,055% in 2024**, with nearly **3,000** cases filed to the National Fraud Database. **48%** of account takeover cases involved mobile phone accounts, **unauthorised mobile upgrades rose 96%**, and people aged **61 and over** made up **29%** of account takeover victims.
+
+[Which? reported in April 2026](https://www.which.co.uk/news/article/mobile-networks-must-step-up-to-prevent-sim-swap-fraud-aSsLN6p0CMRq) on victims who lost around **£3,000 to £3,500** after SIM swaps, including one Vodafone customer who waited **10 days** to get her number back. Ofcom told Which? networks would consider customers' location before allowing email-based swaps.
+
 ## How to check
 
 - Hang up. Networks don't cut numbers off with a 24-hour phone warning.
@@ -33,11 +39,19 @@ Text “call” followed by the number to **7726** (on Android, text “call” 
 
 ## If you shared details
 
-Call your network immediately and ask them to check for upgrades, SIM changes or porting requests, and add a password or PIN to your account. If your phone loses signal unexpectedly, act fast: [[how-to-block-a-swapped-sim-card|how to block a swapped SIM]]. Tell your bank too, or dial **159**.
+Call your network immediately and ask them to check for upgrades, SIM changes or porting requests, and add a password or PIN to your account. If your own phone has lost signal, contact the network by **webchat or from another device**, as Which? advises, and call your banks to freeze accounts. If your phone loses signal unexpectedly, act fast: [[how-to-block-a-swapped-sim-card|how to block a swapped SIM]]. Tell your bank too, or dial **159**.
+
+## Lock your account before anyone calls
+
+Which?'s advice: use a **strong password and two-factor authentication** on your mobile account, ask your network for an **extra PIN or password** for sensitive changes, protect your **email** (fraudsters have used email access to request swaps), and prefer **passkeys** over SMS codes where you can. Keep your date of birth off public social media profiles.
 
 Scammers often already know your name and number from leaks. A free [[/digital-footprint-checker/|email exposure check]] shows what's circulating about your email.
 
 === FAQ
+Q: How common is SIM swap fraud in the UK?
+A: Cifas recorded a 1,055% rise in unauthorised SIM swaps in 2024, with nearly 3,000 cases. Mobile accounts were involved in 48% of account takeover cases.
+Q: How do I protect my mobile account?
+A: Use a strong password and two-factor authentication, ask your network for an extra PIN for changes, and secure your email account.
 Q: Will Three block my SIM within 24 hours by phone?
 A: Treat such calls as scams. Check in the Three app or by calling the number on your bill.
 Q: What do fake mobile network callers want?
@@ -50,6 +64,8 @@ A: Call your network immediately to check for SIM changes and orders, and add an
 === SOURCES
 https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Three calls, Aug 28, 2026)
 https://www.cifas.org.uk/newsroom/fraudscape-2026-6-month-update | Cifas: Fraudscape 2026 six-month update
+https://www.cifas.org.uk/newsroom/huge-surge-see-sim-swaps-hit-telco-and-mobile | Cifas: 1,055% surge in unauthorised SIM swaps (May 2025)
+https://www.which.co.uk/news/article/mobile-networks-must-step-up-to-prevent-sim-swap-fraud-aSsLN6p0CMRq | Which?: Mobile networks must step up to prevent SIM-swap fraud (Apr 2026)
 
 === RELATED
 uk-o2-inactive-sim-scam-text | O2 Inactive SIM Scam

@@ -2,7 +2,7 @@ slug: canada-immigration-scams-ircc-fake-calls-websites
 country: CA
 title: Immigration Scams in Canada: What IRCC Will Never Do
 h1: Fake IRCC Calls, Paid “Guaranteed” Visas and Deepfake Officials: Immigration Scams in Canada
-desc: IRCC never takes payment by phone, never emails from Gmail and never starts chats on social media. Common immigration scams, including AI fakes, and how to report.
+desc: IRCC never takes payment by phone, never emails from Gmail and never starts chats on social media. Common immigration scams, AI fakes, and how to report.
 keywords: ircc scam call, immigration scam canada, fake ircc email, immigration fraud canada report, eta scam website
 tags: Immigration Scams|Newcomers|Canada|What To Do
 === TLDR
@@ -25,8 +25,8 @@ From [IRCC's guidance on online and phone scams](https://www.canada.ca/en/immigr
 
 - **Representative fraud**: services advertised as free that later charge, promise guaranteed approval, offer to speed up biometrics for a fee, or tell you to lie on your application.
 - **AI-generated content**: fake videos or voices of officials promoting fast or guaranteed immigration. A new, very 2026 problem.
-- **Fake websites**: copycat pages, often charging for eTA “help.” The official eTA application is on the Government of Canada website.
-- **Fake emails and calls**: including a known phone scam targeting international students.
+- **Fake websites**: copycat pages, often charging for eTA “help.” The official eTA application on Canada.ca [costs **CAN$7**](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html), and most are approved within minutes. If a site wants $50 or $100 for the same thing, it isn't the government.
+- **Fake emails and calls**: including a phone scam targeting **international students** reported in **Ottawa and London, Ontario**, according to IRCC.
 - **Job offers**: salaries that look too good to be true.
 
 ## How to check
@@ -34,7 +34,18 @@ From [IRCC's guidance on online and phone scams](https://www.canada.ca/en/immigr
 - Official email comes from **gc.ca** or **canada.ca** addresses.
 - Type the website address yourself and check it matches.
 - Use only IRCC's verified social media accounts.
-- Check that any paid representative is authorised (licensed immigration consultants and lawyers can be verified with their regulator).
+- Check that any paid representative is authorised (see below).
+
+## Paying someone? Check they're licensed
+
+IRCC's [guidance on choosing a representative](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigration-citizenship-representative/choose.html) says anyone you pay, in money or anything else, for immigration or citizenship advice "must have a license and be in good standing." Immigration consultants are regulated by the **College of Immigration and Citizenship Consultants** (CICC), which IRCC [set up in 2021](https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/proposed-rules-improve-regulation-immigration-citizenship-consultants.html) and which keeps a **public register**. In January 2025 IRCC proposed rules including a **compensation fund for victims** of unethical consultants.
+
+Using an unauthorised representative has consequences for **you**: IRCC says it may **return or refuse your application**. Representatives who break the rules can be fined, with their names published on IRCC's website, including those based outside Canada. Before you hire anyone:
+
+- check the person on the regulator's register (CICC for consultants, the provincial law society for lawyers);
+- ask about training, experience and references;
+- get a **written contract** listing every service and the fee;
+- walk away from anyone who tells you to leave something out or say something untrue on your application.
 
 ## Report it
 
@@ -45,6 +56,10 @@ Report suspicious websites, emails, calls or representatives through the **repor
 New arrivals are juggling unfamiliar systems, which scammers exploit with fake CRA, police and IRCC calls. See [[scams-targeting-communities-nris-immigrants-veterans|scams targeting immigrant communities]] and [[digital-footprint-for-international-students|digital footprint for international students]]. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email is in breach data.
 
 === FAQ
+Q: How much does a Canadian eTA cost?
+A: The official eTA on Canada.ca costs CAN$7. Sites charging more are not the Government of Canada.
+Q: How do I check an immigration consultant is real?
+A: Paid representatives must be licensed and in good standing. Check consultants on the College of Immigration and Citizenship Consultants register, and lawyers with their provincial law society.
 Q: Does IRCC ever call asking for payment?
 A: No. IRCC says it will never ask for any payment by telephone.
 Q: What email address does IRCC use?
@@ -58,6 +73,9 @@ A: Through the report fraud page on Canada.ca, and to the Canadian Anti-Fraud Ce
 https://www.canada.ca/en/immigration-refugees-citizenship/services/protect-fraud/internet-email-telephone.html | IRCC: Online and telephone immigration scams
 https://www.canada.ca/en/immigration-refugees-citizenship/services/protect-fraud/newcomers.html | IRCC: Fraud targeting newcomers
 https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+https://www.canada.ca/en/immigration-refugees-citizenship/services/immigration-citizenship-representative/choose.html | IRCC: Choose an immigration or citizenship representative
+https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/proposed-rules-improve-regulation-immigration-citizenship-consultants.html | IRCC: Proposed rules to improve regulation of consultants (Jan 2025)
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html | IRCC: How to apply for an eTA
 
 === RELATED
 scams-targeting-communities-nris-immigrants-veterans | Scams Targeting Immigrant Communities

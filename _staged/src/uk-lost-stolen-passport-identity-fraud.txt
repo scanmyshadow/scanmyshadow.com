@@ -2,7 +2,7 @@ slug: uk-lost-stolen-passport-identity-fraud
 country: UK
 title: Lost or Stolen UK Passport? Report It Fast to Stop ID Fraud
 h1: Lost or Stolen UK Passport: Why the Average 73-Day Wait to Report Is a Gift to Fraudsters
-desc: Almost 400,000 UK passports are reported lost or stolen yearly, and people wait 73 days on average to report. Why speed matters and the steps to protect your identity.
+desc: Almost 400,000 UK passports are reported lost or stolen each year, and people wait 73 days on average to report. Why speed matters and what to do.
 keywords: lost passport uk, stolen passport identity fraud, report lost passport uk, passport stolen what to do, hm passport office report lost
 tags: Identity Fraud|Passports|United Kingdom|What To Do
 === TLDR
@@ -29,7 +29,7 @@ We'd never wait 73 days to cancel a lost bank card. A passport deserves the same
 
 ## What to do, in order
 
-1. **Report it to HM Passport Office online** (you can report all losses and thefts this way). The passport is cancelled.
+1. **Report it to HM Passport Office online** at [loststolenpassport.service.gov.uk](https://www.loststolenpassport.service.gov.uk/lost-stolen/). GOV.UK says you'll need a **phone number** to use the service, and a **photo or photocopy** of the passport helps you answer questions about it. You can report for someone else if they can't do it themselves. The passport is cancelled.
 2. Your details are **shared with the National Crime Agency within 24 hours** and recorded on **Interpol's Stolen and Lost Travel Document database**.
 3. **If stolen**, consider reporting the theft to police too, especially if other ID went with it.
 4. **Check your credit reports** at all three agencies ([[uk-free-statutory-credit-report-how-to-get|free statutory reports]]).
@@ -38,6 +38,14 @@ We'd never wait 73 days to cancel a lost bank card. A passport deserves the same
 
 A cancelled passport can't be used again, even if you find it in the sofa next week. Factor that into your travel plans.
 
+## If you're abroad
+
+GOV.UK says that if you need to travel urgently you may be able to apply for an **emergency travel document** (there's a fee). If you do, you **don't need to cancel the passport separately**: it's cancelled as part of that application.
+
+## Why identity fraud follows
+
+Cifas's 2025 Fraudscape report recorded a **record 421,000+ cases** on the National Fraud Database in 2024 and an **87% rise in mobile-linked identity fraud**, per its [press release](https://www.cifas.org.uk/newsroom/huge-surge-see-sim-swaps-hit-telco-and-mobile). A passport is one of the strongest identity documents a fraudster can hold for opening phone contracts and accounts in your name, which is why the credit check and Protective Registration steps above matter.
+
 ## If it was a photo, not the passport
 
 Sending a photo of your passport to a “landlord,” “employer” or “prize company” carries similar risk. See our [[how-to-report-identity-theft-uk|UK identity theft guide]] and [[uk-spareroom-flatshare-rental-scams|rental scam red flags]].
@@ -45,6 +53,10 @@ Sending a photo of your passport to a “landlord,” “employer” or “prize
 Passport scans also turn up in data breaches. A free [[/digital-footprint-checker/|email exposure check]] shows if your email is in known breaches.
 
 === FAQ
+Q: What do I need to report a lost passport online?
+A: GOV.UK says you need a phone number to use the online service. A photo or photocopy of the passport helps you answer questions.
+Q: I lost my passport abroad. Do I still need to cancel it?
+A: If you apply for an emergency travel document, the passport is cancelled as part of that application, so you don't need to cancel it separately.
 Q: How do I report a lost UK passport?
 A: Report it to HM Passport Office online. It will be cancelled.
 Q: What happens after I report it?
@@ -57,6 +69,8 @@ A: Check your credit reports, consider Cifas Protective Registration and watch f
 === SOURCES
 https://www.actionfraud.police.uk/news/a-lost-passport-could-lead-to-identity-crime | Action Fraud: A lost passport could lead to identity crime
 https://www.gov.uk/report-a-lost-or-stolen-passport | GOV.UK: Report a lost or stolen passport
+https://www.loststolenpassport.service.gov.uk/lost-stolen/ | HM Passport Office: Report a lost or stolen passport service
+https://www.cifas.org.uk/newsroom/huge-surge-see-sim-swaps-hit-telco-and-mobile | Cifas: Fraudscape 2025 findings (May 2025)
 
 === RELATED
 how-to-report-identity-theft-uk | Report Identity Theft in the UK

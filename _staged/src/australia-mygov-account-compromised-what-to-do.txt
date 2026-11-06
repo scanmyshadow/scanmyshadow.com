@@ -2,7 +2,7 @@ slug: australia-mygov-account-compromised-what-to-do
 country: AU
 title: myGov Account Hacked or Scammed? The Steps to Take Now
 h1: myGov Account Compromised? What to Do in the First Hour
-desc: If a scammer got into your myGov, act fast: call the Services Australia scams helpdesk, switch on passkeys or Digital ID, check sign-in history and linked services.
+desc: If a scammer got into your myGov, act fast: call the scams helpdesk, switch to a passkey or Digital ID, check sign-ins and linked services, or start fresh.
 keywords: mygov account hacked, mygov compromised what to do, mygov scam help, mygov passkey, mygov security review, someone accessed my mygov
 tags: Account Takeover|Australia|Government|What To Do
 === TLDR
@@ -25,6 +25,26 @@ From myGov's [what to do if you've been scammed](https://my.gov.au/en/about/priv
 6. **Complete the Security review** tasks after signing in.
 7. **Remove devices or passkeys** you don't recognise.
 8. **Contact linked services** (ATO, Medicare, Centrelink) if the scammer could have accessed them, and **your bank** if you shared bank or card details.
+
+## The safest fix: close it and start again
+
+myGov's separate page on [suspicious activity](https://my.gov.au/en/about/privacy-and-security/security/what-to-do-after-suspicious-activity-on-your-mygov-account) goes further. If you see activity you don't recognise, it calls **closing your myGov account** the **safest step**, then:
+
+1. **Create a new myGov account.**
+2. **Relink your services** (ATO, Medicare, Centrelink and so on).
+3. Set a **new passphrase** you don't use anywhere else.
+4. Complete the **security review**, then **turn off password sign-in** and use **Digital ID or a passkey**.
+
+Before you close it, note what you saw. myGov says to look for:
+
+| Where | What to check |
+|---|---|
+| Account history | Changed **name, email or mobile**; unknown **devices or passkeys**; odd **sign-in times** |
+| Linked services | Services you **didn't link**; changes to existing ones; changed **bank details** |
+
+If a linked service shows changes, contact that service directly. A changed bank account on your Centrelink or ATO record is the one to chase first, because that's where the money goes.
+
+It feels drastic. But a fresh account with a passkey is the only state you can be sure the scammer isn't in.
 
 ## Locked out?
 
@@ -55,6 +75,8 @@ A free [[/digital-footprint-checker/|exposure check]] shows if your email is in 
 === FAQ
 Q: What should I do if my myGov account is hacked?
 A: Act quickly: call the Services Australia Scams and Identity Theft Helpdesk, set up passkeys or Digital ID, check account history, remove unknown devices and contact linked services.
+Q: Should I close my myGov account if it was hacked?
+A: myGov says closing the account is the safest step if you see activity you don't recognise. Then create a new one, relink services and use a passkey or Digital ID.
 Q: How do I recover a locked myGov account?
 A: Use Digital ID to recover it or contact the myGov helpdesk.
 Q: Should I use passkeys on myGov?
@@ -64,6 +86,7 @@ A: Contact IDCARE on 1800 595 160, and the ATO for your TFN.
 
 === SOURCES
 https://my.gov.au/en/about/privacy-and-security/security/mygov-scams/what-to-do-if-you-ve-been-scammed | myGov: What to do if you've been scammed
+https://my.gov.au/en/about/privacy-and-security/security/what-to-do-after-suspicious-activity-on-your-mygov-account | myGov: What to do after suspicious activity on your account
 https://www.anz.com.au/content/anzcomau/en/personal/security/latest-scams-australia.html | ANZ: Latest scams (fake Medicare inbox emails)
 
 === RELATED

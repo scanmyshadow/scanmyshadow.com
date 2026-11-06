@@ -1,6 +1,6 @@
 slug: canada-manitoba-hydro-scam-text-disconnection
 country: CA
-title: Manitoba Hydro Scam Texts Threaten Disconnection Over Small Balances
+title: Manitoba Hydro Scam Texts: Fake Disconnection Threats
 h1: Manitoba Hydro Scam Texts and Emails: "Pay Now or Your Power Gets Cut Off"
 desc: Fake Manitoba Hydro texts threaten disconnection unless you pay a balance under $10 or create a new account. Manitoba Hydro doesn't contact customers this way.
 keywords: manitoba hydro scam text, manitoba hydro scam email, manitoba hydro disconnection scam, manitoba hydro phishing, manitoba hydro scam call, winnipeg hydro scam
@@ -30,19 +30,39 @@ A $7 bill feels too small to be a scam. That's the trick. Nobody is stealing you
 - The messages "are not from us."
 - Never share personal or account information by phone, email or text.
 
+## Manitoba Hydro's own rules (2026)
+
+During Fraud Prevention Month in March 2026, [Manitoba Hydro set out](https://www.hydro.mb.ca/articles/2026/03/march-is-fraud-protection-month-protect-yourself-from-scams/) what it will and won't do. It **may call** about overdue bill reminders, but it will **never**:
+
+- accept payment **over the phone or through online links**;
+- accept **PayPal, cryptocurrency, bitcoin, money transfers or credit card** payments;
+- make **cold calls** to sell products or services;
+- **respond to text messages**;
+- pressure you to let an employee into your home.
+
+It also warned that scammers may **spoof Hydro's phone number**, and that fake "your bill is ready" emails can copy its logo and even part of your **service address** and **account number**. Genuine emails to online account customers come from **notifications@hydro.mb.ca**. Real staff wear clearly labelled uniforms and carry **photo ID**, or drive a vehicle with the Hydro logo.
+
 ## What to do
 
 1. **Delete** the text or email. Don't click.
-2. **Check your account** by typing Manitoba Hydro's website yourself, or call the number on your bill.
+2. **Check your account** by typing Manitoba Hydro's website yourself or using its app, or call **1-888-624-9376** (1-888-MBHYDRO).
 3. **Forward texts to 7726** ([[canada-7726-spam-text-reporting-guide|how]]).
 4. **Entered card details?** Call your bank and cancel the card.
 5. **Report losses** to police and the [Canadian Anti-Fraud Centre](https://antifraudcentre-centreantifraude.ca/).
+
+## Set up your online account
+
+Manitoba Hydro recommends creating an online account so you can see your real balance and get genuine payment and outage notices. You'll need the **14-digit account number** from the first page of your bill and your **postal code**. Then any "overdue" message can be checked in seconds.
 
 ## Other utility scams
 
 Same playbook: [[canada-enbridge-gas-scam-bill-discount-calls|Enbridge Gas]], [[hydro-one-scam-what-to-know|Hydro One]], [[bc-hydro-scam-what-to-know|BC Hydro]] and [[canada-hydro-quebec-scam-calls-texts|Hydro-Québec]]. A free [[/digital-footprint-checker/|exposure check]] shows if your contact details are in breach data.
 
 === FAQ
+Q: How do I pay Manitoba Hydro safely?
+A: Manitoba Hydro says it never accepts payment over the phone or through online links, and never takes PayPal, crypto, money transfers or credit cards. Check your balance in your online account or call 1-888-624-9376.
+Q: Does Manitoba Hydro send texts?
+A: Manitoba Hydro says it doesn't respond to text messages, and that scammers may spoof its phone number.
 Q: Does Manitoba Hydro send disconnection texts?
 A: No. Manitoba Hydro says it doesn't contact customers by text or email threatening to cut them off.
 Q: Why does the scam ask for such a small payment?
@@ -54,6 +74,7 @@ A: Delete it, forward it to 7726 and contact Manitoba Hydro directly if unsure.
 
 === SOURCES
 https://globalnews.ca/news/10290062/manitoba-hydro-scam-emails-texts | Global News: Manitoba Hydro warns of scam emails and texts
+https://www.hydro.mb.ca/articles/2026/03/march-is-fraud-protection-month-protect-yourself-from-scams/ | Manitoba Hydro: Fraud Prevention Month, protect yourself from scams (Mar 2026)
 
 === RELATED
 canada-enbridge-gas-scam-bill-discount-calls | Enbridge Gas Scams

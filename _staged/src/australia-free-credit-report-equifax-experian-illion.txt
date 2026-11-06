@@ -1,12 +1,12 @@
 slug: australia-free-credit-report-equifax-experian-illion
 country: AU
-title: How to Get Your Free Credit Report in Australia (Every 3 Months)
+title: Free Credit Report Australia: Get One Every 3 Months
 h1: Free Credit Report Australia: How to Get One Every 3 Months and Spot Identity Theft
-desc: You can get a free credit report every three months from each credit reporting agency. What's on it, how to fix errors for free, and the signs of identity theft to look for.
+desc: Get a free credit report every 3 months from Equifax and Experian (illion merged into Experian in April 2026). What's on it, free fixes and fraud signs.
 keywords: free credit report australia, how to get credit report australia, credit report every 3 months, check credit file australia, credit report identity theft, fix credit report error free
 tags: Identity Theft|Australia|Credit|How To
 === TLDR
-Australians can get a **free credit report every 3 months**, and Moneysmart suggests checking **at least once a year**. Different agencies hold different information, so check more than one. Online reports usually arrive in a day or two; by email or post, up to 10 days. **Fixing errors is free**: ignore companies that charge to "repair" your credit. Unknown loans or enquiries on your report can be a sign of identity theft.
+Australians can get a **free credit report every 3 months** from each credit reporting body, and Moneysmart suggests checking **at least once a year**. Since **1 April 2026** there are only **two**: **Equifax** and **Experian**, which now includes the former **illion** data. They hold different information, so check both. Online reports usually arrive in a day or two; by email or post, up to 10 days. **Fixing errors is free**: ignore companies that charge to "repair" your credit. Unknown loans or enquiries on your report can be a sign of identity theft.
 
 === BODY
 ## The rules
@@ -18,14 +18,32 @@ From [Moneysmart](https://moneysmart.gov.au/managing-debt/credit-scores-and-cred
 - **Different agencies hold different information**, so one report may not show everything.
 - **Online:** usually a day or two. **Email or post:** up to 10 days.
 
-The main agencies are Equifax, Experian and illion. Go to their websites directly and look for the **free** report option. Some will steer you toward paid products first. Polite, but no.
+The OAIC [adds](https://oaic.gov.au/privacy/credit-reporting/access-your-credit-report) two more free triggers: you can get a free copy if you've been **refused credit in the last 90 days**, or after your information has been **corrected**. Outside those, a fee can apply, but it must not be excessive.
+
+## Two bodies now, not three: what happened to illion
+
+Australia used to have three credit reporting bodies. From **1 April 2026**, illion and Experian became a **single Experian** body, according to the government-backed [CreditSmart](https://www.creditsmart.org.au/otherhelpfulservices/credit-reporting-bodies/changes-to-the-experian-and-illion-credit-reporting-bodies) service. What that means for you:
+
+| Question | Answer |
+|---|---|
+| Where's my illion report? | It's part of the **new Experian report** |
+| Why does a lender letter still say "illion"? | Usually it means the new Experian report |
+| My score changed. Is that fraud? | Not necessarily: the calculation changed. Pull the new report to check |
+| I had a ban on my old Experian file | Probably no longer needed; bans on other files continue as normal |
+
+| Body | Phone (OAIC) |
+|---|---|
+| **Equifax** | 138 332 |
+| **Experian** (incl. former illion) | 1300 783 684 |
+
+Go to each website directly and look for the **free** report option. Some will steer you toward paid products first. Polite, but no.
 
 ## What's on your report
 
 - Personal details: name, date of birth, address history
-- Credit products and **repayment history** (last two years)
-- Financial hardship arrangements (these don't affect your score)
-- **Defaults**, such as unpaid utility or phone bills
+- Credit products and **repayment history** (last two years); a payment counts as missed if it's **14 days** late
+- Financial hardship arrangements (these don't affect your score, and are deleted after 12 months)
+- **Defaults**: a debt of **$150 or more**, **60+ days** overdue, where the lender couldn't reach you. They stay **five years**, or seven for a "clearout"
 - **Credit applications**, bankruptcies and court judgments
 - **Who has requested your report**
 
@@ -63,7 +81,9 @@ A free [[/digital-footprint-checker/|exposure check]] tells you which breaches y
 
 === FAQ
 Q: How often can I get a free credit report in Australia?
-A: Every three months from each credit reporting agency.
+A: Every three months from each credit reporting body, plus after a credit refusal in the last 90 days or a correction.
+Q: Does illion still exist for credit reports?
+A: From 1 April 2026, illion and Experian operate as a single Experian credit reporting body. Your former illion information is in the new Experian report.
 Q: How long does it take to get my credit report?
 A: Online usually a day or two; by email or post up to 10 days.
 Q: Do I have to pay to fix errors on my credit report?
@@ -73,6 +93,8 @@ A: Look for loans, enquiries, addresses or defaults you don't recognise.
 
 === SOURCES
 https://moneysmart.gov.au/managing-debt/credit-scores-and-credit-reports | Moneysmart: Credit scores and credit reports
+https://oaic.gov.au/privacy/credit-reporting/access-your-credit-report | OAIC: Access your credit report
+https://www.creditsmart.org.au/otherhelpfulservices/credit-reporting-bodies/changes-to-the-experian-and-illion-credit-reporting-bodies | CreditSmart: Changes to the Experian and illion credit reporting bodies
 
 === RELATED
 australia-credit-ban-how-to-request | How to Request a Credit Ban

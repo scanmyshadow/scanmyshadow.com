@@ -16,7 +16,9 @@ ICBC issued warnings on [September 3, 2025](https://icbc.com/pa/about-icbc/newsr
 - demand payment for **driving fines** or **outstanding debt**;
 - include a link to a fake payment page.
 
-ICBC is working with an outside cybersecurity company to report and take down the fake websites. Whack-a-mole, but with lawyers.
+ICBC said it was "actively working with an external cybersecurity company to report and remove fraudulent websites" linked to the texts, [Global News reported](https://globalnews.ca/news/11391653/icbc-warns-text-message-scam-bc). Whack-a-mole, but with lawyers.
+
+Police amplified the warning too. Global News noted that **Sidney/North Saanich RCMP** and **Campbell River RCMP** issued their own alerts, and the [Campbell River RCMP](https://rcmp.ca/en/bc/campbell-river/news/2025/09/campbell-river-rcmp-warn-icbc-text-scam) warning went out the same month. The texts aren't confined to one city: they're sent to any BC number on a scammer's list.
 
 ## What ICBC doesn't do
 
@@ -24,6 +26,12 @@ ICBC is working with an outside cybersecurity company to report and take down th
 - **Doesn't** ask you to confirm your identity or make payments through links in a text.
 
 That's a clean rule. If ICBC is in your texts asking for money, it isn't ICBC.
+
+## Why "ICBC" works as bait
+
+ICBC is BC's public auto insurer and also handles driver licensing, so almost every BC driver has a real relationship with it, and many have paid a real ticket or premium. A text that mentions a fine or "outstanding debt" doesn't sound absurd. The fake payment page then asks for your card number, expiry and security code.
+
+The same script runs across North America: in the US it's an unpaid-ticket "DMV" text, in Ontario a fake 407 ETR toll. If a text about a government fee includes a link, treat it as fake.
 
 ## The older rebate version
 
@@ -49,6 +57,8 @@ When ICBC paid **$110 rebates**, scam texts offered the rebate through a link. I
 The same trick shows up as [[canada-serviceontario-scam-text-licence-renewal|ServiceOntario]], [[canada-407-etr-scam-text-unpaid-toll|407 ETR]] and [[canada-saaq-revenu-quebec-refund-text-scam|SAAQ]] texts. In the US it's [[dmv-text-scam-unpaid-ticket-suspension|DMV texts]]. A free [[/digital-footprint-checker/|exposure check]] shows if your number or email is in leaked data.
 
 === FAQ
+Q: Who else has warned about the ICBC texts?
+A: Global News reported that Sidney/North Saanich RCMP and Campbell River RCMP issued their own warnings in September 2025. Contact local police if you're affected.
 Q: Does ICBC send texts about driving fines?
 A: No. ICBC says it does not contact customers by text about driving infractions or outstanding debt.
 Q: Will ICBC ask me to pay through a link in a text?
@@ -63,6 +73,8 @@ https://icbc.com/pa/about-icbc/newsroom/2025-12-02-icbc-warning-customers-about-
 https://icbc.com/pa/about-icbc/newsroom/2025-09-03-scam | ICBC: Text message scam warning (Sept 2025)
 https://tricitynews.com/local-news/dont-fall-for-icbc-rebate-text-scam-circulating-in-port-coquitlam-5465329 | Tri-City News: ICBC rebate text scam
 https://antifraudcentre-centreantifraude.ca/ | Canadian Anti-Fraud Centre
+https://globalnews.ca/news/11391653/icbc-warns-text-message-scam-bc | Global News: ICBC warns of text message scam (Sept 2025)
+https://rcmp.ca/en/bc/campbell-river/news/2025/09/campbell-river-rcmp-warn-icbc-text-scam | Campbell River RCMP: ICBC text scam warning (Sept 2025)
 
 === RELATED
 canada-serviceontario-scam-text-licence-renewal | Fake ServiceOntario Texts

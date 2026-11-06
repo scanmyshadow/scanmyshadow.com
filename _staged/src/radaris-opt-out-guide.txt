@@ -1,58 +1,78 @@
 slug: radaris-opt-out-guide
 country: US
-title: Radaris Opt Out 2026: How to Remove Your Profile
-h1: How to Opt Out of Radaris and Remove Your Profile
-desc: Remove yourself from Radaris: find your profile URL, submit it at radaris.com/control-privacy with your email, confirm the link. Expect 7 to 14 business days.
-keywords: radaris opt out, remove from radaris, radaris removal, radaris control privacy, delete radaris profile
+title: Radaris Opt Out 2026: Site Seized, What to Do Now
+h1: Radaris Opt Out: The Site Was Seized, So What Happens to Your Profile?
+desc: A New Jersey court transferred radaris.com to Atlas Data Privacy in August 2026. What it means for your data, related sites still live, and how to opt out.
+keywords: radaris opt out, remove from radaris, radaris.com seized, radaris domain transfer, radaris daniel's law, radaris control privacy
 tags: Data Brokers|Opt-Out Guides|United States|How To
 === TLDR
-Search Radaris for your profile and copy its URL, then submit it with your name and email at radaris.com/control-privacy (also linked as “Start removing” in the profile footer). Solve the CAPTCHA, click the confirmation email link and complete a second CAPTCHA if asked. Radaris takes about 7 to 14 business days.
+**Radaris.com no longer shows people's profiles.** After a Daniel's Law lawsuit by Atlas Data Privacy, a New Jersey court entered a default judgment in late **August 2026** and ordered **radaris.com and 13 other domains** transferred to Atlas. The site now shows a transfer notice. That doesn't mean your data is gone: Radaris says it will **appeal**, and reporting found **at least 25 related people-search domains** were not covered by the order. Search for yourself on related sites such as **VeriPages**, opt out there, and recheck Radaris every few months in case it returns.
 
 === BODY
-## What Radaris pulls together
+## What happened to Radaris
 
-Radaris builds profiles that can include addresses, phone numbers, relatives, property records, employment and court-related details. It's known for detailed, sometimes oddly specific pages, and for having more than one profile per person.
+[KrebsOnSecurity reported](https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/) on 16 September 2026 that a New Jersey judge found the defendants had been given several chances to defend the case and hadn't. The court ordered **radaris.com and more than a dozen other data broker domains** transferred to the plaintiff, **Atlas Data Privacy Corp**, which first sued Radaris in **February 2024** under New Jersey's Daniel's Law and re-filed with more defendants in June 2025.
 
-## Step by step
+The notice now on [radaris.com](https://radaris.com/) says the court entered a **final judgment by default** against **Radaris.com, Rehold.com and Trustoria.com**, and ordered permanent injunctive relief barring them from disclosing protected home addresses and unpublished home phone numbers, **including through related domains**.
 
-From [Cloaked's manual opt-out guide](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually):
+Daniel's Law lets New Jersey police officers, judges, prosecutors and their families demand removal of their home address and phone number, with fines of **$1,000 per violation** for companies that ignore requests ([[daniels-law-new-jersey-explained|how Daniel's Law works]]).
 
-1. **Find your profile.** Search radaris.com for your name and location. Open your profile and copy its URL.
-2. **Open the privacy control page.** Go to radaris.com/control-privacy, or click “Start removing” in your profile's footer.
-3. **Submit.** Paste the profile URL, add your name and email, and complete the CAPTCHA.
-4. **Confirm.** Click the link in the confirmation email, and complete a second CAPTCHA if prompted.
+## It isn't over yet
 
-## Timeline
+- **Appeal.** Radaris's attorney told Krebs the transfer was an unlawful forfeiture, that a motion to vacate the default judgment had been filed, and that appeals were planned.
+- **This has happened before.** In a 2017 class action, *Huebner v. Radaris LLC*, a **$7.5 million** default judgment led to an order to transfer radaris.com. A judge later halted that transfer, and the site carried on under a Marshall Islands company, according to Krebs.
+- **The wider network is still live.** [Techlicious reported](https://www.techlicious.com/blog/data-broker-radarisloses-its-website-in-a-privacy-lawsuit/) that **at least 25 other people-search domains** in the network weren't covered by the order.
+- **Search results linger.** Krebs noted radaris.com still ranks prominently in US search results even though it now redirects to the notice.
 
-Radaris takes **7 to 14 business days**, per Cloaked. That's slower than most free people-search sites, so set a reminder to check after two weeks.
+## What to do now
 
-## Tips
+1. **Check related sites.** Krebs's article also names **VeriPages**, which it says earns about **$45,000 a month**. Search for your name there and follow our [[veripages-opt-out-guide|VeriPages opt-out guide]].
+2. **Clean up Google.** Use Google's **Results about you** tool to request removal of results showing your phone, home address or email ([[remove-yourself-from-google-results-about-you|how]]).
+3. **If you live in California**, file one request through the state's free **DROP** platform at consumer.drop.privacy.ca.gov. [The EFF explains](https://www.eff.org/deeplinks/2026/07/what-you-need-know-about-californias-drop-tool) that one request reaches every *registered* data broker, which had to start processing requests from **1 August 2026**. Unregistered sites aren't covered.
+4. **If you're a covered person in New Jersey** (law enforcement, judiciary or their family), send Daniel's Law removal notices to any site still listing your home address.
+5. **Recheck Radaris every few months.** If the site comes back after an appeal, use the steps below.
 
-- **Check for duplicates.** Search for maiden names, middle initials and past cities. Each profile needs its own request.
-- **Use an email you can access but don't mind sharing.** An [[email-alias-temporary-phone-number-privacy|email alias]] is ideal.
-- **Don't buy anything** to “manage” your profile. Removal is free.
-- **Recheck every few months.** Listings can reappear.
+## If Radaris comes back: the old opt-out steps
 
-## More to remove
+Before the seizure, [Cloaked's manual guide](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually) described this process:
 
-Radaris is one of dozens. Do [[spokeo-opt-out-guide|Spokeo]], [[beenverified-opt-out-guide|BeenVerified]] and [[mylife-opt-out-guide|MyLife]] next, and see our [[us-data-broker-sites-opt-out-guide|full US broker list]]. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email has also been in a breach.
+1. Search radaris.com for your name and location, open your profile and copy its URL.
+2. Go to radaris.com/control-privacy, or click "Start removing" in the profile footer.
+3. Paste the URL, add your name and email, and complete the CAPTCHA.
+4. Click the link in the confirmation email and complete a second CAPTCHA if asked.
+
+Cloaked said removals took **7 to 14 business days**. Radaris often created **several profiles per person** (maiden names, old cities, middle initials), and each needed its own request. Use an [[email-alias-temporary-phone-number-privacy|email alias]], and never pay to "manage" a profile.
+
+## Be careful who you pay
+
+Removal services can help, but check who's behind them. Krebs reported that the removal service **Onerep** earns revenue from the Radaris family of sites, which he presented as a conflict of interest. Doing the free opt-outs yourself takes longer but keeps your data out of one more company's hands.
+
+## Then do the rest
+
+Radaris was one of dozens. Work through our [[us-data-broker-sites-opt-out-guide|full US broker list]], starting with [[spokeo-opt-out-guide|Spokeo]], [[beenverified-opt-out-guide|BeenVerified]] and [[mylife-opt-out-guide|MyLife]]. A free [[/digital-footprint-checker/|email exposure check]] shows whether your email has also turned up in a breach.
 
 === FAQ
-Q: How do I remove my Radaris profile?
-A: Copy your profile URL and submit it at radaris.com/control-privacy with your name and email, then confirm the email link.
-Q: How long does Radaris take to remove a profile?
-A: About 7 to 14 business days, according to Cloaked's guide.
-Q: Do I need to pay Radaris to remove my information?
-A: No. Opting out is free.
-Q: Why do I have more than one Radaris profile?
-A: Different addresses or name versions can create separate profiles. Submit a request for each.
+Q: Is Radaris.com still working?
+A: No. Since a New Jersey court ordered the domain transferred to Atlas Data Privacy in August 2026, radaris.com shows a transfer notice instead of profiles. Radaris has said it will appeal.
+Q: Is my data deleted now that Radaris was seized?
+A: Not necessarily. The order covers specific domains, and reporting found at least 25 related people-search sites were not included. Search for yourself on related sites such as VeriPages.
+Q: Why was Radaris taken down?
+A: Atlas Data Privacy sued under New Jersey's Daniel's Law, which protects the home addresses and phone numbers of police, judges and their families. The defendants didn't defend the case, and the court entered a default judgment.
+Q: How did the Radaris opt-out work?
+A: You copied your profile URL, submitted it with your name and email at radaris.com/control-privacy, then confirmed the email link. It took 7 to 14 business days.
+Q: Does California's DROP cover Radaris?
+A: DROP reaches data brokers registered in California. It doesn't cover unregistered sites, so check each site where you appear.
 
 === SOURCES
+https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/ | KrebsOnSecurity: Data broker Radaris loses domains in privacy fight (Sep 2026)
+https://www.techlicious.com/blog/data-broker-radarisloses-its-website-in-a-privacy-lawsuit/ | Techlicious: Data broker Radaris loses its website in a privacy lawsuit (Sep 2026)
+https://radaris.com/ | Radaris.com: court-ordered domain transfer notice
+https://www.eff.org/deeplinks/2026/07/what-you-need-know-about-californias-drop-tool | EFF: What you need to know about California's DROP tool (Jul 2026)
 https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for PeopleConnect, Radaris, BeenVerified, Spokeo
-https://comparitech.com/blog/vpn-privacy/opt-out-of-radaris | Comparitech: How to opt out of Radaris
 
 === RELATED
-us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
 veripages-opt-out-guide | VeriPages Opt-Out Guide
+daniels-law-new-jersey-explained | Daniel's Law (New Jersey) Explained
+us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
 how-do-data-brokers-actually-get-your | How Data Brokers Get Your Data
 opting-out-us-people-search-sites | Opting Out of US People-Search Sites

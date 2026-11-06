@@ -2,11 +2,11 @@ slug: australia-fake-online-shops-scamwatch
 country: AU
 title: Fake Online Shops in Australia: How to Spot a Scam Store
 h1: Fake Online Shops: How to Spot a Scam Store Before You Pay (Scamwatch Tips)
-desc: Half of the malicious sites the National Anti-Scam Centre took down in one quarter were fake shops. Red flags, quick checks and what to do if you've paid.
+desc: Shopping scams were Australia's most-reported scam with losses in 2025. Red flags of a fake online store, quick checks and what to do if you've paid.
 keywords: fake online shop australia, scam website check australia, how to spot fake online store, scamwatch online shopping scam, fake shop facebook ads australia, is this website legit australia
 tags: Shopping Scams|Australia|Scamwatch|What To Do
 === TLDR
-Fake online shops copy real brands' **URLs and designs**, use **fake reviews** and **celebrity endorsements**, and take your money and card details for goods that never arrive. Scamwatch said about **half** the malicious sites the National Anti-Scam Centre took down in one three-month period were **shopping scams**. Red flags: **prices way too low**, **only glowing reviews**, **no ABN, T&Cs or privacy policy**, and **odd payment requests** like multiple PayIDs or gift cards.
+Fake online shops copy real brands' **URLs and designs**, use **fake reviews** and **celebrity endorsements**, and take your money and card details for goods that never arrive. Scamwatch said about **half** the malicious sites the National Anti-Scam Centre took down in one three-month period were **shopping scams**. Red flags: **prices way too low**, **only glowing reviews**, **no ABN, T&Cs or privacy policy**, and **odd payment requests** like multiple PayIDs or gift cards. In the first nine months of 2025, shopping scams were the **most-reported scam involving money lost**, with **$8.6 million** in losses.
 
 === BODY
 ## How fake shops work
@@ -18,6 +18,21 @@ From [Scamwatch's December 2024 warning](https://www.scamwatch.gov.au/about-us/n
 - You enter personal and card details. **Nothing arrives**, and your details may be **misused**.
 
 The National Anti-Scam Centre removed or restricted thousands of scam sites; about **half** of those taken down in the prior three months were **shopping scams**.
+
+## How big the problem is
+
+The ACCC's [November 2025 update](https://www.accc.gov.au/media-release/australians-report-nearly-260m-in-losses-as-shopping-scams-surge) on Scamwatch data for January to September 2025:
+
+| Figure | 2025 (Jan–Sep) |
+|---|---|
+| Shopping scam reports | 19,662 |
+| Reports with money lost | 9,628 |
+| Shopping scam losses | $8.6 million (up 19%) |
+| Losses where first contact was online (sites, ads, social, apps) | $122 million, 47% of all losses |
+
+Shopping scams lose less per victim than investment scams, but they hit far more people. Almost half of shopping reports involved real money gone.
+
+The ACCC also flagged a twist: **hacked Facebook and Instagram accounts** posting "fire sales" or cheap tickets. The ad looks like it's from a friend, so you trust it. If a friend's account suddenly sells a fridge for $50, message or call them another way before paying.
 
 ## Red flags
 
@@ -37,8 +52,9 @@ A 90% off designer handbag isn't a sale. It's a sign.
 2. **Compare prices** with other stores.
 3. **Don't trust the top search result** blindly; ads can be fake. Go to the brand's site directly.
 4. **Look for** contact details, dispute resolution, T&Cs and a privacy policy.
-5. **Pay with a credit card or PayPal**, which give you dispute options.
+5. **Pay with a credit card or PayPal**, which give you dispute options. Avoid direct bank transfer to a shop you've never used.
 6. Keep your **device and apps updated**.
+7. Check **when the site was created**: a free WHOIS lookup shows the domain age. A "20-year-old family business" on a domain registered last month isn't one.
 
 ## If you've paid
 
@@ -55,7 +71,7 @@ Selling online? See the [[australia-payid-scam-marketplace-sellers|PayID marketp
 Q: How do I know if an online shop in Australia is fake?
 A: Watch for very low prices, only positive reviews, no ABN or policies, and requests to pay by gift card, money order or multiple PayIDs.
 Q: How common are fake online shops?
-A: Scamwatch said about half the malicious sites taken down by the National Anti-Scam Centre in one three-month period were shopping scams.
+A: Shopping scams were the most-reported scam involving money lost in Australia in January to September 2025, with $8.6 million lost. About half the malicious sites the National Anti-Scam Centre took down in one quarter of 2024 were fake shops.
 Q: What payment method is safest online?
 A: Scamwatch suggests secure options like PayPal or a credit card.
 Q: What should I do if I bought from a fake shop?
@@ -63,6 +79,7 @@ A: Contact your bank, report the site to Scamwatch and contact IDCARE if you sha
 
 === SOURCES
 https://www.scamwatch.gov.au/about-us/news-and-alerts/online-shopping-scams | Scamwatch: Online shopping scams (Dec 2024)
+https://www.accc.gov.au/media-release/australians-report-nearly-260m-in-losses-as-shopping-scams-surge | ACCC: Australians report nearly $260m in losses as shopping scams surge (Nov 2025)
 
 === RELATED
 australia-payid-scam-marketplace-sellers | PayID Marketplace Scams

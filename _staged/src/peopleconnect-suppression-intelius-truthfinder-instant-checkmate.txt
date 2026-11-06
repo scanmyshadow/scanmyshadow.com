@@ -1,34 +1,49 @@
 slug: peopleconnect-suppression-intelius-truthfinder-instant-checkmate
 country: US
-title: Opt Out of Intelius, TruthFinder and Instant Checkmate at Once
+title: Opt Out of Intelius, TruthFinder and Instant Checkmate
 h1: One Opt-Out, Four Sites: Removing Yourself From Intelius, TruthFinder, Instant Checkmate and US Search
 desc: PeopleConnect owns Intelius, TruthFinder, Instant Checkmate and US Search. Use its suppression centre to hide your record across them. Steps and pitfalls.
 keywords: peopleconnect suppression, intelius opt out, truthfinder opt out, instant checkmate opt out, us search opt out, suppression.peopleconnect.us
 tags: Data Brokers|Opt-Out Guides|United States|How To
 === TLDR
-Intelius, TruthFinder, Instant Checkmate and US Search are all owned by PeopleConnect. Its suppression centre at suppression.peopleconnect.us lets you verify your email, enter your date of birth and legal name, pick your record, confirm a code and switch it from “Displayed” to “Suppressed.” Double-check your date of birth before submitting: it locks.
+Intelius, TruthFinder, Instant Checkmate and US Search are all owned by **PeopleConnect**. Its suppression centre at **suppression.peopleconnect.us** lets you verify your email, enter your date of birth and legal name, pick your record, confirm a code and switch it from **"Displayed" to "Suppressed."** It takes 15 to 30 minutes. Double-check your date of birth before you submit, because it locks. Worth knowing: in 2023 the FTC said TruthFinder's and Instant Checkmate's old **"Remove" button only hid items from the person who clicked it**. Use the suppression centre, not on-page buttons.
 
 === BODY
 ## Why one company matters
 
-Four brands, one owner. According to [DuckDuckGo's TruthFinder guide](https://duckduckgo.com/duckduckgo-help-pages/truthfinder-opt-out), PeopleConnect owns TruthFinder, Intelius, US Search and Instant Checkmate, and a suppression request through its tool can reduce republishing across those sites. It's the closest thing the people-search world has to a bulk discount.
+Four brands, one owner. According to [DuckDuckGo's TruthFinder guide](https://duckduckgo.com/duckduckgo-help-pages/truthfinder-opt-out), PeopleConnect owns TruthFinder, Intelius, US Search and Instant Checkmate, and one suppression request can reduce republishing across those sites. PeopleConnect Holdings also bought **Classmates.com** in 2015, according to [Wikipedia's Intelius entry](https://en.wikipedia.org/wiki/Intelius). Classmates has its own account system ([[classmates-com-delete-account-remove-profile|how to delete it]]).
 
 ## Step by step
 
-1. **Optional: find your listing first.** TruthFinder's search is slow; DuckDuckGo suggests a direct URL like truthfinder.com/results?firstName=jane&lastName=doe&state=CA.
+1. **Optional: find your listing first.** TruthFinder's search is slow. DuckDuckGo suggests a direct URL like truthfinder.com/results?firstName=jane&lastName=doe&state=CA.
 2. **Go to [suppression.peopleconnect.us/login](https://suppression.peopleconnect.us/login).** Enter your email, accept the terms and continue. Click the verification link in the email.
-3. **Enter your date of birth and legal name.** First, middle and last. Check the date carefully: [Cloaked notes](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually) it locks after submission.
-4. **Select your record.**
-5. **Verify identity** with a code sent to a phone number or email you can access.
-6. **Switch the record to “Suppressed”** under Desired Behavior and save. “Toggling to Suppressed will hide that personal information from public view.”
+3. **Enter your date of birth and legal name**: first, middle and last. Check the date carefully. [Cloaked notes](https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually) that it locks after submission.
+4. **Select your record.** If you see several close matches (old addresses, a maiden name), suppress each one that's you.
+5. **Verify your identity** with a code sent to a phone number or email you can access.
+6. **Switch the record to "Suppressed"** under Desired Behavior and save. "Toggling to Suppressed will hide that personal information from public view."
 
 ## Time and results
 
-About 15 to 30 minutes of work, and processing usually finishes within an hour. Because these sites refresh often, check back every few months.
+About 15 to 30 minutes of work, and processing usually finishes within an hour. Search for yourself on each of the four sites the next day in a private browser window. These sites refresh often, so check back every few months.
+
+## Why not just click "Remove" on the report?
+
+Because it may not do what it says. In September 2023 the [FTC announced](https://ftc.gov/news-events/news/press-releases/2023/09/ftc-says-truthfinder-instant-checkmate-deceived-users-about-background-report-accuracy-violated-fcra) that TruthFinder and Instant Checkmate agreed to pay **$5.8 million** to settle charges that they:
+
+- offered a **"Remove" button** that only hid an item from the customer who clicked it, while other customers searching for the same person still saw it;
+- offered a **"Flag as Inaccurate"** button but never investigated flagged items or changed reports;
+- sent alerts saying someone had a **criminal or arrest record** when the record was only a **traffic ticket**;
+- advertised "the MOST ACCURATE information available to the public" without verifying third-party data.
+
+The order bans the companies from misrepresenting how accurate their reports are. The lesson is simple: the suppression centre is the tool that hides your record from everyone, so use that.
+
+## If a report about you is wrong
+
+These sites say they aren't for screening jobs or tenants. The FTC alleged that the two brands acted as **consumer reporting agencies** anyway, and the Fair Credit Reporting Act gives you a right to dispute inaccurate information in a consumer report. If a landlord or employer turned you down because of one of these reports, that's worth raising. See our guide to [[how-employers-actually-run-background|how background checks work]], and report problems to the FTC at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/).
 
 ## What it doesn't cover
 
-PeopleConnect's tool covers its own brands only. You'll still need separate requests for Spokeo, Whitepages, BeenVerified, Radaris and the free sites. Our [[us-data-broker-sites-opt-out-guide|US broker list]] runs through them in order of impact.
+PeopleConnect's tool covers its own brands only. You'll still need separate requests for Spokeo, Whitepages, BeenVerified and the free sites. Our [[us-data-broker-sites-opt-out-guide|US broker list]] runs through them in order of impact. Californians can reach every registered broker with one request through the state's free DROP platform ([[california-drop-data-broker-delete-request-guide|how DROP works]]).
 
 ## A note on handing over your birth date
 
@@ -43,6 +58,8 @@ Q: Which sites does the PeopleConnect suppression centre cover?
 A: PeopleConnect owns TruthFinder, Intelius, US Search and Instant Checkmate, and its tool can reduce republishing across them.
 Q: What is the PeopleConnect suppression URL?
 A: suppression.peopleconnect.us/login
+Q: Does the "Remove" button on a TruthFinder report remove me?
+A: In 2023 the FTC said the old Remove button only hid items from the customer who clicked it. Use the suppression centre instead.
 Q: Does suppression delete my data?
 A: It hides your record from public view. Deletion may be available under some state privacy laws.
 Q: How long does it take?
@@ -51,11 +68,13 @@ A: About 15 to 30 minutes to complete, with processing typically within an hour.
 === SOURCES
 https://duckduckgo.com/duckduckgo-help-pages/truthfinder-opt-out | DuckDuckGo Help: TruthFinder opt-out guide
 https://help.cloaked.com/en/articles/15197669-how-to-opt-out-of-peopleconnect-radaris-beenverified-spokeo-and-other-brokers-manually | Cloaked: Manual opt-outs for PeopleConnect, Radaris, BeenVerified, Spokeo
+https://ftc.gov/news-events/news/press-releases/2023/09/ftc-says-truthfinder-instant-checkmate-deceived-users-about-background-report-accuracy-violated-fcra | FTC: TruthFinder and Instant Checkmate deceived users about report accuracy (Sep 2023)
+https://en.wikipedia.org/wiki/Intelius | Wikipedia: Intelius
 https://suppression.peopleconnect.us/login | PeopleConnect suppression centre
 
 === RELATED
 us-data-broker-sites-opt-out-guide | US Data Broker Sites Opt-Out Guide
 how-employers-actually-run-background | How Employers Run Background Checks
-how-scammers-build-a-convincing-profile-of-you | How Scammers Build a Profile of You
-us-state-privacy-laws-guide | US State Privacy Laws Guide
 classmates-com-delete-account-remove-profile | Delete Your Classmates.com Profile
+california-drop-data-broker-delete-request-guide | California DROP Guide
+us-state-privacy-laws-guide | US State Privacy Laws Guide

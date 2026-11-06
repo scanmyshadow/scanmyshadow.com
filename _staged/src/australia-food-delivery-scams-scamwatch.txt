@@ -1,8 +1,8 @@
 slug: australia-food-delivery-scams-scamwatch
 country: AU
-title: Food Delivery Scams: Fake Uber Eats and DoorDash Calls and Texts
+title: Food Delivery Scams: Fake Uber Eats and DoorDash Messages
 h1: Food Delivery Scams in Australia: Fake DoorDash, Uber Eats and "Restaurant" Contacts
-desc: Scamwatch warns scammers pose as DoorDash, Uber Eats, restaurants or customers to grab codes and logins, then redirect payments. How it works for customers, restaurants and riders.
+desc: Scammers pose as DoorDash, Uber Eats, restaurants or customers to grab codes and logins, then redirect payments. How it works and what to do (Scamwatch).
 keywords: food delivery scam australia, uber eats scam call, doordash scam text, fake restaurant call scam, delivery driver scam, scamwatch food delivery
 tags: Account Takeover|Australia|Scamwatch|What To Do
 === TLDR
@@ -27,6 +27,15 @@ In **June 2026**, Scamwatch warned about **food delivery scams** hitting custome
 4. With that, they **take over the account**, change payment settings or **redirect money**. For riders, that can mean **earnings** go to the scammer.
 
 Your dinner arrives cold. Your account doesn't come back at all. Bad night.
+
+## Two examples Scamwatch shared
+
+- A text posing as a **bank fraud alert** says a "fraudulent Uber Eats card attempt" was flagged and asks you to **reply to confirm**. Replying tells the scammer your number is live, and the follow-up call is where the real theft starts.
+- A message to a delivery worker, posing as **DoorDash support**, says a KFC order was paid with someone else's card and will be "removed" so the worker can still "receive the payment". The catch is handing over account details.
+
+## The older WhatsApp version
+
+In July 2024, Uber Eats emailed Australian customers about scammers on **WhatsApp** posing as Uber Eats staff, [SBS reported](https://www.sbs.com.au/news/article/uber-eats-has-warned-of-a-new-scam-heres-what-to-watch-out-for/e8isdeoia). They invited people to join a "**promotional team**" and earn rewards for **liking or bookmarking stores**. It has the hallmarks of a [[australia-scamwatch-job-recruitment-scams-amazon-youtube-texts|task-based job scam]]: easy "work" for rewards, which usually ends with you being asked to pay in. Uber Eats said it will **never ask for your password** and to contact it only through the app or website.
 
 ## Red flags
 
@@ -55,11 +64,14 @@ Q: Do Uber Eats or DoorDash ask for verification codes by phone?
 A: Treat any request for a one-time code as a scam. Scamwatch says scammers use codes to take over accounts.
 Q: How do food delivery scams target drivers?
 A: Scammers tell workers an order was fraudulent or doubled and ask for details as "compensation", or access their accounts to redirect earnings.
+Q: Is the Uber Eats WhatsApp "promotional team" job real?
+A: No. Uber Eats warned customers in 2024 that scammers on WhatsApp were offering rewards for liking or bookmarking stores. It's a task scam.
 Q: What should I do if I gave a code to a scammer?
 A: Change your passwords, remove unknown devices and payment methods, contact the platform and your bank, and report to Scamwatch.
 
 === SOURCES
 https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-food-delivery-scams | Scamwatch: Food delivery scams (12 June 2026)
+https://www.sbs.com.au/news/article/uber-eats-has-warned-of-a-new-scam-heres-what-to-watch-out-for/e8isdeoia | SBS: Uber Eats warns of WhatsApp scam (July 2024)
 
 === RELATED
 australia-bank-code-read-back-scam | "Read Me the Code" Scams

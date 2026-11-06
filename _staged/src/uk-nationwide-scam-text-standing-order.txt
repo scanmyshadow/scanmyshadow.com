@@ -1,6 +1,6 @@
 slug: uk-nationwide-scam-text-standing-order
 country: UK
-title: Nationwide Scam Texts: The Fake “Standing Order Set Up” Message
+title: Nationwide Scam Texts: Fake "Standing Order Set Up" Alerts
 h1: Fake Nationwide Texts About a New Standing Order or Direct Debit: What to Do
 desc: Spoofed texts claim a Nationwide standing order or direct debit was set up and give a number to call. How to spot them and what Nationwide says it never does.
 keywords: nationwide scam text, nationwide standing order scam, nationwide direct debit text scam, fake nationwide text, nationwide phishing report
@@ -43,11 +43,17 @@ Hang up and dial **159** (24/7), or stay on the line and use **Call Checker** in
 
 Call 0800 055 66 22 or 159 straight away. Change your passcode and check payments and payees. See [[uk-159-scam-hotline-how-it-works|how 159 works]] and [[uk-action-fraud-crm-reimbursement-code|reimbursement for scam victims]].
 
+## Can you get money back?
+
+If a fake caller talks you into transferring money, you're usually covered by the UK's mandatory APP scam reimbursement rules, which took effect in **October 2024** and cover claims up to **£85,000**, with some exceptions. In July 2026 the Payment Systems Regulator reported that the share of money reimbursed had risen from **54% to 65%** since the rules began ([Regulation Tomorrow](https://www.regulationtomorrow.com/2026/07/payment-fraud-falls-by-73m-following-psr-reimbursement-scheme/)). If Nationwide says no, complain, then go to the [[uk-financial-ombudsman-scam-complaint-guide|Financial Ombudsman]].
+
 ## Why they target building society members
 
-Older, loyal customers with savings are attractive targets, and Nationwide is the UK's biggest building society. Scammers don't need to know you bank there; they text everyone. Check your breach exposure with a free [[/digital-footprint-checker/|email exposure check]].
+Older, loyal customers with savings are attractive targets, and Nationwide is the UK's biggest building society. Scammers don't need to know you bank there; they text everyone. And it pays: UK Finance's 2026 fraud report, [reported by The Register](https://www.theregister.com/a/5256106), found APP fraud losses rose **19% to over £576 million** in 2025, with **impersonation** cases up by double digits. **17%** of fraud incidents started through telecoms: calls and texts like this one. Check your breach exposure with a free [[/digital-footprint-checker/|email exposure check]].
 
 === FAQ
+Q: Does Nationwide have to refund scam victims?
+A: Under UK rules since October 2024, most authorised push payment scam victims must be reimbursed up to £85,000, with some exceptions. Report it quickly.
 Q: Is the Nationwide "standing order set up" text real?
 A: Treat it as a scam. Check your account in the app and call 159 or 0800 055 66 22.
 Q: How can I tell a real Nationwide fraud text?
@@ -60,6 +66,8 @@ A: No. Nationwide says it will never ask you to transfer money to a safe account
 === SOURCES
 https://nationwide.co.uk/help/fraud-and-security/reporting-fraud-or-a-scam | Nationwide: How to report a fraud or a scam
 https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Nationwide texts and emails, Aug 2026)
+https://www.theregister.com/a/5256106 | The Register: UK Finance fraud report 2026 (Jun 2026)
+https://www.regulationtomorrow.com/2026/07/payment-fraud-falls-by-73m-following-psr-reimbursement-scheme/ | Regulation Tomorrow: PSR reimbursement scheme results (Jul 2026)
 
 === RELATED
 uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams

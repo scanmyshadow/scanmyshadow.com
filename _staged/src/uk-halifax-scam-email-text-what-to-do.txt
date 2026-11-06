@@ -2,7 +2,7 @@ slug: uk-halifax-scam-email-text-what-to-do
 country: UK
 title: Halifax Scam Emails and Texts: How to Spot Them and Report
 h1: Fake Halifax Emails Asking You to “Confirm Your Information”: How to Tell
-desc: Fake Halifax emails link to lookalike sites to steal your login. Halifax's own checks (your name and part of your postcode), what it never does, and how to report.
+desc: Fake Halifax emails link to lookalike sites to steal your login. Halifax's own checks (your name, part of your postcode), what it never does, how to report.
 keywords: halifax scam email, halifax phishing email, fake halifax text, report halifax scam security@halifax.co.uk, halifax confirm details email
 tags: Bank Scams|Phishing|United Kingdom|What To Do
 === TLDR
@@ -31,6 +31,12 @@ The postcode detail is a nice, simple check: scammers sending to millions rarely
 - ask you to share personal details or move money by phone, email or text;
 - ask you to log in or verify yourself through links or QR codes.
 
+## Why bank impersonation keeps working
+
+UK Finance's annual fraud report, [covered by The Register](https://www.theregister.com/a/5256106) in June 2026, put total UK payment fraud losses for 2025 at **£1.28 billion** across **3.81 million cases**. Authorised push payment (APP) fraud, where you're tricked into sending the money yourself, rose **19% to over £576 million**, and **impersonation** scams were among the types with double-digit rises in case numbers. **66%** of incidents started on online platforms and **17%** through telecoms, which is exactly where a fake Halifax email or text lands.
+
+Treat a fake "confirm your information" email as a possible first step. Details entered on a lookalike site give criminals enough to sound convincing in a follow-up call claiming to be from your bank.
+
 ## How to report
 
 - **Emails**: forward to **security@halifax.co.uk**, then delete. You can also message Halifax through the app.
@@ -41,9 +47,17 @@ The postcode detail is a nice, simple check: scammers sending to millions rarely
 
 Contact Halifax immediately using its official [contact page](https://www.halifax.co.uk/helpcentre/protecting-yourself-from-fraud/contact-us.html) or 159, change your login details and check recent payments. Report losses to [Report Fraud](https://www.reportfraud.police.uk/).
 
+## Will you get your money back?
+
+If you were tricked into making a bank transfer, the UK's mandatory reimbursement rules for APP scams, in force since **October 2024**, cover most victims, up to **£85,000** per claim, with some exceptions. The Payment Systems Regulator's July 2026 review found reimbursement rates rose from **54% to 65%**, and APP losses over Faster Payments fell by around **21%**, according to [Regulation Tomorrow](https://www.regulationtomorrow.com/2026/07/payment-fraud-falls-by-73m-following-psr-reimbursement-scheme/). Report quickly; see our guide to [[uk-action-fraud-crm-reimbursement-code|reimbursement for scam victims]]. If Halifax refuses, you can take it to the [[uk-financial-ombudsman-scam-complaint-guide|Financial Ombudsman]].
+
 A free [[/digital-footprint-checker/|email exposure check]] shows if your email address is in breach data, which is how these emails find you.
 
 === FAQ
+Q: Will Halifax refund me if I was scammed?
+A: Under UK rules in force since October 2024, most victims of authorised push payment scams must be reimbursed up to £85,000, with some exceptions. Report it straight away.
+Q: How much is lost to bank impersonation in the UK?
+A: UK Finance put total 2025 payment fraud losses at £1.28 billion, with APP fraud over £576 million and impersonation case numbers rising.
 Q: How can I tell if a Halifax email is real?
 A: Halifax says genuine emails include your name and part of your postcode, and never link directly to the Online Banking sign-in page.
 Q: Where do I report a fake Halifax email?
@@ -56,6 +70,8 @@ A: Forward it to 7726 and delete it.
 === SOURCES
 https://www.halifax.co.uk/helpcentre/protecting-yourself-from-fraud/scam-messages.html | Halifax: Scam messages
 https://www.which.co.uk/news/article/the-latest-scam-alerts-from-which-aBRLy2b02WkC | Which?: The latest scam alerts (Halifax email, Sept 7, 2026)
+https://www.theregister.com/a/5256106 | The Register: UK Finance fraud report, Brits lose £1.3B (Jun 2026)
+https://www.regulationtomorrow.com/2026/07/payment-fraud-falls-by-73m-following-psr-reimbursement-scheme/ | Regulation Tomorrow: Payment fraud falls by £73m following PSR reimbursement scheme (Jul 2026)
 
 === RELATED
 uk-bank-impersonation-scams-what-to-know | UK Bank Impersonation Scams

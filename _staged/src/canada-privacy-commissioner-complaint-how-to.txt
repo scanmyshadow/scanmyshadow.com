@@ -2,7 +2,7 @@ slug: canada-privacy-commissioner-complaint-how-to
 country: CA
 title: How to File a Privacy Complaint Against a Business in Canada
 h1: How to Complain to the Privacy Commissioner of Canada About a Business
-desc: If a company mishandled your personal information, the OPC complaint process is free and needs no lawyer. Who it covers, the steps, and when provincial laws apply.
+desc: If a company mishandled your personal information, the OPC complaint process is free and needs no lawyer. Who it covers, the steps, and provincial laws.
 keywords: privacy commissioner complaint canada, file opc complaint, pipeda complaint business, how to complain about data breach canada, privacy complaint canada
 tags: Your Rights|PIPEDA|Canada|How To
 === TLDR
@@ -16,6 +16,10 @@ According to the [OPC](https://www.priv.gc.ca/en/report-a-concern/file-a-formal-
 - PIPEDA covers many private-sector organisations when they handle personal information **during commercial activity**.
 - Not-for-profits and charities are generally excluded unless doing commercial work (fundraising doesn't count).
 - **Alberta, British Columbia and Quebec** have their own similar laws, which may apply if the information is handled entirely within that province. Quebec's rules have been strengthened in recent years ([[canada-pipeda-explained|our PIPEDA explainer]] covers the basics).
+
+## You won't be the only one
+
+The OPC's 2025-26 annual report, [tabled on 4 June 2026](https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_260604/), recorded **3,044 PIPEDA complaints** against businesses, up **109%** on the year before. Businesses reported **almost 700 breaches** affecting **more than 20 million Canadians**. The OPC said the jump in complaints was likely linked to greater awareness of the process and easier access to it. It also closed **302 PIPEDA complaints through early resolution**, a faster, informal route.
 
 ## Step 1: talk to the company
 
@@ -32,6 +36,14 @@ The OPC encourages you to try to resolve it directly first, starting with the or
 
 An incomplete form can stop your complaint being processed, so include dates, names and copies of correspondence.
 
+## What happens next
+
+Some complaints are closed through **early resolution**, an informal route where the issue is settled without a full investigation; the OPC closed 302 PIPEDA complaints that way in 2025-26. Others are investigated. Either way, your written record of what you asked the company and when is what moves things along, so keep every email.
+
+## Complaints about the government are different
+
+If your complaint is about a **federal institution** (such as the CRA or IRCC), it falls under the **Privacy Act**, not PIPEDA. The OPC handled **3,146** Privacy Act complaints in 2025-26, and federal institutions reported about **450 breaches** affecting **more than 48,000** people.
+
 ## Common reasons to complain
 
 - a company won't give you access to your personal information;
@@ -44,6 +56,10 @@ An incomplete form can stop your complaint being processed, so include dates, na
 If you were caught in a breach like [[canada-loblaw-data-breach-two-million-customers|Loblaw]] or [[canada-crime-stoppers-tips-leak-1-5-million|Crime Stoppers]], you can ask the organisation what was exposed and how it's protecting you, then complain to the OPC if you're not satisfied. Meanwhile, protect yourself: [[canada-equifax-transunion-fraud-alert-guide|add a fraud alert]] and check your email's exposure with a free [[/digital-footprint-checker/|email exposure check]].
 
 === FAQ
+Q: How many privacy complaints does the OPC get?
+A: The OPC's 2025-26 annual report recorded 3,044 PIPEDA complaints against businesses, up 109%, and almost 700 business breach reports affecting more than 20 million Canadians.
+Q: Can I complain about a government department?
+A: Yes, but complaints about federal institutions fall under the Privacy Act, not PIPEDA. The same OPC handles both.
 Q: How do I file a privacy complaint in Canada?
 A: Try to resolve it with the company's privacy officer first, then file online or by mail with the Office of the Privacy Commissioner.
 Q: Does it cost anything to complain to the OPC?
@@ -55,6 +71,7 @@ A: 1-800-282-1376 (toll-free).
 
 === SOURCES
 https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/file-a-complaint-about-a-business | Office of the Privacy Commissioner: File a privacy complaint about a business
+https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_260604/ | OPC: Privacy Commissioner tables 2025-2026 annual report (Jun 2026)
 
 === RELATED
 canada-pipeda-explained | PIPEDA Explained

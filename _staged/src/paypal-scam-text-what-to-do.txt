@@ -17,13 +17,17 @@ They follow a few patterns:
 - **Payment you didn't make:** a large payment and a phone number to call if it wasn't you.
 - **Refund waiting:** money is waiting for you if you "claim" it through a link.
 
-There's also the slower version: a fake invoice that arrives through PayPal itself with a “call us to cancel” number in the notes. We cover that in [[paypal-invoice-scam-what-to-know|the PayPal invoice scam]].
+There's also the slower version: a fake invoice that arrives through PayPal itself with a “call us to cancel” number in the notes. Because it's sent through PayPal's real invoicing system, it can pass email checks and the links really do go to paypal.com. One example [reported in August 2022](https://www.thetechoutlook.com/news/security/new-paypal-phishing-scam-using-billing-department-of-paypal-as-seller-name/) carried the subject line **"Billing Department of PayPal updated your invoice"**, claimed **$600** had been taken for a Walmart gift card, and listed a phone number. The "support agent" who answered asked the caller to install a **remote access tool**. We cover this in [[paypal-invoice-scam-what-to-know|the PayPal invoice scam]].
+
+## How big is this?
+
+PayPal is one of the most impersonated brands. [McAfee Labs reported](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/stolen-with-a-click-the-booming-business-of-paypal-scams/) in April 2025 that fraudulent PayPal emails rose **seven-fold in February 2025** compared with January, with a single campaign sending **over 600 emails in one day**. The lures it saw included account suspension notices, fake gift card offers, invoices for purchases never made, paid "surveys" and fake billing support. It also noted fake messages using lookalike domains such as **paypal-account.me** and **service-ppal.com**. Texts use the same scripts, just shorter.
 
 ## How to report
 
 From [PayPal's report page](https://history.paypal.com/us/security/report-suspicious-messages):
 
-- **Texts:** don't click, forward a copy to **phishing@paypal.com**, block the sender and delete it.
+- **Texts:** don't click. Press and hold the message, tap **More**, then the forward arrow, and send it to **phishing@paypal.com**. Then block the sender and delete it.
 - **Emails:** don't click, call or download anything; forward the whole email to **phishing@paypal.com**, then delete it.
 
 You can also forward texts to **7726** for your mobile carrier.
@@ -36,7 +40,8 @@ Close the message. Open the PayPal app or type paypal.com yourself and log in. A
 
 - a deadline (“within 24 hours”);
 - a phone number to call about a payment you didn't make;
-- a link that isn't paypal.com, or a lookalike like paypal-secure-help.com;
+- a link that isn't paypal.com, or a lookalike domain (McAfee's examples: paypal-account.me, service-ppal.com);
+- a request to install an app or "remote support" tool so someone can fix your account;
 - any request for your password, a one-time code or card number by text or phone.
 
 ## If you entered your login
@@ -59,12 +64,16 @@ Q: Does PayPal text about limited accounts?
 A: Check by logging in to the app yourself. Any genuine limitation will show in your account.
 Q: I entered my password on a fake PayPal page. What now?
 A: Change your PayPal and email passwords, turn on two-step verification and check for unknown activity.
+Q: Can a scam invoice really come from PayPal?
+A: Yes. Scammers use PayPal's own invoicing tool, so the message can pass email checks. The tell is a phone number to call about a charge. Log in yourself; if the charge isn't in your account, ignore it.
 Q: Is there a PayPal phone number in scam texts?
 A: Scam texts often include fake support numbers. Only use contact details from paypal.com.
 
 === SOURCES
 https://history.paypal.com/us/security/report-suspicious-messages | PayPal: Report suspicious messages
 https://mcafee.com/blogs/other-blogs/mcafee-labs/malicious-apps-google-play-store-adware-campaign | McAfee Labs: Fake apps campaign on Google Play (Oct 2026)
+https://www.mcafee.com/blogs/other-blogs/mcafee-labs/stolen-with-a-click-the-booming-business-of-paypal-scams/ | McAfee Labs: Stolen with a click, the booming business of PayPal scams (Apr 2025)
+https://www.thetechoutlook.com/news/security/new-paypal-phishing-scam-using-billing-department-of-paypal-as-seller-name/ | The Tech Outlook: PayPal phishing using 'Billing Department of PayPal' as seller name (Aug 2022)
 
 === RELATED
 paypal-invoice-scam-what-to-know | PayPal Invoice Scam

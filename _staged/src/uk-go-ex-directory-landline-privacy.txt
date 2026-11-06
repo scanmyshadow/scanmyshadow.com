@@ -6,12 +6,18 @@ desc: Going ex-directory is free and removes your landline from the Phone Book, 
 keywords: go ex-directory, how to go ex directory bt, remove number from phone book uk, ex-directory free, directory enquiries remove listing
 tags: Phone Privacy|Landline|United Kingdom|How To
 === TLDR
-Going ex-directory is free. With BT you can choose “Ex-directory – No calls” (left out of the Phone Book, BT 118500 directory enquiries and BT's online directory) or “Directory Enquiries Only” (only available via directory enquiries). Other providers offer the same; just ask. It stops new directory listings, but you'll still want to remove old copies from people-finder sites like 192.com.
+Going ex-directory is free. With BT you can choose “Ex-directory – No calls” (left out of the Phone Book, BT 118500 directory enquiries and BT's online directory) or “Directory Enquiries Only” (only available via directory enquiries). Other providers offer the same; just ask. BT stopped printing the Phone Book in **March 2024** and closed its free online directory on **30 April 2024**, but directory enquiries still exist, so ex-directory still matters. It stops new directory listings; you'll still need to remove old copies from people-finder sites like 192.com.
 
 === BODY
 ## Why it still matters
 
 Landlines feel old-fashioned, but they're a goldmine for scammers: a name, a number and often an address, all pointing at a household that probably includes an older person. Directory listings feed people-finder sites, and people-finder sites feed scam call lists.
+
+## Wait, is there still a phone book?
+
+Not really. BT said the **final print run** of the Phone Book ended in **March 2024**, and its free online directory, thephonebook.bt.com, was no longer available after **30 April 2024**, [Yahoo News reported](https://uk.news.yahoo.com/bt-axes-second-free-ditching-224834843.html). BT cited low demand and paper savings. **118 500 directory enquiries** remained for people who can't find a number online; at the time it cost **£1.55 a minute plus a 77p call charge**. [Planet Telecom noted](https://planet.uk/bt-phone-books-have-bit-the-dust-whats-next/) that BT still offers free PDF local number lists through its A-Z directory finder.
+
+So why bother? Because your number and name can still be given out by directory enquiries, and old listings live on in people-finder databases. Going ex-directory closes the official tap.
 
 ## BT's two options
 
@@ -22,7 +28,7 @@ According to [BT](https://www.bt.com/help/landline/manage-service/how-do-i-sign-
 | Ex-directory – No calls | Left out of the Phone Book, BT 118500 Directory Enquiries and BT's online directory |
 | Directory Enquiries Only | Shared only through directory enquiries, not printed or listed online |
 
-Request it by calling BT through its account and billing contact page. If you're with TalkTalk, Sky, Virgin Media or another provider, ask them for the same; it's a standard request.
+Request it by calling BT on **0330 123 4150** (8:30am to 5pm, Monday to Friday), per BT's help page. If you're with TalkTalk, Sky, Virgin Media or another provider, ask them for the same; it's a standard request. [UK Phone Book](https://www.ukphonebook.com/news/how-to-go-ex-directory) says many providers remove you for free and it can take **a few days** to process.
 
 ## What it doesn't do
 
@@ -41,6 +47,8 @@ Request it by calling BT through its account and billing contact page. If you're
 Then check the online side: a free [[/digital-footprint-checker/|email exposure check]] shows whether your email has leaked in breaches.
 
 === FAQ
+Q: Does BT still print the Phone Book?
+A: No. BT said its final print run ended in March 2024 and its free online directory closed after 30 April 2024. 118 500 directory enquiries continued.
 Q: Does it cost money to go ex-directory?
 A: No. BT says both its ex-directory options are free.
 Q: What is the difference between ex-directory and Directory Enquiries Only?
@@ -53,6 +61,9 @@ A: Yes. Ask your provider; ex-directory is a standard option.
 === SOURCES
 https://www.bt.com/help/landline/manage-service/how-do-i-sign-up-to-ex-directory-services- | BT: How do I sign up to ex-directory services?
 https://help-centre.talktalk.co.uk/Telephone/Telephone_Add_ons_and_settings/Making_my_landline_ex-directory | TalkTalk: Making my landline ex-directory
+https://uk.news.yahoo.com/bt-axes-second-free-ditching-224834843.html | Yahoo News: BT axes second free service after ditching phone book (Apr 2024)
+https://planet.uk/bt-phone-books-have-bit-the-dust-whats-next/ | Planet Telecom: BT phone books have bit the dust (Jul 2024)
+https://www.ukphonebook.com/news/how-to-go-ex-directory | UK Phone Book: How to go ex-directory
 
 === RELATED
 uk-telephone-preference-service-mailing-preference-service | TPS and MPS Guide
