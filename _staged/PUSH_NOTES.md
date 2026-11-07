@@ -16,3 +16,7 @@
 2. Cross-link pass across the WHOLE blog: find older (non-wave) posts on the same topic/country and add Related Reading uplinks to the matching wave posts (beyond the 2-per-post cap used in integrate.py), plus wave posts linking back to the best older pillar posts.
 3. Audit: 0 broken internal links site-wide, every wave post >=3 Related Reading, no orphan wave posts (each has >=2 inbound internal links).
 4. Byte-verify on main, then send GSC/Bing URL list of all updated posts.
+
+## After every push (added 7 Nov)
+- Check the Pages workflow run for the pushed commit finished with deploy=success (gh api repos/scanmyshadow/scanmyshadow.com/actions/runs?per_page=2). Batch 7+8 deploy failed on GitHub side on 6 Nov; fixed by empty commit 36f5763. If a rerun sits queued, push an empty commit.
+- Then curl-check live URLs against local files, not just the repo API.
