@@ -1428,6 +1428,14 @@ Site: https://www.scanmyshadow.com/
 - [How to Get Your Free Credit Report in New Zealand](https://www.scanmyshadow.com/blog/2026/11/nz-free-credit-report-how-to.html)
 - [How to Get a Copy of Your Health Records in New Zealand](https://www.scanmyshadow.com/blog/2026/11/nz-health-records-access-request.html)
 
+## India phone and OTP scams (added Nov 8, 2026)
+- [Call Merging Scam: How Merging One Call Hands Over Your OTP](https://www.scanmyshadow.com/blog/2026/11/call-merging-scam-otp-india.html)
+- [Voicemail OTP Scam: How a Missed Call Can Hand Over WhatsApp](https://www.scanmyshadow.com/blog/2026/11/voicemail-otp-scam-whatsapp-hijack.html)
+- [eSIM Fraud in India: How One Link Moves Your Number to a Scammer](https://www.scanmyshadow.com/blog/2026/11/esim-fraud-india-how-it-works.html)
+- [Phone Stolen? How Thieves Use Your SIM and *99# to Empty UPI](https://www.scanmyshadow.com/blog/2026/11/phone-stolen-sim-99-upi-fraud-what-to-do.html)
+- [How Do Scammers Know My Card’s Last 4 Digits? (India)](https://www.scanmyshadow.com/blog/2026/11/how-scammers-know-card-last-4-digits.html)
+- [Fake APK Scams in India: Wedding Cards, Challans and Bank Apps](https://www.scanmyshadow.com/blog/2026/11/fake-apk-scam-india-explained.html)
+
 ## Optional
 - [Blog index](https://www.scanmyshadow.com/blog/)
 - [Blog sitemap](https://www.scanmyshadow.com/blog/sitemap.xml)
