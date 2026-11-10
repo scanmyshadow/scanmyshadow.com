@@ -20,3 +20,5 @@
 ## After every push (added 7 Nov)
 - Check the Pages workflow run for the pushed commit finished with deploy=success (gh api repos/scanmyshadow/scanmyshadow.com/actions/runs?per_page=2). Batch 7+8 deploy failed on GitHub side on 6 Nov; fixed by empty commit 36f5763. If a rerun sits queued, push an empty commit.
 - Then curl-check live URLs against local files, not just the repo API.
+
+## DONE 10 Nov: batches 9+10 pushed (a24d6bc), final cross-link pass pushed (0eb37a6, crosslink.py in _staged). All 250 wave posts live; 0 broken links; every wave post >=3 Related, >=3 inbound from older posts.
