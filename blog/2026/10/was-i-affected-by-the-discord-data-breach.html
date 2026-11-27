@@ -44,7 +44,7 @@
       "headline": "Discord Data Breach: Was I Affected?",
       "description": "What leaked in the 2025 Discord support-vendor breach (including ID photos) and the October 2026 Double Counter bot breach, how to check and what to do now.",
       "datePublished": "2026-10-18T12:00:00+05:30",
-      "dateModified": "2026-10-18T12:00:00+05:30",
+      "dateModified": "2026-11-27T12:00:00+05:30",
       "image": "https://www.scanmyshadow.com/og-image.png",
       "author": {
         "@id": "https://www.scanmyshadow.com/#organization"
@@ -128,6 +128,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Turn on app-based two-factor authentication, change any reused password, ignore unexpected verify-your-account messages, and if your ID was exposed, watch for new accounts opened in your name."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many people were affected by the Double Counter breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Double Counter's incident report says IDs and usernames for about 28 million Discord accounts were partly copied, along with IP data for about 27 million and email addresses for about 1 million. Have I Been Pwned loaded about 275,000 email addresses from the published data."
           }
         }
       ]
@@ -521,7 +529,7 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <article class="wrap">
   <div class="eyebrow">Privacy Blog</div>
   <h1 class="title">Discord Data Breach: Was I Affected?</h1>
-  <div class="meta-row"><a href="/about.html" class="post-author" style="display:inline-flex;align-items:center;gap:10px;vertical-align:middle;color:inherit;font-weight:inherit;border-bottom:0;text-decoration:none;white-space:nowrap"><img src="/assets/siddharth-avatar.jpg" width="36" height="36" alt="Siddharth Shankar" decoding="async" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none"><span>By <span style="text-decoration:underline;text-underline-offset:3px">Siddharth Shankar</span></span></a> &middot; October 18, 2026</div>
+  <div class="meta-row"><a href="/about.html" class="post-author" style="display:inline-flex;align-items:center;gap:10px;vertical-align:middle;color:inherit;font-weight:inherit;border-bottom:0;text-decoration:none;white-space:nowrap"><img src="/assets/siddharth-avatar.jpg" width="36" height="36" alt="Siddharth Shankar" decoding="async" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none"><span>By <span style="text-decoration:underline;text-underline-offset:3px">Siddharth Shankar</span></span></a> &middot; October 18, 2026 &middot; Updated November 27, 2026</div>
   <div class="tag-row"><span class="tag-pill">Data Breach</span><span class="tag-pill">Discord</span><span class="tag-pill">Was I Affected?</span><span class="tag-pill">Gaming</span></div>
 
   <div class="hero-img-slot" data-slug="was-i-affected-by-the-discord-data-breach"></div>
@@ -550,6 +558,17 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <p>If you ever verified in a server that uses Double Counter, your email may be in this set even if you never contacted Discord support.</p>
 
 <div class="sms-cta" data-sms-cta="mid"></div>
+<h2>Update: what Double Counter's own incident report says</h2>
+<p>Double Counter's incident report says it was the target of "a deliberate, multi-stage attack" on 4 October 2026. The attacker got in through a weakness in an analytics tool on an old hosting server, used credentials found there to reach its cloud systems, and briefly took over the bot to post links in about 50 large servers (<a href="https://insider-gaming.com/discord-protection-bot-breach-exposes-accounts/" target="_blank" rel="noopener">Insider Gaming</a>).</p>
+<p>The report goes further than the 275,000 email addresses Have I Been Pwned loaded (<a href="https://insider-gaming.com/discord-protection-bot-breach-exposes-accounts/" target="_blank" rel="noopener">Insider Gaming</a>):</p>
+<ul>
+<li>Discord IDs and usernames for about 28 million accounts were partly copied.</li>
+<li>IP addresses and rough location data for about 27 million accounts were partly copied.</li>
+<li>Email addresses for about 1 million accounts were copied.</li>
+<li>A stolen payment key was used for more than $7,300 in fraudulent charges across three cards.</li>
+</ul>
+<p>Discord said the incident involved a third-party app and was not a breach of Discord itself, and disabled new Double Counter installations while it assessed the scope (<a href="https://www.gadgetreview.com/?p=418357" target="_blank" rel="noopener">GadgetReview</a>). If you verified in a server through Double Counter, assume your Discord ID and IP address were in the copied data, even if your email isn't in HIBP.</p>
+
 <h2>How to check if you were affected</h2>
 <ul>
 <li><strong>2025 support breach:</strong> Discord emailed affected users from noreply@discord.com and said the email would state whether an ID image was involved. Search your inbox (and spam) for it. Discord said it would not phone anyone about this.</li>
@@ -579,6 +598,8 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <p>Discord emailed affected users from noreply@discord.com and said the email would say whether a government ID image was accessed. Discord said it would not contact anyone by phone.</p>
 <h3>Is Double Counter part of Discord?</h3>
 <p>No. Double Counter is a third-party bot that Discord servers can add. Its breach affected people who verified through it, not every Discord user.</p>
+<h3>How many people were affected by the Double Counter breach?</h3>
+<p>Double Counter's incident report says IDs and usernames for about 28 million Discord accounts were partly copied, along with IP data for about 27 million and email addresses for about 1 million. Have I Been Pwned loaded about 275,000 email addresses from the published data.</p>
 <h3>What should I do after the Discord data leak?</h3>
 <p>Turn on app-based two-factor authentication, change any reused password, ignore unexpected verify-your-account messages, and if your ID was exposed, watch for new accounts opened in your name.</p>
 
@@ -587,6 +608,8 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <li><a href="https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service" target="_blank" rel="noopener">Discord: Update on a Security Incident Involving Third-Party Customer Service</a></li>
 <li><a href="https://www.bitdefender.com/en-us/blog/hotforsecurity/discord-data-breach-5ca-leak-70000-ids" target="_blank" rel="noopener">Bitdefender: Discord data breach, 5CA and 70,000 IDs</a></li>
 <li><a href="https://haveibeenpwned.com/Breach/DoubleCounter" target="_blank" rel="noopener">Have I Been Pwned: Double Counter data breach</a></li>
+<li><a href="https://insider-gaming.com/discord-protection-bot-breach-exposes-accounts/" target="_blank" rel="noopener">Insider Gaming: Double Counter incident report, up to 28 million accounts</a></li>
+<li><a href="https://www.gadgetreview.com/?p=418357" target="_blank" rel="noopener">GadgetReview: Double Counter multi-stage attack and Discord's response</a></li>
 </ul>
 <h2>Related Reading</h2>
 <ul>

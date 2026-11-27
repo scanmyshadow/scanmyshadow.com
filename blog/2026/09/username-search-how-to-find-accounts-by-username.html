@@ -44,7 +44,7 @@
       "headline": "Username Search Explained: How to Check Where a Username Is Used",
       "description": "How username search and reverse username lookup tools work, what they can and cannot show, and how to check your own username across social platforms.",
       "datePublished": "2026-09-20T12:00:00+05:30",
-      "dateModified": "2026-09-20T12:00:00+05:30",
+      "dateModified": "2026-11-27T12:00:00+05:30",
       "image": "https://www.scanmyshadow.com/og-image.png",
       "author": {
         "@id": "https://www.scanmyshadow.com/#organization"
@@ -145,6 +145,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "A search that connects a username with an email address or the reverse. It rarely works on public data alone; matches usually come from breach or leak data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free username search that works without installing anything?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. WhatsMyName's web tool at whatsmyname.app runs in your browser and checks several hundred sites. Type the address yourself, as several unofficial lookalike sites exist."
           }
         }
       ]
@@ -538,7 +546,7 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <article class="wrap">
   <div class="eyebrow">Privacy Blog</div>
   <h1 class="title">Username Search Explained: How to Check Where a Username Is Used</h1>
-  <div class="meta-row"><a href="/about.html" class="post-author" style="display:inline-flex;align-items:center;gap:10px;vertical-align:middle;color:inherit;font-weight:inherit;border-bottom:0;text-decoration:none;white-space:nowrap"><img src="/assets/siddharth-avatar.jpg" width="36" height="36" alt="Siddharth Shankar" decoding="async" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none"><span>By <span style="text-decoration:underline;text-underline-offset:3px">Siddharth Shankar</span></span></a> &middot; September 20, 2026</div>
+  <div class="meta-row"><a href="/about.html" class="post-author" style="display:inline-flex;align-items:center;gap:10px;vertical-align:middle;color:inherit;font-weight:inherit;border-bottom:0;text-decoration:none;white-space:nowrap"><img src="/assets/siddharth-avatar.jpg" width="36" height="36" alt="Siddharth Shankar" decoding="async" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none"><span>By <span style="text-decoration:underline;text-underline-offset:3px">Siddharth Shankar</span></span></a> &middot; September 20, 2026 &middot; Updated November 27, 2026</div>
   <div class="tag-row"><span class="tag-pill">Guide</span><span class="tag-pill">Username</span><span class="tag-pill">OSINT</span></div>
 
   <!-- HERO-IMAGE:username-search-how-to-find-accounts-by-username -->
@@ -571,6 +579,23 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <h2>Find a username, check availability and find email by username</h2>
 <p>To check whether a handle is free, try it on the platforms you care about before committing; our guide to <a href="https://www.scanmyshadow.com/blog/2026/08/how-to-choose-username-that-doesnt.html">choosing a username that does not expose you</a> explains what to avoid. Finding an email from a username usually is not possible from public data alone; that link shows up mainly through breach data (see <a href="https://www.scanmyshadow.com/blog/2026/09/how-to-find-an-email-address-yours-or-someones.html">how to find an email address</a>), which is why <a href="https://www.scanmyshadow.com/blog/2026/08/can-my-old-username-still-reveal-who-i.html">old usernames can still reveal who you are</a>. To see accounts tied to an email, read <a href="https://www.scanmyshadow.com/blog/2026/08/how-to-find-old-accounts-linked-to-your.html">how to find old accounts linked to your email</a>.</p>
 
+<h2>Check your own username in five minutes</h2>
+<ol>
+<li><strong>List every handle you've used:</strong> your current one, old gaming names and the part of your email address before the @.</li>
+<li><strong>Run each one through WhatsMyName's free web tool</strong> at whatsmyname.app. It checks several hundred sites in your browser, with no install (<a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name" target="_blank" rel="noopener">Bellingcat toolkit</a>), and can export results to CSV (<a href="https://www.github.com/WebBreacher/WhatsMyName" target="_blank" rel="noopener">WhatsMyName on GitHub</a>).</li>
+<li><strong>Open every match</strong> and confirm whether it's really you. Note any account you'd forgotten.</li>
+<li><strong>Search the handle in quotes on Google</strong> as well, since tools only check the sites on their list. Our <a href="https://www.scanmyshadow.com/blog/2026/09/google-dorking-basics-explained.html">Google dorking guide</a> shows how to narrow that search.</li>
+<li><strong>Delete or rename</strong> the accounts you don't use, starting with any that link your real name to something private. See <a href="https://www.scanmyshadow.com/blog/2026/08/how-to-find-old-accounts-linked-to-your.html">how to find old accounts linked to you</a>.</li>
+</ol>
+
+<h2>Username tools compared</h2>
+<ul>
+<li><strong>WhatsMyName web tool:</strong> runs in the browser and uses the open WhatsMyName site list. You may have to allow cookies and pass a CAPTCHA (<a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name" target="_blank" rel="noopener">Bellingcat</a>).</li>
+<li><strong>Sherlock:</strong> a free, open-source command-line tool. You need Python installed to run it.</li>
+<li><strong>Blackbird:</strong> another open-source tool that uses the WhatsMyName list in its search.</li>
+</ul>
+<p>Watch for lookalikes. Several unofficial sites now use "WhatsMyName" in their names. The project's GitHub page lists whatsmyname.app as its free browser-based tool, so use that address.</p>
+
 <h2>Protect yourself from username linking</h2>
 <ul>
 <li>Use different handles for personal and professional profiles.</li>
@@ -595,6 +620,9 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <h3>Are OSINT username tools like WhatsMyName and Sherlock safe?</h3>
 <p>They are open-source projects that query public pages. Run them only on handles you have a legitimate reason to check, and treat results with caution.</p>
 
+<h3>Is there a free username search that works without installing anything?</h3>
+<p>Yes. WhatsMyName's web tool at whatsmyname.app runs in your browser and checks several hundred sites. Type the address yourself, as several unofficial lookalike sites exist.</p>
+
 <h3>How do I stop my username from linking my accounts?</h3>
 <p>Use different handles for different contexts, delete unused accounts, and avoid reusing your handle with your real name.</p>
 
@@ -609,6 +637,8 @@ html[data-theme="dark"] header.nav.scrolled{background:rgba(15,13,23,0.86);}
 <ul>
 <li><a href="https://whatsmyname.app/" target="_blank" rel="noopener">WhatsMyName project</a></li>
 <li><a href="https://github.com/sherlock-project/sherlock" target="_blank" rel="noopener">Sherlock project</a></li>
+<li><a href="https://www.github.com/WebBreacher/WhatsMyName" target="_blank" rel="noopener">WhatsMyName project on GitHub</a></li>
+<li><a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name" target="_blank" rel="noopener">Bellingcat Online Investigation Toolkit: WhatsMyName</a></li>
 </ul>
 
 <h2>Related Reading</h2>
